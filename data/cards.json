@@ -1190,7 +1190,7 @@
  "soccerpost-payout-method": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:30:17.302Z",
   "due": null,
   "id": "soccerpost-payout-method",
   "note": "Chris: DUSC is the only club applying fundraising to invoices; cash would make finance reporting clearer. Pair with the plan for the ~$70K outstanding invoices (promo vs fundraising dollars, impact on next year's budget) — see the Adidas invoice card.",
@@ -1201,10 +1201,10 @@
   "raised": "2026-11-05",
   "source": "DUSC x Soccerpost Nov 5, 2026",
   "sourceUrl": "https://docs.google.com/document/d/1I4Yz_1nEGBVxO8-Wac78l5n8AgrB4Pu8DvoXGwEjELI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP and Mal to decide with finance whether Soccer Post fundraising dollars keep going against invoices or come back as ACH cash transfers",
-  "updatedAt": "2026-11-05T17:14:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T04:30:17.302Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
