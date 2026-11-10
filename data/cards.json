@@ -963,7 +963,7 @@
  "kp-text-jason-hours": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:43:07.807Z",
   "due": null,
   "id": "kp-text-jason-hours",
   "note": "KP already emailed Cristian, Gustavo and Oumou about Classes/Rec hours; Cristian replied no hours in Classes.",
@@ -974,10 +974,10 @@
   "raised": "2026-11-06",
   "source": "Healthcare Catchup Nov 6, 2026",
   "sourceUrl": "https://docs.google.com/document/d/1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to text Jason to confirm whether specific employees on the census meet the 30-hour weekly threshold",
-  "updatedAt": "2026-11-06T23:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T03:43:07.807Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
