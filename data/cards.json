@@ -167,7 +167,7 @@
  "ar-reporting-930": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:42:09.729Z",
   "due": null,
   "id": "ar-reporting-930",
   "note": null,
@@ -176,10 +176,12 @@
   "raised": "2026-10-30",
   "source": "Finance prep notes (Oct 30)",
   "sourceUrl": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
-  "status": "doing",
+  "status": "done",
   "title": "Registrations / income / AR reporting through 9/30 in Andy's format (receivables before and after 9/30, tied to registrants) — check with Nirmala before sending",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T03:42:09.729Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "audit-timeline": {
   "area": "Finance",
