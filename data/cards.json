@@ -1436,7 +1436,7 @@
  "nirmala-930-reconciliation-sources": {
   "area": "Finance",
   "createdAt": "2026-11-09T10:52:54Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:38:54.597Z",
   "due": null,
   "id": "nirmala-930-reconciliation-sources",
   "note": "From KP's 11/8 notes; the Mon 11/9 10:30 'Sept 30 Reconciliation' with Nirmala is the place to walk it. Also on the list: QuickBooks detail by team, a by-player PlayMetrics view for player-by-player checks, Academy vs D-League from the global transactions report, and the 9/30 receivable (total fee payable vs paid to date, installment plans).",
@@ -1447,10 +1447,10 @@
   "raised": "2026-11-08",
   "source": "9/30 reconciliation questions (Nov 8)",
   "sourceUrl": "https://docs.google.com/document/d/1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to get Nirmala's 9/30 reconciliation file and trace where its bank-transaction and PlayMetrics numbers came from (formulas, links, source reports)",
-  "updatedAt": "2026-11-09T10:52:54Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T03:38:54.597Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
