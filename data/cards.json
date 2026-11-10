@@ -146,7 +146,7 @@
  "basis-brooklyn-saturdays": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:31:48.581Z",
   "due": null,
   "id": "basis-brooklyn-saturdays",
   "note": "Still open as of Oct 16. Basis also floated for Fridays (10/28). Backup if LREI falls through.",
@@ -155,10 +155,12 @@
   "raised": "2026-09-30",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "doing",
+  "status": "done",
   "title": "Contact Matthias Heilbrann (Basis Brooklyn) about Saturdays 8–11am",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T04:31:48.581Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "bmcc-indoor": {
   "area": "Facilities",
