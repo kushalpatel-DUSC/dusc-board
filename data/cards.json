@@ -894,7 +894,7 @@
  "john-jay-kevin-mccarthy": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:29:04.795Z",
   "due": null,
   "id": "john-jay-kevin-mccarthy",
   "note": null,
@@ -903,10 +903,12 @@
   "raised": "2026-09-30",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Contact Kevin McCarthy to build a relationship with John Jay College",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T03:29:04.795Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "kp-ft-list-corrections-email": {
   "area": "People",
