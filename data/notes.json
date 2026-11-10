@@ -500,7 +500,7 @@
     "note": "Bonuses to be submitted by Fri 11/13 for the 11/15 payout, assuming the collected numbers check out over the weekend.",
     "owner": "Andy",
     "raised": "2026-11-06",
-    "text": "Andy"
+    "text": "Andy to send the midweek staff note on bonuses and healthcare"
    },
    {
     "done": false,
@@ -510,7 +510,7 @@
     "note": "Owner: the group (KP, Andy, Paul). Audit is stalled pending auditor responses; KP may connect with the auditors directly to clarify requirements.",
     "owner": "TBD",
     "raised": "2026-11-06",
-    "text": "TBD"
+    "text": "Convert the audit spreadsheet into a tracker (status, dates, comments, owners)"
    },
    {
     "done": false,
@@ -518,9 +518,9 @@
     "due": "2026-11-09",
     "id": "paul-healthcare-takeover",
     "note": "Census questions are out to Paychex; possible resubmission by Mon 11/9. Employees face closing open-enrollment windows elsewhere.",
-    "owner": "TBD",
+    "owner": "Paul",
     "raised": "2026-11-06",
-    "text": "TBD"
+    "text": "Paul to lead the healthcare enrollment process"
    },
    {
     "done": false,
@@ -528,9 +528,9 @@
     "due": null,
     "id": "paul-showcase-budget-review",
     "note": "Top-down reasonableness check suggested by Andy.",
-    "owner": "TBD",
+    "owner": "Paul",
     "raised": "2026-11-06",
-    "text": "TBD"
+    "text": "Paul to sanity-check the showcase budgets against last season"
    }
   ],
   "area": "Finance",
