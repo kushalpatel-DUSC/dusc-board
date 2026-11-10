@@ -632,7 +632,7 @@
  "finance-staffing": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:42:24.526Z",
   "due": null,
   "id": "finance-staffing",
   "note": null,
@@ -641,10 +641,12 @@
   "raised": "2026-11-02",
   "source": "DUSC Finance Call",
   "sourceUrl": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Finance staffing: Noemi cannot complete all her work — decide on support",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T03:42:24.526Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "finance-summaries-nov6": {
   "area": "Finance",
