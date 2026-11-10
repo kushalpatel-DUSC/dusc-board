@@ -1,0 +1,846 @@
+{
+ "07frft2mr8udu26ifr3qr603qk": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   }
+  ],
+  "end": "2026-11-06T14:30:00-05:00",
+  "eventId": "07frft2mr8udu26ifr3qr603qk",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MDdmcmZ0Mm1yOHVkdTI2aWZyM3FyNjAzcWsga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/tcf-cnet-wdo",
+  "prep": {
+   "highlights": [
+    "11/5 Andy/Kushal: GA Showcase — Andy says the loss is not as big as shown; KP to get into QuickBooks, marked urgent; supply and demand hours to meet, total by December, split weekday/weekend",
+    "11/5 Field Catchup: Andy wants the winter supply dashboard (field-unit hours, locked-in %, cost per unit, rent-free spaces included) and zones 1–2 of the Jan–Mar schedule by Nov 15; he sent the 28 Liberty cost file",
+    "11/2: September revenue ~$160K off overall (boys ~$80K, girls ~$92K, daily ~$31K) — still being explained; bonuses below threshold",
+    "Audit: draft in ~2 weeks from 11/2, may slip past Dec 8; prior-year taxes need adjustment",
+    "Paul approved Noemi's laptop (up to $1,500) — the last one until a policy exists; healthcare census went to Paychex, plan options pending from Nirmala"
+   ],
+   "suggested": [
+    "9/30 registrations / income / AR in Andy's format (checked with Nirmala)",
+    "GA Summer Showcase: what actually happened and the management summary (urgent per Andy)",
+    "Bonus process and 11/15 timing",
+    "Audit timetable and the Dec 8 board deck",
+    "Policies to approve: laptops, credit cards",
+    "Bank of America ownership fix",
+    "PEO census eligibility list (Paul) — underwriting submission today",
+    "Soccer Post: fundraising as invoice credits vs ACH cash; $71K Adidas invoice"
+   ],
+   "summary": "Andy and Paul at 1:30 today. Andy wants the compiled summaries (bank transactions, expenses, income, receivables, registrant numbers) and the 9/30 AR reporting in his format, checked with Nirmala first; on Thursday he marked the GA Showcase dig into QuickBooks as urgent. Bonuses (11/15) wait on these numbers. Also live: the audit draft timing for Dec 8, healthcare underwriting (PEO census eligibility with Paul), BoA account ownership, and the laptop and credit-card policies. Bring QuickBooks figures only — the PlayMetrics pull was wrong."
+  },
+  "recurringEventId": null,
+  "seriesKey": "board-checkins",
+  "start": "2026-11-06T13:30:00-05:00",
+  "status": "past",
+  "title": "Finance Catchup",
+  "updatedAt": "2026-11-06T21:15:00Z",
+  "userEdited": false
+ },
+ "0c4hv8tea8b7ve9v5lcsgv6vnj": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "sydney.redisch@dusc.net",
+    "name": "Sydney Redisch"
+   }
+  ],
+  "end": "2026-11-11T10:30:00-05:00",
+  "eventId": "0c4hv8tea8b7ve9v5lcsgv6vnj",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MGM0aHY4dGVhOGI3dmU5djVsY3NndjZ2bmoga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/bes-rqds-pum",
+  "prep": {
+   "highlights": [
+    "Invite description: Constant Contact, FB ads, Google Ads, Chelsea Market and other marketing not currently being taken over.",
+    "11/5 Rec meeting: media team owes Oumou answers on promo tables and the seasonal Rec/camp email blasts; KP to work out league email-list access with Syd.",
+    "11/3 Kyle 1:1: Syd hiring the Media Day photographer."
+   ],
+   "suggested": [
+    "Who owns Constant Contact, FB/Google ads and Chelsea Market going forward",
+    "Rec outreach: access to the league email/contact lists and the seasonal Rec/camp blasts (incl. Veterans Day camp)",
+    "Media Day: photographer, Socceroof, date and who is running it while Kyle is away",
+    "Website: route Malorie's consolidated feedback through Syd",
+    "Veteran's Day comms — went out?"
+   ],
+   "summary": "Sydney set this up to go through the marketing pieces nobody currently owns — Constant Contact, Facebook and Google ads, Chelsea Market — and agree who takes them over. It also touches several open items that run through Syd: Media Day (photographer, 11/18 while Kyle is out), Rec outreach lists, the Veteran's Day blast that lands this same day, and the website feedback loop."
+  },
+  "recurringEventId": null,
+  "seriesKey": null,
+  "start": "2026-11-11T10:00:00-05:00",
+  "status": "upcoming",
+  "title": "Syd x Kushal Connect",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "1fficndg9ljpkvvn36t3dpeklb": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   }
+  ],
+  "end": "2026-11-09T14:00:00-05:00",
+  "eventId": "1fficndg9ljpkvvn36t3dpeklb",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MWZmaWNuZGc5bGpwa3Z2bjM2dDNkcGVrbGIga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/myj-efur-ski",
+  "prep": {
+   "highlights": [
+    "11/8 (your notes from the Sunday slot): get Nirmala's 9/30 reconciliation, trace the bank-transaction and PlayMetrics numbers to source, get income by team and by player; the pay-to-date report shows no receivables.",
+    "11/6: income file double-counts registrants (Boys Academy 457 vs 498 incl. D-League), ~$8K variance, numbers hardcoded.",
+    "11/6: bonuses tracking at the 80% threshold — submit by Fri 11/13 for the 11/15 payout; Andy to send a midweek staff note on bonuses and healthcare.",
+    "11/6: audit stalled on auditor responses — turn the spreadsheet into a tracker; start the finance-hire search now.",
+    "11/5: Andy wants the supply-vs-demand dashboard and zones 1–2 of Jan–Mar by Nov 15."
+   ],
+   "suggested": [
+    "What the morning session with Nirmala showed: sources for the bank and PlayMetrics numbers, Boys Academy / D-League count, the ~$8K variance",
+    "Receivables at 9/30 — total fee payable vs paid to date; the 11 overdue Boys Academy accounts",
+    "PlayMetrics subscription sheets through 9/30 and the showcase projections (GA Winter, MLS Next Fest) — sent?",
+    "Bonuses: what must verify before Friday's submission; timing and content of Andy's midweek staff note",
+    "Audit tracker owner and the call with the auditors; finance-hire JD (controller vs bookkeeper)",
+    "Supply-vs-demand dashboard and zones 1–2 for Nov 15; 28 Liberty credits"
+   ],
+   "summary": "Follow-up to Sunday's session with Andy, an hour after the morning working session with Nirmala: bring back what her 9/30 reconciliation shows — where the bank and PlayMetrics numbers come from, the Boys Academy / D-League count, the receivable — and agree what still has to verify before bonuses are submitted Friday 11/13 for 11/15. It overlaps the 1:30 Finance Weekly with Nirmala and runs right up to the 2:00 Kyle 1:1, so decide which finance slot gives. Also the last chance to line up Kyle-away coverage with Andy before Tuesday's Kyle/Andy prep."
+  },
+  "recurringEventId": null,
+  "seriesKey": "board-checkins",
+  "start": "2026-11-09T13:00:00-05:00",
+  "status": "upcoming",
+  "title": "Finance Catchup with Andy",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "2t97cp99fcjmoimt1qscon68qm": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   }
+  ],
+  "end": "2026-11-10T15:30:00-05:00",
+  "eventId": "2t97cp99fcjmoimt1qscon68qm",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MnQ5N2NwOTlmY2ptb2ltdDFxc2NvbjY4cW0ga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/pju-zzjb-djs",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "9/30 reconciliation: sources for Nirmala's bank and PlayMetrics numbers, and the registrant counts (Boys Academy / D-League)",
+    "Bonuses: are the IDB figures final for the 11/15 payroll? Kristen is asking",
+    "Healthcare census: outcome of the 12:00 Paychex call and the full-time list corrections",
+    "Audit tracker and the finance-hire search"
+   ],
+   "summary": "Finance catch-up with Andy that you booked on Monday afternoon, straight after Tuesday's 1:30 Recurring Finance meeting with Nirmala. Bring where the 9/30 reconciliation and registrant counts stand and what still has to verify before the bonuses go into the 11/15 payroll."
+  },
+  "recurringEventId": null,
+  "seriesKey": "board-checkins",
+  "start": "2026-11-10T14:30:00-05:00",
+  "status": "upcoming",
+  "title": "Finance Catchup",
+  "updatedAt": "2026-11-09T19:20:00Z",
+  "userEdited": false
+ },
+ "36vp5aufuvs8frhp21rfk3fujg": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   }
+  ],
+  "end": "2026-11-08T12:00:00-05:00",
+  "eventId": "36vp5aufuvs8frhp21rfk3fujg",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MzZ2cDVhdWZ1dnM4ZnJocDIxcmZrM2Z1amcga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/xrz-rvog-vpo",
+  "prep": {
+   "highlights": [
+    "11/6: income file double-counts registrants (Boys Academy 457 vs 498 incl. D-League) and was hardcoded rather than pulled from PlayMetrics.",
+    "11/6: Paul takes over the Paychex healthcare process; start the finance-hire search now (Paul sent the old controller JDs, Malorie has Indeed).",
+    "11/6: bonuses tracking at the 80% threshold — Kristen is running the calculations, submit by Fri 11/13 for the 11/15 payout.",
+    "11/6: audit stalled on auditor responses — turn the spreadsheet into a tracker with status colors, owners and dates."
+   ],
+   "suggested": [
+    "Walk the Boys Academy / D-League registrant reconciliation (PlayMetrics vs QuickBooks) and the $8K income variance",
+    "PlayMetrics subscription sheets through 9/30 — which reports Andy needs for the income reconciliation",
+    "September as the test case: book balances vs bank reconciliations, plus the Sept/Oct expense catch-up (who does it)",
+    "Showcase projections (GA Winter, MLS Next Fest) and the 11 overdue Boys Academy accounts",
+    "Bonus numbers: what still has to verify before Friday's submission",
+    "Audit tracker and the finance-hire JD (controller vs bookkeeper) — who does what this week"
+   ],
+   "summary": "Sunday working session with Andy, set up at Friday's Finance Catchup and now in the Finance Call notes too, to reconcile PlayMetrics against QuickBooks (Boys Academy 457 actual vs 498 reported once D-League is added; ~$8K income variance; numbers were hardcoded). Andy brings the financial packages through September as the baseline; KP owes the PlayMetrics subscription spreadsheets through 9/30 and the showcase projections beforehand. September is the test case for getting the whole close process right before bonuses go in on Friday."
+  },
+  "recurringEventId": null,
+  "seriesKey": "board-checkins",
+  "start": "2026-11-08T11:00:00-05:00",
+  "status": "upcoming",
+  "title": "Finance Catchup",
+  "updatedAt": "2026-11-08T10:48:24Z",
+  "userEdited": false
+ },
+ "3lmv8ac6ne8fg7slprqv293vkr_20261110T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-11-10T14:30:00-05:00",
+  "eventId": "3lmv8ac6ne8fg7slprqv293vkr_20261110T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M2xtdjhhYzZuZThmZzdzbHBycXYyOTN2a3JfMjAyNjExMTBUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
+  "prep": {
+   "highlights": [
+    "She asked to keep the invite she can edit, with Gemini notes on.",
+    "11/8 notes: trace the 9/30 bank-transaction and PlayMetrics numbers to source; work out the 9/30 receivable from total fee payable and installment plans.",
+    "Bonuses submitted Fri 11/13 for the 11/15 payout — one of the last working sessions before submission."
+   ],
+   "suggested": [
+    "Open items from Monday's 9/30 reconciliation — source reports, by-player checks, Academy vs D-League",
+    "Receivable at 9/30 and the receivables run going forward",
+    "September test-case close and Sept/Oct expense catch-up",
+    "Bonus payout file ready for Kristen",
+    "Credit-card receipts chase; decide: one finance meeting or two"
+   ],
+   "summary": "Nirmala's own recurring invite, the day after Monday's three finance sessions. Use it as the working slot for whatever the 9/30 reconciliation left open — source reports, the by-player PlayMetrics view, the receivable — plus the Sept/Oct expense catch-up, or fold it into Monday's weekly. Bonuses have to be submitted by Friday."
+  },
+  "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-10T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Recurring Finance meeting",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "3lmv8ac6ne8fg7slprqv293vkr_20261117T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-11-17T14:30:00-05:00",
+  "eventId": "3lmv8ac6ne8fg7slprqv293vkr_20261117T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M2xtdjhhYzZuZThmZzdzbHBycXYyOTN2a3JfMjAyNjExMTdUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
+  "prep": {
+   "highlights": [
+    "Dec 8 board meeting needs the audit presentation; auditor may present in person."
+   ],
+   "suggested": [
+    "Audit draft walk-through and response list",
+    "Dec 8 board deck: what finance shows",
+    "October close on QuickBooks numbers",
+    "Receivables and card reconciliations status"
+   ],
+   "summary": "Nirmala's Tuesday slot, two days after bonuses paid and around the audit draft. Use it as the working session for the auditor draft and the Dec 8 board deck if Monday didn't cover them."
+  },
+  "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-17T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Recurring Finance meeting",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "3spidcv3apv6c4nbe6v6ircb0n": {
+  "agenda": [],
+  "agendaSentAt": null,
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   }
+  ],
+  "end": "2026-11-09T10:30:00-05:00",
+  "eventId": "3spidcv3apv6c4nbe6v6ircb0n",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M3NwaWRjdjNhcHY2YzRuYmU2djZpcmNiMG4ga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/jtt-achu-dqx",
+  "prep": {
+   "highlights": [
+    "11/5: promo is contract-fixed at ~70% of MSRP and expires Dec 15; ~60% (~$60K) goes to camp tees — Chris suggests promo for garments, cash for embellishments",
+    "~$70K of invoices outstanding; DUSC is the only club applying fundraising dollars to invoices instead of taking ACH cash",
+    "Decided: generic wicking/cotton tees, not Adidas, for the 120 Classic tournament jerseys",
+    "Coach free goods: returning coaches 2 jerseys + 1 short, new coaches a $500–600 package; store pickup is $0"
+   ],
+   "suggested": [
+    "Payout method: invoice credits vs ACH cash — what to recommend to Nirmala and Andy",
+    "Spend the last ~$6,000 of promo before Dec 15 (coach free goods, fan wear)",
+    "$71K Adidas invoice and $5,790 January supply: how promo and fundraising dollars apply",
+    "Promo on camp T-shirts — keep or cut for 2027?",
+    "Chase Chris: fan-wear link, 2027 event calendar, tournament-tee pricing/mockup; KP tests the portal checkout",
+    "Mal: Indeed account for the finance-hire posting; Tuesday Rec call invite; website feedback to Syd"
+   ],
+   "summary": "Mal's internal follow-up to Thursday's Soccer Post call, today at 10 — half an hour, then straight into the 10:30 reconciliation session with Nirmala. The two of you owe finance a position on payment strategy — whether fundraising dollars keep going against invoices or come back as ACH cash — and only ~$6,000 of promo is left before it expires Dec 15. Chris's cost-per-player spreadsheet arrived Thursday; the fan-wear link, 2027 calendar and tournament-tee pricing are still coming. Two quick asks for Mal while you have her: the Indeed account for the finance-hire posting, and adding you to the Tuesday 10am Rec & Classes call."
+  },
+  "recurringEventId": null,
+  "seriesKey": "vendors",
+  "skipAgenda": false,
+  "start": "2026-11-09T10:00:00-05:00",
+  "status": "upcoming",
+  "title": "Soccer Post Follow Up",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "5ggpj9v40a2q324at6j3n9ekvb": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-11-09T12:00:00-05:00",
+  "eventId": "5ggpj9v40a2q324at6j3n9ekvb",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NWdncGo5djQwYTJxMzI0YXQ2ajNuOWVrdmIga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/qgf-wcoz-kzu",
+  "prep": {
+   "highlights": [
+    "11/8 notes: get Nirmala's 9/30 reconciliation and look at the formulas and the linking.",
+    "11/8 notes: bank-transactions number — which bank reconciliation, all programs broken down, with or without credit-card fees, what QuickBooks holds by team.",
+    "11/8 notes: PlayMetrics number — go to the exact source report and get it by player for player-by-player checks; can the global transactions report split Academy and D-League?",
+    "11/6: Boys Academy 457 actual vs 498 reported once D-League is added; ~$8K income variance; income-file numbers were hardcoded.",
+    "11/2: reporting runs on QuickBooks figures because they reconcile to the bank."
+   ],
+   "suggested": [
+    "Open her 9/30 reconciliation together — formulas, links, what is hardcoded",
+    "Bank transactions: source bank reconciliation, breakdown across all programs, with vs without credit-card fees, QuickBooks detail by team",
+    "PlayMetrics: the exact report behind each number, and a by-player export for player-by-player checks",
+    "Academy vs D-League out of the global transactions report — settle the 457 vs 498 count",
+    "Receivable at 9/30: total fee payable less paid to date, against what installment plans were due",
+    "What goes to Andy at 1:00, and what still has to verify before Friday's bonus submission"
+   ],
+   "summary": "Working session with Nirmala on the 9/30 close, booked right after Sunday's session with Andy. Your 11/8 notes are the script: get the reconciliation she did for 9/30 and trace every figure to its source — bank transactions and PlayMetrics — then work out the receivable, which the pay-to-date report doesn't show. What comes out feeds the 1:00 catch-up with Andy, and September is the test case for the close before bonuses go in Friday 11/13."
+  },
+  "recurringEventId": null,
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-09T10:30:00-05:00",
+  "status": "upcoming",
+  "title": "Sept 30 Reconciliation",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "5vflpvpf5tj53s14muhn7g6tfv": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "paulfox629@yahoo.com",
+    "name": "Paul Fox"
+   },
+   {
+    "email": "gustavo.palomino@dusc.net",
+    "name": "Gustavo Palomino"
+   },
+   {
+    "email": "oumou.toure@dusc.net",
+    "name": "Oumou Toure"
+   }
+  ],
+  "end": "2026-11-05T14:30:00-05:00",
+  "eventId": "5vflpvpf5tj53s14muhn7g6tfv",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NXZmbHB2cGY1dGo1M3MxNG11aG43ZzZ0ZnYga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/ubw-dtig-xay",
+  "prep": {
+   "highlights": [
+    "Classes: 152 this fall vs 135 last year; moving to Little Red; Sunday Greenwich House brought a big group.",
+    "Coaches are the constraint — recruit from summer camp staff at $50–75 per session; Criollo Bros reliable; David Criollo started at PS 11/126.",
+    "Expansion: Battery Park permit, Piers 25/42, BMCC via Gustavo, Governors Island spring festival.",
+    "Open question: bring weekday classes back? (Socceroof Wed 5–6 had 13 kids)"
+   ],
+   "suggested": [
+    "Saturday Rec plan with Oumou — pick the date and run of show",
+    "Schools list (Gustavo) and the Manhattan Youth / Gabi Ajami email",
+    "Coach recruiting: job description, rate, where to post",
+    "Weekday classes: decide yes/no for winter",
+    "Camps: pricing, quality, and what 'refresh' means for summer",
+    "Advanced camps: meeting with Gustavo, Cris, Oumou and Mal"
+   ],
+   "summary": "Follows the 10/14 and 10/22 community programming sessions; Paul Fox and Oumou still haven't accepted. You owe Oumou a planned-out Saturday of Rec, Gustavo owes you the schools list, the Criollo Bros and Manhattan Youth (Gabi Ajami) outreach is still pending, and the coach job description is unwritten."
+  },
+  "recurringEventId": null,
+  "seriesKey": "community-rec",
+  "start": "2026-11-05T13:30:00-05:00",
+  "status": "past",
+  "title": "DUSC Rec Meeting",
+  "updatedAt": "2026-11-05T21:12:00Z",
+  "userEdited": false
+ },
+ "606at15gvqj7ouob03ih8mg854_20261111T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   },
+   {
+    "email": "leanne.campbell@dusc.net",
+    "name": "Leanne Campbell"
+   }
+  ],
+  "end": "2026-11-11T14:30:00-05:00",
+  "eventId": "606at15gvqj7ouob03ih8mg854_20261111T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NjA2YXQxNWd2cWo3b3VvYjAzaWg4bWc4NTRfMjAyNjExMTFUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/ffc-qwqh-avi",
+  "prep": {
+   "highlights": [
+    "11/4 agenda: mock schedule once LREI lands; Media Day 11/18 (U19/U17 AD before showcases; separate GA II / MLS Next AD?); coaches own GotSport in Spring 27; advanced camps need a director; NEST call; Criollo Bros meeting.",
+    "Tracker: LREI Thompson/Charlton, LeMans, Stephen Gaynor, Grace Church in talks; Immaculate Conception (E 13th) new Mon/Wed option; MLK at risk; Basis/BMCC/Major Owens/John Jay to contact.",
+    "11/5 Field Catchup: December schedules out by Monday at the latest; zones 1–2 of Jan–Mar by Nov 15."
+   ],
+   "suggested": [
+    "December practice schedule — in PlayMetrics?",
+    "LREI: decision, mock schedule, Basis fallback; Jan–Mar zones 1–2 for Andy by 11/15",
+    "Contract statuses + shared folder + blackout dates + Rec in the matrix (Mal)",
+    "Media Day run-of-show and teams; practice cancelled that evening",
+    "Summer / advanced camp meetings set up? Select Teams Summer 26 meeting (tentative today)",
+    "Pier 40 Indoor Dec 5–6 — do we use it; HRPT COI renewal before 11/24"
+   ],
+   "summary": "First ops call with Kyle away and one week to Media Day. Check the December practice schedule landed in PlayMetrics (was due 11/6, Monday 11/9 at the latest), the LREI decision and mock schedule, Mal's contract statuses and tracker, and the Media Day plan. Veteran's Day is this day too — did the comms go out? Andy wants zones 1–2 of the Jan–Mar schedule by Nov 15."
+  },
+  "recurringEventId": "606at15gvqj7ouob03ih8mg854",
+  "seriesKey": "ops-weekly",
+  "start": "2026-11-11T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Ops Weekly Call",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "606at15gvqj7ouob03ih8mg854_20261118T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   },
+   {
+    "email": "leanne.campbell@dusc.net",
+    "name": "Leanne Campbell"
+   }
+  ],
+  "end": "2026-11-18T14:30:00-05:00",
+  "eventId": "606at15gvqj7ouob03ih8mg854_20261118T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NjA2YXQxNWd2cWo3b3VvYjAzaWg4bWc4NTRfMjAyNjExMThUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/ffc-qwqh-avi",
+  "prep": {
+   "highlights": [
+    "11/4: Media Day targeted 11/18; Pier 40 Indoor free Dec 5–6 (Sat 12–8, Sun 8–8); Academy outdoor under HRPT permit Dec 1–18."
+   ],
+   "suggested": [
+    "Media Day — on the day",
+    "Winter contracts: what's signed by now, blackout dates marked",
+    "January practice schedule status",
+    "Pier 40 Indoor Dec 5–6 plan",
+    "MLS Next Fest Dec 1–13 travel"
+   ],
+   "summary": "Media Day is today. Quick call: anything that broke, then winter contracts, the January practice schedule and the Pier 40 Indoor Dec 5–6 plan."
+  },
+  "recurringEventId": "606at15gvqj7ouob03ih8mg854",
+  "seriesKey": "ops-weekly",
+  "start": "2026-11-18T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Ops Weekly Call",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "6bilrcbmht23o43aqm033ongef": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "chris@soccerpost.com",
+    "name": "Chris (Soccer Post)"
+   },
+   {
+    "email": "erin.corey@soccerpost.com",
+    "name": "Erin Corey"
+   },
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   }
+  ],
+  "end": "2026-11-05T10:30:00-05:00",
+  "eventId": "6bilrcbmht23o43aqm033ongef",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NmJpbHJjYm1odDIzbzQzYXFtMDMzb25nZWYga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/aca-toxa-hsr",
+  "prep": {
+   "highlights": [
+    "10/16 Ops: set up a call KP + Mal + Noemi; promo dollars are held back for a period of time.",
+    "11/2 Adidas notes: $71K invoice open; can promo cover any of it; Soccer Post has to be aligned to clear an invoice; January 2027 existing supply $5,790; $110K/yr on a 6-year deal."
+   ],
+   "suggested": [
+    "Promo dollars: what's available now vs. held, and what it can be spent on",
+    "T-shirts for Rec and Classes — quantities, timing, who pays",
+    "Adidas $71K invoice: Soccer Post's role in clearing it; January allotment",
+    "Order calendar for winter/spring and summer camp gear"
+   ],
+   "summary": "The Soccer Post call owed since 10/16, now with Chris and Erin and Mal on. Two threads to close: T-shirts for Rec and Classes using promo dollars (currently held back), and how Soccer Post lines up to clear the $71K Adidas invoice and the January supply. Noemi was meant to be on this — bring the invoice numbers yourself."
+  },
+  "recurringEventId": null,
+  "seriesKey": "vendors",
+  "start": "2026-11-05T10:00:00-05:00",
+  "status": "past",
+  "title": "DUSC x Soccerpost",
+  "updatedAt": "2026-11-05T17:14:00Z",
+  "userEdited": false
+ },
+ "6nc6i1n4kcjaak7pfr2nv8f5r5_20261109T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-11-09T14:00:00-05:00",
+  "eventId": "6nc6i1n4kcjaak7pfr2nv8f5r5_20261109T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Nm5jNmkxbjRrY2phYWs3cGZyMm52OGY1cjVfMjAyNjExMDlUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/mki-khav-mfs",
+  "prep": {
+   "highlights": [
+    "11/8 notes: the 9/30 questions for her — sources of the bank-transaction and PlayMetrics numbers, by-team and by-player detail, the 9/30 receivable (10:30 session).",
+    "Finance Call notes (11/6): Kristen working the bonus calculations — submit by Fri 11/13; September is the test case; Noemi is in the bank reconciliations; Sept + Oct expenses need catching up.",
+    "11/6 Finance Catchup: Boys Academy 457 actual vs 498 reported (D-League double-counted), ~$8K variance, numbers hardcoded not pulled from PlayMetrics.",
+    "Audit: stalled on auditor responses — KP wants a call with Nirmala and the auditors and a tracker with status colors; draft still expected ~11/16 for Dec 8.",
+    "11/5 Soccer Post: ~$70K of invoices outstanding; DUSC is the only club applying fundraising dollars to invoices."
+   ],
+   "suggested": [
+    "Bonuses: Kristen's calculations, Noemi → Nirmala → Kristen flow, submission by Fri 11/13",
+    "Anything left open from the 10:30 reconciliation session — what changes in the September package",
+    "Audit: call with the auditors, status colors on the open-items tracker, draft date, what the board sees Dec 8",
+    "Sept/Oct expense catch-up in QuickBooks — who takes it; receivables and card receipts",
+    "Soccer Post payout method (invoice credits vs ACH) and the $71K Adidas invoice",
+    "Bank of America account ownership; one finance meeting or two"
+   ],
+   "summary": "Weekly with Nirmala, four days before bonuses must be submitted (Fri 11/13 for the 11/15 payout — Kristen is doing the calculations) and a week before the audit draft. It overlaps the 1:00 catch-up with Andy and comes two hours after the 10:30 reconciliation session with her, so keep it to what the morning doesn't cover: bonuses, the audit call and tracker, the Sept/Oct expense catch-up, and finance's view on the Soccer Post payout method and the $71K Adidas invoice. Paul now runs healthcare with Paychex; the census may be resubmitted today."
+  },
+  "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-09T13:30:00-05:00",
+  "status": "cancelled",
+  "title": "Finance Weekly",
+  "updatedAt": "2026-11-09T17:14:00Z",
+  "userEdited": false
+ },
+ "6nc6i1n4kcjaak7pfr2nv8f5r5_20261116T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-11-16T14:00:00-05:00",
+  "eventId": "6nc6i1n4kcjaak7pfr2nv8f5r5_20261116T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Nm5jNmkxbjRrY2phYWs3cGZyMm52OGY1cjVfMjAyNjExMTZUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/mki-khav-mfs",
+  "prep": {
+   "highlights": [
+    "Bonuses submitted Fri 11/13, paid 11/15 via Noemi → Nirmala → Kristen.",
+    "Auditor said ~2 weeks from 11/2 for a draft; may slip past Dec 8.",
+    "Finance-hire search started the week of 11/9 (Indeed via Malorie)."
+   ],
+   "suggested": [
+    "Bonus payouts reconciled against bank and QuickBooks",
+    "Audit draft: findings, what changes, Dec 8 presentation",
+    "Healthcare: underwriting result (~11/20) and plan selection",
+    "October close on QuickBooks numbers; Sept/Oct expenses caught up?",
+    "Laptop and credit-card policies — drafted?",
+    "Noemi support decision; finance-hire candidates; W9s/1099s before year end"
+   ],
+   "summary": "The day after bonuses paid and around when the audit draft is due. Confirm payouts reconciled, read the auditor's draft together before it goes to the board on Dec 8, check where the finance-hire posting stands, and whether the laptop and credit-card policies exist yet."
+  },
+  "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-16T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Finance Weekly",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "7r28o2dpnob574e2ujfottdi2l": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   }
+  ],
+  "end": "2026-11-05T15:00:00-05:00",
+  "eventId": "7r28o2dpnob574e2ujfottdi2l",
+  "htmlLink": "https://www.google.com/calendar/event?eid=N3IyOG8yZHBub2I1NzRlMnVqZm90dGRpMmwga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/gxx-rbao-uim",
+  "prep": {
+   "highlights": [
+    "10/8: build the indoor baseline on minimum sessions; $132K winter/spring budget unallocated; Nightingale Bamford opened 15,000 sq ft of turf.",
+    "11/4 Ops: LREI mock schedule when confirmed (Basis as backup); December practice schedule due Friday; Pier 40 Indoor free Dec 5–6.",
+    "MLK: Kyle has reached Kevin (marked done); Tuesday 6:30–9 still not secured — Josh Sherron / Jake outreach is yours."
+   ],
+   "suggested": [
+    "Winter tracker walkthrough: signed, in talks, at risk",
+    "28 Liberty credits — where the negotiation stands",
+    "Budget model with field units: what's filled in, what's missing",
+    "Weekday space options: Basis Fridays, St. Luke's, Grace Church, John Jay",
+    "Coach assignment review — does staffing allow flexible scheduling?"
+   ],
+   "summary": "Andy wants the winter space picture and the budget model. From 10/8 you owe him the updated budget spreadsheet with field units, the 28 Liberty credit negotiation (4.5 fields delivered vs 7), and a simplified scheduling model. Since then: the weekday gap is the problem, MLK Tuesdays are at risk, and LREI / Basis / Grace Church / St. Luke's are the live options."
+  },
+  "recurringEventId": null,
+  "seriesKey": "board-checkins",
+  "start": "2026-11-05T14:30:00-05:00",
+  "status": "past",
+  "title": "Field Catchup",
+  "updatedAt": "2026-11-05T21:12:00Z",
+  "userEdited": false
+ },
+ "86kib75mjqprf5pkuvckq8lv64_20261110T170000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   },
+   {
+    "email": "kyle.hagenburger@dusc.net",
+    "name": "Kyle Hagenburger"
+   }
+  ],
+  "end": "2026-11-10T13:00:00-05:00",
+  "eventId": "86kib75mjqprf5pkuvckq8lv64_20261110T170000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ODZraWI3NW1qcXByZjVwa3V2Y2txOGx2NjRfMjAyNjExMTBUMTcwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/can-tuhg-vyw",
+  "prep": {
+   "highlights": [
+    "Kyle OOO 11/11–11/28; Media Day targeted 11/18.",
+    "Andy's asks from 10/8 still open: budget model with field units, 28 Liberty credits, coach assignment review; from 11/5: supply-vs-demand dashboard and Jan–Mar zones 1–2 by Nov 15.",
+    "11/6: Andy to send a midweek staff communication on bonuses and healthcare; bonuses in by Fri 11/13.",
+    "11/8–11/9: the 9/30 reconciliation went back to Nirmala for sources (bank transactions, PlayMetrics by player, receivables)."
+   ],
+   "suggested": [
+    "Who owns what while Kyle is out (Decision & Ownership Guide)",
+    "Decisions that can't wait until 11/28",
+    "Board touchpoints in that window (audit draft ~11/16, Dec 8 prep)",
+    "Media Day venue and point person",
+    "Andy's staff note on bonuses/healthcare — timing and content",
+    "Supply-vs-demand dashboard and Jan–Mar zones 1–2 by Nov 15"
+   ],
+   "summary": "You haven't accepted this one. It's the coverage conversation for Kyle's three weeks away, with Andy in the room — bring the list of what moves to you (Media Day, MLK/indoor, DOC conversations, Byga/Soccer.com) and what waits until 11/28, plus your read of Kyle's Decision & Ownership Guide. Andy is also sending staff a midweek note on bonuses and healthcare, which depends on Monday's 9/30 reconciliation holding up."
+  },
+  "recurringEventId": "86kib75mjqprf5pkuvckq8lv64",
+  "seriesKey": "kyle-andy-weekly",
+  "start": "2026-11-10T12:00:00-05:00",
+  "status": "upcoming",
+  "title": "Kyle/Andy Weekly - Prep for Kyle Away",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6opjaca664pjadq66so48h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g88s48d2670pj4cpp8gsj4cpk8cs30dpj88pk6ha67124cgpm74rg": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "kristen.capobianco@dusc.net",
+    "name": "Kristen Capobianco"
+   },
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   },
+   {
+    "email": "jljames@paychex.com",
+    "name": "Jennifer James (Paychex)"
+   }
+  ],
+  "end": "2026-11-10T13:00:00-05:00",
+  "eventId": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6opjaca664pjadq66so48h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g88s48d2670pj4cpp8gsj4cpk8cs30dpj88pk6ha67124cgpm74rg",
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2b3BqYWNhNjY0cGphZHE2NnNvNDhoMWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnODhzNDhkMjY3MHBqNGNwcDhnc2o0Y3BrOGNzMzBkcGo4OHBrNmhhNjcxMjRjZ3BtNzRyZyBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://paychex.webex.com/paychex/j.php?MTID=m7c3ce4826690ca66b1bb3e5f2ce09b27",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Agree who corrects the census and the full-time (30-hour) threshold for the 5 disputed individuals",
+    "Confirm the weekly-hours data from Kyle and Jason for the people on the current list",
+    "Kristen's Paychex Flex fixes: marking the removed individuals part-time so the census can be re-pulled",
+    "Timeline: underwriting resubmission, plan options (incl. an HSA option) and open enrollment"
+   ],
+   "summary": "Paychex (Jennifer James) WebEx to align on the PEO healthcare census: which of the 19 people on the submitted list are truly full-time (Kristen counts 14), who adjusts the census, and what goes back to underwriting. Note it overlaps the Kyle/Andy Weekly at 12:00."
+  },
+  "recurringEventId": null,
+  "seriesKey": null,
+  "start": "2026-11-10T12:00:00-05:00",
+  "status": "upcoming",
+  "title": "Downtown United Soccer Club",
+  "updatedAt": "2026-11-09T21:15:00Z",
+  "userEdited": false
+ },
+ "_6kq44hhm70rk2b9k850j8b9k68rj4b9o6t330b9p752k6hhm84q38dpn6k": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "bryan.alcantara@byga.net",
+    "name": "Bryan Alcantara"
+   },
+   {
+    "email": "conor@byga.net",
+    "name": "Conor Stokes"
+   }
+  ],
+  "end": "2026-11-12T15:00:00-05:00",
+  "eventId": "_6kq44hhm70rk2b9k850j8b9k68rj4b9o6t330b9p752k6hhm84q38dpn6k",
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcTQ0aGhtNzByazJiOWs4NTBqOGI5azY4cmo0YjlvNnQzMzBiOXA3NTJrNmhobTg0cTM4ZHBuNmsga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": null,
+  "prep": {
+   "highlights": [
+    "Byga: can we get an app? 1% credit card fees. Soccer.com: Kyle still owes the slide deck."
+   ],
+   "suggested": [
+    "What Byga replaces vs. Soccer.com, PlayMetrics",
+    "Fees, contract length, migration",
+    "Decision timeline (Kyle back 11/28)"
+   ],
+   "summary": "Byga's hold; Kyle declined and you haven't responded. The Kyle/Kushal notes have Byga as the alternative to the Soccer.com move (an app, 1% card fees). Decide at the 11/9 1:1 whether this is worth an hour while Kyle is away, and whether to accept or push it to after 11/28."
+  },
+  "recurringEventId": null,
+  "seriesKey": "vendors",
+  "start": "2026-11-12T14:00:00-05:00",
+  "status": "upcoming",
+  "title": "Hold for DUSC",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "_chqn6opd6coiqchg68r32c9h70oj4c1g81i7asr3": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "soccer4allcommittee@dusc.net",
+    "name": "Soccer For All Committee"
+   },
+   {
+    "email": "marikacinque@yahoo.com",
+    "name": "Marika Cinque"
+   }
+  ],
+  "end": "2026-11-18T13:00:00-05:00",
+  "eventId": "_chqn6opd6coiqchg68r32c9h70oj4c1g81i7asr3",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NocW42b3BkNmNvaXFjaGc2OHIzMmM5aDcwb2o0YzFnODFpN2FzcjMga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/qrn-yxuz-aqz",
+  "prep": {
+   "highlights": [
+    "SFA numbers are 'completely off' between Mal's and finance's — Simon and Nirmala working it.",
+    "Scholarship data isn't easily visible in PlayMetrics; families apply through the system."
+   ],
+   "suggested": [
+    "SFA numbers: one reconciled figure",
+    "Scholarship pipeline for winter/spring",
+    "Fundraising asks tied to Soccer For All (Soccer Post $10 add-on, payout method)",
+    "Adidas allotment for SFA players"
+   ],
+   "summary": "Committee meeting the same day as Media Day. Scholarship count (216) and the SFA reconciliation with finance are the live topics; the board wants this committee to keep going. Adidas's $100K spending money partly funds Soccer4All players, and Soccer Post's $10-per-uniform fundraising add-on feeds the scholarship fund."
+  },
+  "recurringEventId": null,
+  "seriesKey": "soccer-for-all",
+  "start": "2026-11-18T12:00:00-05:00",
+  "status": "upcoming",
+  "title": "Soccer For All Committee",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "dl8u6u3aa631dog9ncdpbfkrbk_20261109T190000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "kyle.hagenburger@dusc.net",
+    "name": "Kyle Hagenburger"
+   }
+  ],
+  "end": "2026-11-09T14:40:00-05:00",
+  "eventId": "dl8u6u3aa631dog9ncdpbfkrbk_20261109T190000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZGw4dTZ1M2FhNjMxZG9nOW5jZHBiZmtyYmtfMjAyNjExMDlUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/fhc-dsea-vye",
+  "prep": {
+   "highlights": [
+    "Open items from 11/3: Eric re Socceroof, Soccer.com deck, Ron re Media Day space before mid-Nov, 2027 handbook. MLK/Kevin is done.",
+    "Media Day logistics: Syd hiring the photographer, Leo there at the same time, cancel practice that evening, KP to email.",
+    "Kyle's Decision & Ownership Guide sets who owns which decisions while he's away — KP to review before 11/10.",
+    "11/6 Healthcare Catchup: KP to text Kyle for the data to verify weekly hours of staff on the census list."
+   ],
+   "suggested": [
+    "Media Day 11/18: venue decision, run-of-show, who's on point while Kyle is out",
+    "Decision & Ownership Guide — sign off on coverage for 11/11–11/28",
+    "Census hours: the data to verify 30+ hrs/week for staff on the healthcare census",
+    "Soccer.com deck / Byga decision path (Byga hold is 11/12)",
+    "Herve Diese / future DOC — next step; MLS Next Coordinator role ($25K)",
+    "Grace Church (middle school gym Sundays) and MLK Tuesday status; 2027 handbook"
+   ],
+   "summary": "Last 1:1 before Kyle is out 11/11–11/28, today at 2 straight after the Andy catch-up. Media Day is 11/18 while he's away, so lock the venue (Socceroof via Eric, or Ron's space) and who runs it, and go through his Decision & Ownership Guide — your review is due before Tue 11/10. Also the Soccer.com deck vs the Byga hold on 11/12, the Herve Diese / future-DOC question, the MLS Next Coordinator role, what you cover for him for three weeks, and the weekly-hours data you need from him for the healthcare census."
+  },
+  "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
+  "seriesKey": "kyle-1on1",
+  "start": "2026-11-09T14:00:00-05:00",
+  "status": "upcoming",
+  "title": "Kyle/Kushal",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "dl8u6u3aa631dog9ncdpbfkrbk_20261116T190000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "kyle.hagenburger@dusc.net",
+    "name": "Kyle Hagenburger"
+   }
+  ],
+  "end": "2026-11-16T14:40:00-05:00",
+  "eventId": "dl8u6u3aa631dog9ncdpbfkrbk_20261116T190000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZGw4dTZ1M2FhNjMxZG9nOW5jZHBiZmtyYmtfMjAyNjExMTZUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "meetUrl": "https://meet.google.com/fhc-dsea-vye",
+  "prep": {
+   "highlights": [
+    "Media Day 11/18: venue (Socceroof/Eric or Ron), photographer via Syd, Leo, practice cancelled that evening."
+   ],
+   "suggested": [
+    "If held: Media Day final check — venue, photographer, team schedule, email sent",
+    "Anything Kyle needs decided before 11/28"
+   ],
+   "summary": "Kyle is out this week (11/11–11/28), so this occurrence likely won't happen. Skip it, or use the slot for the Media Day final check two days out."
+  },
+  "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
+  "seriesKey": "kyle-1on1",
+  "start": "2026-11-16T14:00:00-05:00",
+  "status": "upcoming",
+  "title": "Kyle/Kushal",
+  "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ }
+}
