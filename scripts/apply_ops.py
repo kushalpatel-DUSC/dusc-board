@@ -4,7 +4,9 @@
 Usage:  python3 scripts/apply_ops.py ops.json
 ops.json = [ {"coll": "cards", "id": "mlk-tuesday-space", "op": "merge", "patch": {...}, "source": "sync"}, ... ]
 
-op: "set" (replace the whole doc), "merge" (shallow-merge fields), "delete".
+op: "set" (replace the whole doc), "merge" (shallow-merge fields), "delete", and
+"agenda_done" (meetings only; patch {"texts": [...]} marks the agenda items with those exact texts as
+done and changes nothing else - safe on agendas the user has edited).
 source "sync" (the scheduled tasks) is guarded: it never deletes, never touches an inbox item the
 user has handled, and never overrides fields the user has edited (userEdited: true) on cards,
 meetings or series. The page (source "user") has no guard.
@@ -59,6 +61,15 @@ def main():
                 counts['skipped'] += 1; continue
             data.pop(oid, None); counts['applied'] += 1; continue
         patch = dict(o.get('patch') or {})
+        if op == 'agenda_done':
+            texts = {str(t).strip().lower() for t in (patch.get('texts') or [])}
+            hit = 0
+            if coll == 'meetings' and existing is not None:
+                for item in (existing.get('agenda') or []):
+                    if isinstance(item, dict) and str(item.get('text', '')).strip().lower() in texts and not item.get('done'):
+                        item['done'] = True; hit += 1
+            counts['applied' if hit else 'skipped'] += 1
+            continue
         if guarded and existing is not None:
             if coll == 'inbox' and (existing.get('userEdited') or existing.get('status') == 'handled'):
                 counts['skipped'] += 1; continue

@@ -4,6 +4,7 @@
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "28-liberty-credits",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -13,14 +14,14 @@
   "status": "todo",
   "title": "Negotiate field credits at 28 Liberty — 4.5 fields delivered vs 7 promised, ~40% over baseline rate",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "28-liberty-credits"
+  "userEdited": false
  },
  "28-liberty-jonathan": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "28-liberty-jonathan",
   "note": "Met Oct 21 (28 Liberty – Socceroof).",
   "owner": "KP",
   "priority": null,
@@ -30,14 +31,14 @@
   "status": "done",
   "title": "Meet Jonathan at 28 Liberty / Socceroof about space",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "28-liberty-jonathan"
+  "userEdited": false
  },
  "adidas-invoice": {
   "area": "Vendors",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "adidas-invoice",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -47,14 +48,14 @@
   "status": "todo",
   "title": "Adidas: resolve the $71,000 invoice — can promo cover any of it? Align Soccer Post; decide on the January supply ($5,790)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "adidas-invoice"
+  "userEdited": false
  },
  "adidas-promo-spend-dec15": {
   "area": "Vendors",
   "createdAt": "2026-11-06T10:52:00Z",
   "doneAt": null,
   "due": "2026-12-15",
+  "id": "adidas-promo-spend-dec15",
   "note": "Promo must be spent, not banked; coaches won't buy DUSC product otherwise. 2027 is a blank slate for uniforms.",
   "owner": "KP",
   "pinned": false,
@@ -68,14 +69,14 @@
   "updatedAt": "2026-11-06T10:52:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "adidas-promo-spend-dec15"
+  "waitingSince": null
  },
  "adv-camp-alex-jose": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "adv-camp-alex-jose",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -85,14 +86,14 @@
   "status": "todo",
   "title": "Advanced Camps: set up meeting with Alex and Jose",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "adv-camp-alex-jose"
+  "userEdited": false
  },
  "adv-camp-director": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "adv-camp-director",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -102,14 +103,14 @@
   "status": "todo",
   "title": "Name an Advanced Camp Director and build the Summer Camp payment matrix (2 girls-only camps with all-female staff)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "adv-camp-director"
+  "userEdited": false
  },
  "adv-camp-gustavo-group": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "adv-camp-gustavo-group",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -119,14 +120,14 @@
   "status": "todo",
   "title": "Advanced Camps: set up meeting with Gustavo, Cris, Oumou and Mal",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "adv-camp-gustavo-group"
+  "userEdited": false
  },
  "andy-28-liberty-cost-file": {
   "area": "Facilities",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-05T19:53:50Z",
   "due": null,
+  "id": "andy-28-liberty-cost-file",
   "note": "Received 11/5 3:53pm — '28 Liberty cost calcs.xlsx' (email '28 Liberty current file').",
   "owner": "Andy",
   "pinned": false,
@@ -140,14 +141,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "andy-28-liberty-cost-file"
+  "waitingSince": null
  },
  "andy-staff-finance-comms": {
   "area": "2026-11-11",
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Bonuses to be submitted by Fri 11/13 for the 11/15 payout, assuming the collected numbers check out over the weekend.",
+  "id": "andy-staff-finance-comms",
   "note": "",
   "owner": "People",
   "pinned": false,
@@ -161,14 +162,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "andy-staff-finance-comms"
+  "waitingSince": null
  },
  "ar-reporting-930": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "ar-reporting-930",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -178,14 +179,14 @@
   "status": "doing",
   "title": "Registrations / income / AR reporting through 9/30 in Andy's format (receivables before and after 9/30, tied to registrants) — check with Nirmala before sending",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "ar-reporting-930"
+  "userEdited": false
  },
  "audit-timeline": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-16",
+  "id": "audit-timeline",
   "note": "Auditors need ~2 weeks of testing for a draft (from Nov 2). Board meeting Dec 8. Nirmala adding KP to auditor emails.",
   "owner": "KP",
   "priority": null,
@@ -195,14 +196,14 @@
   "status": "doing",
   "title": "Audit: get the updated timetable from the auditors and check what is missing/incomplete and why",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "audit-timeline"
+  "userEdited": false
  },
  "audit-tracker": {
   "area": null,
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Owner: the group (KP, Andy, Paul). Audit is stalled pending auditor responses; KP may connect with the auditors directly to clarify requirements.",
+  "id": "audit-tracker",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -216,14 +217,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "audit-tracker"
+  "waitingSince": null
  },
  "basis-brooklyn-saturdays": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "basis-brooklyn-saturdays",
   "note": "Still open as of Oct 16. Basis also floated for Fridays (10/28). Backup if LREI falls through.",
   "owner": "KP",
   "priority": null,
@@ -233,14 +234,14 @@
   "status": "doing",
   "title": "Contact Matthias Heilbrann (Basis Brooklyn) about Saturdays 8–11am",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "basis-brooklyn-saturdays"
+  "userEdited": false
  },
  "battery-park-permit": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "battery-park-permit",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -250,14 +251,14 @@
   "status": "todo",
   "title": "Explore a Battery Park permit (games / Academy; across from Avenues)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "battery-park-permit"
+  "userEdited": false
  },
  "bmcc-indoor": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "bmcc-indoor",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -267,14 +268,14 @@
   "status": "done",
   "title": "Contact BMCC about indoor space",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "bmcc-indoor"
+  "userEdited": false
  },
  "boa-account-ownership": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "boa-account-ownership",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -284,14 +285,14 @@
   "status": "todo",
   "title": "Resolve Bank of America account ownership — legacy owner means nobody can add Nirmala as admin",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "boa-account-ownership"
+  "userEdited": false
  },
  "board-presentation": {
   "area": "Board",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "board-presentation",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -301,14 +302,14 @@
   "status": "done",
   "title": "Create the board presentation: work plan, systems, processes, strategic goals",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "board-presentation"
+  "userEdited": false
  },
  "bonus-process": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-15",
+  "id": "bonus-process",
   "note": "Based on September numbers (now in the package, QuickBooks figures). Kristen inputs payroll; Noemi sets up, Nirmala approves, Kristen pays.",
   "owner": "KP",
   "priority": "urgent",
@@ -318,14 +319,14 @@
   "status": "doing",
   "title": "Bonuses by 11/15: consult Andy and Kyle on the distribution process, then set up the email thread with Nirmala, Noemi and Kristen (CC Kristen on anything payroll)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "bonus-process"
+  "userEdited": false
  },
  "boys-academy-numbers": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "boys-academy-numbers",
   "note": null,
   "owner": "Nirmala",
   "priority": null,
@@ -335,14 +336,14 @@
   "status": "doing",
   "title": "Boys Academy registrations: why -$80K vs budget (Nirmala working with the auditors)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "boys-academy-numbers"
+  "userEdited": false
  },
  "budget-model-field-units": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "budget-model-field-units",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -352,14 +353,14 @@
   "status": "doing",
   "title": "Update the budget spreadsheet with cost data and field units (Arman's model) to standardize pricing per location",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "budget-model-field-units"
+  "userEdited": false
  },
  "catch-up-sept-oct-expenses": {
   "area": "Finance",
   "createdAt": "2026-11-07T10:50:00Z",
   "doneAt": null,
   "due": null,
+  "id": "catch-up-sept-oct-expenses",
   "note": "Added to the Finance Call notes on 11/6 alongside 'use September numbers as a test case'; Noemi is in the middle of the bank reconciliations, so decide who takes expense catch-up.",
   "owner": "TBD",
   "pinned": false,
@@ -373,14 +374,14 @@
   "updatedAt": "2026-11-07T10:50:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "catch-up-sept-oct-expenses"
+  "waitingSince": null
  },
  "cc-reconciliations": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "cc-reconciliations",
   "note": null,
   "owner": "Noemi",
   "priority": null,
@@ -390,14 +391,14 @@
   "status": "todo",
   "title": "Credit card reconciliations: get cardholders to upload receipts",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "cc-reconciliations"
+  "userEdited": false
  },
  "club-calendar-followup": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "club-calendar-followup",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -407,14 +408,14 @@
   "status": "todo",
   "title": "Follow up on the Club Calendar — how it should look for coaches/directors and for families (permit windows, HRPT, NYC Parks)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "club-calendar-followup"
+  "userEdited": false
  },
  "coach-assignments-review": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "coach-assignments-review",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -424,14 +425,14 @@
   "status": "todo",
   "title": "Review coach assignments across all teams — does staffing allow more flexible scheduling?",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "coach-assignments-review"
+  "userEdited": false
  },
  "coach-job-description": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "coach-job-description",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -441,14 +442,14 @@
   "status": "todo",
   "title": "Create a coach job description and post it ($50–75 per session); source from summer camp coaches",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "coach-job-description"
+  "userEdited": false
  },
  "confirm-registrant-counts": {
   "area": "Finance",
   "createdAt": "2026-11-06T17:15:00Z",
   "doneAt": null,
   "due": "2026-11-06",
+  "id": "confirm-registrant-counts",
   "note": "Paul: if D-League is double counted, Boys Academy is ~33 registrants short of budget (~$2,441/person, skewing to HS teams). Girls Academy budget column is wrong too.",
   "owner": "KP",
   "pinned": false,
@@ -463,14 +464,14 @@
   "updatedAt": "2026-11-06T17:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "confirm-registrant-counts"
+  "waitingSince": null
  },
  "credit-card-policy": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "credit-card-policy",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -480,14 +481,14 @@
   "status": "todo",
   "title": "Write a policy for issuing credit cards (Malorie, Gustavo, Leanne; Kyle needs one; long term: fewer cards)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "credit-card-policy"
+  "userEdited": false
  },
  "criollo-bros-meeting": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "criollo-bros-meeting",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -497,14 +498,14 @@
   "status": "todo",
   "title": "KP and Mal to set up meeting with the Criollo Bros (schools programs)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "criollo-bros-meeting"
+  "userEdited": false
  },
  "december-practice-schedule": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-06",
+  "id": "december-practice-schedule",
   "note": "11/4: should be done by Friday. Academy mock schedule Dec 1–18 is outdoors, Wednesdays at Socceroof Wall Street.",
   "owner": "Leanne",
   "priority": null,
@@ -514,14 +515,14 @@
   "status": "doing",
   "title": "December practice schedule finalized and into PlayMetrics",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "december-practice-schedule"
+  "userEdited": false
  },
  "donations-monthly": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "donations-monthly",
   "note": null,
   "owner": "Noemi",
   "priority": null,
@@ -531,14 +532,14 @@
   "status": "todo",
   "title": "Donations: download monthly reports from Zeffy and other external sites, tie to line items",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "donations-monthly"
+  "userEdited": false
  },
  "email-gabi-ajami": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "email-gabi-ajami",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -548,14 +549,14 @@
   "status": "todo",
   "title": "Email Gabi Ajami (Manhattan Youth), adding Paul and David Criollo",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "email-gabi-ajami"
+  "userEdited": false
  },
  "faq-parent-portal": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-11",
+  "id": "faq-parent-portal",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -565,14 +566,14 @@
   "status": "todo",
   "title": "FAQ / parent portal: pull parent questions from Gemini, build an FAQ per program; connect with Kyle, Leanne, Malorie (1–2 weeks)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "faq-parent-portal"
+  "userEdited": false
  },
  "finance-gap-plan": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "finance-gap-plan",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -582,14 +583,14 @@
   "status": "doing",
   "title": "KP priority: fix the finance gap — budget reduction by $200,000",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "finance-gap-plan"
+  "userEdited": false
  },
  "finance-hire-search": {
   "area": null,
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Paul sent the previous finance / Financial Controller JDs on 11/6; Malorie has the Indeed account. Start now given the holidays.",
+  "id": "finance-hire-search",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -603,14 +604,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "finance-hire-search"
+  "waitingSince": null
  },
  "finance-meeting-structure": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "finance-meeting-structure",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -620,14 +621,14 @@
   "status": "todo",
   "title": "Set up the monthly finance meeting structure: budget vs actuals by program, forecast, receivables, registrant data, cash flow, open items",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "finance-meeting-structure"
+  "userEdited": false
  },
  "finance-staffing": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "finance-staffing",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -637,14 +638,14 @@
   "status": "todo",
   "title": "Finance staffing: Noemi cannot complete all her work — decide on support",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "finance-staffing"
+  "userEdited": false
  },
  "finance-summaries-nov6": {
   "area": "Finance",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": "2026-11-06",
+  "id": "finance-summaries-nov6",
   "note": "Andy has been without income/receivables/registrant numbers for a month and needs them before bonuses can be announced. Related: ar-reporting-930.",
   "owner": "KP",
   "pinned": false,
@@ -658,14 +659,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "finance-summaries-nov6"
+  "waitingSince": null
  },
  "finance-workflows-review": {
   "area": null,
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Input for the finance-hire job description and short-term coverage.",
+  "id": "finance-workflows-review",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -679,14 +680,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "finance-workflows-review"
+  "waitingSince": null
  },
  "friendlies-ga-mlsnext": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "friendlies-ga-mlsnext",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -696,14 +697,14 @@
   "status": "todo",
   "title": "Find friendlies for GA and MLS Next teams",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "friendlies-ga-mlsnext"
+  "userEdited": false
  },
  "futsal-plan-nov1": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": "2026-11-01",
+  "id": "futsal-plan-nov1",
   "note": null,
   "owner": "Jesse",
   "priority": null,
@@ -713,14 +714,14 @@
   "status": "done",
   "title": "Solid plan for NYC Premier Futsal registration by Nov 1",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "futsal-plan-nov1"
+  "userEdited": false
  },
  "futsal-viability": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "futsal-viability",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -730,14 +731,14 @@
   "status": "done",
   "title": "Financial viability check on Jesse's futsal program",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "futsal-viability"
+  "userEdited": false
  },
  "future-doc-decision": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "future-doc-decision",
   "note": null,
   "owner": "Kyle",
   "priority": null,
@@ -747,14 +748,14 @@
   "status": "todo",
   "title": "Herve Diese / future DOC — decide next step",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "future-doc-decision"
+  "userEdited": false
  },
  "ga-showcase-overrun": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "ga-showcase-overrun",
   "note": "Andy: 'not true that we made that much of a loss.' No new showcase June–October.",
   "owner": "KP",
   "priority": "urgent",
@@ -764,14 +765,14 @@
   "status": "todo",
   "title": "Investigate the GA Summer Showcase overrun: get into QuickBooks, management-level summary — participants, who was invoiced, trips budgeted that didn't happen",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "ga-showcase-overrun"
+  "userEdited": false
  },
  "gotsport-coach-ownership": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "gotsport-coach-ownership",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -781,14 +782,14 @@
   "status": "todo",
   "title": "Decide on a new system for coaches to own GotSport scheduling in Spring 27 (field scheduler viability; NEAL + GA/MLS Next keep Ops support; EDP/CJSL on the coach)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "gotsport-coach-ownership"
+  "userEdited": false
  },
  "grace-church-sundays": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "grace-church-sundays",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -798,14 +799,14 @@
   "status": "todo",
   "title": "Check with Kyle on Grace Church (middle school gym, Sunday mornings; maybe Academy afternoons)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "grace-church-sundays"
+  "userEdited": false
  },
  "gustavo-schools-list": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "gustavo-schools-list",
   "note": null,
   "owner": "Gustavo",
   "priority": null,
@@ -815,14 +816,14 @@
   "status": "todo",
   "title": "Gustavo to send the list of all schools to KP",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "gustavo-schools-list"
+  "userEdited": false
  },
  "healthcare-open-enrollment": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-06",
+  "id": "healthcare-open-enrollment",
   "note": null,
   "owner": "Nirmala",
   "priority": null,
@@ -832,14 +833,14 @@
   "status": "doing",
   "title": "Healthcare: census to Paychex (Kristen done), then Nirmala sends plan options for underwriting — 3–4 plans incl. an HSA option",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "healthcare-open-enrollment"
+  "userEdited": false
  },
  "hrpt-coi-renewal": {
   "area": "Finance",
   "createdAt": "2026-11-07T11:12:00Z",
   "doneAt": null,
   "due": "2026-11-24",
+  "id": "hrpt-coi-renewal",
   "note": "HRPT (Alyssia McMorris) will not DocuSign the Pier 40 winter permit until a renewed COI is on file; Malorie asked finance@ to expedite the renewal. Required wording is in the thread.",
   "owner": "KP",
   "pinned": false,
@@ -854,14 +855,14 @@
   "updatedAt": "2026-11-07T11:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "hrpt-coi-renewal"
+  "waitingSince": null
  },
  "jan-practice-schedule": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "jan-practice-schedule",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -871,14 +872,14 @@
   "status": "done",
   "title": "January practice schedule done by December",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "jan-practice-schedule"
+  "userEdited": false
  },
  "jesse-league-followup": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "jesse-league-followup",
   "note": null,
   "owner": "Jesse",
   "priority": null,
@@ -888,14 +889,14 @@
   "status": "done",
   "title": "Follow up after the league meeting on the futsal program",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "jesse-league-followup"
+  "userEdited": false
  },
  "john-jay-kevin-mccarthy": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "john-jay-kevin-mccarthy",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -905,14 +906,14 @@
   "status": "todo",
   "title": "Contact Kevin McCarthy to build a relationship with John Jay College",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "john-jay-kevin-mccarthy"
+  "userEdited": false
  },
  "kp-ft-list-corrections-email": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": "2026-11-10T01:51:36.830Z",
   "due": "2026-11-09",
+  "id": "kp-ft-list-corrections-email",
   "note": "Paychex can only drop them from the census once Kristen marks them part-time in Flex; Paul asked for this ASAP.",
   "owner": "KP",
   "pinned": false,
@@ -926,14 +927,14 @@
   "updatedAt": "2026-11-10T01:51:36.830Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "kp-ft-list-corrections-email"
+  "waitingSince": null
  },
  "kp-kristen-payroll-hours-meeting": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "kp-kristen-payroll-hours-meeting",
   "note": "Census had 19 names; 5 disputed individuals removed after the hours review.",
   "owner": "KP",
   "pinned": false,
@@ -947,14 +948,14 @@
   "updatedAt": "2026-11-06T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "kp-kristen-payroll-hours-meeting"
+  "waitingSince": null
  },
  "kp-text-jason-hours": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "kp-text-jason-hours",
   "note": "KP already emailed Cristian, Gustavo and Oumou about Classes/Rec hours; Cristian replied no hours in Classes.",
   "owner": "KP",
   "pinned": false,
@@ -968,14 +969,14 @@
   "updatedAt": "2026-11-06T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "kp-text-jason-hours"
+  "waitingSince": null
  },
  "kp-text-kyle-hours": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "kp-text-kyle-hours",
   "note": "Baseline weekly-hour formulas (Arman) use team assignments and tier levels; assistant coaches were judged under 30 hrs.",
   "owner": "KP",
   "pinned": false,
@@ -989,14 +990,14 @@
   "updatedAt": "2026-11-06T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "kp-text-kyle-hours"
+  "waitingSince": null
  },
  "kristen-paychex-flex-fixes": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": null,
   "due": "2026-11-09",
+  "id": "kristen-paychex-flex-fixes",
   "note": "Paychex (Jennifer) cannot remove anyone marked FT in Flex; Paul asked Kristen/Nirmala to fix ASAP (11/6 email).",
   "owner": "Kristen",
   "pinned": false,
@@ -1010,14 +1011,14 @@
   "updatedAt": "2026-11-06T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "kristen-paychex-flex-fixes"
+  "waitingSince": null
  },
  "kyle-decision-ownership-guide": {
   "area": "People",
   "createdAt": "2026-11-05T23:12:00Z",
   "doneAt": null,
   "due": "2026-11-10",
+  "id": "kyle-decision-ownership-guide",
   "note": "Kyle sent the guide (infographic) to Andy and KP; says not much is different but wants both to see it before he leaves Tuesday.",
   "owner": "KP",
   "pinned": false,
@@ -1032,14 +1033,14 @@
   "updatedAt": "2026-11-05T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "kyle-decision-ownership-guide"
+  "waitingSince": null
  },
  "kyle-mlk-weekday": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-05T01:24:53.555Z",
   "due": null,
+  "id": "kyle-mlk-weekday",
   "note": null,
   "owner": "Kyle",
   "priority": "urgent",
@@ -1049,14 +1050,14 @@
   "status": "done",
   "title": "Kyle to reach out to Kevin re: MLK weekday space — resolve ASAP",
   "updatedAt": "2026-11-05T01:24:53.555Z",
-  "userEdited": true,
-  "id": "kyle-mlk-weekday"
+  "userEdited": true
  },
  "kyle-ron-media-day-space": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-14",
+  "id": "kyle-ron-media-day-space",
   "note": null,
   "owner": "Kyle",
   "priority": null,
@@ -1066,14 +1067,14 @@
   "status": "todo",
   "title": "Kyle to reach out to Ron about Media Day space — before mid-November",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "kyle-ron-media-day-space"
+  "userEdited": false
  },
  "kyle-soccer-com-deck": {
   "area": "Vendors",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "kyle-soccer-com-deck",
   "note": null,
   "owner": "Kyle",
   "priority": null,
@@ -1083,14 +1084,14 @@
   "status": "todo",
   "title": "Kyle to share the Soccer.com slide deck with KP",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "kyle-soccer-com-deck"
+  "userEdited": false
  },
  "laptop-policy": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "laptop-policy",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1100,14 +1101,14 @@
   "status": "todo",
   "title": "Write a policy for issuing laptops (before any further reimbursements)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "laptop-policy"
+  "userEdited": false
  },
  "leanne-sydney-contract": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "leanne-sydney-contract",
   "note": null,
   "owner": "Leanne",
   "priority": null,
@@ -1117,14 +1118,14 @@
   "status": "todo",
   "title": "Verify Sydney has signed her contract for the year",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "leanne-sydney-contract"
+  "userEdited": false
  },
  "leanne-team-schedule": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "leanne-team-schedule",
   "note": null,
   "owner": "Leanne",
   "priority": null,
@@ -1134,14 +1135,14 @@
   "status": "doing",
   "title": "Send team schedule (was due the Wednesday after Sep 30; confirm it was sent)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "leanne-team-schedule"
+  "userEdited": false
  },
  "mal-blackout-dates": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-blackout-dates",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1151,14 +1152,14 @@
   "status": "todo",
   "title": "Mark blackout dates (e.g. Easter weekend) on indoor facility contracts",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-blackout-dates"
+  "userEdited": false
  },
  "mal-bonus-review": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-bonus-review",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1168,14 +1169,14 @@
   "status": "todo",
   "title": "Submit the bonus review framework",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-bonus-review"
+  "userEdited": false
  },
  "mal-boys-girls-republic": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-boys-girls-republic",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1185,14 +1186,14 @@
   "status": "todo",
   "title": "Email Chris to confirm the Boys and Girls Republic facility status",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-boys-girls-republic"
+  "userEdited": false
  },
  "mal-contracts-folder": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-contracts-folder",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1202,14 +1203,14 @@
   "status": "doing",
   "title": "Put all facility contracts in one shared folder",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-contracts-folder"
+  "userEdited": false
  },
  "mal-freddy-cinci-contact": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-freddy-cinci-contact",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1219,14 +1220,14 @@
   "status": "todo",
   "title": "Send the Freddy Cinci contact to KP",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-freddy-cinci-contact"
+  "userEdited": false
  },
  "mal-lrei-followup": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-lrei-followup",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1236,14 +1237,14 @@
   "status": "doing",
   "title": "Follow up with Little Red (LREI) — Thompson St Saturdays, Charlton Tue/Wed/Thu; more space, earlier start?",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-lrei-followup"
+  "userEdited": false
  },
  "mal-rec-in-matrix": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-rec-in-matrix",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1253,14 +1254,14 @@
   "status": "todo",
   "title": "Include the Rec program in the schedule matrix",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-rec-in-matrix"
+  "userEdited": false
  },
  "mal-space-tracker-update": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-space-tracker-update",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1270,14 +1271,14 @@
   "status": "todo",
   "title": "Update the winter space tracker with every contract's status",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-space-tracker-update"
+  "userEdited": false
  },
  "mal-stephen-gaynor": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-stephen-gaynor",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1287,14 +1288,14 @@
   "status": "doing",
   "title": "Follow up with Stephen Gaynor School (UWS) — Friday futsal, older group",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-stephen-gaynor"
+  "userEdited": false
  },
  "mal-winter-contracts-status": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mal-winter-contracts-status",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -1304,14 +1305,14 @@
   "status": "doing",
   "title": "Report status of all winter contracts (same number as last year? what is locked in?)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mal-winter-contracts-status"
+  "userEdited": false
  },
  "media-day-email": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-18",
+  "id": "media-day-email",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1321,14 +1322,14 @@
   "status": "todo",
   "title": "Media Day email: Socceroof back on? Syd hiring photographer, Leo there at the same time, cancel practice that evening",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "media-day-email"
+  "userEdited": false
  },
  "media-day-randy-details": {
   "area": "Media Day",
   "createdAt": "2026-11-09T21:15:00Z",
   "doneAt": null,
   "due": "2026-11-18",
+  "id": "media-day-randy-details",
   "note": "Kyle handed KP the Media Day logistics with Randy before leaving; Randy only needs date and location.",
   "owner": "KP",
   "pinned": false,
@@ -1343,14 +1344,14 @@
   "updatedAt": "2026-11-09T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "media-day-randy-details"
+  "waitingSince": null
  },
  "media-day-who-when": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-18",
+  "id": "media-day-who-when",
   "note": "Looking at 11/18. U19 and U17 AD need it before showcases. Separate one for GA II / MLS Next AD?",
   "owner": "KP",
   "priority": null,
@@ -1360,14 +1361,14 @@
   "status": "doing",
   "title": "Confirm who is running Media Day and when",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "media-day-who-when"
+  "userEdited": false
  },
  "mlk-tuesday-space": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mlk-tuesday-space",
   "note": "Tuesday slot may not be available. Contacts: Josh Sherron, Jake, Kev. Kyle also reaching out to Kevin — resolve ASAP.",
   "owner": "KP",
   "priority": null,
@@ -1377,14 +1378,14 @@
   "status": "doing",
   "title": "Contact Josh Sherron and Jake about MLK HS Tuesday space (6:30–9pm)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mlk-tuesday-space"
+  "userEdited": false
  },
  "mls-next-coordinator": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mls-next-coordinator",
   "note": null,
   "owner": "Kyle",
   "priority": null,
@@ -1394,14 +1395,14 @@
   "status": "todo",
   "title": "Decide on the MLS Next Coordinator role ($25,000)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mls-next-coordinator"
+  "userEdited": false
  },
  "mock-winter-schedule-lrei": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "mock-winter-schedule-lrei",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1411,14 +1412,14 @@
   "status": "todo",
   "title": "Get a mock winter schedule once LREI is confirmed (Basis as backup)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "mock-winter-schedule-lrei"
+  "userEdited": false
  },
  "nest-call": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "nest-call",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1428,14 +1429,14 @@
   "status": "todo",
   "title": "Separate call on NEST",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "nest-call"
+  "userEdited": false
  },
  "nirmala-930-reconciliation-sources": {
   "area": "Finance",
   "createdAt": "2026-11-09T10:52:54Z",
   "doneAt": null,
   "due": null,
+  "id": "nirmala-930-reconciliation-sources",
   "note": "From KP's 11/8 notes; the Mon 11/9 10:30 'Sept 30 Reconciliation' with Nirmala is the place to walk it. Also on the list: QuickBooks detail by team, a by-player PlayMetrics view for player-by-player checks, Academy vs D-League from the global transactions report, and the 9/30 receivable (total fee payable vs paid to date, installment plans).",
   "owner": "KP",
   "pinned": false,
@@ -1449,14 +1450,14 @@
   "updatedAt": "2026-11-09T10:52:54Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "nirmala-930-reconciliation-sources"
+  "waitingSince": null
  },
  "nirmala-cc-kp-audit": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "nirmala-cc-kp-audit",
   "note": null,
   "owner": "Nirmala",
   "priority": null,
@@ -1466,14 +1467,14 @@
   "status": "todo",
   "title": "Include KP on all auditor email threads",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "nirmala-cc-kp-audit"
+  "userEdited": false
  },
  "noemi-laptop": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "noemi-laptop",
   "note": null,
   "owner": "Nirmala",
   "priority": null,
@@ -1483,14 +1484,14 @@
   "status": "todo",
   "title": "Laptop reimbursement for Noemi (approved up to $1,500 by Paul) — Nirmala to request purchase links",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "noemi-laptop"
+  "userEdited": false
  },
  "oumou-media-promo-table": {
   "area": "Media Day",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "oumou-media-promo-table",
   "note": "Form submitted Monday with no reply yet.",
   "owner": "TBD",
   "pinned": false,
@@ -1504,14 +1505,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "oumou-media-promo-table"
+  "waitingSince": null
  },
  "oumou-saturday-plan": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "oumou-saturday-plan",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1521,14 +1522,14 @@
   "status": "todo",
   "title": "Connect with Oumou Toure and plan out a full Saturday of Rec",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "oumou-saturday-plan"
+  "userEdited": false
  },
  "paul-email-jason-ibrahim-hours": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "paul-email-jason-ibrahim-hours",
   "note": "Determines whether he stays on the full-time census.",
   "owner": "Paul",
   "pinned": false,
@@ -1542,14 +1543,14 @@
   "updatedAt": "2026-11-06T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "paul-email-jason-ibrahim-hours"
+  "waitingSince": null
  },
  "paul-healthcare-takeover": {
   "area": "2026-11-09",
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Census questions are out to Paychex; possible resubmission by Mon 11/9. Employees face closing open-enrollment windows elsewhere.",
+  "id": "paul-healthcare-takeover",
   "note": "",
   "owner": "People",
   "pinned": false,
@@ -1563,14 +1564,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "paul-healthcare-takeover"
+  "waitingSince": null
  },
  "paul-reconcile-census-fte": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "paul-reconcile-census-fte",
   "note": "Paul sent KP and Nirmala the 'Salaried Employee Analysis' sheet (built with Arman) on 11/6.",
   "owner": "Paul",
   "pinned": false,
@@ -1584,14 +1585,14 @@
   "updatedAt": "2026-11-06T23:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "paul-reconcile-census-fte"
+  "waitingSince": null
  },
  "paul-showcase-budget-review": {
   "area": null,
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Top-down reasonableness check suggested by Andy.",
+  "id": "paul-showcase-budget-review",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -1605,14 +1606,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "paul-showcase-budget-review"
+  "waitingSince": null
  },
  "peo-census-call-paul": {
   "area": "People",
   "createdAt": "2026-11-05T03:05:42Z",
   "doneAt": "2026-11-06T23:12:00Z",
   "due": "2026-11-05",
+  "id": "peo-census-call-paul",
   "note": "Done via the 11/6 Healthcare Catchup with Paul and Nirmala; census submitted/resubmitted by Paychex on 11/6. Follow-ups are on the new Healthcare Catchup cards.",
   "owner": "KP",
   "priority": "urgent",
@@ -1623,14 +1624,14 @@
   "status": "done",
   "title": "KP to call Paul about the PEO health-insurance census eligibility list and confirm the corrected census with Nirmala before the 11/6 underwriting submission",
   "updatedAt": "2026-11-06T23:12:00Z",
-  "userEdited": false,
-  "id": "peo-census-call-paul"
+  "userEdited": false
  },
  "pier40-dec-5-6": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-12-05",
+  "id": "pier40-dec-5-6",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -1640,14 +1641,35 @@
   "status": "todo",
   "title": "Decide how to use Pier 40 Indoor on Dec 5–6 (Sat 12–8, Sun 8–8) between winter and spring permits — an idea plus a few coaches",
   "updatedAt": "2026-11-04T23:45:00Z",
+  "userEdited": false
+ },
+ "playbook-immaculate-conception-proposal": {
+  "area": "Facilities",
+  "createdAt": "2026-11-10T03:12:00Z",
+  "doneAt": null,
+  "due": null,
+  "note": "Jessie handed this over 11/9; Ryan is the third party controlling the Immaculate Conception space (winter futsal option) and offered to meet the exec team.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "raised": "2026-11-09",
+  "source": "Email: Space & Tech Proposal",
+  "sourceKind": "email",
+  "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881433580441105773",
+  "status": "todo",
+  "title": "KP to review Ryan Mitchell's (Infinity Apex / Playbook) space & tech proposal for the former Immaculate Conception school gym and set up a follow-up call",
+  "updatedAt": "2026-11-10T03:12:00Z",
   "userEdited": false,
-  "id": "pier40-dec-5-6"
+  "waitingOn": null,
+  "waitingSince": null
  },
  "players-by-school": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "players-by-school",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -1657,14 +1679,14 @@
   "status": "todo",
   "title": "Build a list of all players and where they go to school",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "players-by-school"
+  "userEdited": false
  },
  "playmetrics-billing-check": {
   "area": null,
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "11 Boys Academy registrants still overdue after the Nov 1 payment date (down from 31 failed payments); Malorie has sent follow-ups.",
+  "id": "playmetrics-billing-check",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -1678,14 +1700,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "playmetrics-billing-check"
+  "waitingSince": null
  },
  "playmetrics-game-changes": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "playmetrics-game-changes",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -1695,14 +1717,14 @@
   "status": "todo",
   "title": "PlayMetrics: all game changes are manual — raise with PlayMetrics / find a workflow",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "playmetrics-game-changes"
+  "userEdited": false
  },
  "playmetrics-ops-training": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2027-01-15",
+  "id": "playmetrics-ops-training",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -1712,14 +1734,14 @@
   "status": "todo",
   "title": "PlayMetrics training for Ops; move the tryout form into PlayMetrics and trial it over the winter (ideal: done in January)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "playmetrics-ops-training"
+  "userEdited": false
  },
  "playmetrics-short-term-fixes": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "playmetrics-short-term-fixes",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1729,14 +1751,14 @@
   "status": "todo",
   "title": "KP priority: solve PlayMetrics issues for the short term (tryout information, etc.)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "playmetrics-short-term-fixes"
+  "userEdited": false
  },
  "playmetrics-subs-930": {
   "area": "2026-11-08",
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Andy will review and work out which reports are needed for the income reconciliation.",
+  "id": "playmetrics-subs-930",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -1750,14 +1772,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "playmetrics-subs-930"
+  "waitingSince": null
  },
  "rec-academy-participation": {
   "area": "Programs",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "rec-academy-participation",
   "note": "Estimate on the call was ~10%.",
   "owner": "TBD",
   "pinned": false,
@@ -1771,14 +1793,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-academy-participation"
+  "waitingSince": null
  },
  "rec-college-coaches": {
   "area": "People",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "rec-college-coaches",
   "note": "Oumou wants disciplined college players as the gateway coaching role. Related: john-jay-kevin-mccarthy, coach-job-description.",
   "owner": "KP",
   "pinned": false,
@@ -1792,14 +1814,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-college-coaches"
+  "waitingSince": null
  },
  "rec-email-list-access": {
   "area": "Systems",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "rec-email-list-access",
   "note": "Technical constraints on contact lists came up; email blasts are the channel that works for Rec and classes.",
   "owner": "KP",
   "pinned": false,
@@ -1813,14 +1835,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-email-list-access"
+  "waitingSince": null
  },
  "rec-media-contacts": {
   "area": "Media Day",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "rec-media-contacts",
   "note": "Oumou wants to be copied on media threads for accountability. Related: veterans-day-comms.",
   "owner": "KP",
   "pinned": false,
@@ -1834,14 +1856,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-media-contacts"
+  "waitingSince": null
  },
  "rec-observe-nov15": {
   "area": "Programs",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": "2026-11-15",
+  "id": "rec-observe-nov15",
   "note": "Rain could cancel; Oumou is tabling for promotion.",
   "owner": "KP",
   "pinned": false,
@@ -1855,14 +1877,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-observe-nov15"
+  "waitingSince": null
  },
  "rec-program-review": {
   "area": "Programs",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "rec-program-review",
   "note": "Growth targets ~360–370 kids and 40 high schoolers; spring strategy and naming for the HS group still open.",
   "owner": "KP",
   "pinned": false,
@@ -1876,14 +1898,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-program-review"
+  "waitingSince": null
  },
  "rec-tuesday-call-invite": {
   "area": "Programs",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "rec-tuesday-call-invite",
   "note": "KP plans to sit in for ~40 minutes of the hour.",
   "owner": "KP",
   "pinned": false,
@@ -1897,14 +1919,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "rec-tuesday-call-invite"
+  "waitingSince": null
  },
  "receivables-weekly": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "receivables-weekly",
   "note": null,
   "owner": "Noemi",
   "priority": null,
@@ -1914,14 +1936,14 @@
   "status": "todo",
   "title": "Receivables: run reports and stay on top of them week by week",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "receivables-weekly"
+  "userEdited": false
  },
  "reconcile-pm-qb-registrants": {
   "area": "2026-11-08",
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Income file numbers were hardcoded, not pulled from PlayMetrics; differences may be failed payments resolved via Zelle, timing, or BofA refunds.",
+  "id": "reconcile-pm-qb-registrants",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -1935,14 +1957,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "reconcile-pm-qb-registrants"
+  "waitingSince": null
  },
  "ref-fees-digitize": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "ref-fees-digitize",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -1952,14 +1974,14 @@
   "status": "todo",
   "title": "Can we digitize ref fees? Build a GA home-game one-pager and a clear reimbursement path for coaches",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "ref-fees-digitize"
+  "userEdited": false
  },
  "select-teams-summer26-mtg": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-11",
+  "id": "select-teams-summer26-mtg",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1969,14 +1991,14 @@
   "status": "todo",
   "title": "Send invite for Select Teams – Summer 26 meeting with Leanne and Alex (potentially Wed 11/11)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "select-teams-summer26-mtg"
+  "userEdited": false
  },
  "sept-package-quickbooks": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "sept-package-quickbooks",
   "note": "Gemini 11/2: September P&L completed and in the package.",
   "owner": "Nirmala",
   "priority": null,
@@ -1986,14 +2008,14 @@
   "status": "done",
   "title": "September financial package finalized using QuickBooks numbers only",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "sept-package-quickbooks"
+  "userEdited": false
  },
  "showcase-projections-share": {
   "area": null,
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": null,
   "due": "Both projected to finish positive; all travel expenses paid and parent bills sent via PlayMetrics.",
+  "id": "showcase-projections-share",
   "note": "",
   "owner": "Finance",
   "pinned": false,
@@ -2007,14 +2029,14 @@
   "updatedAt": "2026-11-06T21:15:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "showcase-projections-share"
+  "waitingSince": null
  },
  "simon-hours-sheet": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "simon-hours-sheet",
   "note": null,
   "owner": "Mal",
   "priority": null,
@@ -2024,14 +2046,14 @@
   "status": "todo",
   "title": "Make a separate spreadsheet for Simon's hours",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "simon-hours-sheet"
+  "userEdited": false
  },
  "simplified-scheduling-model": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "simplified-scheduling-model",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -2041,14 +2063,14 @@
   "status": "todo",
   "title": "Build a simplified version of the scheduling model for coaches and directors",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "simplified-scheduling-model"
+  "userEdited": false
  },
  "soccer-post-call": {
   "area": "Vendors",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "soccer-post-call",
   "note": "T-shirts for Rec and Classes? Promo dollars held back for a period. Also needs to align with the Adidas invoice.",
   "owner": "KP",
   "priority": null,
@@ -2058,14 +2080,14 @@
   "status": "todo",
   "title": "Set up a call with Soccer Post (KP, Mal, Noemi)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "soccer-post-call"
+  "userEdited": false
  },
  "socceroof-eric-media-day": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "socceroof-eric-media-day",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -2075,14 +2097,14 @@
   "status": "todo",
   "title": "Connect with Eric re: Socceroof for Media Day (after sorting Andy)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "socceroof-eric-media-day"
+  "userEdited": false
  },
  "soccerpost-event-calendar": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": null,
   "due": null,
+  "id": "soccerpost-event-calendar",
   "note": "Chris also offered a consolidated Google doc tracking all Soccer Post bills; Adidas promo balance lives on the Click portal, scholarship kits on Mal's spreadsheet.",
   "owner": "TBD",
   "pinned": false,
@@ -2096,14 +2118,14 @@
   "updatedAt": "2026-11-05T17:14:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "soccerpost-event-calendar"
+  "waitingSince": null
  },
  "soccerpost-fan-wear-link": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": null,
   "due": null,
+  "id": "soccerpost-fan-wear-link",
   "note": "DUSC earns a 20% commission on fan wear (hoodies, tees, jackets); designs refresh for 2027.",
   "owner": "TBD",
   "pinned": false,
@@ -2117,14 +2139,14 @@
   "updatedAt": "2026-11-05T17:14:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "soccerpost-fan-wear-link"
+  "waitingSince": null
  },
  "soccerpost-payout-method": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": null,
   "due": null,
+  "id": "soccerpost-payout-method",
   "note": "Chris: DUSC is the only club applying fundraising to invoices; cash would make finance reporting clearer. Pair with the plan for the ~$70K outstanding invoices (promo vs fundraising dollars, impact on next year's budget) — see the Adidas invoice card.",
   "owner": "KP",
   "pinned": false,
@@ -2138,14 +2160,14 @@
   "updatedAt": "2026-11-05T17:14:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "soccerpost-payout-method"
+  "waitingSince": null
  },
  "soccerpost-portal-checkout": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": null,
   "due": null,
+  "id": "soccerpost-portal-checkout",
   "note": "Coach free-goods promo expires Dec 15 (returning coaches: 2 jerseys + 1 short; new coaches: $500–600 package). Erin's 11/5 'Adidas Promo' email has the Click steps: Orderbook → Manage Budget → Excel.",
   "owner": "KP",
   "pinned": false,
@@ -2159,14 +2181,14 @@
   "updatedAt": "2026-11-05T17:14:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "soccerpost-portal-checkout"
+  "waitingSince": null
  },
  "soccerpost-tournament-shirts": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": null,
   "due": null,
+  "id": "soccerpost-tournament-shirts",
   "note": "Agreed on the call: go with generic wicking or cotton tees to keep cost down; sponsor logos required (excluding collective).",
   "owner": "TBD",
   "pinned": false,
@@ -2180,14 +2202,14 @@
   "updatedAt": "2026-11-05T17:14:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "soccerpost-tournament-shirts"
+  "waitingSince": null
  },
  "spain-trip-contract": {
   "area": "Programs",
   "createdAt": "2026-11-05T03:05:42Z",
   "doneAt": null,
   "due": "2026-11-30",
+  "id": "spain-trip-contract",
   "note": "Todd pricing flights, wants a family Zoom next week; registration deadline Nov 30. Kyle asked for next steps 11/4.",
   "owner": "KP",
   "priority": null,
@@ -2198,14 +2220,14 @@
   "status": "todo",
   "title": "KP to get the Summer 2027 Spain trip contract sorted with Todd (European Soccer Solutions) — what DUSC gets in return",
   "updatedAt": "2026-11-05T03:05:42Z",
-  "userEdited": false,
-  "id": "spain-trip-contract"
+  "userEdited": false
  },
  "spring-team-pictures": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "spring-team-pictures",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -2215,14 +2237,14 @@
   "status": "todo",
   "title": "Find a service for spring team pictures",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "spring-team-pictures"
+  "userEdited": false
  },
  "st-lukes-look": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "st-lukes-look",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -2232,14 +2254,14 @@
   "status": "todo",
   "title": "Take a look at St. Luke's for 7v7 ages (gym weekends only or weekdays after 6pm, $140–150/hr)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "st-lukes-look"
+  "userEdited": false
  },
  "staff-handbook-2027": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "staff-handbook-2027",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -2249,14 +2271,14 @@
   "status": "todo",
   "title": "Staff Handbook update for 2027 (incl. parental leave policy)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "staff-handbook-2027"
+  "userEdited": false
  },
  "staffing-roles-review": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "staffing-roles-review",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -2266,14 +2288,14 @@
   "status": "todo",
   "title": "Staffing: review current roles and which need replacing, with whom",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "staffing-roles-review"
+  "userEdited": false
  },
  "summer-camp-sibling-discount": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "summer-camp-sibling-discount",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -2283,14 +2305,14 @@
   "status": "todo",
   "title": "Check whether PlayMetrics can do sibling discounts; pool / arts & crafts for young camps",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "summer-camp-sibling-discount"
+  "userEdited": false
  },
  "supply-db-rent-free-spaces": {
   "area": "Facilities",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "supply-db-rent-free-spaces",
   "note": "Andy: the database must show total supply, paid or not. Also add Henry Street Settlement (BGR gym, Sundays Jan 11–Mar 31) and Immaculate Conception School if it comes through.",
   "owner": "KP",
   "pinned": false,
@@ -2304,14 +2326,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "supply-db-rent-free-spaces"
+  "waitingSince": null
  },
  "supply-demand-dashboard": {
   "area": "Facilities",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "supply-demand-dashboard",
   "note": "Andy wants one top-down summary; demand scheduled so far 391.5 hrs vs ~579 hrs supply (not yet fully populated). Builds on the budget-model-field-units card.",
   "owner": "KP",
   "pinned": false,
@@ -2325,14 +2347,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "supply-demand-dashboard"
+  "waitingSince": null
  },
  "training-baseline": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
+  "id": "training-baseline",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -2342,14 +2364,14 @@
   "status": "done",
   "title": "Connect with Kyle, Alex and Jason on team needs and minimum/ideal training baseline",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "training-baseline"
+  "userEdited": false
  },
  "veterans-day-comms": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2026-11-11",
+  "id": "veterans-day-comms",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -2359,14 +2381,14 @@
   "status": "todo",
   "title": "Veteran's Day comms — Constant Contact blast and how coaches put it in their emails",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "veterans-day-comms"
+  "userEdited": false
  },
  "w9s-1099s": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": "2027-01-15",
+  "id": "w9s-1099s",
   "note": null,
   "owner": "Noemi",
   "priority": null,
@@ -2376,14 +2398,14 @@
   "status": "todo",
   "title": "Collect W9s from all vendors (new and old) and keep the 1099 spreadsheet current",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "w9s-1099s"
+  "userEdited": false
  },
  "website-mal-feedback": {
   "area": "Systems",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
+  "id": "website-mal-feedback",
   "note": "Kyle wants Mal's input before the new website is finalized.",
   "owner": "KP",
   "pinned": false,
@@ -2398,14 +2420,14 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false,
   "waitingOn": null,
-  "waitingSince": null,
-  "id": "website-mal-feedback"
+  "waitingSince": null
  },
  "website-update": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "website-update",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -2415,14 +2437,14 @@
   "status": "todo",
   "title": "Website update — involve Malorie, Leanne, Alex and Jason with whoever was brought in",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "website-update"
+  "userEdited": false
  },
  "weekday-classes-decision": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
+  "id": "weekday-classes-decision",
   "note": null,
   "owner": "TBD",
   "priority": null,
@@ -2432,7 +2454,6 @@
   "status": "todo",
   "title": "Decide whether to bring weekday classes back (younger ages popular; Socceroof Wed 5–6 had 13 kids)",
   "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false,
-  "id": "weekday-classes-decision"
+  "userEdited": false
  }
 }

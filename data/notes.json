@@ -4,6 +4,7 @@
   "date": "2026-11-02",
   "decisions": [],
   "fileId": "17Q1Io-6HQtpuKyqc7VAjpJdmoEejekzztozgcwRtI7Q",
+  "id": "adidas-nov2",
   "keyPoints": [],
   "kind": "Scratch notes",
   "modified": "2026-11-02T19:14:20Z",
@@ -12,8 +13,7 @@
   ],
   "summary": "Adidas: 6-year contract, $110K/year with $100K spending money used for coaches and Soccer4All players. Existing supply of $5,790 in January 2027. An open $71,000 invoice — can promo cover any of it, and can the January allotment pay down the balance? Soccer Post must align to clear it.",
   "title": "Adidas notes (Nov 2)",
-  "url": "https://docs.google.com/document/d/17Q1Io-6HQtpuKyqc7VAjpJdmoEejekzztozgcwRtI7Q/edit",
-  "id": "adidas-nov2"
+  "url": "https://docs.google.com/document/d/17Q1Io-6HQtpuKyqc7VAjpJdmoEejekzztozgcwRtI7Q/edit"
  },
  "andy-kushal-oct26": {
   "area": "Finance",
@@ -22,6 +22,7 @@
    "No new showcase between June and October."
   ],
   "fileId": "1Hh5K_vCjTo50UT277SooSwypkCRJ_RfTODG9nZcbRM0",
+  "id": "andy-kushal-oct26",
   "keyPoints": [
    "GA Showcase: Andy says the loss is not as big as shown — the numbers are wrong, not the event",
    "KP to get into QuickBooks for the showcase figures — marked urgent (Nov 5)",
@@ -37,14 +38,14 @@
   ],
   "summary": "KP's running scratch notes with Andy. The Spring GA Showcase numbers are still disputed: push Nirmala on how they came out, build a management-level summary (participants, who was invoiced, trips Rasna budgeted that didn't happen) and get into QuickBooks — now flagged urgent. Nov 5 added Andy's supply/demand ask: total field hours by December, with demand broken out weekday vs weekend, so supply and demand hours meet.",
   "title": "Andy / Kushal (Oct 26, updated Nov 5)",
-  "url": "https://docs.google.com/document/d/1Hh5K_vCjTo50UT277SooSwypkCRJ_RfTODG9nZcbRM0/edit",
-  "id": "andy-kushal-oct26"
+  "url": "https://docs.google.com/document/d/1Hh5K_vCjTo50UT277SooSwypkCRJ_RfTODG9nZcbRM0/edit"
  },
  "board-meeting-notes": {
   "area": "Board",
   "date": "2026-10-11",
   "decisions": [],
   "fileId": "1ugWkQyeut137op-jXOWdWVQ__tZjm1PX57WGxOpN30A",
+  "id": "board-meeting-notes",
   "keyPoints": [
    "Per diem and reimbursement procedures are scattered; no standard AR follow-up.",
    "Tryout form is a Google Form, out of sync with PlayMetrics; tryout data isn't useful to directors.",
@@ -58,14 +59,14 @@
   ],
   "summary": "KP's read on the club for the board: field sourcing isn't a system yet, scheduling leans on spreadsheets instead of PlayMetrics, finance and ops are out of sync, comms are inconsistent, and camps are stale. Partnerships with a university or outside group are the fastest fix for fields.",
   "title": "Notes for DUSC Board Meeting",
-  "url": "https://docs.google.com/document/d/1ugWkQyeut137op-jXOWdWVQ__tZjm1PX57WGxOpN30A/edit",
-  "id": "board-meeting-notes"
+  "url": "https://docs.google.com/document/d/1ugWkQyeut137op-jXOWdWVQ__tZjm1PX57WGxOpN30A/edit"
  },
  "board-prep-oct12": {
   "area": "Board",
   "date": "2026-10-12",
   "decisions": [],
   "fileId": "18t8ir9iaELvHUEG-BYY-UnypC4UbVaUsjF-SQ2sAaAQ",
+  "id": "board-prep-oct12",
   "keyPoints": [
    "The board was an information bottleneck; staff saw very little.",
    "Keep Kyle's staff annual plans tied to the key projects."
@@ -77,14 +78,14 @@
   ],
   "summary": "How to frame the conversation with the board: where KP is in getting up to speed, who he has and hasn't talked to, urgent vs. important next steps, a repeatable long-term calendar, who oversees what, and what reporting/check-in cadence the board actually needs.",
   "title": "Board conversation prep (Oct 12)",
-  "url": "https://docs.google.com/document/d/18t8ir9iaELvHUEG-BYY-UnypC4UbVaUsjF-SQ2sAaAQ/edit",
-  "id": "board-prep-oct12"
+  "url": "https://docs.google.com/document/d/18t8ir9iaELvHUEG-BYY-UnypC4UbVaUsjF-SQ2sAaAQ/edit"
  },
  "club-calendar": {
   "area": "Systems",
   "date": "2026-10-21",
   "decisions": [],
   "fileId": "1cRLjkUjpvG_c-e8UItFnyj6u2qG0DxqQWXNTEWS7RNQ",
+  "id": "club-calendar",
   "keyPoints": [
    "Check every row against Major Dates for conflicts before marking Confirmed."
   ],
@@ -93,8 +94,7 @@
   "openQuestions": [],
   "summary": "Operations working calendar for Aug 2026–Aug 2027: major dates (school closures, holidays, permit windows) drive when camps, Rec, Classes and Academy run. Program tables for Academy, Rec, Classes, Camps and Major Events still carry TBDs to fill.",
   "title": "DUSC Club Calendar 2026–27",
-  "url": "https://docs.google.com/document/d/1cRLjkUjpvG_c-e8UItFnyj6u2qG0DxqQWXNTEWS7RNQ/edit",
-  "id": "club-calendar"
+  "url": "https://docs.google.com/document/d/1cRLjkUjpvG_c-e8UItFnyj6u2qG0DxqQWXNTEWS7RNQ/edit"
  },
  "community-programming": {
   "area": "Programs",
@@ -103,6 +103,7 @@
    "Move classes to Little Red (space and permit)."
   ],
   "fileId": "1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w",
+  "id": "community-programming",
   "keyPoints": [
    "Rec League: 347 registered, ~50 teams, ages 6–12, co-ed, friend requests shape teams; fall Sat/Sun 8–10 younger, 10:15–11:30 older, 12–3 Pier 40 Courtyard East; winter all at Pier 40 Indoor Jan 9/10–Mar 21/22 (10 weeks); spring Sat 3–7 Chelsea Waterside, Sun indoor 12–3",
    "Coach pay: Rec assistant coaches $35/hr, field supervisors $50/hr, classes head coaches $50/hr; most coaches start as assistants — quality has to improve from day one",
@@ -120,8 +121,7 @@
   ],
   "summary": "KP's running notes on community programming, now with his own notes from the Nov 5 Rec meeting. School connections lost after Covid are being rebuilt (PS 11, PS 126, PS 150, Lycée Français, Battery Park City School, Manhattan Youth); classes are up (152 vs 135 last fall) and moving to Little Red. The Rec League is 347 kids on ~50 co-ed teams, Sat/Sun at Pier 40, indoors Jan 9/10–Mar 21/22; the asks are better coaches (assistant $35/hr, field supervisors and class head coaches $50/hr), more parent involvement, aligning Classes/Rec/Camp into one pipeline, growing spring sessions, and equipment (Bazooka goals, coach uniforms).",
   "title": "Community Programming (Oct 14, 22 & Nov 5)",
-  "url": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit",
-  "id": "community-programming"
+  "url": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit"
  },
  "dusc-rec-meeting-2026-11-05": {
   "area": "Programs",
@@ -130,6 +130,7 @@
    "KP joins the Tuesday 10am Rec & Classes community call (Malorie to add him to the invite)."
   ],
   "fileId": "1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0",
+  "id": "dusc-rec-meeting-2026-11-05",
   "keyPoints": [
    "Rec league: 347 registered across 50+ teams, strongest in 2018–2020 birth years; ~10% are also academy players; older kids move fully to travel by 9–10.",
    "Session format: 20–25 min themed warm-up by DUSC staff, then league games; teams named after pro leagues; parent volunteer coaches assigned per team (info-meeting turnout up from 1 to 6 parents).",
@@ -148,8 +149,7 @@
   ],
   "summary": "First Rec sit-down with Oumou, Gustavo and Paul Fox: an overview of the Rec league (347 kids on 50+ teams, ages 6–13, weekend sessions at Pier 40 built around friend requests and school cohorts, parent volunteer coaches with DUSC staff running warm-ups) ahead of KP going full-time on Jan 1. Winter runs Jan 9/10 – Mar 21/22 indoors at Pier 40 with hand-picked fall coaches on 3-hour shifts; growth targets are ~360–370 kids and 40 high schoolers (up from 8 to 23). Main asks: better assistant coaches (college players), a media team that answers promo-table and email-blast requests, access to the league email list, and weekday class space now that squatting on Piers 25/46 is off the table.",
   "title": "DUSC Rec Meeting — Nov 5 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "dusc-rec-meeting-2026-11-05"
+  "url": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "dusc-x-soccerpost-2026-11-05": {
   "area": "Vendors",
@@ -158,6 +158,7 @@
    "Generic wicking or cotton t-shirts (not Adidas) for the 120 Classic tournament jerseys to keep cost down."
   ],
   "fileId": "1I4Yz_1nEGBVxO8-Wac78l5n8AgrB4Pu8DvoXGwEjELI",
+  "id": "dusc-x-soccerpost-2026-11-05",
   "keyPoints": [
    "Promo dollars are contract-fixed and priced off MSRP (30% margin, embellishments extra), so promo and cash are not 1:1; camp tees burn promo far faster than cash — Chris suggests promo for garments, cash for embellishments.",
    "~60% (~$60K) of the promo budget goes to camp t-shirts; the finance committee had preferred promo over cash.",
@@ -176,8 +177,7 @@
   ],
   "summary": "Partnership review with Chris Buysse and Erin Corey (Soccer Post) in year 4 of the Adidas/Soccer Post relationship. The call untangled how Adidas promo dollars (fixed contract allocation, ~70% of MSRP in cash value, expiring Dec 15) differ from Soccer Post fundraising dollars (cash from member markups), and surfaced that roughly 60% (~$60K) of promo goes to camp t-shirts. Roughly $70K of invoices is outstanding; Chris will send the cost-per-player/promo spreadsheet (received the same morning as 'dusc player kit pricing vs promo.xlsx'), a fan-wear link and a 2027 events calendar, while KP and Mal settle the payment strategy and payout method with finance.",
   "title": "DUSC x Soccerpost — Nov 5 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1I4Yz_1nEGBVxO8-Wac78l5n8AgrB4Pu8DvoXGwEjELI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "dusc-x-soccerpost-2026-11-05"
+  "url": "https://docs.google.com/document/d/1I4Yz_1nEGBVxO8-Wac78l5n8AgrB4Pu8DvoXGwEjELI/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "field-budget-oct8": {
   "area": "Facilities",
@@ -186,6 +186,7 @@
    "Winter indoor baseline = minimum required sessions, with flexibility for makeups."
   ],
   "fileId": "1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs",
+  "id": "field-budget-oct8",
   "keyPoints": [
    "3 girls and ~7 boys teams had no regular indoor time in the draft schedule.",
    "Mal proposed holding the indoor schedule through March 31 to save money.",
@@ -199,8 +200,7 @@
   ],
   "summary": "KP, Andy, Kyle on winter scheduling and budget. Build the indoor baseline on the minimum sessions needed; use Arman's field-units-per-hour model to standardize pricing; $132K of winter/spring budget is unallocated. 28 Liberty delivered 4.5 fields instead of 7, so negotiate credits.",
   "title": "Field + Budget — Oct 8 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit",
-  "id": "field-budget-oct8"
+  "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit"
  },
  "field-catchup-2026-11-05": {
   "area": "Facilities",
@@ -210,6 +210,7 @@
    "Include every rent-free space (Manhattan University fall/spring, Pier 40) in the supply database so it shows total supply."
   ],
   "fileId": "1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI",
+  "id": "field-catchup-2026-11-05",
   "keyPoints": [
    "Supply sheet now has actual contracts for Nightingale/Avenues (Avenues still a proposal), 28/29 Liberty and Thompson St (set to 1.5 field units); Little Red is slow but more weekend time is likely; Stephen Gaynor weekends possible; Immaculate Conception School (E 13th St, via Jesse) could add Mon/Wed weekday slots; Henry Street Settlement (BGR gym) just came in from Mal.",
    "Winter indoor demand scheduled so far: 391.5 season hours; supply shows ~579 but isn't fully populated — teams without a space aren't cross-referenced yet.",
@@ -227,27 +228,7 @@
   ],
   "summary": "Walkthrough with Andy of the winter supply spreadsheet: facilities, costs, hours and field units, linked to the $525K location budget. Andy wants a top-down dashboard — aggregate field-unit hours of supply vs demand by period (December vs Jan–Mar, weekday vs weekend), what's locked in as a percentage, and cost per unit — with every rent-free space (Manhattan University, Pier 40) included. Schedules go out in phases: December by Friday/Monday, Jan–Mar for zones 1–2 by Nov 15 with zone 3 to follow; finance metrics get pushed through at the 11/6 meeting with Paul and Nirmala.",
   "title": "Field Catchup — Nov 5 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "field-catchup-2026-11-05"
- },
- "finance-call-boys-academy": {
-  "area": "Finance",
-  "date": "2026-10-13",
-  "decisions": [],
-  "fileId": "1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig",
-  "keyPoints": [
-   "Boys Academy registrations are about $80K under budget with no explanation yet.",
-   "SFA (Soccer For All) was meant to be discussed but nothing was written down."
-  ],
-  "kind": "Scratch notes",
-  "modified": "2026-10-13T18:10:42Z",
-  "openQuestions": [
-   "Why are Boys Academy registrations -$80K vs. budget?"
-  ],
-  "summary": "A two-line prompt from the Oct 13 finance call: why Boys Academy registrations show roughly -$80K against budget, plus an empty SFA heading. The question is still open — Nirmala is working it with the auditors and the GA Showcase overrun sits alongside it as the other unexplained number.",
-  "title": "Finance Call — Boys Academy registrations (Oct 13)",
-  "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit",
-  "id": "finance-call-boys-academy"
+  "url": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-call": {
   "area": "Finance",
@@ -259,6 +240,7 @@
    "Start the search for a new finance person right away."
   ],
   "fileId": "1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI",
+  "id": "finance-call",
   "keyPoints": [
    "Bonus flow: Noemi sets up, Nirmala approves, Kristen pays; CC Kristen on anything payroll. Kristen is working the calculations — submit by Fri 11/13 for the 11/15 payout.",
    "Healthcare: census was due Nov 6; need the greater of 5 enrollees or 50% participation; Paychex guides the process and Paul works with Nirmala directly.",
@@ -277,8 +259,26 @@
   ],
   "summary": "KP's running finance agenda: the Nov 2 call (September close on QuickBooks only, bonuses by 11/15, audit timeline for the Dec 8 board meeting, Noemi's laptop, healthcare open enrollment, the GA Showcase and Boys Academy investigations) plus Nov 6 additions from the Andy/Paul catch-up. What matters now: the Sunday 11/8 11am QuickBooks-to-PlayMetrics reconciliation with Andy, bonuses submitted by Friday 11/13 (Kristen is working the calculations), Paul running healthcare with Paychex and leaning on Nirmala as little as possible, a call with Nirmala and the auditors on the audit timeline, and starting the finance-hire search right away (controller vs bookkeeper; Malorie has the Indeed account).",
   "title": "DUSC Finance Call (Nov 2 agenda, updated Nov 6)",
-  "url": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "finance-call"
+  "url": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "finance-call-boys-academy": {
+  "area": "Finance",
+  "date": "2026-10-13",
+  "decisions": [],
+  "fileId": "1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig",
+  "id": "finance-call-boys-academy",
+  "keyPoints": [
+   "Boys Academy registrations are about $80K under budget with no explanation yet.",
+   "SFA (Soccer For All) was meant to be discussed but nothing was written down."
+  ],
+  "kind": "Scratch notes",
+  "modified": "2026-10-13T18:10:42Z",
+  "openQuestions": [
+   "Why are Boys Academy registrations -$80K vs. budget?"
+  ],
+  "summary": "A two-line prompt from the Oct 13 finance call: why Boys Academy registrations show roughly -$80K against budget, plus an empty SFA heading. The question is still open — Nirmala is working it with the auditors and the GA Showcase overrun sits alongside it as the other unexplained number.",
+  "title": "Finance Call — Boys Academy registrations (Oct 13)",
+  "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit"
  },
  "finance-catchup-2026-11-06": {
   "area": "Finance",
@@ -290,6 +290,7 @@
    "Submit staff bonuses by Friday for the Nov 15 payout, assuming collected numbers verify."
   ],
   "fileId": "18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec",
+  "id": "finance-catchup-2026-11-06",
   "keyPoints": [
    "Boys Academy actual registrants 457 vs 498 reported; ~$8K variance in the income report; numbers were hardcoded rather than pulled from PlayMetrics.",
    "Healthcare: underwriting submission was due 11/6; need the greater of 5 enrollees or 50% participation for a Jan 1 start; Paul now leads the process.",
@@ -307,14 +308,14 @@
   ],
   "summary": "KP, Andy and Paul. The income file has registrant double-counting (Boys Academy 457 actual vs 498 reported once D-League is added) and hardcoded numbers, so KP and Andy will reconcile PlayMetrics against QuickBooks themselves on Sunday 11/8 at 11am. Paul is taking over the Paychex healthcare underwriting process directly, and the group agreed to start a search for a new finance hire (controller-type role) immediately, with the audit tracked in a proper status document.",
   "title": "Finance Catchup — Nov 6 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "finance-catchup-2026-11-06"
+  "url": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-prep-oct30": {
   "area": "Finance",
   "date": "2026-10-30",
   "decisions": [],
   "fileId": "1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os",
+  "id": "finance-prep-oct30",
   "keyPoints": [
    "Reconcile summary data, tie receivables back to registrants, check with Nirmala before anything goes out.",
    "Credit cards: Malorie, Gustavo, Leanne have them; Kyle needs one; long term, fewer cards.",
@@ -328,22 +329,21 @@
   ],
   "summary": "Prep for the finance conversation: staffing and priorities, 9/30 AR reporting in Andy's format, finalize September (bonuses by 11/15), investigate the GA Summer Showcase overrun, get the audit timetable, and write laptop and credit card policies.",
   "title": "Finance prep notes (Oct 30)",
-  "url": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
-  "id": "finance-prep-oct30"
+  "url": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit"
  },
  "finance-structure": {
   "area": "Finance",
   "date": "2026-10-23",
   "decisions": [],
   "fileId": "1I-6gIL15xg_e9pUgfjLyw5lmopBsfcrAvFMFoLrz1Zc",
+  "id": "finance-structure",
   "keyPoints": [],
   "kind": "Planning notes",
   "modified": "2026-10-23T17:31:38Z",
   "openQuestions": [],
   "summary": "Template for the monthly finance meeting: budget vs actuals YTD by program with a monthly summary and year-end forecast; receivables by program and by Academy team; registrant data vs budget and last year (incl. SFAs); cash flow; then open items — audit, medical, flags.",
   "title": "Finance Meeting Structure",
-  "url": "https://docs.google.com/document/d/1I-6gIL15xg_e9pUgfjLyw5lmopBsfcrAvFMFoLrz1Zc/edit",
-  "id": "finance-structure"
+  "url": "https://docs.google.com/document/d/1I-6gIL15xg_e9pUgfjLyw5lmopBsfcrAvFMFoLrz1Zc/edit"
  },
  "finance-weekly-nov2": {
   "area": "Finance",
@@ -353,6 +353,7 @@
    "Reporting switches to QuickBooks figures, not PlayMetrics."
   ],
   "fileId": "1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8",
+  "id": "finance-weekly-nov2",
   "keyPoints": [
    "September revenue is roughly $160K off overall (boys ~$80K, girls ~$92K, daily ~$31K) — still being explained.",
    "Bank of America: legacy owner means nobody can grant Nirmala admin access.",
@@ -366,8 +367,7 @@
   ],
   "summary": "KP and Nirmala. The board (Andy, Paul) is stepping back to bi-weekly check-ins; KP and Nirmala meet weekly. PlayMetrics revenue pulls are wrong — QuickBooks is the source of truth because it reconciles to the bank. September P&L is done; bonuses by 11/15 are below threshold. Auditors need ~2 weeks for a draft.",
   "title": "Finance Weekly — Nov 2 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit",
-  "id": "finance-weekly-nov2"
+  "url": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit"
  },
  "healthcare-catchup-2026-11-06": {
   "area": "People",
@@ -377,6 +377,7 @@
    "Use Arman's baseline weekly-hour formulas (team assignments + tier levels) as the standard for full-time status."
   ],
   "fileId": "1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8",
+  "id": "healthcare-catchup-2026-11-06",
   "keyPoints": [
    "Timeline: underwriting ~2 weeks, package approvals targeted by Nov 20, open enrollment Nov–Dec for a Jan 1 start; minimum 10 FTEs to underwrite and at least 5 sign-ups to finalize.",
    "Census: 19 names reviewed against a 30 hrs/week threshold; 5 disputed individuals removed; Oumou's hours calculation from the old budgeting files needs correcting.",
@@ -394,14 +395,14 @@
   ],
   "summary": "KP, Paul, Nirmala (and Kristen invited) worked through the Paychex healthcare census before the 11/6 underwriting deadline. The 19-name preliminary census was audited against weekly hours: assistant coaches do not reach 30 hrs/week, so the group decided to remove 5 disputed individuals from the full-time list, with Arman's baseline hour formulas as the reference. Paychex then answered the same evening: it corrected and resubmitted the census itself, people stay on it until marked part-time in Flex, dependents are not needed until enrollment, employer contribution is at least 50% of the lowest employee-only plan, and 50% of FT-eligible staff must participate.",
   "title": "Healthcare Catchup — Nov 6 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "healthcare-catchup-2026-11-06"
+  "url": "https://docs.google.com/document/d/1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "kyle-kushal": {
   "area": "Board",
   "date": "2026-11-03",
   "decisions": [],
   "fileId": "1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4",
+  "id": "kyle-kushal",
   "keyPoints": [
    "KP priorities: fix the finance gap ($200K budget reduction) and solve short-term PlayMetrics issues (tryout info).",
    "Media Day options: Socceroof (via Eric) or the ShakeShack basement; U7–U12 vs. MLS Next/GA dates.",
@@ -417,14 +418,14 @@
   ],
   "summary": "Running 1:1 with Kyle. Open items are Socceroof/Eric for Media Day, the Soccer.com deck, MLK via Kevin, Ron for Media Day space, and the 2027 staff handbook. This week: Media Day logistics, Herve Diese / future DOC, Paul Fox and community programming, Kyle OOO 11/11–11/28.",
   "title": "Kyle / Kushal 1:1",
-  "url": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit",
-  "id": "kyle-kushal"
+  "url": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit"
  },
  "ops-call-rain": {
   "area": "Scheduling",
   "date": "2026-10-07",
   "decisions": [],
   "fileId": "1mxOkO1QtnYKBSz02pkvaiLYOc6eSaYLTdh2kL2ub5Uc",
+  "id": "ops-call-rain",
   "keyPoints": [
    "216 scholarships, not easily visible in PlayMetrics.",
    "Ops is 'two steps behind' — plan dates and the calendar earlier."
@@ -434,8 +435,7 @@
   "openQuestions": [],
   "summary": "Rain-day calls are inconsistent across Academy and Rec; need a stronger policy and makeup approach that never guarantees. Winter planning split: Leanne (Academy), Mal (Community and Rec). The club overspent on winter space after Covid; BMCC is a good relationship for winter.",
   "title": "Ops Call — rain day and winter planning",
-  "url": "https://docs.google.com/document/d/1mxOkO1QtnYKBSz02pkvaiLYOc6eSaYLTdh2kL2ub5Uc/edit",
-  "id": "ops-call-rain"
+  "url": "https://docs.google.com/document/d/1mxOkO1QtnYKBSz02pkvaiLYOc6eSaYLTdh2kL2ub5Uc/edit"
  },
  "ops-meeting": {
   "area": "Facilities",
@@ -445,6 +445,7 @@
    "Decision process for new programs: TD/DOC → Ops → financial viability (KP)."
   ],
   "fileId": "1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg",
+  "id": "ops-meeting",
   "keyPoints": [
    "Winter: Unis and Avenues re-signed; Broad Street to confirm; LREI Thompson/Charlton, LeMans, Stephen Gaynor and Grace Church in talks; MLK at risk; Basis, BMCC, Major Owens, John Jay still to contact.",
    "11/4 agenda: mock schedule once LREI lands, December practice schedule due Friday, Media Day 11/18, coaches to own GotSport in Spring 27, summer and advanced camp planning, Veteran's Day comms, NEST call.",
@@ -461,8 +462,7 @@
   ],
   "summary": "The ops hub: an 18-row action table, a winter indoor space tracker across 21 venues, and a meeting log from Sep 30 through the 11/4 agenda. Weekday indoor space is the gap; MLK Tuesdays are at risk and LREI, Basis, Grace Church and St. Luke's are the live options.",
   "title": "DUSC Ops Meeting (running notes)",
-  "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "id": "ops-meeting"
+  "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
  "ops-winter-sep30": {
   "area": "Scheduling",
@@ -471,6 +471,7 @@
    "Draft the baseline winter schedule from last year; final per-zone indoor minimums wait on Kyle, Alex and Jason."
   ],
   "fileId": "1KcInpvGDIJST45Y6DjFeMZ_M1begPOOXi8xy23RDr2o",
+  "id": "ops-winter-sep30",
   "keyPoints": [
    "Rec uses extensive Pier 40 indoor weekend space in winter.",
    "Leanne took over MLS Next travel coordination.",
@@ -481,14 +482,14 @@
   "openQuestions": [],
   "summary": "KP, Malorie, Leanne. Academy outdoors under the HRPT permit Dec 1–18, indoor Jan 11–Mar 31, spring outdoor from Apr 1. Mal renews Little Red, Avenues, Broad Street and Unis; MLK is uncertain; Basis Brooklyn is useful for HS teams. Staff should pull their own AR from PlayMetrics rather than ask Ops.",
   "title": "Ops Winter Meeting — Sep 30 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1KcInpvGDIJST45Y6DjFeMZ_M1begPOOXi8xy23RDr2o/edit",
-  "id": "ops-winter-sep30"
+  "url": "https://docs.google.com/document/d/1KcInpvGDIJST45Y6DjFeMZ_M1begPOOXi8xy23RDr2o/edit"
  },
  "reconciliation-questions-nov8": {
   "area": "Finance",
   "date": "2026-11-08",
   "decisions": [],
   "fileId": "1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM",
+  "id": "reconciliation-questions-nov8",
   "keyPoints": [
    "Get the reconciliation Nirmala did for 9/30 and go through its formulas and linking.",
    "Bank transactions: which bank reconciliation the number comes from, broken down across all programs, with or without credit-card fees, and what QuickBooks holds by team.",
@@ -506,14 +507,14 @@
   ],
   "summary": "KP's question list for Nirmala, written during Sunday's 11am Finance Catchup slot with Andy: get the reconciliation she did for 9/30 and trace each figure back to its source. It is the working script for Monday's 10:30 'Sept 30 Reconciliation' with her — where the bank-transaction and PlayMetrics numbers came from, whether income can be seen by team and by player, and what the receivable was at 9/30, since the pay-to-date report doesn't show one.",
   "title": "9/30 reconciliation — questions for Nirmala (Nov 8)",
-  "url": "https://docs.google.com/document/d/1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM/edit?usp=drivesdk&ouid=114282482648379906347",
-  "id": "reconciliation-questions-nov8"
+  "url": "https://docs.google.com/document/d/1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "soccerpost-scratch-nov5": {
   "area": "Vendors",
   "date": "2026-11-05",
   "decisions": [],
   "fileId": "1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU",
+  "id": "soccerpost-scratch-nov5",
   "keyPoints": [
    "~$6,000 of Adidas promo left; it expires Dec 15 and must be spent (coach free goods — coaches won't buy DUSC product otherwise)",
    "Promo: ~$100K/yr nominal, ~$70K cash value; fundraising is 30% off MSRP (a kit DUSC gets for $35)",
@@ -531,14 +532,14 @@
   ],
   "summary": "KP's own notes from the Nov 5 Soccer Post call (the Gemini notes carry the full detail). The sharp points: Adidas promo is ~$100K a year with a cash value near $70K, DUSC is spending too much of it on T-shirts, and only about $6,000 of promo is left before it expires Dec 15. Soccer Post fundraising adds $10 per uniform to the scholarship fund; the question for finance is whether promo and fundraising dollars pay down the big invoices or roll into next year, with 2027 a blank slate for uniforms.",
   "title": "Soccer Post call — scratch notes (Nov 5)",
-  "url": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit",
-  "id": "soccerpost-scratch-nov5"
+  "url": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit"
  },
  "winter-futsal": {
   "area": "Programs",
   "date": "2026-10-15",
   "decisions": [],
   "fileId": "1gre0EJxaLUNjth_WKx8YUGFM9c5vSCqcp0w41PrAWCY",
+  "id": "winter-futsal",
   "keyPoints": [
    "Facilities: Pier 40 Indoor (one weekend), Avenues, BMCC, Roosevelt Island PlayPlex.",
    "US Youth Futsal affiliation adds value; could roll into 10 teams.",
@@ -549,14 +550,14 @@
   "openQuestions": [],
   "summary": "Three years of futsal at DUSC; last year was the strongest, 100% for second-team players (girls U10/U11). Plan: 5 teams to start, $2,000 each for winter, 2 events per team, 6.5 training hours/week, one training night a week. Needs a solid NYC Premier Futsal plan by Nov 1.",
   "title": "Winter Futsal",
-  "url": "https://docs.google.com/document/d/1gre0EJxaLUNjth_WKx8YUGFM9c5vSCqcp0w41PrAWCY/edit",
-  "id": "winter-futsal"
+  "url": "https://docs.google.com/document/d/1gre0EJxaLUNjth_WKx8YUGFM9c5vSCqcp0w41PrAWCY/edit"
  },
  "winter-space-top-down": {
   "area": "Facilities",
   "date": "2026-10-01",
   "decisions": [],
   "fileId": "1l-aXUAkcTxyoA-OcMl3tv_V0TAhkwRkiFbvzEFd108o",
+  "id": "winter-space-top-down",
   "keyPoints": [
    "Supply first: secure 26/27 spaces before planning demand.",
    "Know the cost per venue before locking anything in."
@@ -568,7 +569,6 @@
   ],
   "summary": "KP's framing for winter space right after the Sep 30 ops meeting: find where the club got the most space and what it costs, lock in venues based on what is actually needed, and only then build the demand side for 26/27. This became the field-units budget model and the winter space tracker.",
   "title": "Top-down winter space notes (Oct 1)",
-  "url": "https://docs.google.com/document/d/1l-aXUAkcTxyoA-OcMl3tv_V0TAhkwRkiFbvzEFd108o/edit",
-  "id": "winter-space-top-down"
+  "url": "https://docs.google.com/document/d/1l-aXUAkcTxyoA-OcMl3tv_V0TAhkwRkiFbvzEFd108o/edit"
  }
 }
