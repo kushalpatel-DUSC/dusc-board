@@ -984,7 +984,7 @@
  "kp-text-kyle-hours": {
   "area": "People",
   "createdAt": "2026-11-06T23:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:43:05.477Z",
   "due": null,
   "id": "kp-text-kyle-hours",
   "note": "Baseline weekly-hour formulas (Arman) use team assignments and tier levels; assistant coaches were judged under 30 hrs.",
@@ -995,10 +995,10 @@
   "raised": "2026-11-06",
   "source": "Healthcare Catchup Nov 6, 2026",
   "sourceUrl": "https://docs.google.com/document/d/1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to text Kyle for the data needed to verify weekly hours for employees on the current census list",
-  "updatedAt": "2026-11-06T23:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T03:43:05.477Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
