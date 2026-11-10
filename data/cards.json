@@ -765,7 +765,7 @@
  "mlk-tuesday-space": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:31:45.213Z",
   "due": null,
   "id": "mlk-tuesday-space",
   "note": "Tuesday slot may not be available. Contacts: Josh Sherron, Jake, Kev. Kyle also reaching out to Kevin — resolve ASAP.",
@@ -774,10 +774,12 @@
   "raised": "2026-09-30",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "doing",
+  "status": "done",
   "title": "Contact Josh Sherron and Jake about MLK HS Tuesday space (6:30–9pm)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T04:31:45.213Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "mock-winter-schedule-lrei": {
   "area": "Scheduling",
