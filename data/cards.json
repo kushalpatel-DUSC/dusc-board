@@ -340,7 +340,7 @@
  "email-gabi-ajami": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:30:11.877Z",
   "due": null,
   "id": "email-gabi-ajami",
   "note": null,
@@ -349,10 +349,12 @@
   "raised": "2026-10-22",
   "source": "Community Programming",
   "sourceUrl": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Email Gabi Ajami (Manhattan Youth), adding Paul and David Criollo",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T04:30:11.877Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "faq-parent-portal": {
   "area": "Systems",
