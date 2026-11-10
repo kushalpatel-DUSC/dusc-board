@@ -643,7 +643,7 @@
  "finance-summaries-nov6": {
   "area": "Finance",
   "createdAt": "2026-11-05T21:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:28:46.379Z",
   "due": "2026-11-06",
   "id": "finance-summaries-nov6",
   "note": "Andy has been without income/receivables/registrant numbers for a month and needs them before bonuses can be announced. Related: ar-reporting-930.",
@@ -654,10 +654,10 @@
   "raised": "2026-11-05",
   "source": "Field Catchup — Nov 5",
   "sourceUrl": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to send Andy and Paul the compiled finance summaries (bank transactions, expenses, income, receivables, registrant numbers) before the 11/6 Finance Catchup",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T03:28:46.379Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
