@@ -53,7 +53,7 @@
  "adidas-promo-spend-dec15": {
   "area": "Vendors",
   "createdAt": "2026-11-06T10:52:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:38:41.126Z",
   "due": "2026-12-15",
   "id": "adidas-promo-spend-dec15",
   "note": "Promo must be spent, not banked; coaches won't buy DUSC product otherwise. 2027 is a blank slate for uniforms.",
@@ -64,10 +64,10 @@
   "raised": "2026-11-05",
   "source": "Soccer Post call scratch notes (Nov 5)",
   "sourceUrl": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit",
-  "status": "todo",
+  "status": "done",
   "title": "KP and Mal to spend the remaining ~$6,000 of Adidas promo (coach free goods, fan wear) before it expires Dec 15",
-  "updatedAt": "2026-11-06T10:52:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T03:38:41.126Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
