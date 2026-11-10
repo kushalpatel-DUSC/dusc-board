@@ -2263,8 +2263,10 @@
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
   "status": "todo",
   "title": "Take a look at St. Luke's for 7v7 ages (gym weekends only or weekdays after 6pm, $140–150/hr)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T03:42:41.139Z",
+  "userEdited": true,
+  "pinned": true,
+  "pinnedAt": "2026-11-10T03:42:41.139Z"
  },
  "staff-handbook-2027": {
   "area": "People",
