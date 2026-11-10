@@ -307,7 +307,7 @@
  "bonus-process": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T03:39:03.563Z",
   "due": "2026-11-15",
   "id": "bonus-process",
   "note": "Based on September numbers (now in the package, QuickBooks figures). Kristen inputs payroll; Noemi sets up, Nirmala approves, Kristen pays.",
@@ -316,10 +316,12 @@
   "raised": "2026-11-02",
   "source": "DUSC Finance Call",
   "sourceUrl": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit",
-  "status": "doing",
+  "status": "done",
   "title": "Bonuses by 11/15: consult Andy and Kyle on the distribution process, then set up the email thread with Nirmala, Noemi and Kristen (CC Kristen on anything payroll)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T03:39:03.563Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "boys-academy-numbers": {
   "area": "Finance",
