@@ -1150,7 +1150,7 @@
  "soccer-post-call": {
   "area": "Vendors",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:24:23.594Z",
   "due": null,
   "id": "soccer-post-call",
   "note": "T-shirts for Rec and Classes? Promo dollars held back for a period. Also needs to align with the Adidas invoice.",
@@ -1159,10 +1159,12 @@
   "raised": "2026-10-16",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Set up a call with Soccer Post (KP, Mal, Noemi)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T04:24:23.594Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "socceroof-eric-media-day": {
   "area": "Media Day",
