@@ -1286,7 +1286,7 @@
  "staffing-roles-review": {
   "area": "People",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:24:36.438Z",
   "due": null,
   "id": "staffing-roles-review",
   "note": null,
@@ -1295,10 +1295,12 @@
   "raised": "2026-10-30",
   "source": "Finance prep notes (Oct 30)",
   "sourceUrl": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Staffing: review current roles and which need replacing, with whom",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-10T04:24:36.438Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "supply-db-rent-free-spaces": {
   "area": "Facilities",
