@@ -9,7 +9,8 @@ op: "set" (replace the whole doc), "merge" (shallow-merge fields), "delete", and
 done and changes nothing else - safe on agendas the user has edited).
 source "sync" (the scheduled tasks) is guarded: it never deletes, never touches an inbox item the
 user has handled, and never overrides fields the user has edited (userEdited: true) on cards,
-meetings or series. The page (source "user") has no guard.
+meetings or series. On notes it can add to the "actions" list (other people's to-dos) or mark one
+done, but never removes or unticks one. The page (source "user") has no guard.
 Prints a one-line summary. Exit code 0 on success.
 """
 import json, os, sys
@@ -86,6 +87,20 @@ def main():
                 for k in PROTECTED['meetings']:
                     if k in existing:
                         patch[k] = existing[k]
+        if coll == 'notes' and guarded and existing is not None and (existing.get('actions') or 'actions' in patch):
+            # other people's to-dos live on the note: a sync may add new ones or mark one done,
+            # but never drops one, never unticks one, and never brings back one the user moved to his board
+            norm = lambda t: ' '.join(str(t or '').lower().split())
+            merged = [dict(a) for a in (existing.get('actions') or [])]
+            for a in (patch.get('actions') or []):
+                if not isinstance(a, dict) or not a.get('text'):
+                    continue
+                hit = next((m for m in merged if (a.get('id') and m.get('id') == a.get('id')) or norm(m.get('text')) == norm(a.get('text'))), None)
+                if hit is None:
+                    merged.append(a)
+                elif a.get('done') and not hit.get('done'):
+                    hit['done'] = True; hit['doneAt'] = a.get('doneAt')
+            patch['actions'] = merged
         if coll == 'cards':
             patch.setdefault('id', oid)
         if coll == 'meetings':

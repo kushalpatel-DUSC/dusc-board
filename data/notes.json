@@ -97,6 +97,58 @@
   "url": "https://docs.google.com/document/d/1cRLjkUjpvG_c-e8UItFnyj6u2qG0DxqQWXNTEWS7RNQ/edit"
  },
  "community-programming": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "battery-park-permit",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-22",
+    "text": "Explore a Battery Park permit (games / Academy; across from Avenues)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "coach-job-description",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-14",
+    "text": "Create a coach job description and post it ($50–75 per session); source from summer camp coaches"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "gustavo-schools-list",
+    "note": null,
+    "owner": "Gustavo",
+    "raised": "2026-10-22",
+    "text": "Gustavo to send the list of all schools to KP"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "players-by-school",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-22",
+    "text": "Build a list of all players and where they go to school"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "weekday-classes-decision",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-22",
+    "text": "Decide whether to bring weekday classes back (younger ages popular; Socceroof Wed 5–6 had 13 kids)"
+   }
+  ],
   "area": "Programs",
   "date": "2026-11-05",
   "decisions": [
@@ -124,6 +176,28 @@
   "url": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit"
  },
  "dusc-rec-meeting-2026-11-05": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "oumou-media-promo-table",
+    "note": "Form submitted Monday with no reply yet.",
+    "owner": "TBD",
+    "raised": "2026-11-05",
+    "text": "Oumou to email the media team about the promotion-table request, copying KP"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "rec-academy-participation",
+    "note": "Estimate on the call was ~10%.",
+    "owner": "TBD",
+    "raised": "2026-11-05",
+    "text": "Oumou to ask Simon for an analysis of how many academy players also play in the Rec program"
+   }
+  ],
   "area": "Programs",
   "date": "2026-11-05",
   "decisions": [
@@ -152,6 +226,38 @@
   "url": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "dusc-x-soccerpost-2026-11-05": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "soccerpost-event-calendar",
+    "note": "Chris also offered a consolidated Google doc tracking all Soccer Post bills; Adidas promo balance lives on the Click portal, scholarship kits on Mal's spreadsheet.",
+    "owner": "TBD",
+    "raised": "2026-11-05",
+    "text": "Soccer Post (Chris) to draft a 2027 calendar of uniform events and deadlines for DUSC (logo submission dates, promo expiry, order windows)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "soccerpost-fan-wear-link",
+    "note": "DUSC earns a 20% commission on fan wear (hoodies, tees, jackets); designs refresh for 2027.",
+    "owner": "TBD",
+    "raised": "2026-11-05",
+    "text": "Soccer Post (Chris) to send the fan-wear store URL so it can go on the DUSC website"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "soccerpost-tournament-shirts",
+    "note": "Agreed on the call: go with generic wicking or cotton tees to keep cost down; sponsor logos required (excluding collective).",
+    "owner": "TBD",
+    "raised": "2026-11-05",
+    "text": "Soccer Post (Chris) to send Malorie pricing (Adidas vs generic wicking/cotton) and a mockup for the 120 Classic tournament jerseys"
+   }
+  ],
   "area": "Vendors",
   "date": "2026-11-05",
   "decisions": [
@@ -203,6 +309,18 @@
   "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit"
  },
  "field-catchup-2026-11-05": {
+  "actions": [
+   {
+    "done": true,
+    "doneAt": "2026-11-05T19:53:50Z",
+    "due": null,
+    "id": "andy-28-liberty-cost-file",
+    "note": "Received 11/5 3:53pm — '28 Liberty cost calcs.xlsx' (email '28 Liberty current file').",
+    "owner": "Andy",
+    "raised": "2026-11-05",
+    "text": "Andy to forward KP the latest 28 Liberty cost analysis file"
+   }
+  ],
   "area": "Facilities",
   "date": "2026-11-05",
   "decisions": [
@@ -231,6 +349,98 @@
   "url": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-call": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "boys-academy-numbers",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-10-13",
+    "text": "Boys Academy registrations: why -$80K vs budget (Nirmala working with the auditors)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "catch-up-sept-oct-expenses",
+    "note": "Added to the Finance Call notes on 11/6 alongside 'use September numbers as a test case'; Noemi is in the middle of the bank reconciliations, so decide who takes expense catch-up.",
+    "owner": "TBD",
+    "raised": "2026-11-06",
+    "text": "Catch up on September and October expense entry in QuickBooks (AP, spend and expense) so the September test-case close and October package are complete"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "cc-reconciliations",
+    "note": null,
+    "owner": "Noemi",
+    "raised": "2026-11-02",
+    "text": "Credit card reconciliations: get cardholders to upload receipts"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "donations-monthly",
+    "note": null,
+    "owner": "Noemi",
+    "raised": "2026-11-02",
+    "text": "Donations: download monthly reports from Zeffy and other external sites, tie to line items"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-06",
+    "id": "healthcare-open-enrollment",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-02",
+    "text": "Healthcare: census to Paychex (Kristen done), then Nirmala sends plan options for underwriting — 3–4 plans incl. an HSA option"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "noemi-laptop",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-02",
+    "text": "Laptop reimbursement for Noemi (approved up to $1,500 by Paul) — Nirmala to request purchase links"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "receivables-weekly",
+    "note": null,
+    "owner": "Noemi",
+    "raised": "2026-11-02",
+    "text": "Receivables: run reports and stay on top of them week by week"
+   },
+   {
+    "done": true,
+    "doneAt": "2026-11-04T23:45:00Z",
+    "due": null,
+    "id": "sept-package-quickbooks",
+    "note": "Gemini 11/2: September P&L completed and in the package.",
+    "owner": "Nirmala",
+    "raised": "2026-11-02",
+    "text": "September financial package finalized using QuickBooks numbers only"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2027-01-15",
+    "id": "w9s-1099s",
+    "note": null,
+    "owner": "Noemi",
+    "raised": "2026-11-02",
+    "text": "Collect W9s from all vendors (new and old) and keep the 1099 spreadsheet current"
+   }
+  ],
   "area": "Finance",
   "date": "2026-11-06",
   "decisions": [
@@ -281,6 +491,48 @@
   "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit"
  },
  "finance-catchup-2026-11-06": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-11",
+    "id": "andy-staff-finance-comms",
+    "note": "Bonuses to be submitted by Fri 11/13 for the 11/15 payout, assuming the collected numbers check out over the weekend.",
+    "owner": "Andy",
+    "raised": "2026-11-06",
+    "text": "Andy"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "audit-tracker",
+    "note": "Owner: the group (KP, Andy, Paul). Audit is stalled pending auditor responses; KP may connect with the auditors directly to clarify requirements.",
+    "owner": "TBD",
+    "raised": "2026-11-06",
+    "text": "TBD"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-09",
+    "id": "paul-healthcare-takeover",
+    "note": "Census questions are out to Paychex; possible resubmission by Mon 11/9. Employees face closing open-enrollment windows elsewhere.",
+    "owner": "TBD",
+    "raised": "2026-11-06",
+    "text": "TBD"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "paul-showcase-budget-review",
+    "note": "Top-down reasonableness check suggested by Andy.",
+    "owner": "TBD",
+    "raised": "2026-11-06",
+    "text": "TBD"
+   }
+  ],
   "area": "Finance",
   "date": "2026-11-06",
   "decisions": [
@@ -346,6 +598,18 @@
   "url": "https://docs.google.com/document/d/1I-6gIL15xg_e9pUgfjLyw5lmopBsfcrAvFMFoLrz1Zc/edit"
  },
  "finance-weekly-nov2": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-cc-kp-audit",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-02",
+    "text": "Include KP on all auditor email threads"
+   }
+  ],
   "area": "Finance",
   "date": "2026-11-02",
   "decisions": [
@@ -370,6 +634,38 @@
   "url": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit"
  },
  "healthcare-catchup-2026-11-06": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-09",
+    "id": "kristen-paychex-flex-fixes",
+    "note": "Paychex (Jennifer) cannot remove anyone marked FT in Flex; Paul asked Kristen/Nirmala to fix ASAP (11/6 email).",
+    "owner": "Kristen",
+    "raised": "2026-11-06",
+    "text": "Kristen to audit the insurance enrollment calculations in Paychex Flex, fix errors and mark the removed individuals as part-time so the census can be re-pulled"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "paul-email-jason-ibrahim-hours",
+    "note": "Determines whether he stays on the full-time census.",
+    "owner": "Paul",
+    "raised": "2026-11-06",
+    "text": "Paul to ask Jason and Andy whether Ibrahim works 30 or more hours per week"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "paul-reconcile-census-fte",
+    "note": "Paul sent KP and Nirmala the 'Salaried Employee Analysis' sheet (built with Arman) on 11/6.",
+    "owner": "Paul",
+    "raised": "2026-11-06",
+    "text": "Paul to review and update the employee census so the full-time calculations are accurate, including the Oumou hours correction"
+   }
+  ],
   "area": "People",
   "date": "2026-11-06",
   "decisions": [
@@ -398,6 +694,48 @@
   "url": "https://docs.google.com/document/d/1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "kyle-kushal": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "future-doc-decision",
+    "note": null,
+    "owner": "Kyle",
+    "raised": "2026-11-03",
+    "text": "Herve Diese / future DOC — decide next step"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-14",
+    "id": "kyle-ron-media-day-space",
+    "note": null,
+    "owner": "Kyle",
+    "raised": "2026-10-19",
+    "text": "Kyle to reach out to Ron about Media Day space — before mid-November"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "kyle-soccer-com-deck",
+    "note": null,
+    "owner": "Kyle",
+    "raised": "2026-10-19",
+    "text": "Kyle to share the Soccer.com slide deck with KP"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "spring-team-pictures",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-19",
+    "text": "Find a service for spring team pictures"
+   }
+  ],
   "area": "Board",
   "date": "2026-11-03",
   "decisions": [],
@@ -438,6 +776,238 @@
   "url": "https://docs.google.com/document/d/1mxOkO1QtnYKBSz02pkvaiLYOc6eSaYLTdh2kL2ub5Uc/edit"
  },
  "ops-meeting": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "adv-camp-director",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-04",
+    "text": "Name an Advanced Camp Director and build the Summer Camp payment matrix (2 girls-only camps with all-female staff)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-06",
+    "id": "december-practice-schedule",
+    "note": "11/4: should be done by Friday. Academy mock schedule Dec 1–18 is outdoors, Wednesdays at Socceroof Wall Street.",
+    "owner": "Leanne",
+    "raised": "2026-10-21",
+    "text": "December practice schedule finalized and into PlayMetrics"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "friendlies-ga-mlsnext",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-16",
+    "text": "Find friendlies for GA and MLS Next teams"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "gotsport-coach-ownership",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-04",
+    "text": "Decide on a new system for coaches to own GotSport scheduling in Spring 27 (field scheduler viability; NEAL + GA/MLS Next keep Ops support; EDP/CJSL on the coach)"
+   },
+   {
+    "done": true,
+    "doneAt": "2026-11-04T23:45:00Z",
+    "due": null,
+    "id": "jan-practice-schedule",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-09-30",
+    "text": "January practice schedule done by December"
+   },
+   {
+    "done": true,
+    "doneAt": "2026-11-04T23:45:00Z",
+    "due": null,
+    "id": "jesse-league-followup",
+    "note": null,
+    "owner": "Jesse",
+    "raised": "2026-10-16",
+    "text": "Follow up after the league meeting on the futsal program"
+   },
+   {
+    "done": true,
+    "doneAt": "2026-11-05T01:24:53.555Z",
+    "due": null,
+    "id": "kyle-mlk-weekday",
+    "note": null,
+    "owner": "Kyle",
+    "raised": "2026-10-16",
+    "text": "Kyle to reach out to Kevin re: MLK weekday space — resolve ASAP"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-team-schedule",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-09-30",
+    "text": "Send team schedule (was due the Wednesday after Sep 30; confirm it was sent)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-contracts-folder",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-10-07",
+    "text": "Put all facility contracts in one shared folder"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-lrei-followup",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-10-07",
+    "text": "Follow up with Little Red (LREI) — Thompson St Saturdays, Charlton Tue/Wed/Thu; more space, earlier start?"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-space-tracker-update",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-10-23",
+    "text": "Update the winter space tracker with every contract's status"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-stephen-gaynor",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-10-07",
+    "text": "Follow up with Stephen Gaynor School (UWS) — Friday futsal, older group"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-winter-contracts-status",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-09-30",
+    "text": "Report status of all winter contracts (same number as last year? what is locked in?)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mls-next-coordinator",
+    "note": null,
+    "owner": "Kyle",
+    "raised": "2026-10-21",
+    "text": "Decide on the MLS Next Coordinator role ($25,000)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-12-05",
+    "id": "pier40-dec-5-6",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-28",
+    "text": "Decide how to use Pier 40 Indoor on Dec 5–6 (Sat 12–8, Sun 8–8) between winter and spring permits — an idea plus a few coaches"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "playmetrics-game-changes",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-04",
+    "text": "PlayMetrics: all game changes are manual — raise with PlayMetrics / find a workflow"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2027-01-15",
+    "id": "playmetrics-ops-training",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-23",
+    "text": "PlayMetrics training for Ops; move the tryout form into PlayMetrics and trial it over the winter (ideal: done in January)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "ref-fees-digitize",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-21",
+    "text": "Can we digitize ref fees? Build a GA home-game one-pager and a clear reimbursement path for coaches"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "simon-hours-sheet",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-10-28",
+    "text": "Make a separate spreadsheet for Simon's hours"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "summer-camp-sibling-discount",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-04",
+    "text": "Check whether PlayMetrics can do sibling discounts; pool / arts & crafts for young camps"
+   },
+   {
+    "done": true,
+    "doneAt": "2026-11-04T23:45:00Z",
+    "due": null,
+    "id": "training-baseline",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-09-30",
+    "text": "Connect with Kyle, Alex and Jason on team needs and minimum/ideal training baseline"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-11",
+    "id": "veterans-day-comms",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-04",
+    "text": "Veteran's Day comms — Constant Contact blast and how coaches put it in their emails"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "website-update",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-28",
+    "text": "Website update — involve Malorie, Leanne, Alex and Jason with whoever was brought in"
+   }
+  ],
   "area": "Facilities",
   "date": "2026-11-04",
   "decisions": [
@@ -465,6 +1035,68 @@
   "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
  "ops-winter-sep30": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-sydney-contract",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-09-30",
+    "text": "Verify Sydney has signed her contract for the year"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-blackout-dates",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-09-30",
+    "text": "Mark blackout dates (e.g. Easter weekend) on indoor facility contracts"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-bonus-review",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-09-30",
+    "text": "Submit the bonus review framework"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-boys-girls-republic",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-09-30",
+    "text": "Email Chris to confirm the Boys and Girls Republic facility status"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-freddy-cinci-contact",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-09-30",
+    "text": "Send the Freddy Cinci contact to KP"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-rec-in-matrix",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-09-30",
+    "text": "Include the Rec program in the schedule matrix"
+   }
+  ],
   "area": "Scheduling",
   "date": "2026-09-30",
   "decisions": [
@@ -535,6 +1167,18 @@
   "url": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit"
  },
  "winter-futsal": {
+  "actions": [
+   {
+    "done": true,
+    "doneAt": "2026-11-04T23:45:00Z",
+    "due": "2026-11-01",
+    "id": "futsal-plan-nov1",
+    "note": null,
+    "owner": "Jesse",
+    "raised": "2026-10-15",
+    "text": "Solid plan for NYC Premier Futsal registration by Nov 1"
+   }
+  ],
   "area": "Programs",
   "date": "2026-10-15",
   "decisions": [],
