@@ -1057,7 +1057,7 @@
  "rec-tuesday-call-invite": {
   "area": "Programs",
   "createdAt": "2026-11-05T21:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:31:26.735Z",
   "due": null,
   "id": "rec-tuesday-call-invite",
   "note": "KP plans to sit in for ~40 minutes of the hour.",
@@ -1068,10 +1068,10 @@
   "raised": "2026-11-05",
   "source": "DUSC Rec Meeting — Nov 5",
   "sourceUrl": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to get Malorie to add him to the Tuesday 10am Rec & Classes community call invite",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T04:31:26.735Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
