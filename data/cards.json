@@ -927,7 +927,7 @@
  "playmetrics-subs-930": {
   "area": "Finance",
   "createdAt": "2026-11-06T21:15:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-10T04:18:09.143Z",
   "due": "2026-11-08",
   "id": "playmetrics-subs-930",
   "note": "Andy will review and work out which reports are needed for the income reconciliation.",
@@ -938,10 +938,10 @@
   "raised": "2026-11-06",
   "source": "Finance Catchup — Nov 6",
   "sourceUrl": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Get the PlayMetrics subscription reports as of 9/30 for the income reconciliation",
-  "updatedAt": "2026-11-06T21:15:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-10T04:18:09.143Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
