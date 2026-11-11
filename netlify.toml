@@ -1,0 +1,13 @@
+# DUSC Action Board. The page is in site/, the sign-in function in netlify/functions/.
+[build]
+  publish = "site"
+  command = ""
+
+[functions]
+  directory = "netlify/functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Referrer-Policy = "no-referrer"
