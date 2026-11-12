@@ -272,10 +272,11 @@
    "Fan wear earns DUSC 20%; store links on the website and refreshed 2027 designs should lift sales.",
    "Coach free goods: Dec 15 promo expiry; returning coaches 2 jerseys + 1 short, new coaches $500–600 package; store pickup is $0, home shipping has a fee — KP to test the portal checkout.",
    "DUSC is the only club applying fundraising dollars to invoices rather than taking ACH cash; ~$70K of invoices outstanding.",
-   "Chris's cost-per-player/promo spreadsheet arrived the same morning ('pricing' email, dusc player kit pricing vs promo.xlsx)."
+   "Chris's cost-per-player/promo spreadsheet arrived the same morning ('pricing' email, dusc player kit pricing vs promo.xlsx).",
+   "KP's quick notes added 11/9: Adidas promo — coaches gear and Soccer.com — with the figures 22,000 + 6,000 = 28,000."
   ],
   "kind": "Gemini meeting notes",
-  "modified": "2026-11-05T15:44:33.362Z",
+  "modified": "2026-11-09T15:12:21.921Z",
   "openQuestions": [
    "Keep applying fundraising dollars to invoices or switch to ACH cash transfers?",
    "How to settle the ~$70K outstanding invoices across promo and fundraising dollars, and what that does to next year's budget",
@@ -439,10 +440,30 @@
     "owner": "Noemi",
     "raised": "2026-11-02",
     "text": "Collect W9s from all vendors (new and old) and keep the 1099 spreadsheet current"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "ft-pay-rule-handbook",
+    "note": "Ties to the 2027 Staff Handbook update on KP's board.",
+    "owner": "TBD",
+    "raised": "2026-11-10",
+    "text": "Write the full-time pay rule into the staff handbook: full-time employees are not paid hourly, and extra time is covered by the bonus plan"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "ft-pay-rule-communication",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-10",
+    "text": "Communicate the full-time pay rule to the community-programming staff it affects (Paul Fox and Gustavo noted alongside)"
    }
   ],
   "area": "Finance",
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "decisions": [
    "Laptop reimbursement for Noemi up to $1,500 — the last one until a policy exists.",
    "Sunday 11/8 11am call between Andy and KP to reconcile QuickBooks to PlayMetrics.",
@@ -452,23 +473,23 @@
   "fileId": "1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI",
   "id": "finance-call",
   "keyPoints": [
-   "Bonus flow: Noemi sets up, Nirmala approves, Kristen pays; CC Kristen on anything payroll. Kristen is working the calculations — submit by Fri 11/13 for the 11/15 payout.",
-   "Healthcare: census was due Nov 6; need the greater of 5 enrollees or 50% participation; Paychex guides the process and Paul works with Nirmala directly.",
-   "Audit: get the timeline, get on a call with Nirmala and the auditors to see what she is working through with them, and add status colors to the open-items list.",
-   "GA Summer Showcase becomes urgent if anything is going to be done about it — do a historic review of the issue.",
-   "Use September as the test case to get the whole process right (QuickBooks to PlayMetrics reconciliation); Noemi is in the middle of the bank reconciliations; September and October expenses still need catching up.",
-   "Finance hire: define the short-term and long-term job description (budget core vs nice-to-haves; Financial Controller vs Bookkeeper) and start the search immediately via Malorie's Indeed account."
+   "11/10 payroll: no full-time employees are paid hourly; the bonus plan covers extra time. Part-time work is fill-in work that should simply get done.",
+   "The full-time rule goes into the handbook, with a communication to the affected community-programming staff (Paul Fox and Gustavo noted).",
+   "Bonus flow: Noemi sets up, Nirmala approves, Kristen pays; Kristen is working the calculations — submit by Fri 11/13 for the 11/15 payout.",
+   "Healthcare: need the greater of 5 enrollees or 50% participation; Paychex guides the process and Paul works with Nirmala directly.",
+   "Audit: get the timeline, get on a call with Nirmala and the auditors, add status colors to the open-items list.",
+   "Use September as the test case (QuickBooks to PlayMetrics); Sept and Oct expenses still need catching up; finance hire — short-term vs long-term JD, start via Malorie's Indeed account."
   ],
   "kind": "Agenda + notes",
-  "modified": "2026-11-06T19:25:29.087Z",
+  "modified": "2026-11-10T19:44:31.024Z",
   "openQuestions": [
    "How do we move forward on the GA Summer Showcase and Boys Academy discrepancies, and how should they be treated?",
    "Where is our spend going (AP, spend and expense)?",
    "What is the right job description for the finance hire — controller or bookkeeper, short term vs long term?",
    "Who catches up the September and October expenses while Noemi is in the bank reconciliations?"
   ],
-  "summary": "KP's running finance agenda: the Nov 2 call (September close on QuickBooks only, bonuses by 11/15, audit timeline for the Dec 8 board meeting, Noemi's laptop, healthcare open enrollment, the GA Showcase and Boys Academy investigations) plus Nov 6 additions from the Andy/Paul catch-up. What matters now: the Sunday 11/8 11am QuickBooks-to-PlayMetrics reconciliation with Andy, bonuses submitted by Friday 11/13 (Kristen is working the calculations), Paul running healthcare with Paychex and leaning on Nirmala as little as possible, a call with Nirmala and the auditors on the audit timeline, and starting the finance-hire search right away (controller vs bookkeeper; Malorie has the Indeed account).",
-  "title": "DUSC Finance Call (Nov 2 agenda, updated Nov 6)",
+  "summary": "KP's running finance notes with Andy and Paul: the Nov 2 agenda (September close on QuickBooks only, bonuses by 11/15, audit timeline for the Dec 8 board meeting, healthcare, the GA Showcase and Boys Academy investigations), the Nov 6 additions, and a new payroll section from the Nov 10 Finance Catchup. The new part sets a rule: no full-time employee is paid hourly — extra time is what the bonus plan is for — and that rule goes into the handbook and has to be communicated to the community-programming staff it touches. Still live: bonuses submitted Friday 11/13, September as the test case, Sept/Oct expenses to catch up, and the finance-hire search.",
+  "title": "DUSC Andy + Paul — finance call notes (Nov 2 agenda, updated Nov 10)",
   "url": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-call-boys-academy": {
@@ -734,29 +755,98 @@
     "owner": "TBD",
     "raised": "2026-10-19",
     "text": "Find a service for spring team pictures"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "renegotiate-adidas-promo-joe",
+    "note": "Added at the bottom of the 1:1 notes on 11/9; no owner written down.",
+    "owner": "TBD",
+    "raised": "2026-11-09",
+    "text": "Re-negotiate the Adidas promo with Joe"
    }
   ],
   "area": "Board",
-  "date": "2026-11-03",
+  "date": "2026-11-09",
   "decisions": [],
   "fileId": "1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4",
   "id": "kyle-kushal",
   "keyPoints": [
+   "Media Day checklist (11/9): book Randy; email to Ops + Alex and Jason; teams = all MLS Next HG, U19 and U17 AD, GA U16/U17/U19; Leo assets.",
+   "Re-negotiate the Adidas promo with Joe (no owner noted).",
    "KP priorities: fix the finance gap ($200K budget reduction) and solve short-term PlayMetrics issues (tryout info).",
-   "Media Day options: Socceroof (via Eric) or the ShakeShack basement; U7–U12 vs. MLS Next/GA dates.",
    "Board role: sponsorships, fundraising, monthly finance checks, budget oversight, monthly Andy check-in. Committees to keep: Fundraising, Soccer For All, Finance, Compensation, Fields.",
-   "Soccer.com move and Byga (app? 1% CC fees) under discussion.",
+   "Soccer.com move and Byga (app? 1% CC fees) under discussion; Kyle still owes the Soccer.com deck.",
    "HR: parental leave policy and the staff handbook need a 2027 update."
   ],
   "kind": "Running 1:1 notes",
-  "modified": "2026-11-03T20:04:11Z",
+  "modified": "2026-11-09T19:42:16.405Z",
   "openQuestions": [
+   "Who owns the Adidas promo re-negotiation with Joe while Kyle is away?",
    "Which roles need replacing, and with whom?",
    "Who runs Compensation and makes key decisions?"
   ],
-  "summary": "Running 1:1 with Kyle. Open items are Socceroof/Eric for Media Day, the Soccer.com deck, MLK via Kevin, Ron for Media Day space, and the 2027 staff handbook. This week: Media Day logistics, Herve Diese / future DOC, Paul Fox and community programming, Kyle OOO 11/11–11/28.",
+  "summary": "Running 1:1 with Kyle; the 11/9 session was the last before he is out 11/11–11/28. It added a Media Day checklist — book Randy, write the email for Ops plus Alex and Jason, teams are all MLS Next HG plus U19 and U17 AD and GA U16, U17 and U19, and Leo's assets — and a line to re-negotiate the Adidas promo with Joe. Still listed as open: the Soccer.com deck from Kyle, Ron for Media Day space, and the 2027 staff handbook.",
   "title": "Kyle / Kushal 1:1",
   "url": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit"
+ },
+ "media-cadence-nov11": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "marketing-print-listings",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-11",
+    "text": "Get DUSC listed in New York Family and the summer camp print magazine"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "google-ad-grant-social-ads",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-11",
+    "text": "Put the Google Ad Grant ($10K a month, $120K a year) and paid social to work: Facebook ads for School's Out camps, winter Rec and program promotion, Instagram stories"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "registration-links-process",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-11",
+    "text": "Organize the registration-link process for blasts: assets ready before go-live, one community-programming blast, and the specific QR code for each campaign (Chelsea Market summer camp)"
+   }
+  ],
+  "area": "Media Day",
+  "date": "2026-11-11",
+  "decisions": [],
+  "fileId": "1phxaRwR0BA6iU4fVRscwoi9Xh_zlKHw_wItqS5_iQ0I",
+  "id": "media-cadence-nov11",
+  "keyPoints": [
+   "Newsletter cadence: no order from the program managers, timelines fluid; Kevin wanted monthly newsletters; more responsibilities landing on media.",
+   "Marketing that needs doing: New York Family and the summer camp print magazine — DUSC should be listed.",
+   "Social and ads: Instagram stories, Facebook ads for School's Out camps, season programs for winter Rec — and a Google Ad Grant of $10K a month ($120K a year) to use.",
+   "Chelsea Market: summer camp promotion with QR codes; 'we need new narratives'.",
+   "Registration links: winter classes assets should have been ready to go live Oct 1; community programming blast needs an organized process and the specific QR code.",
+   "Marketing budget is $25K — $10K less than asked — for ads and print media; unclear whether it includes Yellowhouse."
+  ],
+  "kind": "Scratch notes",
+  "modified": "2026-11-11T15:53:03.355Z",
+  "openQuestions": [
+   "Does the $25K marketing budget include Yellowhouse or not?",
+   "What newsletter cadence do program managers commit to, and who sets the order?",
+   "Who owns the Google Ad Grant and paid social going forward?"
+  ],
+  "summary": "KP's notes from the Wednesday 11/11 call with Syd on media cadence and the marketing nobody currently owns. Newsletters have had no set order from program managers and fluid timelines (Kevin wanted them monthly). The to-do side is print listings (New York Family, the summer camp magazine), paid social and the unused Google Ad Grant, Chelsea Market with QR codes, and a cleaner registration-link process — against a $25K marketing budget, $10K less than was asked for.",
+  "title": "Media cadence & marketing — notes with Syd (Nov 11)",
+  "url": "https://docs.google.com/document/d/1phxaRwR0BA6iU4fVRscwoi9Xh_zlKHw_wItqS5_iQ0I/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "ops-call-rain": {
   "area": "Scheduling",
@@ -1006,10 +1096,30 @@
     "owner": "TBD",
     "raised": "2026-10-28",
     "text": "Website update — involve Malorie, Leanne, Alex and Jason with whoever was brought in"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "ref-assignor-fees",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-10-21",
+    "text": "Reach out to the ref assignor (Andrew Liversidge) about ref fees per weekend"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "winter-schedule-announcement",
+    "note": "From the 11/11 Ops log: \"Announcement for Winter Schedule Jan–March — steps to take\".",
+    "owner": "TBD",
+    "raised": "2026-11-11",
+    "text": "Finalize the winter spaces and send the Jan–March winter schedule announcement (LREI with Mal, Immaculate Conception School with KP, PS 161 as a possible futsal-only site, Basis only if Jesse wants it)"
    }
   ],
   "area": "Facilities",
-  "date": "2026-11-04",
+  "date": "2026-11-11",
   "decisions": [
    "Jesse's futsal program goes ahead (TD/DOC → Ops → KP financial check).",
    "Decision process for new programs: TD/DOC → Ops → financial viability (KP)."
@@ -1017,20 +1127,23 @@
   "fileId": "1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg",
   "id": "ops-meeting",
   "keyPoints": [
-   "Winter: Unis and Avenues re-signed; Broad Street to confirm; LREI Thompson/Charlton, LeMans, Stephen Gaynor and Grace Church in talks; MLK at risk; Basis, BMCC, Major Owens, John Jay still to contact.",
-   "11/4 agenda: mock schedule once LREI lands, December practice schedule due Friday, Media Day 11/18, coaches to own GotSport in Spring 27, summer and advanced camp planning, Veteran's Day comms, NEST call.",
-   "Classes may move to LREI and Academy to LeMans; Pier 40 Indoor is free Dec 5–6 between permits.",
-   "Travel/ref-fee process is fuzzy for coaches: MLS Next has no ref fees, GA needs a home-game one-pager, EDP/NEAL/CJSL coaches go to finance.",
-   "Finance doesn't fully understand the season plan, which causes reimbursement and per diem confusion."
+   "11/11: Media Day is 11/18 — the schedule of teams is the open piece.",
+   "Winter: 'where have we booked too much?', December schedules, Stephen Gaynor (Friday space, Upper West futsal) and LREI were reviewed; the Jan–March announcement waits on finalizing spaces — LREI (Mal), Immaculate Conception School (KP), PS 161 (possible futsal only), Basis (does Jesse want it?).",
+   "MLS Next spring start dates: HG Feb 28, GA Mar 6, AD Mar 7.",
+   "Socceroof: is there an updated contract? Last year's extra weekday space was used by Cris for the winter.",
+   "Club Calendar: winter registration information and when it goes out; Spring Rec (2 hours) was started but not finished in the notes.",
+   "Action table: KP's Media Day owner and Socceroof/Eric items are Done; Basis and the parent FAQ are 'Follow up', Grace Church 'In progress', St. Luke's, Club Calendar, Advanced Camps, Select Teams and Criollo Bros still Open; Leanne's December schedule and team schedule are 'Follow up'."
   ],
   "kind": "Running meeting notes",
-  "modified": "2026-11-04T19:39:43Z",
+  "modified": "2026-11-11T19:43:25.265Z",
   "openQuestions": [
-   "Who runs Media Day and where — Socceroof Wall Street or St. Luke's?",
-   "Is a field scheduler viable so coaches can own EDP/CJSL scheduling?",
-   "How should the Club Calendar look for coaches vs. families?"
+   "Where has winter space been over-booked, and what can be released?",
+   "Does Jesse want Basis, and is PS 161 futsal-only?",
+   "Is there an updated Socceroof contract, including the extra weekday space used last winter?",
+   "When does winter registration information go out, and how does it sit in the Club Calendar?",
+   "Is a field scheduler viable so coaches can own EDP/CJSL scheduling?"
   ],
-  "summary": "The ops hub: an 18-row action table, a winter indoor space tracker across 21 venues, and a meeting log from Sep 30 through the 11/4 agenda. Weekday indoor space is the gap; MLK Tuesdays are at risk and LREI, Basis, Grace Church and St. Luke's are the live options.",
+  "summary": "The ops hub: a 35-row action table, a winter indoor space tracker across 23 venues, and a meeting log now running from Sep 30 to the Nov 11 call. The 11/11 agenda was Media Day on 11/18 (team schedule), where winter space is over-booked, and the steps to announce the Jan–March winter schedule: finalize spaces, with LREI on Mal and Immaculate Conception School on KP. Weekday indoor space is still the gap, and the table now shows the Media Day owner and Socceroof/Eric items as done.",
   "title": "DUSC Ops Meeting (running notes)",
   "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
@@ -1117,33 +1230,45 @@
   "url": "https://docs.google.com/document/d/1KcInpvGDIJST45Y6DjFeMZ_M1begPOOXi8xy23RDr2o/edit"
  },
  "reconciliation-questions-nov8": {
+  "actions": [],
   "area": "Finance",
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "decisions": [],
   "fileId": "1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM",
   "id": "reconciliation-questions-nov8",
   "keyPoints": [
-   "Get the reconciliation Nirmala did for 9/30 and go through its formulas and linking.",
-   "Bank transactions: which bank reconciliation the number comes from, broken down across all programs, with or without credit-card fees, and what QuickBooks holds by team.",
-   "PlayMetrics: go to the exact report in the source data (or how it was pulled in) and get it by player, so player-by-player checks are possible.",
-   "Global transactions report: can Academy and D-League be extracted separately?",
-   "The 9/30 pay-to-date report shows no receivables — work them out from the total fee payable and what installment plans were due to have paid."
+   "Bank is linked to QuickBooks and pulls in every transaction received; otherwise a CSV is uploaded and pasted in.",
+   "The bank-transaction numbers are all gross, including fees.",
+   "Next: take the transactions and check them through the file — look at the formulas and the linking.",
+   "PlayMetrics: go to the exact source report; get it by player so player-by-player checks are possible; can Academy / D-League be extracted from the global transactions?",
+   "The 9/30 'pay to date' report does not show receivables — look at the total fee that was payable and what installment plans were due to have paid."
   ],
   "kind": "Scratch notes",
-  "modified": "2026-11-08T16:35:44.331Z",
+  "modified": "2026-11-09T15:43:01.812Z",
   "openQuestions": [
-   "Where did the bank-transactions number come from, and is it with or without credit-card fees?",
    "Which PlayMetrics report is the source, and can it be produced by player?",
    "Can Academy and D-League be split out of the global transactions report?",
    "What was the receivable at 9/30 — total fee payable less paid to date, against the installment schedules?"
   ],
-  "summary": "KP's question list for Nirmala, written during Sunday's 11am Finance Catchup slot with Andy: get the reconciliation she did for 9/30 and trace each figure back to its source. It is the working script for Monday's 10:30 'Sept 30 Reconciliation' with her — where the bank-transaction and PlayMetrics numbers came from, whether income can be seen by team and by player, and what the receivable was at 9/30, since the pay-to-date report doesn't show one.",
-  "title": "9/30 reconciliation — questions for Nirmala (Nov 8)",
+  "summary": "KP's question list for Nirmala on her 9/30 reconciliation, now with the answers noted in Monday 11/9's working session. The bank feeds QuickBooks directly (or by CSV upload and copy-paste) and the figures are all gross, including fees; the 9/30 PlayMetrics report is pay-to-date and shows no receivables. What is left is checking her formulas and links against the transactions, and working out the 9/30 receivable from the total fee payable and the installment plans.",
+  "title": "9/30 reconciliation — questions and notes with Nirmala (Nov 8–9)",
   "url": "https://docs.google.com/document/d/1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "soccerpost-scratch-nov5": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "adidas-contract-caps",
+    "note": "From the 11/9 Soccer Post follow-up: \"We would love to know our absolute caps.\"",
+    "owner": "TBD",
+    "raised": "2026-11-09",
+    "text": "Look at the Adidas contract and confirm DUSC's absolute promo caps"
+   }
+  ],
   "area": "Vendors",
-  "date": "2026-11-05",
+  "date": "2026-11-09",
   "decisions": [],
   "fileId": "1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU",
   "id": "soccerpost-scratch-nov5",
@@ -1151,19 +1276,19 @@
    "~$6,000 of Adidas promo left; it expires Dec 15 and must be spent (coach free goods — coaches won't buy DUSC product otherwise)",
    "Promo: ~$100K/yr nominal, ~$70K cash value; fundraising is 30% off MSRP (a kit DUSC gets for $35)",
    "Fundraising: an extra $10 on all uniform costs funds scholarships — new this cycle, everyone had to buy",
-   "DUSC earns 20% on ancillary/fan wear (hoodies, T-shirts) — push families to the site; Chobani sits on each sleeve",
-   "Big invoices go to finance: can promo and fundraising pay them off, or do they bleed into next year?",
-   "2027 uniforms are a blank slate — many ways to cut expense"
+   "11/9: 'send the money over to us' — fundraising dollars as cash rather than invoice credits",
+   "11/9: look at the Adidas contract — what are DUSC's absolute caps?",
+   "11/9: Rec, Classes + Camps (community programming only) via ScoreSports; orders with ~5 extra per team; a spirit-wear shirt"
   ],
   "kind": "Scratch notes",
-  "modified": "2026-11-05T15:35:50.049Z",
+  "modified": "2026-11-09T15:32:28.999Z",
   "openQuestions": [
+   "What are the absolute promo caps in the Adidas contract?",
    "Do promo and fundraising dollars go against the outstanding invoices or roll into 2027?",
-   "Should Soccer Post send fundraising money over as cash instead of invoice credits?",
    "Note says 'finance lead left' — confirm who handles payouts on the Soccer Post side"
   ],
-  "summary": "KP's own notes from the Nov 5 Soccer Post call (the Gemini notes carry the full detail). The sharp points: Adidas promo is ~$100K a year with a cash value near $70K, DUSC is spending too much of it on T-shirts, and only about $6,000 of promo is left before it expires Dec 15. Soccer Post fundraising adds $10 per uniform to the scholarship fund; the question for finance is whether promo and fundraising dollars pay down the big invoices or roll into next year, with 2027 a blank slate for uniforms.",
-  "title": "Soccer Post call — scratch notes (Nov 5)",
+  "summary": "KP's own notes from the Nov 5 Soccer Post call, added to during the Nov 9 follow-up with Mal. The sharp points are unchanged: Adidas promo is ~$100K a year with a cash value near $70K, too much of it goes on T-shirts, and about $6,000 is left before it expires Dec 15. The 11/9 additions: have Soccer Post send the fundraising money over, look at the Adidas contract for DUSC's absolute caps, a spirit-wear shirt, and keep Rec, Classes and Camps (community programming only) on ScoreSports, ordering about 5 extra per team.",
+  "title": "Soccer Post calls — scratch notes (Nov 5 & Nov 9)",
   "url": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit"
  },
  "winter-futsal": {

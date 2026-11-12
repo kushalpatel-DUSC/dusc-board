@@ -750,7 +750,7 @@
  "media-day-who-when": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-12T10:53:07Z",
   "due": "2026-11-18",
   "id": "media-day-who-when",
   "note": "Looking at 11/18. U19 and U17 AD need it before showcases. Separate one for GA II / MLS Next AD?",
@@ -759,9 +759,9 @@
   "raised": "2026-10-16",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "doing",
+  "status": "done",
   "title": "Confirm who is running Media Day and when",
-  "updatedAt": "2026-11-04T23:45:00Z",
+  "updatedAt": "2026-11-12T10:53:07Z",
   "userEdited": false
  },
  "mlk-tuesday-space": {
@@ -1177,7 +1177,7 @@
  "socceroof-eric-media-day": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-12T10:53:07Z",
   "due": null,
   "id": "socceroof-eric-media-day",
   "note": null,
@@ -1186,9 +1186,9 @@
   "raised": "2026-10-21",
   "source": "Kyle/Kushal 1:1",
   "sourceUrl": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Connect with Eric re: Socceroof for Media Day (after sorting Andy)",
-  "updatedAt": "2026-11-04T23:45:00Z",
+  "updatedAt": "2026-11-12T10:53:07Z",
   "userEdited": false
  },
  "soccerpost-payout-method": {
