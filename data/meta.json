@@ -10,19 +10,14 @@
   "scanned": 2
  },
  "sync": {
-  "actionsAdded": 9,
+  "actionsAdded": 0,
   "cardsAdded": 0,
-  "cardsCompleted": 2,
+  "cardsCompleted": 0,
   "deadlines": [
    {
-    "date": "2026-11-12",
-    "label": "Finance Catchup with Andy (1:30) overlapping the Byga hold (2:00, still unanswered)",
-    "who": "KP, Andy"
-   },
-   {
     "date": "2026-11-13",
-    "label": "Staff bonuses submitted (Kristen's calculations) for the 11/15 payout",
-    "who": "KP, Kristen, Nirmala, Noemi"
+    "label": "Staff bonuses submitted (Kristen's calculations) for the 11/15 payout · first Weekly Finance Call with Andy and Paul (2:00)",
+    "who": "KP, Kristen, Nirmala, Noemi, Andy, Paul"
    },
    {
     "date": "2026-11-14",
@@ -36,8 +31,8 @@
    },
    {
     "date": "2026-11-16",
-    "label": "Auditor draft report expected",
-    "who": "Nirmala"
+    "label": "Auditor draft report expected · KP's audit-timetable check due",
+    "who": "Nirmala, KP"
    },
    {
     "date": "2026-11-17",
@@ -51,8 +46,8 @@
    },
    {
     "date": "2026-11-20",
-    "label": "Paychex underwriting package approvals targeted (decision call is 11/18; plan selection follows)",
-    "who": "Paul, Nirmala"
+    "label": "Paychex underwriting package approvals targeted · second Weekly Finance Call with Andy and Paul (2:00)",
+    "who": "Paul, Nirmala, KP, Andy"
    },
    {
     "date": "2026-11-23",
@@ -125,35 +120,35 @@
     "who": "Ops"
    }
   ],
-  "headline": "Today (Thu 11/12) the Finance Catchup with Andy at 1:30 runs straight over the Byga hold at 2:00, which you still haven't answered; bonuses have to be submitted tomorrow for the 11/15 payout. Sunday 11/15 carries three things at once — the supply-vs-demand dashboard and zones 1–2 of Jan–Mar to Andy, and your visit to the Rec session at Pier 40 — and Wednesday 11/18 is Media Day at Socceroof with Kyle away, on the same day as Soccer For All (noon), the Paychex underwriting-decision call (12:30, overlapping) and Ops Weekly. Moving: the 9/30 reconciliation (Nirmala's sources are now clear; the receivable still has to be built) and healthcare. Stuck or slipping: the Jan–March winter schedule announcement waits on final spaces (LREI with Mal, Immaculate Conception with you — Playbook demo 11/23), the COI renewal is due before 11/24, and three of your cards are past their dates — the review of Kyle's Decision & Ownership Guide (11/10), the parent FAQ and the Select Teams invite (both 11/11).",
-  "lastRun": "2026-11-12T10:53:07Z",
+  "headline": "Today (Fri 11/13) bonuses have to be submitted for the 11/15 payout, and your new weekly call with Andy and Paul starts at 2:00 with nothing on its agenda yet. Sunday 11/15 carries three things at once — the supply-vs-demand dashboard and zones 1–2 of Jan–Mar to Andy, and your visit to the Rec session at Pier 40 — and Wednesday 11/18 is Media Day at Socceroof with Kyle away, on the same day as Soccer For All (noon), the Paychex underwriting-decision call (12:30, overlapping) and Ops Weekly. Moving: the 9/30 reconciliation (the receivable still has to be built) and healthcare; the audit draft is expected Monday. Stuck or slipping: the Jan–March winter schedule announcement waits on final spaces (LREI with Mal, Immaculate Conception with you — Playbook demo 11/23), the COI renewal is due before 11/24, and three of your cards are past their dates — Kyle's Decision & Ownership Guide (11/10), the parent FAQ and the Select Teams invite (both 11/11). No meeting notes changed in Drive since yesterday.",
+  "lastRun": "2026-11-13T10:49:20Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 15,
   "notesScanned": 29,
   "themes": [
    {
     "name": "Finance reset",
-    "text": "The 11/9 session with Nirmala settled where the 9/30 numbers come from (bank feed into QuickBooks, gross including fees; pay-to-date report with no receivables), so the next move is KP's: check her formulas and links and build the 9/30 receivable from total fee payable and installment plans. Bonuses go in Fri 11/13 (Kristen, Noemi, Nirmala), the audit draft is due around 11/16 ahead of the Dec 8 board meeting, and the finance-hire search and Sept/Oct expense catch-up still need owners."
+    "text": "The catch-ups with Andy have become a standing Friday 2:00 call with Andy and Paul, starting today, which is also the day bonuses go in for the 11/15 payout (Kristen, Noemi, Nirmala). The next moves are KP's — check Nirmala's formulas and links and build the 9/30 receivable, and get the audit timetable ahead of the draft expected around 11/16 for the Dec 8 board meeting; the finance-hire search and the Sept/Oct expense catch-up still need owners."
    },
    {
     "name": "Payroll & healthcare",
-    "text": "Tuesday's catch-up with Andy set the rule that no full-time employee is paid hourly — the bonus plan covers extra time — which now needs writing into the handbook and communicating to the community-programming staff it affects; neither has an owner yet. Paul runs healthcare: Paychex presents the underwriting decision Wed 11/18 at 12:30, then plan selection and open enrollment for Jan 1."
+    "text": "The 11/10 rule that no full-time employee is paid hourly — the bonus plan covers extra time — still has to be written into the handbook and communicated to the community-programming staff it affects, and neither step has an owner. Paul runs healthcare: Paychex presents the underwriting decision Wed 11/18 at 12:30, then plan selection and open enrollment for Jan 1."
    },
    {
     "name": "Winter indoor space",
-    "text": "The 11/11 Ops call asked where space is over-booked and listed what must be finalized before the Jan–March schedule is announced: LREI (Mal), Immaculate Conception School (KP, Playbook demo 11/23), PS 161 as a futsal-only option and Basis if Jesse wants it. KP owes Andy the supply-vs-demand dashboard and zones 1–2 by Sunday 11/15 and the COI renewal HRPT needs before 11/24; Leanne's December schedule is still marked 'Follow up'."
+    "text": "The Jan–March schedule announcement waits on finalizing spaces: LREI (Mal), Immaculate Conception School (KP, Playbook demo 11/23), PS 161 as a futsal-only option and Basis if Jesse wants it. KP owes Andy the supply-vs-demand dashboard and zones 1–2 by Sunday 11/15 and the COI renewal HRPT needs before 11/24; Leanne's December schedule is still marked 'Follow up'."
    },
    {
     "name": "Media Day & Kyle's leave",
-    "text": "Media Day is Wed 11/18 at Socceroof, 4–7pm, with Kyle out until 11/28: the venue contact and owner items are done, and what remains is KP's — Randy and Christina need the date and location, the teams email to Ops, Alex and Jason, the schedule of teams and Leo's assets. KP's review of Kyle's Decision & Ownership Guide was due 11/10 and is still open."
+    "text": "Media Day is Wed 11/18 at Socceroof, 4–7pm, with Kyle out until 11/28: what remains is KP's — Randy and Christina need the date and location, the teams email to Ops, Alex and Jason, the schedule of teams and Leo's assets. KP's review of Kyle's Decision & Ownership Guide was due 11/10 and is still open."
    },
    {
     "name": "Vendors: Soccer Post, Adidas, Byga",
-    "text": "The 11/9 follow-up with Mal landed on asking Soccer Post to send fundraising money as cash and checking the Adidas contract for DUSC's absolute caps; re-negotiating the Adidas promo with Joe has no owner. About $6,000 of promo expires Dec 15 and KP still has to test the coach-gear checkout; Byga's hold today at 2:00 is unanswered."
+    "text": "No vendor meeting is scheduled in the next two weeks, and there is no note of what came of Byga's 11/12 hold. KP still has to test the Soccer Post coach-gear checkout and about $6,000 of Adidas promo expires Dec 15; checking the Adidas contract caps and re-negotiating the promo with Joe have no owner."
    },
    {
     "name": "Rec, marketing & systems",
-    "text": "KP joins the Rec/Class/Camp weekly call from Tue 11/17 after observing Rec on 11/15, still owing Oumou's group the program review, college-coach intros, media contacts and list access. The 11/11 call with Syd laid out marketing nobody owns — print listings, paid social, the unused $10K-a-month Google Ad Grant, registration links — on a $25K budget; the parent FAQ, Club Calendar, Select Teams, Advanced Camps and Criollo Bros meetings are all still open on KP's side."
+    "text": "KP observes Rec at Pier 40 on Sunday 11/15 and joins the Rec/Class/Camp weekly call from Tue 11/17, still owing Oumou's group the program review, college-coach intros, media contacts and list access. The marketing from the 11/11 call with Syd — print listings, paid social, the unused $10K-a-month Google Ad Grant, registration links — has no owner, and the parent FAQ, Club Calendar, Select Teams, Advanced Camps and Criollo Bros meetings are all still open on KP's side."
    }
   ],
   "waitingLong": []

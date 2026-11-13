@@ -75,9 +75,9 @@
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-11T10:00:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Syd x Kushal Connect",
-  "updatedAt": "2026-11-09T10:52:54Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "110q1hj6cqffrmefouio7jvcej": {
@@ -117,7 +117,7 @@
   "start": "2026-11-23T13:30:00-05:00",
   "status": "upcoming",
   "title": "DUSC X Playbook AI Demo",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "1fficndg9ljpkvvn36t3dpeklb": {
@@ -296,7 +296,7 @@
   "start": "2026-11-17T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "3lmv8ac6ne8fg7slprqv293vkr_20261124T183000Z": {
@@ -331,7 +331,7 @@
   "start": "2026-11-24T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "3spidcv3apv6c4nbe6v6ircb0n": {
@@ -532,9 +532,9 @@
   "recurringEventId": "606at15gvqj7ouob03ih8mg854",
   "seriesKey": "ops-weekly",
   "start": "2026-11-11T13:30:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-09T10:52:54Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261118T183000Z": {
@@ -575,7 +575,7 @@
   "start": "2026-11-18T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261125T183000Z": {
@@ -615,7 +615,7 @@
   "start": "2026-11-25T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261117T150000Z": {
@@ -684,7 +684,7 @@
   "start": "2026-11-17T12:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261124T150000Z": {
@@ -751,7 +751,7 @@
   "start": "2026-11-24T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "6bilrcbmht23o43aqm033ongef": {
@@ -857,10 +857,10 @@
    "suggested": [
     "Bonus payouts: paid 11/15 and reconciled against bank and QuickBooks?",
     "9/30 receivable: total fee payable less paid to date, by installment plan; PlayMetrics by player; Academy vs D-League split",
-    "Audit draft: arrived? Open items, and KP on the auditor threads",
+    "Audit draft: arrived? Open items, the updated timetable, and KP on the auditor threads",
+    "Carry-overs from Friday's call with Andy and Paul",
     "Liability COI renewal with HRPT wording — expires 11/24",
-    "Sept/Oct expense catch-up and the October close on QuickBooks numbers",
-    "Bank of America account ownership so Nirmala can be added as admin"
+    "Sept/Oct expense catch-up, the October close, and Bank of America account ownership so Nirmala can be added as admin"
    ],
    "summary": "The Monday after bonuses are paid (11/15) and the day the auditor's draft is expected. Confirm the payouts reconciled, pick up the 9/30 reconciliation where the 11/9 session left it — her formulas and links, and the receivable — and check the audit draft and the COI renewal, which HRPT needs before the certificate expires 11/24."
   },
@@ -869,7 +869,7 @@
   "start": "2026-11-16T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "6nc6i1n4kcjaak7pfr2nv8f5r5_20261123T183000Z": {
@@ -897,14 +897,97 @@
     "October close; Sept/Oct expenses caught up",
     "Finance hire: posting live, coverage for Noemi over the holidays"
    ],
-   "summary": "Thanksgiving-week weekly with Nirmala, colliding with the Playbook AI demo at the same time. By now the audit draft, the Paychex underwriting decision (11/18) and the bonus payout should all be in hand, and the liability certificate expires the next day."
+   "summary": "Thanksgiving-week weekly with Nirmala, colliding with the Playbook AI demo at the same time. By now the audit draft, the Paychex underwriting decision (11/18), the bonus payout and Friday 11/20's call with Andy and Paul should all be behind you, and the liability certificate expires the next day."
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-23T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
+  "userEdited": false
+ },
+ "70lljkejnn3us5i0v89naed5q0_20261113T190000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   }
+  ],
+  "end": "2026-11-13T15:00:00-05:00",
+  "eventId": "70lljkejnn3us5i0v89naed5q0_20261113T190000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NzBsbGprZWpubjN1czVpMHY4OW5hZWQ1cTBfMjAyNjExMTNUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/fvb-sqeu-czd",
+  "prep": {
+   "highlights": [
+    "11/10: no full-time employee is paid hourly — the bonus plan covers extra time; the rule goes into the handbook and has to be communicated to the affected community-programming staff. Neither step has an owner.",
+    "11/9 with Nirmala: the bank feed into QuickBooks is gross including fees; the 9/30 pay-to-date report has no receivables — derive them from total fee payable and the installment plans.",
+    "11/6: bonuses tracking at the 80% threshold, to be submitted Fri 11/13 for the 11/15 payout; Paul leads healthcare and was to sanity-check the showcase budgets against last season.",
+    "No notes from the Thu 11/12 Finance Catchup with Andy are in Drive yet."
+   ],
+   "suggested": [
+    "Bonuses: submitted today? Kristen's calculations verified (Noemi sets up, Nirmala approves, Kristen pays) for the 11/15 payout",
+    "9/30 reconciliation: what the check of Nirmala's formulas and links showed, and where the 9/30 receivable stands",
+    "Supply-vs-demand dashboard and zones 1–2 of Jan–Mar — due to Andy Sunday 11/15; what he wants to see first",
+    "Full-time pay rule: who writes it into the handbook and who tells the affected community-programming staff",
+    "Paul: Paychex underwriting decision Wed 11/18 at 12:30 — plan options, employer contribution, who attends (it overlaps Soccer For All)",
+    "Audit draft expected around 11/16 and what goes to the Dec 8 board meeting; finance hire — controller vs bookkeeper JD and posting"
+   ],
+   "summary": "First occurrence of the new standing Friday 2:00 call with Andy and Paul, which you set up on 11/12 after three ad-hoc finance catch-ups in four days (11/9, 11/10, 11/12); both have accepted. It lands on the day bonuses have to be submitted for the 11/15 payout and two days before the supply-vs-demand dashboard and zones 1–2 of Jan–Mar are due to Andy. With Paul in the room it is also the place to line up Wednesday's Paychex underwriting-decision call."
+  },
+  "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
+  "seriesKey": "board-checkins",
+  "start": "2026-11-13T14:00:00-05:00",
+  "status": "upcoming",
+  "title": "Weekly Finance Call Andy+Paul",
+  "updatedAt": "2026-11-13T10:49:20Z",
+  "userEdited": false
+ },
+ "70lljkejnn3us5i0v89naed5q0_20261120T190000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   }
+  ],
+  "end": "2026-11-20T15:00:00-05:00",
+  "eventId": "70lljkejnn3us5i0v89naed5q0_20261120T190000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NzBsbGprZWpubjN1czVpMHY4OW5hZWQ1cTBfMjAyNjExMjBUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/fvb-sqeu-czd",
+  "prep": {
+   "highlights": [
+    "11/10: full-time employees are not paid hourly; the bonus plan covers extra time — handbook and staff communication still unowned.",
+    "11/6: Paul leads healthcare; the employer pays at least 50% of the lowest employee-only plan and at least 5 sign-ups / 50% participation is needed. Package approvals were targeted for 11/20.",
+    "11/5 Field Catchup: Andy asked for the supply-vs-demand dashboard (December vs Jan–Mar, weekday vs weekend, locked-in % and cost per unit) and every rent-free space in the supply database."
+   ],
+   "suggested": [
+    "Healthcare: underwriting result, which plans to offer, employer contribution and the budget cost; open-enrollment dates and who tells staff",
+    "Audit draft: what came back, open items and the Dec 8 board presentation",
+    "Bonuses: paid 11/15 and reconciled; anything to correct",
+    "Dashboard and zones 1–2: Andy's feedback, 28 Liberty credits, the budget model in field units",
+    "Liability COI renewal with HRPT wording — expires Tue 11/24",
+    "Finance hire search and the GA Showcase overrun review; showcase and MLS Next Fest projections"
+   ],
+   "summary": "Second weekly Friday call with Andy and Paul, at the end of a heavy week: the auditor's draft is expected around 11/16, the Paychex underwriting decision comes back Wed 11/18, Media Day is the same day, and bonuses will have paid on 11/15. Use it to settle healthcare plan selection and cost, and what finance shows the board on Dec 8; the liability COI expires the following Tuesday, 11/24."
+  },
+  "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
+  "seriesKey": "board-checkins",
+  "start": "2026-11-20T14:00:00-05:00",
+  "status": "upcoming",
+  "title": "Weekly Finance Call Andy+Paul",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "7r28o2dpnob574e2ujfottdi2l": {
@@ -1080,7 +1163,7 @@
   "start": "2026-11-18T12:30:00-05:00",
   "status": "upcoming",
   "title": "Downtown United Soccer Club",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "_6kq44hhm70rk2b9k850j8b9k68rj4b9o6t330b9p752k6hhm84q38dpn6k": {
@@ -1161,7 +1244,7 @@
   "start": "2026-11-18T12:00:00-05:00",
   "status": "upcoming",
   "title": "Soccer For All Committee",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "dl8u6u3aa631dog9ncdpbfkrbk_20261109T190000Z": {
@@ -1233,7 +1316,7 @@
   "start": "2026-11-16T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  },
  "dl8u6u3aa631dog9ncdpbfkrbk_20261123T190000Z": {
@@ -1267,7 +1350,7 @@
   "start": "2026-11-23T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-12T10:53:07Z",
+  "updatedAt": "2026-11-13T10:49:20Z",
   "userEdited": false
  }
 }
