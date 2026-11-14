@@ -975,6 +975,28 @@
   "waitingOn": null,
   "waitingSince": null
  },
+ "pdp-evidence-portfolio": {
+  "area": "People",
+  "createdAt": "2026-11-14T11:18:20Z",
+  "doneAt": null,
+  "due": "2027-01-15",
+  "id": "pdp-evidence-portfolio",
+  "note": "Kyle's staff-wide request: cover your three development goals using the template linked in the email.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "raised": "2026-11-13",
+  "source": "Email: PDP Mid Year Review Prep",
+  "sourceKind": "email",
+  "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881748123376496600",
+  "status": "todo",
+  "title": "Complete the PDP Evidence Portfolio for the Mid-Year Review and upload it to the shared folder",
+  "updatedAt": "2026-11-14T11:18:20Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "peo-census-call-paul": {
   "area": "People",
   "createdAt": "2026-11-05T03:05:42Z",
