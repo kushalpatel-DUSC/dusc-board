@@ -361,7 +361,7 @@
  "faq-parent-portal": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T04:41:39.518Z",
   "due": "2026-11-11",
   "id": "faq-parent-portal",
   "note": null,
@@ -370,10 +370,12 @@
   "raised": "2026-10-28",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "todo",
+  "status": "done",
   "title": "FAQ / parent portal: pull parent questions from Gemini, build an FAQ per program; connect with Kyle, Leanne, Malorie (1–2 weeks)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-14T04:41:39.518Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "finance-gap-plan": {
   "area": "Finance",
