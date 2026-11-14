@@ -1223,7 +1223,7 @@
  "soccerpost-portal-checkout": {
   "area": "Vendors",
   "createdAt": "2026-11-05T17:14:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T05:02:23.896Z",
   "due": null,
   "id": "soccerpost-portal-checkout",
   "note": "Coach free-goods promo expires Dec 15 (returning coaches: 2 jerseys + 1 short; new coaches: $500–600 package). Erin's 11/5 'Adidas Promo' email has the Click steps: Orderbook → Manage Budget → Excel.",
@@ -1234,10 +1234,10 @@
   "raised": "2026-11-05",
   "source": "DUSC x Soccerpost Nov 5, 2026",
   "sourceUrl": "https://docs.google.com/document/d/1I4Yz_1nEGBVxO8-Wac78l5n8AgrB4Pu8DvoXGwEjELI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to log into the Soccer Post team portal and Adidas Click: test the coach-gear checkout (free-goods credits apply, store pickup totals $0; text Chris a screenshot if not) and download the promo transactions Excel",
-  "updatedAt": "2026-11-05T17:14:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T05:02:23.896Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
