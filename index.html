@@ -579,6 +579,10 @@ h1,h2,h3{letter-spacing:0}
 .subnav{display:none}
 main{padding-bottom:40px}
 
+/* the header is pinned below the phone's status bar; push the page down by the same amount so nothing hides under it */
+body{padding-top:env(safe-area-inset-top,0px)}
+html,body{height:auto;min-height:100%}
+
 /* phone and small tablet: bottom bar */
 @media (max-width:899px){
   .top-inner .brand{order:0} .top-inner .pg{order:1} .top-inner #addBtn{order:2} .top-inner .theme-btn{order:3} .top-inner #ghBtn{order:4;margin-left:0}
@@ -1673,6 +1677,27 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   document.addEventListener('visibilitychange', refreshIfStale); window.addEventListener('focus', refreshIfStale);
   setInterval(() => { if(document.visibilityState==='visible' && !state.loading && !flushing && !queue.length) loadAll(); }, 180000);
   window.addEventListener('online', () => { if(queue.length) flush(); else refreshIfStale(); });
+})();
+</script>
+<script>
+(function(){
+  var BUILD = '662c4aac63';
+  if(location.protocol === 'file:') return;
+  var busy = false;
+  function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
+  function check(){
+    if(busy || document.visibilityState !== 'visible') return; busy = true;
+    fetch('version.json?t=' + Date.now(), {cache:'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){
+      busy = false; if(!j || !j.v || j.v === BUILD) return;
+      var tried = null; try{ tried = sessionStorage.getItem('dusc-upd'); }catch(e){}
+      if(tried === j.v || location.search.indexOf('v=' + j.v) >= 0) return;   // already reloaded once for this version: the host is still serving the old page
+      if(editing()) return;                                                 // never reload under someone's typing; the next check picks it up
+      try{ sessionStorage.setItem('dusc-upd', j.v); }catch(e){}
+      location.replace(location.pathname + '?v=' + encodeURIComponent(j.v) + location.hash);
+    }).catch(function(){ busy = false; });
+  }
+  setTimeout(check, 4000); setInterval(check, 5 * 60 * 1000);
+  document.addEventListener('visibilitychange', function(){ if(document.visibilityState === 'visible') setTimeout(check, 800); });
 })();
 </script>
 </body>
