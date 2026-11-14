@@ -679,12 +679,18 @@ a.tt:hover{text-decoration:underline}
 .next .ttl{font-family:var(--display);font-weight:500;font-size:18px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .next .ag{font-size:12px;color:var(--panel-muted);margin-top:2px}
 .next .ag.none{color:#FFB889;font-weight:600}
-.t2 details{border-bottom:1px solid var(--line)}
-.t2 details[open]{border-bottom:0}
-.t2 summary{list-style:none;display:flex;align-items:center;gap:8px;min-height:48px;cursor:pointer;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.t2 summary::-webkit-details-marker{display:none}
-.t2 summary .chev{margin-left:auto;width:8px;height:8px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg);transition:transform .15s}
-.t2 details[open] summary .chev{transform:rotate(-135deg)}
+.t2 details,.oldfold{border-bottom:1px solid var(--line)}
+.t2 details[open],.oldfold[open]{border-bottom:0}
+.t2 summary,.oldfold summary{list-style:none;display:flex;align-items:center;gap:8px;min-height:48px;cursor:pointer;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.t2 summary::-webkit-details-marker,.oldfold summary::-webkit-details-marker{display:none}
+.oldfold summary .hb{margin-left:auto;text-transform:none;letter-spacing:0}
+.oldfold summary .hb + .chev{margin-left:6px}
+.oldfold .mail-list{padding-top:8px}
+.t2 .bulk{padding:10px 0 4px;display:flex;justify-content:flex-end}
+.hb{flex:none;font-size:13px;font-weight:500;color:var(--muted);border:1px solid var(--line-2);border-radius:99px;padding:6px 12px;min-height:32px}
+.hb:hover{color:var(--fg);border-color:var(--fg)}
+.t2 summary .chev,.oldfold summary .chev{margin-left:auto;width:8px;height:8px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg);transition:transform .15s}
+.t2 details[open] summary .chev,.oldfold[open] summary .chev{transform:rotate(-135deg)}
 @media (min-width:900px){
   .t2{grid-template-columns:minmax(0,1.35fr) minmax(300px,.9fr);gap:28px 48px;padding-block:26px 40px}
   .t2 .colB{grid-column:2;grid-row:1 / span 2}
@@ -1042,7 +1048,9 @@ a.tt:hover{text-decoration:underline}
     if(c.status==='waiting') bits.push(waitLabel(c)); else if(c.due) bits.push(late ? 'Due '+fmtDate(c.due) : dueLabel(c.due));
     if(c.source) bits.push(c.sourceKind==='email' ? 'Email' : c.source);
     return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}</div>`; }
-  function todayCounts(){ const b = todayBuckets(); return {b, late: b.late.length, now: b.now.length + b.focus.length, mail: openInbox().length}; }
+  const isOldMail = m => m.status!=='handled' && !!m.date && new Date(m.date).getTime() < Date.now() - 7*86400000;
+  function clearOldMail(){ const old = openInbox().filter(isOldMail); if(!old.length) return; old.forEach(m => setMail(m.id, 'handled')); setTimeout(()=>toast(old.length+' older email'+(old.length===1?'':'s')+' marked done'), 80); }
+  function todayCounts(){ const b = todayBuckets(); const open = openInbox(); const old = open.filter(isOldMail).length; return {b, late: b.late.length, now: b.now.length + b.focus.length, mail: open.length - old, oldMail: old}; }
   function renderToday(){
     const host = $('#viewToday'); if(!host) return;
     host.classList.add('t2');
@@ -1057,6 +1065,7 @@ a.tt:hover{text-decoration:underline}
     const mail = openInbox().slice().sort((a,b2)=>String(b2.date||'').localeCompare(String(a.date||'')));
     const mailRow = m => { const label = (m.from ? m.from.split(/[<(]/)[0].trim()+': ' : '') + (m.ask || m.subject || ''); const me = [m.date?fmtDate(m.date.slice(0,10)):'', m.due?'due '+fmtDate(m.due):''].filter(Boolean).join(' · ');
       return `<div class="trow"><span class="ric" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v4"/></svg></span><div class="tx">${m.threadUrl?`<a class="tt" href="${esc(m.threadUrl)}" target="_blank" rel="noopener">${esc(label)}</a>`:`<div class="tt">${esc(label)}</div>`}${me?`<div class="me">${esc(me)}</div>`:''}</div><button class="hb" data-td-handle="${esc(m.id)}">Done</button></div>`; };
+    const fresh = mail.filter(m=>!isOldMail(m)), old = mail.filter(isOldMail);
     const fold = (key, title, items) => items.length ? `<details ${state.tdOpen[key]?'open':''}><summary data-td-sec="${key}">${esc(title)} <span class="c">${items.length}</span><span class="chev"></span></summary>${items.map(trow).join('')}</details>` : '';
     host.innerHTML = `
       <div class="col colA">
@@ -1064,7 +1073,8 @@ a.tt:hover{text-decoration:underline}
         <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(trow).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
       </div>
       <div class="col colB">
-        <section><h2>Reply <span class="c">${mail.length}</span>${mail.length>4?`<button data-td-go="inbox">All ${mail.length} →</button>`:''}</h2>${mail.length?mail.slice(0,4).map(mailRow).join(''):`<div class="empty-line">No emails waiting on you.</div>`}</section>
+        <section><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
+          ${old.length?`<details ${state.tdOpen.oldmail?'open':''}><summary data-td-sec="oldmail">Older than a week <span class="c">${old.length}</span><span class="chev"></span></summary>${old.map(mailRow).join('')}<div class="bulk"><button class="hb" data-clear-old type="button">Mark all ${old.length} as done</button></div></details>`:''}</section>
         ${show.length?`<section class="nexts"><h2>${left.length?'Meetings today':'Next meeting'}<button data-td-go="meetings">All meetings →</button></h2>${show.map(nextHTML).join('')}</section>`:''}
       </div>
       <div class="col colC">
@@ -1078,9 +1088,9 @@ a.tt:hover{text-decoration:underline}
     const v = state.view; document.body.dataset.view = v;
     const pt = $('#pgTitle'), ps = $('#pgSub'); if(!pt) return;
     const d = new Date(); let title = {board:'All cards', notes:'Notes', inbox:'Reply', meetings:'Meetings'}[v] || '', sub = '';
-    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', c.mail+' '+(c.mail===1?'reply':'replies')].filter(Boolean).join(' · '); }
+    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', c.mail+' '+(c.mail===1?'reply':'replies'), c.oldMail?c.oldMail+' older':''].filter(Boolean).join(' · '); }
     else if(v==='board'){ sub = state.cards.filter(isOpen).length+' open'; }
-    else if(v==='inbox'){ sub = openInbox().length+' waiting on you'; }
+    else if(v==='inbox'){ const c = todayCounts(); sub = c.mail+' this week'+(c.oldMail?' · '+c.oldMail+' older':''); }
     else if(v==='notes'){ sub = state.notes.length+' notes'; }
     pt.textContent = title; ps.textContent = sub;
     document.querySelectorAll('.subnav button').forEach(x => x.setAttribute('aria-pressed', x.dataset.go===v));
@@ -1238,7 +1248,7 @@ a.tt:hover{text-decoration:underline}
     $('#inboxCnt').textContent = `${items.length} / ${state.inbox.length}`;
     const host = $('#mailList');
     if(!items.length){ host.innerHTML = `<div class="inbox-empty glass">${state.inbox.length?'Nothing open. Switch to All to see handled items.':'No email items in this snapshot. The live board’s email sweep fills this tab every two hours.'}</div>`; return; }
-    host.innerHTML = items.map(m=>{
+    const mailHTML = m => {
       const linked = m.cardId && state.cards.find(c=>c.id===m.cardId);
       const kind = (m.kind||'action').toLowerCase();
       return `<article class="mail glass${m.status==='handled'?' handled':''}" data-id="${esc(m.id)}">
@@ -1247,7 +1257,9 @@ a.tt:hover{text-decoration:underline}
           ${m.gist?`<p class="gist">${esc(m.gist)}</p>`:''}${m.ask?`<p class="ask">${esc(m.ask)}</p>`:''}</div>
         <div class="acts">${linked?`<span class="linked">on board ✓</span><button class="btn secondary sm" data-open-card="${esc(m.cardId)}">Open card</button>`:(m.status!=='handled'?`<button class="btn sm" data-make-card="${esc(m.id)}">Make a card</button>`:'')}${m.status==='handled'?`<button class="btn secondary sm" data-reopen="${esc(m.id)}">Reopen</button>`:`<button class="btn secondary sm" data-handle="${esc(m.id)}">Handled</button>`}</div>
       </article>`;
-    }).join('');
+    };
+    const freshI = items.filter(m=>!isOldMail(m)), oldI = items.filter(isOldMail);
+    host.innerHTML = freshI.map(mailHTML).join('') + (oldI.length ? `<details class="oldfold" ${state.oldMailOpen?'open':''}><summary data-oldfold>Older than a week <span class="c">${oldI.length}</span><button class="hb" data-clear-old type="button">Mark all as done</button><span class="chev"></span></summary><div class="mail-list">${oldI.map(mailHTML).join('')}</div></details>` : (freshI.length ? '' : ''));
   }
 
   
@@ -1438,6 +1450,7 @@ a.tt:hover{text-decoration:underline}
     $('#tabToday').onclick = () => setView('today');
     document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => setView(x.dataset.go); });
     $('#viewToday').addEventListener('click', e => {
+      const co = e.target.closest('[data-clear-old]'); if(co){ e.preventDefault(); clearOldMail(); return; }
       const sm = e.target.closest('summary[data-td-sec]'); if(sm){ state.tdOpen = state.tdOpen || {}; state.tdOpen[sm.dataset.tdSec] = !sm.parentElement.open; return; }
       const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, null); return; }
       const h = e.target.closest('[data-td-handle]'); if(h){ setMail(h.dataset.tdHandle, 'handled'); return; }
@@ -1500,6 +1513,8 @@ a.tt:hover{text-decoration:underline}
       const rel = e.target.closest('[data-note-cards]'); if(rel){ const u = rel.dataset.noteCards; const src = state.cards.find(c=>c.sourceUrl && c.sourceUrl.split('/edit')[0]===u); state.filters = {owner:'all', area:'all', q: src ? src.source : '', focus:'all'}; $('#q').value = state.filters.q; state.view='board'; state.layout='list'; savePrefs(); render(); window.scrollTo({top:0, behavior:'smooth'}); }
     });
     $('#mailList').addEventListener('click', e => {
+      const co = e.target.closest('[data-clear-old]'); if(co){ e.preventDefault(); clearOldMail(); return; }
+      const of = e.target.closest('summary[data-oldfold]'); if(of){ state.oldMailOpen = !of.parentElement.open; return; }
       const mk = e.target.closest('[data-make-card]'); if(mk){ const m = state.inbox.find(x=>x.id===mk.dataset.makeCard); if(m) makeCardFromMail(m); return; }
       const h = e.target.closest('[data-handle]'); if(h){ setMail(h.dataset.handle, 'handled'); return; }
       const r = e.target.closest('[data-reopen]'); if(r){ setMail(r.dataset.reopen, 'open'); return; }
