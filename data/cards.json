@@ -713,7 +713,7 @@
  "media-day-email": {
   "area": "Media Day",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T04:52:10.043Z",
   "due": "2026-11-18",
   "id": "media-day-email",
   "note": null,
@@ -722,10 +722,12 @@
   "raised": "2026-11-03",
   "source": "Kyle/Kushal 1:1",
   "sourceUrl": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Media Day email: Socceroof back on? Syd hiring photographer, Leo there at the same time, cancel practice that evening",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-14T04:52:10.043Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "media-day-randy-details": {
   "area": "Media Day",
