@@ -905,7 +905,7 @@
  "playmetrics-billing-check": {
   "area": "Finance",
   "createdAt": "2026-11-06T21:15:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T05:02:03.594Z",
   "due": null,
   "id": "playmetrics-billing-check",
   "note": "11 Boys Academy registrants still overdue after the Nov 1 payment date (down from 31 failed payments); Malorie has sent follow-ups.",
@@ -916,10 +916,10 @@
   "raised": "2026-11-06",
   "source": "Finance Catchup — Nov 6",
   "sourceUrl": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Check PlayMetrics billing: Boys Academy registrants still overdue after the Nov 1 payment date",
-  "updatedAt": "2026-11-06T21:15:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T05:02:03.594Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
