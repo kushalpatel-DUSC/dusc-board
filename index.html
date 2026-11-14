@@ -672,7 +672,10 @@ a.tt:hover{text-decoration:underline}
 .trow .hb{flex:none;font-size:13px;font-weight:500;color:var(--muted);border:1px solid var(--line-2);border-radius:99px;padding:6px 12px;min-height:32px}
 .trow .hb:hover{color:var(--fg);border-color:var(--fg)}
 .t2 .empty-line{font-size:14px;color:var(--muted);padding:12px 0;border-bottom:1px solid var(--line)}
-.t2 .nexts{display:flex;flex-direction:column;gap:10px}
+.t2 .nexts{display:flex;flex-direction:column;gap:6px}
+.t2 .nlist{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+.next .br{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;line-height:1.4;color:var(--panel-muted);margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.16)}
+.prep-at{font-size:12px;color:var(--muted);margin-top:6px}
 .next{background:var(--panel);color:var(--panel-fg);border-radius:14px;padding:14px 16px;display:flex;align-items:center;gap:12px;text-align:left;width:100%}
 .next .nx{flex:1;min-width:0}
 .next .k{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--panel-muted)}
@@ -693,8 +696,11 @@ a.tt:hover{text-decoration:underline}
 .t2 details[open] summary .chev,.oldfold[open] summary .chev{transform:rotate(-135deg)}
 @media (min-width:900px){
   .t2{grid-template-columns:minmax(0,1.35fr) minmax(300px,.9fr);gap:28px 48px;padding-block:26px 40px}
-  .t2 .colB{grid-column:2;grid-row:1 / span 2}
-  .t2 .colB .nexts{order:-1}
+  .t2 .colN{grid-column:1 / -1}
+  .t2 .nlist{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .t2 .colA{grid-column:1}
+  .t2 .colB{grid-column:2;grid-row:2 / span 2}
+  .t2.nonext .colB{grid-row:1 / span 2}
   .t2 .colC{grid-column:1}
 }
 
@@ -1140,14 +1146,17 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     const mts = state.meetings.filter(m => m.status!=='cancelled' && m.start && !isNaN(new Date(m.start)));
     const left = mts.filter(m => isoDay(new Date(m.start))===t && new Date(m.end||m.start) > d).sort((a,b2)=>new Date(a.start)-new Date(b2.start));
     const show = left.length ? left.slice(0,3) : mts.filter(m => new Date(m.start) > d).sort((a,b2)=>new Date(a.start)-new Date(b2.start)).slice(0,1);
-    const nextHTML = m => { const ag = (m.agenda||[]).filter(a=>!a.done).length; const w = whenLabel(m); const isToday = isoDay(new Date(m.start))===t;
-      return `<button class="next" data-td-meeting="${esc(m.eventId)}"><span class="nx"><span class="k">${isToday?'Today':esc(w.day)} · ${esc(fmtTime(new Date(m.start)))}</span><span class="ttl" style="display:block">${esc(m.title)}</span><span class="ag${ag?'':' none'}" style="display:block">${ag ? ag+' item'+(ag===1?'':'s')+' on the agenda' : 'No agenda yet — tap to add one'}</span></span><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>`; };
+    const nextHTML = (m, i) => { const ag = (m.agenda||[]).filter(a=>!a.done).length; const w = whenLabel(m); const isToday = isoDay(new Date(m.start))===t;
+      const pr = m.prep || {}; const line = i===0 ? (pr.oneLine || (pr.highlights||[])[0] || '') : '';
+      return `<button class="next" data-td-meeting="${esc(m.eventId)}"><span class="nx"><span class="k">${isToday?'Today':esc(w.day)} · ${esc(fmtTime(new Date(m.start)))}</span><span class="ttl" style="display:block">${esc(m.title)}</span><span class="ag${ag?'':' none'}" style="display:block">${ag ? ag+' item'+(ag===1?'':'s')+' on the agenda' : 'No agenda yet — tap to add one'}</span>${line?`<span class="br">${esc(line)}</span>`:''}</span><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>`; };
     const mail = openInbox().slice().sort((a,b2)=>String(b2.date||'').localeCompare(String(a.date||'')));
     const mailRow = m => { const label = (m.from ? m.from.split(/[<(]/)[0].trim()+': ' : '') + (m.ask || m.subject || ''); const me = [m.date?fmtDate(m.date.slice(0,10)):'', m.due?'due '+fmtDate(m.due):''].filter(Boolean).join(' · ');
       return `<div class="trow"><span class="ric" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v4"/></svg></span><div class="tx">${m.threadUrl?`<a class="tt" href="${esc(m.threadUrl)}" target="_blank" rel="noopener">${esc(label)}</a>`:`<div class="tt">${esc(label)}</div>`}${me?`<div class="me">${esc(me)}</div>`:''}</div><button class="hb" data-td-handle="${esc(m.id)}">Done</button></div>`; };
     const fresh = mail.filter(m=>!isOldMail(m)), old = mail.filter(isOldMail);
     const fold = (key, title, items) => items.length ? `<details ${state.tdOpen[key]?'open':''}><summary data-td-sec="${key}">${esc(title)} <span class="c">${items.length}</span><span class="chev"></span></summary>${items.map(trow).join('')}</details>` : '';
+    host.classList.toggle('nonext', !show.length);
     host.innerHTML = `
+      ${show.length?`<div class="col colN"><section class="nexts"><h2>${left.length?'Meetings today':'Next meeting'}<button data-td-go="meetings">All meetings →</button></h2><div class="nlist">${show.map(nextHTML).join('')}</div></section></div>`:''}
       <div class="col colA">
         ${b.late.length?`<section><h2 class="late">Overdue <span class="c">${b.late.length}</span></h2>${b.late.map(trow).join('')}</section>`:''}
         <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(trow).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
@@ -1155,7 +1164,6 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
       <div class="col colB">
         <section><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
           ${old.length?`<details ${state.tdOpen.oldmail?'open':''}><summary data-td-sec="oldmail">Older than a week <span class="c">${old.length}</span><span class="chev"></span></summary>${old.map(mailRow).join('')}<div class="bulk"><button class="hb" data-clear-old type="button">Mark all ${old.length} as done</button></div></details>`:''}</section>
-        ${show.length?`<section class="nexts"><h2>${left.length?'Meetings today':'Next meeting'}<button data-td-go="meetings">All meetings →</button></h2>${show.map(nextHTML).join('')}</section>`:''}
       </div>
       <div class="col colC">
         ${fold('week','Due this week', b.week)}
@@ -1422,7 +1430,8 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
         <div class="mt-body">
           <div class="col">
             ${prep.summary?`<p>${esc(prep.summary)}</p>`:`<p style="color:var(--muted)">No prep yet — the morning sync writes it from your notes.</p>`}
-            ${(prep.highlights||[]).length?`<div class="lbl">Since last time${sr&&sr.lastHeld&&sr.lastHeld.url?` <a href="${esc(sr.lastHeld.url)}" target="_blank" rel="noopener">${esc(sr.lastHeld.title||'notes')} ↗</a>`:''}</div><ul class="hl">${prep.highlights.map(h=>`<li>${esc(h)}</li>`).join('')}</ul>`:''}
+            ${(prep.highlights||[]).length?`<div class="lbl">Last time${(prep.basedOn||(sr&&sr.lastHeld)||{}).date?' · '+esc(fmtDate((prep.basedOn||sr.lastHeld).date)):''}${(prep.basedOn||(sr&&sr.lastHeld)||{}).url?` <a href="${esc((prep.basedOn||sr.lastHeld).url)}" target="_blank" rel="noopener">${esc((prep.basedOn||sr.lastHeld).title||'notes')} ↗</a>`:''}</div><ul class="hl">${prep.highlights.map(h=>`<li>${esc(h)}</li>`).join('')}</ul>`:''}
+            ${(prep.updatedAt||m.updatedAt)?`<div class="prep-at">Brief written ${esc(fmtDateTime(prep.updatedAt||m.updatedAt))}</div>`:''}
             <div class="lbl">Your cards for this meeting <span class="c">${cards.length}</span></div>
             ${shown.length?`<ul>${shown.map(c=>`<li>${miniHTML(c, m.eventId)}</li>`).join('')}</ul>`:`<div class="agenda-empty">None of your open cards match this meeting.</div>`}
             ${cards.length>shown.length?`<button class="more-link" data-more="${esc(m.eventId)}">Show all ${cards.length} on the board →</button>`:''}
