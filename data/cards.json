@@ -672,7 +672,7 @@
  "kyle-decision-ownership-guide": {
   "area": "People",
   "createdAt": "2026-11-05T23:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T04:41:38.543Z",
   "due": "2026-11-10",
   "id": "kyle-decision-ownership-guide",
   "note": "Kyle sent the guide (infographic) to Andy and KP; says not much is different but wants both to see it before he leaves Tuesday.",
@@ -684,10 +684,10 @@
   "source": "Email: Decision and Ownership Guide",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881054686721482555",
-  "status": "todo",
+  "status": "done",
   "title": "KP to review Kyle's Decision & Ownership Guide before Tuesday 11/10 — it sets who owns which decisions while Kyle is away for two weeks",
-  "updatedAt": "2026-11-05T23:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T04:41:38.543Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
