@@ -393,8 +393,10 @@
   "sourceUrl": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit",
   "status": "doing",
   "title": "KP priority: fix the finance gap — budget reduction by $200,000",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-14T13:37:14.910Z",
+  "userEdited": true,
+  "pinned": true,
+  "pinnedAt": "2026-11-14T13:37:14.910Z"
  },
  "finance-hire-search": {
   "area": "Finance",
