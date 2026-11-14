@@ -1128,7 +1128,7 @@
  "showcase-projections-share": {
   "area": "Finance",
   "createdAt": "2026-11-06T21:15:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T05:01:56.090Z",
   "due": null,
   "id": "showcase-projections-share",
   "note": "Both projected to finish positive; all travel expenses paid and parent bills sent via PlayMetrics.",
@@ -1139,10 +1139,10 @@
   "raised": "2026-11-06",
   "source": "Finance Catchup — Nov 6",
   "sourceUrl": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Share the GA Winter Showcase and MLS Next Fest projections",
-  "updatedAt": "2026-11-06T21:15:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T05:01:56.090Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
