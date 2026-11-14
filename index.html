@@ -713,6 +713,11 @@ a.tt:hover{text-decoration:underline}
 .field input,.field textarea,.field select{font-size:16px;border-radius:10px}
 .acts-list li,.their li{font-size:14px}
 .acts-list .ow,.their .ow,.acts-list .mine{font-size:12px}
+
+.donebtn{border-color:var(--ok);color:var(--ok);font-weight:600}
+.donebtn:hover{background:var(--ok);color:var(--bg)}
+.field label.check{width:auto;height:auto;min-height:40px;margin:0;display:flex;align-items:center;justify-content:flex-start;gap:8px;border-radius:0;text-transform:none;letter-spacing:0;font-size:14px;font-weight:500;color:var(--fg);cursor:pointer}
+.field label.check input{width:18px;height:18px;flex:none;margin:0}
 </style>
 </head>
 <body>
@@ -1418,11 +1423,13 @@ a.tt:hover{text-decoration:underline}
         <div class="drawer-foot">
           ${!isNew ? `<button class="btn ghost" id="delBtn">Delete</button>` : ''}
           <span class="spacer"></span>
+          ${!isNew && !(typeof ro!=='undefined' && ro) ? `<button class="btn secondary donebtn" id="doneBtn">${d.status==='done' ? 'Reopen' : '\u2713 Mark done'}</button>` : ''}
           <button class="btn secondary" id="cancelBtn">Cancel</button>
           <button class="btn" id="saveBtn">${isNew?'Add card':'Save'}</button>
         </div>
       </aside>`;
     $('#scrim').onclick = closeDrawer; $('#closeBtn').onclick = closeDrawer; $('#cancelBtn').onclick = closeDrawer;
+    const doneBtn = $('#doneBtn'); if(doneBtn) doneBtn.onclick = () => { const d0 = state.draft; if(!d0) return; d0.status = d0.status==='done' ? 'todo' : 'done'; saveDraft(); };
     $$('[data-move]').forEach(b => b.onclick = () => { state.draft.status = b.dataset.move; $$('[data-move]').forEach(x=>x.setAttribute('aria-pressed', x.dataset.move===state.draft.status));  const w=$('#fWaitWrap'); if(w){ w.hidden = state.draft.status!=='waiting'; if(!w.hidden) setTimeout(()=>{ const i=$('#fWaiting'); if(i) i.focus(); }, 20); } });
     const delBtn = $('#delBtn'); if(delBtn) delBtn.onclick = () => { state.confirmDelete = true; renderDrawer(); };
     const delNo = $('#delNo'); if(delNo) delNo.onclick = () => { state.confirmDelete=false; renderDrawer(); };
