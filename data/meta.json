@@ -10,7 +10,7 @@
   "scanned": 2
  },
  "sync": {
-  "actionsAdded": 18,
+  "actionsAdded": 0,
   "brief": [
    {
     "label": "Sun 11/15",
@@ -33,7 +33,7 @@
     "text": "Get Little Red confirmed so the January–February schedule can go out before Thanksgiving."
    }
   ],
-  "cardsAdded": 12,
+  "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
    {
@@ -143,9 +143,9 @@
    }
   ],
   "headline": "Friday's call with Andy and Paul left you a list of finance follow-ups, starting with Monday's audit review with Nirmala; Wednesday stacks Media Day, the Paychex decision and Ops Weekly.",
-  "lastRun": "2026-11-14T05:05:48Z",
+  "lastRun": "2026-11-14T05:06:41Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 14,
+  "meetingsRefreshed": 0,
   "notesScanned": 35,
   "themes": [
    {
