@@ -1015,15 +1015,17 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     const root = $('#connectRoot'); if(!root) return;
     root.innerHTML = `<div class="scrim"></div><div class="connect glass" role="dialog" aria-modal="true" aria-label="Connect to GitHub">
       <h2>Connect to edit</h2>
-      <p>Anyone with the link can view the board. To tick things off or make changes from this device, paste your GitHub token once. It stays in this browser only.</p>
+      <p>Anyone with the link can view the board. To tick things off or make changes from this device, paste your GitHub token once. If your phone or browser offers to save it as a password, say yes — next time it fills itself in.</p>
       ${msg?`<div class="ro">${esc(msg)}</div>`:''}
-      <div class="field"><label for="cRepo">Repository</label><input id="cRepo" type="text" value="${esc(repoCfg.owner?repoCfg.owner+'/'+repoCfg.repo:'')}" placeholder="username/dusc-board" autocomplete="off" spellcheck="false"></div>
-      <div class="field"><label for="cTok">Token</label><input id="cTok" type="password" placeholder="github_pat_…" autocomplete="off"></div>
-      <div class="drawer-foot" style="padding:12px 0 0;border:0"><button class="btn secondary" id="cNo" type="button">Not now</button><span class="spacer"></span><button class="btn" id="cGo">Connect</button></div>
+      <form id="cForm" method="post" action="#" autocomplete="on" style="display:contents">
+      <div class="field"><label for="cRepo">Repository</label><input id="cRepo" name="username" type="text" value="${esc(repoCfg.owner?repoCfg.owner+'/'+repoCfg.repo:'')}" placeholder="username/dusc-board" autocomplete="username" autocapitalize="none" spellcheck="false"></div>
+      <div class="field"><label for="cTok">Token</label><input id="cTok" name="password" type="password" placeholder="github_pat_…" autocomplete="current-password"></div>
+      <div class="drawer-foot" style="padding:12px 0 0;border:0"><button class="btn secondary" id="cNo" type="button">Not now</button><span class="spacer"></span><button class="btn" id="cGo" type="submit">Connect</button></div>
+      </form>
       <p class="hint">GitHub → Settings → Developer settings → Personal access tokens → Fine-grained. Repository access: only the board repo. Permissions: Contents → Read and write.</p>
     </div>`;
     $('#cNo').onclick = hideConnect; root.querySelector('.scrim').onclick = hideConnect;
-    $('#cGo').onclick = async () => {
+    $('#cForm').onsubmit = async (ev) => { ev.preventDefault();
       const rep = $('#cRepo').value.trim(); const tok = $('#cTok').value.trim();
       const m = /^([A-Za-z0-9_.-]+)\/([A-Za-z0-9_.-]+)$/.exec(rep); if(!m){ $('#cRepo').focus(); toast('Repository should look like username/dusc-board'); return; }
       if(!tok){ $('#cTok').focus(); return; }
@@ -1681,7 +1683,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
 </script>
 <script>
 (function(){
-  var BUILD = '662c4aac63';
+  var BUILD = '2203394972';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
