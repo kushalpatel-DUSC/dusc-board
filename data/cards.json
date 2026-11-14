@@ -985,7 +985,7 @@
  "rec-email-list-access": {
   "area": "Systems",
   "createdAt": "2026-11-05T21:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T05:02:10.101Z",
   "due": null,
   "id": "rec-email-list-access",
   "note": "Technical constraints on contact lists came up; email blasts are the channel that works for Rec and classes.",
@@ -996,10 +996,10 @@
   "raised": "2026-11-05",
   "source": "DUSC Rec Meeting — Nov 5",
   "sourceUrl": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "KP to work out with Sydney how DUSC can access the league email list/contact lists for Rec outreach",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T05:02:10.101Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
