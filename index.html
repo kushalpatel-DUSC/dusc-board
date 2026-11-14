@@ -718,6 +718,73 @@ a.tt:hover{text-decoration:underline}
 .donebtn:hover{background:var(--ok);color:var(--bg)}
 .field label.check{width:auto;height:auto;min-height:40px;margin:0;display:flex;align-items:center;justify-content:flex-start;gap:8px;border-radius:0;text-transform:none;letter-spacing:0;font-size:14px;font-weight:500;color:var(--fg);cursor:pointer}
 .field label.check input{width:18px;height:18px;flex:none;margin:0}
+
+/* ---------- Notes v2 ---------- */
+.nv{display:grid;grid-template-columns:minmax(0,1fr);gap:26px;align-items:start;padding-block:6px 8px}
+#viewNotes .lab{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px;min-height:28px;margin:0;font-family:var(--body)}
+#viewNotes .lab .c{font-weight:500}
+#viewNotes .lab .when{margin-left:auto;font-weight:500;letter-spacing:0;text-transform:none}
+.brief-list{list-style:none;margin:0;padding:0}
+.brief-list li{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;padding:10px 0;border-bottom:1px solid var(--line);font-size:16px;line-height:1.4;color:var(--fg)}
+.brief-list li b{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.linkb{font-size:13px;font-weight:500;color:var(--accent);min-height:44px;display:inline-flex;align-items:center;text-align:left}
+.linkb:hover{text-decoration:underline}
+.th,.nrow,.nfold{border-bottom:1px solid var(--line)}
+.th summary,.nrow summary,.nfold summary{list-style:none;cursor:pointer}
+.th summary::-webkit-details-marker,.nrow summary::-webkit-details-marker,.nfold summary::-webkit-details-marker{display:none}
+.th summary{display:flex;align-items:center;gap:8px;min-height:48px;font-size:16px;font-weight:500;color:var(--fg)}
+.th p{margin:0;padding:0 0 14px;font-size:15px;line-height:1.5;color:var(--muted);max-width:68ch}
+.chev2{margin-left:auto;flex:none;width:8px;height:8px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg);transition:transform .15s}
+details[open] > summary .chev2{transform:rotate(-135deg)}
+.dls{list-style:none;margin:0;padding:0}
+.dls li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.4}
+.dls .d{font-size:13px;font-weight:600;color:var(--muted);padding-top:1px;white-space:nowrap}
+.dls .d.over,.dls .d.today{color:var(--accent)}
+.dls .ln{display:block}
+.dls .ln + .ln{margin-top:4px}
+.dls .who{display:block;font-size:12px;color:var(--muted);margin-top:3px}
+.nv .nvL{display:contents}
+.nv .nvA{order:0} .nv .nvB{order:1} .nv .nvC{order:2}
+@media (min-width:900px){ .nv .nvA,.nv .nvB,.nv .nvC{order:0} }
+.nbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-bottom:6px}
+.nmode{display:inline-flex;background:var(--surface-2);border-radius:10px;padding:3px;gap:2px;max-width:100%}
+.nmode button{font-size:14px;font-weight:500;color:var(--muted);padding:0 12px;min-height:38px;border-radius:8px;white-space:nowrap}
+.nmode button .c{font-weight:500;opacity:.8;margin-left:4px}
+.nmode button[aria-pressed="true"]{background:var(--surface-solid);color:var(--fg);font-weight:600;box-shadow:0 0 0 1px var(--line)}
+.nbar .sel{margin-left:auto;min-height:38px;font-size:14px}
+.nrow summary{display:grid;grid-template-columns:minmax(0,1fr) 16px;column-gap:10px;align-items:center;padding:12px 0;min-height:56px}
+.nrow .nt{font-size:16px;font-weight:600;line-height:1.3;color:var(--fg)}
+.nrow .nm{font-size:12px;color:var(--muted);margin-top:3px;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
+.nrow .k{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.nrow .k::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--dim)}
+.nrow .k.d::before{background:var(--ok)} .nrow .k.q::before{background:var(--warn)} .nrow .k.a::before{background:var(--accent)}
+.nrow .chev2{margin:0;justify-self:end}
+.nrow .nb{padding:0 0 16px;display:flex;flex-direction:column;gap:8px;max-width:76ch}
+.nrow .nb > p{margin:0;font-size:15px;line-height:1.5;color:var(--fg)}
+.nb .lbl{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.nb ul,.dg ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:7px;font-size:15px;line-height:1.45}
+.nb ul:not(.acts-list) li,.dg li{position:relative;padding-left:16px}
+.nb ul:not(.acts-list) li::before,.dg li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--dim)}
+.nb ul:not(.acts-list) li.decision::before,.dg li.decision::before{background:var(--ok)}
+.nb ul:not(.acts-list) li.q::before,.dg li.q::before{background:var(--warn)}
+.nb .acts-list li{font-size:15px;align-items:center;min-height:36px}
+.nb .foot{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:4px}
+.nb .foot a,.nb .foot button{font-size:13px;font-weight:500;color:var(--accent);min-height:36px;display:inline-flex;align-items:center;text-decoration:none}
+.nb .foot a:hover,.nb .foot button:hover{text-decoration:underline}
+.nfold summary{display:flex;align-items:center;gap:8px;min-height:48px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nfold[open]{border-bottom:0}
+.nfold .c{font-weight:500}
+.ngroup{margin-top:18px}
+.ngroup:first-child{margin-top:4px}
+.dg{padding:14px 0;border-bottom:1px solid var(--line);max-width:76ch}
+.dg .dh{font-size:12px;color:var(--muted);margin-bottom:8px;display:flex;flex-wrap:wrap;gap:2px 10px}
+.dg .dh a,.dg .dh b{font-weight:600;color:var(--fg);text-decoration:none}
+.dg .dh a:hover{text-decoration:underline}
+#viewNotes .none{font-size:14px;color:var(--muted);padding:14px 0;border-bottom:1px solid var(--line)}
+@media (min-width:900px){
+  .nv{grid-template-columns:minmax(0,1.5fr) minmax(280px,.85fr);gap:30px 48px;padding-block:18px 8px}
+  .nv .nvL{display:flex;flex-direction:column;gap:30px;min-width:0}
+}
 </style>
 </head>
 <body>
@@ -775,23 +842,31 @@ a.tt:hover{text-decoration:underline}
 
   <section id="viewNotes" role="tabpanel" aria-labelledby="tabNotes" class="wrap notes" hidden>
     <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button></div>
-    <div class="playbook">
-      <div class="state glass" id="stateBox">
-        <span class="mono" id="stateEyebrow">State of play</span>
-        <p class="lede" id="stateLede">The daily sync writes a short read on where things stand across every note, plus the themes that keep coming up.</p>
-        <div class="themes" id="themes"></div>
+    <div class="nv">
+      <div class="nvL">
+      <section class="nvA" aria-label="Brief">
+        <h2 class="lab"><span>Where things stand</span><span class="when" id="stateEyebrow"></span></h2>
+        <ul class="brief-list" id="briefList"><li>The morning sync writes a short brief here.</li></ul>
+        <div id="briefMore"></div>
+        <p id="stateLede" hidden></p>
+      </section>
+      <section class="nvC" aria-label="Themes">
+        <h2 class="lab">Themes</h2>
+        <div id="themes"></div>
+      </section>
       </div>
-      <aside class="rail glass">
-        <h3>Coming up</h3>
-        <ol id="deadlines"><li><span class="d">–</span><span>Deadlines from the notes appear here after the first sync.</span></li></ol>
-      </aside>
+      <section class="nvB" aria-label="Coming up">
+        <h2 class="lab">Coming up</h2>
+        <ol class="dls" id="deadlines"></ol>
+        <div id="dlMore"></div>
+      </section>
     </div>
-    <div class="notes-head">
-      <h2>Note digests</h2><span class="cnt" id="notesCnt"></span>
+    <div class="nbar">
+      <div class="nmode" role="group" aria-label="Show"><button data-nmode="notes" aria-pressed="true">By note</button><button data-nmode="decisions" aria-pressed="false">Decisions<span class="c" id="nDec"></span></button><button data-nmode="questions" aria-pressed="false">Questions<span class="c" id="nQ"></span></button></div>
       <select class="sel" id="noteAreaSel" aria-label="Filter notes by area"><option value="all">All areas</option></select>
-      <div class="seg" role="group" aria-label="Detail"><button id="denCompact" aria-pressed="false">Compact</button><button id="denFull" aria-pressed="true">Everything</button></div>
+      <span hidden><span id="notesCnt"></span><button id="denCompact"></button><button id="denFull"></button></span>
     </div>
-    <div class="notes-grid" id="notesGrid"><div class="loading-note glass">Loading note digests…</div></div>
+    <div id="notesGrid"><div class="none">Loading notes…</div></div>
   </section>
 
   <section id="viewInbox" role="tabpanel" aria-labelledby="tabInbox" class="wrap inbox" hidden>
@@ -1208,40 +1283,69 @@ a.tt:hover{text-decoration:underline}
   }
 
   // ---------- notes ----------
+  function briefItems(s){
+    if(Array.isArray(s.brief) && s.brief.length) return {items: s.brief.map(b => typeof b==='string' ? {label:'', text:b} : {label:String(b.label||''), text:String(b.text||'')}).filter(b=>b.text), written:true};
+    const h = String(s.headline||'').trim(); if(!h) return {items:[], written:false};
+    const items = h.replace(/([.!?])\s+(?=[A-Z"'(])/g, '$1\n').split('\n').map(t => { t = t.trim(); const m = /^([A-Z][A-Za-z ]{2,22}):\s+(.*)$/.exec(t); return m ? {label:m[1], text:m[2].charAt(0).toUpperCase()+m[2].slice(1)} : {label:'', text:t}; }).filter(b=>b.text);
+    return {items, written:false};
+  }
+  function noteWhen(n){ const d = daysUntil(n.date || String(n.modified||'').slice(0,10)); return d===null ? 2 : (d >= -7 ? 0 : d >= -14 ? 1 : 2); }
   function renderNotes(){
     const s = state.sync || {};
-    $('#stateEyebrow').textContent = s.lastRun ? 'State of play · '+fmtDateTime(s.lastRun) : 'State of play';
-    if(s.headline) $('#stateLede').textContent = s.headline;
+    state.noteOpen = state.noteOpen || {}; state.thOpen = state.thOpen || {}; state.noteMode = state.noteMode || 'notes';
+    $('#stateEyebrow').textContent = s.lastRun ? 'Updated '+fmtDateTime(s.lastRun) : '';
+    const br = briefItems(s), cap = br.written ? 6 : 3, showB = state.briefOpen ? br.items : br.items.slice(0, cap);
+    $('#briefList').innerHTML = showB.length ? showB.map(b=>`<li>${b.label?`<b>${esc(b.label)}</b>`:''}<span>${esc(b.text)}</span></li>`).join('') : `<li>The morning sync writes a short brief here.</li>`;
+    $('#briefMore').innerHTML = br.items.length > cap ? `<button class="linkb" data-brief-more>${state.briefOpen ? 'Show less' : 'Show '+(br.items.length-cap)+' more'}</button>` : '';
     const themes = Array.isArray(s.themes)?s.themes:[];
-    $('#themes').innerHTML = themes.map(t=>`<div class="theme"><h3>${esc(t.name)}</h3><p>${esc(t.text)}</p></div>`).join('');
+    $('#themes').innerHTML = themes.length ? themes.map(t=>`<details class="th" ${state.thOpen[t.name]?'open':''}><summary data-th="${esc(t.name)}">${esc(t.name)}<span class="chev2"></span></summary><p>${esc(t.text)}</p></details>`).join('') : `<div class="none">Themes appear after the first sync.</div>`;
     const dl = Array.isArray(s.deadlines)?s.deadlines.slice().sort((a,b)=>String(a.date).localeCompare(String(b.date))):[];
     const upcoming = dl.filter(d=>{ const n=daysUntil(d.date); return n===null || n >= -3; });
-    $('#deadlines').innerHTML = upcoming.length ? upcoming.map(d=>`<li><span class="d ${dueClass(d.date)}">${esc(d.dateLabel||fmtDate(d.date))}</span><span>${esc(d.label)}${d.who?`<span class="who">${esc(d.who)}</span>`:''}</span></li>`).join('') : `<li><span class="d">–</span><span>No upcoming deadlines recorded.</span></li>`;
+    const soon = upcoming.filter(d=>{ const n=daysUntil(d.date); return n!==null && n <= 7; });
+    const showD = state.dlOpen ? upcoming : (soon.length ? soon : upcoming.slice(0,5));
+    $('#deadlines').innerHTML = showD.length ? showD.map(d=>`<li><span class="d ${dueClass(d.date)}">${esc(d.dateLabel||fmtDate(d.date))}</span><span>${String(d.label||'').split(' · ').map(x=>`<span class="ln">${esc(x.charAt(0).toUpperCase()+x.slice(1))}</span>`).join('')}${d.who?`<span class="who">${esc(d.who)}</span>`:''}</span></li>`).join('') : `<li><span class="d">–</span><span>No upcoming deadlines recorded.</span></li>`;
+    $('#dlMore').innerHTML = upcoming.length > showD.length || state.dlOpen ? `<button class="linkb" data-dl-more>${state.dlOpen ? 'Show the next 7 days only' : 'Show all '+upcoming.length}</button>` : '';
     const q = state.filters.q.trim().toLowerCase();
     const notes = state.notes.filter(n => (state.noteArea==='all' || n.area===state.noteArea) && (!q || [n.title,n.summary,...(n.keyPoints||[]),...(n.decisions||[]),...(n.openQuestions||[]),...noteActions(n).map(a=>a.text+' '+(a.owner||''))].join(' ').toLowerCase().includes(q)))
       .sort((a,b)=>String(b.date||b.modified||'').localeCompare(String(a.date||a.modified||'')));
+    const arr = x => Array.isArray(x) ? x : [];
+    const nDec = notes.reduce((t,n)=>t+arr(n.decisions).length,0), nQ = notes.reduce((t,n)=>t+arr(n.openQuestions).length,0);
     $('#notesCnt').textContent = `${notes.length} / ${state.notes.length}`;
-    $('#denCompact').setAttribute('aria-pressed', state.density==='compact');
-    $('#denFull').setAttribute('aria-pressed', state.density==='full');
+    $('#nDec').textContent = nDec ? ' '+nDec : ''; $('#nQ').textContent = nQ ? ' '+nQ : '';
+    document.querySelectorAll('.nmode [data-nmode]').forEach(b => b.setAttribute('aria-pressed', b.dataset.nmode===state.noteMode));
     const grid = $('#notesGrid');
-    if(!notes.length){ grid.innerHTML = `<div class="loading-note glass">No notes match.</div>`; return; }
-    grid.innerHTML = notes.map(n=>{
-      const kp = Array.isArray(n.keyPoints)?n.keyPoints:[], dec = Array.isArray(n.decisions)?n.decisions:[], oq = Array.isArray(n.openQuestions)?n.openQuestions:[];
-      const list = (arr, cls, extra='') => arr.length ? `<ul class="${extra}">${arr.map(x=>`<li class="${cls}">${esc(x)}</li>`).join('')}</ul>` : '';
+    if(!notes.length){ grid.innerHTML = `<div class="none">No notes match.</div>`; return; }
+    const list = (a, cls) => `<ul>${a.map(x=>`<li class="${cls}">${esc(x)}</li>`).join('')}</ul>`;
+    const pl = (n, w) => n+' '+w+(n===1?'':'s');
+    if(state.noteMode !== 'notes'){
+      const key = state.noteMode==='decisions' ? 'decisions' : 'openQuestions', cls = state.noteMode==='decisions' ? 'decision' : 'q';
+      const with_ = notes.filter(n => arr(n[key]).length);
+      grid.innerHTML = with_.length ? with_.map(n=>`<div class="dg"><div class="dh">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:`<b>${esc(n.title)}</b>`}<span>${esc(n.date?fmtDate(n.date):'')}${n.area?' · '+esc(n.area):''}</span></div>${list(arr(n[key]), cls)}</div>`).join('') : `<div class="none">${state.noteMode==='decisions' ? 'No decisions recorded in these notes.' : 'No open questions in these notes.'}</div>`;
+      return;
+    }
+    const nrow = n => {
+      const kp = arr(n.keyPoints), dec = arr(n.decisions), oq = arr(n.openQuestions);
+      const openActs = noteActions(n).filter(a=>!a.claimed && !a.done).length;
       const key = n.url ? n.url.split('/edit')[0] : '';
       const openCards = key ? state.cards.filter(c => isOpen(c) && c.sourceUrl && c.sourceUrl.split('/edit')[0]===key).length : 0;
-      const compact = state.density==='compact';
-      return `<article class="note glass${compact?' compact':''}" data-note="${esc(n.id)}">
-        <div class="eyebrow"><span>${esc(n.date?fmtDate(n.date):'')}</span>${n.kind?`<span>${esc(n.kind)}</span>`:''}${n.area?`<span>${esc(n.area)}</span>`:''}</div>
-        <h3>${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)} ↗</a>`:esc(n.title)}</h3>
-        <p>${esc(n.summary||'')}</p>
-        ${kp.length?`<div class="lbl">Key points</div>${list(kp,'','kp')}`:''}
-        <div class="more">${dec.length?`<div class="lbl">Decisions</div>${list(dec,'decision')}`:''}${oq.length?`<div class="lbl">Open questions</div>${list(oq,'q')}`:''}</div>
-        ${actionsHTML(n)}
-        ${compact && (kp.length>3||dec.length||oq.length)?`<button class="expand" data-expand>Show everything</button>`:''}
-        ${openCards?`<div class="related"><button data-note-cards="${esc(key)}">${openCards} open card${openCards===1?'':'s'} from this note →</button></div>`:''}
-      </article>`;
-    }).join('');
+      const isOpenRow = !!state.noteOpen[n.id] || (!!q && notes.length <= 3);
+      const chips = [dec.length?`<span class="k d">${pl(dec.length,'decision')}</span>`:'', oq.length?`<span class="k q">${pl(oq.length,'question')}</span>`:'', openActs?`<span class="k a">${pl(openActs,'to-do')}</span>`:''].join('');
+      return `<details class="nrow" data-note="${esc(n.id)}" ${isOpenRow?'open':''}>
+        <summary data-nrow="${esc(n.id)}"><div><div class="nt">${esc(n.title)}</div><div class="nm"><span>${esc([n.date?fmtDate(n.date):'', n.area||''].filter(Boolean).join(' · '))}</span>${chips}</div></div><span class="chev2"></span></summary>
+        <div class="nb">
+          ${n.summary?`<p>${esc(n.summary)}</p>`:''}
+          ${dec.length?`<div class="lbl">Decisions</div>${list(dec,'decision')}`:''}
+          ${oq.length?`<div class="lbl">Open questions</div>${list(oq,'q')}`:''}
+          ${actionsHTML(n)}
+          ${kp.length?`<div class="lbl">Key points</div>${list(kp,'')}`:''}
+          <div class="foot">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">Open the doc ↗</a>`:''}${openCards?`<button data-note-cards="${esc(key)}">${pl(openCards,'open card')} of mine from this note →</button>`:''}</div>
+        </div>
+      </details>`;
+    };
+    if(q){ grid.innerHTML = notes.map(nrow).join(''); return; }
+    const g = [[],[],[]]; notes.forEach(n => g[noteWhen(n)].push(n));
+    const head = (t, a) => `<h2 class="lab">${t} <span class="c">${a.length}</span></h2>`;
+    grid.innerHTML = `<div class="nv2">${g[0].length?`<div class="ngroup">${head('Last 7 days', g[0])}${g[0].map(nrow).join('')}</div>`:''}${g[1].length?`<div class="ngroup">${head('The week before', g[1])}${g[1].map(nrow).join('')}</div>`:''}${g[2].length?`<details class="nfold ngroup" ${state.notesOldOpen?'open':''}><summary data-nfold>Earlier <span class="c">${g[2].length}</span><span class="chev2"></span></summary>${g[2].map(nrow).join('')}</details>`:''}</div>`;
   }
 
   // ---------- inbox ----------
@@ -1513,6 +1617,14 @@ a.tt:hover{text-decoration:underline}
     const list = $('#list');
     list.addEventListener('click', e => { const tg = e.target.closest('[data-toggle-done]'); if(tg){ state.listDoneOpen = !state.listDoneOpen; renderList(); return; } const pn = e.target.closest('[data-pin]'); if(pn){ e.preventDefault(); togglePin(pn.dataset.pin); return; } const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, ck.closest('.row')); return; } const el = e.target.closest('.row'); if(!el || e.target.closest('a')) return; openById(el.dataset.id); });
     list.addEventListener('keydown', e => { if(e.target.closest('[data-done],[data-pin]')) return; const el = e.target.closest('.row'); if(!el) return; if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openById(el.dataset.id); } });
+    $('#viewNotes').addEventListener('click', e => {
+      const md = e.target.closest('[data-nmode]'); if(md){ state.noteMode = md.dataset.nmode; renderNotes(); return; }
+      if(e.target.closest('[data-brief-more]')){ state.briefOpen = !state.briefOpen; renderNotes(); return; }
+      if(e.target.closest('[data-dl-more]')){ state.dlOpen = !state.dlOpen; renderNotes(); return; }
+      const th = e.target.closest('summary[data-th]'); if(th){ state.thOpen = state.thOpen || {}; state.thOpen[th.dataset.th] = !th.parentElement.open; return; }
+      const nf = e.target.closest('summary[data-nfold]'); if(nf){ state.notesOldOpen = !nf.parentElement.open; return; }
+      const nr = e.target.closest('summary[data-nrow]'); if(nr){ state.noteOpen = state.noteOpen || {}; state.noteOpen[nr.dataset.nrow] = !nr.parentElement.open; return; }
+    });
     $('#notesGrid').addEventListener('click', e => {
       const ad = e.target.closest('[data-act-done]'); if(ad){ toggleAction(ad.dataset.actDone, +ad.dataset.ix); return; }
       const ac = e.target.closest('[data-act-claim]'); if(ac){ claimAction(ac.dataset.actClaim, +ac.dataset.ix); return; }

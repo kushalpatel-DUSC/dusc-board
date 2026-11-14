@@ -11,6 +11,28 @@
  },
  "sync": {
   "actionsAdded": 0,
+  "brief": [
+   {
+    "label": "Today",
+    "text": "Submit staff bonuses for the 11/15 payout; the first weekly call with Andy and Paul at 2:00 has no agenda yet."
+   },
+   {
+    "label": "Sun 11/15",
+    "text": "Supply-vs-demand dashboard and Jan–Mar zones 1–2 go to Andy, and you visit the Rec session at Pier 40."
+   },
+   {
+    "label": "Wed 11/18",
+    "text": "Media Day at Socceroof with Kyle away, the same day as Soccer For All (noon), the Paychex decision call (12:30) and Ops Weekly."
+   },
+   {
+    "label": "Moving",
+    "text": "The 9/30 reconciliation (receivable still to be built) and healthcare; the audit draft is expected Monday."
+   },
+   {
+    "label": "Stuck",
+    "text": "Jan–March schedule announcement waits on final spaces, the COI renewal is due before 11/24, and three of your cards are past due."
+   }
+  ],
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
