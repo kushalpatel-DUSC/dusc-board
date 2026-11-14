@@ -549,7 +549,7 @@
  "hrpt-coi-renewal": {
   "area": "Finance",
   "createdAt": "2026-11-07T11:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T04:51:58.336Z",
   "due": "2026-11-24",
   "id": "hrpt-coi-renewal",
   "note": "HRPT (Alyssia McMorris) will not DocuSign the Pier 40 winter permit until a renewed COI is on file; Malorie asked finance@ to expedite the renewal. Required wording is in the thread.",
@@ -561,10 +561,10 @@
   "source": "Email: HRPK Winter 2026-27 — insurance renewal",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881173331030128940",
-  "status": "todo",
+  "status": "done",
   "title": "KP to get the liability COI renewed (expires 11/24) with HRPT's additional-insured / waiver-of-subrogation wording and sent to Hudson River Park Trust so the winter Moms & Dads permit can be issued",
-  "updatedAt": "2026-11-07T11:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T04:51:58.336Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
