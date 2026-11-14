@@ -633,17 +633,28 @@ select.sel{padding:7px 30px 7px 10px;border:1px solid var(--line);border-radius:
   function cacheLoad(){ try{ const c = JSON.parse(localStorage.getItem(K.cache)||'null'); if(c && c.data){ COLL.forEach(k=>{ DATA[k] = c.data[k]||{}; }); return c.at; } }catch(e){} return null; }
   function encodeB64(s){ const bytes = new TextEncoder().encode(s); let bin=''; for(let i=0;i<bytes.length;i+=0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i,i+0x8000)); return btoa(bin); }
   function decodeB64(b){ const bin = atob(String(b||'').replace(/\s/g,'')); const bytes = new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) bytes[i]=bin.charCodeAt(i); return new TextDecoder().decode(bytes); }
-  const apiBase = () => 'api/data/';
-  const hdr = () => ({'Authorization':'Bearer '+token});
-  function httpErr(r){ const e = new Error('HTTP '+r.status); e.status = r.status; e.code = r.status===401 ? 'auth' : r.status===503 ? 'setup' : r.status===502 ? 'server' : 'http'; return e; }
+  const apiBase = () => `https://api.github.com/repos/${encodeURIComponent(repoCfg.owner)}/${encodeURIComponent(repoCfg.repo)}/contents/data/`;
+  const hdr = () => ({'Authorization':'Bearer '+token, 'Accept':'application/vnd.github+json', 'X-GitHub-Api-Version':'2022-11-28'});
+  function httpErr(r){ const e = new Error('HTTP '+r.status); e.status = r.status; e.code = r.status===401 ? 'auth' : r.status===404 ? 'notfound' : (r.status===403 ? 'forbidden' : 'http'); return e; }
   async function ghGet(coll){
-    let r; try{ r = await fetch(apiBase()+coll+'.json', {headers: hdr(), cache:'no-store'}); }catch(e){ const n = new Error('offline'); n.code='offline'; throw n; }
+    let r; try{ r = await fetch(apiBase()+coll+'.json?ref='+encodeURIComponent(repoCfg.branch), {headers: hdr(), cache:'no-store'}); }catch(e){ const n = new Error('offline'); n.code='offline'; throw n; }
     if(r.status===404) return {sha:null, data:{}};
     if(!r.ok) throw httpErr(r);
     const j = await r.json(); const txt = decodeB64(j.content); let data = {}; try{ data = txt.trim() ? JSON.parse(txt) : {}; }catch(e){ data = {}; }
     if(Array.isArray(data)){ const m={}; data.forEach(d=>{ const id = d.id||d.eventId||d.key; if(id) m[id]=d; }); data = m; }
     return {sha:j.sha, data};
   }
+  const rawBase = () => `https://raw.githubusercontent.com/${encodeURIComponent(repoCfg.owner)}/${encodeURIComponent(repoCfg.repo)}/${encodeURIComponent(repoCfg.branch)}/data/`;
+  async function ghGetAnon(coll){
+    const norm = data => { if(Array.isArray(data)){ const m={}; data.forEach(d=>{ const id = d.id||d.eventId||d.key; if(id) m[id]=d; }); return m; } return data || {}; };
+    const t = Date.now(); let lastErr = null;
+    for(const u of [rawBase()+coll+'.json?t='+t, 'data/'+coll+'.json?t='+t]){
+      try{ const r = await fetch(u, {cache:'no-store'}); if(r.ok){ const txt = await r.text(); return {sha:null, data: norm(txt.trim() ? JSON.parse(txt) : {})}; } lastErr = httpErr(r); }catch(e){ lastErr = e; }
+    }
+    const n = new Error('offline'); n.code = (lastErr && lastErr.code) || 'offline'; throw n;
+  }
+  let hintT = null;
+  function viewOnlyHint(){ clearTimeout(hintT); hintT = setTimeout(()=>toast('View only on this device', {label:'Connect to edit', fn: ()=>showConnect()}), 60); }
   async function ghPut(coll, data, sha, message){
     const body = {message, content: encodeB64(JSON.stringify(data, null, 1)), branch: repoCfg.branch}; if(sha) body.sha = sha;
     let r; try{ r = await fetch(apiBase()+coll+'.json', {method:'PUT', headers: {...hdr(), 'Content-Type':'application/json'}, body: JSON.stringify(body)}); }catch(e){ const n = new Error('offline'); n.code='offline'; throw n; }
@@ -652,7 +663,7 @@ select.sel{padding:7px 30px 7px 10px;border:1px solid var(--line);border-radius:
     const j = await r.json(); return j.content && j.content.sha;
   }
   function applyOp(data, o){ if(o.op==='delete'){ delete data[o.id]; } else if(o.op==='set'){ data[o.id] = o.patch; } else { data[o.id] = {...(data[o.id]||{}), ...o.patch}; } }
-  function describeErr(e){ const c = e && e.code; if(c==='auth') return 'Signed out — sign in again'; if(c==='setup') return 'Board not set up in Netlify yet'; if(c==='server') return 'Netlify could not reach GitHub — check GITHUB_TOKEN'; if(c==='notfound') return 'Repo not found or no access'; if(c==='forbidden') return 'GitHub refused (rate limit or permissions)'; if(c==='offline') return 'Offline — changes will sync when you’re back'; return 'Sync problem — will retry'; }
+  function describeErr(e){ const c = e && e.code; if(c==='auth') return 'GitHub rejected the token — reconnect'; if(c==='notfound') return 'Repo not found or no access'; if(c==='forbidden') return 'GitHub refused (rate limit or permissions)'; if(c==='offline') return 'Offline — changes will sync when you’re back'; return 'Sync problem — will retry'; }
   function materialize(){
     state.cards = Object.entries(DATA.cards).map(([id,c])=>({...c, id}));
     state.notes = Object.entries(DATA.notes).map(([id,n])=>({...n, id}));
@@ -662,7 +673,7 @@ select.sel{padding:7px 30px 7px 10px;border:1px solid var(--line);border-radius:
     state.sync = DATA.meta.sync||null; state.mailSync = DATA.meta.inbox||null;
   }
   const uid = () => 'c-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7);
-  function queueOp(coll, id, op, patch){ queue.push({coll, id, op, patch, ts: Date.now()}); applyOp(DATA[coll], {coll,id,op,patch}); saveQueue(); cacheSave(); }
+  function queueOp(coll, id, op, patch){ if(!token){ viewOnlyHint(); return; } queue.push({coll, id, op, patch, ts: Date.now()}); applyOp(DATA[coll], {coll,id,op,patch}); saveQueue(); cacheSave(); }
   let flushing = false, flushTimer = null;
   async function flush(){
     if(flushing || !queue.length || !token){ renderSync(); return; }
@@ -678,40 +689,48 @@ select.sel{padding:7px 30px 7px 10px;border:1px solid var(--line);border-radius:
         }
       }
       state.syncErr = null; state.lastSync = Date.now(); cacheSave(); materialize(); render();
-    }catch(e){ state.syncErr = describeErr(e); state.syncErrCode = e && e.code; if(e && e.code==='auth') showConnect('Please sign in again.'); renderSync(); }
+    }catch(e){ state.syncErr = describeErr(e); state.syncErrCode = e && e.code; if(e && e.code==='auth') showConnect('GitHub rejected the token. Paste a new one.'); renderSync(); }
     finally{ flushing = false; renderSync(); if(queue.length && state.syncErrCode!=='auth'){ clearTimeout(flushTimer); flushTimer = setTimeout(flush, state.syncErr ? 8000 : 1500); } }
   }
   async function loadAll(){
-    if(!token){ showConnect(); return; }
     state.loading = true; renderSync();
     try{
-      const res = await Promise.all(COLL.map(c=>ghGet(c)));
+      const anon = !token; const res = await Promise.all(COLL.map(c=> anon ? ghGetAnon(c) : ghGet(c)));
+      if(!anon && res.every(r=>r.sha===null)){ const e0 = new Error('notfound'); e0.code='notfound'; throw e0; }
       COLL.forEach((c,i)=>{ DATA[c] = res[i].data; SHA[c] = res[i].sha; });
       queue.forEach(o=>applyOp(DATA[o.coll], o));
       state.loaded = {cards:true, notes:true, sync:true, inbox:true, meetings:true, series:true};
-      state.lastLoad = Date.now(); state.syncErr = null; state.syncErrCode = null; cacheSave(); hideConnect();
-    }catch(e){ state.syncErr = describeErr(e); state.syncErrCode = e && e.code; if(e && e.code==='auth') showConnect('Please sign in again.'); ; }
+      state.lastLoad = Date.now(); state.syncErr = null; state.syncErrCode = null; cacheSave(); if(!anon) hideConnect();
+    }catch(e){ state.syncErr = describeErr(e); state.syncErrCode = e && e.code; if(token && e && (e.code==='auth' || e.code==='notfound')){ const typing = !!$('#cTok'); token = null; try{ localStorage.removeItem(K.token); }catch(e2){} if(typing){ showConnect(e.code==='auth' ? 'GitHub rejected that token.' : 'That token has no access to the board repo.'); } else { toast('Saved token no longer works. Showing view-only.'); } setTimeout(loadAll, 50); } }
     finally{ state.loading = false; materialize(); render(); if(queue.length) flush(); }
   }
   function showConnect(msg){
     const root = $('#connectRoot'); if(!root) return;
-    root.innerHTML = `<div class="scrim"></div><form class="connect glass" role="dialog" aria-modal="true" aria-label="Sign in" id="pForm">
-      <h2>Sign in</h2>
-      <p>Enter the board passcode. This device stays signed in afterwards.</p>
+    root.innerHTML = `<div class="scrim"></div><div class="connect glass" role="dialog" aria-modal="true" aria-label="Connect to GitHub">
+      <h2>Connect to edit</h2>
+      <p>Anyone with the link can view the board. To tick things off or make changes from this device, paste your GitHub token once. It stays in this browser only.</p>
       ${msg?`<div class="ro">${esc(msg)}</div>`:''}
-      <div class="field"><label for="pPass">Passcode</label><input id="pPass" type="password" autocomplete="current-password" autofocus></div>
-      <div class="drawer-foot" style="padding:12px 0 0;border:0"><span class="spacer"></span><button class="btn" id="pGo" type="submit">Sign in</button></div>
-    </form>`;
-    $('#pForm').onsubmit = async e => { e.preventDefault(); const pass = $('#pPass').value; if(!pass) return; const go = $('#pGo'); go.disabled = true; go.textContent = 'Signing in…';
-      let r; try{ r = await fetch('api/login', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({passcode: pass})}); }catch(err){ showConnect('No connection. Try again.'); return; }
-      if(r.status===401){ showConnect('That passcode is not right.'); return; }
-      const j = await r.json().catch(()=>({}));
-      if(!r.ok || !j.session){ showConnect(j.message || 'Sign-in is not available right now.'); return; }
-      token = j.session; try{ localStorage.setItem(K.token, token); }catch(e2){}
-      hideConnect(); loadAll(); };
+      <div class="field"><label for="cRepo">Repository</label><input id="cRepo" type="text" value="${esc(repoCfg.owner?repoCfg.owner+'/'+repoCfg.repo:'')}" placeholder="username/dusc-board" autocomplete="off" spellcheck="false"></div>
+      <div class="field"><label for="cTok">Token</label><input id="cTok" type="password" placeholder="github_pat_…" autocomplete="off"></div>
+      <div class="drawer-foot" style="padding:12px 0 0;border:0"><button class="btn secondary" id="cNo" type="button">Not now</button><span class="spacer"></span><button class="btn" id="cGo">Connect</button></div>
+      <p class="hint">GitHub → Settings → Developer settings → Personal access tokens → Fine-grained. Repository access: only the board repo. Permissions: Contents → Read and write.</p>
+    </div>`;
+    $('#cNo').onclick = hideConnect; root.querySelector('.scrim').onclick = hideConnect;
+    $('#cGo').onclick = async () => {
+      const rep = $('#cRepo').value.trim(); const tok = $('#cTok').value.trim();
+      const m = /^([A-Za-z0-9_.-]+)\/([A-Za-z0-9_.-]+)$/.exec(rep); if(!m){ $('#cRepo').focus(); toast('Repository should look like username/dusc-board'); return; }
+      if(!tok){ $('#cTok').focus(); return; }
+      repoCfg = {...repoCfg, owner: m[1], repo: m[2]}; token = tok;
+      try{ localStorage.setItem(K.token, token); localStorage.setItem(K.repo, JSON.stringify({owner: m[1], repo: m[2], branch: repoCfg.branch})); }catch(e){ toast('This browser blocks storage — you will have to reconnect each time'); }
+      $('#cGo').disabled = true; $('#cGo').textContent = 'Connecting…';
+      await loadAll();
+      if(token && !state.syncErr){ toast('Connected — you can edit from this device'); }
+      if(state.syncErr && (state.syncErrCode==='auth'||state.syncErrCode==='notfound')){ const b=$('#cGo'); if(b){ b.disabled=false; b.textContent='Connect'; } }
+    };
+    setTimeout(()=>{ const t = $('#cTok'); if(t) t.focus(); }, 30);
   }
   function hideConnect(){ const root = $('#connectRoot'); if(root) root.innerHTML=''; }
-  function disconnect(){ try{ localStorage.removeItem(K.token); localStorage.removeItem(K.cache); }catch(e){} token = null; showConnect(); }
+  function disconnect(){ try{ localStorage.removeItem(K.token); localStorage.removeItem(K.cache); }catch(e){} token = null; hideConnect(); toast('Disconnected. This device is view only.'); loadAll(); }
 
   const state = {
     canWrite:true, persist:true, loading:false, syncErr:null, syncErrCode:null, lastLoad:null, lastSync:null,
@@ -785,8 +804,8 @@ select.sel{padding:7px 30px 7px 10px;border:1px solid var(--line);border-radius:
     el.classList.toggle('stale', !!state.syncErr || pending>0);
     el.classList.toggle('err', state.syncErrCode==='auth' || state.syncErrCode==='notfound');
     const parts = [];
-    if(!token) parts.push('Not connected');
-    else if(state.loading && !state.lastLoad) parts.push('Loading from GitHub…');
+    if(state.loading && !state.lastLoad) parts.push('Loading…');
+    else if(!token && !state.syncErr) parts.push('Live · view only');
     else if(state.syncErr) parts.push(state.syncErr);
     else parts.push(flushing ? 'Saving…' : (pending ? pending+' change'+(pending===1?'':'s')+' waiting' : 'Live · GitHub'));
     const s = state.sync; if(s && s.lastRun) parts.push('Drive '+fmtDateTime(s.lastRun));
@@ -1266,12 +1285,12 @@ select.sel{padding:7px 30px 7px 10px;border:1px solid var(--line);border-radius:
   loadPrefs(); bind();
   const cachedAt = cacheLoad(); if(cachedAt){ queue.forEach(o=>applyOp(DATA[o.coll], o)); state.loaded = {cards:true, notes:true, sync:true, inbox:true, meetings:true, series:true}; }
   materialize(); render();
-  const gear = $('#ghBtn'); if(gear) gear.onclick = () => { if(!token){ showConnect(); return; } const root=$('#connectRoot'); root.innerHTML = `<div class="scrim" id="ghScrim"></div><div class="connect glass" role="dialog" aria-label="Connection"><h2>Signed in</h2><p>This device${state.lastLoad?' · last refreshed '+esc(fmtDateTime(new Date(state.lastLoad).toISOString())):''}${queue.length?' · '+queue.length+' change(s) waiting to save':''}</p><div class="drawer-foot" style="padding:12px 0 0;border:0;gap:8px"><button class="btn secondary" id="ghRefresh">Refresh now</button><span class="spacer"></span><button class="btn danger" id="ghOut">Disconnect this device</button><button class="btn secondary" id="ghClose">Close</button></div></div>`; $('#ghScrim').onclick = hideConnect; $('#ghClose').onclick = hideConnect; $('#ghRefresh').onclick = () => { hideConnect(); loadAll(); }; $('#ghOut').onclick = () => { if(queue.length && !confirmOut){ confirmOut = true; $('#ghOut').textContent = 'Unsaved changes will be lost — tap again'; return; } disconnect(); }; };
+  const gear = $('#ghBtn'); if(gear) gear.onclick = () => { if(!token){ showConnect(); return; } const root=$('#connectRoot'); root.innerHTML = `<div class="scrim" id="ghScrim"></div><div class="connect glass" role="dialog" aria-label="Connection"><h2>Connected</h2><p>Repo <b>${esc(repoCfg.owner+'/'+repoCfg.repo)}</b>${state.lastLoad?' · last refreshed '+esc(fmtDateTime(new Date(state.lastLoad).toISOString())):''}${queue.length?' · '+queue.length+' change(s) waiting to save':''}</p><div class="drawer-foot" style="padding:12px 0 0;border:0;gap:8px"><button class="btn secondary" id="ghRefresh">Refresh now</button><span class="spacer"></span><button class="btn danger" id="ghOut">Disconnect this device</button><button class="btn secondary" id="ghClose">Close</button></div></div>`; $('#ghScrim').onclick = hideConnect; $('#ghClose').onclick = hideConnect; $('#ghRefresh').onclick = () => { hideConnect(); loadAll(); }; $('#ghOut').onclick = () => { if(queue.length && !confirmOut){ confirmOut = true; $('#ghOut').textContent = 'Unsaved changes will be lost — tap again'; return; } disconnect(); }; };
   let confirmOut = false;
   loadAll();
-  const refreshIfStale = () => { if(document.visibilityState==='visible' && token && !state.loading && (!state.lastLoad || Date.now()-state.lastLoad > 60000)) loadAll(); };
+  const refreshIfStale = () => { if(document.visibilityState==='visible' && !state.loading && (!state.lastLoad || Date.now()-state.lastLoad > 60000)) loadAll(); };
   document.addEventListener('visibilitychange', refreshIfStale); window.addEventListener('focus', refreshIfStale);
-  setInterval(() => { if(document.visibilityState==='visible' && token && !state.loading && !flushing && !queue.length) loadAll(); }, 180000);
+  setInterval(() => { if(document.visibilityState==='visible' && !state.loading && !flushing && !queue.length) loadAll(); }, 180000);
   window.addEventListener('online', () => { if(queue.length) flush(); else refreshIfStale(); });
 })();
 </script>

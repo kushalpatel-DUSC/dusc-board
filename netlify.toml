@@ -1,15 +1,15 @@
-# DUSC Action Board. Only site/ is published — the data/ folder is never served.
+# DUSC Action Board. The whole repo is published: index.html is the board, data/ holds its live data.
 [build]
-  publish = "site"
-  command = ""
-  # skip the build when a commit only changed board data
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- site netlify netlify.toml"
-
-[functions]
-  directory = "netlify/functions"
+  publish = "."
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
     Referrer-Policy = "no-referrer"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    Access-Control-Allow-Origin = "*"

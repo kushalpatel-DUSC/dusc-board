@@ -14,4 +14,7 @@ The page writes directly to `data/*.json` with a fine-grained token (Contents: r
 
 ## Hosting
 
-Netlify publishes only the `site/` folder (see `netlify.toml`). The `data/` folder is never served.
+`index.html` at the top of this repo is the board. It reads the live data in `data/` straight from
+GitHub, so anyone with the link sees the current board with no sign-in. A device only needs a GitHub
+token (Contents: read and write on this repo) to make changes; it is pasted once into the board's
+"Connect to edit" box and kept in that browser.
