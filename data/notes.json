@@ -573,7 +573,7 @@
    "11 Boys Academy registrants overdue after Nov 1 (down from 31 failed payments); Paul sent the previous finance / Financial Controller JDs after the call."
   ],
   "kind": "Gemini meeting notes",
-  "modified": "2026-11-06T19:39:39.232Z",
+  "modified": "2026-11-13T20:03:59.266Z",
   "openQuestions": [
    "Are the 33–41 missing Boys Academy registrants timing, failed payments resolved via Zelle, or refunds?",
    "Can the revised census be resubmitted to Paychex by Mon 11/9 and still make Jan 1?",
@@ -1147,6 +1147,207 @@
   "title": "DUSC Ops Meeting (running notes)",
   "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
+ "ops-weekly-call-2026-10-28": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-roster-data-simon",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-10-28",
+    "text": "Mal to confirm player data with Simon so rosters are accurate"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-tournament-dates-calendar",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-10-28",
+    "text": "Leanne to add tournament dates to the master club calendar"
+   }
+  ],
+  "area": "Systems",
+  "date": "2026-10-28",
+  "decisions": [
+   "Base the club calendar on HRPT and NYC Parks schedules, marked subject to change.",
+   "Test Claude accounts among core staff as a shared knowledge base."
+  ],
+  "fileId": "1sn5wCWAbLkxZlo_GujRdHIzYNqfhKCgOlrcgonHOjyA",
+  "keyPoints": [
+   "Boys Academy income and the GA Showcase each showed roughly $80,000 discrepancies under review.",
+   "Club calendar follows HRPT and NYC Parks permit dates; permits change December 1.",
+   "Long-tenured staff felt left out of the website redesign.",
+   "Pier 40 Indoor is open December 5–6; a 3v3 event was floated but not committed."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-10-28T18:46:33.562Z",
+  "openQuestions": [
+   "Is a separate hours spreadsheet for Simon really needed?"
+  ],
+  "summary": "Ops call with Mal and Leanne from late October. Covered the two $80,000 finance discrepancies, the club calendar, Claude accounts for staff and winter gym options.",
+  "title": "Ops Weekly Call — Oct 28 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1sn5wCWAbLkxZlo_GujRdHIzYNqfhKCgOlrcgonHOjyA/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "ops-weekly-call-2026-11-04": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-travel-dates-calendar",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-04",
+    "text": "Leanne to share her upcoming national-team camp and travel dates as a Google Calendar invite"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-guest-coaches",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-04",
+    "text": "Leanne to ask Alex and contacts in England about guest coaches for the advanced camps"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-field-spreadsheet",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-04",
+    "text": "Leanne to share the current field spreadsheet with the team"
+   }
+  ],
+  "area": "Programs",
+  "date": "2026-11-04",
+  "decisions": [
+   "CJSL and EDP coaches manage their own reschedules and GotSport communication.",
+   "Malorie sends main contracts to KP for review and files them in a shared folder before signing."
+  ],
+  "fileId": "1Qsb4gOSFQa_r88MZFeYpXkWTQeVvaqZLsVwBH_wG3Eo",
+  "keyPoints": [
+   "December practice schedule was ready; game schedules in PlayMetrics still need manual entry.",
+   "Summer camp prices stay level; sibling discounts depend on what PlayMetrics can do.",
+   "Advanced camps need a dedicated director and could use high-profile guest coaches.",
+   "St. Luke's suits one Academy team at 6pm; Nest at $600 an hour is too expensive.",
+   "MLK gym access is not available this winter."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-04T19:48:05.639Z",
+  "openQuestions": [
+   "Can PlayMetrics handle a sibling discount for summer camps?",
+   "Can PlayMetrics show open field slots so coaches can reschedule themselves?"
+  ],
+  "summary": "Ops call with Mal and Leanne on December schedules, camps and contracts. Most follow-ups have since moved on; the contract-review rule still stands.",
+  "title": "Ops Weekly Call — Nov 4 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1Qsb4gOSFQa_r88MZFeYpXkWTQeVvaqZLsVwBH_wG3Eo/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "ops-weekly-call-2026-11-11": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-25",
+    "id": "leanne-jan-mar-indoor-schedule",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-11",
+    "text": "Leanne to build the January–March indoor schedule once travel logistics are set, releasing January and February before Thanksgiving"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-indoor-through-march-coaches",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-11",
+    "text": "Leanne to tell Alex and Jason that teams stay in indoor spaces through March"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-game-dates-locations",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-11",
+    "text": "Leanne to review game dates and decide whether GA and MLS Next matches need more than one location"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-18",
+    "id": "leanne-media-day-details",
+    "note": null,
+    "owner": "Leanne",
+    "raised": "2026-11-11",
+    "text": "Leanne to gather input on Media Day and send the consolidated details to the group"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-socceroof-winter-days",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-11-11",
+    "text": "Mal to check whether Erica already provided the Socceroof winter usage days"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-constant-contact-access",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-11-11",
+    "text": "Mal to fix KP's Constant Contact login"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-facility-open-hours",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-11-11",
+    "text": "Mal to follow up with facility management on open access hours"
+   }
+  ],
+  "area": "Facilities",
+  "date": "2026-11-11",
+  "decisions": [
+   "Book indoor training space through the end of March.",
+   "Media Day is limited to U16 through U19.",
+   "Wait before telling Socceroof about unused holiday weeks."
+  ],
+  "fileId": "1Yjp_F2bd1aySYpm3dHyOSGrfMQICEq2B4TgSV6hj_Kc",
+  "keyPoints": [
+   "Leanne aims to release January and February schedules before Thanksgiving; March gets its own schedule.",
+   "Little Red is the main unknown; Henry Street waits on certificates of insurance.",
+   "Queens College has $40,000 budgeted for spring game days, roughly $6,000 a day.",
+   "Manhattan University's turf renovation is delayed; KP meets them next week about spring access.",
+   "Leanne is stepping down from leading international trips; Todd runs the Spain tours."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-11T19:56:35.511Z",
+  "openQuestions": [
+   "How is the Queens College March schedule allocated? Waiting on Alex and Jason.",
+   "Was a Socceroof credit for cancelled fall classes applied to winter hours?",
+   "Who sends Constant Contact blasts for winter registration instead of Sydney?"
+  ],
+  "summary": "Ops call with Mal and Leanne, the first with Kyle away. Winter space is nearly set but Little Red is unconfirmed, which holds up the Jan–March schedule.",
+  "title": "Ops Weekly Call — Nov 11 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1Yjp_F2bd1aySYpm3dHyOSGrfMQICEq2B4TgSV6hj_Kc/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "ops-winter-sep30": {
   "actions": [
    {
@@ -1254,6 +1455,52 @@
   "title": "9/30 reconciliation — questions and notes with Nirmala (Nov 8–9)",
   "url": "https://docs.google.com/document/d/1ibr0WNzeDht4OZiEdXn5p0IYxq3SSIAcOqesCn3SyVM/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "recurring-finance-2026-11-03": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-kyle-credit-card",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-03",
+    "text": "Nirmala to apply for a corporate credit card for Kyle"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-billcom-info",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-03",
+    "text": "Nirmala to send KP the Bill.com requirements and cost breakdown"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-03",
+  "decisions": [
+   "Approved phone allowances are paid only as employee reimbursements, not direct carrier lines."
+  ],
+  "fileId": "1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY",
+  "keyPoints": [
+   "Health application was due to Paychex by 11/6, with at least one HSA plan option.",
+   "Unassigned phone lines were cut after a review of the AT&T account.",
+   "Nirmala proposes Bill.com for payables, card spend and reimbursements, with pre-funded virtual cards.",
+   "Donations, W9s and weekly card reconciliations currently lack a dedicated owner.",
+   "KP showed QuickBooks bank transactions analysed in Claude and will help Nirmala set up workflows."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-03T19:38:59.182Z",
+  "openQuestions": [
+   "Bill.com or custom tooling for payables, expenses and reimbursements?",
+   "Who owns receivables tracking day to day?"
+  ],
+  "summary": "Nirmala's Tuesday finance hour with KP. Covers the health insurance census, tighter expense controls and using AI on QuickBooks data; the Bill.com decision is still open.",
+  "title": "Recurring Finance meeting — Nov 3 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "soccerpost-scratch-nov5": {
   "actions": [
    {
@@ -1290,6 +1537,75 @@
   "summary": "KP's own notes from the Nov 5 Soccer Post call, added to during the Nov 9 follow-up with Mal. The sharp points are unchanged: Adidas promo is ~$100K a year with a cash value near $70K, too much of it goes on T-shirts, and about $6,000 is left before it expires Dec 15. The 11/9 additions: have Soccer Post send the fundraising money over, look at the Adidas contract for DUSC's absolute caps, a spirit-wear shirt, and keep Rec, Classes and Camps (community programming only) on ScoreSports, ordering about 5 extra per team.",
   "title": "Soccer Post calls — scratch notes (Nov 5 & Nov 9)",
   "url": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit"
+ },
+ "weekly-finance-call-2026-11-13": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "paul-paychex-brokerage-backup",
+    "note": null,
+    "owner": "Paul",
+    "raised": "2026-11-13",
+    "text": "Paul to ask Jennifer at Paychex whether their brokerage can serve as a backup healthcare option"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-18",
+    "id": "healthcare-pick-four-plans",
+    "note": "Paul leads healthcare; KP and Andy are part of the group.",
+    "owner": "Paul",
+    "raised": "2026-11-13",
+    "text": "The group to narrow Paychex's 15 plans to four and set the subsidy level"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "healthcare-seven-signups",
+    "note": null,
+    "owner": "Paul",
+    "raised": "2026-11-13",
+    "text": "The group to secure at least 7 employee sign-ups during the five-day open enrollment window"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "andy-review-variance-reports",
+    "note": null,
+    "owner": "Andy",
+    "raised": "2026-11-13",
+    "text": "Andy to review the summary file's rate and volume variances and the PlayMetrics report fields against receivables"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-13",
+  "decisions": [
+   "KP takes direct oversight of external scholarship and SFA engagements, including the Chobani commitments.",
+   "Two weeks to define the finance role and gather candidates; interviews in December, January start.",
+   "Healthcare: narrow Paychex's 15 plans to at most four on Wednesday 11/18."
+  ],
+  "fileId": "1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I",
+  "keyPoints": [
+   "KP's payout report ties to QuickBooks within $727, explained by one refund and one fall-program payment.",
+   "The club budgets gross; about $47,000 of processing fees are booked separately as an expense.",
+   "Scholarship counts differ: 65 in PlayMetrics versus 144 on Malorie's sheet; zero-pay SFA players are missing.",
+   "Paychex needs 50% participation, at least 7 sign-ups, in a five-day enrollment window.",
+   "9/30 receivables show $13,000 against an expected $67,000; to be checked team by team."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-13T20:37:42.089Z",
+  "openQuestions": [
+   "What subsidy level will the club pay per enrolled employee?",
+   "Will seven employees sign up, and what is the fallback if not?",
+   "Why are 9/30 receivables $13,000 rather than $67,000?"
+  ],
+  "summary": "First weekly call with Andy and Paul. The payout report now ties to QuickBooks; what matters now is the healthcare sign-up threshold and KP's list of data and audit follow-ups.",
+  "title": "Weekly Finance Call Andy+Paul — Nov 13 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "winter-futsal": {
   "actions": [
