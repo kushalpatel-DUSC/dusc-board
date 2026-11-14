@@ -128,6 +128,11 @@
     "who": "Noemi, Ops"
    },
    {
+    "date": "2027-01-15",
+    "label": "PDP Evidence Portfolio for the Mid-Year Review uploaded to the shared folder",
+    "who": "KP"
+   },
+   {
     "date": "2027-02-28",
     "label": "MLS Next HG spring start",
     "who": "Ops"
@@ -144,7 +149,7 @@
    }
   ],
   "headline": "Friday's call with Andy and Paul left you a list of finance follow-ups, starting with Monday's audit review with Nirmala; Wednesday stacks Media Day, the Paychex decision and Ops Weekly.",
-  "lastRun": "2026-11-14T10:47:54Z",
+  "lastRun": "2026-11-14T16:47:48Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
   "notesScanned": 35,
