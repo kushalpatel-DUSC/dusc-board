@@ -884,7 +884,7 @@
  "playbook-immaculate-conception-proposal": {
   "area": "Facilities",
   "createdAt": "2026-11-10T03:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T04:52:27.953Z",
   "due": null,
   "note": "Jessie handed this over 11/9; Ryan is the third party controlling the Immaculate Conception space (winter futsal option) and offered to meet the exec team.",
   "owner": "KP",
@@ -895,10 +895,10 @@
   "source": "Email: Space & Tech Proposal",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881433580441105773",
-  "status": "todo",
+  "status": "done",
   "title": "KP to review Ryan Mitchell's (Infinity Apex / Playbook) space & tech proposal for the former Immaculate Conception school gym and set up a follow-up call",
-  "updatedAt": "2026-11-10T03:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-14T04:52:27.953Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
