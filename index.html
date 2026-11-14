@@ -795,6 +795,41 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   .nv{grid-template-columns:minmax(0,1.5fr) minmax(280px,.85fr);gap:30px 48px;padding-block:18px 8px}
   .nv .nvL{display:flex;flex-direction:column;gap:30px;min-width:0}
 }
+
+/* ---------- review tray ---------- */
+.t2 .tray{border:1px solid var(--accent-line);background:var(--accent-soft);border-radius:14px;padding:0 14px}
+.t2 .tray details,.t2 .tray details[open]{border-bottom:0}
+.t2 .tray summary{color:var(--fg);min-height:52px}
+.t2 .tray summary .rv{margin-left:auto;color:var(--accent);text-transform:none;letter-spacing:0;font-size:13px;font-weight:600}
+.t2 .tray summary .rv + .chev{margin-left:8px}
+.t2 .tray details[open] summary .rv{display:none}
+.t2 .tray details[open] summary .chev{margin-left:auto}
+.trow.tri{cursor:default;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--accent-line)}
+.trow.tri .tt{white-space:normal;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;font-size:15px}
+.trow.tri .hb{background:var(--bg)}
+.hb.keep{border-color:var(--accent);color:var(--accent);font-weight:600}
+.hb.keep:hover{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.t2 .tray .bulk{justify-content:space-between;padding:12px 0 14px;gap:10px}
+.t2 .tray .bulk .hb{background:var(--bg)}
+/* ---------- snooze ---------- */
+.trow .snz{margin-left:4px}
+.snzrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.snzrow button{font-size:13px;font-weight:500;color:var(--fg);border:1px solid var(--line-2);border-radius:99px;padding:0 12px;min-height:34px}
+.snzrow button:hover{border-color:var(--fg)}
+/* ---------- people ---------- */
+body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .nbar{display:none}
+.prow .nb{max-width:80ch}
+.prow .nb .acts-list li{align-items:flex-start;padding:4px 0}
+.prow .acts-list .check{margin-top:-2px}
+.prow .src{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.prow .src b{font-weight:600;color:var(--fg)}
+.prow .src b.late{color:var(--accent)}
+.prow .plink{font-size:15px;color:var(--fg);text-align:left;text-decoration:underline;text-underline-offset:3px}
+.pdone{margin-top:6px}
+.pdone summary{list-style:none;cursor:pointer;font-size:13px;font-weight:500;color:var(--accent);min-height:36px;display:flex;align-items:center}
+.pdone summary::-webkit-details-marker{display:none}
+.pintro{font-size:14px;color:var(--muted);padding:6px 0 10px;max-width:70ch}
+@media (max-width:899px){ #tabPeople{display:none} .subnav{max-width:100%} .subnav button{padding:7px 14px} }
 </style>
 </head>
 <body>
@@ -817,6 +852,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
         <button class="tab" role="tab" id="tabToday" aria-selected="true" aria-controls="viewToday"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></svg><span class="lb">Today</span><span class="n" id="nToday">–</span></button>
         <button class="tab" role="tab" id="tabBoard" aria-selected="false" aria-controls="viewBoard"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01"/></svg><span class="lb">All</span><span class="n" id="nOpen">–</span></button>
         <button class="tab" role="tab" id="tabNotes" aria-selected="false" aria-controls="viewNotes"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg><span class="lb">Notes</span><span class="n" id="nNotes">–</span></button>
+        <button class="tab" role="tab" id="tabPeople" aria-selected="false" aria-controls="viewNotes"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/><path d="M16 5.2a3 3 0 0 1 0 5.6M17.5 14.8c2 .6 3.5 2.4 3.5 5.2"/></svg><span class="lb">People</span><span class="n" id="nPeople">–</span></button>
         <button class="tab" role="tab" id="tabInbox" aria-selected="false" aria-controls="viewInbox"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v4"/></svg><span class="lb">Reply</span><span class="n" id="nInbox">–</span></button>
         <button class="tab" role="tab" id="tabMeetings" aria-selected="false" aria-controls="viewMeetings"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg><span class="lb">Meetings</span><span class="n" id="nMeetings">–</span></button>
       </nav>
@@ -851,7 +887,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   </section>
 
   <section id="viewNotes" role="tabpanel" aria-labelledby="tabNotes" class="wrap notes" hidden>
-    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button></div>
+    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button><button data-go="people" aria-pressed="false">People</button></div>
     <div class="nv">
       <div class="nvL">
       <section class="nvA" aria-label="Brief">
@@ -888,7 +924,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   </section>
 
   <section id="viewMeetings" role="tabpanel" aria-labelledby="tabMeetings" class="wrap meetings" hidden>
-    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button></div>
+    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button><button data-go="people" aria-pressed="false">People</button></div>
     <div id="agendaNudge"></div>
     <div class="mt-head"><h2>Up next</h2><span class="cnt" id="mtCnt"></span>
       <div class="seg" role="group" aria-label="Range"><button id="mtWeek" aria-pressed="true">7 days</button><button id="mtTwo" aria-pressed="false">14 days</button></div></div>
@@ -972,7 +1008,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   function applyOp(data, o){ if(o.op==='delete'){ delete data[o.id]; } else if(o.op==='set'){ data[o.id] = o.patch; } else { data[o.id] = {...(data[o.id]||{}), ...o.patch}; } }
   function describeErr(e){ const c = e && e.code; if(c==='auth') return 'GitHub rejected the token — reconnect'; if(c==='notfound') return 'Repo not found or no access'; if(c==='forbidden') return 'GitHub refused (rate limit or permissions)'; if(c==='offline') return 'Offline — changes will sync when you’re back'; return 'Sync problem — will retry'; }
   function materialize(){
-    state.cards = Object.entries(DATA.cards).map(([id,c])=>({...c, id}));
+    const allC = Object.entries(DATA.cards).map(([id,c])=>({...c, id})); state.newCards = allC.filter(c => c.triage==='new' && c.status!=='done' && c.status!=='dismissed'); state.cards = allC.filter(c => c.status!=='dismissed' && !(c.triage==='new' && c.status!=='done'));
     state.notes = Object.entries(DATA.notes).map(([id,n])=>({...n, id}));
     state.inbox = Object.entries(DATA.inbox).map(([id,m])=>({...m, id}));
     state.meetings = Object.entries(DATA.meetings).map(([id,m])=>({...m, eventId: m.eventId||id}));
@@ -1136,10 +1172,11 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     return {late, now, focus, week, waiting};
   }
   function tdSec(title, items, cls, empty){ if(!items.length && !empty) return ''; return `<div class="td-sec glass"><h3 class="${cls||''}">${esc(title)} <span class="c">${items.length}</span></h3>${items.length?`<ul>${items.map(c=>`<li>${miniHTML(c)}</li>`).join('')}</ul>`:`<div class="td-empty">${esc(empty)}</div>`}</div>`; }
-  function trow(c){ const t = isoDay(new Date()); const late = !!(c.due && c.due < t && isOpen(c)); const bits = [];
+  function trow(c, opt){ const t = isoDay(new Date()); const late = !!(c.due && c.due < t && isOpen(c)); const bits = [];
     if(c.status==='waiting') bits.push(waitLabel(c)); else if(c.due) bits.push(late ? 'Due '+fmtDate(c.due) : dueLabel(c.due));
     if(c.source) bits.push(c.sourceKind==='email' ? 'Email' : c.source);
-    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}</div>`; }
+    if((c.snoozes||0) >= 2) bits.push('moved '+c.snoozes+'×');
+    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Later</button>` : ''}</div>`; }
   const isOldMail = m => m.status!=='handled' && !!m.date && new Date(m.date).getTime() < Date.now() - 7*86400000;
   function clearOldMail(){ const old = openInbox().filter(isOldMail); if(!old.length) return; old.forEach(m => setMail(m.id, 'handled')); setTimeout(()=>toast(old.length+' older email'+(old.length===1?'':'s')+' marked done'), 80); }
   function todayCounts(){ const b = todayBuckets(); const open = openInbox(); const old = open.filter(isOldMail).length; return {b, late: b.late.length, now: b.now.length + b.focus.length, mail: open.length - old, oldMail: old}; }
@@ -1160,12 +1197,16 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
       return `<div class="trow"><span class="ric" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v4"/></svg></span><div class="tx">${m.threadUrl?`<a class="tt" href="${esc(m.threadUrl)}" target="_blank" rel="noopener">${esc(label)}</a>`:`<div class="tt">${esc(label)}</div>`}${me?`<div class="me">${esc(me)}</div>`:''}</div><button class="hb" data-td-handle="${esc(m.id)}">Done</button></div>`; };
     const fresh = mail.filter(m=>!isOldMail(m)), old = mail.filter(isOldMail);
     const fold = (key, title, items) => items.length ? `<details ${state.tdOpen[key]?'open':''}><summary data-td-sec="${key}">${esc(title)} <span class="c">${items.length}</span><span class="chev"></span></summary>${items.map(trow).join('')}</details>` : '';
+    const nc = (state.newCards||[]).slice().sort((x,y)=>String(y.createdAt||'').localeCompare(String(x.createdAt||'')));
+    const triRow = c => `<div class="trow tri"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.source||'', c.due?'due '+fmtDate(c.due):''].filter(Boolean).join(' · '))}</div></div><button class="hb keep" data-tri-keep="${esc(c.id)}">Keep</button><button class="hb" data-tri-drop="${esc(c.id)}" aria-label="Dismiss" title="Dismiss">✕</button></div>`;
+    const tray = nc.length ? `<section class="tray"><details ${state.tdOpen.newc?'open':''}><summary data-td-sec="newc">New from your notes <span class="c">${nc.length}</span><span class="rv">Review</span><span class="chev"></span></summary>${nc.map(triRow).join('')}<div class="bulk"><button class="hb" data-tri-all="drop" type="button">Dismiss all</button><button class="hb keep" data-tri-all="keep" type="button">Keep all ${nc.length}</button></div></details></section>` : '';
     host.classList.toggle('nonext', !show.length);
     host.innerHTML = `
       ${show.length?`<div class="col colN"><section class="nexts"><h2>${left.length?'Meetings today':'Next meeting'}<button data-td-go="meetings">All meetings →</button></h2><div class="nlist">${show.map(nextHTML).join('')}</div></section></div>`:''}
       <div class="col colA">
-        ${b.late.length?`<section><h2 class="late">Overdue <span class="c">${b.late.length}</span></h2>${b.late.map(trow).join('')}</section>`:''}
-        <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(trow).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
+        ${tray}
+        ${b.late.length?`<section><h2 class="late">Overdue <span class="c">${b.late.length}</span></h2>${b.late.map(c=>trow(c,'s')).join('')}</section>`:''}
+        <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(c=>trow(c,'s')).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
       </div>
       <div class="col colB">
         <section><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
@@ -1182,12 +1223,13 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     const v = state.view; document.body.dataset.view = v;
     const pt = $('#pgTitle'), ps = $('#pgSub'); if(!pt) return;
     const d = new Date(); let title = {board:'All cards', notes:'Notes', inbox:'Reply', meetings:'Meetings'}[v] || '', sub = '';
-    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', c.mail+' '+(c.mail===1?'reply':'replies'), c.oldMail?c.oldMail+' older':''].filter(Boolean).join(' · '); }
+    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', c.mail+' '+(c.mail===1?'reply':'replies'), c.oldMail?c.oldMail+' older':'', (state.newCards||[]).length ? state.newCards.length+' to review' : ''].filter(Boolean).join(' · '); }
     else if(v==='board'){ sub = state.cards.filter(isOpen).length+' open'; }
     else if(v==='inbox'){ const c = todayCounts(); sub = c.mail+' this week'+(c.oldMail?' · '+c.oldMail+' older':''); }
-    else if(v==='notes'){ sub = state.notes.length+' notes'; }
+    else if(v==='notes'){ if(state.noteMode==='people'){ const n = othersOpen(); title = 'People'; sub = n+' open to-do'+(n===1?'':'s')+' for others'; } else sub = state.notes.length+' notes'; }
+    document.body.dataset.pmode = state.noteMode || 'notes';
     pt.textContent = title; ps.textContent = sub;
-    document.querySelectorAll('.subnav button').forEach(x => x.setAttribute('aria-pressed', x.dataset.go===v));
+    document.querySelectorAll('.subnav button').forEach(x => x.setAttribute('aria-pressed', (v==='notes' && state.noteMode==='people') ? x.dataset.go==='people' : x.dataset.go===v));
   }
   // ---------- other people's to-dos (kept in the notes) ----------
   const actOpen = a => a && !a.done && !a.claimed;
@@ -1211,6 +1253,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     const ni = $('#nInbox'); const oi = openInbox().length; ni.textContent = oi; ni.classList.toggle('hot', oi>0);
     const nt = todayBuckets(); const tn = $('#nToday'); tn.textContent = nt.late.length + nt.now.length; tn.classList.toggle('hot', nt.late.length>0);
     for(const v of ['today','board','notes','inbox','meetings']){ $('#tab'+v[0].toUpperCase()+v.slice(1)).setAttribute('aria-selected', state.view===v); $('#view'+v[0].toUpperCase()+v.slice(1)).hidden = state.view!==v; }
+    { const pm = state.view==='notes' && state.noteMode==='people'; const tp = $('#tabPeople'); if(tp){ tp.setAttribute('aria-selected', pm); if(pm) $('#tabNotes').setAttribute('aria-selected', false); const np = $('#nPeople'); if(np) np.textContent = othersOpen(); } }
   }
 
   // ---------- overview tiles ----------
@@ -1297,6 +1340,48 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   }
 
   // ---------- notes ----------
+  // ---------- shared card patching (works on both stores) ----------
+  function patchCards(list, msg, undo){
+    if(!list.length) return;
+    const fin = () => { if(msg) toast(msg, undo ? {label:'Undo', fn: () => patchCards(undo, 'Undone')} : undefined); };
+    if(typeof updateCard === 'function'){
+      if(typeof viewOnlyHint === 'function' && !token){ viewOnlyHint(); return; }
+      list.forEach(x => updateCard(x.id, x.patch)); materialize(); render(); flush(); fin();
+    } else {
+      if(state.canWrite === false) return;
+      Promise.all(list.map(x => write(x.id, q => q.then(()=>state.db.doc('cards/'+x.id).update(x.patch))))).then(fin);
+    }
+  }
+  function triage(ids, keep){
+    const now = new Date().toISOString(); const src = (state.newCards||[]).filter(c => ids.includes(c.id)); if(!src.length) return;
+    const list = src.map(c => ({id:c.id, patch: keep ? {triage:null, userEdited:true, updatedAt:now} : {triage:null, status:'dismissed', dismissedAt:now, userEdited:true, updatedAt:now}}));
+    const undo = src.map(c => ({id:c.id, patch:{triage:'new', status:c.status||'todo', dismissedAt:null, updatedAt:now}}));
+    const n = src.length; patchCards(list, keep ? (n===1 ? 'Kept — it is on your list' : 'Kept '+n+' — they are on your list') : (n===1 ? 'Dismissed' : 'Dismissed '+n), undo);
+  }
+  function snoozeDate(k){ const d = new Date(); d.setHours(12,0,0,0); if(k==='monday'){ d.setDate(d.getDate() + (((8 - d.getDay()) % 7) || 7)); } else if(k==='week'){ d.setDate(d.getDate()+7); } else d.setDate(d.getDate()+1); return isoDay(d); }
+  function snooze(id, k){ const c = state.cards.find(x=>x.id===id); if(!c) return; const due = snoozeDate(k), now = new Date().toISOString();
+    patchCards([{id, patch:{due, updatedAt:now, userEdited:true, snoozes:(c.snoozes||0)+1}}], 'Moved to '+DAYS_FULL[parseISO(due).getDay()].slice(0,3)+', '+fmtDate(due), [{id, patch:{due:c.due||null, snoozes:c.snoozes||0, updatedAt:now}}]); }
+  function othersOpen(){ return state.notes.reduce((t,n)=>t+noteActions(n).filter(a=>!a.claimed && !a.done).length, 0); }
+  function peopleHTML(q){
+    state.peopleOpen = state.peopleOpen || {};
+    const t = isoDay(new Date()), wk = isoDay(new Date(Date.now()+7*86400000)); const pl = (n, w) => n+' '+w+(n===1?'':'s');
+    const by = new Map();
+    state.notes.forEach(n => noteActions(n).forEach((a, ix) => { if(a.claimed) return; if(q && !(a.text+' '+(a.owner||'')+' '+(n.title||'')).toLowerCase().includes(q)) return; const o = a.owner || 'TBD'; if(!by.has(o)) by.set(o, []); by.get(o).push({a, ix, n}); }));
+    const people = [...by.entries()].map(([name, items]) => ({name, items, open: items.filter(x=>!x.a.done)})).filter(p => p.open.length)
+      .sort((x,y) => ((x.name==='TBD') - (y.name==='TBD')) || (y.open.length - x.open.length) || x.name.localeCompare(y.name));
+    if(!people.length) return `<div class="none">${q ? 'Nothing matches.' : 'Nobody has an open to-do in your notes.'}</div>`;
+    const item = ({a, ix, n}) => `<li class="${a.done?'done':''}"><button class="check" data-act-done="${esc(n.id)}" data-ix="${ix}" role="checkbox" aria-checked="${!!a.done}" aria-label="Done"><i><svg viewBox="0 0 16 16"><path d="M3 8.5 6.5 12 13 4.5"/></svg></i></button><span class="tx">${esc(a.text)}<span class="src">${a.due?`<b class="${!a.done && a.due<t?'late':''}">Due ${esc(fmtDate(a.due))}</b> · `:''}${esc(n.title)}${(a.raised||n.date)?' · '+esc(fmtDate(a.raised||n.date)):''}</span></span>${a.done?'':`<button class="mine" data-act-claim="${esc(n.id)}" data-ix="${ix}" title="Move to my board">Make mine</button>`}</li>`;
+    return `<p class="pintro">Everything other people took on in your meeting notes, newest notes included at each sync. Tick one when it is done, or tap Make mine to move it to your own list.</p>` + people.map(p => {
+      const late = p.open.filter(x=>x.a.due && x.a.due<t).length, soon = p.open.filter(x=>x.a.due && x.a.due>=t && x.a.due<=wk).length; const done = p.items.filter(x=>x.a.done);
+      const waiting = p.name==='TBD' ? [] : state.cards.filter(c => c.status==='waiting' && String(c.waitingOn||'').toLowerCase().includes(p.name.toLowerCase()));
+      const open = p.open.slice().sort((x,y)=> String(x.a.due||'9999').localeCompare(String(y.a.due||'9999')) || String(y.a.raised||y.n.date||'').localeCompare(String(x.a.raised||x.n.date||'')));
+      const isO = !!state.peopleOpen[p.name] || (!!q && people.length<=2);
+      return `<details class="nrow prow" ${isO?'open':''}><summary data-prow="${esc(p.name)}"><div><div class="nt">${esc(p.name==='TBD'?'No owner yet':p.name)}</div><div class="nm"><span>${pl(p.open.length,'open to-do')}</span>${late?`<span class="k a">${late} overdue</span>`:''}${soon?`<span class="k q">${soon} due this week</span>`:''}${waiting.length?`<span class="k">you are waiting on ${waiting.length}</span>`:''}</div></div><span class="chev2"></span></summary>
+        <div class="nb"><ul class="acts-list">${open.map(item).join('')}</ul>
+        ${waiting.length?`<div class="lbl">Your cards waiting on ${esc(p.name)}</div><ul>${waiting.map(c=>`<li><button class="plink" data-pcard="${esc(c.id)}">${esc(c.title)}</button></li>`).join('')}</ul>`:''}
+        ${done.length?`<details class="pdone"><summary>${done.length} done</summary><ul class="acts-list">${done.map(item).join('')}</ul></details>`:''}</div></details>`; }).join('');
+  }
+
   function briefItems(s){
     if(Array.isArray(s.brief) && s.brief.length) return {items: s.brief.map(b => typeof b==='string' ? {label:'', text:b} : {label:String(b.label||''), text:String(b.text||'')}).filter(b=>b.text), written:true};
     const h = String(s.headline||'').trim(); if(!h) return {items:[], written:false};
@@ -1328,6 +1413,8 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     $('#nDec').textContent = nDec ? ' '+nDec : ''; $('#nQ').textContent = nQ ? ' '+nQ : '';
     document.querySelectorAll('.nmode [data-nmode]').forEach(b => b.setAttribute('aria-pressed', b.dataset.nmode===state.noteMode));
     const grid = $('#notesGrid');
+    document.body.dataset.pmode = state.noteMode;
+    if(state.noteMode === 'people'){ grid.innerHTML = peopleHTML(q); return; }
     if(!notes.length){ grid.innerHTML = `<div class="none">No notes match.</div>`; return; }
     const list = (a, cls) => `<ul>${a.map(x=>`<li class="${cls}">${esc(x)}</li>`).join('')}</ul>`;
     const pl = (n, w) => n+' '+w+(n===1?'':'s');
@@ -1534,6 +1621,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
             <div class="field"><label for="fDue">Due</label><input type="date" id="fDue" value="${esc(d.due||'')}"></div>
             <div class="field"><label for="fRaised">Raised</label><input type="date" id="fRaised" value="${esc(d.raised||'')}"></div>
           </div>
+          ${!isNew && d.status!=='done' && !(typeof ro!=='undefined' && ro) ? `<div class="snzrow"><span>Push to</span><button type="button" data-snz="tomorrow">Tomorrow</button><button type="button" data-snz="monday">Monday</button><button type="button" data-snz="week">Next week</button></div>` : ''}
           <div class="two"><div class="field"><label class="check"><input type="checkbox" id="fPinned" ${d.pinned?'checked':''} ${(typeof ro!=='undefined'&&ro)?'disabled':''}> Pin to top</label></div><div class="field"><label class="check"><input type="checkbox" id="fUrgent" ${d.priority==='urgent'?'checked':''}> Mark urgent</label></div></div>
           <div class="field"><label for="fNote">Notes</label><textarea id="fNote" placeholder="Context, who to call, what was decided…">${esc(d.note||'')}</textarea></div>
           ${d.source?`<div class="src">Source: ${d.sourceUrl?`<a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">${esc(d.source)} ↗</a>`:esc(d.source)}${d.updatedAt?` · updated ${esc(fmtDateTime(d.updatedAt))}`:''}</div>`:''}
@@ -1548,6 +1636,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
         </div>
       </aside>`;
     $('#scrim').onclick = closeDrawer; $('#closeBtn').onclick = closeDrawer; $('#cancelBtn').onclick = closeDrawer;
+    document.querySelectorAll('#drawerRoot [data-snz]').forEach(b => { b.onclick = () => { $('#fDue').value = snoozeDate(b.dataset.snz); saveDraft(); }; });
     const doneBtn = $('#doneBtn'); if(doneBtn) doneBtn.onclick = () => { const d0 = state.draft; if(!d0) return; d0.status = d0.status==='done' ? 'todo' : 'done'; saveDraft(); };
     $$('[data-move]').forEach(b => b.onclick = () => { state.draft.status = b.dataset.move; $$('[data-move]').forEach(x=>x.setAttribute('aria-pressed', x.dataset.move===state.draft.status));  const w=$('#fWaitWrap'); if(w){ w.hidden = state.draft.status!=='waiting'; if(!w.hidden) setTimeout(()=>{ const i=$('#fWaiting'); if(i) i.focus(); }, 20); } });
     const delBtn = $('#delBtn'); if(delBtn) delBtn.onclick = () => { state.confirmDelete = true; renderDrawer(); };
@@ -1574,8 +1663,12 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
   function setView(v){ state.view = v; savePrefs(); renderTabs(); if(v==='today') renderToday(); if(v==='notes') renderNotes(); if(v==='inbox') renderInbox(); if(v==='meetings') renderMeetings(); }
   function bind(){
     $('#tabToday').onclick = () => setView('today');
-    document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => setView(x.dataset.go); });
+    document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => { const g = x.dataset.go; if(g==='people'){ state.noteMode = 'people'; setView('notes'); } else { if(g==='notes' && state.noteMode==='people') state.noteMode = 'notes'; setView(g); } }; });
     $('#viewToday').addEventListener('click', e => {
+      const sz = e.target.closest('[data-snooze]'); if(sz){ e.preventDefault(); e.stopPropagation(); snooze(sz.dataset.snooze, 'tomorrow'); return; }
+      const tk = e.target.closest('[data-tri-keep]'); if(tk){ triage([tk.dataset.triKeep], true); return; }
+      const tx = e.target.closest('[data-tri-drop]'); if(tx){ triage([tx.dataset.triDrop], false); return; }
+      const ta = e.target.closest('[data-tri-all]'); if(ta){ triage((state.newCards||[]).map(c=>c.id), ta.dataset.triAll==='keep'); return; }
       const co = e.target.closest('[data-clear-old]'); if(co){ e.preventDefault(); clearOldMail(); return; }
       const sm = e.target.closest('summary[data-td-sec]'); if(sm){ state.tdOpen = state.tdOpen || {}; state.tdOpen[sm.dataset.tdSec] = !sm.parentElement.open; return; }
       const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, null); return; }
@@ -1585,7 +1678,8 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
       const op = e.target.closest('[data-open]'); if(op && !e.target.closest('a')){ const c = state.cards.find(x=>x.id===op.dataset.open); if(c) openDrawer(c); return; }
     });
     $('#tabBoard').onclick = () => setView('board');
-    $('#tabNotes').onclick = () => setView('notes');
+    $('#tabNotes').onclick = () => { if(state.noteMode==='people') state.noteMode = 'notes'; setView('notes'); };
+    $('#tabPeople').onclick = () => { state.noteMode = 'people'; setView('notes'); window.scrollTo(0,0); };
     $('#tabInbox').onclick = () => setView('inbox');
     $('#tabMeetings').onclick = () => setView('meetings');
     $('#mtWeek').onclick = () => { state.mtRange=7; renderMeetings(); };
@@ -1633,6 +1727,8 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
     list.addEventListener('click', e => { const tg = e.target.closest('[data-toggle-done]'); if(tg){ state.listDoneOpen = !state.listDoneOpen; renderList(); return; } const pn = e.target.closest('[data-pin]'); if(pn){ e.preventDefault(); togglePin(pn.dataset.pin); return; } const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, ck.closest('.row')); return; } const el = e.target.closest('.row'); if(!el || e.target.closest('a')) return; openById(el.dataset.id); });
     list.addEventListener('keydown', e => { if(e.target.closest('[data-done],[data-pin]')) return; const el = e.target.closest('.row'); if(!el) return; if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openById(el.dataset.id); } });
     $('#viewNotes').addEventListener('click', e => {
+      const pr = e.target.closest('summary[data-prow]'); if(pr){ state.peopleOpen = state.peopleOpen || {}; state.peopleOpen[pr.dataset.prow] = !pr.parentElement.open; return; }
+      const pc = e.target.closest('[data-pcard]'); if(pc){ const c = state.cards.find(x=>x.id===pc.dataset.pcard); if(c) openDrawer(c); return; }
       const md = e.target.closest('[data-nmode]'); if(md){ state.noteMode = md.dataset.nmode; renderNotes(); return; }
       if(e.target.closest('[data-brief-more]')){ state.briefOpen = !state.briefOpen; renderNotes(); return; }
       if(e.target.closest('[data-dl-more]')){ state.dlOpen = !state.dlOpen; renderNotes(); return; }
@@ -1683,7 +1779,7 @@ details[open] > summary .chev2{transform:rotate(-135deg)}
 </script>
 <script>
 (function(){
-  var BUILD = '2203394972';
+  var BUILD = '43ab50afa5';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }

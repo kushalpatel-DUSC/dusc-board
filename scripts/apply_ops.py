@@ -18,7 +18,7 @@ import json, os, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 COLLS = ['cards', 'notes', 'inbox', 'meetings', 'series', 'meta']
 PROTECTED = {
-    'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited'},
+    'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited', 'triage', 'dismissedAt', 'snoozes'},
     'meetings': {'agenda', 'agendaUpdatedAt', 'agendaSentAt', 'userEdited', 'skipAgenda'},
     'series': {'running', 'runningUpdatedAt', 'userEdited'},
     'inbox': {'status', 'cardId', 'userEdited'},
@@ -72,6 +72,9 @@ def main():
             counts['applied' if hit else 'skipped'] += 1
             continue
         if guarded and existing is not None:
+            if coll == 'cards' and op == 'set':
+                # a sync never re-creates a card that exists (kept, done or dismissed): that would wipe the user's fields
+                counts['skipped'] += 1; continue
             if coll == 'inbox' and (existing.get('userEdited') or existing.get('status') == 'handled'):
                 counts['skipped'] += 1; continue
             if existing.get('userEdited') and coll in PROTECTED:
