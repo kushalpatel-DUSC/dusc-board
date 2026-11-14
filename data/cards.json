@@ -2,7 +2,7 @@
  "28-liberty-credits": {
   "area": "Facilities",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T04:52:20.548Z",
   "due": null,
   "id": "28-liberty-credits",
   "note": null,
@@ -11,10 +11,12 @@
   "raised": "2026-10-08",
   "source": "Field + Budget (Gemini, Oct 8)",
   "sourceUrl": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Negotiate field credits at 28 Liberty — 4.5 fields delivered vs 7 promised, ~40% over baseline rate",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-14T04:52:20.548Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "28-liberty-jonathan": {
   "area": "Facilities",
