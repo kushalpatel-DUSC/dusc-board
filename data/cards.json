@@ -849,7 +849,7 @@
  "oumou-saturday-plan": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-14T05:02:43.647Z",
   "due": null,
   "id": "oumou-saturday-plan",
   "note": null,
@@ -858,10 +858,12 @@
   "raised": "2026-10-22",
   "source": "Community Programming",
   "sourceUrl": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Connect with Oumou Toure and plan out a full Saturday of Rec",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-14T05:02:43.647Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "peo-census-call-paul": {
   "area": "People",
