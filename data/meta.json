@@ -14,7 +14,11 @@
   "actionsAdded": 0,
   "brief": [
    {
-    "label": "Sun 11/15",
+    "label": "Today",
+    "text": "Observe the Rec session at Pier 40 Indoor and look at tabling, ahead of Tuesday's Rec call."
+   },
+   {
+    "label": "Today",
     "text": "Send Andy the supply-vs-demand dashboard and Jan–Mar zones 1–2."
    },
    {
@@ -23,25 +27,16 @@
    },
    {
     "label": "Wed 11/18",
-    "text": "Run Media Day at Socceroof, 4–7pm, limited to U16–U19, with Kyle away."
+    "text": "Run Media Day at Socceroof, 4–7pm, U16–U19 only; send the photographers the date and location first."
    },
    {
     "label": "This week",
     "text": "Pick four healthcare plans and the subsidy on Wednesday; seven sign-ups are needed in a five-day window."
-   },
-   {
-    "label": "Stuck",
-    "text": "Get Little Red confirmed so the January–February schedule can go out before Thanksgiving."
    }
   ],
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-14",
-    "label": "Media Day space confirmed with Ron (Socceroof is the working venue)",
-    "who": "Kyle, KP"
-   },
    {
     "date": "2026-11-15",
     "label": "Supply-vs-demand dashboard and Jan–Mar zones 1–2 to Andy",
@@ -148,8 +143,8 @@
     "who": "Ops"
    }
   ],
-  "headline": "Friday's call with Andy and Paul left you a list of finance follow-ups, starting with Monday's audit review with Nirmala; Wednesday stacks Media Day, the Paychex decision and Ops Weekly.",
-  "lastRun": "2026-11-14T16:47:48Z",
+  "headline": "Tomorrow's audit review with Nirmala opens a heavy week: Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day, and Andy and Paul expect the finance follow-ups Friday.",
+  "lastRun": "2026-11-15T10:48:42Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
   "notesScanned": 35,
