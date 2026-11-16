@@ -463,7 +463,7 @@
    }
   ],
   "area": "Finance",
-  "date": "2026-11-10",
+  "date": "2026-11-16",
   "decisions": [
    "Laptop reimbursement for Noemi up to $1,500 — the last one until a policy exists.",
    "Sunday 11/8 11am call between Andy and KP to reconcile QuickBooks to PlayMetrics.",
@@ -473,23 +473,22 @@
   "fileId": "1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI",
   "id": "finance-call",
   "keyPoints": [
-   "11/10 payroll: no full-time employees are paid hourly; the bonus plan covers extra time. Part-time work is fill-in work that should simply get done.",
-   "The full-time rule goes into the handbook, with a communication to the affected community-programming staff (Paul Fox and Gustavo noted).",
-   "Bonus flow: Noemi sets up, Nirmala approves, Kristen pays; Kristen is working the calculations — submit by Fri 11/13 for the 11/15 payout.",
-   "Healthcare: need the greater of 5 enrollees or 50% participation; Paychex guides the process and Paul works with Nirmala directly.",
-   "Audit: get the timeline, get on a call with Nirmala and the auditors, add status colors to the open-items list.",
-   "Use September as the test case (QuickBooks to PlayMetrics); Sept and Oct expenses still need catching up; finance hire — short-term vs long-term JD, start via Malorie's Indeed account."
+   "Audit: review is today with a lot of testing done; the auditors then say what is still open.",
+   "Healthcare: Paychex guides the process; a meeting is pending for Wednesday and the plan decision has a two-day window.",
+   "Healthcare needs the greater of five sign-ups or 50% participation; Paul works with Nirmala directly.",
+   "Payroll rule: no full-time employee is paid hourly; the bonus plan covers extra time, and it goes in the handbook.",
+   "Finance hire: decide short-term versus long-term job description and start the search now through Malorie's Indeed account."
   ],
   "kind": "Agenda + notes",
-  "modified": "2026-11-10T19:44:31.024Z",
+  "modified": "2026-11-16T19:14:58.131Z",
   "openQuestions": [
    "How do we move forward on the GA Summer Showcase and Boys Academy discrepancies, and how should they be treated?",
    "Where is our spend going (AP, spend and expense)?",
    "What is the right job description for the finance hire — controller or bookkeeper, short term vs long term?",
    "Who catches up the September and October expenses while Noemi is in the bank reconciliations?"
   ],
-  "summary": "KP's running finance notes with Andy and Paul: the Nov 2 agenda (September close on QuickBooks only, bonuses by 11/15, audit timeline for the Dec 8 board meeting, healthcare, the GA Showcase and Boys Academy investigations), the Nov 6 additions, and a new payroll section from the Nov 10 Finance Catchup. The new part sets a rule: no full-time employee is paid hourly — extra time is what the bonus plan is for — and that rule goes into the handbook and has to be communicated to the community-programming staff it touches. Still live: bonuses submitted Friday 11/13, September as the test case, Sept/Oct expenses to catch up, and the finance-hire search.",
-  "title": "DUSC Andy + Paul — finance call notes (Nov 2 agenda, updated Nov 10)",
+  "summary": "KP's running finance notes with Andy and Paul. The latest additions: the auditors report where they stand after today's review, and the healthcare plan decision has to be made within two days of Wednesday's meeting.",
+  "title": "DUSC Andy + Paul — finance call notes (Nov 2 agenda, updated Nov 16)",
   "url": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-call-boys-academy": {
@@ -617,6 +616,75 @@
   "summary": "Template for the monthly finance meeting: budget vs actuals YTD by program with a monthly summary and year-end forecast; receivables by program and by Academy team; registrant data vs budget and last year (incl. SFAs); cash flow; then open items — audit, medical, flags.",
   "title": "Finance Meeting Structure",
   "url": "https://docs.google.com/document/d/1I-6gIL15xg_e9pUgfjLyw5lmopBsfcrAvFMFoLrz1Zc/edit"
+ },
+ "finance-weekly-2026-11-16": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-17",
+    "id": "nirmala-review-budget-spreadsheet",
+    "note": "November is not reconciled yet, so lump-sum deposits are not broken out.",
+    "owner": "Nirmala",
+    "raised": "2026-11-16",
+    "text": "Nirmala to check the data in KP's budget spreadsheet before Tuesday's finance meeting"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "auditor-review-contract",
+    "note": "Owner is the audit firm.",
+    "owner": "TBD",
+    "raised": "2026-11-16",
+    "text": "Robert (auditor) to review the contract Nirmala sent and say whether it meets the audit requirement"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-17",
+    "id": "nirmala-noemi-benefits-review",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-16",
+    "text": "Nirmala to meet Noemi and go through the pending benefits items"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-17",
+    "id": "nirmala-jennifer-insurance-approval",
+    "note": "Approved plans feed straight into the decision call on Wed 11/18 (or Tuesday if they arrive sooner).",
+    "owner": "Nirmala",
+    "raised": "2026-11-16",
+    "text": "Nirmala to follow up with Jennifer at Paychex for the insurance approval confirmation"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-16",
+  "decisions": [
+   "Nirmala reviews KP's budget spreadsheet before Tuesday's meeting.",
+   "KP takes over chasing missing receipts with an automatic reminder."
+  ],
+  "fileId": "1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg",
+  "id": "finance-weekly-2026-11-16",
+  "keyPoints": [
+   "Audit: journal entries and contracts went in over the weekend; the auditors are testing and promised an update by end of day.",
+   "Merrill account confirmations were delayed by out-of-date contacts; Nirmala has now reached someone.",
+   "The auditor is proposing adjustments for prior-year errors that now make a material difference this year.",
+   "KP's PlayMetrics report shows $287,000 under budget through November; Nirmala cautions November is not reconciled yet.",
+   "Paychex approval of the medical plans is expected within five working days, today or tomorrow."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-16T19:45:40.284Z",
+  "openQuestions": [
+   "Should the fiscal year move to June 30 to simplify reporting? Nirmala will raise it with the auditor.",
+   "Is the contract Nirmala sent enough for the audit requirement?",
+   "How does the club get controls reports now that Stripe is closed?"
+  ],
+  "summary": "KP and Nirmala's Monday finance call. Nirmala's audit items are in and the auditors are reviewing them; the one open piece is a controls report for PlayMetrics, which KP is chasing.",
+  "title": "Finance Weekly — Nov 16 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-weekly-nov2": {
   "actions": [

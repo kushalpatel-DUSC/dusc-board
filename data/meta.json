@@ -11,11 +11,11 @@
   "scanned": 22
  },
  "sync": {
-  "actionsAdded": 0,
+  "actionsAdded": 4,
   "brief": [
    {
     "label": "Today",
-    "text": "Go through the open audit items with Nirmala at 1:30 and update the tracker."
+    "text": "Share the budget spreadsheet with Nirmala so she can check it before tomorrow's 1:30 meeting."
    },
    {
     "label": "Today",
@@ -31,21 +31,26 @@
    },
    {
     "label": "This week",
-    "text": "Add the budget comparisons to the Board Finance Report for Andy and Paul before Friday's call."
+    "text": "Find out how to get the PlayMetrics SOC report the auditors need."
    }
   ],
-  "cardsAdded": 0,
+  "cardsAdded": 4,
   "cardsCompleted": 0,
   "deadlines": [
    {
     "date": "2026-11-16",
-    "label": "Audit: review open items with Nirmala and check the timetable; draft report expected",
-    "who": "KP, Nirmala"
+    "label": "Audit: auditors' end-of-day update on what is still open after their review",
+    "who": "Nirmala, KP"
    },
    {
     "date": "2026-11-17",
     "label": "First Rec/Class/Camp Weekly Call (1:15, overlaps Recurring Finance at 1:30)",
     "who": "KP"
+   },
+   {
+    "date": "2026-11-17",
+    "label": "Nirmala checks KP's budget spreadsheet before the 1:30 finance meeting; insurance approval follow-up with Paychex",
+    "who": "Nirmala"
    },
    {
     "date": "2026-11-18",
@@ -138,23 +143,23 @@
     "who": "Ops"
    }
   ],
-  "headline": "Today's audit review with Nirmala opens a heavy week: Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day, and Andy and Paul expect the finance follow-ups Friday.",
-  "lastRun": "2026-11-16T16:47:52Z",
+  "headline": "The audit is with the auditors; the PlayMetrics SOC report is yours to chase. Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day; Andy and Paul expect finance follow-ups Friday.",
+  "lastRun": "2026-11-16T20:49:32Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 14,
-  "notesScanned": 35,
+  "meetingsRefreshed": 16,
+  "notesScanned": 36,
   "themes": [
    {
     "name": "Finance reset",
-    "text": "The payout report now ties to QuickBooks within $727. KP owes Andy and Paul the SFA-corrected registrant count, the duplicate-transaction check and budget comparisons before Friday."
+    "text": "KP's PlayMetrics report shows $287,000 under budget through November, unreconciled; Nirmala checks it Tuesday. Andy and Paul still expect the SFA-corrected count and budget comparisons Friday."
    },
    {
     "name": "Audit and board",
-    "text": "KP reviews the open audit items with Nirmala today and updates the tracker. The auditors' draft is due around now and the board meets Dec 8."
+    "text": "Nirmala's audit items are in and the auditors are reviewing them. KP chases the PlayMetrics SOC report; the board meets Dec 8."
    },
    {
     "name": "Healthcare",
-    "text": "Paychex needs seven sign-ups and a 50% subsidy on the cheapest plan. Paul leads; the group picks four plans and the subsidy on Wednesday 11/18."
+    "text": "Paychex approval of the plans is expected by Tuesday; Nirmala follows up. The group picks four plans and the subsidy on Wednesday 11/18, with Paul leading."
    },
    {
     "name": "Finance role",
