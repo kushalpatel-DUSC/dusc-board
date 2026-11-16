@@ -434,6 +434,45 @@
   "updatedAt": "2026-11-14T05:05:48Z",
   "userEdited": false
  },
+ "4vflti1th5vu092daqbltggg1u": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   },
+   {
+    "email": "simon.triantafillou@dusc.net",
+    "name": "Simon Triantafillou"
+   }
+  ],
+  "end": "2026-11-19T13:00:00-05:00",
+  "eventId": "4vflti1th5vu092daqbltggg1u",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NHZmbHRpMXRoNXZ1MDkyZGFxYmx0Z2dnMXUga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/tka-ubgp-ood",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Reconcile the scholarship count: PlayMetrics against Malorie's tracking sheet",
+    "The SFA numbers needed for the Chobani commitment and who reports them",
+    "Non-paying SFA players: get the scholarship sheet and add them to the registrant database",
+    "Who owns the SFA report going forward (it is on Nirmala's task list)"
+   ],
+   "summary": "Nirmala set this hour up after the 'SFA scholarship numbers - Chobani' thread, where she said a call would help. It is the place to settle the Soccer For All scholarship count, which still differs between PlayMetrics (65) and Malorie's sheet (144)."
+  },
+  "recurringEventId": null,
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-19T12:00:00-05:00",
+  "status": "upcoming",
+  "title": "SFA review",
+  "updatedAt": "2026-11-16T19:06:26Z",
+  "userEdited": false
+ },
  "5ggpj9v40a2q324at6j3n9ekvb": {
   "agenda": [],
   "agendaUpdatedAt": null,
@@ -900,7 +939,7 @@
     "name": "Nirmala Singh"
    }
   ],
-  "end": "2026-11-16T14:00:00-05:00",
+  "end": "2026-11-16T14:30:00-05:00",
   "eventId": "6nc6i1n4kcjaak7pfr2nv8f5r5_20261116T183000Z",
   "htmlLink": "https://www.google.com/calendar/event?eid=Nm5jNmkxbjRrY2phYWs3cGZyMm52OGY1cjVfMjAyNjExMTZUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
   "meetUrl": "https://meet.google.com/mki-khav-mfs",
@@ -930,10 +969,10 @@
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
-  "start": "2026-11-16T13:30:00-05:00",
+  "start": "2026-11-16T14:00:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-16T16:47:52Z",
+  "updatedAt": "2026-11-16T19:06:26Z",
   "userEdited": false
  },
  "6nc6i1n4kcjaak7pfr2nv8f5r5_20261123T183000Z": {
