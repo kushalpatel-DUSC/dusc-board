@@ -198,6 +198,28 @@
   "updatedAt": "2026-11-04T23:45:00Z",
   "userEdited": false
  },
+ "board-finance-report-budget-variance": {
+  "area": "Finance",
+  "createdAt": "2026-11-16T01:06:00Z",
+  "doneAt": null,
+  "due": null,
+  "id": "board-finance-report-budget-variance",
+  "note": "Andy's follow-up step, after the current-date \"many fields\" collections run (covered by the registrant and collection numbers card).",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "raised": "2026-11-15",
+  "source": "Email: Board Finances Report",
+  "sourceKind": "email",
+  "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r2957386278553151711",
+  "status": "todo",
+  "title": "Add budget data to the Board Finance Report: variance by team against YTD budget, and split by SFA and non-SFA players",
+  "updatedAt": "2026-11-16T01:06:00Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "board-presentation": {
   "area": "Board",
   "createdAt": "2026-11-04T23:45:00Z",
@@ -387,6 +409,8 @@
   "id": "finance-gap-plan",
   "note": null,
   "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
   "priority": null,
   "raised": "2026-10-19",
   "source": "Kyle/Kushal 1:1",
@@ -394,9 +418,7 @@
   "status": "doing",
   "title": "KP priority: fix the finance gap — budget reduction by $200,000",
   "updatedAt": "2026-11-14T13:37:17.568Z",
-  "userEdited": true,
-  "pinned": false,
-  "pinnedAt": null
+  "userEdited": true
  },
  "finance-hire-search": {
   "area": "Finance",

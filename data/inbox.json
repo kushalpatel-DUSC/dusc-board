@@ -717,6 +717,23 @@
   "updatedAt": "2026-11-14T11:18:20Z",
   "userEdited": false
  },
+ "1a1d632bde65224d": {
+  "area": "Finance",
+  "ask": "Run the \"many fields\" report as of today in the same format and share it with Andy and Paul; then add budget variance by team (vs YTD budget) and for SFA vs non-SFA players.",
+  "cardId": "board-finance-report-budget-variance",
+  "createdAt": "2026-11-16T01:06:00Z",
+  "date": "2026-11-16T00:36:31Z",
+  "due": null,
+  "from": "Andrew Scruton",
+  "gist": "Andy reviewed the Board Finance Report through 9/30 and is happy with it. He set out the next steps: a current-date run, then budget comparisons.",
+  "kind": "action",
+  "status": "open",
+  "subject": "Board Finances Report",
+  "threadId": "1a1d632bde65224d",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r2957386278553151711",
+  "updatedAt": "2026-11-16T01:06:00Z",
+  "userEdited": false
+ },
  "1a1d87535a4cb0d7": {
   "area": "Systems",
   "ask": "Decide whether to upgrade the Netlify plan to resume production deploys or wait for the December 13 reset.",
