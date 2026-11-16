@@ -753,19 +753,19 @@
  },
  "1a1e4963a927a4ec": {
   "area": "Finance",
-  "ask": "Nothing on the balance any more — only follow the claim process once Dimitrie replies, as you said you would look further.",
+  "ask": "Nothing asked of you directly — Dimitrie's question is with Malorie; follow the claim process only as far as you said you would look further.",
   "cardId": null,
   "createdAt": "2026-11-16T15:07:48Z",
-  "date": "2026-11-16T18:00:34Z",
+  "date": "2026-11-16T20:34:31Z",
   "due": null,
-  "from": "Malorie Warents",
-  "gist": "Alex forwarded a GA II family's two requests: cancel the player's remaining dues balance and say who helps with a secondary insurance claim. Malorie has now deleted the last installment and is keeping the player registered; the claim question waits on Dimitrie (GA II falls under USYS), after which Malorie and Alex will email the family again.",
+  "from": "Dimitrie Draguca",
+  "gist": "Alex forwarded a GA II family's two requests: cancel the player's remaining dues balance and say who helps with a secondary insurance claim. Malorie has deleted the last installment and is keeping the player registered. Dimitrie has now replied that GA players are not carded through the club at CJSL — GA runs its own carding and claim process — and he can help only if the player is carded through CJSL (EDP, NAL, NEAL or RAL); he asked Malorie to confirm which.",
   "kind": "action",
   "status": "open",
   "subject": "Fwd: Player family request — remaining dues balance and insurance claim",
   "threadId": "1a1e4963a927a4ec",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882022386675983596",
-  "updatedAt": "2026-11-16T19:06:26Z",
+  "updatedAt": "2026-11-16T21:06:46Z",
   "userEdited": false
  },
  "1a1e578ed154f257": {
@@ -783,6 +783,23 @@
   "threadId": "1a1e578ed154f257",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882037965196423767",
   "updatedAt": "2026-11-16T19:06:26Z",
+  "userEdited": false
+ },
+ "1a1e5cf354744b52": {
+  "area": "Finance",
+  "ask": "Get the SOC reports from Stripe (not PlayMetrics) for the FY ended May 31, 2026 audit — this answers the open PlayMetrics SOC report card.",
+  "cardId": "playmetrics-soc-report",
+  "createdAt": "2026-11-16T21:06:46Z",
+  "date": "2026-11-16T19:21:48Z",
+  "due": null,
+  "from": "Nirmala Singh",
+  "gist": "Nirmala forwarded PlayMetrics' Nov 4 answer on the SOC report the auditors want: PlayMetrics has no SOC 1 report because it does not process payments itself — Stripe does, and Stripe's SOC 1 and SOC 2 reports have to be obtained from Stripe directly.",
+  "kind": "action",
+  "status": "open",
+  "subject": "Fwd: [EXTERNAL] Re: Playmetrics SOC reports request",
+  "threadId": "1a1e5cf354744b52",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882043894451161938",
+  "updatedAt": "2026-11-16T21:06:46Z",
   "userEdited": false
  }
 }
