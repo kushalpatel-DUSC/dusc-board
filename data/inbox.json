@@ -750,5 +750,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881809011377746135",
   "updatedAt": "2026-11-14T11:18:20Z",
   "userEdited": false
+ },
+ "1a1e4963a927a4ec": {
+  "area": "Finance",
+  "ask": "Decide with Mal and Leanne whether the remaining balance is cancelled and confirm to Alex; follow the claim process once Dimitrie replies, as you said you would look further.",
+  "cardId": null,
+  "createdAt": "2026-11-16T15:07:48Z",
+  "date": "2026-11-16T14:57:41Z",
+  "due": null,
+  "from": "Leanne Campbell",
+  "gist": "Alex forwarded a GA II family's two requests: cancel the player's remaining dues balance (final January installment) and tell them who at the club helps with a secondary insurance claim. You replied on the claim; Leanne says GA II falls under USYS and has copied Dimitrie for the process.",
+  "kind": "decision",
+  "status": "open",
+  "subject": "Fwd: Player family request — remaining dues balance and insurance claim",
+  "threadId": "1a1e4963a927a4ec",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882022386675983596",
+  "updatedAt": "2026-11-16T15:07:48Z",
+  "userEdited": false
  }
 }
