@@ -15,15 +15,15 @@
   "brief": [
    {
     "label": "Today",
-    "text": "Observe the Rec session at Pier 40 Indoor and look at tabling, ahead of Tuesday's Rec call."
+    "text": "Go through the open audit items with Nirmala at 1:30 and update the tracker."
    },
    {
     "label": "Today",
-    "text": "Send Andy the supply-vs-demand dashboard and Jan–Mar zones 1–2."
+    "text": "Send Andy the supply-vs-demand dashboard and Jan–Mar zones 1–2, promised for Sunday."
    },
    {
-    "label": "Mon 11/16",
-    "text": "Go through the open audit items with Nirmala and update the tracker."
+    "label": "Tue 11/17",
+    "text": "Bring what you saw at Pier 40 to your first Rec/Class/Camp call at 1:15."
    },
    {
     "label": "Wed 11/18",
@@ -31,31 +31,21 @@
    },
    {
     "label": "This week",
-    "text": "Pick four healthcare plans and the subsidy on Wednesday; seven sign-ups are needed in a five-day window."
+    "text": "Add the budget comparisons to the Board Finance Report for Andy and Paul before Friday's call."
    }
   ],
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
    {
-    "date": "2026-11-15",
-    "label": "Supply-vs-demand dashboard and Jan–Mar zones 1–2 to Andy",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-15",
-    "label": "Observe the Rec session at Pier 40 Indoor",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-15",
-    "label": "Staff bonuses paid",
-    "who": "Kristen, Nirmala, Noemi"
-   },
-   {
     "date": "2026-11-16",
     "label": "Audit: review open items with Nirmala and check the timetable; draft report expected",
     "who": "KP, Nirmala"
+   },
+   {
+    "date": "2026-11-17",
+    "label": "First Rec/Class/Camp Weekly Call (1:15, overlaps Recurring Finance at 1:30)",
+    "who": "KP"
    },
    {
     "date": "2026-11-18",
@@ -66,6 +56,11 @@
     "date": "2026-11-18",
     "label": "Paychex decision call (12:30): pick four plans and set the subsidy",
     "who": "Paul, Andy, KP"
+   },
+   {
+    "date": "2026-11-20",
+    "label": "Budget comparisons (by team vs YTD budget, SFA split) in the Board Finance Report, before the Friday call",
+    "who": "KP"
    },
    {
     "date": "2026-11-23",
@@ -143,19 +138,19 @@
     "who": "Ops"
    }
   ],
-  "headline": "Tomorrow's audit review with Nirmala opens a heavy week: Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day, and Andy and Paul expect the finance follow-ups Friday.",
-  "lastRun": "2026-11-15T20:47:47Z",
+  "headline": "Today's audit review with Nirmala opens a heavy week: Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day, and Andy and Paul expect the finance follow-ups Friday.",
+  "lastRun": "2026-11-16T10:48:55Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
   "notesScanned": 35,
   "themes": [
    {
     "name": "Finance reset",
-    "text": "The payout report now ties to QuickBooks within $727. KP owes Andy and Paul the SFA-corrected registrant count, the duplicate-transaction check and current collection numbers."
+    "text": "The payout report now ties to QuickBooks within $727. KP owes Andy and Paul the SFA-corrected registrant count, the duplicate-transaction check and budget comparisons before Friday."
    },
    {
     "name": "Audit and board",
-    "text": "KP reviews the open audit items with Nirmala on Monday and updates the tracker. The draft is due around 11/16 and the board meets Dec 8."
+    "text": "KP reviews the open audit items with Nirmala today and updates the tracker. The auditors' draft is due around now and the board meets Dec 8."
    },
    {
     "name": "Healthcare",
