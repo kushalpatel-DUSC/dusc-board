@@ -818,5 +818,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882064165278322781",
   "updatedAt": "2026-11-17T01:06:32Z",
   "userEdited": false
+ },
+ "1a1e745d13aaf990": {
+  "area": "Programs",
+  "ask": "Read Gustavo's Summer Camp 2027 report before the Rec/Class/Camp call on Tuesday 11/17 at 1:15pm.",
+  "cardId": null,
+  "createdAt": "2026-11-17T03:06:10Z",
+  "date": "2026-11-17T02:11:01Z",
+  "due": "2026-11-17",
+  "from": "Gustavo Palomino",
+  "gist": "Gustavo says tomorrow's Rec/Classes/Camp meeting will focus on the Pier 40 Summer Camp 2027 and attached his report (program plan, activities, budget, pricing, marketing). He wants full-day and half-day fees settled by early January so registration can open mid-January.",
+  "kind": "action",
+  "status": "open",
+  "subject": "Rec / Classes / Camp - Meeting 11/17",
+  "threadId": "1a1e745d13aaf990",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882069637398198672",
+  "updatedAt": "2026-11-17T03:06:10Z",
+  "userEdited": false
  }
 }
