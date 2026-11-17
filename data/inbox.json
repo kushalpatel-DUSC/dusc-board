@@ -90,6 +90,23 @@
   "updatedAt": "2026-11-05T21:12:00Z",
   "userEdited": false
  },
+ "1a19a04f853dce4e": {
+  "area": "Programs",
+  "ask": "Email Bob Townley at Manhattan Youth to set up the conversation about a DUSC partnership.",
+  "cardId": null,
+  "createdAt": "2026-11-17T19:07:24Z",
+  "date": "2026-11-17T17:31:05Z",
+  "due": null,
+  "from": "Gabi Ajami",
+  "gist": "Gabi Ajami (Manhattan Youth) replied to your Nov 2 note about DUSC serving as a soccer provider for local schools. She passed your interest to Bob Townley, the Executive Director, who asked her to send you his contact: bob@manhattanyouth.org.",
+  "kind": "action",
+  "status": "open",
+  "subject": "Manhattan Youth + DUSC",
+  "threadId": "1a19a04f853dce4e",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r1157000447013307410",
+  "updatedAt": "2026-11-17T19:07:24Z",
+  "userEdited": false
+ },
  "1a19dbe49dfc8546": {
   "area": "Programs",
   "ask": "Decide whether Constant Contact and Google Ads move to Yellowhouse, and get back to Sydney (call or email).",
@@ -737,19 +754,19 @@
  },
  "1a1d68f21eadcabd": {
   "area": "People",
-  "ask": "Reply on the thread to say whether you can join the Paychex plan review call today at 3:00pm.",
+  "ask": "Tell Paul when you will be in front of a computer today so the group can review and choose the plans together.",
   "cardId": null,
   "createdAt": "2026-11-17T17:06:45Z",
-  "date": "2026-11-17T16:16:11Z",
+  "date": "2026-11-17T18:47:31Z",
   "due": "2026-11-17",
-  "from": "Nirmala Singh",
-  "gist": "Paychex gave tentative approval on the medical plan quotes and Paul accepted them so DUSC can pick which plans to offer. Jennifer James (Paychex) offered to review the plans and options with the team herself today at 3:00pm; Paul and Nirmala are in, and Nirmala asked whether Kristen and KP can make it.",
+  "from": "Paul Sowell",
+  "gist": "Paychex gave tentative approval on the medical plan quotes and Jennifer James set a plan review call for today at 3:00pm. You told the group you can join but will be driving and limited after 3:30; Kristen cannot join. Paul replied that everyone needs to look at the plans on screen to choose the right ones.",
   "kind": "reply",
   "status": "open",
   "subject": "Medical Plans",
   "threadId": "1a1d68f21eadcabd",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881775608416815805",
-  "updatedAt": "2026-11-17T17:06:45Z",
+  "updatedAt": "2026-11-17T19:07:24Z",
   "userEdited": false
  },
  "1a1d87535a4cb0d7": {

@@ -449,9 +449,13 @@
    {
     "email": "simon.triantafillou@dusc.net",
     "name": "Simon Triantafillou"
+   },
+   {
+    "email": "sydney.redisch@dusc.net",
+    "name": "Sydney Redisch"
    }
   ],
-  "end": "2026-11-19T13:00:00-05:00",
+  "end": "2026-11-19T14:15:00-05:00",
   "eventId": "4vflti1th5vu092daqbltggg1u",
   "htmlLink": "https://www.google.com/calendar/event?eid=NHZmbHRpMXRoNXZ1MDkyZGFxYmx0Z2dnMXUga3VzaGFsLnBhdGVsQGR1c2MubmV0",
   "meetUrl": "https://meet.google.com/tka-ubgp-ood",
@@ -470,10 +474,10 @@
   },
   "recurringEventId": null,
   "seriesKey": "finance-weekly",
-  "start": "2026-11-19T12:00:00-05:00",
+  "start": "2026-11-19T13:15:00-05:00",
   "status": "upcoming",
   "title": "SFA review",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T19:07:24Z",
   "userEdited": false
  },
  "5ggpj9v40a2q324at6j3n9ekvb": {
@@ -1501,6 +1505,53 @@
   "status": "upcoming",
   "title": "Downtown United Soccer Club",
   "updatedAt": "2026-11-17T16:48:12Z",
+  "userEdited": false
+ },
+ "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8p2j6g9p752j2ghl6sr48h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g752k2e1l6osj4d9m610jacpk68s46e1l6133gchk8cs34dpi6910": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "kristen.capobianco@dusc.net",
+    "name": "Kristen Capobianco"
+   },
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   },
+   {
+    "email": "jljames@paychex.com",
+    "name": "Jennifer James (Paychex)"
+   }
+  ],
+  "end": "2026-11-17T16:00:00-05:00",
+  "eventId": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8p2j6g9p752j2ghl6sr48h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g752k2e1l6osj4d9m610jacpk68s46e1l6133gchk8cs34dpi6910",
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4cDJqNmc5cDc1MmoyZ2hsNnNyNDhoMWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnNzUyazJlMWw2b3NqNGQ5bTYxMGphY3BrNjhzNDZlMWw2MTMzZ2NoazhjczM0ZHBpNjkxMCBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://paychex.webex.com/paychex/j.php?MTID=mff93296d7532fa1691d69ccf647e60da",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Walk through the approved plan quotes and what each option covers",
+    "Shortlist the plans to offer before Wednesday's decision call",
+    "What accepting the quotes commits DUSC to, and the enrollment timeline",
+    "Employer subsidy level to bring to Wednesday's call"
+   ],
+   "summary": "Paychex's Phase 1 call with Jennifer James to walk through the medical plan quotes that were tentatively approved, ahead of Wednesday's 12:30 call where the group picks four plans and the subsidy. Paul wants everyone looking at the plans on screen; Kristen cannot join."
+  },
+  "recurringEventId": null,
+  "seriesKey": null,
+  "start": "2026-11-17T15:00:00-05:00",
+  "status": "upcoming",
+  "title": "Downtown United Soccer Club",
+  "updatedAt": "2026-11-17T19:07:24Z",
   "userEdited": false
  },
  "_6kq44hhm70rk2b9k850j8b9k68rj4b9o6t330b9p752k6hhm84q38dpn6k": {
