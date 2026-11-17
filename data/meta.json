@@ -11,37 +11,32 @@
   "scanned": 25
  },
  "sync": {
-  "actionsAdded": 4,
+  "actionsAdded": 0,
   "brief": [
    {
     "label": "Today",
-    "text": "Share the budget spreadsheet with Nirmala so she can check it before tomorrow's 1:30 meeting."
+    "text": "Read Gustavo's Summer Camp 2027 report before the 1:15 Rec/Class/Camp call, and bring what you saw at Pier 40."
    },
    {
     "label": "Today",
-    "text": "Send Andy the supply-vs-demand dashboard and Jan–Mar zones 1–2, promised for Sunday."
-   },
-   {
-    "label": "Tue 11/17",
-    "text": "Bring what you saw at Pier 40 to your first Rec/Class/Camp call at 1:15."
+    "text": "Get Nirmala's check of your budget spreadsheet at 1:30; the Rec call overlaps it from 1:15, so decide which you leave early."
    },
    {
     "label": "Wed 11/18",
     "text": "Run Media Day at Socceroof, 4–7pm, U16–U19 only; send the photographers the date and location first."
    },
    {
+    "label": "Wed 11/18",
+    "text": "Pick four Paychex plans and the subsidy at 12:30; the call overlaps Soccer For All and runs into Ops Weekly."
+   },
+   {
     "label": "This week",
-    "text": "Find out how to get the PlayMetrics SOC report the auditors need."
+    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before Friday's call; Andy asked for them sooner."
    }
   ],
-  "cardsAdded": 4,
+  "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-16",
-    "label": "Audit: auditors' end-of-day update on what is still open after their review",
-    "who": "Nirmala, KP"
-   },
    {
     "date": "2026-11-17",
     "label": "First Rec/Class/Camp Weekly Call (1:15, overlaps Recurring Finance at 1:30)",
@@ -53,6 +48,11 @@
     "who": "Nirmala"
    },
    {
+    "date": "2026-11-17",
+    "label": "Read Gustavo's Summer Camp 2027 report before the 1:15 Rec/Class/Camp call",
+    "who": "KP"
+   },
+   {
     "date": "2026-11-18",
     "label": "Media Day at Socceroof, 4–7pm (U16–U19); photographers need date and location",
     "who": "KP, Leanne"
@@ -61,6 +61,16 @@
     "date": "2026-11-18",
     "label": "Paychex decision call (12:30): pick four plans and set the subsidy",
     "who": "Paul, Andy, KP"
+   },
+   {
+    "date": "2026-11-19",
+    "label": "SFA review with Nirmala, Mal and Simon (12:00): reconcile the scholarship count",
+    "who": "KP, Nirmala, Mal"
+   },
+   {
+    "date": "2026-11-19",
+    "label": "NYCFC x DUSC call with Jason Ortega (1:30)",
+    "who": "KP"
    },
    {
     "date": "2026-11-20",
@@ -143,8 +153,8 @@
     "who": "Ops"
    }
   ],
-  "headline": "The audit is with the auditors; the PlayMetrics SOC report is yours to chase. Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day; Andy and Paul expect finance follow-ups Friday.",
-  "lastRun": "2026-11-16T20:49:32Z",
+  "headline": "Today's Rec call and Nirmala's finance meeting overlap. Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day; Andy and Paul expect the budget comparisons by Friday.",
+  "lastRun": "2026-11-17T10:52:00Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 16,
   "notesScanned": 36,
