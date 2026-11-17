@@ -4,17 +4,17 @@
   "ask": "Set up the call with Todd, settle the contract terms (what DUSC gets in return) and agree the per-person markup with Kyle so Todd can send the full package.",
   "cardId": "spain-trip-contract",
   "createdAt": "2026-11-05T03:05:42Z",
-  "date": "2026-11-13T03:41:44Z",
+  "date": "2026-11-16T23:14:44Z",
   "due": null,
   "from": "Todd Stauber",
-  "gist": "The Spain trip details and payment schedule are final and Jose is moving to internal promotion, with a Nov 22 parent meeting awaiting confirmation. The club agreement with ESS is still open and is being discussed in the separate ESS/DUSC Contract thread.",
+  "gist": "The Spain trip details and payment schedule are final; Jose started advertising the trip on 11/16 and has asked Todd to confirm the Zoom presentation to families for Sunday Nov 22 at 7:00pm. The club agreement with ESS is still open and is being discussed in the separate ESS/DUSC Contract thread.",
   "id": "1a0f8742045b01e1",
   "kind": "reply",
   "status": "open",
   "subject": "DUSC - Summer 2027 - Spain Trip",
   "threadId": "1a0f8742045b01e1",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1877868287247450593",
-  "updatedAt": "2026-11-14T11:18:20Z",
+  "updatedAt": "2026-11-17T01:06:32Z",
   "userEdited": false
  },
  "1a15540466682bfb": {
@@ -583,19 +583,19 @@
  },
  "1a1c31df86aef56d": {
   "area": "Facilities",
-  "ask": "Decide whether and how to pursue the proposal and get back to Ryan; loop Jessie back in when it makes sense.",
+  "ask": "Reply to Ryan with your thoughts on the space and whether DUSC will pursue the proposal; loop Jessie back in when it makes sense.",
   "cardId": "playbook-immaculate-conception-proposal",
   "createdAt": "2026-11-10T03:12:00Z",
-  "date": "2026-11-12T02:59:12Z",
+  "date": "2026-11-16T23:31:09Z",
   "due": null,
   "from": "Ryan Mitchell",
-  "gist": "You and Ryan spoke on Nov 11 about the former Immaculate Conception school facilities and he sent photos of both spaces afterwards. Jessie noted DUSC might secure the space on its own through club connections, though later than winter 2027.",
+  "gist": "You and Ryan spoke on Nov 11 about the former Immaculate Conception school facilities and he sent photos of both spaces afterwards. On Mon 11/16 he followed up asking for your thoughts on the space; a Playbook AI demo with him is on the calendar for Mon 11/23 at 1:30. Jessie noted DUSC might secure the space on its own through club connections, though later than winter 2027.",
   "kind": "decision",
   "status": "open",
   "subject": "Re: [EXTERNAL] Space & Tech Proposal",
   "threadId": "1a1c31df86aef56d",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881433580441105773",
-  "updatedAt": "2026-11-14T11:18:20Z",
+  "updatedAt": "2026-11-17T01:06:32Z",
   "userEdited": false
  },
  "1a1c353d49ee5bfe": {
@@ -800,6 +800,23 @@
   "threadId": "1a1e5cf354744b52",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882043894451161938",
   "updatedAt": "2026-11-16T21:06:46Z",
+  "userEdited": false
+ },
+ "1a1e6f62ffe8105d": {
+  "area": "Finance",
+  "ask": "Tell Noemi whether you will approve coach-booked travel and out-of-policy reimbursements, and how to handle league & tournament expenses and per diem replenishments going forward.",
+  "cardId": null,
+  "createdAt": "2026-11-17T01:06:32Z",
+  "date": "2026-11-17T00:44:00Z",
+  "due": null,
+  "from": "Noemi Argueta",
+  "gist": "Noemi sent the 2026-27 Travel and Per Diem Policy and asks how approvals should work now: some coaches book their own travel, and Uber/taxi, parking and other reimbursements outside the policy were previously approved by Kevin. Start-of-season per diem replenishments have gone to some coaches this season but not all.",
+  "kind": "decision",
+  "status": "open",
+  "subject": "Travel, Reimbursements, and Per Diem Policy",
+  "threadId": "1a1e6f62ffe8105d",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882064165278322781",
+  "updatedAt": "2026-11-17T01:06:32Z",
   "userEdited": false
  }
 }
