@@ -1,14 +1,14 @@
 {
  "inbox": {
-  "added": 0,
+  "added": 1,
   "cardsAdded": 0,
   "cleared": 0,
-  "flagged": 28,
-  "lastRun": "2026-11-17T15:07:17Z",
+  "flagged": 29,
+  "lastRun": "2026-11-17T17:06:45Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 24
+  "scanned": 26
  },
  "sync": {
   "actionsAdded": 0,
