@@ -124,6 +124,41 @@
   "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
+ "17imubto8an2sfq74md7nln31s": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   }
+  ],
+  "end": "2026-11-18T17:00:00-05:00",
+  "eventId": "17imubto8an2sfq74md7nln31s",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MTdpbXVidG84YW4yc2ZxNzRtZDdubG4zMXMga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "meetUrl": "https://meet.google.com/gsh-yszu-skc",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Which four Paychex plans the group picked at 12:30, and the subsidy level",
+    "Insurance approval confirmation from Jennifer at Paychex",
+    "Open enrollment: getting at least 7 employee sign-ups in the five-day window",
+    "Pending benefits items from Nirmala's review with Noemi"
+   ],
+   "summary": "Nirmala's hour with Paul and KP to go through the Paychex insurance plans, a few hours after the 12:30 Paychex decision call where the group picks four plans and sets the subsidy. It overlaps Media Day at Socceroof (4–7pm)."
+  },
+  "recurringEventId": null,
+  "seriesKey": "finance-weekly",
+  "start": "2026-11-18T16:00:00-05:00",
+  "status": "upcoming",
+  "title": "Insurance Plan Review",
+  "updatedAt": "2026-11-17T23:06:28Z",
+  "userEdited": false
+ },
  "1fficndg9ljpkvvn36t3dpeklb": {
   "agenda": [],
   "agendaUpdatedAt": null,

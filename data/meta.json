@@ -4,10 +4,10 @@
   "cardsAdded": 0,
   "cleared": 0,
   "flagged": 30,
-  "lastRun": "2026-11-17T21:06:29Z",
+  "lastRun": "2026-11-17T23:06:28Z",
   "lastRunStatus": "ok",
-  "meetingsChanged": 0,
-  "meetingsProcessed": 1,
+  "meetingsChanged": 1,
+  "meetingsProcessed": 0,
   "scanned": 27
  },
  "sync": {
