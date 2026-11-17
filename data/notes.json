@@ -480,7 +480,7 @@
    "Finance hire: decide short-term versus long-term job description and start the search now through Malorie's Indeed account."
   ],
   "kind": "Agenda + notes",
-  "modified": "2026-11-16T19:14:58.131Z",
+  "modified": "2026-11-17T19:00:32.208Z",
   "openQuestions": [
    "How do we move forward on the GA Summer Showcase and Boys Academy discrepancies, and how should they be treated?",
    "Where is our spend going (AP, spend and expense)?",
@@ -488,7 +488,7 @@
    "Who catches up the September and October expenses while Noemi is in the bank reconciliations?"
   ],
   "summary": "KP's running finance notes with Andy and Paul. The latest additions: the auditors report where they stand after today's review, and the healthcare plan decision has to be made within two days of Wednesday's meeting.",
-  "title": "DUSC Andy + Paul — finance call notes (Nov 2 agenda, updated Nov 16)",
+  "title": "DUSC Andy + Paul — finance call notes (Nov 2 agenda, updated Nov 17)",
   "url": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "finance-call-boys-academy": {
@@ -620,8 +620,8 @@
  "finance-weekly-2026-11-16": {
   "actions": [
    {
-    "done": false,
-    "doneAt": null,
+    "done": true,
+    "doneAt": "2026-11-17T20:50:50Z",
     "due": "2026-11-17",
     "id": "nirmala-review-budget-spreadsheet",
     "note": "November is not reconciled yet, so lump-sum deposits are not broken out.",
@@ -1569,6 +1569,66 @@
   "title": "Recurring Finance meeting — Nov 3 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "recurring-finance-2026-11-17": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-flag-budget-inconsistencies",
+    "note": "KP's figures are raw payout data through 11/13; November is not reconciled.",
+    "owner": "Nirmala",
+    "raised": "2026-11-17",
+    "text": "Nirmala to review KP's budget detail and variance reports and flag inconsistencies for him to investigate"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-25",
+    "id": "nirmala-october-package-pl",
+    "note": "Bank reconciliations and revenue are done; expenses follow her meeting with Noemi.",
+    "owner": "Nirmala",
+    "raised": "2026-11-17",
+    "text": "Nirmala to reconcile the credit card expenses and finish the October profit and loss statement before Thanksgiving"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-reshare-variance-folder",
+    "note": "KP could not open the folder during the meeting.",
+    "owner": "Nirmala",
+    "raised": "2026-11-17",
+    "text": "Nirmala to resend KP the link to the variance analysis folder (QuickBooks finals against board drafts, GA showcase tab)"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-17",
+  "decisions": [
+   "KP raises Nirmala's consulting arrangement with Andy and Paul on Friday and updates her early next week.",
+   "Nirmala buys Noemi's replacement laptop on Malorie's card, with Paul's approval."
+  ],
+  "fileId": "1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U",
+  "id": "recurring-finance-2026-11-17",
+  "keyPoints": [
+   "Auditors asked for extra testing reports covering June and July; Nirmala sent them this morning.",
+   "KP's budget numbers match Andy's; variances through 11/13 keep growing, notably Boys Development League.",
+   "Academy counts come from PlayMetrics, checked weekly against Jason and Alex's live roster sheet.",
+   "GA summer showcase: about $106,000 of expenses against $74,000 revenue after a $37,000 prior-year accrual.",
+   "October package: revenue is reconciled; expenses and the P&L are due before Thanksgiving."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-17T19:56:23.124Z",
+  "openQuestions": [
+   "What is the long-term plan for Nirmala's consulting arrangement?",
+   "Why do Malorie's SFA sheet and Simon's reports give different counts?",
+   "Why did GA showcase hotel costs ($29,000) exceed flights ($18,000) for three teams?",
+   "Is the real overdue receivable higher than the $13,000–14,000 logged?"
+  ],
+  "summary": "Nirmala's Tuesday finance hour with KP. Budget variances keep growing on unreconciled data, the GA summer showcase lost about $32,000, and Nirmala wants a clear decision on her long-term arrangement.",
+  "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "soccerpost-scratch-nov5": {
   "actions": [
    {
@@ -1592,17 +1652,16 @@
    "Promo: ~$100K/yr nominal, ~$70K cash value; fundraising is 30% off MSRP (a kit DUSC gets for $35)",
    "Fundraising: an extra $10 on all uniform costs funds scholarships — new this cycle, everyone had to buy",
    "11/9: 'send the money over to us' — fundraising dollars as cash rather than invoice credits",
-   "11/9: look at the Adidas contract — what are DUSC's absolute caps?",
-   "11/9: Rec, Classes + Camps (community programming only) via ScoreSports; orders with ~5 extra per team; a spirit-wear shirt"
+   "11/9: look at the Adidas contract — what are DUSC's absolute caps?"
   ],
   "kind": "Scratch notes",
-  "modified": "2026-11-09T15:32:28.999Z",
+  "modified": "2026-11-17T19:03:30.108Z",
   "openQuestions": [
    "What are the absolute promo caps in the Adidas contract?",
    "Do promo and fundraising dollars go against the outstanding invoices or roll into 2027?",
    "Note says 'finance lead left' — confirm who handles payouts on the Soccer Post side"
   ],
-  "summary": "KP's own notes from the Nov 5 Soccer Post call, added to during the Nov 9 follow-up with Mal. The sharp points are unchanged: Adidas promo is ~$100K a year with a cash value near $70K, too much of it goes on T-shirts, and about $6,000 is left before it expires Dec 15. The 11/9 additions: have Soccer Post send the fundraising money over, look at the Adidas contract for DUSC's absolute caps, a spirit-wear shirt, and keep Rec, Classes and Camps (community programming only) on ScoreSports, ordering about 5 extra per team.",
+  "summary": "KP's scratch notes from the Soccer Post calls. About $6,000 of Adidas promo is left before it expires Dec 15, and the contract's absolute caps still need checking.",
   "title": "Soccer Post calls — scratch notes (Nov 5 & Nov 9)",
   "url": "https://docs.google.com/document/d/1b0fDshAdd-l7VdJWmJKvz_7otJyHGUZzPRD7ePy-JuU/edit"
  },

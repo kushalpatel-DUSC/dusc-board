@@ -114,14 +114,14 @@
     "Next step and who else from DUSC needs to see it (Andy; Kyle back 11/28)"
    ],
    "summary": "Ryan Mitchell's 30-minute Playbook AI demo, tied to the former Immaculate Conception gym. It sits on top of Finance Weekly at 1:30 — move one.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-23T13:30:00-05:00",
   "status": "upcoming",
   "title": "DUSC X Playbook AI Demo",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "1fficndg9ljpkvvn36t3dpeklb": {
@@ -328,33 +328,81 @@
   "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
   "prep": {
    "basedOn": {
-    "date": "2026-11-03",
-    "title": "Recurring Finance meeting — Nov 3 (Gemini notes)",
-    "url": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347"
+    "date": "2026-11-17",
+    "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "No notes from Tue 11/10 — this is from 11/3.",
-    "Decided: phone allowances go through employee reimbursement only; Bill.com versus custom tooling for payables left open.",
-    "Nirmala: send the Bill.com requirements and costs to KP; apply for a corporate card for Kyle.",
-    "KP: meet Malorie to assign responsibility for receivables tracking; receivables tracked weekly."
+    "Decided: KP raises Nirmala's consulting arrangement with Andy and Paul on Friday and updates her early next week.",
+    "Nirmala: flag inconsistencies in KP's budget detail and variance reports.",
+    "Nirmala: reconcile card expenses and finish the October P&L before Thanksgiving; resend the variance analysis folder link.",
+    "KP: pin down the causes of the GA showcase discrepancies and follow up with Leanne.",
+    "GA summer showcase: about $106,000 of expenses against $74,000 revenue, a deficit near $32,000."
    ],
-   "oneLine": "Bill.com or custom tooling for payables is still undecided, and receivables tracking has no named owner.",
+   "oneLine": "You promised Nirmala an update on her long-term arrangement by today.",
    "suggested": [
-    "October package and audit items before the holiday",
-    "Bill.com decision",
-    "Receivables: weekly numbers and owner",
-    "Healthcare enrollment: payroll set-up for Jan 1",
-    "W9s and the 1099 spreadsheet (due Jan 15)"
+    "Update on her arrangement after Friday's call with Andy and Paul",
+    "October package: card expenses reconciled and P&L done?",
+    "Inconsistencies she flagged in the budget and variance reports",
+    "GA showcase overrun: what the transaction detail shows",
+    "SFA count after Thursday's name-by-name review",
+    "Audit: anything still open before the Dec 8 board meeting"
    ],
-   "summary": "Nirmala's Tuesday hour in Thanksgiving week. Close out the October package and the audit items before the holiday, and settle Bill.com.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "summary": "Nirmala's Tuesday hour in Thanksgiving week. Give her the answer on her arrangement and close out the October package before the holiday.",
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-11-24T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
+  "userEdited": false
+ },
+ "3lmv8ac6ne8fg7slprqv293vkr_20261201T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-12-01T14:30:00-05:00",
+  "eventId": "3lmv8ac6ne8fg7slprqv293vkr_20261201T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M2xtdjhhYzZuZThmZzdzbHBycXYyOTN2a3JfMjAyNjEyMDFUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
+  "prep": {
+   "basedOn": {
+    "date": "2026-11-17",
+    "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
+   },
+   "highlights": [
+    "No notes yet from Tue 11/24 — this is from 11/17.",
+    "Decided: KP raises Nirmala's consulting arrangement with Andy and Paul on Friday and updates her early next week.",
+    "Nirmala: flag inconsistencies in KP's budget detail and variance reports.",
+    "Nirmala: reconcile card expenses and finish the October P&L before Thanksgiving; resend the variance analysis folder link.",
+    "KP: pin down the causes of the GA showcase discrepancies and follow up with Leanne."
+   ],
+   "oneLine": "Board meets Dec 8: confirm the October package and the audit items are closed.",
+   "suggested": [
+    "October package: final and sent?",
+    "Audit presentation for Dec 8: what is still open",
+    "November close and the variance against budget once reconciled",
+    "GA showcase overrun: conclusions for the board",
+    "Her arrangement: next steps after leadership's answer",
+    "W9s and the 1099 spreadsheet (due Jan 15)"
+   ],
+   "summary": "Nirmala's Tuesday hour, a week before the Dec 8 board meeting. Check the October package is final and what the audit presentation still needs.",
+   "updatedAt": "2026-11-17T20:50:50Z"
+  },
+  "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
+  "seriesKey": "finance-weekly",
+  "start": "2026-12-01T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Recurring Finance meeting",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "3spidcv3apv6c4nbe6v6ircb0n": {
@@ -460,24 +508,34 @@
   "htmlLink": "https://www.google.com/calendar/event?eid=NHZmbHRpMXRoNXZ1MDkyZGFxYmx0Z2dnMXUga3VzaGFsLnBhdGVsQGR1c2MubmV0",
   "meetUrl": "https://meet.google.com/tka-ubgp-ood",
   "prep": {
-   "basedOn": null,
-   "highlights": [],
-   "oneLine": "Settle the scholarship count: 65 in PlayMetrics against 144 on Malorie's sheet.",
-   "suggested": [
-    "Reconcile the scholarship count: PlayMetrics against Malorie's tracking sheet",
-    "The SFA numbers needed for the Chobani commitment and who reports them",
-    "Non-paying SFA players: get the scholarship sheet and add them to the registrant database",
-    "Who owns the SFA report going forward (it is on Nirmala's task list)"
+   "basedOn": {
+    "date": "2026-11-17",
+    "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
+   },
+   "highlights": [
+    "Nirmala rebuilt the SFA tracking sheet with Simon, listing names line by line per program.",
+    "Malorie's sheet and Simon's reports give different counts; only a name-by-name comparison will resolve it.",
+    "Budget numbers assume full-paying registrants, so extra SFA players show up directly as a revenue shortfall.",
+    "KP: pin down the causes of the discrepancies before Friday's call with Andy and Paul."
    ],
-   "summary": "Nirmala set this hour up after the 'SFA scholarship numbers - Chobani' thread, where she said a call would help. It is the place to settle the Soccer For All scholarship count, which still differs between PlayMetrics (65) and Malorie's sheet (144).",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "oneLine": "Settle the scholarship count name by name: 65 in PlayMetrics against 144 on Malorie's sheet.",
+   "suggested": [
+    "Compare Malorie's sheet and Simon's report name by name, program by program",
+    "Agree the one source of truth for SFA players and who keeps it",
+    "Non-paying SFA players: add them to the registrant database",
+    "The SFA numbers needed for the Chobani commitment and who reports them",
+    "SFA split for Friday's Board Finance Report"
+   ],
+   "summary": "Nirmala's hour with Malorie, Simon and Sydney to settle the Soccer For All scholarship count, which differs between PlayMetrics (65) and Malorie's sheet (144). It needs a name-by-name comparison.",
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": null,
   "seriesKey": "finance-weekly",
   "start": "2026-11-19T13:15:00-05:00",
   "status": "upcoming",
   "title": "SFA review",
-  "updatedAt": "2026-11-17T19:07:24Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "5ggpj9v40a2q324at6j3n9ekvb": {
@@ -646,14 +704,14 @@
     "Your open rows: Select Teams invite, Advanced Camps meetings, Criollo Bros, Club Calendar"
    ],
    "summary": "Media Day is this afternoon at Socceroof, 4–7pm, so open with the run-of-show. Then winter space: Little Red is still unconfirmed and holds up the Jan–March schedule.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-11-18T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261125T183000Z": {
@@ -695,14 +753,14 @@
     "Winter registration emails and assets status"
    ],
    "summary": "Day before Thanksgiving and a week after Media Day. Check whether the January–February schedule is going out and what winter space is still unsigned.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-11-25T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261117T150000Z": {
@@ -846,14 +904,14 @@
     "Spring Rec plan and the high-school group"
    ],
    "summary": "Back at the usual Tuesday 10:00 in Thanksgiving week. Use Sydney being on the call to settle the Rec marketing asks and the winter registration blasts.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261117T150000",
   "seriesKey": "community-rec",
   "start": "2026-11-24T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261201T150000Z": {
@@ -921,14 +979,14 @@
     "Your Rec program review — suggestions back to Oumou, Gustavo and Paul Fox"
    ],
    "summary": "First Rec/Class/Camp call after Thanksgiving, with winter Rec five weeks out. Check winter registration numbers and where the Summer Camp 2027 plan landed.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261117T150000",
   "seriesKey": "community-rec",
   "start": "2026-12-01T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "6bilrcbmht23o43aqm033ongef": {
@@ -1052,7 +1110,7 @@
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-16T14:00:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Finance Weekly",
   "updatedAt": "2026-11-16T19:06:26Z",
   "userEdited": false
@@ -1083,24 +1141,24 @@
     "KP: add the JetBlue showcase flight costs, about $40,000, to the financial records.",
     "Nirmala: follow up with Jennifer on the insurance approval and review pending benefits items with Noemi."
    ],
-   "oneLine": "Clashes with the Playbook AI demo at 1:30; the PlayMetrics SOC report is the open audit item.",
+   "oneLine": "Clashes with the Playbook AI demo at 1:30; you owe Nirmala an answer on her arrangement by Tuesday.",
    "suggested": [
-    "Audit: auditors' feedback, proposed prior-year adjustments, draft report status",
-    "PlayMetrics SOC report: where it stands",
+    "What Andy and Paul said about her arrangement on Friday",
+    "October package: card expenses and P&L before Thanksgiving",
+    "Budget inconsistencies she flagged in the variance reports",
+    "Audit: June and July testing, proposed adjustments, PlayMetrics SOC report",
     "September receipts: who has not sent documentation",
-    "October package: final?",
-    "Fiscal year to June 30: what the auditor said",
     "Finance role requirements due Fri 11/27 — her workflow input"
    ],
    "summary": "Monday half-hour with Nirmala in Thanksgiving week, at the same time as the Playbook demo. Check the audit feedback, the PlayMetrics controls report and the September receipts.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-23T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "6nc6i1n4kcjaak7pfr2nv8f5r5_20261130T183000Z": {
@@ -1138,14 +1196,14 @@
     "Finance role: requirements written 11/27, December interviews"
    ],
    "summary": "First Monday call with Nirmala after Thanksgiving, eight days before the Dec 8 board meeting. Settle what the audit presentation will say and what is still open.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-30T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261113T190000Z": {
@@ -1222,22 +1280,22 @@
    ],
    "oneLine": "Bring the SFA-corrected registrant count, current collections and the budget comparisons Andy asked for.",
    "suggested": [
-    "Healthcare: decision, the four plans, subsidy level, enrollment window and sign-up count",
-    "Audit: auditors' feedback, proposed prior-year adjustments, PlayMetrics SOC report; Dec 8 board presentation",
+    "Healthcare: the four plans, subsidy level, enrollment window and sign-up count",
+    "Audit: June and July testing requests, proposed prior-year adjustments, PlayMetrics SOC report; Dec 8 board presentation",
     "Board Finance Report: variance by team against YTD budget, SFA and non-SFA split",
-    "Registrant count with SFA players; duplicate transactions; 9/30 receivable ($13K vs $67K expected)",
-    "Showcase costs: GA Summer overrun, plus $40,000 JetBlue and $132,000 winter showcase invoices",
-    "Finance role: draft requirements and candidates so far"
+    "GA summer showcase: about $106,000 spent against $74,000 revenue; plus JetBlue and winter showcase invoices",
+    "Registrant count with SFA players; duplicate transactions; overdue receivables",
+    "Finance staffing: Nirmala's long-term arrangement (answer owed by Tue 11/24) and the finance role requirements"
    ],
-   "summary": "Second Friday call with Andy and Paul, two days after the Paychex decision. Report back on the audit items, the SFA-corrected registrant count and where healthcare sign-ups stand against the seven needed.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "summary": "Second Friday call with Andy and Paul, two days after the Paychex decision. Bring the budget comparisons, the GA showcase numbers and the question of Nirmala's long-term arrangement.",
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-11-20T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261127T190000Z": {
@@ -1279,14 +1337,14 @@
     "GA Summer Showcase overrun findings"
    ],
    "summary": "Third Friday call, the day after Thanksgiving — check it is still on. The two weeks for defining the finance role end today, and healthcare enrollment should be under way.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-11-27T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "7r28o2dpnob574e2ujfottdi2l": {
@@ -1433,14 +1491,14 @@
     "Next step and who else from DUSC should join (Kyle back 11/28)"
    ],
    "summary": "Teams call with Jason Ortega of NYCFC, moved from Friday 11/13. There are no notes in Drive on what it covers, and you have not responded to the invite.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-19T13:30:00-05:00",
   "status": "upcoming",
   "title": "NYCFC x DUSC",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g88rk2cq1891j2da66sok8h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g64s3echl6sp32ca27523ihhk8csk8cpj8h33ahi16kok6h1l88o0": {
@@ -1497,14 +1555,14 @@
     "Backup: Paychex brokerage or an outside broker"
    ],
    "summary": "Paychex WebEx with Jennifer James to review the underwriting decision. Leave with the four plans to offer and the subsidy level; it overlaps Soccer For All and runs into Ops Weekly.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-18T12:30:00-05:00",
   "status": "upcoming",
   "title": "Downtown United Soccer Club",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g8p2j6g9p752j2ghl6sr48h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g752k2e1l6osj4d9m610jacpk68s46e1l6133gchk8cs34dpi6910": {
@@ -1544,14 +1602,15 @@
     "What accepting the quotes commits DUSC to, and the enrollment timeline",
     "Employer subsidy level to bring to Wednesday's call"
    ],
-   "summary": "Paychex's Phase 1 call with Jennifer James to walk through the medical plan quotes that were tentatively approved, ahead of Wednesday's 12:30 call where the group picks four plans and the subsidy. Paul wants everyone looking at the plans on screen; Kristen cannot join."
+   "summary": "Paychex's Phase 1 call with Jennifer James to walk through the medical plan quotes that were tentatively approved, ahead of Wednesday's 12:30 call where the group picks four plans and the subsidy. Paul wants everyone looking at the plans on screen; Kristen cannot join.",
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-17T15:00:00-05:00",
   "status": "upcoming",
   "title": "Downtown United Soccer Club",
-  "updatedAt": "2026-11-17T19:07:24Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "_6kq44hhm70rk2b9k850j8b9k68rj4b9o6t330b9p752k6hhm84q38dpn6k": {
@@ -1629,14 +1688,14 @@
     "Soccer Post $10 add-on and how the money comes back"
    ],
    "summary": "Committee meeting on Media Day; the Paychex decision call starts at 12:30 on top of its second half. The scholarship count and the Chobani commitments are the live topics.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": null,
   "seriesKey": "soccer-for-all",
   "start": "2026-11-18T12:00:00-05:00",
   "status": "upcoming",
   "title": "Soccer For All Committee",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "dl8u6u3aa631dog9ncdpbfkrbk_20261109T190000Z": {
@@ -1779,14 +1838,14 @@
     "January–February indoor schedule and Little Red"
    ],
    "summary": "First 1:1 after Kyle returns on 11/28. Hand back what you covered for three weeks and pick up what was parked for him.",
-   "updatedAt": "2026-11-17T16:48:12Z"
+   "updatedAt": "2026-11-17T20:50:50Z"
   },
   "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
   "seriesKey": "kyle-1on1",
   "start": "2026-11-30T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  }
 }

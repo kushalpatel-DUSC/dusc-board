@@ -33,8 +33,8 @@
   "recurringEventId": null,
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "The 11/13 Friday call confirmed your payout report ties to QuickBooks and left you a list: duplicate transactions, SFA players in the registrant count, current collection numbers, audit items and the GA Showcase overrun. Andy wants the budget comparisons in the Board Finance Report before Friday. The group picks four healthcare plans and the subsidy tomorrow, Wed 11/18; next calls are 11/20 and 11/27.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "summary": "The 11/13 Friday call left you a list: duplicate transactions, SFA players in the registrant count, current collection numbers, audit items and the GA Showcase overrun. Andy wants the budget comparisons in the Board Finance Report before Friday 11/20, where you also raise Nirmala's long-term arrangement. The group picks four healthcare plans and the subsidy Wed 11/18.",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "community-rec": {
@@ -70,15 +70,15 @@
    "url": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347"
   },
   "name": "Community & Rec programming",
-  "nextAt": "2026-11-17T13:15:00-05:00",
+  "nextAt": "2026-11-24T10:00:00-05:00",
   "people": [
    "Gustavo"
   ],
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261117T150000",
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "Your first Rec/Class/Camp Weekly Call is today, Tue 11/17, at 1:15, and Gustavo wants it to focus on the Pier 40 Summer Camp 2027 report he sent. You still owe Oumou, Gustavo and Paul Fox the program review and the college-coach introductions. Winter registration assets and blasts need an owner and dates.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "summary": "The first Rec/Class/Camp Weekly Call was Tue 11/17; no notes from it have reached Drive yet. The last notes are from 11/5. The next call is Tue 11/24 at 10:00.",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "finance-weekly": {
@@ -105,13 +105,13 @@
    "Bank of America"
   ],
   "lastHeld": {
-   "date": "2026-11-16",
-   "noteId": "finance-weekly-2026-11-16",
-   "title": "Finance Weekly — Nov 16 (Gemini notes)",
-   "url": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347"
+   "date": "2026-11-17",
+   "noteId": "recurring-finance-2026-11-17",
+   "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
+   "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
   },
   "name": "Finance Weekly (Nirmala)",
-  "nextAt": "2026-11-17T13:30:00-05:00",
+  "nextAt": "2026-11-19T13:15:00-05:00",
   "people": [
    "Nirmala",
    "Noemi"
@@ -119,8 +119,8 @@
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "On Mon 11/16 Nirmala's audit items were in and with the auditors; you took on the PlayMetrics SOC report and chasing September receipts. Today, Tue 11/17 at 1:30, she brings her check of your budget spreadsheet. The SFA review is Thu 11/19 at noon.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "summary": "On Tue 11/17 you and Nirmala went through the budget variances and the GA summer showcase, which lost about $32,000. She finishes the October package before Thanksgiving and asked for a clear decision on her long-term arrangement; you owe her an update by Tue 11/24. The SFA review is Thu 11/19 at 1:15.",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "kyle-1on1": {
@@ -163,7 +163,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "Kyle is out until 11/28 and the 11/23 occurrence is declined, so the next 1:1 is Mon 11/30 at 2:00. Waiting for his return: the Soccer.com deck, the future DOC decision, the MLS Next Coordinator role and the 2027 handbook.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "kyle-andy-weekly": {
@@ -199,7 +199,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "Nothing is on your calendar for this series while Kyle is away. What Andy needs from you now runs through the Friday call with Andy and Paul.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "ops-weekly": {
@@ -242,7 +242,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "The 11/11 call agreed to book indoor space through March and to limit Media Day to U16–U19. Little Red is the one space still unconfirmed, and Leanne wants the January–February schedule out before Thanksgiving. Next call is tomorrow, Wed 11/18 at 1:30, hours before Media Day.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "soccer-for-all": {
@@ -269,7 +269,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "Next meeting is tomorrow, Wed 11/18 at noon, on Media Day, with the Paychex decision call starting at 12:30. On 11/13 you took on oversight of scholarship engagements, including the Chobani commitments. The scholarship count still needs reconciling: 65 in PlayMetrics against 144 on Malorie's sheet.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  },
  "vendors": {
@@ -305,7 +305,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "No vendor meeting is on the calendar for the next two weeks. Still open: checking the Adidas contract caps, and Chris's fan-wear link, 2027 calendar and tournament-shirt pricing.",
-  "updatedAt": "2026-11-17T16:48:12Z",
+  "updatedAt": "2026-11-17T20:50:50Z",
   "userEdited": false
  }
 }

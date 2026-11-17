@@ -11,16 +11,8 @@
   "scanned": 25
  },
  "sync": {
-  "actionsAdded": 0,
+  "actionsAdded": 3,
   "brief": [
-   {
-    "label": "Today",
-    "text": "Read Gustavo's Summer Camp 2027 report before the 1:15 Rec/Class/Camp call, and bring what you saw at Pier 40."
-   },
-   {
-    "label": "Today",
-    "text": "Get Nirmala's check of your budget spreadsheet at 1:30; the Rec call overlaps it from 1:15, so decide which you leave early."
-   },
    {
     "label": "Wed 11/18",
     "text": "Run Media Day at Socceroof, 4–7pm, U16–U19 only; send the photographers the date and location first."
@@ -30,28 +22,21 @@
     "text": "Pick four Paychex plans and the subsidy at 12:30; the call overlaps Soccer For All and runs into Ops Weekly."
    },
    {
-    "label": "This week",
-    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before Friday's call; Andy asked for them sooner."
+    "label": "Thu 11/19",
+    "text": "Settle the SFA scholarship count name by name at the 1:15 review; it clashes with the NYCFC call at 1:30."
+   },
+   {
+    "label": "Fri 11/20",
+    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before the call; Andy asked for them sooner."
+   },
+   {
+    "label": "Fri 11/20",
+    "text": "Raise Nirmala's long-term arrangement with Andy and Paul; you promised her an update by Tuesday 11/24."
    }
   ],
-  "cardsAdded": 0,
+  "cardsAdded": 1,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-17",
-    "label": "First Rec/Class/Camp Weekly Call (1:15, overlaps Recurring Finance at 1:30)",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-17",
-    "label": "Nirmala checks KP's budget spreadsheet before the 1:30 finance meeting; insurance approval follow-up with Paychex",
-    "who": "Nirmala"
-   },
-   {
-    "date": "2026-11-17",
-    "label": "Read Gustavo's Summer Camp 2027 report before the 1:15 Rec/Class/Camp call",
-    "who": "KP"
-   },
    {
     "date": "2026-11-18",
     "label": "Media Day at Socceroof, 4–7pm (U16–U19); photographers need date and location",
@@ -64,7 +49,7 @@
    },
    {
     "date": "2026-11-19",
-    "label": "SFA review with Nirmala, Mal and Simon (12:00): reconcile the scholarship count",
+    "label": "SFA review with Nirmala, Mal and Simon (1:15): reconcile the scholarship count name by name",
     "who": "KP, Nirmala, Mal"
    },
    {
@@ -83,9 +68,19 @@
     "who": "KP"
    },
    {
+    "date": "2026-11-24",
+    "label": "Update Nirmala on her consulting arrangement after Friday's call with Andy and Paul",
+    "who": "KP"
+   },
+   {
     "date": "2026-11-25",
     "label": "January and February indoor schedule released before Thanksgiving",
     "who": "Leanne"
+   },
+   {
+    "date": "2026-11-25",
+    "label": "October package: card expenses reconciled and P&L finished before Thanksgiving",
+    "who": "Nirmala"
    },
    {
     "date": "2026-11-27",
@@ -153,27 +148,27 @@
     "who": "Ops"
    }
   ],
-  "headline": "Today's Rec call and Nirmala's finance meeting overlap. Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day; Andy and Paul expect the budget comparisons by Friday.",
-  "lastRun": "2026-11-17T16:48:12Z",
+  "headline": "Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day. By Friday Andy and Paul expect the budget comparisons, and Nirmala's arrangement needs raising with them.",
+  "lastRun": "2026-11-17T20:50:50Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 17,
-  "notesScanned": 36,
+  "notesScanned": 37,
   "themes": [
    {
     "name": "Finance reset",
-    "text": "KP's PlayMetrics report shows $287,000 under budget through November, unreconciled; Nirmala checks it Tuesday. Andy and Paul still expect the SFA-corrected count and budget comparisons Friday."
+    "text": "Variances through 11/13 keep growing on unreconciled data, and the GA summer showcase lost about $32,000. KP owes Andy and Paul the budget comparisons and SFA split Friday."
    },
    {
     "name": "Audit and board",
-    "text": "Nirmala's audit items are in and the auditors are reviewing them. KP chases the PlayMetrics SOC report; the board meets Dec 8."
+    "text": "The auditors asked for June and July testing reports, which Nirmala sent. KP chases the PlayMetrics SOC report; the board meets Dec 8."
    },
    {
     "name": "Healthcare",
-    "text": "Paychex approval of the plans is expected by Tuesday; Nirmala follows up. The group picks four plans and the subsidy on Wednesday 11/18, with Paul leading."
+    "text": "Jennifer at Paychex presented the plans Tuesday without the underwriting paperwork. The group picks four plans and the subsidy Wednesday 11/18, with Paul leading."
    },
    {
     "name": "Finance role",
-    "text": "Two weeks were agreed to define the role and line up candidates, for December interviews and a January start. KP writes the requirements by 11/27."
+    "text": "KP writes the role requirements by 11/27 for December interviews. Nirmala wants a decision on her own arrangement; KP raises it with Andy and Paul Friday."
    },
    {
     "name": "Winter space and schedule",
