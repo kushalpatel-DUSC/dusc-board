@@ -1204,9 +1204,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Find out how to get the SOC (system and organization controls) report for PlayMetrics that the auditors need",
-  "triage": "new",
-  "updatedAt": "2026-11-16T20:49:32Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-18T01:15:24.912Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
