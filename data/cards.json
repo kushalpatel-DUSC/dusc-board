@@ -1864,5 +1864,25 @@
   "createdAt": "2026-11-18T01:44:48.231Z",
   "source": "Added by hand",
   "sourceUrl": null
+ },
+ "c-mwlh67lc-ughhm": {
+  "title": "Prep for Ops Meeting",
+  "owner": "KP",
+  "area": null,
+  "due": null,
+  "raised": "2026-11-18",
+  "priority": null,
+  "note": null,
+  "status": "todo",
+  "updatedAt": "2026-11-18T02:01:17.807Z",
+  "userEdited": true,
+  "pinned": false,
+  "pinnedAt": null,
+  "doneAt": null,
+  "waitingOn": null,
+  "waitingSince": null,
+  "createdAt": "2026-11-18T02:01:17.807Z",
+  "source": "Added by hand",
+  "sourceUrl": null
  }
 }
