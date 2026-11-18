@@ -1177,7 +1177,7 @@
  "playmetrics-short-term-fixes": {
   "area": "Systems",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T04:44:34.032Z",
   "due": null,
   "id": "playmetrics-short-term-fixes",
   "note": null,
@@ -1186,10 +1186,12 @@
   "raised": "2026-10-19",
   "source": "Kyle/Kushal 1:1",
   "sourceUrl": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit",
-  "status": "todo",
+  "status": "done",
   "title": "KP priority: solve PlayMetrics issues for the short term (tryout information, etc.)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-18T04:44:34.032Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "playmetrics-soc-report": {
   "area": "Finance",
