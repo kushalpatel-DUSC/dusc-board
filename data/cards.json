@@ -1439,9 +1439,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Run the current registrant and collection numbers and send them to Andy and Paul",
-  "triage": "new",
-  "updatedAt": "2026-11-14T05:05:48Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-18T01:16:02.199Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
