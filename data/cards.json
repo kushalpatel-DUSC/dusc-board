@@ -1318,7 +1318,7 @@
  "rec-observe-nov15": {
   "area": "Programs",
   "createdAt": "2026-11-05T21:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T01:14:54.872Z",
   "due": "2026-11-15",
   "id": "rec-observe-nov15",
   "note": "Rain could cancel; Oumou is tabling for promotion.",
@@ -1329,10 +1329,10 @@
   "raised": "2026-11-05",
   "source": "DUSC Rec Meeting — Nov 5",
   "sourceUrl": "https://docs.google.com/document/d/1pQJGL-JgWqbqMwHWwqfKcv_vV3l4ShQ491-o_kCRbK0/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Visit Pier 40 Indoor on Sunday Nov 15 to observe the Rec session and look at advertising/tabling",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-18T01:14:54.872Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
