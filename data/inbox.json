@@ -780,12 +780,12 @@
   "from": "Netlify",
   "gist": "Netlify says the DUSC team used its full credit allowance on the first day of the billing cycle, so production deploys are paused. Published sites stay online on a small reserve of operational credits; the cycle resets December 13. This is the account that hosts this board, so board updates may not publish until it is resolved.",
   "kind": "decision",
-  "status": "open",
+  "status": "handled",
   "subject": "[Netlify] Action needed: DUSC has used all available credits",
   "threadId": "1a1d87535a4cb0d7",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881809011377746135",
-  "updatedAt": "2026-11-14T11:18:20Z",
-  "userEdited": false
+  "updatedAt": "2026-11-18T03:03:40.485Z",
+  "userEdited": true
  },
  "1a1e4963a927a4ec": {
   "area": "Finance",
