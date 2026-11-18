@@ -634,9 +634,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1Yjp_F2bd1aySYpm3dHyOSGrfMQICEq2B4TgSV6hj_Kc/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Email Jesse for a breakdown of his programs' training schedules and the facilities he intends to use",
-  "triage": "new",
-  "updatedAt": "2026-11-14T05:05:48Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-18T01:15:31.089Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
