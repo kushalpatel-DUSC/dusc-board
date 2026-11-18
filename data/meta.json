@@ -11,15 +11,15 @@
   "scanned": 24
  },
  "sync": {
-  "actionsAdded": 3,
+  "actionsAdded": 0,
   "brief": [
    {
-    "label": "Wed 11/18",
-    "text": "Run Media Day at Socceroof, 4–7pm, U16–U19 only; send the photographers the date and location first."
+    "label": "Today",
+    "text": "Pick four Paychex plans and the subsidy at 12:30; the call overlaps Soccer For All and runs into Ops Weekly at 1:30."
    },
    {
-    "label": "Wed 11/18",
-    "text": "Pick four Paychex plans and the subsidy at 12:30; the call overlaps Soccer For All and runs into Ops Weekly."
+    "label": "Today",
+    "text": "Run Media Day at Socceroof, 4–7pm, U16–U19 only; Nirmala's Insurance Plan Review at 4:00 sits on top of it."
    },
    {
     "label": "Thu 11/19",
@@ -34,18 +34,23 @@
     "text": "Raise Nirmala's long-term arrangement with Andy and Paul; you promised her an update by Tuesday 11/24."
    }
   ],
-  "cardsAdded": 1,
+  "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
    {
     "date": "2026-11-18",
-    "label": "Media Day at Socceroof, 4–7pm (U16–U19); photographers need date and location",
+    "label": "Media Day at Socceroof, 4–7pm (U16–U19)",
     "who": "KP, Leanne"
    },
    {
     "date": "2026-11-18",
     "label": "Paychex decision call (12:30): pick four plans and set the subsidy",
     "who": "Paul, Andy, KP"
+   },
+   {
+    "date": "2026-11-18",
+    "label": "Insurance Plan Review with Nirmala and Paul (4:00, overlaps Media Day)",
+    "who": "KP, Nirmala, Paul"
    },
    {
     "date": "2026-11-19",
@@ -66,6 +71,11 @@
     "date": "2026-11-23",
     "label": "Playbook AI demo — Immaculate Conception gym (1:30, clashes with Finance Weekly)",
     "who": "KP"
+   },
+   {
+    "date": "2026-11-23",
+    "label": "Practice schedule set and sent out",
+    "who": "Leanne, Ops"
    },
    {
     "date": "2026-11-24",
@@ -148,11 +158,11 @@
     "who": "Ops"
    }
   ],
-  "headline": "Wednesday stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day. By Friday Andy and Paul expect the budget comparisons, and Nirmala's arrangement needs raising with them.",
-  "lastRun": "2026-11-17T20:50:50Z",
+  "headline": "Today stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day. By Friday Andy and Paul expect the budget comparisons, and Nirmala's arrangement needs raising with them.",
+  "lastRun": "2026-11-18T10:48:35Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 17,
-  "notesScanned": 37,
+  "notesScanned": 36,
   "themes": [
    {
     "name": "Finance reset",
@@ -164,7 +174,7 @@
    },
    {
     "name": "Healthcare",
-    "text": "Jennifer at Paychex presented the plans Tuesday without the underwriting paperwork. The group picks four plans and the subsidy Wednesday 11/18, with Paul leading."
+    "text": "Jennifer at Paychex presented the plans Tuesday without the underwriting paperwork. The group picks four plans and the subsidy today at 12:30, with Paul leading."
    },
    {
     "name": "Finance role",
@@ -172,11 +182,11 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Indoor space is being booked through March, but Little Red is unconfirmed. Mal chases it; Leanne wants January and February out before Thanksgiving."
+    "text": "Indoor space is being booked through March, but Little Red is unconfirmed and Mal chases it. The practice schedule has to be set and sent by Monday 11/23."
    },
    {
     "name": "Media Day and registration",
-    "text": "Media Day is Wednesday at Socceroof, U16–U19 only, with Kyle away. KP still owes the winter registration email and the information for Leo and Liam's assets."
+    "text": "Media Day is today at Socceroof, U16–U19 only, with Kyle away. KP still owes the winter registration email and the information for Leo and Liam's assets."
    }
   ],
   "waitingLong": []

@@ -1187,7 +1187,7 @@
    }
   ],
   "area": "Facilities",
-  "date": "2026-11-11",
+  "date": "2026-11-18",
   "decisions": [
    "Jesse's futsal program goes ahead (TD/DOC → Ops → KP financial check).",
    "Decision process for new programs: TD/DOC → Ops → financial viability (KP)."
@@ -1195,23 +1195,22 @@
   "fileId": "1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg",
   "id": "ops-meeting",
   "keyPoints": [
-   "11/11: Media Day is 11/18 — the schedule of teams is the open piece.",
-   "Winter: 'where have we booked too much?', December schedules, Stephen Gaynor (Friday space, Upper West futsal) and LREI were reviewed; the Jan–March announcement waits on finalizing spaces — LREI (Mal), Immaculate Conception School (KP), PS 161 (possible futsal only), Basis (does Jesse want it?).",
-   "MLS Next spring start dates: HG Feb 28, GA Mar 6, AD Mar 7.",
-   "Socceroof: is there an updated contract? Last year's extra weekday space was used by Cris for the winter.",
-   "Club Calendar: winter registration information and when it goes out; Spring Rec (2 hours) was started but not finished in the notes.",
-   "Action table: KP's Media Day owner and Socceroof/Eric items are Done; Basis and the parent FAQ are 'Follow up', Grace Church 'In progress', St. Luke's, Club Calendar, Advanced Camps, Select Teams and Criollo Bros still Open; Leanne's December schedule and team schedule are 'Follow up'."
+   "11/18 agenda: how much each winter space is used, whether too much is booked, and the LREI update.",
+   "Practice schedule needs to be set and sent out by Monday 11/23.",
+   "Club Calendar is to be finalized in December.",
+   "Showcase updates are on the agenda: MLS Next Fest and the GA Winter Showcase.",
+   "Media Day: nobody is yet named to make the college brochures."
   ],
   "kind": "Running meeting notes",
-  "modified": "2026-11-11T19:43:25.265Z",
+  "modified": "2026-11-18T04:18:20.358Z",
   "openQuestions": [
-   "Where has winter space been over-booked, and what can be released?",
-   "Does Jesse want Basis, and is PS 161 futsal-only?",
-   "Is there an updated Socceroof contract, including the extra weekday space used last winter?",
-   "When does winter registration information go out, and how does it sit in the Club Calendar?",
-   "Is a field scheduler viable so coaches can own EDP/CJSL scheduling?"
+   "How much of each winter space is being used, and is too much booked?",
+   "Who is in charge of making the college brochures for Media Day?",
+   "Has Little Red (LREI) confirmed?",
+   "Is there an updated Socceroof contract, including last winter's extra weekday space?",
+   "Does Jesse want Basis, and is PS 161 futsal-only?"
   ],
-  "summary": "The ops hub: a 35-row action table, a winter indoor space tracker across 23 venues, and a meeting log now running from Sep 30 to the Nov 11 call. The 11/11 agenda was Media Day on 11/18 (team schedule), where winter space is over-booked, and the steps to announce the Jan–March winter schedule: finalize spaces, with LREI on Mal and Immaculate Conception School on KP. Weekday indoor space is still the gap, and the table now shows the Media Day owner and Socceroof/Eric items as done.",
+  "summary": "The ops hub: action table, winter space tracker and meeting log. KP added today's 11/18 agenda — winter space use, the practice schedule due out by Monday, and who makes the Media Day college brochures.",
   "title": "DUSC Ops Meeting (running notes)",
   "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
