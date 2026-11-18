@@ -1389,7 +1389,7 @@
  "receivables-owner-mal": {
   "area": "Finance",
   "createdAt": "2026-11-14T05:05:48Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T04:44:45.668Z",
   "due": null,
   "id": "receivables-owner-mal",
   "note": null,
@@ -1400,10 +1400,10 @@
   "raised": "2026-11-03",
   "source": "Recurring Finance — Nov 3 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Meet Malorie and assign responsibility for receivables tracking",
   "triage": null,
-  "updatedAt": "2026-11-18T01:15:51.138Z",
+  "updatedAt": "2026-11-18T04:44:45.668Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
