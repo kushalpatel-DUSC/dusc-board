@@ -1727,7 +1727,7 @@
  "supply-demand-dashboard": {
   "area": "Facilities",
   "createdAt": "2026-11-05T21:12:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T04:45:02.032Z",
   "due": null,
   "id": "supply-demand-dashboard",
   "note": "Andy wants one top-down summary; demand scheduled so far 391.5 hrs vs ~579 hrs supply (not yet fully populated). Builds on the budget-model-field-units card.",
@@ -1738,10 +1738,10 @@
   "raised": "2026-11-05",
   "source": "Field Catchup — Nov 5",
   "sourceUrl": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Build the supply-vs-demand dashboard: aggregate field-unit hours and expense across all locations, split December vs Jan–Mar and weekday vs weekend, with locked-in % and cost per unit",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-18T04:45:02.032Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
