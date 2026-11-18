@@ -1396,9 +1396,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Meet Malorie and assign responsibility for receivables tracking",
-  "triage": "new",
-  "updatedAt": "2026-11-14T05:05:48Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-18T01:15:51.138Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
