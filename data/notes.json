@@ -782,6 +782,55 @@
   "title": "Healthcare Catchup — Nov 6 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1q_RhFQBkIWb2KnCbg3zJjxa758QHXOQgTI2r3JAh7x8/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "insurance-plan-review-2026-11-18": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-20",
+    "id": "paul-andy-plan-review-time",
+    "note": "Paul emailed Andy on 11/18 asking for times; he is free Thursday or Friday except Friday 9–10am.",
+    "owner": "Paul",
+    "raised": "2026-11-18",
+    "text": "Paul to set a time with Andy, KP and Nirmala to review the five plans and the DUSC contribution before Friday's Paychex call"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-20",
+    "id": "group-send-plans-to-paychex",
+    "note": "Paychex may cut the list to four.",
+    "owner": "TBD",
+    "raised": "2026-11-18",
+    "text": "Give Jennifer at Paychex the five selected health plans on the Friday 12:30 call"
+   }
+  ],
+  "area": "People",
+  "date": "2026-11-18",
+  "decisions": [
+   "Same subsidy structure for every participating employee — no tiering.",
+   "If Paychex limits DUSC to four plans, one EPO plan is dropped."
+  ],
+  "fileId": "1iQ4lHog5M-ByWqQcQH1aGSS841uJvWeuk7PijOTJ0ok",
+  "keyPoints": [
+   "Five plans picked: MCP 2000-100, MCP HDHP 3500-100, EPO 2000-80, EPO 7150-100 and EPO HDHP 3500-100.",
+   "The group favoured fixed-dollar copays and zero co-insurance so staff can budget routine visits and are not exposed on major procedures.",
+   "Budget is $20,000 for January–May 2027; with 7 sign-ups that allows up to about $571 per person per month, against a required minimum of about $322 (50% of the cheapest plan).",
+   "Nirmala suggested a subsidy of about $400–420 to leave room for more sign-ups; Paul would rather not use the whole budget.",
+   "Premiums on the updated EPO price list came in lower than earlier estimates.",
+   "Paul's view is that board approval is not needed because the cost stays within budget."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-18T22:14:35.799Z",
+  "openQuestions": [
+   "How much DUSC contributes per person per month, between the $322 minimum and the $571 the budget allows.",
+   "Which plan goes if only four are allowed: the notes say the high-deductible EPO, while Paul's follow-up email names the EPO 7150-100.",
+   "Whether at least 7 employees will sign up."
+  ],
+  "summary": "KP, Nirmala and Paul went through the Paychex quotes and provisionally picked five Aetna plans to offer: two MCP and three EPO, with a high-deductible HSA option in each family. They agreed every employee gets the same subsidy; the amount is still open and gets settled with Andy before Friday's 12:30 Paychex call.",
+  "title": "Insurance Plan Review — Nov 18 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1iQ4lHog5M-ByWqQcQH1aGSS841uJvWeuk7PijOTJ0ok/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "kyle-kushal": {
   "actions": [
    {
