@@ -131,7 +131,7 @@
  "audit-timeline": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T04:30:28.009Z",
   "due": "2026-11-16",
   "id": "audit-timeline",
   "note": "Auditors need ~2 weeks of testing for a draft (from Nov 2). Board meeting Dec 8. Nirmala adding KP to auditor emails.",
@@ -140,10 +140,12 @@
   "raised": "2026-10-30",
   "source": "DUSC Finance Call",
   "sourceUrl": "https://docs.google.com/document/d/1eAljtJPPNWK0kY2faYUxxWznkiOGuPme9S8bG8KIoNI/edit",
-  "status": "doing",
+  "status": "done",
   "title": "Audit: get the updated timetable from the auditors and check what is missing/incomplete and why",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-18T04:30:28.009Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "basis-brooklyn-saturdays": {
   "area": "Facilities",
