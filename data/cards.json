@@ -871,7 +871,7 @@
  "media-day-randy-details": {
   "area": "Media Day",
   "createdAt": "2026-11-09T21:15:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T02:01:30.553Z",
   "due": "2026-11-18",
   "id": "media-day-randy-details",
   "note": "Kyle handed KP the Media Day logistics with Randy before leaving; Randy only needs date and location.",
@@ -883,10 +883,10 @@
   "source": "Email: Media day",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881410453978831370",
-  "status": "todo",
+  "status": "done",
   "title": "Send Randy and Christina (photographers) the Media Day date and location — Socceroof, Wed 11/18 4–7pm — and ask about coach headshots for Syd",
-  "updatedAt": "2026-11-09T21:15:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-18T02:01:30.553Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
