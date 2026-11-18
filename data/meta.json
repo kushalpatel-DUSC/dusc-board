@@ -15,7 +15,7 @@
   "brief": [
    {
     "label": "Today",
-    "text": "Pick four Paychex plans and the subsidy at 12:30; the call overlaps Soccer For All and runs into Ops Weekly at 1:30."
+    "text": "Join the Paychex underwriting review at 12:30 and confirm what waits for Friday's Phase 1 call; it runs into Ops Weekly at 1:30."
    },
    {
     "label": "Today",
@@ -27,7 +27,7 @@
    },
    {
     "label": "Fri 11/20",
-    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before the call; Andy asked for them sooner."
+    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before the 2:00 call; Paychex Phase 1 is at 12:30."
    },
    {
     "label": "Fri 11/20",
@@ -44,7 +44,7 @@
    },
    {
     "date": "2026-11-18",
-    "label": "Paychex decision call (12:30): pick four plans and set the subsidy",
+    "label": "Paychex underwriting review (12:30): four plans and the subsidy",
     "who": "Paul, Andy, KP"
    },
    {
@@ -66,6 +66,11 @@
     "date": "2026-11-20",
     "label": "Budget comparisons (by team vs YTD budget, SFA split) in the Board Finance Report, before the Friday call",
     "who": "KP"
+   },
+   {
+    "date": "2026-11-20",
+    "label": "Paychex Phase 1 call (12:30, moved from Tuesday)",
+    "who": "Paul, Andy, KP, Nirmala"
    },
    {
     "date": "2026-11-23",
@@ -158,8 +163,8 @@
     "who": "Ops"
    }
   ],
-  "headline": "Today stacks Soccer For All, the Paychex decision, Ops Weekly and Media Day. By Friday Andy and Paul expect the budget comparisons, and Nirmala's arrangement needs raising with them.",
-  "lastRun": "2026-11-18T10:48:35Z",
+  "headline": "Today stacks the Paychex review, Ops Weekly and Media Day. By Friday Andy and Paul expect the budget comparisons, and Nirmala's arrangement needs raising with them.",
+  "lastRun": "2026-11-18T16:52:00Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 17,
   "notesScanned": 36,
@@ -174,7 +179,7 @@
    },
    {
     "name": "Healthcare",
-    "text": "Jennifer at Paychex presented the plans Tuesday without the underwriting paperwork. The group picks four plans and the subsidy today at 12:30, with Paul leading."
+    "text": "Paychex's underwriting review is today at 12:30 and its Phase 1 call moved to Friday 12:30. The group still has to pick four plans and the subsidy, with Paul leading."
    },
    {
     "name": "Finance role",
