@@ -1184,33 +1184,43 @@
     "owner": "TBD",
     "raised": "2026-11-11",
     "text": "Finalize the winter spaces and send the Jan–March winter schedule announcement (LREI with Mal, Immaculate Conception School with KP, PS 161 as a possible futsal-only site, Basis only if Jesse wants it)"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "media-day-college-brochures",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-18",
+    "text": "Max and Jason W to make the college brochures from Media Day"
    }
   ],
   "area": "Facilities",
   "date": "2026-11-18",
   "decisions": [
    "Jesse's futsal program goes ahead (TD/DOC → Ops → KP financial check).",
-   "Decision process for new programs: TD/DOC → Ops → financial viability (KP)."
+   "Decision process for new programs: TD/DOC → Ops → financial viability (KP).",
+   "Max and Jason W make the Media Day college brochures."
   ],
   "fileId": "1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg",
   "id": "ops-meeting",
   "keyPoints": [
-   "11/18 agenda: how much each winter space is used, whether too much is booked, and the LREI update.",
+   "Little Red (Thompson): weekdays 7:30–9 Monday to Thursday; Saturday 9–4 for MLS Next only.",
+   "Immaculate Conception: futsal 5:30–7pm, KP to check with Jesse; ballroom on weekdays.",
    "Practice schedule needs to be set and sent out by Monday 11/23.",
-   "Club Calendar is to be finalized in December.",
-   "Showcase updates are on the agenda: MLS Next Fest and the GA Winter Showcase.",
-   "Media Day: nobody is yet named to make the college brochures."
+   "Club Calendar: finalize in December and loop in program managers.",
+   "MLS Next Fest and GA: ten teams travelling; rosters, hotel lists and car travel to confirm."
   ],
   "kind": "Running meeting notes",
-  "modified": "2026-11-18T04:18:20.358Z",
+  "modified": "2026-11-18T19:29:48.701Z",
   "openQuestions": [
    "How much of each winter space is being used, and is too much booked?",
-   "Who is in charge of making the college brochures for Media Day?",
-   "Has Little Red (LREI) confirmed?",
+   "Has Little Red (LREI) confirmed the times DUSC wants?",
    "Is there an updated Socceroof contract, including last winter's extra weekday space?",
    "Does Jesse want Basis, and is PS 161 futsal-only?"
   ],
-  "summary": "The ops hub: action table, winter space tracker and meeting log. KP added today's 11/18 agenda — winter space use, the practice schedule due out by Monday, and who makes the Media Day college brochures.",
+  "summary": "The ops hub: action table, winter space tracker and meeting log. The 11/18 entry sets the Little Red times, the practice schedule due out Monday, and the Club Calendar to finalize in December.",
   "title": "DUSC Ops Meeting (running notes)",
   "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
@@ -1414,6 +1424,117 @@
   "summary": "Ops call with Mal and Leanne, the first with Kyle away. Winter space is nearly set but Little Red is unconfirmed, which holds up the Jan–March schedule.",
   "title": "Ops Weekly Call — Nov 11 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1Yjp_F2bd1aySYpm3dHyOSGrfMQICEq2B4TgSV6hj_Kc/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "ops-weekly-call-2026-11-18": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-soccerpost-coach-hats",
+    "note": "KP also suggested gloves for Rec and class coaches working outdoors.",
+    "owner": "Mal",
+    "raised": "2026-11-18",
+    "text": "Mal to ask Soccer Post whether it can supply branded hats for coaches, and at what cost"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-19",
+    "id": "leanne-little-red-times",
+    "note": "Working idea: Thompson weekdays 7:30–9 Mon–Thu, Saturday 9–4 for MLS Next.",
+    "owner": "Leanne",
+    "raised": "2026-11-18",
+    "text": "Leanne to set the exact times DUSC needs at Little Red for practices"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-19",
+    "id": "leanne-draft-practice-schedule-review",
+    "note": "KP's advice: send a draft built on the facilities matrix and collect edits by end of week.",
+    "owner": "Leanne",
+    "raised": "2026-11-18",
+    "text": "Leanne to send the draft practice schedule to KP, Mal, Jason and Alex for review"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-intro-kp-oumou-avenues",
+    "note": "Some Avenues families pick Chelsea Piers for winter classes because of the turf.",
+    "owner": "Mal",
+    "raised": "2026-11-18",
+    "text": "Mal to connect KP with Oumou about the Avenues families and their class and Rec registrations"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-jesse-outstanding-info",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-11-18",
+    "text": "Mal to send Jesse the outstanding information he was promised"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-class-history-data",
+    "note": "Needed to judge spring class space such as St. Luke's Saturdays.",
+    "owner": "Mal",
+    "raised": "2026-11-18",
+    "text": "Mal to send the group the historical class program data"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-forward-hrpt-wall-incident",
+    "note": "HRPT says the club will be charged.",
+    "owner": "Mal",
+    "raised": "2026-11-18",
+    "text": "Mal to forward the HRPT email about the wall damage at Pier 40 Indoor to KP and Jason"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-forward-google-ads-notices",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-11-18",
+    "text": "Mal to forward the Google Ads disapproval notices to KP and Sydney to check whether they are real"
+   }
+  ],
+  "area": "Facilities",
+  "date": "2026-11-18",
+  "decisions": [
+   "Camps: 10% sibling discount, one-month early bird, no multi-week discounts.",
+   "New programs need proven financial viability before they are added.",
+   "KP raises board involvement in daily operations at the December 8 board meeting."
+  ],
+  "fileId": "1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw",
+  "id": "ops-weekly-call-2026-11-18",
+  "keyPoints": [
+   "Leanne is building the January–February practice schedule from the facilities matrix; the draft goes out Thursday.",
+   "Immaculate Conception offers a full gym Mondays and Wednesdays, 5:30–7:00pm.",
+   "Winter Rec numbers are low because the registration emails have not gone out yet.",
+   "HRPT reported wall damage at Pier 40 Indoor during a DUSC slot and will charge the club.",
+   "Showcase travel for ten teams inside ten days is stretching Ops."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-18T19:57:13.147Z",
+  "openQuestions": [
+   "Does the practice schedule need Grace Church for weekday classes?",
+   "Is the sibling discount a flat 10% or scaled by child, and can PlayMetrics apply it?",
+   "Do St. Luke's Saturday classes cover the space and coach cost?",
+   "Are the Google Ads disapproval notices real or spam?"
+  ],
+  "summary": "Ops call with Mal and Leanne. Leanne sends the draft January–February practice schedule Thursday, and KP has a call with Jesse on Friday at 11:15 to settle his winter space.",
+  "title": "Ops Weekly Call — Nov 18 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "ops-winter-sep30": {
   "actions": [

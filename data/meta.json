@@ -11,15 +11,11 @@
   "scanned": 25
  },
  "sync": {
-  "actionsAdded": 0,
+  "actionsAdded": 9,
   "brief": [
    {
     "label": "Today",
-    "text": "Join the Paychex underwriting review at 12:30 and confirm what waits for Friday's Phase 1 call; it runs into Ops Weekly at 1:30."
-   },
-   {
-    "label": "Today",
-    "text": "Run Media Day at Socceroof, 4–7pm, U16–U19 only; Nirmala's Insurance Plan Review at 4:00 sits on top of it."
+    "text": "Join Nirmala's Insurance Plan Review at 4:00 to pick the healthcare plans; it overlaps Media Day at Socceroof, 4–7pm."
    },
    {
     "label": "Thu 11/19",
@@ -27,14 +23,18 @@
    },
    {
     "label": "Fri 11/20",
-    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before the 2:00 call; Paychex Phase 1 is at 12:30."
+    "text": "Send Jesse the invite for the 11:15 call with Mal on his winter space; Constant Contact setup with Sydney is at 10:00."
    },
    {
     "label": "Fri 11/20",
-    "text": "Raise Nirmala's long-term arrangement with Andy and Paul; you promised her an update by Tuesday 11/24."
+    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before the 2:00 call, and raise Nirmala's arrangement there."
+   },
+   {
+    "label": "This week",
+    "text": "Follow up with the Grace Church athletic director on weekday class space; Leanne's draft practice schedule lands Thursday."
    }
   ],
-  "cardsAdded": 0,
+  "cardsAdded": 4,
   "cardsCompleted": 0,
   "deadlines": [
    {
@@ -44,12 +44,7 @@
    },
    {
     "date": "2026-11-18",
-    "label": "Paychex underwriting review (12:30): four plans and the subsidy",
-    "who": "Paul, Andy, KP"
-   },
-   {
-    "date": "2026-11-18",
-    "label": "Insurance Plan Review with Nirmala and Paul (4:00, overlaps Media Day)",
+    "label": "Insurance Plan Review with Nirmala and Paul (4:00, overlaps Media Day): pick the healthcare plans",
     "who": "KP, Nirmala, Paul"
    },
    {
@@ -63,6 +58,11 @@
     "who": "KP"
    },
    {
+    "date": "2026-11-19",
+    "label": "Draft practice schedule to KP, Mal, Jason and Alex for review; Little Red times set",
+    "who": "Leanne"
+   },
+   {
     "date": "2026-11-20",
     "label": "Budget comparisons (by team vs YTD budget, SFA split) in the Board Finance Report, before the Friday call",
     "who": "KP"
@@ -71,6 +71,16 @@
     "date": "2026-11-20",
     "label": "Paychex Phase 1 call (12:30, moved from Tuesday)",
     "who": "Paul, Andy, KP, Nirmala"
+   },
+   {
+    "date": "2026-11-20",
+    "label": "Constant Contact setup with Sydney, Leo and Liam (10:00)",
+    "who": "KP"
+   },
+   {
+    "date": "2026-11-20",
+    "label": "Call with Jesse and Mal on his winter program space (11:15) — invite still to send",
+    "who": "KP, Mal, Jesse"
    },
    {
     "date": "2026-11-23",
@@ -124,7 +134,7 @@
    },
    {
     "date": "2026-12-08",
-    "label": "Board meeting — audit presentation",
+    "label": "Board meeting — audit presentation; KP raises board involvement in operations",
     "who": "KP, Nirmala"
    },
    {
@@ -163,11 +173,11 @@
     "who": "Ops"
    }
   ],
-  "headline": "Today stacks the Paychex review, Ops Weekly and Media Day. By Friday Andy and Paul expect the budget comparisons, and Nirmala's arrangement needs raising with them.",
-  "lastRun": "2026-11-18T16:52:00Z",
+  "headline": "Friday stacks up: Constant Contact at 10:00, Jesse at 11:15, Paychex at 12:30, then Andy and Paul at 2:00 expecting the budget comparisons and the question of Nirmala's arrangement.",
+  "lastRun": "2026-11-18T20:50:46Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 17,
-  "notesScanned": 36,
+  "notesScanned": 37,
   "themes": [
    {
     "name": "Finance reset",
@@ -175,11 +185,11 @@
    },
    {
     "name": "Audit and board",
-    "text": "The auditors asked for June and July testing reports, which Nirmala sent. KP chases the PlayMetrics SOC report; the board meets Dec 8."
+    "text": "KP chases the PlayMetrics SOC report the auditors need. The board meets Dec 8, where KP also raises board involvement in daily operations."
    },
    {
     "name": "Healthcare",
-    "text": "Paychex's underwriting review is today at 12:30 and its Phase 1 call moved to Friday 12:30. The group still has to pick four plans and the subsidy, with Paul leading."
+    "text": "Plans get picked at Nirmala's 4:00 review today, and Paychex's Phase 1 call is Friday 12:30. Paul leads; at least seven sign-ups are needed."
    },
    {
     "name": "Finance role",
@@ -187,11 +197,11 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Indoor space is being booked through March, but Little Red is unconfirmed and Mal chases it. The practice schedule has to be set and sent by Monday 11/23."
+    "text": "Leanne sends the draft practice schedule Thursday and it goes out Monday 11/23. Little Red times, Grace Church and Jesse's space are open; KP and Mal call Jesse Friday."
    },
    {
-    "name": "Media Day and registration",
-    "text": "Media Day is today at Socceroof, U16–U19 only, with Kyle away. KP still owes the winter registration email and the information for Leo and Liam's assets."
+    "name": "Registration and camps",
+    "text": "Winter Rec numbers are low until the emails go out; Friday's Constant Contact session should unblock them. Camp discounts are set, and the group still defines how the sibling discount applies."
    }
   ],
   "waitingLong": []
