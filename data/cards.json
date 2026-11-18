@@ -1804,5 +1804,25 @@
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
+ },
+ "c-mwlfv57j-uqblq": {
+  "title": "Add Rosters and scholarship players to the Board Report",
+  "owner": "KP",
+  "area": null,
+  "due": null,
+  "raised": "2026-11-18",
+  "priority": null,
+  "note": null,
+  "status": "todo",
+  "updatedAt": "2026-11-18T01:24:41.886Z",
+  "userEdited": true,
+  "pinned": true,
+  "pinnedAt": "2026-11-18T01:24:41.886Z",
+  "doneAt": null,
+  "waitingOn": null,
+  "waitingSince": null,
+  "createdAt": "2026-11-18T01:24:41.886Z",
+  "source": "Added by hand",
+  "sourceUrl": null
  }
 }
