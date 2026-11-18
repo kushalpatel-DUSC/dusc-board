@@ -125,6 +125,23 @@
   "updatedAt": "2026-11-18T03:03:05.421Z",
   "userEdited": true
  },
+ "1a1a1efdf7f7078d": {
+  "area": "Finance",
+  "ask": "Tell Kristen whether DUSC should pay the NYS Dept. of Labor / Unemployment Insurance balances (or confirm Nirmala is answering).",
+  "cardId": null,
+  "createdAt": "2026-11-18T17:05:58Z",
+  "date": "2026-11-18T16:56:05Z",
+  "due": null,
+  "from": "Kristen Capobianco",
+  "gist": "Noemi sent Kristen the HR mail collected 10/30: a NYS Unemployment Insurance bill with a $7,466.50 balance, a NYS Dept. of Labor notice with a $121.48 balance, and an IRS notice. Kristen is now asking Nirmala, Kushal and Kyle whether to go ahead and pay them.",
+  "kind": "decision",
+  "status": "open",
+  "subject": "HR: NYS Dept. of Labor Notifications, Bill $7,466.50 & IRS Important Information",
+  "threadId": "1a1a1efdf7f7078d",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1880849870516324237",
+  "updatedAt": "2026-11-18T17:05:58Z",
+  "userEdited": false
+ },
  "1a1a45d1e06a1886": {
   "area": "Facilities",
   "ask": "Call Jessie back about the gym location.",
