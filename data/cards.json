@@ -921,13 +921,14 @@
   "raised": "2026-11-11",
   "source": "Ops Weekly Call — Nov 11 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1Yjp_F2bd1aySYpm3dHyOSGrfMQICEq2B4TgSV6hj_Kc/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Contact Michael about Monday–Thursday 6:00–7:30 training slots",
-  "triage": "new",
-  "updatedAt": "2026-11-14T05:05:48Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-18T01:15:42.045Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-18T01:15:42.045Z"
  },
  "missing-receipts-reminders": {
   "area": "Finance",
