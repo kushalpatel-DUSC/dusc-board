@@ -1461,9 +1461,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Build a repeatable workflow that produces registration and financial reports for any period (with Andy)",
-  "triage": "new",
-  "updatedAt": "2026-11-14T05:05:48Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-18T01:15:58.763Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
