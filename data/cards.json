@@ -186,7 +186,7 @@
  "boa-account-ownership": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-18T04:44:42.267Z",
   "due": null,
   "id": "boa-account-ownership",
   "note": null,
@@ -195,10 +195,12 @@
   "raised": "2026-11-02",
   "source": "Finance Weekly (Gemini, Nov 2)",
   "sourceUrl": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Resolve Bank of America account ownership — legacy owner means nobody can add Nirmala as admin",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-18T04:44:42.267Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "board-finance-report-budget-variance": {
   "area": "Finance",
