@@ -756,9 +756,9 @@
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-11-18T13:30:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-18T16:52:00Z",
+  "updatedAt": "2026-11-18T21:06:00Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261125T183000Z": {
