@@ -93,19 +93,19 @@
  "1a19a04f853dce4e": {
   "area": "Programs",
   "ask": "Email Bob Townley at Manhattan Youth to set up the conversation about a DUSC partnership.",
-  "cardId": null,
+  "cardId": "c-mwlje6nz-tt77c",
   "createdAt": "2026-11-17T19:07:24Z",
   "date": "2026-11-17T17:31:05Z",
   "due": null,
   "from": "Gabi Ajami",
   "gist": "Gabi Ajami (Manhattan Youth) replied to your Nov 2 note about DUSC serving as a soccer provider for local schools. She passed your interest to Bob Townley, the Executive Director, who asked her to send you his contact: bob@manhattanyouth.org.",
   "kind": "action",
-  "status": "open",
+  "status": "handled",
   "subject": "Manhattan Youth + DUSC",
   "threadId": "1a19a04f853dce4e",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r1157000447013307410",
-  "updatedAt": "2026-11-17T19:07:24Z",
-  "userEdited": false
+  "updatedAt": "2026-11-18T03:03:29.064Z",
+  "userEdited": true
  },
  "1a19dbe49dfc8546": {
   "area": "Programs",
