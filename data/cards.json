@@ -1824,5 +1824,25 @@
   "createdAt": "2026-11-18T01:24:41.886Z",
   "source": "Added by hand",
   "sourceUrl": null
+ },
+ "c-mwlfvkau-mmhwk": {
+  "title": "Reach out to Media Group to sort out Winter Registrations",
+  "owner": "KP",
+  "area": null,
+  "due": null,
+  "raised": "2026-11-18",
+  "priority": null,
+  "note": null,
+  "status": "todo",
+  "updatedAt": "2026-11-18T01:25:01.445Z",
+  "userEdited": true,
+  "pinned": false,
+  "pinnedAt": null,
+  "doneAt": null,
+  "waitingOn": null,
+  "waitingSince": null,
+  "createdAt": "2026-11-18T01:25:01.445Z",
+  "source": "Added by hand",
+  "sourceUrl": null
  }
 }
