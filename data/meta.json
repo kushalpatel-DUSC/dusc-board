@@ -4,8 +4,8 @@
   "cardsAdded": 0,
   "cleared": 0,
   "flagged": 9,
-  "lastRun": "2026-11-19T03:05:43Z",
-  "lastRunStatus": "ok",
+  "lastRun": "2026-11-19T11:05:51Z",
+  "lastRunStatus": "ok (one open item's thread, the NYS Dept. of Labor one, could not be read: 'The caller does not have permission'; left open)",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
   "scanned": 20
