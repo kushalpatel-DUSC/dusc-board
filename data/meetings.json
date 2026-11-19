@@ -624,6 +624,41 @@
   "updatedAt": "2026-11-09T10:52:54Z",
   "userEdited": false
  },
+ "5rm1biksjscts27j3ukev1ie2c": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "jessie.cordray@dusc.net",
+    "name": "Jessie Cordray"
+   },
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   }
+  ],
+  "end": "2026-11-20T14:00:00-05:00",
+  "eventId": "5rm1biksjscts27j3ukev1ie2c",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NXJtMWJpa3Nqc2N0czI3ajN1a2V2MWllMmMga3VzaGFsLnBhdGVsQGR1c2MubmV0&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/eui-nopo-iju",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Jessie's sample Jan–Feb weeknight schedule: confirm which spaces futsal takes",
+    "PS 191 Monday evenings: how to proceed when DOE only prices after the permit application",
+    "Immaculate Conception Mon/Wed 5:30–7:00pm: does futsal take it",
+    "Little Red and Stephen Gaynor follow-ups with Mal, and the Jan–March winter schedule announcement"
+   ],
+   "summary": "Friday 1:15pm with Jessie and Mal to settle the winter futsal spaces: which gyms the program takes for January–February and what each one needs to be secured. Jessie has sent a sample weeknight schedule across Immaculate Conception, PS 191 and Stephen Gaynor that is still waiting on your confirmation."
+  },
+  "recurringEventId": null,
+  "seriesKey": "ops-weekly",
+  "start": "2026-11-20T13:15:00-05:00",
+  "status": "upcoming",
+  "title": "Futsal Spaces",
+  "updatedAt": "2026-11-19T15:07:43Z",
+  "userEdited": false
+ },
  "5vflpvpf5tj53s14muhn7g6tfv": {
   "agenda": [],
   "agendaUpdatedAt": null,
