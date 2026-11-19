@@ -36,6 +36,23 @@
   "updatedAt": "2026-11-14T13:06:15Z",
   "userEdited": false
  },
+ "1a164274d0ac2054": {
+  "area": "Finance",
+  "ask": "Reply to Paul and agree with Nirmala to approve the laptop purchase and its budget.",
+  "cardId": null,
+  "createdAt": "2026-11-19T21:06:01Z",
+  "date": "2026-11-19T20:55:32Z",
+  "due": null,
+  "from": "Paul Sowell",
+  "gist": "Noemi's request for a club-owned work laptop has been open since October and she followed up again today. Paul asked Nirmala and KP (without Noemi) what the hold-up is, and suggests a budget similar to what Kristen spent, with a policy to follow later.",
+  "kind": "decision",
+  "status": "open",
+  "subject": "Laptop for DUSC Work",
+  "threadId": "1a164274d0ac2054",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1879762963958341716",
+  "updatedAt": "2026-11-19T21:06:01Z",
+  "userEdited": false
+ },
  "1a17b5561c2e89cb": {
   "area": "Facilities",
   "ask": "Make sure finance pays Henry Street Settlement per the signed BGR gym agreement, and add the space to the winter supply tracker.",
