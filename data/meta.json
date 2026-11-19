@@ -11,15 +11,15 @@
   "scanned": 20
  },
  "sync": {
-  "actionsAdded": 9,
+  "actionsAdded": 0,
   "brief": [
    {
     "label": "Today",
-    "text": "Join Nirmala's Insurance Plan Review at 4:00 to pick the healthcare plans; it overlaps Media Day at Socceroof, 4–7pm."
+    "text": "Settle the SFA scholarship count name by name at the 1:15 review; it clashes with the NYCFC partnership call at 1:30."
    },
    {
-    "label": "Thu 11/19",
-    "text": "Settle the SFA scholarship count name by name at the 1:15 review; it clashes with the NYCFC call at 1:30."
+    "label": "Today",
+    "text": "Agree the health plan contribution per person with Paul and Andy before Friday's Paychex call; Andy is free 11:30 to 2:00."
    },
    {
     "label": "Fri 11/20",
@@ -31,22 +31,12 @@
    },
    {
     "label": "This week",
-    "text": "Follow up with the Grace Church athletic director on weekday class space; Leanne's draft practice schedule lands Thursday."
+    "text": "Follow up with the Grace Church athletic director on weekday class space; Leanne's draft practice schedule is due today."
    }
   ],
-  "cardsAdded": 4,
+  "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-18",
-    "label": "Media Day at Socceroof, 4–7pm (U16–U19)",
-    "who": "KP, Leanne"
-   },
-   {
-    "date": "2026-11-18",
-    "label": "Insurance Plan Review with Nirmala and Paul (4:00, overlaps Media Day): pick the healthcare plans",
-    "who": "KP, Nirmala, Paul"
-   },
    {
     "date": "2026-11-19",
     "label": "SFA review with Nirmala, Mal and Simon (1:15): reconcile the scholarship count name by name",
@@ -63,13 +53,18 @@
     "who": "Leanne"
    },
    {
+    "date": "2026-11-19",
+    "label": "Settle the health plan contribution with Paul and Andy (Andy free 11:30–2) before Friday's Paychex call",
+    "who": "Paul, Andy, KP, Nirmala"
+   },
+   {
     "date": "2026-11-20",
     "label": "Budget comparisons (by team vs YTD budget, SFA split) in the Board Finance Report, before the Friday call",
     "who": "KP"
    },
    {
     "date": "2026-11-20",
-    "label": "Paychex Phase 1 call (12:30, moved from Tuesday)",
+    "label": "Paychex Phase 1 call (12:30): give Jennifer the five health plans and the DUSC contribution",
     "who": "Paul, Andy, KP, Nirmala"
    },
    {
@@ -173,11 +168,11 @@
     "who": "Ops"
    }
   ],
-  "headline": "Friday stacks up: Constant Contact at 10:00, Jesse at 11:15, Paychex at 12:30, then Andy and Paul at 2:00 expecting the budget comparisons and the question of Nirmala's arrangement.",
-  "lastRun": "2026-11-18T20:50:46Z",
+  "headline": "Today the SFA review and the NYCFC call overlap at 1:15–1:30, and the health plan contribution must be agreed with Andy before Friday's 12:30 Paychex call.",
+  "lastRun": "2026-11-19T10:49:15Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 17,
-  "notesScanned": 37,
+  "meetingsRefreshed": 16,
+  "notesScanned": 38,
   "themes": [
    {
     "name": "Finance reset",
@@ -189,7 +184,7 @@
    },
    {
     "name": "Healthcare",
-    "text": "Plans get picked at Nirmala's 4:00 review today, and Paychex's Phase 1 call is Friday 12:30. Paul leads; at least seven sign-ups are needed."
+    "text": "Five Aetna plans were picked Wednesday with one subsidy for everyone. Paul settles the amount with Andy before Friday's 12:30 Paychex call; at least seven sign-ups are needed."
    },
    {
     "name": "Finance role",
@@ -197,7 +192,7 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Leanne sends the draft practice schedule Thursday and it goes out Monday 11/23. Little Red times, Grace Church and Jesse's space are open; KP and Mal call Jesse Friday."
+    "text": "Leanne's draft practice schedule is due today and goes out Monday 11/23. Little Red times, Grace Church and Jesse's space are open; KP and Mal call Jesse Friday."
    },
    {
     "name": "Registration and camps",
