@@ -19,11 +19,11 @@
    },
    {
     "label": "Today",
-    "text": "Agree the health plan contribution per person with Paul and Andy before Friday's Paychex call; Andy is free 11:30 to 2:00."
+    "text": "Agree the health plan contribution per person with Paul and Andy before Friday's Paychex call; Andy is free until 2:00."
    },
    {
     "label": "Fri 11/20",
-    "text": "Send Jesse the invite for the 11:15 call with Mal on his winter space; Constant Contact setup with Sydney is at 10:00."
+    "text": "Confirm Jesse's sample futsal schedule at the 1:15 Futsal Spaces call, which starts 15 minutes before the Paychex call ends."
    },
    {
     "label": "Fri 11/20",
@@ -74,7 +74,7 @@
    },
    {
     "date": "2026-11-20",
-    "label": "Call with Jesse and Mal on his winter program space (11:15) — invite still to send",
+    "label": "Futsal Spaces call with Jesse and Mal on winter program space (1:15, overlaps the end of the Paychex call)",
     "who": "KP, Mal, Jesse"
    },
    {
@@ -169,9 +169,9 @@
    }
   ],
   "headline": "Today the SFA review and the NYCFC call overlap at 1:15–1:30, and the health plan contribution must be agreed with Andy before Friday's 12:30 Paychex call.",
-  "lastRun": "2026-11-19T10:49:15Z",
+  "lastRun": "2026-11-19T16:50:00Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 16,
+  "meetingsRefreshed": 17,
   "notesScanned": 38,
   "themes": [
    {
@@ -192,7 +192,7 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Leanne's draft practice schedule is due today and goes out Monday 11/23. Little Red times, Grace Church and Jesse's space are open; KP and Mal call Jesse Friday."
+    "text": "Leanne's draft practice schedule is due today and goes out Monday 11/23. Little Red times, Grace Church and the futsal spaces are open; KP and Mal call Jesse Friday at 1:15."
    },
    {
     "name": "Registration and camps",

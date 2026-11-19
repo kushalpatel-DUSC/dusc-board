@@ -102,7 +102,7 @@
    "highlights": [
     "No notes from a meeting with Ryan yet; these points come from the Ops calls.",
     "11/18: the Immaculate Conception gym is full-size and open Mondays and Wednesdays, 5:30–7:00pm.",
-    "KP: check whether Jesse's futsal takes those slots — his space call is Fri 11/20 at 11:15.",
+    "KP: check whether Jesse's futsal takes those slots — the Futsal Spaces call is Fri 11/20 at 1:15.",
     "11/11: it rents at about $150 an hour; weekday slots for older teams are the winter gap."
    ],
    "oneLine": "Immaculate Conception gym is your piece of the winter space plan — get days, hours and rate.",
@@ -114,14 +114,14 @@
     "Next step and who else from DUSC needs to see it (Andy; Kyle back 11/28)"
    ],
    "summary": "Ryan Mitchell's 30-minute Playbook AI demo, tied to the former Immaculate Conception gym. It sits on top of Finance Weekly at 1:30 — move one.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-23T13:30:00-05:00",
   "status": "upcoming",
   "title": "DUSC X Playbook AI Demo",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "17imubto8an2sfq74md7nln31s": {
@@ -396,14 +396,14 @@
     "Audit: anything still open before the Dec 8 board meeting"
    ],
    "summary": "Nirmala's Tuesday hour in Thanksgiving week. Give her the answer on her arrangement and close out the October package before the holiday.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-11-24T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "3lmv8ac6ne8fg7slprqv293vkr_20261201T183000Z": {
@@ -442,14 +442,14 @@
     "W9s and the 1099 spreadsheet (due Jan 15)"
    ],
    "summary": "Nirmala's Tuesday hour, a week before the Dec 8 board meeting. Check the October package is final and what the audit presentation still needs.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-12-01T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "3spidcv3apv6c4nbe6v6ircb0n": {
@@ -575,14 +575,14 @@
     "SFA split for Friday's Board Finance Report"
    ],
    "summary": "Today at 1:15: Nirmala's hour with Malorie, Simon and Sydney to settle the Soccer For All scholarship count, 65 in PlayMetrics against 144 on Malorie's sheet. It overlaps the NYCFC call at 1:30.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": null,
   "seriesKey": "finance-weekly",
   "start": "2026-11-19T13:15:00-05:00",
   "status": "upcoming",
   "title": "SFA review",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "5ggpj9v40a2q324at6j3n9ekvb": {
@@ -642,21 +642,34 @@
   "htmlLink": "https://www.google.com/calendar/event?eid=NXJtMWJpa3Nqc2N0czI3ajN1a2V2MWllMmMga3VzaGFsLnBhdGVsQGR1c2MubmV0&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/eui-nopo-iju",
   "prep": {
-   "highlights": [],
+   "basedOn": {
+    "date": "2026-11-18",
+    "title": "Ops Weekly Call — Nov 18 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347"
+   },
+   "highlights": [
+    "Decided 11/18: new programs need proven financial viability before they are added.",
+    "KP: the space call agreed on 11/18 for Friday 11:15 is on the calendar at 1:15; Jessie has not responded yet.",
+    "KP: forward the cafeteria space photo and details to Jessie and Gustavo.",
+    "Mal: send Jessie the outstanding information promised.",
+    "Immaculate Conception offers a full gym Mondays and Wednesdays, 5:30–7:00pm."
+   ],
+   "oneLine": "Confirm which gyms futsal takes for January and February; Jessie's sample schedule awaits your answer.",
    "suggested": [
     "Jessie's sample Jan–Feb weeknight schedule: confirm which spaces futsal takes",
     "PS 191 Monday evenings: how to proceed when DOE only prices after the permit application",
     "Immaculate Conception Mon/Wed 5:30–7:00pm: does futsal take it",
     "Little Red and Stephen Gaynor follow-ups with Mal, and the Jan–March winter schedule announcement"
    ],
-   "summary": "Friday 1:15pm with Jessie and Mal to settle the winter futsal spaces: which gyms the program takes for January–February and what each one needs to be secured. Jessie has sent a sample weeknight schedule across Immaculate Conception, PS 191 and Stephen Gaynor that is still waiting on your confirmation."
+   "summary": "Friday 1:15 with Jessie and Mal to settle which gyms winter futsal takes for January and February. It starts 15 minutes before the Paychex call ends and runs up to the 2:00 finance call.",
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": null,
   "seriesKey": "ops-weekly",
   "start": "2026-11-20T13:15:00-05:00",
   "status": "upcoming",
   "title": "Futsal Spaces",
-  "updatedAt": "2026-11-19T15:07:43Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "5vflpvpf5tj53s14muhn7g6tfv": {
@@ -823,7 +836,7 @@
     "Decided: camps get a 10% sibling discount and a one-month early bird, with no multi-week discounts.",
     "Leanne: send the draft practice schedule to KP, Mal, Jason and Alex by Thursday, and set the Little Red times.",
     "Mal: put all contracts in one Drive folder, send class history data, forward the HRPT wall-damage email, connect KP with Oumou.",
-    "KP: follow up with Grace Church on weekday class space and invite Jesse to Friday's 11:15 space call.",
+    "KP: follow up with Grace Church on weekday class space; the space call with Jesse is Friday 11/20 at 1:15.",
     "KP: format the Club Calendar with program managers' input; raise board involvement in operations on Dec 8."
    ],
    "oneLine": "The practice schedule was due out Monday 11/23 — did it go, and is Little Red settled?",
@@ -836,14 +849,14 @@
     "Winter Rec and classes emails out before Thanksgiving? Pier 40 Indoor Dec 5–6 plan"
    ],
    "summary": "Day before Thanksgiving. Check the January–February practice schedule went out, Little Red and Grace Church are settled, and what came of Friday's space call with Jesse.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-11-25T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261202T183000Z": {
@@ -886,14 +899,14 @@
     "Dec 8 board meeting: what you will say about board involvement in operations"
    ],
    "summary": "First Ops call after Thanksgiving, with MLS Next Fest under way and the Academy outdoors on the HRPT permit. Check showcase travel, the Dec 5–6 Pier 40 slot and the Club Calendar.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-12-02T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261117T150000Z": {
@@ -1047,14 +1060,14 @@
     "Coach pipeline: college assistants and the coach job description"
    ],
    "summary": "Tuesday 10:00 in Thanksgiving week. Winter Rec and classes registrations are low because the promotion has not gone out; Friday's Constant Contact session with Sydney, Leo and Liam should fix that.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
-  "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261117T150000",
+  "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261124T150000",
   "seriesKey": "community-rec",
   "start": "2026-11-24T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261201T150000Z": {
@@ -1096,6 +1109,14 @@
    {
     "email": "kyle.hagenburger@dusc.net",
     "name": "Kyle Hagenburger"
+   },
+   {
+    "email": "leocontesoccer@gmail.com",
+    "name": "Leo Conte"
+   },
+   {
+    "email": "liamgeorge9@gmail.com",
+    "name": "Liam George"
    }
   ],
   "end": "2026-12-01T10:30:00-05:00",
@@ -1123,14 +1144,14 @@
     "Your Rec program review — suggestions back to Oumou, Gustavo and Paul Fox"
    ],
    "summary": "First Rec/Class/Camp call after Thanksgiving, with winter Rec five weeks out. Check winter registration numbers and where the Summer Camp 2027 plan landed.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
-  "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261117T150000",
+  "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261124T150000",
   "seriesKey": "community-rec",
   "start": "2026-12-01T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "6bilrcbmht23o43aqm033ongef": {
@@ -1295,14 +1316,14 @@
     "Finance role requirements due Fri 11/27 — her workflow input"
    ],
    "summary": "Monday half-hour with Nirmala in Thanksgiving week, at the same time as the Playbook demo. Check the audit feedback, the PlayMetrics controls report and the September receipts.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-23T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "6nc6i1n4kcjaak7pfr2nv8f5r5_20261130T183000Z": {
@@ -1340,14 +1361,14 @@
     "Finance role: requirements written 11/27, December interviews"
    ],
    "summary": "First Monday call with Nirmala after Thanksgiving, eight days before the Dec 8 board meeting. Settle what the audit presentation will say and what is still open.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-30T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261113T190000Z": {
@@ -1431,15 +1452,15 @@
     "Registrant count with SFA players; duplicate transactions; overdue receivables",
     "Finance staffing: Nirmala's long-term arrangement (answer owed by Tue 11/24) and the finance role requirements"
    ],
-   "summary": "Tomorrow at 2:00, half an hour after the Paychex Phase 1 call ends. Bring the budget comparisons, the GA showcase numbers and the question of Nirmala's long-term arrangement.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "summary": "Tomorrow at 2:00, straight after the Futsal Spaces call ends. Bring the budget comparisons, the GA showcase numbers and the question of Nirmala's long-term arrangement.",
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-11-20T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261127T190000Z": {
@@ -1481,14 +1502,14 @@
     "GA Summer Showcase overrun findings"
    ],
    "summary": "Third Friday call, the day after Thanksgiving — check it is still on. The two weeks for defining the finance role end today, and healthcare enrollment should be under way.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-11-27T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "714f1ou8ft0mirjipdqn9ijlhg": {
@@ -1524,7 +1545,7 @@
     "Each campaign needs its own registration link and QR code; one blast for community programming.",
     "Nobody yet owns the Google Ad Grant ($10K a month) or paid social."
    ],
-   "oneLine": "Get the winter Rec and classes emails scheduled before Thanksgiving; Jesse's call follows at 11:15.",
+   "oneLine": "Get the winter Rec and classes emails scheduled before Thanksgiving; bring registration links and send dates.",
    "suggested": [
     "Who sends blasts now: Leo and Liam's access, and your own Constant Contact login",
     "Winter Rec and classes emails: content, registration links, send dates before Thanksgiving",
@@ -1533,14 +1554,14 @@
     "Google Ads disapproval notices Mal received — real or spam, and who owns the account"
    ],
    "summary": "Tomorrow at 10:00: Sydney's 45 minutes with Leo and Liam to set up Constant Contact, so the winter Rec, classes and programming emails go out before Thanksgiving. Rec numbers are low until they do.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-20T10:00:00-05:00",
   "status": "upcoming",
   "title": "Constant Contact Setup and Meeting",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "7r28o2dpnob574e2ujfottdi2l": {
@@ -1692,14 +1713,14 @@
     "Who at DUSC decides and by when (Kyle back 11/28; Andy for the budget)"
    ],
    "summary": "Today at 1:30 on Teams with Jason Ortega of NYCFC, about the 2027 Youth Soccer Partnership. It starts 15 minutes into the SFA review, and you have not responded to the invite.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-19T13:30:00-05:00",
   "status": "upcoming",
   "title": "NYCFC x DUSC",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g88rk2cq1891j2da66sok8h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g64s3echl6sp32ca27523ihhk8csk8cpj8h33ahi16kok6h1l88o0": {
@@ -1818,15 +1839,15 @@
     "What accepting the quotes commits DUSC to",
     "Backup: Paychex brokerage or an outside broker"
    ],
-   "summary": "Paychex's Phase 1 call with Jennifer James, Friday 12:30. Wednesday's review picked five Aetna plans; the DUSC contribution per person is still open and Paul wants it settled with Andy before this call.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "summary": "Paychex's Phase 1 call with Jennifer James, Friday 12:30 to 1:30. Five Aetna plans are picked; the contribution per person is still open, and Futsal Spaces starts at 1:15.",
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-20T12:30:00-05:00",
   "status": "upcoming",
   "title": "Downtown United Soccer Club",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  },
  "_6kq44hhm70rk2b9k850j8b9k68rj4b9o6t330b9p752k6hhm84q38dpn6k": {
@@ -2054,14 +2075,14 @@
     "Finance role and the 2027 Staff Handbook"
    ],
    "summary": "First 1:1 after Kyle returns on 11/28. Hand back what you covered for three weeks and pick up what was parked for him.",
-   "updatedAt": "2026-11-19T10:49:15Z"
+   "updatedAt": "2026-11-19T16:50:00Z"
   },
   "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
   "seriesKey": "kyle-1on1",
   "start": "2026-11-30T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-19T10:49:15Z",
+  "updatedAt": "2026-11-19T16:50:00Z",
   "userEdited": false
  }
 }
