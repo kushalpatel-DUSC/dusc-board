@@ -11,15 +11,15 @@
   "scanned": 23
  },
  "sync": {
-  "actionsAdded": 0,
+  "actionsAdded": 7,
   "brief": [
    {
     "label": "Today",
-    "text": "Settle the SFA scholarship count name by name at the 1:15 review; it clashes with the NYCFC partnership call at 1:30."
+    "text": "Agree the health plan contribution per person with Paul and Andy before tomorrow's 12:30 Paychex call."
    },
    {
-    "label": "Today",
-    "text": "Agree the health plan contribution per person with Paul and Andy before Friday's Paychex call; Andy is free until 2:00."
+    "label": "Fri 11/20",
+    "text": "Send Andy and Paul the budget comparisons by team before the 2:00 call, and raise Nirmala's arrangement there."
    },
    {
     "label": "Fri 11/20",
@@ -27,11 +27,11 @@
    },
    {
     "label": "Fri 11/20",
-    "text": "Send Andy and Paul the budget comparisons by team and the SFA split before the 2:00 call, and raise Nirmala's arrangement there."
+    "text": "Get the winter Rec and classes emails scheduled at the 10:00 Constant Contact session with Sydney, Leo and Liam."
    },
    {
-    "label": "This week",
-    "text": "Follow up with the Grace Church athletic director on weekday class space; Leanne's draft practice schedule is due today."
+    "label": "Moving",
+    "text": "Check Mal books the PlayMetrics meeting on discount reporting; about 80 scholarship players show only net amounts, which holds up the SFA split."
    }
   ],
   "cardsAdded": 0,
@@ -39,22 +39,12 @@
   "deadlines": [
    {
     "date": "2026-11-19",
-    "label": "SFA review with Nirmala, Mal and Simon (1:15): reconcile the scholarship count name by name",
-    "who": "KP, Nirmala, Mal"
-   },
-   {
-    "date": "2026-11-19",
-    "label": "NYCFC x DUSC call with Jason Ortega (1:30)",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-19",
     "label": "Draft practice schedule to KP, Mal, Jason and Alex for review; Little Red times set",
     "who": "Leanne"
    },
    {
-    "date": "2026-11-19",
-    "label": "Settle the health plan contribution with Paul and Andy (Andy free 11:30–2) before Friday's Paychex call",
+    "date": "2026-11-20",
+    "label": "Health plan contribution per person agreed with Paul and Andy before the 12:30 Paychex call",
     "who": "Paul, Andy, KP, Nirmala"
    },
    {
@@ -168,15 +158,19 @@
     "who": "Ops"
    }
   ],
-  "headline": "Today the SFA review and the NYCFC call overlap at 1:15–1:30, and the health plan contribution must be agreed with Andy before Friday's 12:30 Paychex call.",
-  "lastRun": "2026-11-19T16:50:00Z",
+  "headline": "Friday is stacked: Constant Contact at 10:00, Paychex at 12:30 needing an agreed health contribution, Futsal Spaces at 1:15, then the budget comparisons for Andy and Paul at 2:00.",
+  "lastRun": "2026-11-19T20:49:09Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 17,
-  "notesScanned": 38,
+  "meetingsRefreshed": 15,
+  "notesScanned": 39,
   "themes": [
    {
     "name": "Finance reset",
-    "text": "Variances through 11/13 keep growing on unreconciled data, and the GA summer showcase lost about $32,000. KP owes Andy and Paul the budget comparisons and SFA split Friday."
+    "text": "Variances through 11/13 keep growing on unreconciled data, and the GA summer showcase lost about $32,000. KP owes Andy and Paul the budget comparisons Friday."
+   },
+   {
+    "name": "Scholarship count",
+    "text": "Thursday's review agreed to count scholarships per program line. Mal adds about 60 missing names and asks PlayMetrics to show discounts; the group meets again in about a week."
    },
    {
     "name": "Audit and board",
@@ -192,11 +186,7 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Leanne's draft practice schedule is due today and goes out Monday 11/23. Little Red times, Grace Church and the futsal spaces are open; KP and Mal call Jesse Friday at 1:15."
-   },
-   {
-    "name": "Registration and camps",
-    "text": "Winter Rec numbers are low until the emails go out; Friday's Constant Contact session should unblock them. Camp discounts are set, and the group still defines how the sibling discount applies."
+    "text": "Leanne's draft practice schedule was due Thursday and goes out Monday 11/23. Little Red times, Grace Church and the futsal spaces are open; KP and Mal call Jesse Friday at 1:15."
    }
   ],
   "waitingLong": []

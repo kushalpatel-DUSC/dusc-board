@@ -1821,6 +1821,104 @@
   "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "sfa-review-2026-11-19": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-sfa-add-missing-names",
+    "note": "Column E of Nirmala's discrepancy sheet.",
+    "owner": "Mal",
+    "raised": "2026-11-19",
+    "text": "Mal to verify the roughly 60 names found in PlayMetrics but missing from her scholarship sheet and add them"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-sfa-refund-notes",
+    "note": "Column F of the discrepancy sheet.",
+    "owner": "Mal",
+    "raised": "2026-11-19",
+    "text": "Mal to add notes on the discrepancy sheet for players who paid in full and were later refunded as a scholarship"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-playmetrics-discount-meeting",
+    "note": "About 80 players show only net installment amounts.",
+    "owner": "Mal",
+    "raised": "2026-11-19",
+    "text": "Mal to ask PlayMetrics for a meeting on showing gross amounts and discounts in the raw data reports"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-software-resolution-email",
+    "note": null,
+    "owner": "Mal",
+    "raised": "2026-11-19",
+    "text": "Mal to email the team the software resolution plan ahead of the follow-up call"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-simon-nirmala-platform-challenges",
+    "note": "Input for KP's platform evaluation.",
+    "owner": "Mal",
+    "raised": "2026-11-19",
+    "text": "Mal, Simon and Nirmala to email KP a list of the problems they have hit with PlayMetrics"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "simon-sfa-sheet-weekly",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-19",
+    "text": "Simon to update the registration and discrepancy sheets from the raw data and refresh them every week"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "simon-scholarship-count-formula",
+    "note": null,
+    "owner": "TBD",
+    "raised": "2026-11-19",
+    "text": "Simon to change the spreadsheet formula so scholarships are counted per program line"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-19",
+  "decisions": [
+   "Scholarships are counted per program line, not per unique registrant, so discounts total by program.",
+   "The group reviews progress again in about a week."
+  ],
+  "fileId": "1SxhSZu0vb-3pHkDfZ6lihr8rqwceZ35Mz4ccxZMo5sk",
+  "keyPoints": [
+   "About 60 names are in PlayMetrics but missing from Mal's scholarship sheet.",
+   "About 80 players show only a net subscription amount in PlayMetrics, so their discount is invisible in the raw data.",
+   "Some players on Mal's sheet paid in full and were later part-refunded as a scholarship.",
+   "PlayMetrics can export granted discounts and financial aid requests as CSV.",
+   "KP asked staff to keep a list of PlayMetrics problems for a platform evaluation."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-19T19:20:46.745Z",
+  "openQuestions": [
+   "Can PlayMetrics report gross amounts and discounts separately for installment plans?",
+   "What is the reconciled scholarship count once Mal's sheet is updated?",
+   "When is the follow-up review, given Thanksgiving falls a week out?"
+  ],
+  "summary": "Nirmala, Mal, Simon, Sydney and KP compared Mal's scholarship sheet with PlayMetrics. Most of the gap is how PlayMetrics records discounts; Mal fixes her sheet and asks PlayMetrics for better reports.",
+  "title": "SFA review — Nov 19 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1SxhSZu0vb-3pHkDfZ6lihr8rqwceZ35Mz4ccxZMo5sk/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "soccerpost-scratch-nov5": {
   "actions": [
    {
