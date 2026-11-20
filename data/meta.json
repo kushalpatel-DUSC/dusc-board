@@ -11,22 +11,22 @@
   "scanned": 24
  },
  "sync": {
-  "actionsAdded": 7,
+  "actionsAdded": 0,
   "brief": [
    {
     "label": "Today",
-    "text": "Agree the health plan contribution per person with Paul and Andy before tomorrow's 12:30 Paychex call."
+    "text": "Agree the health plan contribution per person with Paul and Andy before the 12:30 Paychex call."
    },
    {
-    "label": "Fri 11/20",
+    "label": "Today",
     "text": "Send Andy and Paul the budget comparisons by team before the 2:00 call, and raise Nirmala's arrangement there."
    },
    {
-    "label": "Fri 11/20",
+    "label": "Today",
     "text": "Confirm Jesse's sample futsal schedule at the 1:15 Futsal Spaces call, which starts 15 minutes before the Paychex call ends."
    },
    {
-    "label": "Fri 11/20",
+    "label": "Today",
     "text": "Get the winter Rec and classes emails scheduled at the 10:00 Constant Contact session with Sydney, Leo and Liam."
    },
    {
@@ -37,11 +37,6 @@
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-19",
-    "label": "Draft practice schedule to KP, Mal, Jason and Alex for review; Little Red times set",
-    "who": "Leanne"
-   },
    {
     "date": "2026-11-20",
     "label": "Health plan contribution per person agreed with Paul and Andy before the 12:30 Paychex call",
@@ -158,15 +153,15 @@
     "who": "Ops"
    }
   ],
-  "headline": "Friday is stacked: Constant Contact at 10:00, Paychex at 12:30 needing an agreed health contribution, Futsal Spaces at 1:15, then the budget comparisons for Andy and Paul at 2:00.",
-  "lastRun": "2026-11-19T20:49:09Z",
+  "headline": "Today is stacked: Constant Contact at 10:00, Paychex at 12:30 needing an agreed health contribution, Futsal Spaces at 1:15, then the budget comparisons for Andy and Paul at 2:00.",
+  "lastRun": "2026-11-20T10:48:14Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 15,
-  "notesScanned": 39,
+  "notesScanned": 33,
   "themes": [
    {
     "name": "Finance reset",
-    "text": "Variances through 11/13 keep growing on unreconciled data, and the GA summer showcase lost about $32,000. KP owes Andy and Paul the budget comparisons Friday."
+    "text": "Variances through 11/13 keep growing on unreconciled data, and the GA summer showcase lost about $32,000. KP owes Andy and Paul the budget comparisons today at 2:00."
    },
    {
     "name": "Scholarship count",
@@ -178,15 +173,15 @@
    },
    {
     "name": "Healthcare",
-    "text": "Five Aetna plans were picked Wednesday with one subsidy for everyone. Paul settles the amount with Andy before Friday's 12:30 Paychex call; at least seven sign-ups are needed."
+    "text": "Five Aetna plans were picked Wednesday with one subsidy for everyone. Paul settles the amount with Andy before today's 12:30 Paychex call; at least seven sign-ups are needed."
    },
    {
     "name": "Finance role",
-    "text": "KP writes the role requirements by 11/27 for December interviews. Nirmala wants a decision on her own arrangement; KP raises it with Andy and Paul Friday."
+    "text": "KP writes the role requirements by 11/27 for December interviews. Nirmala wants a decision on her own arrangement; KP raises it with Andy and Paul today."
    },
    {
     "name": "Winter space and schedule",
-    "text": "Leanne's draft practice schedule was due Thursday and goes out Monday 11/23. Little Red times, Grace Church and the futsal spaces are open; KP and Mal call Jesse Friday at 1:15."
+    "text": "Leanne's draft practice schedule was due Thursday and goes out Monday 11/23. Little Red times, Grace Church and the futsal spaces are open; KP and Mal call Jesse today at 1:15."
    }
   ],
   "waitingLong": []
