@@ -11,51 +11,41 @@
   "scanned": 29
  },
  "sync": {
-  "actionsAdded": 0,
+  "actionsAdded": 7,
   "brief": [
    {
-    "label": "Today",
-    "text": "Agree the health plan contribution per person with Paul and Andy before the 12:30 Paychex call."
-   },
-   {
-    "label": "Today",
-    "text": "Send Andy and Paul the budget comparisons by team before the 2:00 call, and raise Nirmala's arrangement there."
-   },
-   {
-    "label": "Today",
-    "text": "Settle Jesse's winter futsal gyms at the Futsal Spaces call, now moved to 3:00; Mal has declined, so get her input separately."
+    "label": "Mon 11/23",
+    "text": "Get the audit status from Nirmala after her auditor call and report it to Andy and Paul."
    },
    {
     "label": "Mon 11/23",
-    "text": "Move the Playbook demo or Finance Weekly, both at 1:30; Alex and Jason also asked for 1:45 for the roster registration check."
+    "text": "Go through the Academy roster gaps with Jason and Alex; move the Playbook demo or Finance Weekly, both at 1:30."
    },
    {
-    "label": "Moving",
-    "text": "Check Mal books the PlayMetrics meeting on discount reporting; about 80 scholarship players show only net amounts, which holds up the SFA split."
+    "label": "Tue 11/24",
+    "text": "Answer Mal on moving the Ops call to Tuesday 1:00, because Wednesday 1:30 now clashes with the Andy and Paul regroup."
+   },
+   {
+    "label": "Tue 11/24",
+    "text": "Update Nirmala on her consulting arrangement; Friday's notes do not show it was raised with Andy and Paul."
+   },
+   {
+    "label": "This week",
+    "text": "Start the GA showcase overrun report due Dec 1 and the forecast for the Dec 8 board meeting."
    }
   ],
-  "cardsAdded": 0,
+  "cardsAdded": 5,
   "cardsCompleted": 0,
   "deadlines": [
    {
-    "date": "2026-11-20",
-    "label": "Health plan contribution per person agreed with Paul and Andy before the 12:30 Paychex call",
-    "who": "Paul, Andy, KP, Nirmala"
+    "date": "2026-11-23",
+    "label": "Audit status from Nirmala after her auditor call, reported to Andy and Paul",
+    "who": "KP, Nirmala"
    },
    {
-    "date": "2026-11-20",
-    "label": "Budget comparisons (by team vs YTD budget, SFA split) in the Board Finance Report, before the Friday call",
+    "date": "2026-11-23",
+    "label": "Academy roster gaps reviewed with Jason and Alex (1:45 asked for)",
     "who": "KP"
-   },
-   {
-    "date": "2026-11-20",
-    "label": "Paychex Phase 1 call (12:30): give Jennifer the five health plans and the DUSC contribution",
-    "who": "Paul, Andy, KP, Nirmala"
-   },
-   {
-    "date": "2026-11-20",
-    "label": "Futsal Spaces call with Jesse on winter program space (moved to 3:00; Mal has declined)",
-    "who": "KP, Jesse"
    },
    {
     "date": "2026-11-23",
@@ -69,8 +59,18 @@
    },
    {
     "date": "2026-11-24",
-    "label": "Update Nirmala on her consulting arrangement after Friday's call with Andy and Paul",
+    "label": "Update Nirmala on her consulting arrangement",
     "who": "KP"
+   },
+   {
+    "date": "2026-11-24",
+    "label": "Benefits enrollment packets sent and information call scheduled",
+    "who": "Kristen, Nirmala"
+   },
+   {
+    "date": "2026-11-25",
+    "label": "Regroup with Andy and Paul at 1:30 (clashes with the Ops Weekly Call)",
+    "who": "KP, Andy, Paul"
    },
    {
     "date": "2026-11-25",
@@ -88,9 +88,9 @@
     "who": "KP"
    },
    {
-    "date": "2026-11-28",
-    "label": "Kyle back from leave",
-    "who": "Kyle"
+    "date": "2026-11-29",
+    "label": "Kyle back online; travel spending guidelines to follow",
+    "who": "Kyle, KP"
    },
    {
     "date": "2026-11-30",
@@ -99,8 +99,18 @@
    },
    {
     "date": "2026-12-01",
+    "label": "GA showcase overrun analysis delivered to Andy and Paul",
+    "who": "KP"
+   },
+   {
+    "date": "2026-12-01",
     "label": "MLS Next Fest Dec 1–13; Academy outdoor under HRPT permit Dec 1–18",
     "who": "Leanne"
+   },
+   {
+    "date": "2026-12-04",
+    "label": "Fields Committee meeting (12:00)",
+    "who": "KP"
    },
    {
     "date": "2026-12-05",
@@ -109,8 +119,8 @@
    },
    {
     "date": "2026-12-08",
-    "label": "Board meeting — audit presentation; KP raises board involvement in operations",
-    "who": "KP, Nirmala"
+    "label": "Board meeting — financial forecast and audit; KP raises board involvement in operations",
+    "who": "Paul, KP, Andy, Nirmala"
    },
    {
     "date": "2027-01-09",
@@ -134,8 +144,8 @@
    },
    {
     "date": "2027-02-28",
-    "label": "MLS Next HG spring start",
-    "who": "Ops"
+    "label": "MLS Next HG spring start; per diem procedures in place before spring travel",
+    "who": "Ops, KP, Kyle"
    },
    {
     "date": "2027-03-06",
@@ -148,35 +158,35 @@
     "who": "Ops"
    }
   ],
-  "headline": "This afternoon: Paychex at 12:30 needing an agreed health contribution, the budget comparisons for Andy and Paul at 2:00, then Futsal Spaces, now moved to 3:00 without Mal.",
-  "lastRun": "2026-11-20T16:48:43Z",
+  "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul want the audit status Monday, a regroup Wednesday at 1:30 and a forecast for the Dec 8 board meeting.",
+  "lastRun": "2026-11-20T20:50:58Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
-  "notesScanned": 38,
+  "notesScanned": 41,
   "themes": [
    {
-    "name": "Finance reset",
-    "text": "Variances through 11/13 keep growing on unreconciled data, and the GA summer showcase lost about $32,000. KP owes Andy and Paul the budget comparisons today at 2:00."
-   },
-   {
-    "name": "Scholarship count",
-    "text": "Thursday's review agreed to count scholarships per program line. Mal adds about 60 missing names and asks PlayMetrics to show discounts; the group meets again in about a week."
+    "name": "Deficit and forecast",
+    "text": "Academy deficit was $287,000 through 11/13 and may reach $360,000 by January. Paul leads a simple forecast for the Dec 8 board; KP supplies the numbers."
    },
    {
     "name": "Audit and board",
-    "text": "KP chases the PlayMetrics SOC report the auditors need. The board meets Dec 8, where KP also raises board involvement in daily operations."
+    "text": "Four audit items remain and Nirmala meets the auditors Monday. KP reports the status to Andy and Paul, and the GA showcase report is due Dec 1."
+   },
+   {
+    "name": "Rosters and travel costs",
+    "text": "The shortfall is player numbers by age group; KP meets Jason and Alex Monday. KP and Kyle set travel spending and per diem rules after 11/29."
    },
    {
     "name": "Healthcare",
-    "text": "Five Aetna plans were picked Wednesday with one subsidy for everyone. Paul settles the amount with Andy before today's 12:30 Paychex call; at least seven sign-ups are needed."
+    "text": "Paychex put names on the wrong accounts, which holds up the five-day open enrollment. Paul chases the fix; Kristen and Nirmala send packets and set an information call."
    },
    {
     "name": "Finance role",
-    "text": "KP writes the role requirements by 11/27 for December interviews. Nirmala wants a decision on her own arrangement; KP raises it with Andy and Paul today."
+    "text": "KP writes the role requirements by 11/27 for December interviews. Nirmala still awaits an answer on her own arrangement, due from KP by Tuesday 11/24."
    },
    {
     "name": "Winter space and schedule",
-    "text": "Leanne's draft practice schedule was due Thursday and goes out Monday 11/23. Little Red times, Grace Church and the futsal spaces are open; KP speaks to Jesse today at 3:00."
+    "text": "Friday's futsal schedule puts most teams at Immaculate Conception, so PS 191 and Stephen Gaynor may drop. Leanne's practice schedule goes out Monday 11/23."
    }
   ],
   "waitingLong": []

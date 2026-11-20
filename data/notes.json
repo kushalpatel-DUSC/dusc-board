@@ -722,6 +722,71 @@
   "title": "Finance Weekly — Nov 2 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit"
  },
+ "futsal-26-27": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "jesse-bpc-outdoor-dmitryi",
+    "note": null,
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to ask Dmitryi whether the Battery Park City outdoor space was applied for, copying KP"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "jesse-forward-nypf-details",
+    "note": "The note names no sender; Jessie runs the futsal program.",
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to forward the NY Premier Futsal details to Malorie, KP and Finance"
+   }
+  ],
+  "area": "Scheduling",
+  "date": "2026-11-20",
+  "decisions": [
+   "Move GA U14 II to Thursday evenings in the Immaculate Conception Ballroom, 6–8pm.",
+   "Stephen Gaynor does not need to be agreed if GA U14 II takes Thursdays.",
+   "Girls U11 take Friday night in the Ballroom."
+  ],
+  "fileId": "1o8BhrQnW44RvUU3NYCB5uo6R5IDtGY9mnYE7KLZJ0bw",
+  "keyPoints": [
+   "Girls U9 and U10 Blue train Mondays 5:00–6:30 at Immaculate Conception.",
+   "Boys U9 and U10 EDP train Wednesdays 5:00–6:30; their time is built in at 28 Liberty.",
+   "The Ballroom covers Wednesday 6:30–8:00, Girls U14 on Thursday and Girls U11 on Friday, 6–8pm.",
+   "PS 191 and Stephen Gaynor show as not used; BMCC, Roosevelt Island and Pier 40 are unfilled.",
+   "No rentals needed January 4, 15, 18 or February 12, 15."
+  ],
+  "kind": "Planning notes",
+  "modified": "2026-11-20T20:42:28.813Z",
+  "openQuestions": [
+   "Did anyone apply for the Battery Park City outdoor space?",
+   "Is PS 191 on Mondays dropped altogether?",
+   "Roosevelt Island is still to be decided."
+  ],
+  "summary": "Sample weeknight futsal schedule for January and February from Friday's call with Jessie. Most teams fit at Immaculate Conception on East 13th Street, so PS 191 and Stephen Gaynor may not be needed.",
+  "title": "Futsal 26-27 — sample winter schedule",
+  "url": "https://docs.google.com/document/d/1o8BhrQnW44RvUU3NYCB5uo6R5IDtGY9mnYE7KLZJ0bw/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "futsal-scratch-nov20": {
+  "actions": [],
+  "area": "Scheduling",
+  "date": "2026-11-20",
+  "decisions": [],
+  "fileId": "1XMRhLV3mudzyW1Hi66OOxQIBq_ivQtNxG4_ULoNzFVw",
+  "keyPoints": [
+   "Boys U9 and U10 EDP do not need weekend futsal time."
+  ],
+  "kind": "Scratch notes",
+  "modified": "2026-11-20T20:04:19.509Z",
+  "openQuestions": [],
+  "summary": "One line from Friday's futsal call: the Boys U9 and U10 EDP teams do not need weekend time.",
+  "title": "Futsal call — scratch note (Nov 20)",
+  "url": "https://docs.google.com/document/d/1XMRhLV3mudzyW1Hi66OOxQIBq_ivQtNxG4_ULoNzFVw/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "health-plan-shortlist-nov18": {
   "actions": [],
   "area": "People",
@@ -2023,6 +2088,87 @@
   "summary": "First weekly call with Andy and Paul. The payout report now ties to QuickBooks; what matters now is the healthcare sign-up threshold and KP's list of data and audit follow-ups.",
   "title": "Weekly Finance Call Andy+Paul — Nov 13 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "weekly-finance-call-2026-11-20": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-12-08",
+    "id": "paul-forecast-dec8",
+    "note": "The whole group owns it; Andy asked Paul to lead.",
+    "owner": "Paul",
+    "raised": "2026-11-20",
+    "text": "Paul to lead a simplified club financial forecast and performance summary for the December 8 board meeting, with KP and Andy"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-24",
+    "id": "kristen-benefits-packets-call",
+    "note": null,
+    "owner": "Kristen",
+    "raised": "2026-11-20",
+    "text": "Kristen and Nirmala to send the benefits enrollment packets and schedule a benefits information call for early next week"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "paul-paychex-account-errors",
+    "note": null,
+    "owner": "Paul",
+    "raised": "2026-11-20",
+    "text": "Paul to get Paychex to fix the account errors so the five plans can be entered and open enrollment can start, and keep the group updated"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "andy-it-security-contact",
+    "note": null,
+    "owner": "Andy",
+    "raised": "2026-11-20",
+    "text": "Andy to connect KP with the IT contact who has helped DUSC with security questions"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "leanne-winter-ga-numbers",
+    "note": "KP asked her; winter registration revenue looks well down.",
+    "owner": "Leanne",
+    "raised": "2026-11-20",
+    "text": "Leanne to clean up and clarify the expected winter Girls Academy showcase registration numbers"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-20",
+  "decisions": [
+   "Prepare a simplified financial forecast and performance summary for the Dec 8 board meeting; Paul leads.",
+   "KP and Kyle set travel spending guidelines for winter showcase and MLS Next Fest after Kyle returns 11/29.",
+   "Regroup on Wednesday 11/25 at 1:30, before Thanksgiving.",
+   "Verify Claude data security before DUSC commits to nonprofit team seats."
+  ],
+  "fileId": "1RKWNOsV9DTHMCvXY2pgoVWp8VBQi8r--2_E_cIp1PJk",
+  "keyPoints": [
+   "Academy deficit was $287,000 through 11/13 and could reach $360,000–$370,000 by January.",
+   "Andy sees a total deficit near $500,000 against $1.5 million of reserves at the start of the year.",
+   "Camps, classes and Rec are a couple of thousand dollars ahead of budget for the fall.",
+   "The audit has four items left; Nirmala reviews with the auditors Monday.",
+   "Paychex account errors must be fixed before the five plans go in and the five-day enrollment opens."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-20T20:04:48.548Z",
+  "openQuestions": [
+   "Should the $50,000 holiday bonus budget go ahead given the deficit?",
+   "Can DUSC raise its health contribution through Paychex if sign-ups fall short?",
+   "Nirmala's arrangement is not in the notes — was it raised?",
+   "How many players does each Academy age group still need?"
+  ],
+  "summary": "Friday call with Andy and Paul. Academy and D-League income is $250,000–$300,000 behind budget, so the board needs a simple forecast on Dec 8 and KP owes several written analyses.",
+  "title": "Weekly Finance Call Andy+Paul — Nov 20 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1RKWNOsV9DTHMCvXY2pgoVWp8VBQi8r--2_E_cIp1PJk/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "winter-futsal": {
   "actions": [
