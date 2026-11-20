@@ -995,5 +995,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882395505205246466",
   "updatedAt": "2026-11-20T17:12:00Z",
   "userEdited": false
+ },
+ "1a1fae4a6d9f55d3": {
+  "area": "Programs",
+  "ask": "Review the deck and run the numbers on what the partnership would cost DUSC, then go back to Jason.",
+  "cardId": null,
+  "createdAt": "2026-11-20T23:06:38Z",
+  "date": "2026-11-20T21:37:10Z",
+  "due": null,
+  "from": "Jason Ortega",
+  "gist": "After Thursday's meeting, Jason Ortega at NYCFC sent the partnership deck link and an example of the experiences and group ticket costs for a new partner, for the 2027 spring season Youth Soccer Partnership.",
+  "kind": "action",
+  "status": "open",
+  "subject": "NYCFC Youth Soccer Partnership Link",
+  "threadId": "1a1fae4a6d9f55d3",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882414803954128339",
+  "updatedAt": "2026-11-20T23:06:38Z",
+  "userEdited": false
  }
 }

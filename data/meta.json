@@ -1,14 +1,14 @@
 {
  "inbox": {
-  "added": 0,
-  "cardsAdded": 0,
+  "added": 1,
+  "cardsAdded": 2,
   "cleared": 0,
-  "flagged": 13,
-  "lastRun": "2026-11-20T21:06:22Z",
+  "flagged": 14,
+  "lastRun": "2026-11-20T23:06:38Z",
   "lastRunStatus": "ok (one open item's thread, the NYS Dept. of Labor one, could not be read: 'The caller does not have permission'; left open)",
   "meetingsChanged": 0,
   "meetingsProcessed": 1,
-  "scanned": 27
+  "scanned": 33
  },
  "sync": {
   "actionsAdded": 7,

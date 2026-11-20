@@ -787,6 +787,85 @@
   "title": "Futsal call — scratch note (Nov 20)",
   "url": "https://docs.google.com/document/d/1XMRhLV3mudzyW1Hi66OOxQIBq_ivQtNxG4_ULoNzFVw/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "futsal-spaces-2026-11-20": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "jesse-paul-fox-second-teams",
+    "note": "Aimed at players beyond the top teams, middle school girls in particular.",
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to meet Paul Fox after Thanksgiving about building programming for second teams"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "jesse-buy-futsal-goals",
+    "note": "About $400 was approved on the call.",
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to find and buy portable futsal goals and arrange the payment with Malorie"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-27",
+    "id": "jesse-winter-program-calendar",
+    "note": null,
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to update the winter program calendar with the new schedule and send it for review by next week"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "jesse-weekly-futsal-space-info",
+    "note": null,
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to send KP the weekly futsal space information"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-27",
+    "id": "jesse-futsal-program-proposal",
+    "note": "Pricing for the U14 supplemental training depends on confirmed space and cost.",
+    "owner": "Jesse",
+    "raised": "2026-11-20",
+    "text": "Jessie to send KP the overall vision, schedule, budget and pricing for the futsal program by next week"
+   }
+  ],
+  "area": "Scheduling",
+  "date": "2026-11-20",
+  "decisions": [
+   "Boys U9 and U10 EDP teams get no weekend space in January and February.",
+   "Girls U9 and U10 Blue train Mondays and Wednesdays, 5:00–6:30pm.",
+   "Girls U14 take Thursday nights and Girls U11 take Friday nights in the Immaculate Conception ballroom."
+  ],
+  "fileId": "1cCHfE4-6xwNe9LCiBz5G8K-B_hyQ2ve_OxOmSSwkiYE",
+  "keyPoints": [
+   "Boys U9 and U10 EDP need no weekend space in January and February because they play in the NY Premier Futsal league.",
+   "The NY Premier Futsal registration replaces earlier tournament spending of about $1,500–$1,600, so it is budget-neutral.",
+   "Immaculate Conception has two usable spaces plus a ballroom open until 11pm on weeknights.",
+   "The PS 190 option is dropped; the facility stopped answering follow-ups.",
+   "Last winter's exit survey showed 85–86% of players interested in year-round play.",
+   "Felipe coaches the Girls U14 futsal program and Jessie the Girls U11."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-20T21:33:41.390Z",
+  "openQuestions": [
+   "Was the Battery Park City winter permit applied for?",
+   "What will the U14 supplemental winter training cost once the space is confirmed?"
+  ],
+  "summary": "KP and Jessie settled the winter futsal spaces for January and February. Most training moves to Immaculate Conception, which removes the need for Stephen Gaynor, and KP is to secure the gym and ballroom there. Jessie owes a program proposal with schedule, budget and pricing by next week.",
+  "title": "Futsal Spaces — Nov 20 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1cCHfE4-6xwNe9LCiBz5G8K-B_hyQ2ve_OxOmSSwkiYE/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "health-plan-shortlist-nov18": {
   "actions": [],
   "area": "People",
