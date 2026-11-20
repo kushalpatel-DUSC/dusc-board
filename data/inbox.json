@@ -961,5 +961,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882312691759597852",
   "updatedAt": "2026-11-19T19:06:14Z",
   "userEdited": false
+ },
+ "1a1f6a710cbf41f1": {
+  "area": "Programs",
+  "ask": "Confirm Monday 11/23 at 1:45pm with Alex and Jason and send the invite.",
+  "cardId": null,
+  "createdAt": "2026-11-20T15:07:00Z",
+  "date": "2026-11-20T14:56:25Z",
+  "due": "2026-11-23",
+  "from": "Jason Orban",
+  "gist": "You asked Alex and Jason to meet Monday at 1:30pm to confirm the roster registration data. Both replied that they can do 1:45pm instead.",
+  "kind": "reply",
+  "status": "open",
+  "subject": "Roster Registration Breakdowns",
+  "threadId": "1a1f6a710cbf41f1",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r-4276165153904391014",
+  "updatedAt": "2026-11-20T15:07:00Z",
+  "userEdited": false
  }
 }

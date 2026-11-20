@@ -1424,6 +1424,10 @@
    {
     "email": "paul.sowell@dusc.net",
     "name": "Paul Sowell"
+   },
+   {
+    "email": "andrew.scruton@fticonsulting.com",
+    "name": "Andrew Scruton (FTI)"
    }
   ],
   "end": "2026-11-20T15:00:00-05:00",
@@ -1460,7 +1464,7 @@
   "start": "2026-11-20T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-20T10:48:14Z",
+  "updatedAt": "2026-11-20T15:07:00Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261127T190000Z": {
