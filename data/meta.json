@@ -3,12 +3,12 @@
   "added": 1,
   "cardsAdded": 0,
   "cleared": 0,
-  "flagged": 12,
-  "lastRun": "2026-11-20T15:07:00Z",
+  "flagged": 13,
+  "lastRun": "2026-11-20T17:12:00Z",
   "lastRunStatus": "ok (one open item's thread, the NYS Dept. of Labor one, could not be read: 'The caller does not have permission'; left open)",
-  "meetingsChanged": 1,
+  "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 25
+  "scanned": 29
  },
  "sync": {
   "actionsAdded": 0,
