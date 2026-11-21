@@ -1029,5 +1029,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882427811622816020",
   "updatedAt": "2026-11-21T01:06:03Z",
   "userEdited": false
+ },
+ "1a1fc3afe2e4ad4d": {
+  "area": "Programs",
+  "ask": "Tell Mal and Oumou whether to send the standard media-release reply or allow an opt-out of the photo/video clauses.",
+  "cardId": null,
+  "createdAt": "2026-11-21T11:05:46Z",
+  "date": "2026-11-21T03:51:15Z",
+  "due": null,
+  "from": "Malorie Warents",
+  "gist": "A Rec parent wants to register for the winter league but opt out of the photo and video clauses in the DUSC waiver. Oumou asked Mal, who shared the standard reply (best effort, no guarantee, waiver cannot be amended individually) and asks what you think.",
+  "kind": "decision",
+  "status": "open",
+  "subject": "Trying to register for winter rec league on Saturdays",
+  "threadId": "1a1fc3afe2e4ad4d",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882438329457487181",
+  "updatedAt": "2026-11-21T11:05:46Z",
+  "userEdited": false
  }
 }
