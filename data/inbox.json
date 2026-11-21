@@ -1012,5 +1012,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882414803954128339",
   "updatedAt": "2026-11-20T23:06:38Z",
   "userEdited": false
+ },
+ "1a1fba1f03180914": {
+  "area": "Programs",
+  "ask": "Tell Jessie whether the club buys the goals directly or she buys them and expenses them back.",
+  "cardId": null,
+  "createdAt": "2026-11-21T01:06:03Z",
+  "date": "2026-11-21T01:04:05Z",
+  "due": "2026-12-12",
+  "from": "Jessie Cordray",
+  "gist": "Following the Futsal Spaces call, Jessie sent the Amazon link for the Kwik Goal futsal goals she wants to buy. They have to arrive before league play starts on December 12-13.",
+  "kind": "decision",
+  "status": "open",
+  "subject": "Kwik Goal Futsal Goals",
+  "threadId": "1a1fba1f03180914",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882427811622816020",
+  "updatedAt": "2026-11-21T01:06:03Z",
+  "userEdited": false
  }
 }
