@@ -1794,6 +1794,28 @@
   "waitingOn": null,
   "waitingSince": null
  },
+ "roster-file-link-andy": {
+  "area": "Finance",
+  "createdAt": "2026-11-21T13:06:58Z",
+  "doneAt": null,
+  "due": null,
+  "id": "roster-file-link-andy",
+  "note": "Andy asked on Sat 11/21, after Friday's call: he wants to see how the data is presented in the file behind the \"Roster Calc\" tab, including the dual-rostered players.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "raised": "2026-11-21",
+  "source": "Email: Board Finances Report",
+  "sourceKind": "email",
+  "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r2957386278553151711",
+  "status": "todo",
+  "title": "Send Andy the link to the current Academy/D League roster file that Alex and Jason work from (the one Simon keeps up to date)",
+  "updatedAt": "2026-11-21T13:06:58Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "select-teams-summer26-mtg": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
