@@ -11,7 +11,7 @@
   "scanned": 32
  },
  "sync": {
-  "actionsAdded": 7,
+  "actionsAdded": 0,
   "brief": [
    {
     "label": "Mon 11/23",
@@ -23,7 +23,7 @@
    },
    {
     "label": "Tue 11/24",
-    "text": "Answer Mal on moving the Ops call to Tuesday 1:00, because Wednesday 1:30 now clashes with the Andy and Paul regroup."
+    "text": "Answer Mal on moving the Ops call to Tuesday 1:00, because Wednesday 1:30 clashes with the Andy and Paul regroup."
    },
    {
     "label": "Tue 11/24",
@@ -31,10 +31,10 @@
    },
    {
     "label": "This week",
-    "text": "Start the GA showcase overrun report due Dec 1 and the forecast for the Dec 8 board meeting."
+    "text": "Secure the gym and ballroom at Immaculate Conception, and start the GA showcase overrun report due Dec 1."
    }
   ],
-  "cardsAdded": 5,
+  "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
    {
@@ -86,6 +86,11 @@
     "date": "2026-11-27",
     "label": "Finance role requirements written (two weeks from 11/13)",
     "who": "KP"
+   },
+   {
+    "date": "2026-11-27",
+    "label": "Futsal program proposal (vision, schedule, budget, pricing) and updated winter program calendar sent to KP",
+    "who": "Jesse"
    },
    {
     "date": "2026-11-29",
@@ -159,10 +164,10 @@
    }
   ],
   "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul want the audit status Monday, a regroup Wednesday at 1:30 and a forecast for the Dec 8 board meeting.",
-  "lastRun": "2026-11-20T20:50:58Z",
+  "lastRun": "2026-11-21T10:48:21Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
-  "notesScanned": 41,
+  "notesScanned": 42,
   "themes": [
    {
     "name": "Deficit and forecast",
@@ -186,7 +191,7 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Friday's futsal schedule puts most teams at Immaculate Conception, so PS 191 and Stephen Gaynor may drop. Leanne's practice schedule goes out Monday 11/23."
+    "text": "Most winter futsal moves to Immaculate Conception; PS 190 is dropped and Stephen Gaynor is not needed. KP secures the gym and ballroom; Leanne's practice schedule goes out Monday 11/23."
    }
   ],
   "waitingLong": []
