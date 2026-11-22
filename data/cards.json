@@ -2175,5 +2175,25 @@
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
+ },
+ "c-mwr67yeu-r35oa": {
+  "title": "Look at Winter Practice Schedule",
+  "owner": "KP",
+  "area": null,
+  "due": "2026-11-22",
+  "raised": "2026-11-22",
+  "priority": "urgent",
+  "note": null,
+  "status": "todo",
+  "updatedAt": "2026-11-22T01:41:20.502Z",
+  "userEdited": true,
+  "pinned": false,
+  "pinnedAt": null,
+  "doneAt": null,
+  "waitingOn": null,
+  "waitingSince": null,
+  "createdAt": "2026-11-22T01:41:20.502Z",
+  "source": "Added by hand",
+  "sourceUrl": null
  }
 }
