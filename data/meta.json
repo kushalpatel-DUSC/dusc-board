@@ -38,6 +38,11 @@
   "cardsCompleted": 0,
   "deadlines": [
    {
+    "date": "2026-11-22",
+    "label": "Winter practice schedule looked over",
+    "who": "KP"
+   },
+   {
     "date": "2026-11-23",
     "label": "Audit status from Nirmala after her auditor call, reported to Andy and Paul",
     "who": "KP, Nirmala"
@@ -164,10 +169,10 @@
    }
   ],
   "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul want the audit status Monday, a regroup Wednesday at 1:30 and a forecast for the Dec 8 board meeting.",
-  "lastRun": "2026-11-22T16:47:37Z",
+  "lastRun": "2026-11-22T20:47:34Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
-  "notesScanned": 36,
+  "notesScanned": 42,
   "themes": [
    {
     "name": "Deficit and forecast",
