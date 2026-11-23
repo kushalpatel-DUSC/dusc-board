@@ -85,17 +85,17 @@
   "agendaUpdatedAt": null,
   "attendees": [
    {
-    "email": "ryan@infinityapex.pro",
-    "name": "Ryan Mitchell (Infinity Apex)"
-   },
-   {
     "email": "wflanagan@callplaybook.com",
     "name": "W. Flanagan (Playbook)"
+   },
+   {
+    "email": "ryan@infinityapex.pro",
+    "name": "Ryan Mitchell (Infinity Apex)"
    }
   ],
   "end": "2026-11-23T16:45:00-05:00",
   "eventId": "110q1hj6cqffrmefouio7jvcej",
-  "htmlLink": "https://www.google.com/calendar/event?eid=MTEwcTFoajZjcWZmcm1lZm91aW83anZjZWoga3VzaGFsLnBhdGVsQGR1c2MubmV0",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MTEwcTFoajZjcWZmcm1lZm91aW83anZjZWoga3VzaGFsLnBhdGVsQGR1c2MubmV0&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/yqc-fxxo-vwv",
   "prep": {
    "basedOn": {
@@ -119,15 +119,15 @@
     "Insurance / COI and access requirements for the building",
     "Next step and who else from DUSC needs to see it (Andy; Kyle back 11/29)"
    ],
-   "summary": "Ryan Mitchell's 30-minute Playbook AI demo, tied to the former Immaculate Conception gym. It sits on top of Finance Weekly at 1:30, and the Roster Check with Jason and Alex starts at 1:45.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "summary": "Ryan Mitchell's 30-minute Playbook AI demo at 4:15 today, tied to the former Immaculate Conception gym. Pin down the winter hours, the rate, and whether the space depends on buying the tech.",
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-23T16:15:00-05:00",
   "status": "upcoming",
   "title": "DUSC X Playbook AI Demo",
-  "updatedAt": "2026-11-23T19:06:36Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "17imubto8an2sfq74md7nln31s": {
@@ -377,7 +377,7 @@
   ],
   "end": "2026-11-24T14:30:00-05:00",
   "eventId": "3lmv8ac6ne8fg7slprqv293vkr_20261124T183000Z",
-  "htmlLink": "https://www.google.com/calendar/event?eid=M2xtdjhhYzZuZThmZzdzbHBycXYyOTN2a3JfMjAyNjExMjRUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M2xtdjhhYzZuZThmZzdzbHBycXYyOTN2a3JfMjAyNjExMjRUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
   "prep": {
    "basedOn": {
@@ -402,14 +402,14 @@
     "Benefits: enrollment packets, information call and the Paychex account errors"
    ],
    "summary": "Nirmala's Tuesday hour in Thanksgiving week. The October package is due, you owe her an answer on her arrangement, and Wednesday's regroup with Andy and Paul needs the numbers.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-11-24T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "3lmv8ac6ne8fg7slprqv293vkr_20261201T183000Z": {
@@ -448,14 +448,14 @@
     "W9s and the 1099 spreadsheet (due Jan 15)"
    ],
    "summary": "Nirmala's Tuesday hour, a week before the Dec 8 board meeting and the day the GA showcase report is due. Check the October package is final and the forecast numbers hold.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-12-01T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "3spidcv3apv6c4nbe6v6ircb0n": {
@@ -830,7 +830,7 @@
   ],
   "end": "2026-11-25T14:30:00-05:00",
   "eventId": "606at15gvqj7ouob03ih8mg854_20261125T183000Z",
-  "htmlLink": "https://www.google.com/calendar/event?eid=NjA2YXQxNWd2cWo3b3VvYjAzaWg4bWc4NTRfMjAyNjExMjVUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NjA2YXQxNWd2cWo3b3VvYjAzaWg4bWc4NTRfMjAyNjExMjVUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/ffc-qwqh-avi",
   "prep": {
    "basedOn": {
@@ -855,14 +855,14 @@
     "Mal: contracts folder, class history data, and the SFA sheet fixes from 11/19"
    ],
    "summary": "Day before Thanksgiving, and now at the same time as the Andy and Paul regroup at 1:30. Mal has asked to move it to Tuesday 11/24 at 1:00 — say yes.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-11-25T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261202T183000Z": {
@@ -905,14 +905,14 @@
     "Dec 8 board meeting: what you will say about board involvement in operations"
    ],
    "summary": "First Ops call after Thanksgiving, with the Academy outdoors on the HRPT permit. Check showcase travel against the new spending guidelines, the Dec 5–6 Pier 40 slot and the Club Calendar.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-12-02T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261117T150000Z": {
@@ -1004,6 +1004,10 @@
     "name": "Gustavo Palomino"
    },
    {
+    "email": "calendar@dusc.net",
+    "name": "Calendar"
+   },
+   {
     "email": "oumou.toure@dusc.net",
     "name": "Oumou Toure"
    },
@@ -1042,7 +1046,7 @@
   ],
   "end": "2026-11-24T10:30:00-05:00",
   "eventId": "68tduhijb4iokfbtn99ujkhvku_20261124T150000Z",
-  "htmlLink": "https://www.google.com/calendar/event?eid=Njh0ZHVoaWpiNGlva2ZidG45OXVqa2h2a3VfMjAyNjExMjRUMTUwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Njh0ZHVoaWpiNGlva2ZidG45OXVqa2h2a3VfMjAyNjExMjRUMTUwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/hwp-kgiw-nrk",
   "prep": {
    "basedOn": {
@@ -1066,14 +1070,14 @@
     "Coach pipeline: college assistants and the coach job description"
    ],
    "summary": "Tuesday 10:00 in Thanksgiving week. Fall camps, classes and Rec are slightly ahead of budget; winter numbers depend on the registration emails going out.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261124T150000",
   "seriesKey": "community-rec",
   "start": "2026-11-24T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261201T150000Z": {
@@ -1087,6 +1091,10 @@
    {
     "email": "gustavo.palomino@dusc.net",
     "name": "Gustavo Palomino"
+   },
+   {
+    "email": "calendar@dusc.net",
+    "name": "Calendar"
    },
    {
     "email": "oumou.toure@dusc.net",
@@ -1150,14 +1158,14 @@
     "Your Rec program review — suggestions back to Oumou, Gustavo and Paul Fox"
    ],
    "summary": "First Rec/Class/Camp call after Thanksgiving, with winter Rec five weeks out. Check winter registration numbers and where the Summer Camp 2027 plan landed.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261124T150000",
   "seriesKey": "community-rec",
   "start": "2026-12-01T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "6bilrcbmht23o43aqm033ongef": {
@@ -1352,7 +1360,7 @@
     "url": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "No notes yet from Mon 11/23 — this is from 11/16.",
+    "The Mon 11/23 call came off the calendar, so this is from 11/16.",
     "Decided 11/16: Nirmala checks KP's budget spreadsheet; KP takes on chasing missing receipts.",
     "KP: find out how to get the SOC report the auditors need.",
     "KP: add the JetBlue showcase flight costs, about $40,000, to the financial records.",
@@ -1368,14 +1376,60 @@
     "Finance role: requirements written 11/27, December interviews"
    ],
    "summary": "First Monday call with Nirmala after Thanksgiving, eight days before the Dec 8 board meeting. Settle the forecast numbers, the audit close-out and tomorrow's GA showcase report.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-30T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
+  "userEdited": false
+ },
+ "6nc6i1n4kcjaak7pfr2nv8f5r5_20261207T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-12-07T14:00:00-05:00",
+  "eventId": "6nc6i1n4kcjaak7pfr2nv8f5r5_20261207T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Nm5jNmkxbjRrY2phYWs3cGZyMm52OGY1cjVfMjAyNjEyMDdUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/mki-khav-mfs",
+  "prep": {
+   "basedOn": {
+    "date": "2026-11-16",
+    "title": "Finance Weekly — Nov 16 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347"
+   },
+   "highlights": [
+    "The group also meets Mon 11/30; no notes from that yet — this is from 11/16.",
+    "Decided 11/16: Nirmala checks KP's budget spreadsheet; KP takes on chasing missing receipts.",
+    "KP: find out how to get the SOC report the auditors need.",
+    "KP: add the JetBlue showcase flight costs, about $40,000, to the financial records.",
+    "Friday 11/20: the board gets a simple forecast on Dec 8, with Paul leading."
+   ],
+   "oneLine": "Board meets tomorrow, Dec 8: check the forecast numbers and the audit with Nirmala.",
+   "suggested": [
+    "Dec 8 board forecast: final numbers and anything Paul still needs",
+    "Audit: draft reviewed, open items and the SOC report",
+    "GA showcase overrun report (due Dec 1): follow-up questions",
+    "Open enrollment: sign-ups against the 7 needed",
+    "Finance role: requirements and December interviews",
+    "W9s and the 1099 spreadsheet (due Jan 15)"
+   ],
+   "summary": "Monday half-hour with Nirmala, the day before the Dec 8 board meeting. Make sure the forecast numbers and the audit are ready to present.",
+   "updatedAt": "2026-11-23T20:49:17Z"
+  },
+  "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
+  "seriesKey": "finance-weekly",
+  "start": "2026-12-07T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Finance Weekly",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261113T190000Z": {
@@ -1489,7 +1543,7 @@
   ],
   "end": "2026-11-27T15:00:00-05:00",
   "eventId": "70lljkejnn3us5i0v89naed5q0_20261127T190000Z",
-  "htmlLink": "https://www.google.com/calendar/event?eid=NzBsbGprZWpubjN1czVpMHY4OW5hZWQ1cTBfMjAyNjExMjdUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NzBsbGprZWpubjN1czVpMHY4OW5hZWQ1cTBfMjAyNjExMjdUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/fvb-sqeu-czd",
   "prep": {
    "basedOn": {
@@ -1513,14 +1567,14 @@
     "GA showcase overrun report due Dec 1"
    ],
    "summary": "Still on the calendar for the day after Thanksgiving, though the group agreed to regroup Wednesday 11/25 instead — cancel it or confirm. Finance role requirements are due today.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-11-27T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261204T190000Z": {
@@ -1563,14 +1617,14 @@
     "Finance role: candidates and December interviews"
    ],
    "summary": "Last Friday call before the Dec 8 board meeting. Lock the financial forecast and performance summary, and confirm the audit is ready to present.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-12-04T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "714f1ou8ft0mirjipdqn9ijlhg": {
@@ -1651,7 +1705,7 @@
    "highlights": [
     "Decided: a simplified financial forecast and performance summary goes to the Dec 8 board meeting; Paul leads.",
     "KP: get the audit status from Nirmala Monday and report back; chase her for the October figures.",
-    "KP: go through Academy roster gaps with Jason and Alex (Roster Check, Mon 11/23 at 1:45); check Claude data security for Andy.",
+    "KP: go through Academy roster gaps with Jason and Alex (Roster Check, Mon 11/23 at 2:00); check Claude data security for Andy.",
     "KP: deliver the GA showcase overrun analysis by Dec 1; set travel spending guidelines with Kyle after 11/29.",
     "Kristen and Nirmala: send benefits enrollment packets and schedule an information call early this week."
    ],
@@ -1659,20 +1713,20 @@
    "suggested": [
     "Audit: what Nirmala's Monday auditor call settled and what is left of the four items",
     "October figures and the forecast: Academy deficit of $287,000 through 11/13, projected to January",
-    "Roster gaps: what Jason and Alex said on Monday, by age group; roster file link sent to Andy?",
+    "Roster gaps: what Jason and Alex said at Monday's Roster Check, by age group; roster file link sent to Andy?",
     "Healthcare: Paychex account errors fixed? Enrollment window, sign-ups against the 7 needed",
     "Holiday bonus budget: decision needed before December",
     "Nirmala's arrangement and the finance role requirements due 11/27"
    ],
    "summary": "The pre-Thanksgiving regroup agreed on Friday. Bring the audit status, the October figures and a first cut of the forecast for the Dec 8 board meeting.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": null,
   "seriesKey": "board-checkins",
   "start": "2026-11-25T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Catch Up - Andy + Paul",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "7r28o2dpnob574e2ujfottdi2l": {
@@ -2082,14 +2136,14 @@
     "Battery Park City outdoor space: was it applied for?"
    ],
    "summary": "Fields Committee hour, four days before the board meeting. Show where winter space stands and what it costs, now that field costs are part of the deficit.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-12-04T12:00:00-05:00",
   "status": "upcoming",
   "title": "Fields Committee",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "dl8u6u3aa631dog9ncdpbfkrbk_20261109T190000Z": {
@@ -2233,14 +2287,58 @@
     "Board members stepping into day-to-day scheduling, before the Dec 8 board meeting"
    ],
    "summary": "First 1:1 after Kyle returns. Hand back what you covered for three weeks, and start the travel spending guidelines Andy and Paul asked for on 11/20.",
-   "updatedAt": "2026-11-23T16:47:43Z"
+   "updatedAt": "2026-11-23T20:49:17Z"
   },
   "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
   "seriesKey": "kyle-1on1",
   "start": "2026-11-30T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-23T16:47:43Z",
+  "updatedAt": "2026-11-23T20:49:17Z",
+  "userEdited": false
+ },
+ "dl8u6u3aa631dog9ncdpbfkrbk_20261207T190000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "kyle.hagenburger@dusc.net",
+    "name": "Kyle Hagenburger"
+   }
+  ],
+  "end": "2026-12-07T14:40:00-05:00",
+  "eventId": "dl8u6u3aa631dog9ncdpbfkrbk_20261207T190000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZGw4dTZ1M2FhNjMxZG9nOW5jZHBiZmtyYmtfMjAyNjEyMDdUMTkwMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/fhc-dsea-vye",
+  "prep": {
+   "basedOn": {
+    "date": "2026-11-09",
+    "title": "Kyle / Kushal 1:1",
+    "url": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit"
+   },
+   "highlights": [
+    "The 1:1 on Mon 11/30 comes first; no notes from that yet — this is from 11/9.",
+    "Kyle: Soccer.com deck, the future DOC decision and the MLS Next Coordinator role were left for his return.",
+    "From the 11/20 finance call — KP and Kyle: set travel spending guidelines and new per diem procedures.",
+    "KP: raise board involvement in day-to-day operations at the Dec 8 board meeting."
+   ],
+   "oneLine": "MLS Next Fest runs Dec 1–13: confirm the travel spending guidelines are being followed.",
+   "suggested": [
+    "Travel spending guidelines: in place for MLS Next Fest and the winter showcase?",
+    "Per diem reimbursement procedures before the spring season",
+    "Dec 8 board meeting: the forecast, roster gaps and board involvement in operations",
+    "Future DOC, the MLS Next Coordinator role and the Soccer.com deck",
+    "Staff Handbook 2027: parental leave and the full-time pay rule"
+   ],
+   "summary": "Second 1:1 after Kyle's return, the day before the Dec 8 board meeting. Check the travel spending guidelines are in place for MLS Next Fest and agree the board message.",
+   "updatedAt": "2026-11-23T20:49:17Z"
+  },
+  "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
+  "seriesKey": "kyle-1on1",
+  "start": "2026-12-07T14:00:00-05:00",
+  "status": "upcoming",
+  "title": "Kyle/Kushal",
+  "updatedAt": "2026-11-23T20:49:17Z",
   "userEdited": false
  },
  "rpbhb8ms4t31m9grlqoiesqufk": {
