@@ -1066,19 +1066,19 @@
  },
  "1a2099f4ff2e3460": {
   "area": "Finance",
-  "ask": "Reply to Nirmala confirming whether 1:15pm Monday works for the audit draft review call, and review the draft once it arrives.",
+  "ask": "Review the audit draft when it arrives and accept Nirmala's invite for the Monday 1:15pm call; it overlaps your 1:30 Finance Weekly with her that day.",
   "cardId": null,
   "createdAt": "2026-11-23T19:06:36Z",
-  "date": "2026-11-23T18:47:28Z",
-  "due": null,
+  "date": "2026-11-23T20:26:17Z",
+  "due": "2026-11-30",
   "from": "Nirmala Singh",
-  "gist": "The auditors will send the FY 2025/26 audit draft by end of day Tuesday 11/24, and Nirmala is setting a review call that Robert (auditor) proposed for Monday between 11:00 and 3:00. Paul Sowell and Paul Fox can do after 1:00; you asked whether it is next Monday and offered 1:00, and Nirmala came back with 1:15pm.",
-  "kind": "reply",
+  "gist": "The auditors will send the FY 2025/26 audit draft by end of day Tuesday 11/24. The review call with the auditors is settling on Monday at 1:15pm (11/30 by context): Paul Fox agreed, Paul Sowell can do after 1:00, and Nirmala is sending the invite.",
+  "kind": "deadline",
   "status": "open",
   "subject": "FY 2025/2026 Audit Draft Review",
   "threadId": "1a2099f4ff2e3460",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882673921773155424",
-  "updatedAt": "2026-11-23T19:06:36Z",
+  "updatedAt": "2026-11-23T21:06:25Z",
   "userEdited": false
  }
 }
