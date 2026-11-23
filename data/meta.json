@@ -14,12 +14,12 @@
   "actionsAdded": 0,
   "brief": [
    {
-    "label": "Mon 11/23",
+    "label": "Today",
     "text": "Get the audit status from Nirmala after her auditor call and report it to Andy and Paul."
    },
    {
-    "label": "Mon 11/23",
-    "text": "Go through the Academy roster gaps with Jason and Alex; move the Playbook demo or Finance Weekly, both at 1:30."
+    "label": "Today",
+    "text": "Pick one of three overlapping meetings: Playbook demo and Finance Weekly at 1:30, Roster Check with Jason and Alex at 1:45."
    },
    {
     "label": "Tue 11/24",
@@ -38,18 +38,13 @@
   "cardsCompleted": 0,
   "deadlines": [
    {
-    "date": "2026-11-22",
-    "label": "Winter practice schedule looked over",
-    "who": "KP"
-   },
-   {
     "date": "2026-11-23",
     "label": "Audit status from Nirmala after her auditor call, reported to Andy and Paul",
     "who": "KP, Nirmala"
    },
    {
     "date": "2026-11-23",
-    "label": "Academy roster gaps reviewed with Jason and Alex (1:45 asked for)",
+    "label": "Academy roster gaps reviewed with Jason and Alex (Roster Check, 1:45)",
     "who": "KP"
    },
    {
@@ -168,10 +163,10 @@
     "who": "Ops"
    }
   ],
-  "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul want the audit status Monday, a regroup Wednesday at 1:30 and a forecast for the Dec 8 board meeting.",
-  "lastRun": "2026-11-22T20:47:34Z",
+  "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul want the audit status today, a regroup Wednesday at 1:30 and a forecast for the Dec 8 board meeting.",
+  "lastRun": "2026-11-23T10:49:05Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 14,
+  "meetingsRefreshed": 15,
   "notesScanned": 42,
   "themes": [
    {
@@ -180,11 +175,11 @@
    },
    {
     "name": "Audit and board",
-    "text": "Four audit items remain and Nirmala meets the auditors Monday. KP reports the status to Andy and Paul, and the GA showcase report is due Dec 1."
+    "text": "Four audit items remain and Nirmala meets the auditors today. KP reports the status to Andy and Paul, and the GA showcase report is due Dec 1."
    },
    {
     "name": "Rosters and travel costs",
-    "text": "The shortfall is player numbers by age group; KP meets Jason and Alex Monday and owes Andy the roster file link. KP and Kyle set travel spending and per diem rules after 11/29."
+    "text": "The shortfall is player numbers by age group; KP meets Jason and Alex today at 1:45 and owes Andy the roster file link. KP and Kyle set travel spending and per diem rules after 11/29."
    },
    {
     "name": "Healthcare",
@@ -196,7 +191,7 @@
    },
    {
     "name": "Winter space and schedule",
-    "text": "Most winter futsal moves to Immaculate Conception; PS 190 is dropped and Stephen Gaynor is not needed. KP secures the gym and ballroom; Leanne's practice schedule goes out Monday 11/23."
+    "text": "Most winter futsal moves to Immaculate Conception; PS 190 is dropped and Stephen Gaynor is not needed. KP secures the gym and ballroom; Leanne's practice schedule is due out today."
    }
   ],
   "waitingLong": []
