@@ -1046,5 +1046,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882438329457487181",
   "updatedAt": "2026-11-21T11:05:46Z",
   "userEdited": false
+ },
+ "1a20952a53b2943e": {
+  "area": "Systems",
+  "ask": "Send Mal your availability next week (week of 11/30) for the PlayMetrics call.",
+  "cardId": null,
+  "createdAt": "2026-11-23T17:07:11Z",
+  "date": "2026-11-23T16:52:09Z",
+  "due": null,
+  "from": "Malorie Warents",
+  "gist": "Mal is setting up a call with PlayMetrics next week and has asked you, Nirmala and Simon for availability.",
+  "kind": "reply",
+  "status": "open",
+  "subject": "Call With PM",
+  "threadId": "1a20952a53b2943e",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882668653266244670",
+  "updatedAt": "2026-11-23T17:07:11Z",
+  "userEdited": false
  }
 }
