@@ -216,6 +216,57 @@
   "updatedAt": "2026-11-09T10:52:54Z",
   "userEdited": false
  },
+ "1jie46erqtavlu5qmc5iordoin": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "andrew.scruton@dusc.net",
+    "name": "Andrew Scruton"
+   },
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   },
+   {
+    "email": "paulfox629@yahoo.com",
+    "name": "Paul Fox"
+   },
+   {
+    "email": "ccorace@edlcpa.com",
+    "name": "ccorace"
+   },
+   {
+    "email": "rsaxer@edlcpa.com",
+    "name": "rsaxer"
+   }
+  ],
+  "end": "2026-11-30T14:00:00-05:00",
+  "eventId": "1jie46erqtavlu5qmc5iordoin",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MWppZTQ2ZXJxdGF2bHU1cW1jNWlvcmRvaW4ga3VzaGFsLnBhdGVsQGR1c2MubmV0&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/sws-nhsh-tnc",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Audit draft: questions and corrections after reading it",
+    "The four open audit items and what is still needed to finish before the Dec 8 board meeting",
+    "PlayMetrics SOC report: how the auditors' request gets met",
+    "Contract Nirmala sent the auditor: does it meet the audit requirement?"
+   ],
+   "summary": "Nirmala's call with the auditors (EDL CPA), Andy, Paul Sowell and Paul Fox to go through the FY 2025/26 audit draft, which the auditors are due to send by end of day Tuesday 11/24. It overlaps your 1:30 Finance Weekly with Nirmala."
+  },
+  "recurringEventId": null,
+  "seriesKey": "board-checkins",
+  "start": "2026-11-30T13:00:00-05:00",
+  "status": "upcoming",
+  "title": "Audit draft review",
+  "updatedAt": "2026-11-23T23:06:18Z",
+  "userEdited": false
+ },
  "2t97cp99fcjmoimt1qscon68qm": {
   "agenda": [],
   "agendaUpdatedAt": null,
