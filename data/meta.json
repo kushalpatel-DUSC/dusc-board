@@ -1,14 +1,14 @@
 {
  "inbox": {
-  "added": 0,
+  "added": 1,
   "cardsAdded": 0,
-  "cleared": 1,
-  "flagged": 17,
-  "lastRun": "2026-11-24T13:07:46Z",
+  "cleared": 0,
+  "flagged": 18,
+  "lastRun": "2026-11-24T15:06:51Z",
   "lastRunStatus": "ok (two open items' threads, NYS Dept. of Labor and Kwik Goal Futsal Goals, could not be read: 'The caller does not have permission'; left open)",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 19
+  "scanned": 21
  },
  "sync": {
   "actionsAdded": 0,
