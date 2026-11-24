@@ -807,6 +807,23 @@
   "updatedAt": "2026-11-19T15:07:43Z",
   "userEdited": false
  },
+ "1a1d68f21eadcabd-1a20fc92088e2838": {
+  "area": "People",
+  "ask": "Read Jennifer's 5:59pm message and answer her question if it is yours, and give Paul the timing he asked for on enrollment, the staff email and the walkthrough call.",
+  "cardId": null,
+  "createdAt": "2026-11-24T23:10:08Z",
+  "date": "2026-11-24T22:59:23Z",
+  "due": null,
+  "from": "Jennifer James (Paychex)",
+  "gist": "New messages today on the health plans thread. Paul asked you, Nirmala and Kristen for timing: when open enrollment starts, when the email with plan descriptions goes out, and when the staff walkthrough call can be held. Paychex then wrote to all four of you that the Phase 1 portal should reopen Wednesday morning, with a follow-up question for the group.",
+  "kind": "reply",
+  "status": "open",
+  "subject": "Medical Plans",
+  "threadId": "1a1d68f21eadcabd",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881775608416815805",
+  "updatedAt": "2026-11-24T23:10:08Z",
+  "userEdited": false
+ },
  "1a1d87535a4cb0d7": {
   "area": "Systems",
   "ask": "Decide whether to upgrade the Netlify plan to resume production deploys or wait for the December 13 reset.",
@@ -1082,6 +1099,23 @@
   "updatedAt": "2026-11-24T23:06:03Z",
   "userEdited": false
  },
+ "1a20b934c2a8126e": {
+  "area": "Finance",
+  "ask": "Nothing needed unless you want the withdrawal handled differently; the forwarded email from Mal has the details.",
+  "cardId": null,
+  "createdAt": "2026-11-24T23:10:08Z",
+  "date": "2026-11-24T13:22:56Z",
+  "due": null,
+  "from": "Malorie Warents",
+  "gist": "Mal asked how to record an Academy SFA player who is leaving the club; Nirmala told her to mark the player as withdrawn in the spreadsheet. You asked who the player is and Mal forwarded you the email from Jason with the answer.",
+  "kind": "fyi",
+  "status": "open",
+  "subject": "Academy SFA Player Leaving Club",
+  "threadId": "1a20b934c2a8126e",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882708280496099950",
+  "updatedAt": "2026-11-24T23:10:08Z",
+  "userEdited": false
+ },
  "1a20e09d3c3713ac": {
   "area": "Media Day",
   "ask": "Reply to Alex with where the headshots stand.",
@@ -1100,6 +1134,23 @@
   "updatedAt": "2026-11-24T17:06:50Z",
   "userEdited": false
  },
+ "1a20e2564bc7cd7b": {
+  "area": "People",
+  "ask": "Nothing needed now; file the resume where you keep candidates.",
+  "cardId": null,
+  "createdAt": "2026-11-24T23:10:08Z",
+  "date": "2026-11-24T15:20:48Z",
+  "due": null,
+  "from": "Ali Nislick",
+  "gist": "Ali Nislick sent her resume for you to keep on file, as you had discussed.",
+  "kind": "fyi",
+  "status": "open",
+  "subject": "Resume",
+  "threadId": "1a20e2564bc7cd7b",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882753504507317627",
+  "updatedAt": "2026-11-24T23:10:08Z",
+  "userEdited": false
+ },
  "1a20e90427490bfc": {
   "area": "Finance",
   "ask": "Check that the next payment cycle gets the van advances to the five coaches before Dec 1, and say so if you want this handled differently.",
@@ -1115,6 +1166,23 @@
   "threadId": "1a20e90427490bfc",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882760848289106940",
   "updatedAt": "2026-11-24T21:06:42Z",
+  "userEdited": false
+ },
+ "1a20ee2089a3da13": {
+  "area": "Finance",
+  "ask": "Nothing needed from you unless Andy does not answer; the question is addressed to him.",
+  "cardId": null,
+  "createdAt": "2026-11-24T23:10:08Z",
+  "date": "2026-11-24T18:46:52Z",
+  "due": null,
+  "from": "Kristen Capobianco",
+  "gist": "Kristen asked Andy whether a request to be paid for 4 hours of GA work on 11/1 is an approved one-off; you, Kyle, Paul, Alex and Jason are on the To line.",
+  "kind": "fyi",
+  "status": "open",
+  "subject": "GA Hourly work - Nadia",
+  "threadId": "1a20ee2089a3da13",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882766467756448275",
+  "updatedAt": "2026-11-24T23:10:08Z",
   "userEdited": false
  },
  "1a20f077dc215971": {
