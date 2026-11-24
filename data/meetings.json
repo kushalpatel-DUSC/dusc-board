@@ -120,14 +120,14 @@
     "Next step and who else from DUSC needs to see it (Andy; Kyle back 11/29)"
    ],
    "summary": "Ryan Mitchell's 30-minute Playbook AI demo at 4:00 today, tied to the former Immaculate Conception gym. Pin down the winter hours, the rate, and whether the space depends on buying the tech.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-24T16:00:00-05:00",
   "status": "upcoming",
   "title": "DUSC X Playbook AI Demo",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "17imubto8an2sfq74md7nln31s": {
@@ -251,34 +251,35 @@
   "meetUrl": "https://meet.google.com/sws-nhsh-tnc",
   "prep": {
    "basedOn": {
-    "date": "2026-11-20",
-    "title": "Weekly Finance Call Andy+Paul — Nov 20 (Gemini notes)",
-    "url": "https://docs.google.com/document/d/1RKWNOsV9DTHMCvXY2pgoVWp8VBQi8r--2_E_cIp1PJk/edit?usp=drivesdk&ouid=114282482648379906347"
+    "date": "2026-11-24",
+    "title": "Recurring Finance meeting — Nov 24 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "No earlier notes for this meeting; these points come from the 11/20 call with Andy and Paul and the 11/16 Finance Weekly.",
-    "11/20: four audit items were left, and Nirmala was due to meet the auditors on Mon 11/23.",
-    "Decided 11/20: the board gets a simple forecast alongside the audit on Dec 8; Paul leads.",
-    "KP: find out how to get the SOC report the auditors need.",
-    "Robert (auditor): say whether the contract Nirmala sent meets the audit requirement."
+    "No earlier notes for this meeting; these points come from Nirmala's Tuesday 11/24 finance hour.",
+    "Nirmala: present the adjusting entries, with options for fixing how prior years were booked.",
+    "KP: read the audit draft before the call.",
+    "The GA showcase timing differences need leadership to agree how to adjust.",
+    "Nirmala: audit delays came from changing three systems and moving payroll platforms."
    ],
-   "oneLine": "Read the audit draft before the call; four items were still open on 11/20.",
+   "oneLine": "Read the audit draft first; Nirmala presents adjusting entries and needs a decision on the GA showcase timing.",
    "suggested": [
     "Audit draft: questions and corrections after reading it",
-    "The four open audit items and what is still needed to finish before the Dec 8 board meeting",
-    "SOC report: Nirmala's forwarded reply points to Stripe rather than PlayMetrics — is that enough for the auditors?",
-    "Contract Nirmala sent the auditor: does it meet the audit requirement?",
+    "Adjusting entries: which option leadership picks for the prior-year bookings",
+    "GA showcase timing: agree the adjustment",
+    "SOC report and the contract Nirmala sent the auditor: do they meet the audit requirements?",
+    "Sponsorship credits from Adidas and Soccer Post: how they are booked",
     "How the audit is presented to the board on Dec 8, and by whom"
    ],
-   "summary": "Nirmala's hour with the auditors (EDL CPA), Andy, Paul Sowell and Paul Fox on the FY 2025/26 audit draft, due from the auditors by end of day Tue 11/24. It overlaps your 1:30 Finance Weekly.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "summary": "Nirmala's hour with the auditors (EDL CPA), Andy, Paul Sowell and Paul Fox on the FY 2025/26 audit draft. She presents the adjusting entries; it overlaps your 1:30 Finance Weekly.",
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": null,
   "seriesKey": "board-checkins",
   "start": "2026-11-30T13:00:00-05:00",
   "status": "upcoming",
   "title": "Audit draft review",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "2t97cp99fcjmoimt1qscon68qm": {
@@ -492,35 +493,80 @@
   "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
   "prep": {
    "basedOn": {
-    "date": "2026-11-17",
-    "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
-    "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
+    "date": "2026-11-24",
+    "title": "Recurring Finance meeting — Nov 24 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "No notes yet from Tue 11/24 — this is from 11/17.",
-    "Decided 11/17: KP raises Nirmala's consulting arrangement with Andy and Paul and updates her.",
-    "Nirmala: flag inconsistencies in KP's budget detail and variance reports.",
-    "Nirmala: reconcile card expenses and finish the October P&L before Thanksgiving.",
-    "KP: pin down the causes of the GA showcase discrepancies; the written report is due today."
+    "Nirmala: present the audit adjusting entries on Mon 11/30 and send the October package to Andy and Paul.",
+    "KP: draft the showcase spending policy over the break; Nirmala reviews it Monday morning.",
+    "KP: ask Andy and Paul about part-time accounting support; review Bill.com for a possible January start.",
+    "Nirmala: finalize the SFA number with Simon and reply to Morgan; finish the benefit reconciliation report.",
+    "Academy revenue is projected $500,000–$600,000 under budget."
    ],
-   "oneLine": "GA showcase overrun report is due today; the board forecast is due in a week.",
+   "oneLine": "Give Nirmala the answer on accounting support and Bill.com; the GA showcase report is due today.",
    "suggested": [
+    "Accounting support: Andy and Paul's answer and what happens before January",
+    "Bill.com: go or no-go for January",
+    "Showcase spending policy: sent, and the per diem approval chain",
     "GA showcase overrun report: send today",
-    "Dec 8 forecast: numbers final, and what Paul still needs",
-    "October package: final and sent?",
-    "Audit: what Monday's draft review settled and anything still open before the board meeting",
-    "Her arrangement: next steps after leadership's answer",
-    "W9s and the 1099 spreadsheet (due Jan 15)"
+    "Audit: what Monday's draft review settled before the board meeting",
+    "SFA number for Morgan and the benefit reconciliation report"
    ],
-   "summary": "Nirmala's Tuesday hour, a week before the Dec 8 board meeting and the day the GA showcase report is due. Check the October package is final and the forecast numbers hold.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "summary": "Nirmala's Tuesday hour, a week before the Dec 8 board meeting and the day the GA showcase report is due. Follow up on accounting support, Bill.com and the spending policy.",
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-12-01T13:30:00-05:00",
   "status": "upcoming",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
+  "userEdited": false
+ },
+ "3lmv8ac6ne8fg7slprqv293vkr_20261208T183000Z": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   }
+  ],
+  "end": "2026-12-08T14:30:00-05:00",
+  "eventId": "3lmv8ac6ne8fg7slprqv293vkr_20261208T183000Z",
+  "htmlLink": "https://www.google.com/calendar/event?eid=M2xtdjhhYzZuZThmZzdzbHBycXYyOTN2a3JfMjAyNjEyMDhUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/sqr-tpwj-uko",
+  "prep": {
+   "basedOn": {
+    "date": "2026-11-24",
+    "title": "Recurring Finance meeting — Nov 24 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347"
+   },
+   "highlights": [
+    "The group also meets Tue 12/1; no notes from that yet — this is from 11/24.",
+    "Nirmala: present the audit adjusting entries on Mon 11/30 and send the October package to Andy and Paul.",
+    "KP: ask Andy and Paul about part-time accounting support; review Bill.com for a possible January start.",
+    "KP: draft the showcase spending policy; Nirmala reviews it.",
+    "Academy revenue is projected $500,000–$600,000 under budget."
+   ],
+   "oneLine": "Board meets today: last check of the forecast and audit numbers with Nirmala.",
+   "suggested": [
+    "Board meeting today: forecast and audit numbers final",
+    "Accounting support from January: the board's answer",
+    "Bill.com: start date and setup",
+    "November close: timing and the card reconciliations",
+    "W9s and the 1099 spreadsheet (due Jan 15)"
+   ],
+   "summary": "Nirmala's Tuesday hour on the day of the Dec 8 board meeting. Last check of the forecast and audit numbers, and where accounting support and Bill.com stand.",
+   "updatedAt": "2026-11-24T20:50:26Z"
+  },
+  "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
+  "seriesKey": "finance-weekly",
+  "start": "2026-12-08T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Recurring Finance meeting",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "3spidcv3apv6c4nbe6v6ircb0n": {
@@ -949,35 +995,35 @@
   "meetUrl": "https://meet.google.com/ffc-qwqh-avi",
   "prep": {
    "basedOn": {
-    "date": "2026-11-18",
-    "title": "Ops Weekly Call — Nov 18 (Gemini notes)",
-    "url": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347"
+    "date": "2026-11-24",
+    "title": "Ops Weekly Call — Nov 24 (Gemini notes)",
+    "url": "https://docs.google.com/document/d/13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "No notes yet from today's call, Tue 11/24 — this is from 11/18.",
-    "Decided 11/18: camps get a 10% sibling discount and a one-month early bird, with no multi-week discounts.",
-    "Leanne: finalize and send out the January–February practice schedule; ten teams travel to showcases inside ten days.",
-    "Mal: put all contracts in one Drive folder and send the class history data.",
-    "KP: format the Club Calendar with program managers' input; raise board involvement in operations on Dec 8."
+    "Decided 11/24: cancel the December Classic tournament; KP emails Oumou.",
+    "Decided 11/24: hold weekday classes at Immaculate Conception until spring, apart from testing one day.",
+    "KP: total every winter indoor contract over the break; email Mal back about the coach hats.",
+    "Mal: forward last year's Thompson Street and Charlton contracts; chase St. Luke's on the spring contract, Saturdays 1–4 PM.",
+    "KP: set up a meeting with Leo and Liam on their roles; email the group what to bring on Dec 15."
    ],
-   "oneLine": "Showcase travel is running over budget: check team numbers and spending rules with Leanne.",
+   "oneLine": "Bring the winter indoor space total; Little Red still has no prices for Thompson Street or Charlton.",
    "suggested": [
-    "Showcase travel: teams going against the budgeted number, and the spending guidelines agreed with Kyle",
-    "Winter Girls Academy showcase: Leanne's cleaned-up registration numbers",
-    "Pier 40 Indoor Dec 5–6: is anything booked into it?",
-    "Indoor season starts Jan 11: schedule in PlayMetrics, futsal evenings at Immaculate Conception, contracts in the shared folder",
-    "Club Calendar: finalize this month with program managers",
-    "Dec 8 board meeting: what you will say about board involvement in operations"
+    "Winter indoor space budget: the total, and Thompson Street and Charlton prices",
+    "St. Luke's spring contract with Saturdays 1–4 PM: signed?",
+    "Dec 15 community programming meeting: what everyone brings",
+    "Leo and Liam: roles and a regular media planning meeting",
+    "Showcase travel: the new spending policy, MLS Next Fest Dec 1–13",
+    "Pier 40 Indoor Dec 5–6: is anything booked into it?"
    ],
-   "summary": "First Ops call after Thanksgiving, with the Academy outdoors on the HRPT permit. Check showcase travel against the new spending guidelines, the Dec 5–6 Pier 40 slot and the Club Calendar.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "summary": "First Ops call after Thanksgiving, with the Academy outdoors on the HRPT permit. Bring the full indoor space cost and settle the Little Red prices and the St. Luke's contract.",
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-12-02T13:30:00-05:00",
   "status": "upcoming",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261117T150000Z": {
@@ -1217,20 +1263,21 @@
    "oneLine": "Winter Rec starts Jan 9/10 at Pier 40 Indoor — check registration numbers and coach cover.",
    "suggested": [
     "Winter Rec and classes: registrations so far against last year, and the next blast",
-    "Summer Camp 2027: fees by early January, using the 11/18 rules (10% sibling discount, one-month early bird)",
+    "Classic tournament Dec 12–13: cancelled — families told?",
+    "Dec 15 planning meeting: what each person brings",
+    "Summer Camp 2027: fees by early January (10% sibling discount, one-month early bird)",
     "Coaches for winter: college assistants and the coach job description",
-    "Pier 40 Indoor on Dec 5–6: is Rec using it?",
-    "Your Rec program review — suggestions back to Oumou, Gustavo and Paul Fox"
+    "Pier 40 Indoor on Dec 5–6: is Rec using it?"
    ],
    "summary": "First Rec/Class/Camp call after Thanksgiving, with winter Rec five weeks out. Check winter registration numbers and where the Summer Camp 2027 plan landed.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261124T150000",
   "seriesKey": "community-rec",
   "start": "2026-12-01T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "68tduhijb4iokfbtn99ujkhvku_20261208T150000Z": {
@@ -1311,14 +1358,14 @@
     "Your Rec program review — suggestions back to Oumou, Gustavo and Paul Fox"
    ],
    "summary": "Rec/Class/Camp call on the morning of the Dec 8 board meeting, a month before winter Rec starts. Check winter registrations and coach cover, and that Summer Camp 2027 fees are on track.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261124T150000",
   "seriesKey": "community-rec",
   "start": "2026-12-08T10:00:00-05:00",
   "status": "upcoming",
   "title": "Rec/Class/Camp Weekly Call",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "6bilrcbmht23o43aqm033ongef": {
@@ -1513,30 +1560,30 @@
     "url": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "The Mon 11/23 call came off the calendar, so this is from 11/16.",
+    "You last met Nirmala Tue 11/24 (Recurring Finance notes); the last Finance Weekly notes are from 11/16.",
     "Decided 11/16: Nirmala checks KP's budget spreadsheet; KP takes on chasing missing receipts.",
     "KP: find out how to get the SOC report the auditors need.",
     "KP: add the JetBlue showcase flight costs, about $40,000, to the financial records.",
-    "Friday 11/20: the board gets a simple forecast on Dec 8, and the audit had four items left."
+    "From 11/24 — Nirmala: review the showcase spending policy this morning and send the October package to Andy and Paul."
    ],
-   "oneLine": "GA showcase overrun report is due tomorrow, Dec 1 — check the transaction detail with Nirmala.",
+   "oneLine": "Showcase spending policy goes out this afternoon once Nirmala has reviewed your draft.",
    "suggested": [
-    "GA showcase overrun: final numbers for the Dec 1 report, incl. the $35,000 of 2025 transactions",
-    "Dec 8 board forecast: October actuals and the Academy projection to January",
-    "Audit: are the last four items closed, and the SOC report",
-    "Open enrollment: sign-ups against the 7 needed",
-    "Receipts and card reconciliations: reminder system working?",
-    "Finance role: requirements written 11/27, December interviews"
+    "Showcase spending policy: Nirmala's comments, then send it out this afternoon",
+    "Audit draft review at 1:00: adjusting entries and what is still open",
+    "GA showcase overrun: final numbers for tomorrow's Dec 1 report",
+    "Accounting support: what Andy and Paul said on 11/25",
+    "Bill.com: your read of the deck and a January start",
+    "Dec 8 board forecast: October package sent and the Academy revenue projection"
    ],
-   "summary": "First Monday call with Nirmala after Thanksgiving, eight days before the Dec 8 board meeting. It sits inside her 1:00–2:00 audit draft review, so expect it to move; the GA showcase report is due the next day.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "summary": "First Monday call with Nirmala after Thanksgiving, eight days before the Dec 8 board meeting. It sits inside her 1:00–2:00 audit draft review, so expect it to move.",
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-11-30T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "6nc6i1n4kcjaak7pfr2nv8f5r5_20261207T183000Z": {
@@ -1559,30 +1606,30 @@
     "url": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "The group also meets Mon 11/30; no notes from that yet — this is from 11/16.",
+    "You also meet Nirmala Mon 11/30 and Tue 12/1; the last Finance Weekly notes are from 11/16.",
     "Decided 11/16: Nirmala checks KP's budget spreadsheet; KP takes on chasing missing receipts.",
     "KP: find out how to get the SOC report the auditors need.",
     "KP: add the JetBlue showcase flight costs, about $40,000, to the financial records.",
-    "Friday 11/20: the board gets a simple forecast on Dec 8, with Paul leading."
+    "From 11/24: the October package is done and Academy revenue is projected $500,000–$600,000 under budget."
    ],
    "oneLine": "Board meets tomorrow, Dec 8: check the forecast numbers and the audit with Nirmala.",
    "suggested": [
     "Dec 8 board forecast: final numbers and anything Paul still needs",
-    "Audit: draft reviewed, open items and the SOC report",
+    "Audit: adjusting entries, open items and the SOC report",
+    "Accounting support and Bill.com: decisions for January",
     "GA showcase overrun report (due Dec 1): follow-up questions",
     "Open enrollment: sign-ups against the 7 needed",
-    "Finance role: requirements and December interviews",
     "W9s and the 1099 spreadsheet (due Jan 15)"
    ],
    "summary": "Monday half-hour with Nirmala, the day before the Dec 8 board meeting. Make sure the forecast numbers and the audit are ready to present.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "seriesKey": "finance-weekly",
   "start": "2026-12-07T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Weekly",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261113T190000Z": {
@@ -1715,19 +1762,20 @@
    "suggested": [
     "Is this call still needed after Wednesday's regroup?",
     "Dec 8 forecast: draft summary and who presents",
-    "Finance role: requirements, candidates, December interview plan",
+    "Accounting support and the finance role: requirements, candidates, December interviews",
+    "Showcase spending policy: draft goes to Nirmala Monday morning",
     "Healthcare: enrollment count against the 7 needed",
     "GA showcase overrun report due Dec 1"
    ],
-   "summary": "Still on the calendar for the day after Thanksgiving, though the group agreed to regroup Wednesday 11/25 instead — cancel it or confirm. Finance role requirements are due today.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "summary": "Still on the calendar for the day after Thanksgiving, though the group regroups Wednesday 11/25 instead — cancel it or confirm. Finance role requirements are due today.",
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-11-27T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261204T190000Z": {
@@ -1763,21 +1811,21 @@
    "oneLine": "Board meets Tuesday: lock the forecast and the audit presentation today.",
    "suggested": [
     "Dec 8 forecast and summary: final numbers and who presents",
-    "Audit: closed out before the board meeting?",
+    "Audit: adjusting entries agreed on 11/30 and closed out before the board meeting?",
     "GA showcase overrun report (sent Dec 1): questions",
-    "Travel spending guidelines agreed with Kyle",
-    "Healthcare enrollment result and the holiday bonus decision",
-    "Finance role: candidates and December interviews"
+    "Showcase spending policy in place for MLS Next Fest",
+    "Accounting support and Bill.com for January",
+    "Healthcare enrollment result and the holiday bonus decision"
    ],
    "summary": "Last Friday call before the Dec 8 board meeting. Lock the financial forecast and performance summary, and confirm the audit is ready to present.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "70lljkejnn3us5i0v89naed5q0",
   "seriesKey": "board-checkins",
   "start": "2026-12-04T14:00:00-05:00",
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "714f1ou8ft0mirjipdqn9ijlhg": {
@@ -1856,30 +1904,30 @@
     "url": "https://docs.google.com/document/d/1RKWNOsV9DTHMCvXY2pgoVWp8VBQi8r--2_E_cIp1PJk/edit?usp=drivesdk&ouid=114282482648379906347"
    },
    "highlights": [
-    "Decided: a simplified financial forecast and performance summary goes to the Dec 8 board meeting; Paul leads.",
-    "KP: get the audit status from Nirmala after her Monday auditor call and report back; chase her for the October figures.",
-    "KP: go through Academy roster gaps with Jason and Alex (Roster Check was Mon 11/23); check Claude data security for Andy.",
+    "Decided 11/20: a simplified financial forecast and performance summary goes to the Dec 8 board meeting; Paul leads.",
+    "KP: get the audit status from Nirmala and report back; chase her for the October figures.",
+    "KP: go through Academy roster gaps with Jason and Alex; check Claude data security for Andy.",
     "KP: deliver the GA showcase overrun analysis by Dec 1; set travel spending guidelines with Kyle after 11/29.",
     "Kristen and Nirmala: send benefits enrollment packets and schedule an information call early this week."
    ],
-   "oneLine": "Bring the audit status and October figures; the Ops call moved to today, so the slot is clear.",
+   "oneLine": "Academy revenue now looks $500,000–$600,000 under budget; bring the October package and forecast.",
    "suggested": [
-    "Audit: what Nirmala's Monday auditor call settled, the draft due Tuesday, and the review call Mon 11/30 at 1:00",
-    "October figures and the forecast: Academy deficit of $287,000 through 11/13, projected to January",
-    "Roster gaps: what Jason and Alex said at Monday's Roster Check, by age group; roster file link sent to Andy?",
-    "Healthcare: Paychex account errors fixed? Enrollment window, sign-ups against the 7 needed",
-    "Holiday bonus budget: decision needed before December",
-    "Nirmala's arrangement and the finance role requirements due 11/27"
+    "October package: done, with a forecast to May 31; Nirmala is checking formulas before sending it",
+    "Academy revenue projected $500,000–$600,000 under budget: what goes in the Dec 8 forecast",
+    "Audit: adjusting entries and the GA showcase timing, ahead of Monday's 1:00 draft review",
+    "Accounting support: Nirmala's request for about ten hours a week through year-end",
+    "Roster gaps by age group from Monday's Roster Check; roster file link sent to Andy?",
+    "Healthcare: Paychex account errors fixed? Enrollment window and sign-ups against the 7 needed"
    ],
-   "summary": "The pre-Thanksgiving regroup agreed on Friday, tomorrow at 1:30. Bring the audit status, the October figures and a first cut of the forecast for the Dec 8 board meeting.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "summary": "The pre-Thanksgiving regroup agreed on Friday, tomorrow at 1:30. Bring the October package, the audit status and Nirmala's request for accounting support.",
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": null,
   "seriesKey": "board-checkins",
   "start": "2026-11-25T13:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Catch Up - Andy + Paul",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "7r28o2dpnob574e2ujfottdi2l": {
@@ -2289,14 +2337,14 @@
     "Battery Park City outdoor space: was it applied for?"
    ],
    "summary": "Fields Committee hour, four days before the board meeting. Show where winter space stands and what it costs, now that field costs are part of the deficit.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-12-04T12:00:00-05:00",
   "status": "upcoming",
   "title": "Fields Committee",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "dl8u6u3aa631dog9ncdpbfkrbk_20261109T190000Z": {
@@ -2430,9 +2478,9 @@
     "KP: covered Media Day on 11/18 and decisions under Kyle's Decision & Ownership Guide while he was out.",
     "From the 11/20 finance call — KP and Kyle: set travel spending guidelines and new per diem procedures."
    ],
-   "oneLine": "Agree travel spending guidelines for winter showcase and MLS Next Fest — Andy and Paul are waiting.",
+   "oneLine": "Agree the showcase spending policy with Kyle before it goes out this afternoon.",
    "suggested": [
-    "Travel spending guidelines for winter showcase and MLS Next Fest; more teams travelling than budgeted",
+    "Showcase spending policy: your draft from the break, with Nirmala's comments, before it goes out today",
     "Per diem reimbursement procedures before the spring season",
     "The deficit and the Dec 8 board forecast: Academy roster gaps by age group",
     "What happened while Kyle was out: Media Day, healthcare decision, winter space",
@@ -2440,14 +2488,14 @@
     "Board members stepping into day-to-day scheduling, before the Dec 8 board meeting"
    ],
    "summary": "First 1:1 after Kyle returns. Hand back what you covered for three weeks, and start the travel spending guidelines Andy and Paul asked for on 11/20.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
   "seriesKey": "kyle-1on1",
   "start": "2026-11-30T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "dl8u6u3aa631dog9ncdpbfkrbk_20261207T190000Z": {
@@ -2484,14 +2532,14 @@
     "Staff Handbook 2027: parental leave and the full-time pay rule"
    ],
    "summary": "Second 1:1 after Kyle's return, the day before the Dec 8 board meeting. Check the travel spending guidelines are in place for MLS Next Fest and agree the board message.",
-   "updatedAt": "2026-11-24T16:48:25Z"
+   "updatedAt": "2026-11-24T20:50:26Z"
   },
   "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk_R20261026T180000",
   "seriesKey": "kyle-1on1",
   "start": "2026-12-07T14:00:00-05:00",
   "status": "upcoming",
   "title": "Kyle/Kushal",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "rpbhb8ms4t31m9grlqoiesqufk": {
@@ -2539,9 +2587,9 @@
   "recurringEventId": null,
   "seriesKey": null,
   "start": "2026-11-23T14:00:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Roster Check",
-  "updatedAt": "2026-11-23T19:06:36Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  }
 }

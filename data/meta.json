@@ -11,30 +11,30 @@
   "scanned": 27
  },
  "sync": {
-  "actionsAdded": 0,
+  "actionsAdded": 6,
   "brief": [
-   {
-    "label": "Today",
-    "text": "Settle Leanne's practice schedule and the CJSL re-hearing decision at the Ops call, now today 1:15–1:45."
-   },
-   {
-    "label": "Today",
-    "text": "Update Nirmala on her consulting arrangement at 1:45; Friday's notes do not show it was raised with Andy and Paul."
-   },
-   {
-    "label": "Today",
-    "text": "Get the audit status and October figures from Nirmala at 1:45 so you can report them to Andy and Paul tomorrow."
-   },
    {
     "label": "Today",
     "text": "Get the Immaculate Conception winter hours and rate in writing at the 4:00 Playbook demo with Ryan."
    },
    {
+    "label": "Today",
+    "text": "Update Nirmala on her consulting arrangement; today's meeting notes do not show it came up."
+   },
+   {
     "label": "Wed 11/25",
-    "text": "Bring the roster gaps from Monday's Roster Check with Jason and Alex to the 1:30 regroup, and send Andy the roster file link."
+    "text": "Ask Andy and Paul at 1:30 about part-time accounting support, and bring the October package and the roster gaps."
+   },
+   {
+    "label": "This week",
+    "text": "Draft the showcase spending policy over the break so Nirmala can review it Monday morning."
+   },
+   {
+    "label": "Mon 11/30",
+    "text": "Read the audit draft before the 1:00 review, where Nirmala presents the adjusting entries."
    }
   ],
-  "cardsAdded": 0,
+  "cardsAdded": 3,
   "cardsCompleted": 0,
   "deadlines": [
    {
@@ -63,11 +63,6 @@
     "who": "Leanne"
    },
    {
-    "date": "2026-11-25",
-    "label": "October package: card expenses reconciled and P&L finished before Thanksgiving",
-    "who": "Nirmala"
-   },
-   {
     "date": "2026-11-27",
     "label": "Finance role requirements written (two weeks from 11/13)",
     "who": "KP"
@@ -89,7 +84,12 @@
    },
    {
     "date": "2026-11-30",
-    "label": "Audit draft review with the auditors, Andy and Paul (1:00)",
+    "label": "Showcase spending policy draft to Nirmala in the morning, sent out that afternoon",
+    "who": "KP, Nirmala"
+   },
+   {
+    "date": "2026-11-30",
+    "label": "Audit draft review with the auditors, Andy and Paul (1:00); Nirmala presents the adjusting entries",
     "who": "Nirmala, KP, Andy, Paul"
    },
    {
@@ -116,6 +116,11 @@
     "date": "2026-12-08",
     "label": "Board meeting — financial forecast and audit; KP raises board involvement in operations",
     "who": "Paul, KP, Andy, Nirmala"
+   },
+   {
+    "date": "2026-12-15",
+    "label": "Community programming planning meeting",
+    "who": "KP, Mal, Gustavo"
    },
    {
     "date": "2027-01-09",
@@ -153,35 +158,35 @@
     "who": "Ops"
    }
   ],
-  "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul regroup tomorrow at 1:30 and want the audit status, the October figures and a forecast for the Dec 8 board meeting.",
-  "lastRun": "2026-11-24T16:48:25Z",
+  "headline": "Academy revenue is now projected $500,000–$600,000 under budget. Tomorrow's 1:30 regroup with Andy and Paul needs the October package, the audit status and an answer on accounting support.",
+  "lastRun": "2026-11-24T20:50:26Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 16,
-  "notesScanned": 42,
+  "meetingsRefreshed": 15,
+  "notesScanned": 38,
   "themes": [
    {
     "name": "Deficit and forecast",
-    "text": "Academy deficit was $287,000 through 11/13 and may reach $360,000 by January. Paul leads a simple forecast for the Dec 8 board; KP supplies the numbers."
+    "text": "Academy revenue is projected $500,000–$600,000 under budget, and the October package is done. Paul leads a simple forecast for the Dec 8 board; KP supplies the numbers."
    },
    {
     "name": "Audit and board",
-    "text": "Four audit items were open on 11/20; the auditors' draft is due today and is reviewed Mon 11/30. KP reports the status to Andy and Paul, and the GA showcase report is due Dec 1."
+    "text": "Nirmala presents adjusting entries at Monday's 1:00 draft review; the GA showcase timing needs leadership to agree. KP reads the draft first and owes the GA showcase report Dec 1."
    },
    {
-    "name": "Rosters and travel costs",
-    "text": "The shortfall is player numbers by age group; Monday's Roster Check with Jason and Alex feeds tomorrow's regroup. KP and Kyle set travel spending and per diem rules after 11/29."
+    "name": "Showcase spending",
+    "text": "KP drafts a showcase spending policy over the break and Nirmala reviews it Monday morning. Per diem requests still need a clear approval chain before spring."
+   },
+   {
+    "name": "Finance capacity",
+    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP raises support with Andy and Paul tomorrow and writes the finance role requirements by Friday."
    },
    {
     "name": "Healthcare",
     "text": "Paychex put names on the wrong accounts, which holds up the five-day open enrollment. Paul chases the fix; Kristen and Nirmala send packets and set an information call."
    },
    {
-    "name": "Finance role",
-    "text": "KP writes the role requirements by Friday 11/27 for December interviews. Nirmala still awaits an answer on her own arrangement, due from KP today."
-   },
-   {
     "name": "Winter space and schedule",
-    "text": "Most winter futsal moves to Immaculate Conception; PS 190 is dropped and Stephen Gaynor is not needed. KP secures the gym and ballroom; Leanne's practice schedule awaits KP's changes."
+    "text": "Winter indoor space is treated as set, but Little Red has given no prices. KP totals every indoor contract over the break; Mal sends last year's contracts."
    }
   ],
   "waitingLong": []

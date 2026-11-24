@@ -33,8 +33,8 @@
   "recurringEventId": null,
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "Friday's call put the Academy and D-League $250,000–$300,000 behind budget and asked for a simple forecast for the Dec 8 board meeting, with Paul leading. You owe the audit status, the roster gaps from Monday's Roster Check, the GA showcase report by Dec 1 and travel spending rules with Kyle. The group regroups tomorrow, Wed 11/25, at 1:30 — now clear of the Ops call — and joins the audit draft review on Mon 11/30 at 1:00.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "summary": "Friday's call put the Academy and D-League $250,000–$300,000 behind budget and asked for a simple forecast for the Dec 8 board meeting, with Paul leading. Since then Nirmala has finished the October package and asked for part-time accounting support, which you raise at tomorrow's 1:30 regroup. The group joins the audit draft review on Mon 11/30 at 1:00.",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "community-rec": {
@@ -77,8 +77,8 @@
   "recurringEventId": "68tduhijb4iokfbtn99ujkhvku_R20261117T150000",
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "No notes from the 11/17 or today's 11/24 Rec/Class/Camp call have reached Drive; the last are from 11/5. Fall camps, classes and Rec finished slightly ahead of budget; winter numbers wait on the registration emails. Next call is Tue 12/1 at 10:00.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "summary": "No notes from the 11/17 or 11/24 Rec/Class/Camp calls have reached Drive; the last are from 11/5. The December Classic tournament is being cancelled, and the community programming planning meeting is set for Dec 15. Next call is Tue 12/1 at 10:00.",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "finance-weekly": {
@@ -105,13 +105,13 @@
    "Bank of America"
   ],
   "lastHeld": {
-   "date": "2026-11-19",
-   "noteId": "sfa-review-2026-11-19",
-   "title": "SFA review — Nov 19 (Gemini notes)",
-   "url": "https://docs.google.com/document/d/1SxhSZu0vb-3pHkDfZ6lihr8rqwceZ35Mz4ccxZMo5sk/edit?usp=drivesdk&ouid=114282482648379906347"
+   "date": "2026-11-24",
+   "noteId": "recurring-finance-2026-11-24",
+   "title": "Recurring Finance meeting — Nov 24 (Gemini notes)",
+   "url": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347"
   },
   "name": "Finance Weekly (Nirmala)",
-  "nextAt": "2026-11-24T13:45:00-05:00",
+  "nextAt": "2026-11-30T13:30:00-05:00",
   "people": [
    "Nirmala",
    "Noemi"
@@ -119,8 +119,8 @@
   "recurringEventId": "6nc6i1n4kcjaak7pfr2nv8f5r5",
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "Monday's Finance Weekly came off the calendar, so today's meeting with Nirmala, moved to 1:45–2:30, is the next one. The October package and the audit status are due from her, and you owe her an update on her arrangement today. The auditors' draft is expected tonight, with the review call on Mon 11/30 at 1:00.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "summary": "Tuesday's hour with Nirmala found the October package done and Academy revenue heading $500,000–$600,000 under budget. She presents the audit adjusting entries at Monday's 1:00 draft review and asked for part-time accounting help and Bill.com. You owe her a showcase spending policy draft for Monday morning; the next Finance Weekly is Mon 11/30 at 1:30.",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "kyle-1on1": {
@@ -162,8 +162,8 @@
   "recurringEventId": "dl8u6u3aa631dog9ncdpbfkrbk",
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "Kyle is out until 11/29, so the next 1:1 is Mon 11/30 at 2:00. New for his return: travel spending guidelines and per diem procedures, on top of the Soccer.com deck, the future DOC decision and the MLS Next Coordinator role.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "summary": "Kyle is out until 11/29, so the next 1:1 is Mon 11/30 at 2:00. You are drafting the showcase spending policy over the break to send out that afternoon; per diem procedures, the Soccer.com deck, the future DOC decision and the MLS Next Coordinator role also wait for him.",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "kyle-andy-weekly": {
@@ -199,7 +199,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "Nothing is on your calendar for this series while Kyle is away. What Andy needs from you now runs through tomorrow's 1:30 regroup with Andy and Paul.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "ops-weekly": {
@@ -233,7 +233,7 @@
    "url": "https://docs.google.com/document/d/13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE/edit?usp=drivesdk&ouid=114282482648379906347"
   },
   "name": "Ops Weekly Call",
-  "nextAt": "2026-11-24T13:15:00-05:00",
+  "nextAt": "2026-12-02T13:30:00-05:00",
   "people": [
    "Mal",
    "Leanne"
@@ -242,7 +242,7 @@
   "running": "",
   "runningUpdatedAt": null,
   "summary": "On Tuesday's call KP and Mal agreed to cancel the December Classic tournament, hold weekday classes at Immaculate Conception until spring apart from one test day, and cut the St. Luke's spring Saturdays to 1–4 PM. Winter indoor space is treated as set; KP is totalling the cost of every indoor contract over the break and Mal is sending last year's Thompson Street and Charlton contracts. Next up: the community programming planning meeting on Dec 15 and the next Ops call on Wed 12/2.",
-  "updatedAt": "2026-11-24T19:07:18Z",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "soccer-for-all": {
@@ -273,8 +273,8 @@
   "recurringEventId": null,
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "The 11/18 committee meeting came off your calendar and no new date is set. The 11/19 SFA review agreed to count scholarships per program line; Mal is adding about 60 missing names to her sheet and asking PlayMetrics how to report discounts. The Academy's 67 players include scholarship players, which skews the rate analysis.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "summary": "The 11/18 committee meeting came off your calendar and no new date is set. The 11/19 SFA review agreed to count scholarships per program line; Nirmala is finalizing the SFA number with Simon for Morgan; Mal is adding about 60 missing names to her sheet and asking PlayMetrics how to report discounts. The Academy's 67 players include scholarship players, which skews the rate analysis.",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  },
  "vendors": {
@@ -309,8 +309,8 @@
   "recurringEventId": null,
   "running": "",
   "runningUpdatedAt": null,
-  "summary": "No vendor meeting is on the calendar for the next two weeks. Mal is asking Soccer Post about branded hats for coaches. Still open: the Adidas contract caps, and Chris's fan-wear link, 2027 calendar and tournament-shirt pricing.",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "summary": "No vendor meeting is on the calendar for the next two weeks. Mal is asking Soccer Post about branded hats for coaches, and you owe her an answer on which coaches and which style. Still open: the Adidas contract caps and how sponsorship credits are booked.",
+  "updatedAt": "2026-11-24T20:50:26Z",
   "userEdited": false
  }
 }

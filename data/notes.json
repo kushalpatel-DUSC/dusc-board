@@ -676,7 +676,7 @@
    "Paychex approval of the medical plans is expected within five working days, today or tomorrow."
   ],
   "kind": "Gemini meeting notes",
-  "modified": "2026-11-16T19:45:40.284Z",
+  "modified": "2026-11-24T19:15:09.609Z",
   "openQuestions": [
    "Should the fiscal year move to June 30 to simplify reporting? Nirmala will raise it with the auditor.",
    "Is the contract Nirmala sent enough for the audit requirement?",
@@ -1410,10 +1410,20 @@
     "owner": "TBD",
     "raised": "2026-11-18",
     "text": "Max and Jason W to make the college brochures from Media Day"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-leo-rec-call-followup",
+    "note": "KP is setting up a separate meeting with Leo and Liam.",
+    "owner": "Mal",
+    "raised": "2026-11-24",
+    "text": "Mal to follow up with Leo about not being on the Rec call"
    }
   ],
   "area": "Facilities",
-  "date": "2026-11-18",
+  "date": "2026-11-24",
   "decisions": [
    "Jesse's futsal program goes ahead (TD/DOC → Ops → KP financial check).",
    "Decision process for new programs: TD/DOC → Ops → financial viability (KP).",
@@ -1422,21 +1432,21 @@
   "fileId": "1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg",
   "id": "ops-meeting",
   "keyPoints": [
-   "Little Red (Thompson): weekdays 7:30–9 Monday to Thursday; Saturday 9–4 for MLS Next only.",
-   "Immaculate Conception: futsal 5:30–7pm, KP to check with Jesse; ballroom on weekdays.",
-   "Practice schedule needs to be set and sent out by Monday 11/23.",
-   "Club Calendar: finalize in December and loop in program managers.",
-   "MLS Next Fest and GA: ten teams travelling; rosters, hotel lists and car travel to confirm."
+   "Little Red Thompson St: Monday–Thursday 7:30–9pm and Saturday 9–4:30; Charlton Tuesday–Thursday 6–8:30pm. Prices still to come.",
+   "Dec 15 community programming meeting covers classes, Rec, coach development, school programs, camps, media needs and NEST.",
+   "DUSC Classic: KP emails Oumou; how many kids make it viable, and is there a long-term tournament?",
+   "Immaculate Conception: hold weekday classes until spring; try one Thursday slot, 4–6pm.",
+   "GA Winter Showcase has taken in about $54,000; the spend is still to be added up."
   ],
   "kind": "Running meeting notes",
-  "modified": "2026-11-18T19:29:48.701Z",
+  "modified": "2026-11-24T18:47:33.342Z",
   "openQuestions": [
-   "How much of each winter space is being used, and is too much booked?",
-   "Has Little Red (LREI) confirmed the times DUSC wants?",
-   "Is there an updated Socceroof contract, including last winter's extra weekday space?",
-   "Does Jesse want Basis, and is PS 161 futsal-only?"
+   "What do Thompson Street and Charlton cost this winter?",
+   "How much has the GA Winter Showcase cost against the $54,000 taken in?",
+   "How many kids make the DUSC Classic viable?",
+   "What is the plan for NEST?"
   ],
-  "summary": "The ops hub: action table, winter space tracker and meeting log. The 11/18 entry sets the Little Red times, the practice schedule due out Monday, and the Club Calendar to finalize in December.",
+  "summary": "The ops hub: action table, winter space tracker and meeting log. The 11/24 entry lists the Little Red winter times, still without prices, and the agenda for the Dec 15 community programming meeting.",
   "title": "DUSC Ops Meeting (running notes)",
   "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
  },
@@ -1978,8 +1988,8 @@
     "text": "Nirmala to review KP's budget detail and variance reports and flag inconsistencies for him to investigate"
    },
    {
-    "done": false,
-    "doneAt": null,
+    "done": true,
+    "doneAt": "2026-11-24T20:50:26Z",
     "due": "2026-11-25",
     "id": "nirmala-october-package-pl",
     "note": "Bank reconciliations and revenue are done; expenses follow her meeting with Noemi.",
@@ -2024,6 +2034,87 @@
   "summary": "Nirmala's Tuesday finance hour with KP. Budget variances keep growing on unreconciled data, the GA summer showcase lost about $32,000, and Nirmala wants a clear decision on her long-term arrangement.",
   "title": "Recurring Finance meeting — Nov 17 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
+ "recurring-finance-2026-11-24": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-30",
+    "id": "nirmala-audit-adjusting-entries",
+    "note": "Options for fixing how prior years were booked; the GA showcase timing needs leadership to agree.",
+    "owner": "Nirmala",
+    "raised": "2026-11-24",
+    "text": "Nirmala to present the audit adjusting entries to the group at Monday's audit review"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-sfa-number-morgan",
+    "note": "Earlier estimates were wrong and drew pushback.",
+    "owner": "Nirmala",
+    "raised": "2026-11-24",
+    "text": "Nirmala to finalize the SFA number with Simon and send the response to Morgan"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-october-package-send",
+    "note": "Check field space allocations and player counts in particular.",
+    "owner": "Nirmala",
+    "raised": "2026-11-24",
+    "text": "Nirmala to double-check the formulas in the October package and send it to Andy and Paul"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": "2026-11-30",
+    "id": "nirmala-review-spending-policy",
+    "note": "KP plans to send it out Monday afternoon.",
+    "owner": "Nirmala",
+    "raised": "2026-11-24",
+    "text": "Nirmala to review KP's draft showcase spending policy on Monday morning"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "nirmala-benefit-reconciliation",
+    "note": null,
+    "owner": "Nirmala",
+    "raised": "2026-11-24",
+    "text": "Nirmala to finish the benefit reconciliation report and send it to the team"
+   }
+  ],
+  "area": "Finance",
+  "date": "2026-11-24",
+  "decisions": [
+   "KP drafts a showcase spending policy over the break; Nirmala reviews it Monday morning.",
+   "KP raises accounting support with Andy and Paul.",
+   "KP reviews Bill.com over the break, with a possible start in January."
+  ],
+  "fileId": "1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc",
+  "id": "recurring-finance-2026-11-24",
+  "keyPoints": [
+   "Academy revenue is projected $500,000–$600,000 under budget; the full-year revenue gap could reach about $1 million.",
+   "The October package is complete with a forecast to May 31; Nirmala is checking formulas before it goes out.",
+   "Audit delays came from switching systems and payroll platforms; adjusting entries go to leadership on Monday.",
+   "Nirmala proposed Bill.com, about $337 a month, to cut manual payables and per diem work.",
+   "Nirmala asked for part-time accounting help, about ten hours a week, for year-end work."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-24T19:57:06.482Z",
+  "openQuestions": [
+   "How should the audit treat the GA showcase timing differences?",
+   "Who approves per diem requests before they reach finance?",
+   "Will the board fund temporary accounting support from January?",
+   "How should Adidas and Soccer Post sponsorship credits be booked?"
+  ],
+  "summary": "Nirmala's Tuesday finance hour with KP. The October package is done, Academy revenue is heading well under budget, and Nirmala presents the audit adjusting entries on Monday.",
+  "title": "Recurring Finance meeting — Nov 24 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "sfa-review-2026-11-19": {
   "actions": [
