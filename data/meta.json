@@ -15,19 +15,19 @@
   "brief": [
    {
     "label": "Today",
-    "text": "Get the audit status from Nirmala after her auditor call and report it to Andy and Paul."
+    "text": "Answer Mal this morning on moving the Ops call to today at 1:00, because tomorrow's 1:30 slot clashes with the Andy and Paul regroup."
    },
    {
     "label": "Today",
-    "text": "Get the Immaculate Conception winter hours and rate in writing at the 4:15 Playbook demo with Ryan."
+    "text": "Update Nirmala on her consulting arrangement at the 1:30 finance hour; Friday's notes do not show it was raised with Andy and Paul."
    },
    {
-    "label": "Tue 11/24",
-    "text": "Answer Mal on moving the Ops call to Tuesday 1:00, because Wednesday 1:30 clashes with the Andy and Paul regroup."
+    "label": "Today",
+    "text": "Get the audit status and October figures from Nirmala at 1:30 so you can report them to Andy and Paul tomorrow."
    },
    {
-    "label": "Tue 11/24",
-    "text": "Update Nirmala on her consulting arrangement; Friday's notes do not show it was raised with Andy and Paul."
+    "label": "Today",
+    "text": "Get the Immaculate Conception winter hours and rate in writing at the 4:00 Playbook demo with Ryan."
    },
    {
     "label": "Wed 11/25",
@@ -38,26 +38,6 @@
   "cardsCompleted": 0,
   "deadlines": [
    {
-    "date": "2026-11-23",
-    "label": "Audit status from Nirmala after her auditor call, reported to Andy and Paul",
-    "who": "KP, Nirmala"
-   },
-   {
-    "date": "2026-11-23",
-    "label": "Academy roster gaps reviewed with Jason and Alex (Roster Check, 2:00)",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-23",
-    "label": "Playbook AI demo — Immaculate Conception gym (4:15)",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-23",
-    "label": "Practice schedule set and sent out",
-    "who": "Leanne, Ops"
-   },
-   {
     "date": "2026-11-24",
     "label": "Update Nirmala on her consulting arrangement",
     "who": "KP"
@@ -66,6 +46,11 @@
     "date": "2026-11-24",
     "label": "Benefits enrollment packets sent and information call scheduled",
     "who": "Kristen, Nirmala"
+   },
+   {
+    "date": "2026-11-24",
+    "label": "Audit draft due from the auditors by end of day",
+    "who": "Nirmala"
    },
    {
     "date": "2026-11-25",
@@ -101,6 +86,11 @@
     "date": "2026-11-30",
     "label": "Summer 2027 Spain trip contract sorted with Todd",
     "who": "KP"
+   },
+   {
+    "date": "2026-11-30",
+    "label": "Audit draft review with the auditors, Andy and Paul (1:00)",
+    "who": "Nirmala, KP, Andy, Paul"
    },
    {
     "date": "2026-12-01",
@@ -163,10 +153,10 @@
     "who": "Ops"
    }
   ],
-  "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul want the audit status today, a regroup Wednesday at 1:30 and a forecast for the Dec 8 board meeting.",
-  "lastRun": "2026-11-23T20:49:17Z",
+  "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul regroup tomorrow at 1:30 and want the audit status, the October figures and a forecast for the Dec 8 board meeting.",
+  "lastRun": "2026-11-24T10:49:15Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 15,
+  "meetingsRefreshed": 16,
   "notesScanned": 42,
   "themes": [
    {
@@ -175,11 +165,11 @@
    },
    {
     "name": "Audit and board",
-    "text": "Four audit items remain and Nirmala meets the auditors today. KP reports the status to Andy and Paul, and the GA showcase report is due Dec 1."
+    "text": "Four audit items were open on 11/20; the auditors' draft is due today and is reviewed Mon 11/30. KP reports the status to Andy and Paul, and the GA showcase report is due Dec 1."
    },
    {
     "name": "Rosters and travel costs",
-    "text": "The shortfall is player numbers by age group; Monday's Roster Check with Jason and Alex feeds Wednesday's regroup. KP and Kyle set travel spending and per diem rules after 11/29."
+    "text": "The shortfall is player numbers by age group; Monday's Roster Check with Jason and Alex feeds tomorrow's regroup. KP and Kyle set travel spending and per diem rules after 11/29."
    },
    {
     "name": "Healthcare",
@@ -187,11 +177,11 @@
    },
    {
     "name": "Finance role",
-    "text": "KP writes the role requirements by 11/27 for December interviews. Nirmala still awaits an answer on her own arrangement, due from KP by Tuesday 11/24."
+    "text": "KP writes the role requirements by Friday 11/27 for December interviews. Nirmala still awaits an answer on her own arrangement, due from KP today."
    },
    {
     "name": "Winter space and schedule",
-    "text": "Most winter futsal moves to Immaculate Conception; PS 190 is dropped and Stephen Gaynor is not needed. KP secures the gym and ballroom; Leanne's practice schedule is due out today."
+    "text": "Most winter futsal moves to Immaculate Conception; PS 190 is dropped and Stephen Gaynor is not needed. KP secures the gym and ballroom; Leanne's practice schedule awaits KP's changes."
    }
   ],
   "waitingLong": []
