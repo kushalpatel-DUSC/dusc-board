@@ -15,15 +15,15 @@
   "brief": [
    {
     "label": "Today",
-    "text": "Answer Mal this morning on moving the Ops call to today at 1:00, because tomorrow's 1:30 slot clashes with the Andy and Paul regroup."
+    "text": "Settle Leanne's practice schedule and the CJSL re-hearing decision at the Ops call, now today 1:15–1:45."
    },
    {
     "label": "Today",
-    "text": "Update Nirmala on her consulting arrangement at the 1:30 finance hour; Friday's notes do not show it was raised with Andy and Paul."
+    "text": "Update Nirmala on her consulting arrangement at 1:45; Friday's notes do not show it was raised with Andy and Paul."
    },
    {
     "label": "Today",
-    "text": "Get the audit status and October figures from Nirmala at 1:30 so you can report them to Andy and Paul tomorrow."
+    "text": "Get the audit status and October figures from Nirmala at 1:45 so you can report them to Andy and Paul tomorrow."
    },
    {
     "label": "Today",
@@ -54,7 +54,7 @@
    },
    {
     "date": "2026-11-25",
-    "label": "Regroup with Andy and Paul at 1:30 (clashes with the Ops Weekly Call)",
+    "label": "Regroup with Andy and Paul at 1:30",
     "who": "KP, Andy, Paul"
    },
    {
@@ -154,7 +154,7 @@
    }
   ],
   "headline": "The Academy and D-League are $250,000–$300,000 behind budget. Andy and Paul regroup tomorrow at 1:30 and want the audit status, the October figures and a forecast for the Dec 8 board meeting.",
-  "lastRun": "2026-11-24T10:49:15Z",
+  "lastRun": "2026-11-24T16:48:25Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 16,
   "notesScanned": 42,
