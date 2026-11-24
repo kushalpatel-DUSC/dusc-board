@@ -473,9 +473,9 @@
   "recurringEventId": "3lmv8ac6ne8fg7slprqv293vkr",
   "seriesKey": "finance-weekly",
   "start": "2026-11-24T13:45:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Recurring Finance meeting",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T21:06:42Z",
   "userEdited": false
  },
  "3lmv8ac6ne8fg7slprqv293vkr_20261201T183000Z": {
