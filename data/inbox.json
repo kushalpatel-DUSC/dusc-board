@@ -1091,12 +1091,13 @@
   "due": null,
   "from": "Alexandra Keaney",
   "gist": "Alex is asking you and Jason Weisberg for an update on the headshots. Nobody has replied yet.",
+  "handledBy": "replied",
   "kind": "reply",
-  "status": "open",
+  "status": "handled",
   "subject": "Headshots",
   "threadId": "1a20e09d3c3713ac",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882751610165597100",
-  "updatedAt": "2026-11-24T15:06:51Z",
+  "updatedAt": "2026-11-24T17:06:50Z",
   "userEdited": false
  }
 }
