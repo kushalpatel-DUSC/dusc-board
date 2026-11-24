@@ -1099,5 +1099,22 @@
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882751610165597100",
   "updatedAt": "2026-11-24T17:06:50Z",
   "userEdited": false
+ },
+ "1a20e90427490bfc": {
+  "area": "Finance",
+  "ask": "Make sure Finance gets the van advances to the five coaches before Dec 1, and say so if you want this handled differently.",
+  "cardId": null,
+  "createdAt": "2026-11-24T19:07:18Z",
+  "date": "2026-11-24T17:17:33Z",
+  "due": "2026-12-01",
+  "from": "Leanne Campbell",
+  "gist": "Leanne asked Finance to advance five coaches the cost of the MLS Next Fest rental vans they are paying for themselves, about $7,074 in total, before they leave on Dec 1. You are copied.",
+  "kind": "deadline",
+  "status": "open",
+  "subject": "MLS Next Fest - Coach Pre-Payment for Rental Vans",
+  "threadId": "1a20e90427490bfc",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882760848289106940",
+  "updatedAt": "2026-11-24T19:07:18Z",
+  "userEdited": false
  }
 }

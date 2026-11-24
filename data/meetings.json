@@ -893,7 +893,7 @@
     "name": "Leanne Campbell"
    }
   ],
-  "end": "2026-11-24T13:45:00-05:00",
+  "end": "2026-11-24T14:15:00-05:00",
   "eventId": "606at15gvqj7ouob03ih8mg854_20261125T183000Z",
   "htmlLink": "https://www.google.com/calendar/event?eid=NjA2YXQxNWd2cWo3b3VvYjAzaWg4bWc4NTRfMjAyNjExMjVUMTgzMDAwWiBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
   "meetUrl": "https://meet.google.com/ffc-qwqh-avi",
@@ -925,9 +925,9 @@
   "recurringEventId": "606at15gvqj7ouob03ih8mg854_R20261111T183000",
   "seriesKey": "ops-weekly",
   "start": "2026-11-24T13:15:00-05:00",
-  "status": "upcoming",
+  "status": "past",
   "title": "Ops Weekly Call",
-  "updatedAt": "2026-11-24T16:48:25Z",
+  "updatedAt": "2026-11-24T19:07:18Z",
   "userEdited": false
  },
  "606at15gvqj7ouob03ih8mg854_20261202T183000Z": {

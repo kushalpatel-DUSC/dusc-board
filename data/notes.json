@@ -1752,6 +1752,66 @@
   "title": "Ops Weekly Call — Nov 18 (Gemini notes)",
   "url": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "ops-weekly-call-2026-11-24": {
+  "actions": [
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-forward-last-year-contracts",
+    "note": "KP needs them for the indoor space budget.",
+    "owner": "Mal",
+    "raised": "2026-11-24",
+    "text": "Mal to forward last year's Thompson Street and Charlton contracts to KP so he has the prices"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "mal-st-lukes-contract-status",
+    "note": "St. Luke's had not replied about the contract.",
+    "owner": "Mal",
+    "raised": "2026-11-24",
+    "text": "Mal to follow up with St. Luke's on the spring contract, with Saturdays cut to 1–4 PM"
+   },
+   {
+    "done": false,
+    "doneAt": null,
+    "due": null,
+    "id": "gustavo-ps234-gym-morgan",
+    "note": "DUSC used the PS 234 gym years ago.",
+    "owner": "Gustavo",
+    "raised": "2026-11-24",
+    "text": "Gustavo to follow up with Morgan Johnson about a possible gym connection at PS 234"
+   }
+  ],
+  "area": "Facilities",
+  "date": "2026-11-24",
+  "decisions": [
+   "Cancel the December Classic tournament.",
+   "Hold off on weekday classes at Immaculate Conception until spring, apart from testing one day.",
+   "Cut the St. Luke's spring Saturday booking to three hours, 1–4 PM."
+  ],
+  "fileId": "13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE",
+  "keyPoints": [
+   "The Classic tournament on Dec 12–13 has only two or three kids registered; KP will email Oumou to cancel it.",
+   "Leo and Liam need clearer expectations; KP wants a regular media planning meeting so requests come to them in one place.",
+   "Immaculate Conception: test one weekday for classes, 4–5 PM on Thursdays, which does not clash with Jessie's 6–8 PM futsal.",
+   "Winter space under discussion with Little Red: Thompson Street Mon–Thu 7:30–9 PM and Saturdays 9–4:30, Charlton Tue–Thu 6–8:30 PM; no formal yes or prices yet.",
+   "The community programming planning meeting is Dec 15; KP will email everyone what to bring.",
+   "NEST: the budget does not allow a big commitment this year; keep them warm and maybe propose Saturday mornings 9–12 for young kids."
+  ],
+  "kind": "Gemini meeting notes",
+  "modified": "2026-11-24T18:59:30Z",
+  "openQuestions": [
+   "What do Thompson Street and Charlton cost this winter?",
+   "Has St. Luke's sent the spring contract?",
+   "What, if anything, does DUSC propose to NEST for year one?"
+  ],
+  "summary": "A short call between KP and Mal (Leanne did not join). KP decided to cancel the December Classic tournament and to hold weekday classes at Immaculate Conception until spring, apart from testing one day. Winter indoor space is treated as set, and KP will total the cost of every indoor contract over the break.",
+  "title": "Ops Weekly Call — Nov 24 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE/edit?usp=drivesdk&ouid=114282482648379906347"
+ },
  "ops-winter-sep30": {
   "actions": [
    {
