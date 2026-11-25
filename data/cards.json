@@ -2139,7 +2139,7 @@
  "reporting-workflow-automation": {
   "area": "Systems",
   "createdAt": "2026-11-14T05:05:48Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:07:23.921Z",
   "due": null,
   "id": "reporting-workflow-automation",
   "note": null,
@@ -2151,10 +2151,10 @@
   "raised": "2026-11-13",
   "source": "Weekly Finance Call — Nov 13 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Build a repeatable workflow that produces registration and financial reports for any period (with Andy)",
   "triage": null,
-  "updatedAt": "2026-11-18T01:15:58.763Z",
+  "updatedAt": "2026-11-25T04:07:23.921Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
