@@ -99,6 +99,10 @@
    },
    {
     "label": "Today",
+    "text": "Agree at 1:30 who builds the financials Andy wants tied to the audit draft; they are due before Monday's auditor call."
+   },
+   {
+    "label": "Today",
     "text": "Update Nirmala on her consulting arrangement; it was due Tuesday and the card is still open."
    },
    {
@@ -106,12 +110,8 @@
     "text": "Write the finance role requirements by Friday, ahead of the December interviews."
    },
    {
-    "label": "This week",
-    "text": "Draft the showcase spending policy over the break so Nirmala can review it Monday morning."
-   },
-   {
     "label": "Mon 11/30",
-    "text": "Read the audit draft before the 1:00 review, where Nirmala presents the adjusting entries."
+    "text": "Read the audit draft and send Nirmala the showcase spending policy draft before the 1:00 review."
    }
   ],
   "cardsAdded": 0,
@@ -151,6 +151,11 @@
     "date": "2026-11-30",
     "label": "Audit draft review with the auditors, Andy and Paul (1:00); Nirmala presents the adjusting entries",
     "who": "Nirmala, KP, Andy, Paul"
+   },
+   {
+    "date": "2026-11-30",
+    "label": "Full financials that tie to the audit draft's net operating income, before the 1:00 auditor call",
+    "who": "KP, Nirmala, Paul"
    },
    {
     "date": "2026-12-01",
@@ -224,10 +229,10 @@
    }
   ],
   "headline": "Academy revenue is now projected $500,000–$600,000 under budget. Today's 1:30 regroup with Andy and Paul needs the October package, the audit status and an answer on accounting support.",
-  "lastRun": "2026-11-25T10:49:48Z",
+  "lastRun": "2026-11-25T16:49:01Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
-  "notesScanned": 28,
+  "notesScanned": 49,
   "themes": [
    {
     "name": "Deficit and forecast",
@@ -235,7 +240,7 @@
    },
    {
     "name": "Audit and board",
-    "text": "Nirmala presents adjusting entries at Monday's 1:00 draft review; the GA showcase timing needs leadership to agree. KP reads the draft first."
+    "text": "Nirmala presents adjusting entries at Monday's 1:00 draft review. Andy wants full financials that tie to the draft first; KP, Nirmala and Paul owe them."
    },
    {
     "name": "Showcase spending",
