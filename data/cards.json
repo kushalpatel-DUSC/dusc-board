@@ -816,7 +816,7 @@
  "credit-card-policy": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:08:08.788Z",
   "due": null,
   "id": "credit-card-policy",
   "note": null,
@@ -826,10 +826,12 @@
   "raised": "2026-10-30",
   "source": "Finance prep notes (Oct 30)",
   "sourceUrl": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Write a policy for issuing credit cards (Malorie, Gustavo, Leanne; Kyle needs one; long term: fewer cards)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-25T04:08:08.788Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "criollo-bros-meeting": {
   "area": "Programs",
