@@ -2030,7 +2030,10 @@
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
   "updatedAt": "2026-11-25T02:04:21Z",
-  "userEdited": false
+  "userEdited": false,
+  "agendaSkip": [
+   "Decide whether this call is still needed after Wednesday"
+  ]
  },
  "70lljkejnn3us5i0v89naed5q0_20261204T190000Z": {
   "agenda": [],
