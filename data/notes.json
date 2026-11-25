@@ -1409,7 +1409,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-21",
-    "text": "Can we digitize ref fees? Build a GA home-game one-pager and a clear reimbursement path for coaches"
+    "text": "Can we digitize ref fees? Build a GA home-game one-pager and a clear reimbursement path for coaches",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:48.746Z"
    },
    {
     "done": false,
@@ -1419,7 +1421,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-28",
-    "text": "Make a separate spreadsheet for Simon's hours"
+    "text": "Make a separate spreadsheet for Simon's hours",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:49.067Z"
    },
    {
     "done": false,
