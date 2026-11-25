@@ -1399,7 +1399,7 @@
  "laptop-policy": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:08:07.604Z",
   "due": null,
   "id": "laptop-policy",
   "note": null,
@@ -1409,10 +1409,12 @@
   "raised": "2026-10-30",
   "source": "Finance prep notes (Oct 30)",
   "sourceUrl": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Write a policy for issuing laptops (before any further reimbursements)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-25T04:08:07.604Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "leanne-september-receipts": {
   "area": "Finance",
