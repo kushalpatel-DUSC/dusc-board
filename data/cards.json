@@ -270,9 +270,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Review the Bill.com deck and costs from Nirmala and decide whether to start in January",
-  "triage": "new",
-  "updatedAt": "2026-11-24T20:50:26Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T00:05:54.451Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
