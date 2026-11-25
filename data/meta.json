@@ -11,10 +11,10 @@
  "inbox": {
   "added": 0,
   "cardsAdded": 0,
-  "cleared": 10,
-  "flagged": 14,
-  "lastRun": "2026-11-25T01:05:49Z",
-  "lastRunStatus": "ok (one open item's thread, NYS Dept. of Labor, could not be read: 'The caller does not have permission'; left open)",
+  "cleared": 1,
+  "flagged": 13,
+  "lastRun": "2026-11-25T03:06:38Z",
+  "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
   "scanned": 29
