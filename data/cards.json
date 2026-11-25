@@ -657,13 +657,14 @@
   "raised": "2026-11-24",
   "source": "Club calendar",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1gw2G8kcw1Umd4Cm1jRoVbY8yHm4k5sKgXb5iw8xGHzA/edit",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Decide whether Rec plays on Thanksgiving weekend, Nov 28–29",
-  "triage": "new",
-  "updatedAt": "2026-11-25T02:04:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T03:49:19.576Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-25T03:49:19.576Z"
  },
  "classic-tournament-cancel-oumou": {
   "area": "Programs",
