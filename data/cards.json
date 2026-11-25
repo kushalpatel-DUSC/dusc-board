@@ -1075,7 +1075,7 @@
  "ga-showcase-overrun": {
   "area": "Finance",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:06:54.283Z",
   "due": null,
   "id": "ga-showcase-overrun",
   "note": "Andy: 'not true that we made that much of a loss.' No new showcase June–October.",
@@ -1085,10 +1085,12 @@
   "raised": "2026-10-26",
   "source": "Andy/Kushal (Oct 26)",
   "sourceUrl": "https://docs.google.com/document/d/1Hh5K_vCjTo50UT277SooSwypkCRJ_RfTODG9nZcbRM0/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Investigate the GA Summer Showcase overrun: get into QuickBooks, management-level summary — participants, who was invoiced, trips budgeted that didn't happen",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-25T04:06:54.283Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "grace-church-sundays": {
   "area": "Facilities",
