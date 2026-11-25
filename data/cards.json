@@ -547,13 +547,14 @@
   "raised": "2026-11-18",
   "source": "Ops Weekly Call — Nov 18 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Forward the cafeteria space photo and details to Jesse and Gustavo",
-  "triage": "new",
-  "updatedAt": "2026-11-18T20:50:46Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T00:14:25.179Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-25T00:14:25.179Z"
  },
  "classic-tournament-cancel-oumou": {
   "area": "Programs",
