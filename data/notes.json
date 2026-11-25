@@ -126,7 +126,9 @@
     "note": null,
     "owner": "Gustavo",
     "raised": "2026-10-22",
-    "text": "Gustavo to send the list of all schools to KP"
+    "text": "Gustavo to send the list of all schools to KP",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:50:17.909Z"
    },
    {
     "done": false,
