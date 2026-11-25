@@ -85,19 +85,19 @@
   "updatedAt": "2026-11-25T02:00:00Z"
  },
  "sync": {
-  "actionsAdded": 6,
+  "actionsAdded": 0,
   "brief": [
-   {
-    "label": "Today",
-    "text": "Get the Immaculate Conception winter hours and rate in writing at the 4:00 Playbook demo with Ryan."
-   },
-   {
-    "label": "Today",
-    "text": "Update Nirmala on her consulting arrangement; today's meeting notes do not show it came up."
-   },
    {
     "label": "Wed 11/25",
     "text": "Ask Andy and Paul at 1:30 about part-time accounting support, and bring the October package and the roster gaps."
+   },
+   {
+    "label": "Wed 11/25",
+    "text": "Update Nirmala on her consulting arrangement; it was due Tuesday and the notes do not show it came up."
+   },
+   {
+    "label": "This week",
+    "text": "Decide before the holiday whether the Friday camp runs and whether Rec plays on Thanksgiving weekend; both are still open on the club calendar."
    },
    {
     "label": "This week",
@@ -108,7 +108,7 @@
     "text": "Read the audit draft before the 1:00 review, where Nirmala presents the adjusting entries."
    }
   ],
-  "cardsAdded": 3,
+  "cardsAdded": 4,
   "cardsCompleted": 0,
   "deadlines": [
    {
@@ -127,6 +127,11 @@
     "who": "Nirmala"
    },
    {
+    "date": "2026-11-24",
+    "label": "Decide whether the Thanksgiving Friday camp (Nov 27) runs",
+    "who": "KP"
+   },
+   {
     "date": "2026-11-25",
     "label": "Regroup with Andy and Paul at 1:30",
     "who": "KP, Andy, Paul"
@@ -135,6 +140,11 @@
     "date": "2026-11-25",
     "label": "January and February indoor schedule released before Thanksgiving",
     "who": "Leanne"
+   },
+   {
+    "date": "2026-11-25",
+    "label": "Decide whether Rec plays on Thanksgiving weekend, Nov 28–29",
+    "who": "KP"
    },
    {
     "date": "2026-11-27",
@@ -177,6 +187,11 @@
     "who": "Leanne"
    },
    {
+    "date": "2026-12-01",
+    "label": "Giving Tuesday and the year-end giving campaign",
+    "who": "KP"
+   },
+   {
     "date": "2026-12-04",
     "label": "Fields Committee meeting (12:00)",
     "who": "KP"
@@ -190,6 +205,11 @@
     "date": "2026-12-08",
     "label": "Board meeting — financial forecast and audit; KP raises board involvement in operations",
     "who": "Paul, KP, Andy, Nirmala"
+   },
+   {
+    "date": "2026-12-14",
+    "label": "NYC Parks spring/summer 2027 permit renewal window closes",
+    "who": "KP"
    },
    {
     "date": "2026-12-15",
@@ -233,10 +253,10 @@
    }
   ],
   "headline": "Academy revenue is now projected $500,000–$600,000 under budget. Tomorrow's 1:30 regroup with Andy and Paul needs the October package, the audit status and an answer on accounting support.",
-  "lastRun": "2026-11-24T20:50:26Z",
+  "lastRun": "2026-11-25T02:04:21Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 15,
-  "notesScanned": 38,
+  "meetingsRefreshed": 14,
+  "notesScanned": 43,
   "themes": [
    {
     "name": "Deficit and forecast",
@@ -259,8 +279,8 @@
     "text": "Paychex put names on the wrong accounts, which holds up the five-day open enrollment. Paul chases the fix; Kristen and Nirmala send packets and set an information call."
    },
    {
-    "name": "Winter space and schedule",
-    "text": "Winter indoor space is treated as set, but Little Red has given no prices. KP totals every indoor contract over the break; Mal sends last year's contracts."
+    "name": "Winter space and permits",
+    "text": "Winter indoor space is treated as set, but Little Red has given no prices; KP totals every contract over the break. NYC Parks spring permit renewals close Dec 14."
    }
   ],
   "waitingLong": []
