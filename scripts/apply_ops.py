@@ -11,7 +11,10 @@ source "sync" (the scheduled tasks) is guarded: it never deletes, never touches 
 user has handled, and never overrides fields the user has edited (userEdited: true) on cards,
 meetings or series. On notes it can add to the "actions" list (other people's to-dos) or mark one
 done, but never removes or unticks one, and it keeps the user's keep/archive marks on to-dos and open
-questions. A card the user dismissed or archived is never re-created. The page (source "user") has no guard.
+questions. A card the user dismissed or archived is never re-created. On a meeting it can record the
+day-before agenda work ("prework") once and never again, and it never touches "preworkDone" (the user's
+mark that the agenda email is dealt with); on a series it never touches "notesDoc" (the running notes doc
+the user linked). The page (source "user") has no guard.
 The club calendar (data/calendar.json) is written by scripts/build_calendar.py, not by this script.
 Prints a one-line summary. Exit code 0 on success.
 """
@@ -21,8 +24,8 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 COLLS = ['cards', 'notes', 'inbox', 'meetings', 'series', 'meta']
 PROTECTED = {
     'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited', 'triage', 'dismissedAt', 'snoozes', 'project', 'later', 'laterAt', 'keptAt', 'archivedAt'},
-    'meetings': {'agenda', 'agendaUpdatedAt', 'agendaSentAt', 'userEdited', 'skipAgenda', 'agendaSkip'},
-    'series': {'running', 'runningUpdatedAt', 'userEdited'},
+    'meetings': {'agenda', 'agendaUpdatedAt', 'agendaSentAt', 'userEdited', 'skipAgenda', 'agendaSkip', 'preworkDone'},
+    'series': {'running', 'runningUpdatedAt', 'userEdited', 'notesDoc'},
     'inbox': {'status', 'cardId', 'userEdited'},
 }
 
@@ -92,6 +95,24 @@ def main():
                 for k in PROTECTED['meetings']:
                     if k in existing:
                         patch[k] = existing[k]
+        if guarded and existing is not None and coll == 'meetings':
+            # the day-before agenda doc and email draft are made once per meeting: a later run can
+            # neither replace the record (that would orphan the doc and draft) nor clear the user's mark
+            patch.pop('preworkDone', None)
+            if (existing.get('prework') or {}).get('at'):
+                patch.pop('prework', None)
+            if op == 'set':
+                for k in ('prework', 'preworkDone'):
+                    if k in existing:
+                        patch[k] = existing[k]
+            if not patch:
+                counts['skipped'] += 1; continue
+        if guarded and existing is not None and coll == 'series':
+            patch.pop('notesDoc', None)
+            if op == 'set' and 'notesDoc' in existing:
+                patch['notesDoc'] = existing['notesDoc']
+            if not patch:
+                counts['skipped'] += 1; continue
         if coll == 'notes' and guarded and existing is not None and 'qState' in existing:
             # which open questions the user kept or archived: a sync never loses these marks
             patch['qState'] = existing['qState']

@@ -2165,8 +2165,39 @@
   "userEdited": false
  },
  "71l76n92p5661f1cj64194oj54": {
-  "agenda": [],
-  "agendaUpdatedAt": null,
+  "agenda": [
+   {
+    "addedAt": "2026-11-25T03:21:00Z",
+    "done": false,
+    "text": "Dec 8 board forecast: what goes in and who drafts"
+   },
+   {
+    "addedAt": "2026-11-25T03:21:00Z",
+    "done": false,
+    "text": "Paychex account errors: fixed, and when enrollment opens"
+   },
+   {
+    "addedAt": "2026-11-25T03:21:00Z",
+    "done": false,
+    "text": "Part-time accounting support through year-end: yes or no"
+   },
+   {
+    "addedAt": "2026-11-25T03:21:00Z",
+    "done": false,
+    "text": "Audit: adjusting entries and GA showcase timing before Monday"
+   },
+   {
+    "addedAt": "2026-11-25T03:21:00Z",
+    "done": false,
+    "text": "Holiday bonus budget of $50,000: go ahead or not"
+   },
+   {
+    "addedAt": "2026-11-25T03:21:00Z",
+    "done": false,
+    "text": "Giving Tuesday and year-end campaign: who owns it"
+   }
+  ],
+  "agendaUpdatedAt": "2026-11-25T03:21:00Z",
   "attendees": [
    {
     "email": "andrew.scruton@dusc.net",
@@ -2235,6 +2266,17 @@
    ],
    "summary": "The pre-Thanksgiving regroup agreed on Friday, tomorrow at 1:30. Bring the October package, the audit status and Nirmala's request for accounting support.",
    "updatedAt": "2026-11-25T02:04:21Z"
+  },
+  "prework": {
+   "at": "2026-11-25T03:21:00Z",
+   "docKind": "agenda",
+   "docTitle": "Agenda - Finance Catch Up - Andy + Paul - Wed Nov 25",
+   "docUrl": "https://docs.google.com/document/d/14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc/edit",
+   "draftUrl": "https://mail.google.com/mail/#all?compose=thread-f:1882798778200388671%2Bmsg-a:r-4581565581034550227",
+   "items": 6,
+   "note": "1 line held back: add it yourself if you want it in",
+   "subject": "Agenda for Wed Nov 25, 1:30 PM: Finance Catch Up",
+   "to": 2
   },
   "recurringEventId": null,
   "seriesKey": "board-checkins",
