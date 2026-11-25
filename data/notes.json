@@ -1247,7 +1247,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-16",
-    "text": "Find friendlies for GA and MLS Next teams"
+    "text": "Find friendlies for GA and MLS Next teams",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:17.010Z"
    },
    {
     "done": false,
