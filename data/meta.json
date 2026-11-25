@@ -6,7 +6,7 @@
   "sheetUrl": "https://docs.google.com/spreadsheets/d/1gw2G8kcw1Umd4Cm1jRoVbY8yHm4k5sKgXb5iw8xGHzA/edit",
   "tbd": 43,
   "total": 159,
-  "updatedAt": "2026-11-25T01:00:00Z"
+  "updatedAt": "2026-11-25T10:47:44Z"
  },
  "inbox": {
   "added": 0,
@@ -94,16 +94,16 @@
   "actionsAdded": 0,
   "brief": [
    {
-    "label": "Wed 11/25",
-    "text": "Ask Andy and Paul at 1:30 about part-time accounting support, and bring the October package and the roster gaps."
+    "label": "Today",
+    "text": "Ask Andy and Paul at 1:30 about part-time accounting support and who owns the Giving Tuesday campaign; both cards wait on them."
    },
    {
-    "label": "Wed 11/25",
-    "text": "Update Nirmala on her consulting arrangement; it was due Tuesday and the notes do not show it came up."
+    "label": "Today",
+    "text": "Update Nirmala on her consulting arrangement; it was due Tuesday and the card is still open."
    },
    {
-    "label": "This week",
-    "text": "Decide before the holiday whether the Friday camp runs and whether Rec plays on Thanksgiving weekend; both are still open on the club calendar."
+    "label": "Fri 11/27",
+    "text": "Write the finance role requirements by Friday, ahead of the December interviews."
    },
    {
     "label": "This week",
@@ -118,26 +118,6 @@
   "cardsCompleted": 0,
   "deadlines": [
    {
-    "date": "2026-11-24",
-    "label": "Update Nirmala on her consulting arrangement",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-24",
-    "label": "Benefits enrollment packets sent and information call scheduled",
-    "who": "Kristen, Nirmala"
-   },
-   {
-    "date": "2026-11-24",
-    "label": "Audit draft due from the auditors by end of day",
-    "who": "Nirmala"
-   },
-   {
-    "date": "2026-11-24",
-    "label": "Decide whether the Thanksgiving Friday camp (Nov 27) runs",
-    "who": "KP"
-   },
-   {
     "date": "2026-11-25",
     "label": "Regroup with Andy and Paul at 1:30",
     "who": "KP, Andy, Paul"
@@ -146,11 +126,6 @@
     "date": "2026-11-25",
     "label": "January and February indoor schedule released before Thanksgiving",
     "who": "Leanne"
-   },
-   {
-    "date": "2026-11-25",
-    "label": "Decide whether Rec plays on Thanksgiving weekend, Nov 28–29",
-    "who": "KP"
    },
    {
     "date": "2026-11-27",
@@ -169,11 +144,6 @@
    },
    {
     "date": "2026-11-30",
-    "label": "Summer 2027 Spain trip contract sorted with Todd",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-30",
     "label": "Showcase spending policy draft to Nirmala in the morning, sent out that afternoon",
     "who": "KP, Nirmala"
    },
@@ -184,18 +154,13 @@
    },
    {
     "date": "2026-12-01",
-    "label": "GA showcase overrun analysis delivered to Andy and Paul",
-    "who": "KP"
-   },
-   {
-    "date": "2026-12-01",
     "label": "MLS Next Fest Dec 1–13; Academy outdoor under HRPT permit Dec 1–18",
     "who": "Leanne"
    },
    {
     "date": "2026-12-01",
     "label": "Giving Tuesday and the year-end giving campaign",
-    "who": "KP"
+    "who": "Andy, KP"
    },
    {
     "date": "2026-12-04",
@@ -209,13 +174,13 @@
    },
    {
     "date": "2026-12-08",
-    "label": "Board meeting — financial forecast and audit; KP raises board involvement in operations",
+    "label": "Board meeting — financial forecast and audit",
     "who": "Paul, KP, Andy, Nirmala"
    },
    {
     "date": "2026-12-14",
     "label": "NYC Parks spring/summer 2027 permit renewal window closes",
-    "who": "KP"
+    "who": "Ops"
    },
    {
     "date": "2026-12-15",
@@ -258,11 +223,11 @@
     "who": "Ops"
    }
   ],
-  "headline": "Academy revenue is now projected $500,000–$600,000 under budget. Tomorrow's 1:30 regroup with Andy and Paul needs the October package, the audit status and an answer on accounting support.",
-  "lastRun": "2026-11-25T02:07:50Z",
+  "headline": "Academy revenue is now projected $500,000–$600,000 under budget. Today's 1:30 regroup with Andy and Paul needs the October package, the audit status and an answer on accounting support.",
+  "lastRun": "2026-11-25T10:49:48Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 0,
-  "notesScanned": 43,
+  "meetingsRefreshed": 14,
+  "notesScanned": 28,
   "themes": [
    {
     "name": "Deficit and forecast",
@@ -270,7 +235,7 @@
    },
    {
     "name": "Audit and board",
-    "text": "Nirmala presents adjusting entries at Monday's 1:00 draft review; the GA showcase timing needs leadership to agree. KP reads the draft first and owes the GA showcase report Dec 1."
+    "text": "Nirmala presents adjusting entries at Monday's 1:00 draft review; the GA showcase timing needs leadership to agree. KP reads the draft first."
    },
    {
     "name": "Showcase spending",
@@ -278,7 +243,7 @@
    },
    {
     "name": "Finance capacity",
-    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP raises support with Andy and Paul tomorrow and writes the finance role requirements by Friday."
+    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP raises support with Andy and Paul today and writes the finance role requirements by Friday."
    },
    {
     "name": "Healthcare",

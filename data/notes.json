@@ -11,15 +11,15 @@
   "openQuestions": [
    "Can we dip into January 1 to pay off the big balance?"
   ],
-  "summary": "Adidas: 6-year contract, $110K/year with $100K spending money used for coaches and Soccer4All players. Existing supply of $5,790 in January 2027. An open $71,000 invoice — can promo cover any of it, and can the January allotment pay down the balance? Soccer Post must align to clear it.",
-  "title": "Adidas notes (Nov 2)",
-  "url": "https://docs.google.com/document/d/17Q1Io-6HQtpuKyqc7VAjpJdmoEejekzztozgcwRtI7Q/edit",
   "qState": {
    "q4n1nqt": {
     "archived": true,
     "at": "2026-11-25T03:50:44.686Z"
    }
-  }
+  },
+  "summary": "Adidas: 6-year contract, $110K/year with $100K spending money used for coaches and Soccer4All players. Existing supply of $5,790 in January 2027. An open $71,000 invoice — can promo cover any of it, and can the January allotment pay down the balance? Soccer Post must align to clear it.",
+  "title": "Adidas notes (Nov 2)",
+  "url": "https://docs.google.com/document/d/17Q1Io-6HQtpuKyqc7VAjpJdmoEejekzztozgcwRtI7Q/edit"
  },
  "andy-kushal-oct26": {
   "area": "Finance",
@@ -63,15 +63,15 @@
   "openQuestions": [
    "How are families being added to the database, and has that pathway been refreshed?"
   ],
-  "summary": "KP's read on the club for the board: field sourcing isn't a system yet, scheduling leans on spreadsheets instead of PlayMetrics, finance and ops are out of sync, comms are inconsistent, and camps are stale. Partnerships with a university or outside group are the fastest fix for fields.",
-  "title": "Notes for DUSC Board Meeting",
-  "url": "https://docs.google.com/document/d/1ugWkQyeut137op-jXOWdWVQ__tZjm1PX57WGxOpN30A/edit",
   "qState": {
    "q1raj934": {
     "archived": true,
     "at": "2026-11-25T03:50:50.235Z"
    }
-  }
+  },
+  "summary": "KP's read on the club for the board: field sourcing isn't a system yet, scheduling leans on spreadsheets instead of PlayMetrics, finance and ops are out of sync, comms are inconsistent, and camps are stale. Partnerships with a university or outside group are the fastest fix for fields.",
+  "title": "Notes for DUSC Board Meeting",
+  "url": "https://docs.google.com/document/d/1ugWkQyeut137op-jXOWdWVQ__tZjm1PX57WGxOpN30A/edit"
  },
  "board-prep-oct12": {
   "area": "Board",
@@ -88,15 +88,15 @@
   "openQuestions": [
    "What are the right check-in points with the board and committees?"
   ],
-  "summary": "How to frame the conversation with the board: where KP is in getting up to speed, who he has and hasn't talked to, urgent vs. important next steps, a repeatable long-term calendar, who oversees what, and what reporting/check-in cadence the board actually needs.",
-  "title": "Board conversation prep (Oct 12)",
-  "url": "https://docs.google.com/document/d/18t8ir9iaELvHUEG-BYY-UnypC4UbVaUsjF-SQ2sAaAQ/edit",
   "qState": {
    "qluhc1s": {
     "archived": true,
     "at": "2026-11-25T03:50:53.484Z"
    }
-  }
+  },
+  "summary": "How to frame the conversation with the board: where KP is in getting up to speed, who he has and hasn't talked to, urgent vs. important next steps, a repeatable long-term calendar, who oversees what, and what reporting/check-in cadence the board actually needs.",
+  "title": "Board conversation prep (Oct 12)",
+  "url": "https://docs.google.com/document/d/18t8ir9iaELvHUEG-BYY-UnypC4UbVaUsjF-SQ2sAaAQ/edit"
  },
  "club-calendar": {
   "area": "Systems",
@@ -127,6 +127,8 @@
     "text": "Explore a Battery Park permit (games / Academy; across from Avenues)"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:51:20.341Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -134,11 +136,11 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-14",
-    "text": "Create a coach job description and post it ($50–75 per session); source from summer camp coaches",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:51:20.341Z"
+    "text": "Create a coach job description and post it ($50–75 per session); source from summer camp coaches"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:50:17.909Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -146,31 +148,29 @@
     "note": null,
     "owner": "Gustavo",
     "raised": "2026-10-22",
-    "text": "Gustavo to send the list of all schools to KP",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:50:17.909Z"
+    "text": "Gustavo to send the list of all schools to KP"
    },
    {
     "done": false,
     "doneAt": null,
     "due": null,
     "id": "players-by-school",
+    "keptAt": "2026-11-25T03:51:25.563Z",
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-22",
-    "text": "Build a list of all players and where they go to school",
-    "keptAt": "2026-11-25T03:51:25.563Z"
+    "text": "Build a list of all players and where they go to school"
    },
    {
     "done": false,
     "doneAt": null,
     "due": null,
     "id": "weekday-classes-decision",
+    "keptAt": "2026-11-25T03:51:30.645Z",
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-22",
-    "text": "Decide whether to bring weekday classes back (younger ages popular; Socceroof Wed 5–6 had 13 kids)",
-    "keptAt": "2026-11-25T03:51:30.645Z"
+    "text": "Decide whether to bring weekday classes back (younger ages popular; Socceroof Wed 5–6 had 13 kids)"
    }
   ],
   "area": "Programs",
@@ -189,13 +189,13 @@
    "Expansion ideas: Socceroof growth, Battery Park (permit), Piers 25/42, BMCC via Gustavo, Governors Island spring festival; camps need a price/quality/programming refresh"
   ],
   "kind": "Running meeting notes",
-  "modified": "2026-11-05T19:30:12.088Z",
+  "modified": "2026-11-25T04:39:59.059Z",
   "openQuestions": [
    "Bring weekday classes back, and where (weekday class space)?",
    "How do Classes, Rec and Camp come together as one pipeline?",
    "How much giving back can we do through schools?"
   ],
-  "summary": "KP's running notes on community programming, now with his own notes from the Nov 5 Rec meeting. School connections lost after Covid are being rebuilt (PS 11, PS 126, PS 150, Lycée Français, Battery Park City School, Manhattan Youth); classes are up (152 vs 135 last fall) and moving to Little Red. The Rec League is 347 kids on ~50 co-ed teams, Sat/Sun at Pier 40, indoors Jan 9/10–Mar 21/22; the asks are better coaches (assistant $35/hr, field supervisors and class head coaches $50/hr), more parent involvement, aligning Classes/Rec/Camp into one pipeline, growing spring sessions, and equipment (Bazooka goals, coach uniforms).",
+  "summary": "KP's running notes on community programming, now in the house format with the October notes kept under Earlier notes. Nothing new was added; the next Rec/Class/Camp agenda will land here.",
   "title": "Community Programming (Oct 14, 22 & Nov 5)",
   "url": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit"
  },
@@ -329,15 +329,15 @@
   "openQuestions": [
    "Does coach distribution allow more flexible scheduling?"
   ],
-  "summary": "KP, Andy, Kyle on winter scheduling and budget. Build the indoor baseline on the minimum sessions needed; use Arman's field-units-per-hour model to standardize pricing; $132K of winter/spring budget is unallocated. 28 Liberty delivered 4.5 fields instead of 7, so negotiate credits.",
-  "title": "Field + Budget — Oct 8 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit",
   "qState": {
    "q1gnvoj4": {
     "archived": true,
     "at": "2026-11-25T03:50:55.985Z"
    }
-  }
+  },
+  "summary": "KP, Andy, Kyle on winter scheduling and budget. Build the indoor baseline on the minimum sessions needed; use Arman's field-units-per-hour model to standardize pricing; $132K of winter/spring budget is unallocated. 28 Liberty delivered 4.5 fields instead of 7, so negotiate credits.",
+  "title": "Field + Budget — Oct 8 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit"
  },
  "field-catchup-2026-11-05": {
   "actions": [
@@ -382,6 +382,8 @@
  "finance-call": {
   "actions": [
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:51:32.517Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -389,9 +391,7 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-10-13",
-    "text": "Boys Academy registrations: why -$80K vs budget (Nirmala working with the auditors)",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:51:32.517Z"
+    "text": "Boys Academy registrations: why -$80K vs budget (Nirmala working with the auditors)"
    },
    {
     "done": false,
@@ -404,6 +404,8 @@
     "text": "Catch up on September and October expense entry in QuickBooks (AP, spend and expense) so the September test-case close and October package are complete"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:51:38.855Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -411,9 +413,7 @@
     "note": null,
     "owner": "Noemi",
     "raised": "2026-11-02",
-    "text": "Credit card reconciliations: get cardholders to upload receipts",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:51:38.855Z"
+    "text": "Credit card reconciliations: get cardholders to upload receipts"
    },
    {
     "done": false,
@@ -436,6 +436,8 @@
     "text": "Healthcare: census to Paychex (Kristen done), then Nirmala sends plan options for underwriting — 3–4 plans incl. an HSA option"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:51:53.833Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -443,11 +445,11 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-11-02",
-    "text": "Laptop reimbursement for Noemi (approved up to $1,500 by Paul) — Nirmala to request purchase links",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:51:53.833Z"
+    "text": "Laptop reimbursement for Noemi (approved up to $1,500 by Paul) — Nirmala to request purchase links"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:03.832Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -455,9 +457,7 @@
     "note": null,
     "owner": "Noemi",
     "raised": "2026-11-02",
-    "text": "Receivables: run reports and stay on top of them week by week",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:03.832Z"
+    "text": "Receivables: run reports and stay on top of them week by week"
    },
    {
     "done": true,
@@ -544,15 +544,15 @@
   "openQuestions": [
    "Why are Boys Academy registrations -$80K vs. budget?"
   ],
-  "summary": "A two-line prompt from the Oct 13 finance call: why Boys Academy registrations show roughly -$80K against budget, plus an empty SFA heading. The question is still open — Nirmala is working it with the auditors and the GA Showcase overrun sits alongside it as the other unexplained number.",
-  "title": "Finance Call — Boys Academy registrations (Oct 13)",
-  "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit",
   "qState": {
    "qx7vgnd": {
     "archived": true,
     "at": "2026-11-25T03:50:56.493Z"
    }
-  }
+  },
+  "summary": "A two-line prompt from the Oct 13 finance call: why Boys Academy registrations show roughly -$80K against budget, plus an empty SFA heading. The question is still open — Nirmala is working it with the auditors and the GA Showcase overrun sits alongside it as the other unexplained number.",
+  "title": "Finance Call — Boys Academy registrations (Oct 13)",
+  "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit"
  },
  "finance-catchup-2026-11-06": {
   "actions": [
@@ -626,6 +626,24 @@
   "title": "Finance Catchup — Nov 6 (Gemini notes)",
   "url": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "finance-catchup-andy-paul-weekly": {
+  "actions": [],
+  "area": "Finance",
+  "date": "2026-11-25",
+  "decisions": [],
+  "fileId": "14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc",
+  "keyPoints": [
+   "First section is Wed Nov 25, with six agenda topics and space for Andy and Paul to add items.",
+   "Topics: Dec 8 board forecast, Paychex errors, accounting support, the audit, the holiday bonus budget, Giving Tuesday.",
+   "Decisions, action items and the recap are filled in after the meeting from the Gemini notes."
+  ],
+  "kind": "Running meeting notes",
+  "modified": "2026-11-25T04:39:58.543Z",
+  "openQuestions": [],
+  "summary": "The new shared notes doc for the calls with Andy and Paul. It holds the six-item agenda for the Wed Nov 25 catch-up; nothing has been typed under it yet.",
+  "title": "Finance Catch Up - Andy + Paul Weekly (running notes)",
+  "url": "https://docs.google.com/document/d/14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc/edit"
+ },
  "finance-prep-oct30": {
   "area": "Finance",
   "date": "2026-10-30",
@@ -643,19 +661,19 @@
    "Did we really miss on the GA Summer Showcase, or is the data wrong?",
    "What is missing or incomplete on the audit, and why?"
   ],
-  "summary": "Prep for the finance conversation: staffing and priorities, 9/30 AR reporting in Andy's format, finalize September (bonuses by 11/15), investigate the GA Summer Showcase overrun, get the audit timetable, and write laptop and credit card policies.",
-  "title": "Finance prep notes (Oct 30)",
-  "url": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
   "qState": {
-   "qi5dpxf": {
-    "archived": true,
-    "at": "2026-11-25T03:50:54.913Z"
-   },
    "q1b4vlmz": {
     "archived": true,
     "at": "2026-11-25T03:50:59.295Z"
+   },
+   "qi5dpxf": {
+    "archived": true,
+    "at": "2026-11-25T03:50:54.913Z"
    }
-  }
+  },
+  "summary": "Prep for the finance conversation: staffing and priorities, 9/30 AR reporting in Andy's format, finalize September (bonuses by 11/15), investigate the GA Summer Showcase overrun, get the audit timetable, and write laptop and credit card policies.",
+  "title": "Finance prep notes (Oct 30)",
+  "url": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit"
  },
  "finance-structure": {
   "area": "Finance",
@@ -743,6 +761,8 @@
  "finance-weekly-nov2": {
   "actions": [
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:08.989Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -750,9 +770,7 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-11-02",
-    "text": "Include KP on all auditor email threads",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:08.989Z"
+    "text": "Include KP on all auditor email threads"
    }
   ],
   "area": "Finance",
@@ -774,15 +792,15 @@
   "openQuestions": [
    "Can a formal hardware policy be written before the next request?"
   ],
-  "summary": "KP and Nirmala. The board (Andy, Paul) is stepping back to bi-weekly check-ins; KP and Nirmala meet weekly. PlayMetrics revenue pulls are wrong — QuickBooks is the source of truth because it reconciles to the bank. September P&L is done; bonuses by 11/15 are below threshold. Auditors need ~2 weeks for a draft.",
-  "title": "Finance Weekly — Nov 2 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit",
   "qState": {
    "qaijs12": {
     "archived": true,
     "at": "2026-11-25T03:51:00.890Z"
    }
-  }
+  },
+  "summary": "KP and Nirmala. The board (Andy, Paul) is stepping back to bi-weekly check-ins; KP and Nirmala meet weekly. PlayMetrics revenue pulls are wrong — QuickBooks is the source of truth because it reconciles to the bank. September P&L is done; bonuses by 11/15 are below threshold. Auditors need ~2 weeks for a draft.",
+  "title": "Finance Weekly — Nov 2 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1houTV1C0mVPghG6rPYK8jqHcDP-HZN-PuuER1dQELl8/edit"
  },
  "futsal-26-27": {
   "actions": [
@@ -1063,6 +1081,8 @@
  "kyle-kushal": {
   "actions": [
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:10.865Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1070,9 +1090,7 @@
     "note": null,
     "owner": "Kyle",
     "raised": "2026-11-03",
-    "text": "Herve Diese / future DOC — decide next step",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:10.865Z"
+    "text": "Herve Diese / future DOC — decide next step"
    },
    {
     "done": false,
@@ -1085,6 +1103,8 @@
     "text": "Kyle to reach out to Ron about Media Day space — before mid-November"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:13.635Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1092,11 +1112,11 @@
     "note": null,
     "owner": "Kyle",
     "raised": "2026-10-19",
-    "text": "Kyle to share the Soccer.com slide deck with KP",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:13.635Z"
+    "text": "Kyle to share the Soccer.com slide deck with KP"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:16.507Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1104,9 +1124,7 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-19",
-    "text": "Find a service for spring team pictures",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:16.507Z"
+    "text": "Find a service for spring team pictures"
    },
    {
     "done": false,
@@ -1133,7 +1151,7 @@
    "HR: parental leave policy and the staff handbook need a 2027 update."
   ],
   "kind": "Running 1:1 notes",
-  "modified": "2026-11-09T19:42:16.405Z",
+  "modified": "2026-11-25T04:31:03.695Z",
   "openQuestions": [
    "Who owns the Adidas promo re-negotiation with Joe while Kyle is away?",
    "Which roles need replacing, and with whom?",
@@ -1200,6 +1218,28 @@
   "title": "Media cadence & marketing — notes with Syd (Nov 11)",
   "url": "https://docs.google.com/document/d/1phxaRwR0BA6iU4fVRscwoi9Xh_zlKHw_wItqS5_iQ0I/edit?usp=drivesdk&ouid=114282482648379906347"
  },
+ "nirmala-finance-weekly": {
+  "actions": [],
+  "area": "Finance",
+  "date": "2026-11-24",
+  "decisions": [
+   "Showcase spending policy: KP drafts it over the break and Nirmala reviews it Monday morning.",
+   "Use QuickBooks, not PlayMetrics, as the source for financial figures."
+  ],
+  "fileId": "11vtYiwpOpm4eid8Z6-LUL0NpH_jIqk3uyd0Kg4qVkhc",
+  "keyPoints": [
+   "Recaps of Nov 2, 3, 16, 17 and 24 are filled in from the Gemini notes of each call.",
+   "The open-items list at the top carries every unfinished to-do for KP and Nirmala, newest first.",
+   "Latest recap (Nov 24): Academy revenue projected $500,000 to $600,000 under budget; October package complete.",
+   "Bill.com at $337 a month and part-time accounting support through year-end are both still undecided."
+  ],
+  "kind": "Running meeting notes",
+  "modified": "2026-11-25T04:40:46.609Z",
+  "openQuestions": [],
+  "summary": "The new shared notes doc for the Monday and Tuesday calls with Nirmala. It holds recaps of the five November meetings and one open-items list; future agendas and recaps land here.",
+  "title": "Nirmala Finance Weekly (running notes)",
+  "url": "https://docs.google.com/document/d/11vtYiwpOpm4eid8Z6-LUL0NpH_jIqk3uyd0Kg4qVkhc/edit"
+ },
  "ops-call-rain": {
   "area": "Scheduling",
   "date": "2026-10-07",
@@ -1240,6 +1280,8 @@
     "text": "December practice schedule finalized and into PlayMetrics"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:17.010Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1247,9 +1289,7 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-16",
-    "text": "Find friendlies for GA and MLS Next teams",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:17.010Z"
+    "text": "Find friendlies for GA and MLS Next teams"
    },
    {
     "done": false,
@@ -1312,6 +1352,8 @@
     "text": "Put all facility contracts in one shared folder"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:29.806Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1319,11 +1361,11 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-07",
-    "text": "Follow up with Little Red (LREI) — Thompson St Saturdays, Charlton Tue/Wed/Thu; more space, earlier start?",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:29.806Z"
+    "text": "Follow up with Little Red (LREI) — Thompson St Saturdays, Charlton Tue/Wed/Thu; more space, earlier start?"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:33.981Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1331,11 +1373,11 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-23",
-    "text": "Update the winter space tracker with every contract's status",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:33.981Z"
+    "text": "Update the winter space tracker with every contract's status"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:36.830Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1343,11 +1385,11 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-07",
-    "text": "Follow up with Stephen Gaynor School (UWS) — Friday futsal, older group",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:36.830Z"
+    "text": "Follow up with Stephen Gaynor School (UWS) — Friday futsal, older group"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:48.311Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1355,11 +1397,11 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Report status of all winter contracts (same number as last year? what is locked in?)",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:48.311Z"
+    "text": "Report status of all winter contracts (same number as last year? what is locked in?)"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:40.916Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1367,9 +1409,7 @@
     "note": null,
     "owner": "Kyle",
     "raised": "2026-10-21",
-    "text": "Decide on the MLS Next Coordinator role ($25,000)",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:40.916Z"
+    "text": "Decide on the MLS Next Coordinator role ($25,000)"
    },
    {
     "done": false,
@@ -1402,6 +1442,8 @@
     "text": "PlayMetrics training for Ops; move the tryout form into PlayMetrics and trial it over the winter (ideal: done in January)"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:48.746Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1409,11 +1451,11 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-21",
-    "text": "Can we digitize ref fees? Build a GA home-game one-pager and a clear reimbursement path for coaches",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:48.746Z"
+    "text": "Can we digitize ref fees? Build a GA home-game one-pager and a clear reimbursement path for coaches"
    },
    {
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:49.067Z",
     "done": false,
     "doneAt": null,
     "due": null,
@@ -1421,9 +1463,7 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-28",
-    "text": "Make a separate spreadsheet for Simon's hours",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:49.067Z"
+    "text": "Make a separate spreadsheet for Simon's hours"
    },
    {
     "done": false,
@@ -1575,15 +1615,15 @@
   "openQuestions": [
    "Is a separate hours spreadsheet for Simon really needed?"
   ],
-  "summary": "Ops call with Mal and Leanne from late October. Covered the two $80,000 finance discrepancies, the club calendar, Claude accounts for staff and winter gym options.",
-  "title": "Ops Weekly Call — Oct 28 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1sn5wCWAbLkxZlo_GujRdHIzYNqfhKCgOlrcgonHOjyA/edit?usp=drivesdk&ouid=114282482648379906347",
   "qState": {
    "q1ilpuu2": {
     "archived": true,
     "at": "2026-11-25T03:51:03.277Z"
    }
-  }
+  },
+  "summary": "Ops call with Mal and Leanne from late October. Covered the two $80,000 finance discrepancies, the club calendar, Claude accounts for staff and winter gym options.",
+  "title": "Ops Weekly Call — Oct 28 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1sn5wCWAbLkxZlo_GujRdHIzYNqfhKCgOlrcgonHOjyA/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "ops-weekly-call-2026-11-04": {
   "actions": [
@@ -2061,19 +2101,19 @@
    "Bill.com or custom tooling for payables, expenses and reimbursements?",
    "Who owns receivables tracking day to day?"
   ],
-  "summary": "Nirmala's Tuesday finance hour with KP. Covers the health insurance census, tighter expense controls and using AI on QuickBooks data; the Bill.com decision is still open.",
-  "title": "Recurring Finance meeting — Nov 3 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347",
   "qState": {
-   "q1dsgsir": {
-    "archived": true,
-    "at": "2026-11-25T03:51:07.890Z"
-   },
    "q196xvtc": {
     "archived": true,
     "at": "2026-11-25T03:51:11.370Z"
+   },
+   "q1dsgsir": {
+    "archived": true,
+    "at": "2026-11-25T03:51:07.890Z"
    }
-  }
+  },
+  "summary": "Nirmala's Tuesday finance hour with KP. Covers the health insurance census, tighter expense controls and using AI on QuickBooks data; the Bill.com decision is still open.",
+  "title": "Recurring Finance meeting — Nov 3 (Gemini notes)",
+  "url": "https://docs.google.com/document/d/1u43sG-xaRsSNIqRJ9Ccirr6HVTojHHGWLKK3ebSWVlY/edit?usp=drivesdk&ouid=114282482648379906347"
  },
  "recurring-finance-2026-11-17": {
   "actions": [
@@ -2545,14 +2585,14 @@
   "openQuestions": [
    "Where did we get the most space, and what is it costing?"
   ],
-  "summary": "KP's framing for winter space right after the Sep 30 ops meeting: find where the club got the most space and what it costs, lock in venues based on what is actually needed, and only then build the demand side for 26/27. This became the field-units budget model and the winter space tracker.",
-  "title": "Top-down winter space notes (Oct 1)",
-  "url": "https://docs.google.com/document/d/1l-aXUAkcTxyoA-OcMl3tv_V0TAhkwRkiFbvzEFd108o/edit",
   "qState": {
    "qd5ssgv": {
     "archived": true,
     "at": "2026-11-25T03:51:09.953Z"
    }
-  }
+  },
+  "summary": "KP's framing for winter space right after the Sep 30 ops meeting: find where the club got the most space and what it costs, lock in venues based on what is actually needed, and only then build the demand side for 26/27. This became the field-units budget model and the winter space tracker.",
+  "title": "Top-down winter space notes (Oct 1)",
+  "url": "https://docs.google.com/document/d/1l-aXUAkcTxyoA-OcMl3tv_V0TAhkwRkiFbvzEFd108o/edit"
  }
 }
