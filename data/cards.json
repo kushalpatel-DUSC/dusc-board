@@ -589,11 +589,12 @@
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1gw2G8kcw1Umd4Cm1jRoVbY8yHm4k5sKgXb5iw8xGHzA/edit",
   "status": "todo",
   "title": "Decide whether the Thanksgiving Friday camp runs",
-  "triage": "new",
-  "updatedAt": "2026-11-25T02:04:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T03:48:59.743Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "cal-general-nyc-parks-spring-summer-2027-permit-renewal-window": {
   "area": "Facilities",
