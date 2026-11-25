@@ -1592,7 +1592,7 @@
  "missing-receipts-reminders": {
   "area": "Finance",
   "createdAt": "2026-11-16T20:49:32Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:08:11.898Z",
   "due": null,
   "id": "missing-receipts-reminders",
   "note": "Offered to Nirmala on 11/16 to take receipt-chasing off her plate.",
@@ -1604,10 +1604,10 @@
   "raised": "2026-11-16",
   "source": "Finance Weekly — Nov 16 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1ju38U_RTmGeF7iYstWewu06YqKgfp9TAPxdC_JvVHKg/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Build an automatic reminder that pings cardholders for missing expense receipts",
   "triage": null,
-  "updatedAt": "2026-11-18T01:15:22.658Z",
+  "updatedAt": "2026-11-25T04:08:11.898Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
