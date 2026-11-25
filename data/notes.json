@@ -411,7 +411,9 @@
     "note": null,
     "owner": "Noemi",
     "raised": "2026-11-02",
-    "text": "Credit card reconciliations: get cardholders to upload receipts"
+    "text": "Credit card reconciliations: get cardholders to upload receipts",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:51:38.855Z"
    },
    {
     "done": false,
