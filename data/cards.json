@@ -2116,7 +2116,7 @@
  "registration-numbers-current": {
   "area": "Finance",
   "createdAt": "2026-11-14T05:05:48Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:07:36.959Z",
   "due": null,
   "id": "registration-numbers-current",
   "note": null,
@@ -2128,10 +2128,10 @@
   "raised": "2026-11-13",
   "source": "Weekly Finance Call — Nov 13 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Run the current registrant and collection numbers and send them to Andy and Paul",
   "triage": null,
-  "updatedAt": "2026-11-18T01:16:02.199Z",
+  "updatedAt": "2026-11-25T04:07:36.959Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
