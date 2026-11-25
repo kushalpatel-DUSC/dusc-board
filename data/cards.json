@@ -578,6 +578,7 @@
   "doneAt": "2026-11-25T04:09:02.912Z",
   "due": "2026-11-24",
   "id": "cal-camps-one-day-thanksgiving-friday-camp-optional",
+  "later": false,
   "note": "The optional one-day camp on Fri Nov 27 is still marked Draft on the club calendar.",
   "owner": "KP",
   "pinned": false,
@@ -593,12 +594,12 @@
   "updatedAt": "2026-11-25T04:09:02.912Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "cal-general-nyc-parks-spring-summer-2027-permit-renewal-window": {
   "area": "Facilities",
   "createdAt": "2026-11-25T02:04:21Z",
+  "dismissedAt": "2026-11-25T03:49:23.276Z",
   "doneAt": null,
   "due": "2026-12-14",
   "id": "cal-general-nyc-parks-spring-summer-2027-permit-renewal-window",
@@ -617,8 +618,7 @@
   "updatedAt": "2026-11-25T03:49:23.276Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "dismissedAt": "2026-11-25T03:49:23.276Z"
+  "waitingSince": null
  },
  "cal-major-events-donors-and-families-giving-tuesday-and-year-end-giving-ca": {
   "area": "Programs",
@@ -646,6 +646,7 @@
  "cal-rec-league-fall-2026-thanksgiving-weekend-play-or-no-play-decision": {
   "area": "Programs",
   "createdAt": "2026-11-25T02:04:21Z",
+  "dismissedAt": "2026-11-25T03:49:19.576Z",
   "doneAt": null,
   "due": "2026-11-25",
   "id": "cal-rec-league-fall-2026-thanksgiving-weekend-play-or-no-play-decision",
@@ -664,8 +665,7 @@
   "updatedAt": "2026-11-25T03:49:19.576Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "dismissedAt": "2026-11-25T03:49:19.576Z"
+  "waitingSince": null
  },
  "classic-tournament-cancel-oumou": {
   "area": "Programs",
@@ -1034,6 +1034,29 @@
   "title": "Review the finance workflows as input for the finance-hire job description and short-term coverage",
   "updatedAt": "2026-11-25T04:06:28.898Z",
   "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
+ },
+ "financials-tie-to-audit-draft": {
+  "area": "Finance",
+  "createdAt": "2026-11-25T15:07:07Z",
+  "doneAt": null,
+  "due": "2026-11-30",
+  "id": "financials-tie-to-audit-draft",
+  "note": "Andy asked Nirmala, Paul and you jointly; he wants it in the format of the May YTD package and the October Board estimates he attached.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "project": "Audit and year-end",
+  "raised": "2026-11-25",
+  "source": "Email: FY 2025/2026 Audit Draft Review",
+  "sourceKind": "email",
+  "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882673921773155424",
+  "status": "todo",
+  "title": "Get Andy a complete set of financials that ties to the audit draft's Net Operating Income (about $148k) before Monday's auditor call",
+  "updatedAt": "2026-11-25T15:07:07Z",
+  "userEdited": false,
   "waitingOn": null,
   "waitingSince": null
  },
