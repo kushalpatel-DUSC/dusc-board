@@ -95,11 +95,7 @@
   "brief": [
    {
     "label": "Today",
-    "text": "Ask Andy and Paul at 1:30 about part-time accounting support and who owns the Giving Tuesday campaign; both cards wait on them."
-   },
-   {
-    "label": "Today",
-    "text": "Agree at 1:30 who builds the financials Andy wants tied to the audit draft; they are due before Monday's auditor call."
+    "text": "Write down what Andy and Paul decided at the 2:30 catch-up; Gemini produced no notes and two cards still wait on them."
    },
    {
     "label": "Today",
@@ -110,18 +106,17 @@
     "text": "Write the finance role requirements by Friday, ahead of the December interviews."
    },
    {
+    "label": "Fri 11/27",
+    "text": "Cancel or confirm Friday's 2:00 call with Andy and Paul, now that the group met on Wednesday."
+   },
+   {
     "label": "Mon 11/30",
-    "text": "Read the audit draft and send Nirmala the showcase spending policy draft before the 1:00 review."
+    "text": "Read the audit draft and get Andy financials that tie to it before the 1:00 review with the auditors."
    }
   ],
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-25",
-    "label": "Regroup with Andy and Paul at 1:30",
-    "who": "KP, Andy, Paul"
-   },
    {
     "date": "2026-11-25",
     "label": "January and February indoor schedule released before Thanksgiving",
@@ -228,11 +223,11 @@
     "who": "Ops"
    }
   ],
-  "headline": "Academy revenue is now projected $500,000–$600,000 under budget. Today's 1:30 regroup with Andy and Paul needs the October package, the audit status and an answer on accounting support.",
-  "lastRun": "2026-11-25T16:49:01Z",
+  "headline": "Academy revenue is projected $500,000–$600,000 under budget. Monday's 1:00 audit draft review is next: read the draft and get Andy financials that tie to it.",
+  "lastRun": "2026-11-25T20:48:33Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
-  "notesScanned": 49,
+  "notesScanned": 47,
   "themes": [
    {
     "name": "Deficit and forecast",
@@ -248,7 +243,7 @@
    },
    {
     "name": "Finance capacity",
-    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP raises support with Andy and Paul today and writes the finance role requirements by Friday."
+    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP's ask to Andy and Paul awaits an answer; the finance role requirements are due Friday."
    },
    {
     "name": "Healthcare",
