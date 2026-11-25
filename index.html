@@ -1478,9 +1478,9 @@ body[data-meetmode="calendar"] #viewMeetings > :not(.subnav):not(#calView){displ
   function setWhen(id, k, fromTray){
     const pool = fromTray ? (state.newCards||[]) : state.cards; const c = pool.find(x=>x.id===id); if(!c) return; const now = new Date().toISOString();
     const p = {updatedAt: now, userEdited: true}; if(fromTray) p.triage = null;
-    if(k==='later'){ p.later = true; p.laterAt = now; }
+    if(k==='later'){ p.later = true; p.laterAt = now; p.due = null; }   // parked means no date; the Keep chip is the way to hold on to a suggested date
     else if(k==='today' || k==='week'){ p.due = whenDate(k); p.later = false; }
-    const due = p.due || c.due;
+    const due = k==='later' ? null : (p.due || c.due);
     const msg = k==='later' ? 'Parked for later' : (k==='today' ? 'On today’s list' : (due ? 'Due '+dayName(due)+', '+fmtDate(due) : 'Kept'));
     patchCards([{id, patch:p}], msg, [{id, patch:{triage: fromTray ? 'new' : (c.triage||null), due: c.due||null, later: !!c.later, laterAt: c.laterAt||null, updatedAt: now}}]);
   }
@@ -2027,7 +2027,7 @@ body[data-meetmode="calendar"] #viewMeetings > :not(.subnav):not(#calView){displ
 </script>
 <script>
 (function(){
-  var BUILD = '403f343e54';
+  var BUILD = '2e8fcdafe5';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
