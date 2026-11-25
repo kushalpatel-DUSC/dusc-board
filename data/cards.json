@@ -76,9 +76,9 @@
   "status": "waiting",
   "title": "Ask Andy and Paul about hiring part-time accounting support for year-end",
   "triage": null,
-  "updatedAt": "2026-11-25T04:11:19.680Z",
+  "updatedAt": "2026-11-25T04:11:27.527Z",
   "userEdited": true,
-  "waitingOn": null,
+  "waitingOn": "Andy + Paul",
   "waitingSince": "2026-11-25T04:11:19.680Z"
  },
  "adidas-invoice": {
