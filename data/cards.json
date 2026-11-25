@@ -345,7 +345,7 @@
  "board-ops-boundaries-dec8": {
   "area": "Board",
   "createdAt": "2026-11-18T20:50:46Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:10:15.192Z",
   "due": "2026-12-08",
   "id": "board-ops-boundaries-dec8",
   "note": "Staff raised it on the 11/18 Ops call: requests should come through staff, not straight to coaches.",
@@ -357,10 +357,10 @@
   "raised": "2026-11-18",
   "source": "Ops Weekly Call — Nov 18 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Raise how board members get involved in day-to-day operations at the December 8 board meeting",
   "triage": null,
-  "updatedAt": "2026-11-25T00:14:13.137Z",
+  "updatedAt": "2026-11-25T04:10:15.192Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
