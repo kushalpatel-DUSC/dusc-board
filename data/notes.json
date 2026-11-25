@@ -1355,7 +1355,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Report status of all winter contracts (same number as last year? what is locked in?)"
+    "text": "Report status of all winter contracts (same number as last year? what is locked in?)",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:48.311Z"
    },
    {
     "done": false,
