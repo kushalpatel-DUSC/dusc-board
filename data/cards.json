@@ -2031,7 +2031,7 @@
  "select-teams-summer26-mtg": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T00:05:39.120Z",
   "due": "2026-11-11",
   "id": "select-teams-summer26-mtg",
   "note": null,
@@ -2040,10 +2040,14 @@
   "raised": "2026-11-04",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Send invite for Select Teams – Summer 26 meeting with Leanne and Alex (potentially Wed 11/11)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-25T00:05:39.120Z",
+  "userEdited": true,
+  "pinned": false,
+  "pinnedAt": null,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "sfa-players-registrant-count": {
   "area": "Finance",
