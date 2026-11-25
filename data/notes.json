@@ -750,7 +750,9 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-11-02",
-    "text": "Include KP on all auditor email threads"
+    "text": "Include KP on all auditor email threads",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:08.989Z"
    }
   ],
   "area": "Finance",
