@@ -1922,7 +1922,7 @@
  "pm-duplicate-transactions": {
   "area": "Finance",
   "createdAt": "2026-11-14T05:05:48Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:07:33.291Z",
   "due": null,
   "id": "pm-duplicate-transactions",
   "note": null,
@@ -1934,10 +1934,10 @@
   "raised": "2026-11-13",
   "source": "Weekly Finance Call — Nov 13 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Check PlayMetrics for duplicate payment entries that share a transaction ID, so the payout report is accurate",
   "triage": null,
-  "updatedAt": "2026-11-18T01:15:47.692Z",
+  "updatedAt": "2026-11-25T04:07:33.291Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
