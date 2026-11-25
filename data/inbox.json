@@ -152,12 +152,13 @@
   "due": null,
   "from": "Kristen Capobianco",
   "gist": "Noemi sent Kristen the HR mail collected 10/30: a NYS Unemployment Insurance bill with a $7,466.50 balance, a NYS Dept. of Labor notice with a $121.48 balance, and an IRS notice. Kristen is now asking Nirmala, Kushal and Kyle whether to go ahead and pay them.",
+  "handledBy": "expired",
   "kind": "decision",
-  "status": "open",
+  "status": "handled",
   "subject": "HR: NYS Dept. of Labor Notifications, Bill $7,466.50 & IRS Important Information",
   "threadId": "1a1a1efdf7f7078d",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1880849870516324237",
-  "updatedAt": "2026-11-18T17:05:58Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1a45d1e06a1886": {
@@ -695,12 +696,13 @@
   "due": null,
   "from": "Jessie Cordray",
   "gist": "PS 191 has open gym time and is open to a rental or trade-in-kind through the DOE permit process. Jessie wants Monday evenings Jan–Mar, but DOE sites do not quote a price until the permit application is in.",
+  "handledBy": "expired",
   "kind": "reply",
-  "status": "open",
+  "status": "handled",
   "subject": "Gym Rental Inquiry - DUSC (PS 191)",
   "threadId": "1a1c75910ee18dce",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881508010214395342",
-  "updatedAt": "2026-11-14T11:18:20Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1cb8c1a0e23631": {
@@ -712,12 +714,13 @@
   "due": null,
   "from": "Jessie Cordray",
   "gist": "Jessie answered your question with a sample January–February weeknight futsal schedule across Immaculate Conception, PS 191 and Stephen Gaynor, plus the dates when no rental is needed.",
+  "handledBy": "expired",
   "kind": "action",
-  "status": "open",
+  "status": "handled",
   "subject": "Futsal Spaces",
   "threadId": "1a1cb8c1a0e23631",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r417089255291676503",
-  "updatedAt": "2026-11-14T11:18:20Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1cc1ad4c7aac4e": {
@@ -729,12 +732,13 @@
   "due": null,
   "from": "Alexandra Keaney",
   "gist": "Alex forwarded a prospective GA goalkeeper family's question about fees for joining the U14 Academy team mid-year. The club needs the position and she wants guidance.",
+  "handledBy": "expired",
   "kind": "reply",
-  "status": "open",
+  "status": "handled",
   "subject": "DUSC 2026-2027 Offer Letter",
   "threadId": "1a1cc1ad4c7aac4e",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881591694390635598",
-  "updatedAt": "2026-11-14T11:18:20Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1d4ff2c29d2fd8": {
@@ -763,12 +767,13 @@
   "due": "2026-11-19",
   "from": "Jason Ortega",
   "gist": "Friday's NYCFC x DUSC meeting did not happen; Jason sent a new Teams invite for Thursday 11/19 at 1:30pm.",
+  "handledBy": "expired",
   "kind": "deadline",
-  "status": "open",
+  "status": "handled",
   "subject": "NYCFC x DUSC",
   "threadId": "1a1d5b2693a77aca",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881760440554846922",
-  "updatedAt": "2026-11-14T11:18:20Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1d632bde65224d": {
@@ -885,12 +890,13 @@
   "due": null,
   "from": "Nirmala Singh",
   "gist": "Nirmala forwarded PlayMetrics' Nov 4 answer on the SOC report the auditors want: PlayMetrics has no SOC 1 report because it does not process payments itself — Stripe does, and Stripe's SOC 1 and SOC 2 reports have to be obtained from Stripe directly.",
+  "handledBy": "expired",
   "kind": "action",
-  "status": "open",
+  "status": "handled",
   "subject": "Fwd: [EXTERNAL] Re: Playmetrics SOC reports request",
   "threadId": "1a1e5cf354744b52",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882043894451161938",
-  "updatedAt": "2026-11-16T21:06:46Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1e6f62ffe8105d": {
@@ -920,12 +926,13 @@
   "due": "2026-11-17",
   "from": "Gustavo Palomino",
   "gist": "Gustavo says tomorrow's Rec/Classes/Camp meeting will focus on the Pier 40 Summer Camp 2027 and attached his report (program plan, activities, budget, pricing, marketing). He wants full-day and half-day fees settled by early January so registration can open mid-January.",
+  "handledBy": "expired",
   "kind": "action",
-  "status": "open",
+  "status": "handled",
   "subject": "Rec / Classes / Camp - Meeting 11/17",
   "threadId": "1a1e745d13aaf990",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882069637398198672",
-  "updatedAt": "2026-11-17T03:06:10Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1f4cbe7530e0c8": {
@@ -937,12 +944,13 @@
   "due": null,
   "from": "Leanne Campbell",
   "gist": "Leanne sent a rough draft of the January–February practice schedule (schedule matrix and summary sheets). Only BU9 Dev and BU10 Dev still lack an indoor space; she has one opening at B&G Republic and asks whether both can share it. Alex and Jason have passed it to the girls' and boys' staff.",
+  "handledBy": "expired",
   "kind": "action",
-  "status": "open",
+  "status": "handled",
   "subject": "Jan - Feb Practice Schedule",
   "threadId": "1a1f4cbe7530e0c8",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882307550157791432",
-  "updatedAt": "2026-11-19T19:06:14Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1f5026420ed7cd": {
@@ -954,12 +962,13 @@
   "due": null,
   "from": "Malorie Warents",
   "gist": "Mal is getting a Soccer Post quote for winter hats for coaches; Chris asked about color, style and quantity. She is leaning toward black to match the coach gear.",
+  "handledBy": "expired",
   "kind": "reply",
-  "status": "open",
+  "status": "handled",
   "subject": "DUSC: Winter Hats for Coaches",
   "threadId": "1a1f5026420ed7cd",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882311294511405005",
-  "updatedAt": "2026-11-19T19:06:14Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a1f516b948a491c": {
@@ -1085,7 +1094,7 @@
  "1a2099f4ff2e3460": {
   "area": "Finance",
   "ask": "Read the draft from the ShareFile link before Monday 11/30 at 1:00pm and bring any items you want changed; the call overlaps your 1:30 Finance Weekly with Nirmala.",
-  "cardId": null,
+  "cardId": "audit-draft-read-nov30",
   "createdAt": "2026-11-23T19:06:36Z",
   "date": "2026-11-24T21:53:52Z",
   "due": "2026-11-30",
@@ -1096,7 +1105,7 @@
   "subject": "FY 2025/2026 Audit Draft Review",
   "threadId": "1a2099f4ff2e3460",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882673921773155424",
-  "updatedAt": "2026-11-24T23:06:03Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a20b934c2a8126e": {
@@ -1177,12 +1186,13 @@
   "due": null,
   "from": "Kristen Capobianco",
   "gist": "Kristen asked Andy whether a request to be paid for 4 hours of GA work on 11/1 is an approved one-off; you, Kyle, Paul, Alex and Jason are on the To line.",
+  "handledBy": "not-mine",
   "kind": "fyi",
-  "status": "open",
+  "status": "handled",
   "subject": "GA Hourly work - Nadia",
   "threadId": "1a20ee2089a3da13",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882766467756448275",
-  "updatedAt": "2026-11-24T23:10:08Z",
+  "updatedAt": "2026-11-25T01:10:14Z",
   "userEdited": false
  },
  "1a20f077dc215971": {
