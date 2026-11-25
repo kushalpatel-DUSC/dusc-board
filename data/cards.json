@@ -487,7 +487,7 @@
  "c-mwlh67lc-ughhm": {
   "area": null,
   "createdAt": "2026-11-18T02:01:17.807Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:10:11.014Z",
   "due": null,
   "note": null,
   "owner": "KP",
@@ -497,9 +497,9 @@
   "raised": "2026-11-18",
   "source": "Added by hand",
   "sourceUrl": null,
-  "status": "todo",
+  "status": "done",
   "title": "Prep for Ops Meeting",
-  "updatedAt": "2026-11-18T02:01:17.807Z",
+  "updatedAt": "2026-11-25T04:10:11.014Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
