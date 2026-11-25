@@ -2516,7 +2516,7 @@
  "winter-reg-assets-leo-liam": {
   "area": "Programs",
   "createdAt": "2026-11-14T05:05:48Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:08:40.478Z",
   "due": null,
   "id": "winter-reg-assets-leo-liam",
   "note": null,
@@ -2528,10 +2528,10 @@
   "raised": "2026-11-11",
   "source": "Ops Weekly Call — Nov 11 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1Yjp_F2bd1aySYpm3dHyOSGrfMQICEq2B4TgSV6hj_Kc/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Send the winter registration information to Leo and Liam so they can build the assets",
   "triage": null,
-  "updatedAt": "2026-11-18T01:16:06.601Z",
+  "updatedAt": "2026-11-25T04:08:40.478Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
