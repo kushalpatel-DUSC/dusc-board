@@ -27,6 +27,14 @@
   },
   "name": "Andy & Paul check-ins",
   "nextAt": "2026-11-25T13:30:00-05:00",
+  "notesDoc": {
+   "docId": "14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc",
+   "match": [
+    "andy"
+   ],
+   "title": "Finance Catch Up - Andy + Paul Weekly",
+   "url": "https://docs.google.com/document/d/14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc/edit"
+  },
   "people": [
    "Andy"
   ],
@@ -71,6 +79,15 @@
   },
   "name": "Community & Rec programming",
   "nextAt": "2026-12-01T10:00:00-05:00",
+  "notesDoc": {
+   "docId": "1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w",
+   "match": [
+    "rec/class/camp",
+    "community programming"
+   ],
+   "title": "Community Programming",
+   "url": "https://docs.google.com/document/d/1PxpYHnYCz1D6hlArX5ohCWRcJB5t-m4k6sapXfnnt7w/edit"
+  },
   "people": [
    "Gustavo"
   ],
@@ -112,6 +129,15 @@
   },
   "name": "Finance Weekly (Nirmala)",
   "nextAt": "2026-11-30T13:30:00-05:00",
+  "notesDoc": {
+   "docId": "11vtYiwpOpm4eid8Z6-LUL0NpH_jIqk3uyd0Kg4qVkhc",
+   "match": [
+    "finance weekly",
+    "recurring finance"
+   ],
+   "title": "Nirmala Finance Weekly",
+   "url": "https://docs.google.com/document/d/11vtYiwpOpm4eid8Z6-LUL0NpH_jIqk3uyd0Kg4qVkhc/edit"
+  },
   "people": [
    "Nirmala",
    "Noemi"
@@ -157,7 +183,12 @@
   "name": "Kyle / Kushal 1:1",
   "nextAt": "2026-11-30T14:00:00-05:00",
   "notesDoc": {
-   "title": "Kyle / Kushal 1:1",
+   "docId": "1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4",
+   "match": [
+    "kyle/kushal",
+    "kyle / kushal"
+   ],
+   "title": "Kyle/Kushal Weekly",
    "url": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit"
   },
   "people": [
@@ -239,7 +270,12 @@
   "name": "Ops Weekly Call",
   "nextAt": "2026-12-02T13:30:00-05:00",
   "notesDoc": {
-   "title": "DUSC Ops Meeting (running notes)",
+   "docId": "1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg",
+   "match": [
+    "ops weekly",
+    "ops meeting"
+   ],
+   "title": "DUSC Ops Meeting",
    "url": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit"
   },
   "people": [

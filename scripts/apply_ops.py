@@ -12,7 +12,7 @@ user has handled, and never overrides fields the user has edited (userEdited: tr
 meetings or series. On notes it can add to the "actions" list (other people's to-dos) or mark one
 done, but never removes or unticks one, and it keeps the user's keep/archive marks on to-dos and open
 questions. A card the user dismissed or archived is never re-created. On a meeting it can record the
-day-before agenda work ("prework") once and never again, and it never touches "preworkDone" (the user's
+day-before agenda work ("prework") once and the after-meeting recap ("recap") once, never again, and it never touches "preworkDone" (the user's
 mark that the agenda email is dealt with); on a series it never touches "notesDoc" (the running notes doc
 the user linked). The page (source "user") has no guard.
 The club calendar (data/calendar.json) is written by scripts/build_calendar.py, not by this script.
@@ -99,10 +99,11 @@ def main():
             # the day-before agenda doc and email draft are made once per meeting: a later run can
             # neither replace the record (that would orphan the doc and draft) nor clear the user's mark
             patch.pop('preworkDone', None)
-            if (existing.get('prework') or {}).get('at'):
-                patch.pop('prework', None)
+            for once in ('prework', 'recap'):
+                if (existing.get(once) or {}).get('at'):
+                    patch.pop(once, None)
             if op == 'set':
-                for k in ('prework', 'preworkDone'):
+                for k in ('prework', 'preworkDone', 'recap'):
                     if k in existing:
                         patch[k] = existing[k]
             if not patch:

@@ -1958,6 +1958,9 @@
  },
  "70lljkejnn3us5i0v89naed5q0_20261127T190000Z": {
   "agenda": [],
+  "agendaSkip": [
+   "Decide whether this call is still needed after Wednesday"
+  ],
   "agendaUpdatedAt": null,
   "attendees": [
    {
@@ -2030,10 +2033,7 @@
   "status": "upcoming",
   "title": "Weekly Finance Call Andy+Paul",
   "updatedAt": "2026-11-25T02:04:21Z",
-  "userEdited": false,
-  "agendaSkip": [
-   "Decide whether this call is still needed after Wednesday"
-  ]
+  "userEdited": false
  },
  "70lljkejnn3us5i0v89naed5q0_20261204T190000Z": {
   "agenda": [],
@@ -2272,8 +2272,8 @@
   },
   "prework": {
    "at": "2026-11-25T03:21:00Z",
-   "docKind": "agenda",
-   "docTitle": "Agenda - Finance Catch Up - Andy + Paul - Wed Nov 25",
+   "docKind": "notes",
+   "docTitle": "Finance Catch Up - Andy + Paul Weekly",
    "docUrl": "https://docs.google.com/document/d/14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc/edit",
    "draftUrl": "https://mail.google.com/mail/#all?compose=thread-f:1882798778200388671%2Bmsg-a:r-4581565581034550227",
    "items": 6,
