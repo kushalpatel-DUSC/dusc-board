@@ -635,13 +635,13 @@
   "raised": "2026-11-24",
   "source": "Club calendar",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1gw2G8kcw1Umd4Cm1jRoVbY8yHm4k5sKgXb5iw8xGHzA/edit",
-  "status": "todo",
+  "status": "waiting",
   "title": "Confirm the plan and owner for the Giving Tuesday and year-end giving campaign",
   "triage": null,
-  "updatedAt": "2026-11-25T03:52:58.396Z",
+  "updatedAt": "2026-11-25T04:11:07.673Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": "2026-11-25T04:11:07.673Z"
  },
  "cal-rec-league-fall-2026-thanksgiving-weekend-play-or-no-play-decision": {
   "area": "Programs",
