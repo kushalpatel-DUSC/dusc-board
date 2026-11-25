@@ -751,7 +751,7 @@
  "coach-hats-reply-mal": {
   "area": "Vendors",
   "createdAt": "2026-11-24T19:07:18Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:11:31.269Z",
   "due": null,
   "id": "coach-hats-reply-mal",
   "note": "Mal is waiting on this to get the Soccer Post quote; she plans to follow up next week.",
@@ -762,10 +762,10 @@
   "raised": "2026-11-24",
   "source": "Ops Weekly Call — Nov 24 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Email Mal back about the coach hat order: all coaches or only classes/Rec, and pom or plain beanie",
-  "updatedAt": "2026-11-24T19:07:18Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-25T04:11:31.269Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
