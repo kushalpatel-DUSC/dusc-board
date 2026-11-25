@@ -455,7 +455,9 @@
     "note": null,
     "owner": "Noemi",
     "raised": "2026-11-02",
-    "text": "Receivables: run reports and stay on top of them week by week"
+    "text": "Receivables: run reports and stay on top of them week by week",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:03.832Z"
    },
    {
     "done": true,
