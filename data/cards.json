@@ -910,7 +910,7 @@
  "finance-hire-search": {
   "area": "Finance",
   "createdAt": "2026-11-06T21:15:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:06:30.999Z",
   "due": null,
   "id": "finance-hire-search",
   "note": "Paul sent the previous finance / Financial Controller JDs on 11/6; Malorie has the Indeed account. Start now given the holidays.",
@@ -922,10 +922,10 @@
   "raised": "2026-11-06",
   "source": "Finance Catchup — Nov 6",
   "sourceUrl": "https://docs.google.com/document/d/18macx6WmCSJCIIBKFN2K4k35XZ_0eYsI_WifSOBUUec/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Start the finance hire search (prior Financial Controller JDs from Paul; Malorie has the Indeed account)",
-  "updatedAt": "2026-11-06T21:15:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-25T04:06:30.999Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
