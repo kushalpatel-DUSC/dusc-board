@@ -2193,7 +2193,7 @@
     "name": "Paul Sowell"
    }
   ],
-  "end": "2026-11-25T14:30:00-05:00",
+  "end": "2026-11-25T15:00:00-05:00",
   "eventId": "71l76n92p5661f1cj64194oj54",
   "htmlLink": "https://www.google.com/calendar/event?eid=NzFsNzZuOTJwNTY2MWYxY2o2NDE5NG9qNTQga3VzaGFsLnBhdGVsQGR1c2MubmV0&ctz=America/New_York",
   "meetUrl": null,
@@ -2245,10 +2245,10 @@
   },
   "recurringEventId": null,
   "seriesKey": "board-checkins",
-  "start": "2026-11-25T13:30:00-05:00",
+  "start": "2026-11-25T14:30:00-05:00",
   "status": "upcoming",
   "title": "Finance Catch Up - Andy + Paul",
-  "updatedAt": "2026-11-25T16:49:01Z",
+  "updatedAt": "2026-11-25T19:07:33Z",
   "userEdited": false
  },
  "7r28o2dpnob574e2ujfottdi2l": {
@@ -2327,6 +2327,48 @@
   "status": "past",
   "title": "Kyle/Andy Weekly - Prep for Kyle Away",
   "updatedAt": "2026-11-09T10:52:54Z",
+  "userEdited": false
+ },
+ "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6gpk4e2169146c216t248h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g6p346dhj6kp3ec1j8l1k8d9k8os46hi26gq32chi88pk4c1k68o0": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "kristen.capobianco@dusc.net",
+    "name": "Kristen Capobianco"
+   },
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   },
+   {
+    "email": "jljames@paychex.com",
+    "name": "James, Jennifer"
+   }
+  ],
+  "end": "2026-11-25T14:30:00-05:00",
+  "eventId": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6gpk4e2169146c216t248h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g6p346dhj6kp3ec1j8l1k8d9k8os46hi26gq32chi88pk4c1k68o0",
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2Z3BrNGUyMTY5MTQ2YzIxNnQyNDhoMWc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnNnAzNDZkaGo2a3AzZWMxajhsMWs4ZDlrOG9zNDZoaTI2Z3EzMmNoaTg4cGs0YzFrNjhvMCBrdXNoYWwucGF0ZWxAZHVzYy5uZXQ&ctz=America/New_York",
+  "meetUrl": "https://paychex.webex.com/paychex/j.php?MTID=ma23b134a8acf82bc963f180a42f69821",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Confirm Phase 1 is submitted with the agreed plans and contribution",
+    "Confirm whether all five plans were kept",
+    "Next steps and dates for open enrollment"
+   ],
+   "summary": "Paychex Webex session with Jennifer James for Kristen and Nirmala to enter the Phase 1 medical plan selections and club contribution (50% of the least expensive individual plan) in the Flex portal; you and Paul are invited but not needed for the entry."
+  },
+  "recurringEventId": null,
+  "seriesKey": null,
+  "start": "2026-11-25T13:30:00-05:00",
+  "status": "upcoming",
+  "title": "Downtown United Soccer Club",
+  "updatedAt": "2026-11-25T19:07:33Z",
   "userEdited": false
  },
  "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g6opjaca664pjadq66so48h1g64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g88s48d2670pj4cpp8gsj4cpk8cs30dpj88pk6ha67124cgpm74rg": {
