@@ -1355,9 +1355,7 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Report status of all winter contracts (same number as last year? what is locked in?)",
-    "archived": true,
-    "archivedAt": "2026-11-25T03:52:38.113Z"
+    "text": "Report status of all winter contracts (same number as last year? what is locked in?)"
    },
    {
     "done": false,
@@ -1367,7 +1365,9 @@
     "note": null,
     "owner": "Kyle",
     "raised": "2026-10-21",
-    "text": "Decide on the MLS Next Coordinator role ($25,000)"
+    "text": "Decide on the MLS Next Coordinator role ($25,000)",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:40.916Z"
    },
    {
     "done": false,
