@@ -638,9 +638,9 @@
   "status": "waiting",
   "title": "Confirm the plan and owner for the Giving Tuesday and year-end giving campaign",
   "triage": null,
-  "updatedAt": "2026-11-25T04:11:07.673Z",
+  "updatedAt": "2026-11-25T04:11:16.664Z",
   "userEdited": true,
-  "waitingOn": null,
+  "waitingOn": "Andy",
   "waitingSince": "2026-11-25T04:11:07.673Z"
  },
  "cal-rec-league-fall-2026-thanksgiving-weekend-play-or-no-play-decision": {
