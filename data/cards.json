@@ -465,7 +465,7 @@
  "c-mwlgl014-ihksl": {
   "area": null,
   "createdAt": "2026-11-18T01:44:48.231Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:10:33.578Z",
   "due": null,
   "id": "c-mwlgl014-ihksl",
   "note": null,
@@ -477,9 +477,9 @@
   "raised": "2026-11-18",
   "source": "Added by hand",
   "sourceUrl": null,
-  "status": "todo",
+  "status": "done",
   "title": "Look through and choose health care plans",
-  "updatedAt": "2026-11-18T01:44:48.231Z",
+  "updatedAt": "2026-11-25T04:10:33.578Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
