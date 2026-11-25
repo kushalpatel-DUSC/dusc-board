@@ -1086,13 +1086,14 @@
   "raised": "2026-11-18",
   "source": "Ops Weekly Call — Nov 18 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1HMujkTxnxLqXnrV-ukiXXxOKb7Y6xG_RUCRzBJcUOYw/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Send Jesse the calendar invite for Friday's 11:15 call with Mal on his winter program space",
-  "triage": "new",
-  "updatedAt": "2026-11-18T20:50:46Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T00:14:19.817Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-25T00:14:19.817Z"
  },
  "jesse-training-schedule-breakdown": {
   "area": "Facilities",
