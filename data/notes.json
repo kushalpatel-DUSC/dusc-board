@@ -327,7 +327,13 @@
   ],
   "summary": "KP, Andy, Kyle on winter scheduling and budget. Build the indoor baseline on the minimum sessions needed; use Arman's field-units-per-hour model to standardize pricing; $132K of winter/spring budget is unallocated. 28 Liberty delivered 4.5 fields instead of 7, so negotiate credits.",
   "title": "Field + Budget — Oct 8 (Gemini notes)",
-  "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit"
+  "url": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit",
+  "qState": {
+   "q1gnvoj4": {
+    "archived": true,
+    "at": "2026-11-25T03:50:55.985Z"
+   }
+  }
  },
  "field-catchup-2026-11-05": {
   "actions": [
@@ -528,7 +534,13 @@
   ],
   "summary": "A two-line prompt from the Oct 13 finance call: why Boys Academy registrations show roughly -$80K against budget, plus an empty SFA heading. The question is still open — Nirmala is working it with the auditors and the GA Showcase overrun sits alongside it as the other unexplained number.",
   "title": "Finance Call — Boys Academy registrations (Oct 13)",
-  "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit"
+  "url": "https://docs.google.com/document/d/1fdVH5FrxBGKldkF6CSRnUtByYo_BwQxZ_rQWhDVkaig/edit",
+  "qState": {
+   "qx7vgnd": {
+    "archived": true,
+    "at": "2026-11-25T03:50:54.471Z"
+   }
+  }
  },
  "finance-catchup-2026-11-06": {
   "actions": [
@@ -621,7 +633,13 @@
   ],
   "summary": "Prep for the finance conversation: staffing and priorities, 9/30 AR reporting in Andy's format, finalize September (bonuses by 11/15), investigate the GA Summer Showcase overrun, get the audit timetable, and write laptop and credit card policies.",
   "title": "Finance prep notes (Oct 30)",
-  "url": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit"
+  "url": "https://docs.google.com/document/d/1s0a8DcBXL7VWVTiW9QeMoFNBC30_vKgHaVzRgwWA4os/edit",
+  "qState": {
+   "qi5dpxf": {
+    "archived": true,
+    "at": "2026-11-25T03:50:54.913Z"
+   }
+  }
  },
  "finance-structure": {
   "area": "Finance",
