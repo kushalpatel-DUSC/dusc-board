@@ -1092,7 +1092,9 @@
     "note": null,
     "owner": "Kyle",
     "raised": "2026-10-19",
-    "text": "Kyle to share the Soccer.com slide deck with KP"
+    "text": "Kyle to share the Soccer.com slide deck with KP",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:13.635Z"
    },
    {
     "done": false,
