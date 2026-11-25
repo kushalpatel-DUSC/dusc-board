@@ -73,13 +73,13 @@
   "raised": "2026-11-24",
   "source": "Recurring Finance meeting — Nov 24 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "waiting",
   "title": "Ask Andy and Paul about hiring part-time accounting support for year-end",
   "triage": null,
-  "updatedAt": "2026-11-25T00:05:48.784Z",
+  "updatedAt": "2026-11-25T04:11:19.680Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": "2026-11-25T04:11:19.680Z"
  },
  "adidas-invoice": {
   "area": "Vendors",
