@@ -1634,7 +1634,7 @@
  "mock-winter-schedule-lrei": {
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:08:47.068Z",
   "due": null,
   "id": "mock-winter-schedule-lrei",
   "note": null,
@@ -1644,10 +1644,12 @@
   "raised": "2026-11-04",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Get a mock winter schedule once LREI is confirmed (Basis as backup)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-25T04:08:47.068Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "nest-call": {
   "area": "Programs",
