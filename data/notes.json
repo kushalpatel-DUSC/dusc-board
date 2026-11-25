@@ -1331,7 +1331,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-23",
-    "text": "Update the winter space tracker with every contract's status"
+    "text": "Update the winter space tracker with every contract's status",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:33.981Z"
    },
    {
     "done": false,
