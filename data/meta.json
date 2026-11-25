@@ -9,15 +9,15 @@
   "updatedAt": "2026-11-25T10:47:44Z"
  },
  "inbox": {
-  "added": 1,
-  "cardsAdded": 1,
-  "cleared": 1,
+  "added": 0,
+  "cardsAdded": 0,
+  "cleared": 0,
   "flagged": 14,
-  "lastRun": "2026-11-25T15:07:07Z",
+  "lastRun": "2026-11-25T17:07:09Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 33
+  "scanned": 29
  },
  "prework": {
   "createdAt": "2026-11-25T03:20:14Z",
