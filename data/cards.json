@@ -322,7 +322,7 @@
  "board-finance-report-budget-variance": {
   "area": "Finance",
   "createdAt": "2026-11-16T01:06:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:07:20.087Z",
   "due": null,
   "id": "board-finance-report-budget-variance",
   "note": "Andy's follow-up step, after the current-date \"many fields\" collections run (covered by the registrant and collection numbers card).",
@@ -335,10 +335,10 @@
   "source": "Email: Board Finances Report",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r2957386278553151711",
-  "status": "todo",
+  "status": "done",
   "title": "Add budget data to the Board Finance Report: variance by team against YTD budget, and split by SFA and non-SFA players",
-  "updatedAt": "2026-11-16T01:06:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-25T04:07:20.087Z",
+  "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
  },
