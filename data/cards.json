@@ -611,13 +611,14 @@
   "raised": "2026-11-24",
   "source": "Club calendar",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1gw2G8kcw1Umd4Cm1jRoVbY8yHm4k5sKgXb5iw8xGHzA/edit",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Submit the NYC Parks spring/summer 2027 permit renewals before the Dec 14 deadline",
-  "triage": "new",
-  "updatedAt": "2026-11-25T02:04:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T03:49:23.276Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-25T03:49:23.276Z"
  },
  "cal-major-events-donors-and-families-giving-tuesday-and-year-end-giving-ca": {
   "area": "Programs",
