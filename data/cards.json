@@ -2206,7 +2206,7 @@
  "sfa-players-registrant-count": {
   "area": "Finance",
   "createdAt": "2026-11-14T05:05:48Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:07:33.950Z",
   "due": null,
   "id": "sfa-players-registrant-count",
   "note": "PlayMetrics shows 65 scholarship players, Malorie's sheet 144; needed for the Chobani commitments.",
@@ -2218,10 +2218,10 @@
   "raised": "2026-11-13",
   "source": "Weekly Finance Call — Nov 13 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1LufAlqvH9ALsiVAL8v2PAq1XkKuX1Lb9GfKIAXfVk3I/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Get the scholarship tracking spreadsheet, list the non-paying SFA players and add them to the registrant database",
   "triage": null,
-  "updatedAt": "2026-11-18T01:16:04.438Z",
+  "updatedAt": "2026-11-25T04:07:33.950Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
