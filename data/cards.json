@@ -209,13 +209,14 @@
   "raised": "2026-11-20",
   "source": "Weekly Finance Call Andy+Paul — Nov 20 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1RKWNOsV9DTHMCvXY2pgoVWp8VBQi8r--2_E_cIp1PJk/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Get the audit status from Nirmala on Monday after her auditor call and report it to Andy and Paul",
-  "triage": "new",
-  "updatedAt": "2026-11-20T20:50:58Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-25T00:14:26.265Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-25T00:14:26.265Z"
  },
  "audit-timeline": {
   "area": "Finance",
