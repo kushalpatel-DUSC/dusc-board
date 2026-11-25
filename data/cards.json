@@ -2352,7 +2352,7 @@
  "spain-trip-contract": {
   "area": "Programs",
   "createdAt": "2026-11-05T03:05:42Z",
-  "doneAt": null,
+  "doneAt": "2026-11-25T04:08:53.861Z",
   "due": "2026-11-30",
   "id": "spain-trip-contract",
   "note": "Todd pricing flights, wants a family Zoom next week; registration deadline Nov 30. Kyle asked for next steps 11/4.",
@@ -2363,10 +2363,12 @@
   "source": "Email: DUSC - Summer 2027 - Spain Trip",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1877868287247450593",
-  "status": "todo",
+  "status": "done",
   "title": "Get the Summer 2027 Spain trip contract sorted with Todd (European Soccer Solutions) — what DUSC gets in return",
-  "updatedAt": "2026-11-05T03:05:42Z",
-  "userEdited": false
+  "updatedAt": "2026-11-25T04:08:53.861Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "st-lukes-look": {
   "area": "Facilities",
