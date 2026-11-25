@@ -1,0 +1,1322 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DUSC//Club Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DUSC Club Calendar (staff)
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:general-2026-27-seasonal-year-begins-us-youth-soccer-us-club-soccer-a
+ n-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:2026–27 seasonal year begins. US Youth Soccer\, US Club Soccer 
+ and AYSO now form age groups by school year (Aug 1–Jul 31) instead of 
+ birth year.
+DESCRIPTION:General\nCheck every team’s age group and registration sett
+ ings\; confirm which rule each league uses.
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-mls-next-2026-27-season-begins-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:MLS NEXT 2026–27 season begins
+DESCRIPTION:General\nAcademy league play starts
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-labor-day-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day
+DESCRIPTION:General\nFederal holiday
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-public-schools-first-day-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:NYC public schools: first day
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-rosh-hashanah-begins-at-sundown-sep-11-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+SUMMARY:Rosh Hashanah (begins at sundown Sep 11)
+DESCRIPTION:General\nExpect lower weekend attendance
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-yom-kippur-nyc-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Yom Kippur: NYC schools closed
+DESCRIPTION:General\nMany families observing
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-mls-next-talent-id-includes-new-york-market-0@dusc-club-calen
+ dar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:MLS NEXT Talent ID (includes New York market)
+DESCRIPTION:General\nAcademy
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-italian-heritage-indigenous-peoples-day-nyc-schools-closed-0@
+ dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Italian Heritage / Indigenous Peoples’ Day: NYC schools closed
+DESCRIPTION:General\nOne-day camp option
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-halloween-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween
+DESCRIPTION:General\nLower Saturday attendance\; consider earlier finish
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-marathon-daylight-saving-time-ends-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:NYC Marathon\; daylight saving time ends
+DESCRIPTION:General\nRoad closures Sunday\; evening sessions need lighted
+  fields
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-election-day-nyc-schools-fully-remote-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Election Day: NYC schools fully remote
+DESCRIPTION:General\nNot a camp day (students in remote class)
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-parent-teacher-conferences-3-hour-early-dismissal-elementary-
+ n-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Parent-teacher conferences\, 3-hour early dismissal (elementary N
+ ov 5\, middle Nov 12\, high school Nov 20)
+DESCRIPTION:General\nOption for early-dismissal clinics
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-parent-teacher-conferences-3-hour-early-dismissal-elementary-
+ n-1@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Parent-teacher conferences\, 3-hour early dismissal (elementary N
+ ov 5\, middle Nov 12\, high school Nov 20)
+DESCRIPTION:General\nOption for early-dismissal clinics
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-parent-teacher-conferences-3-hour-early-dismissal-elementary-
+ n-2@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Parent-teacher conferences\, 3-hour early dismissal (elementary N
+ ov 5\, middle Nov 12\, high school Nov 20)
+DESCRIPTION:General\nOption for early-dismissal clinics
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-diwali-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Diwali
+DESCRIPTION:General\nLower attendance
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-veterans-day-nyc-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Veterans Day: NYC schools closed
+DESCRIPTION:General\nOne-day camp
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-parks-spring-summer-2027-permit-renewal-window-0@dusc-clu
+ b-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261215
+SUMMARY:NYC Parks: spring/summer 2027 permit renewal window
+DESCRIPTION:General\nSubmit renewals for Apr 1–Aug 31 fields
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-thanksgiving-recess-nyc-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving recess: NYC schools closed
+DESCRIPTION:General\nNo programming Thu\; optional camp Fri
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-giving-tuesday-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Giving Tuesday
+DESCRIPTION:General\nYear-end fundraising push
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-mls-next-fest-mesa-az-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261214
+SUMMARY:MLS NEXT Fest\, Mesa\, AZ
+DESCRIPTION:General\nTravel for invited Academy teams
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-hanukkah-begins-at-sundown-dec-4-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261213
+SUMMARY:Hanukkah (begins at sundown Dec 4)
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-winter-recess-nyc-schools-closed-christmas-fri-dec-25-new-yea
+ r-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20270102
+SUMMARY:Winter recess: NYC schools closed (Christmas Fri\, Dec 25\; New Y
+ ear’s Day Fri\, Jan 1)
+DESCRIPTION:General\nWinter camp Mon–Thu\, Dec 28–31
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-parks-spring-summer-2027-new-permit-application-window-0@
+ dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20270131
+SUMMARY:NYC Parks: spring/summer 2027 new permit application window
+DESCRIPTION:General\nNew field requests
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-schools-reopen-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:NYC schools reopen
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-martin-luther-king-jr-day-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Martin Luther King Jr. Day: schools closed
+DESCRIPTION:General\nOne-day camp
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-regents-exams-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270130
+SUMMARY:Regents exams
+DESCRIPTION:General\nHigh school players may miss weekday sessions
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-professional-development-day-high-school-and-6-12-students-of
+ f-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Professional development day: high school and 6–12 students off
+DESCRIPTION:General\nHigh school players free
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-lunar-new-year-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Lunar New Year
+DESCRIPTION:General\nLower attendance
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-ramadan-dates-depend-on-moon-sighting-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270309
+SUMMARY:Ramadan (dates depend on moon sighting)
+DESCRIPTION:General\nConsider timing of evening sessions and events
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-midwinter-recess-schools-closed-presidents-day-mon-feb-15-0@d
+ usc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270220
+SUMMARY:Midwinter recess: schools closed (Presidents’ Day Mon\, Feb 15)
+DESCRIPTION:General\nMidwinter camp week
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-parent-teacher-conferences-3-hour-early-dismissal-elementary-
+ m-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Parent-teacher conferences\, 3-hour early dismissal (elementary M
+ ar 3\, middle Mar 4\, high school Mar 19)
+DESCRIPTION:General\nOption for early-dismissal clinics
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-parent-teacher-conferences-3-hour-early-dismissal-elementary-
+ m-1@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Parent-teacher conferences\, 3-hour early dismissal (elementary M
+ ar 3\, middle Mar 4\, high school Mar 19)
+DESCRIPTION:General\nOption for early-dismissal clinics
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-parent-teacher-conferences-3-hour-early-dismissal-elementary-
+ m-2@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Parent-teacher conferences\, 3-hour early dismissal (elementary M
+ ar 3\, middle Mar 4\, high school Mar 19)
+DESCRIPTION:General\nOption for early-dismissal clinics
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-eid-al-fitr-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Eid al-Fitr: schools closed
+DESCRIPTION:General\nOne-day camp option
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-daylight-saving-time-begins-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Daylight saving time begins
+DESCRIPTION:General\nMore daylight for evening sessions
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-generation-adidas-cup-img-academy-fl-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270403
+SUMMARY:Generation adidas Cup\, IMG Academy\, FL
+DESCRIPTION:General\nAcademy
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-good-friday-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Good Friday: schools closed
+DESCRIPTION:General\nOne-day camp
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-easter-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Easter
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-parks-spring-summer-permit-season-begins-0@dusc-club-cale
+ ndar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:NYC Parks spring/summer permit season begins
+DESCRIPTION:General\nEarliest spring outdoor start on Parks fields
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-parks-fall-2027-permit-renewal-window-0@dusc-club-calenda
+ r
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270515
+SUMMARY:NYC Parks: fall 2027 permit renewal window
+DESCRIPTION:General\nSubmit renewals for Sep 1–Nov 30 fields
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-passover-begins-at-sundown-apr-21-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270430
+SUMMARY:Passover (begins at sundown Apr 21)
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-spring-recess-nyc-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270501
+SUMMARY:Spring recess: NYC schools closed
+DESCRIPTION:General\nSpring break camp
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-mls-next-flex-atlanta-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270505
+SUMMARY:MLS NEXT Flex\, Atlanta
+DESCRIPTION:General\nAcademy
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-mother-s-day-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Mother’s Day
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-eid-al-adha-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Eid al-Adha: schools closed
+DESCRIPTION:General\nOne-day camp option
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-parks-fall-2027-new-permit-application-window-0@dusc-club
+ -calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270701
+SUMMARY:NYC Parks: fall 2027 new permit application window
+DESCRIPTION:General\nNew field requests
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-memorial-day-schools-closed-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Memorial Day: schools closed
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-mls-next-cup-cincinnati-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270614
+SUMMARY:MLS NEXT Cup\, Cincinnati
+DESCRIPTION:General\nAcademy
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-clerical-day-no-school-for-3-k-pre-k-elementary-middle-and-k-
+ 1-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Clerical Day: no school for 3-K\, Pre-K\, elementary\, middle and
+  K–12
+DESCRIPTION:General\nOne-day camp for younger players
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-anniversary-day-no-school-for-all-students-0@dusc-club-calend
+ ar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Anniversary Day: no school for all students
+DESCRIPTION:General\nOne-day camp
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-regents-exams-2-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270626
+SUMMARY:Regents exams
+DESCRIPTION:General\nHigh school players may miss weekday sessions
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-juneteenth-federal-holiday-observed-jun-19-is-a-saturday-0@du
+ sc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:Juneteenth (federal holiday observed\; Jun 19 is a Saturday)
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-father-s-day-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Father’s Day
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-nyc-public-schools-last-day-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:NYC public schools: last day
+DESCRIPTION:General\nSummer camps can start Tue\, Jun 29
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-independence-day-observed-jul-4-is-a-sunday-0@dusc-club-calen
+ dar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Independence Day observed (Jul 4 is a Sunday)
+DESCRIPTION:General\nNo camp
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-2026-27-seasonal-year-ends-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:2026–27 seasonal year ends
+DESCRIPTION:General\n2027–28 registration uses school-year age groups
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-labor-day-2-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:Labor Day
+DESCRIPTION:General
+CATEGORIES:General
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-league-season-begins-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:MLS NEXT: League season begins
+DESCRIPTION:Academy\nStatus: Set by league\nPeople: U13-U19 HG
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-girls-academy-league-season-begins-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Girls Academy: League season begins
+DESCRIPTION:Academy\nStatus: Set by league\nPeople: U11/U12 Inspire & U13
+ /U14 GA
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-tier-2-edp-cjsl-ny-club-soccer-teams-league-season-b
+ e-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:MLS NEXT Tier 2\, EDP\, CJSL\, NY Club Soccer teams: League seaso
+ n begins
+DESCRIPTION:Academy
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-talent-id-new-york-market-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:MLS NEXT: Talent ID (New York market)
+DESCRIPTION:Academy
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-all-non-mls-next-hg-teams-fall-tournaments-one-row-per-team-p
+ e-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:All non MLS Next HG teams: Fall tournaments (one row per team per
+  event)
+DESCRIPTION:Academy\nPeople: Usually SUSA/Brooklyn Italians/Northport
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-mls-next-fest-mesa-az-invited-teams-0@dusc-club-cale
+ ndar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261214
+SUMMARY:MLS NEXT Fest\, Mesa\, AZ (invited teams)
+DESCRIPTION:Academy\nStatus: Set by league\nPeople: U13-U19 HG & U19-U17 
+ AD
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-girls-academy-winter-showcase-san-diego-invited-teams-0@dusc-
+ club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261208
+SUMMARY:Girls Academy: Winter showcase San Diego (invited teams)
+DESCRIPTION:Academy\nPeople: GA U16/U17/U19
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-all-teams-fall-season-ends-winter-break-from-outdoor-training
+ -0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:All teams: Fall season ends\; winter break from outdoor training
+DESCRIPTION:Academy\nPeople: MLS Next HG have games Dec 19
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-all-teams-winter-season-starts-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:All teams: Winter season starts
+DESCRIPTION:Academy
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-hg-spring-season-begins-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270510
+SUMMARY:MLS Next HG: Spring season begins
+DESCRIPTION:Academy
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-girls-academy-spring-season-begins-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270523
+SUMMARY:Girls Academy: Spring season begins
+DESCRIPTION:Academy
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-generation-adidas-cup-img-academy-qualified-teams-0@
+ dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270403
+SUMMARY:MLS NEXT: Generation adidas Cup\, IMG Academy (qualified teams)
+DESCRIPTION:Academy\nStatus: Set by league
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-academy-division-mls-next-cup-qualifiers-hammonton-n
+ j-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270504
+SUMMARY:MLS NEXT Academy Division: MLS NEXT Cup qualifiers\, Hammonton\, 
+ NJ (if applicable)
+DESCRIPTION:Academy\nStatus: Set by league
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-mls-next-flex-atlanta-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270505
+SUMMARY:MLS NEXT Flex\, Atlanta
+DESCRIPTION:Academy\nStatus: Set by league
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:academy-mls-next-mls-next-cup-cincinnati-qualified-teams-0@dusc-club-
+ calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270614
+SUMMARY:MLS NEXT Cup\, Cincinnati (qualified teams)
+DESCRIPTION:Academy\nStatus: Set by league
+CATEGORIES:Academy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-opening-day-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Fall 2026: Opening day
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-opening-day-1@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Fall 2026: Opening day
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-halloween-confirm-games-run-consider-earlier-fin
+ i-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Fall 2026: Halloween: confirm games run\; consider earlier finish
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-nyc-marathon-check-road-closures-and-field-acces
+ s-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Fall 2026: NYC Marathon: check road closures and field access for
+  Sunday games
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-thanksgiving-weekend-play-or-no-play-decision-0@
+ dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Fall 2026: Thanksgiving weekend: play or no-play decision
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-rain-out-make-up-dates-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Fall 2026: Rain-out make-up dates
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-rain-out-make-up-dates-1@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Fall 2026: Rain-out make-up dates
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-fall-2026-rain-out-make-up-dates-2@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Fall 2026: Rain-out make-up dates
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-spring-2027-registration-opens-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Spring 2027: Registration opens
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-spring-2027-spring-recess-and-passover-weekend-play-or-no-
+ p-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270426
+SUMMARY:Spring 2027: Spring recess and Passover weekend: play or no-play 
+ decision
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rec-league-spring-2027-memorial-day-weekend-play-or-no-play-decision-
+ 0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270531
+SUMMARY:Spring 2027: Memorial Day weekend: play or no-play decision
+DESCRIPTION:Rec League
+CATEGORIES:Rec League
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-fall-2026-session-start-and-end-dates-by-class-and-age-group-
+ 0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Fall 2026: Session start and end dates\, by class and age group
+DESCRIPTION:Classes\nInclude Mini Ballers (age 3+)
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-fall-2026-session-start-and-end-dates-by-class-and-age-group-
+ 1@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Fall 2026: Session start and end dates\, by class and age group
+DESCRIPTION:Classes\nInclude Mini Ballers (age 3+)
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-all-classes-no-classes-thanksgiving-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:All classes: No classes: Thanksgiving
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-winter-2027-session-start-and-end-dates-indoor-space-0@dusc-c
+ lub-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Winter 2027: Session start and end dates (indoor space)
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-winter-2027-session-start-and-end-dates-indoor-space-1@dusc-c
+ lub-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Winter 2027: Session start and end dates (indoor space)
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-all-classes-winter-recess-no-classes-or-holiday-schedule-0@du
+ sc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20270102
+SUMMARY:All classes: Winter recess: no classes or holiday schedule
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-all-classes-mlk-day-no-class-or-make-up-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:All classes: MLK Day: no class or make-up
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-all-classes-midwinter-recess-no-classes-or-camp-in-place-of-c
+ l-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270220
+SUMMARY:All classes: Midwinter recess: no classes\, or camp in place of c
+ lass
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-spring-2027-registration-opens-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Spring 2027: Registration opens
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-all-classes-spring-recess-no-classes-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270501
+SUMMARY:All classes: Spring recess: no classes
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:classes-all-classes-memorial-day-no-class-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:All classes: Memorial Day: no class
+DESCRIPTION:Classes
+CATEGORIES:Classes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-veterans-day-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:One-day: Veterans Day camp
+DESCRIPTION:Camps\nStatus: Draft\nNYC schools closed
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-thanksgiving-friday-camp-optional-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:One-day: Thanksgiving Friday camp (optional)
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-holiday-winter-break-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20270101
+SUMMARY:Holiday: Winter break camp
+DESCRIPTION:Camps\nStatus: Draft\nDec 24\, Dec 25 and Jan 1 are holidays
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-mlk-day-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:One-day: MLK Day camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-holiday-midwinter-break-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270220
+SUMMARY:Holiday: Midwinter break camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-eid-al-fitr-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:One-day: Eid al-Fitr camp
+DESCRIPTION:Camps\nStatus: Draft\nNYC schools closed
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-holiday-spring-break-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:Holiday: Spring break camp
+DESCRIPTION:Camps
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-holiday-spring-break-camp-2-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270327
+SUMMARY:Holiday: Spring break camp
+DESCRIPTION:Camps
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-good-friday-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:One-day: Good Friday camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-holiday-spring-break-camp-3-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270501
+SUMMARY:Holiday: Spring break camp
+DESCRIPTION:Camps\nStatus: Draft\nPassover begins at sundown Apr 21
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-eid-al-adha-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:One-day: Eid al-Adha camp
+DESCRIPTION:Camps\nStatus: Draft\nNYC schools closed - last SOC
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-clerical-day-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:One-day: Clerical Day camp
+DESCRIPTION:Camps\nStatus: Draft\nNo school for elementary and middle
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-one-day-anniversary-day-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:One-day: Anniversary Day camp
+DESCRIPTION:Camps\nStatus: Draft\nNo school for all students
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-summer-camp-registration-opens-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Summer camp registration opens
+DESCRIPTION:Camps
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-summer-early-bird-deadline-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Summer early-bird deadline
+DESCRIPTION:Camps\nSometimes extend a week or 2
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-0-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270612
+SUMMARY:Summer week 0: Summer camp
+DESCRIPTION:Camps
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-1-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270619
+SUMMARY:Summer week 1: Summer camp
+DESCRIPTION:Camps
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-2-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270626
+SUMMARY:Summer week 2: Summer camp
+DESCRIPTION:Camps
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-3-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270703
+SUMMARY:Summer week 3: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-4-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270710
+SUMMARY:Summer week 4: Summer camp
+DESCRIPTION:Camps\nStatus: Draft\n4-day week\; Jul 5 holiday
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-5-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270717
+SUMMARY:Summer week 5: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-6-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270724
+SUMMARY:Summer week 6: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-7-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270731
+SUMMARY:Summer week 7: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-8-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270807
+SUMMARY:Summer week 8: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-9-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270814
+SUMMARY:Summer week 9: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-10-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270821
+SUMMARY:Summer week 10: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-11-summer-camp-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270828
+SUMMARY:Summer week 11: Summer camp
+DESCRIPTION:Camps\nStatus: Draft
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:camps-summer-week-12-summer-camp-optional-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+SUMMARY:Summer week 12: Summer camp (optional)
+DESCRIPTION:Camps\nStatus: Draft\nLabor Day is Mon\, Sep 6
+CATEGORIES:Camps
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:major-events-donors-and-families-annual-fundraiser-or-gala-0@dusc-clu
+ b-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Donors and families: Annual fundraiser or gala
+DESCRIPTION:Major Events
+CATEGORIES:Major Events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:major-events-donors-and-families-giving-tuesday-and-year-end-giving-c
+ a-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Donors and families: Giving Tuesday and year-end giving campaign
+DESCRIPTION:Major Events\nStatus: Draft
+CATEGORIES:Major Events
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:major-events-staff-coaches-board-holiday-party-0@dusc-club-calendar
+DTSTAMP:20261125T020737Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Staff/Coaches/Board: Holiday Party
+DESCRIPTION:Major Events
+CATEGORIES:Major Events
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,225 @@
+{
+ "events": [
+  {
+   "end": "2026-09-05",
+   "group": "MLS NEXT",
+   "id": "academy-mls-next-league-season-begins",
+   "section": "Academy",
+   "start": "2026-09-05",
+   "title": "League season begins"
+  },
+  {
+   "end": "2026-09-12",
+   "group": "Girls Academy",
+   "id": "academy-girls-academy-league-season-begins",
+   "section": "Academy",
+   "start": "2026-09-12",
+   "title": "League season begins"
+  },
+  {
+   "end": "2026-09-12",
+   "group": "MLS NEXT Tier 2, EDP, CJSL, NY Club Soccer teams",
+   "id": "academy-mls-next-tier-2-edp-cjsl-ny-club-soccer-teams-league-season-be",
+   "section": "Academy",
+   "start": "2026-09-12",
+   "title": "League season begins"
+  },
+  {
+   "end": "2026-12-13",
+   "group": "MLS NEXT",
+   "id": "academy-mls-next-mls-next-fest-mesa-az-invited-teams",
+   "section": "Academy",
+   "start": "2026-12-02",
+   "title": "MLS NEXT Fest, Mesa, AZ (invited teams)"
+  },
+  {
+   "end": "2026-12-07",
+   "group": "Girls Academy",
+   "id": "academy-girls-academy-winter-showcase-san-diego-invited-teams",
+   "section": "Academy",
+   "start": "2026-12-02",
+   "title": "Winter showcase San Diego (invited teams)"
+  },
+  {
+   "end": "2026-12-18",
+   "group": "All teams",
+   "id": "academy-all-teams-fall-season-ends-winter-break-from-outdoor-training",
+   "section": "Academy",
+   "start": "2026-12-18",
+   "title": "Fall season ends; winter break from outdoor training"
+  },
+  {
+   "end": "2027-01-11",
+   "group": "All teams",
+   "id": "academy-all-teams-winter-season-starts",
+   "section": "Academy",
+   "start": "2027-01-11",
+   "title": "Winter season starts"
+  },
+  {
+   "end": "2027-05-09",
+   "group": "MLS Next HG",
+   "id": "academy-mls-next-hg-spring-season-begins",
+   "section": "Academy",
+   "start": "2027-03-07",
+   "title": "Spring season begins"
+  },
+  {
+   "end": "2027-05-22",
+   "group": "Girls Academy",
+   "id": "academy-girls-academy-spring-season-begins",
+   "section": "Academy",
+   "start": "2027-03-06",
+   "title": "Spring season begins"
+  },
+  {
+   "end": "2027-04-02",
+   "group": "MLS NEXT",
+   "id": "academy-mls-next-generation-adidas-cup-img-academy-qualified-teams",
+   "section": "Academy",
+   "start": "2027-03-25",
+   "title": "Generation adidas Cup, IMG Academy (qualified teams)"
+  },
+  {
+   "end": "2027-05-04",
+   "group": "MLS NEXT",
+   "id": "academy-mls-next-mls-next-flex-atlanta",
+   "section": "Academy",
+   "start": "2027-04-29",
+   "title": "MLS NEXT Flex, Atlanta"
+  },
+  {
+   "end": "2027-06-13",
+   "group": "MLS NEXT",
+   "id": "academy-mls-next-mls-next-cup-cincinnati-qualified-teams",
+   "section": "Academy",
+   "start": "2027-06-05",
+   "title": "MLS NEXT Cup, Cincinnati (qualified teams)"
+  },
+  {
+   "dates": [
+    "2026-09-12",
+    "2026-09-13"
+   ],
+   "end": "2026-09-13",
+   "group": "Fall 2026",
+   "id": "rec-league-fall-2026-opening-day",
+   "section": "Rec League",
+   "start": "2026-09-12",
+   "title": "Opening day"
+  },
+  {
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-12-06"
+   ],
+   "end": "2026-12-06",
+   "group": "Fall 2026",
+   "id": "rec-league-fall-2026-rain-out-make-up-dates",
+   "section": "Rec League",
+   "start": "2026-11-21",
+   "title": "Rain-out make-up dates"
+  },
+  {
+   "dates": [
+    "2026-09-12",
+    "2026-09-13"
+   ],
+   "end": "2026-09-13",
+   "group": "Fall 2026",
+   "id": "classes-fall-2026-session-start-and-end-dates-by-class-and-age-group",
+   "section": "Classes",
+   "start": "2026-09-12",
+   "title": "Session start and end dates, by class and age group"
+  },
+  {
+   "end": "2026-11-27",
+   "group": "All classes",
+   "id": "classes-all-classes-no-classes-thanksgiving",
+   "section": "Classes",
+   "start": "2026-11-26",
+   "title": "No classes: Thanksgiving"
+  },
+  {
+   "dates": [
+    "2027-01-09",
+    "2027-01-10"
+   ],
+   "end": "2027-01-10",
+   "group": "Winter 2027",
+   "id": "classes-winter-2027-session-start-and-end-dates-indoor-space",
+   "section": "Classes",
+   "start": "2027-01-09",
+   "title": "Session start and end dates (indoor space)"
+  },
+  {
+   "end": "2027-04-30",
+   "group": "All classes",
+   "id": "classes-all-classes-spring-recess-no-classes",
+   "section": "Classes",
+   "start": "2027-04-22",
+   "title": "Spring recess: no classes"
+  },
+  {
+   "end": "2027-03-19",
+   "group": "Holiday",
+   "id": "camps-holiday-spring-break-camp",
+   "section": "Camps",
+   "start": "2027-03-15",
+   "title": "Spring break camp"
+  },
+  {
+   "end": "2027-03-26",
+   "group": "Holiday",
+   "id": "camps-holiday-spring-break-camp-2",
+   "section": "Camps",
+   "start": "2027-03-22",
+   "title": "Spring break camp"
+  },
+  {
+   "end": "2027-04-01",
+   "group": "Summer",
+   "id": "camps-summer-summer-early-bird-deadline",
+   "section": "Camps",
+   "start": "2027-04-01",
+   "title": "Summer early-bird deadline"
+  },
+  {
+   "end": "2027-06-11",
+   "group": "Summer week 0",
+   "id": "camps-summer-week-0-summer-camp",
+   "section": "Camps",
+   "start": "2027-06-07",
+   "title": "Summer camp"
+  },
+  {
+   "end": "2027-06-18",
+   "group": "Summer week 1",
+   "id": "camps-summer-week-1-summer-camp",
+   "section": "Camps",
+   "start": "2027-06-14",
+   "title": "Summer camp"
+  },
+  {
+   "end": "2027-06-25",
+   "group": "Summer week 2",
+   "id": "camps-summer-week-2-summer-camp",
+   "section": "Camps",
+   "start": "2027-06-21",
+   "title": "Summer camp"
+  },
+  {
+   "end": "2026-11-12",
+   "group": "Donors and families",
+   "id": "major-events-donors-and-families-annual-fundraiser-or-gala",
+   "section": "Major Events",
+   "start": "2026-11-12",
+   "title": "Annual fundraiser or gala"
+  }
+ ],
+ "meta": {
+  "total": 25,
+  "updatedAt": "2026-11-25T02:07:37Z"
+ }
+}
