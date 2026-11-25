@@ -1104,7 +1104,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-19",
-    "text": "Find a service for spring team pictures"
+    "text": "Find a service for spring team pictures",
+    "archived": true,
+    "archivedAt": "2026-11-25T03:52:16.507Z"
    },
    {
     "done": false,
