@@ -837,6 +837,75 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
 .pdone summary::-webkit-details-marker{display:none}
 .pintro{font-size:14px;color:var(--muted);padding:6px 0 10px;max-width:70ch}
 @media (max-width:899px){ #tabPeople{display:none} .subnav{max-width:100%} .subnav button{padding:7px 14px} }
+
+/* ---------- v4: shared bits ---------- */
+#projView .lab,#calView .lab{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px;min-height:28px;margin:0;font-family:var(--body)}
+#projView .lab .c,#calView .lab .c{font-weight:500}
+#projView .none,#calView .none{font-size:14px;color:var(--muted);padding:14px 0;border-bottom:1px solid var(--line)}
+.t2 summary .rv{margin-left:auto;color:var(--accent);text-transform:none;letter-spacing:0;font-size:13px;font-weight:600}
+.t2 summary .rv + .chev{margin-left:8px}
+.t2 details[open] > summary .rv{display:none}
+.t2 details[open] > summary .chev{margin-left:auto}
+.t2 details.sub{border-bottom:0;border-top:1px solid var(--line);margin-top:0}
+.t2 details.sub:not([open]) > summary .chev{transform:rotate(45deg)}
+/* ---------- when chips ---------- */
+.when{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.when .hb{min-height:34px;padding:6px 13px;background:var(--bg)}
+.when .hb.x{margin-left:auto;padding:6px 11px}
+.trow.plan{cursor:pointer;border-bottom:1px solid var(--line);padding:12px 0}
+.trow.plan .tt{font-size:15px;-webkit-line-clamp:2}
+.t2 .tray .trow.tri:last-of-type{border-bottom:1px solid var(--accent-line)}
+/* ---------- stale review ---------- */
+.t2 .stale .pintro{padding:0 0 4px}
+.sblk{padding:6px 0 10px}
+.sblk > .lbl{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px;min-height:36px}
+.sblk > .lbl .c{font-weight:500}
+.sblk > .lbl .linkb{margin-left:auto;min-height:36px;text-transform:none;letter-spacing:0}
+.srow{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.srow .tx{flex:1;min-width:0}
+.srow .tt{font-size:15px;font-weight:500;line-height:1.35;color:var(--fg)}
+.srow .me{font-size:12px;color:var(--muted);margin-top:2px}
+.srow .sb{display:flex;gap:6px;flex:none}
+.srow .sb .hb{min-height:34px}
+@media (max-width:480px){ .srow{flex-direction:column;gap:8px} .srow .sb{align-self:flex-start} }
+/* ---------- projects ---------- */
+#projView{display:none}
+body[data-boardmode="projects"] #projView{display:block}
+body[data-boardmode="projects"] #viewBoard > :not(.pbar):not(#projView){display:none!important}
+.pbar{padding:6px 0 10px}
+.proj .nx1{font-size:13px;color:var(--muted);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.proj[open] .nx1{display:none}
+.proj .nb{max-width:none;gap:0;padding-bottom:10px}
+.proj .nb .trow{min-height:52px}
+.proj .pdone .trow .tt{color:var(--muted);text-decoration:line-through}
+/* ---------- agenda draft ---------- */
+.draft{margin:2px 0 10px}
+.draft > .lbl{display:flex;align-items:center;gap:8px}
+.draft > .lbl .linkb{margin-left:auto;min-height:32px}
+.draft-list{list-style:none;margin:0;padding:0}
+.draft-list li{display:flex;gap:8px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed var(--line-2)}
+.draft-list .tx{flex:1;min-width:0;font-size:14.5px;line-height:1.4;color:var(--fg)}
+.draft-list .src{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.draft-list .hb{min-height:32px;padding:5px 11px}
+/* ---------- club calendar ---------- */
+#calView{display:none}
+body[data-meetmode="calendar"] #calView{display:block}
+body[data-meetmode="calendar"] #viewMeetings > :not(.subnav):not(#calView){display:none!important}
+.crow{display:grid;grid-template-columns:92px minmax(0,1fr);gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.4}
+.crow .cd{font-size:13px;font-weight:600;color:var(--muted);padding-top:1px}
+.crow .cd.now{color:var(--accent)}
+.crow .cd.tb{font-weight:500;font-style:italic}
+.crow .ct{min-width:0;color:var(--fg)}
+.crow .cs{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.crow .cn{display:block;font-size:13px;color:var(--muted);margin-top:3px}
+.crow.big{grid-template-columns:132px minmax(0,1fr)}
+.crow.past .ct,.crow.past .cd{color:var(--muted)}
+.cal-chips{display:flex;flex-wrap:wrap;gap:6px;padding:4px 0 10px}
+.cal-chips .hb.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.calhead .pintro a{color:var(--accent);font-weight:500;white-space:nowrap}
+#calView .nfold .crow:last-child{border-bottom:0}
+@media (max-width:480px){ .crow.big{grid-template-columns:104px minmax(0,1fr)} }
+@media (max-width:899px){ #tabProjects,#tabCalendar{display:none} .subnav button{padding:7px 11px} }
 </style>
 </head>
 <body>
@@ -858,10 +927,12 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
       <nav class="tabs" role="tablist" aria-label="Views">
         <button class="tab" role="tab" id="tabToday" aria-selected="true" aria-controls="viewToday"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></svg><span class="lb">Today</span><span class="n" id="nToday">–</span></button>
         <button class="tab" role="tab" id="tabBoard" aria-selected="false" aria-controls="viewBoard"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01"/></svg><span class="lb">All</span><span class="n" id="nOpen">–</span></button>
+        <button class="tab" role="tab" id="tabProjects" aria-selected="false" aria-controls="viewBoard"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5A1.5 1.5 0 0 1 4.5 6H9l2 2.5h8.5A1.5 1.5 0 0 1 21 10v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18z"/></svg><span class="lb">Projects</span><span class="n" id="nProjects">–</span></button>
         <button class="tab" role="tab" id="tabNotes" aria-selected="false" aria-controls="viewNotes"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg><span class="lb">Notes</span><span class="n" id="nNotes">–</span></button>
         <button class="tab" role="tab" id="tabPeople" aria-selected="false" aria-controls="viewNotes"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/><path d="M16 5.2a3 3 0 0 1 0 5.6M17.5 14.8c2 .6 3.5 2.4 3.5 5.2"/></svg><span class="lb">People</span><span class="n" id="nPeople">–</span></button>
         <button class="tab" role="tab" id="tabInbox" aria-selected="false" aria-controls="viewInbox"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v4"/></svg><span class="lb">Reply</span><span class="n" id="nInbox">–</span></button>
         <button class="tab" role="tab" id="tabMeetings" aria-selected="false" aria-controls="viewMeetings"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg><span class="lb">Meetings</span><span class="n" id="nMeetings">–</span></button>
+        <button class="tab" role="tab" id="tabCalendar" aria-selected="false" aria-controls="viewMeetings"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16M8 14h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"/></svg><span class="lb">Club calendar</span></button>
       </nav>
       <label class="gsearch"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="q" placeholder="Search cards, notes, inbox, meetings…" autocomplete="off" aria-label="Search"><kbd>/</kbd></label>
       <button class="btn" id="addBtn" aria-label="Add card"><span aria-hidden="true">+</span><span class="lbl">&nbsp;Add card</span></button>
@@ -872,6 +943,8 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
 <main>
   <section id="viewToday" role="tabpanel" aria-labelledby="tabToday" class="wrap today"></section>
   <section id="viewBoard" role="tabpanel" aria-labelledby="tabBoard" class="wrap" hidden>
+    <div class="nbar pbar"><div class="nmode" role="group" aria-label="Show"><button data-bv="cards" aria-pressed="true">Cards</button><button data-bv="projects" aria-pressed="false">Projects</button></div></div>
+    <div id="projView"></div>
     <div class="overview" id="overview" aria-label="Overview"></div>
     <div class="toolbar">
       <div class="chips" id="ownerChips" aria-label="Filter by owner"></div>
@@ -894,7 +967,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   </section>
 
   <section id="viewNotes" role="tabpanel" aria-labelledby="tabNotes" class="wrap notes" hidden>
-    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button><button data-go="people" aria-pressed="false">People</button></div>
+    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button><button data-go="people" aria-pressed="false">People</button><button data-go="calendar" aria-pressed="false">Calendar</button></div>
     <div class="nv">
       <div class="nvL">
       <section class="nvA" aria-label="Brief">
@@ -931,7 +1004,8 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   </section>
 
   <section id="viewMeetings" role="tabpanel" aria-labelledby="tabMeetings" class="wrap meetings" hidden>
-    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button><button data-go="people" aria-pressed="false">People</button></div>
+    <div class="subnav" role="group" aria-label="Meetings or notes"><button data-go="meetings" aria-pressed="false">Meetings</button><button data-go="notes" aria-pressed="false">Notes</button><button data-go="people" aria-pressed="false">People</button><button data-go="calendar" aria-pressed="false">Calendar</button></div>
+    <div id="calView"></div>
     <div id="agendaNudge"></div>
     <div class="mt-head"><h2>Up next</h2><span class="cnt" id="mtCnt"></span>
       <div class="seg" role="group" aria-label="Range"><button id="mtWeek" aria-pressed="true">7 days</button><button id="mtTwo" aria-pressed="false">14 days</button></div></div>
@@ -972,8 +1046,8 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   // ---------- GitHub-backed store ----------
   const CFG0 = (() => { try{ return JSON.parse($('#board-config').textContent); }catch(e){ return {}; } })();
   const K = {token:'dusc-board-gh-token', repo:'dusc-board-gh-repo', queue:'dusc-board-gh-queue', cache:'dusc-board-gh-cache'};
-  const COLL = ['cards','notes','inbox','meetings','series','meta'];
-  const DATA = {cards:{}, notes:{}, inbox:{}, meetings:{}, series:{}, meta:{}};
+  const COLL = ['cards','notes','inbox','meetings','series','meta','calendar'];
+  const DATA = {cards:{}, notes:{}, inbox:{}, meetings:{}, series:{}, meta:{}, calendar:{}};
   const SHA = {};
   let token = null, repoCfg = {owner: CFG0.owner||'', repo: CFG0.repo||'dusc-board', branch: CFG0.branch||'main'};
   try{ token = localStorage.getItem(K.token) || null; const r = JSON.parse(localStorage.getItem(K.repo)||'null'); if(r && r.owner && r.repo) repoCfg = {...repoCfg, ...r}; }catch(e){}
@@ -1015,12 +1089,13 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   function applyOp(data, o){ if(o.op==='delete'){ delete data[o.id]; } else if(o.op==='set'){ data[o.id] = o.patch; } else { data[o.id] = {...(data[o.id]||{}), ...o.patch}; } }
   function describeErr(e){ const c = e && e.code; if(c==='auth') return 'GitHub rejected the token — reconnect'; if(c==='notfound') return 'Repo not found or no access'; if(c==='forbidden') return 'GitHub refused (rate limit or permissions)'; if(c==='offline') return 'Offline — changes will sync when you’re back'; return 'Sync problem — will retry'; }
   function materialize(){
-    const allC = Object.entries(DATA.cards).map(([id,c])=>({...c, id, title: cleanTitle(c.title)})); state.newCards = allC.filter(c => c.triage==='new' && c.status!=='done' && c.status!=='dismissed'); state.cards = allC.filter(c => c.status!=='dismissed' && !(c.triage==='new' && c.status!=='done'));
+    const allC = Object.entries(DATA.cards).map(([id,c])=>({...c, id, title: cleanTitle(c.title)})); const hid = s => s==='dismissed' || s==='archived'; state.newCards = allC.filter(c => c.triage==='new' && c.status!=='done' && !hid(c.status)); state.cards = allC.filter(c => !hid(c.status) && !(c.triage==='new' && c.status!=='done'));
     state.notes = Object.entries(DATA.notes).map(([id,n])=>({...n, id}));
     state.inbox = Object.entries(DATA.inbox).map(([id,m])=>({...m, id}));
     state.meetings = Object.entries(DATA.meetings).map(([id,m])=>({...m, eventId: m.eventId||id}));
     state.series = Object.entries(DATA.series).map(([k,s])=>({...s, key: s.key||k}));
     state.sync = DATA.meta.sync||null; state.mailSync = DATA.meta.inbox||null;
+    state.calendar = Object.values(DATA.calendar||{}); state.calMeta = DATA.meta.calendar||null; state.projectsMeta = ((DATA.meta.projects||{}).items)||[];
   }
   const uid = () => 'c-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7);
   function queueOp(coll, id, op, patch){ if(!token){ viewOnlyHint(); return; } queue.push({coll, id, op, patch, ts: Date.now()}); applyOp(DATA[coll], {coll,id,op,patch}); saveQueue(); cacheSave(); }
@@ -1183,7 +1258,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     if(c.status==='waiting') bits.push(waitLabel(c)); else if(c.due) bits.push(late ? 'Due '+fmtDate(c.due) : dueLabel(c.due));
     if(c.source) bits.push(c.sourceKind==='email' ? 'Email' : c.source);
     if((c.snoozes||0) >= 2) bits.push('moved '+c.snoozes+'×');
-    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Later</button>` : ''}</div>`; }
+    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Tomorrow</button>` : ''}</div>`; }
   const isOldMail = m => m.status!=='handled' && !!m.date && new Date(m.date).getTime() < Date.now() - 7*86400000;
   function clearOldMail(){ const old = openInbox().filter(isOldMail); if(!old.length) return; old.forEach(m => setMail(m.id, 'handled')); setTimeout(()=>toast(old.length+' older email'+(old.length===1?'':'s')+' marked done'), 80); }
   function todayCounts(){ const b = todayBuckets(); const open = openInbox(); const old = open.filter(isOldMail).length; return {b, late: b.late.length, now: b.now.length + b.focus.length, mail: open.length - old, oldMail: old}; }
@@ -1198,15 +1273,15 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     const show = left.length ? left.slice(0,3) : mts.filter(m => new Date(m.start) > d).sort((a,b2)=>new Date(a.start)-new Date(b2.start)).slice(0,1);
     const nextHTML = (m, i) => { const ag = (m.agenda||[]).filter(a=>!a.done).length; const w = whenLabel(m); const isToday = isoDay(new Date(m.start))===t;
       const pr = m.prep || {}; const line = i===0 ? (pr.oneLine || (pr.highlights||[])[0] || '') : '';
-      return `<button class="next" data-td-meeting="${esc(m.eventId)}"><span class="nx"><span class="k">${isToday?'Today':esc(w.day)} · ${esc(fmtTime(new Date(m.start)))}</span><span class="ttl" style="display:block">${esc(m.title)}</span><span class="ag${ag?'':' none'}" style="display:block">${ag ? ag+' item'+(ag===1?'':'s')+' on the agenda' : 'No agenda yet — tap to add one'}</span>${line?`<span class="br">${esc(line)}</span>`:''}</span><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>`; };
+      return `<button class="next" data-td-meeting="${esc(m.eventId)}"><span class="nx"><span class="k">${isToday?'Today':esc(w.day)} · ${esc(fmtTime(new Date(m.start)))}</span><span class="ttl" style="display:block">${esc(m.title)}</span><span class="ag${ag?'':' none'}" style="display:block">${ag ? ag+' item'+(ag===1?'':'s')+' on the agenda' : (draftItems(m).length ? draftItems(m).length+' suggested agenda item'+(draftItems(m).length===1?'':'s')+' — tap to review' : 'No agenda yet — tap to add one')}</span>${line?`<span class="br">${esc(line)}</span>`:''}</span><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>`; };
     const mail = openInbox().slice().sort((a,b2)=>String(b2.date||'').localeCompare(String(a.date||'')));
     const mailRow = m => { const label = (m.from ? m.from.split(/[<(]/)[0].trim()+': ' : '') + (m.ask || m.subject || ''); const me = [m.date?fmtDate(m.date.slice(0,10)):'', m.due?'due '+fmtDate(m.due):''].filter(Boolean).join(' · ');
       return `<div class="trow"><span class="ric" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v4"/></svg></span><div class="tx">${m.threadUrl?`<a class="tt" href="${esc(m.threadUrl)}" target="_blank" rel="noopener">${esc(label)}</a>`:`<div class="tt">${esc(label)}</div>`}${me?`<div class="me">${esc(me)}</div>`:''}</div><button class="hb" data-td-handle="${esc(m.id)}">Done</button></div>`; };
     const fresh = mail.filter(m=>!isOldMail(m)), old = mail.filter(isOldMail);
     const fold = (key, title, items) => items.length ? `<details ${state.tdOpen[key]?'open':''}><summary data-td-sec="${key}">${esc(title)} <span class="c">${items.length}</span><span class="chev"></span></summary>${items.map(trow).join('')}</details>` : '';
     const nc = (state.newCards||[]).slice().sort((x,y)=>String(y.createdAt||'').localeCompare(String(x.createdAt||'')));
-    const triRow = c => `<div class="trow tri"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.source||'', c.due?'due '+fmtDate(c.due):''].filter(Boolean).join(' · '))}</div></div><button class="hb keep" data-tri-keep="${esc(c.id)}">Keep</button><button class="hb" data-tri-drop="${esc(c.id)}" aria-label="Dismiss" title="Dismiss">✕</button></div>`;
-    const tray = nc.length ? `<section class="tray"><details ${state.tdOpen.newc?'open':''}><summary data-td-sec="newc">New from your notes <span class="c">${nc.length}</span><span class="rv">Review</span><span class="chev"></span></summary>${nc.map(triRow).join('')}<div class="bulk"><button class="hb" data-tri-all="drop" type="button">Dismiss all</button><button class="hb keep" data-tri-all="keep" type="button">Keep all ${nc.length}</button></div></details></section>` : '';
+    const triRow = c => `<div class="trow tri"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.project||'', c.source||''].filter(Boolean).join(' · '))}</div>${whenChips(c, true)}</div></div>`;
+    const tray = nc.length ? `<section class="tray"><details ${state.tdOpen.newc?'open':''}><summary data-td-sec="newc">New from your notes <span class="c">${nc.length}</span><span class="rv">Review</span><span class="chev"></span></summary>${nc.map(triRow).join('')}<div class="bulk"><button class="hb" data-tri-all="drop" type="button">Dismiss all</button><button class="hb keep" data-tri-all="keep" type="button">Keep all ${nc.length}, no date</button></div></details></section>` : '';
     host.classList.toggle('nonext', !show.length);
     host.innerHTML = `
       ${show.length?`<div class="col colN"><section class="nexts"><h2>${left.length?'Meetings today':'Next meeting'}<button data-td-go="meetings">All meetings →</button></h2><div class="nlist">${show.map(nextHTML).join('')}</div></section></div>`:''}
@@ -1218,10 +1293,13 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
       <div class="col colB">
         <section><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
           ${old.length?`<details ${state.tdOpen.oldmail?'open':''}><summary data-td-sec="oldmail">Older than a week <span class="c">${old.length}</span><span class="chev"></span></summary>${old.map(mailRow).join('')}<div class="bulk"><button class="hb" data-clear-old type="button">Mark all ${old.length} as done</button></div></details>`:''}</section>
+        ${clubHTML()}
       </div>
       <div class="col colC">
         ${fold('week','Due this week', b.week)}
+        ${planHTML()}
         ${fold('wait','Waiting on others', b.waiting)}
+        ${staleHTML()}
       </div>
       <div class="foot">${esc([state.sync && state.sync.lastRun ? 'Notes and meetings updated '+fmtDateTime(state.sync.lastRun) : '', state.mailSync && state.mailSync.lastRun ? 'Email checked '+fmtDateTime(state.mailSync.lastRun) : ''].filter(Boolean).join(' · '))}</div>`;
   }
@@ -1231,22 +1309,23 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     const pt = $('#pgTitle'), ps = $('#pgSub'); if(!pt) return;
     const d = new Date(); let title = {board:'All cards', notes:'Notes', inbox:'Reply', meetings:'Meetings'}[v] || '', sub = '';
     if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', c.mail+' '+(c.mail===1?'reply':'replies'), c.oldMail?c.oldMail+' older':'', (state.newCards||[]).length ? state.newCards.length+' to review' : ''].filter(Boolean).join(' · '); }
-    else if(v==='board'){ sub = state.cards.filter(isOpen).length+' open'; }
+    else if(v==='board'){ const o = state.cards.filter(isOpen).length; if(state.boardMode==='projects'){ title = 'Projects'; sub = projectList().length+' projects · '+o+' open cards'; } else sub = o+' open'; }
+    if(v==='meetings' && state.meetMode==='calendar'){ const cal = state.calendar||[]; title = 'Club calendar'; sub = cal.filter(e=>e.start).length+' dates · '+cal.filter(e=>!e.start).length+' still to set'; }
     else if(v==='inbox'){ const c = todayCounts(); sub = c.mail+' this week'+(c.oldMail?' · '+c.oldMail+' older':''); }
     else if(v==='notes'){ if(state.noteMode==='people'){ const n = othersOpen(); title = 'People'; sub = n+' open to-do'+(n===1?'':'s')+' for others'; } else sub = state.notes.length+' notes'; }
     document.body.dataset.pmode = state.noteMode || 'notes';
     pt.textContent = title; ps.textContent = sub;
-    document.querySelectorAll('.subnav button').forEach(x => x.setAttribute('aria-pressed', (v==='notes' && state.noteMode==='people') ? x.dataset.go==='people' : x.dataset.go===v));
+    document.querySelectorAll('.subnav button').forEach(x => x.setAttribute('aria-pressed', (v==='notes' && state.noteMode==='people') ? x.dataset.go==='people' : (v==='meetings' && state.meetMode==='calendar') ? x.dataset.go==='calendar' : x.dataset.go===v));
   }
   // ---------- other people's to-dos (kept in the notes) ----------
-  const actOpen = a => a && !a.done && !a.claimed;
+  const actOpen = a => a && !a.done && !a.claimed && !a.archived;
   function noteActions(n){ return Array.isArray(n.actions) ? n.actions : []; }
   function setActions(noteId, actions){ queueOp('notes', noteId, 'merge', {actions}); materialize(); renderNotes(); renderMeetings(); flush(); }
   function toggleAction(noteId, ix){ const n = state.notes.find(x=>x.id===noteId); if(!n) return; const now = new Date().toISOString(); setActions(noteId, noteActions(n).map((a,i)=> i===ix ? {...a, done: !a.done, doneAt: !a.done ? now : null} : a)); }
   function claimAction(noteId, ix){ const n = state.notes.find(x=>x.id===noteId); if(!n) return; const a = noteActions(n)[ix]; if(!a) return; const now = new Date().toISOString();
     addCard({ title: a.text, owner:'KP', area: n.area || null, status:'todo', due: a.due || null, raised: a.raised || n.date || now.slice(0,10), priority:null, note: a.note || null, source: n.title, sourceUrl: n.url || null, pinned:false, pinnedAt:null, waitingOn:null, waitingSince:null, createdAt: now, updatedAt: now, doneAt:null, userEdited:true });
     queueOp('notes', noteId, 'merge', {actions: noteActions(n).map((x,i)=> i===ix ? {...x, claimed:true} : x)}); commit('Added to your board'); }
-  function actionsHTML(n){ const acts = noteActions(n).map((a,ix)=>({a,ix})).filter(x=>!x.a.claimed); if(!acts.length) return ''; const open = acts.filter(x=>!x.a.done).length;
+  function actionsHTML(n){ const acts = noteActions(n).map((a,ix)=>({a,ix})).filter(x=>!x.a.claimed && !x.a.archived); if(!acts.length) return ''; const open = acts.filter(x=>!x.a.done).length;
     return `<div class="lbl">To-dos for others · ${open} open</div><ul class="acts-list">${acts.sort((x,y)=>(x.a.done?1:0)-(y.a.done?1:0)).map(({a,ix})=>`<li class="${a.done?'done':''}"><button class="check" data-act-done="${esc(n.id)}" data-ix="${ix}" role="checkbox" aria-checked="${!!a.done}" aria-label="Done"><i><svg viewBox="0 0 16 16"><path d="M3 8.5 6.5 12 13 4.5"/></svg></i></button><span class="tx">${esc(a.text)}${a.due?` <span class="ow">· ${esc(fmtDate(a.due)||a.due)}</span>`:''}</span><span class="ow">${esc(a.owner||'TBD')}</span>${a.done?'':`<button class="mine" data-act-claim="${esc(n.id)}" data-ix="${ix}" title="Move to my board">Make mine</button>`}</li>`).join('')}</ul>`; }
   function theirHTML(m){ const sr = seriesOf(m); const names = new Set([...(sr?sr.people||[]:[]), ...(m.attendees||[]).map(a=>firstName(a.name||a.email))].map(x=>String(x).toLowerCase()).filter(x=>x && x!=='kp' && x!=='kushal'));
     const alias = {malorie:'mal', andrew:'andy'}; [...names].forEach(x=>{ if(alias[x]) names.add(alias[x]); });
@@ -1261,6 +1340,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     const nt = todayBuckets(); const tn = $('#nToday'); tn.textContent = nt.late.length + nt.now.length; tn.classList.toggle('hot', nt.late.length>0);
     for(const v of ['today','board','notes','inbox','meetings']){ $('#tab'+v[0].toUpperCase()+v.slice(1)).setAttribute('aria-selected', state.view===v); $('#view'+v[0].toUpperCase()+v.slice(1)).hidden = state.view!==v; }
     { const pm = state.view==='notes' && state.noteMode==='people'; const tp = $('#tabPeople'); if(tp){ tp.setAttribute('aria-selected', pm); if(pm) $('#tabNotes').setAttribute('aria-selected', false); const np = $('#nPeople'); if(np) np.textContent = othersOpen(); } }
+    { const pj = state.view==='board' && state.boardMode==='projects'; const tp = $('#tabProjects'); if(tp){ tp.setAttribute('aria-selected', pj); if(pj) $('#tabBoard').setAttribute('aria-selected', false); const n2 = $('#nProjects'); if(n2) n2.textContent = projectList().length; } const cm = state.view==='meetings' && state.meetMode==='calendar'; const tc = $('#tabCalendar'); if(tc){ tc.setAttribute('aria-selected', cm); if(cm) $('#tabMeetings').setAttribute('aria-selected', false); } }
   }
 
   // ---------- overview tiles ----------
@@ -1370,12 +1450,12 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   function snoozeDate(k){ const d = new Date(); d.setHours(12,0,0,0); if(k==='monday'){ d.setDate(d.getDate() + (((8 - d.getDay()) % 7) || 7)); } else if(k==='week'){ d.setDate(d.getDate()+7); } else d.setDate(d.getDate()+1); return isoDay(d); }
   function snooze(id, k){ const c = state.cards.find(x=>x.id===id); if(!c) return; const due = snoozeDate(k), now = new Date().toISOString();
     patchCards([{id, patch:{due, updatedAt:now, userEdited:true, snoozes:(c.snoozes||0)+1}}], 'Moved to '+DAYS_FULL[parseISO(due).getDay()].slice(0,3)+', '+fmtDate(due), [{id, patch:{due:c.due||null, snoozes:c.snoozes||0, updatedAt:now}}]); }
-  function othersOpen(){ return state.notes.reduce((t,n)=>t+noteActions(n).filter(a=>!a.claimed && !a.done).length, 0); }
+  function othersOpen(){ return state.notes.reduce((t,n)=>t+noteActions(n).filter(a=>!a.claimed && !a.done && !a.archived).length, 0); }
   function peopleHTML(q){
     state.peopleOpen = state.peopleOpen || {};
     const t = isoDay(new Date()), wk = isoDay(new Date(Date.now()+7*86400000)); const pl = (n, w) => n+' '+w+(n===1?'':'s');
     const by = new Map();
-    state.notes.forEach(n => noteActions(n).forEach((a, ix) => { if(a.claimed) return; if(q && !(a.text+' '+(a.owner||'')+' '+(n.title||'')).toLowerCase().includes(q)) return; const o = a.owner || 'TBD'; if(!by.has(o)) by.set(o, []); by.get(o).push({a, ix, n}); }));
+    state.notes.forEach(n => noteActions(n).forEach((a, ix) => { if(a.claimed || a.archived) return; if(q && !(a.text+' '+(a.owner||'')+' '+(n.title||'')).toLowerCase().includes(q)) return; const o = a.owner || 'TBD'; if(!by.has(o)) by.set(o, []); by.get(o).push({a, ix, n}); }));
     const people = [...by.entries()].map(([name, items]) => ({name, items, open: items.filter(x=>!x.a.done)})).filter(p => p.open.length)
       .sort((x,y) => ((x.name==='TBD') - (y.name==='TBD')) || (y.open.length - x.open.length) || x.name.localeCompare(y.name));
     if(!people.length) return `<div class="none">${q ? 'Nothing matches.' : 'Nobody has an open to-do in your notes.'}</div>`;
@@ -1389,6 +1469,139 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
         <div class="nb"><ul class="acts-list">${open.map(item).join('')}</ul>
         ${waiting.length?`<div class="lbl">Your cards waiting on ${esc(p.name)}</div><ul>${waiting.map(c=>`<li><button class="plink" data-pcard="${esc(c.id)}">${esc(c.title)}</button></li>`).join('')}</ul>`:''}
         ${done.length?`<details class="pdone"><summary>${done.length} done</summary><ul class="acts-list">${done.map(item).join('')}</ul></details>`:''}</div></details>`; }).join('');
+  }
+
+  // ---------- v4: when, planner, projects, agenda drafts, stale review, club calendar ----------
+  const MONTHS_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const dayName = iso => { const d = parseISO(iso); return d ? ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()] : ''; };
+  function whenDate(k){ const d = new Date(); d.setHours(12,0,0,0); if(k==='week'){ d.setDate(d.getDate() + ((5 - d.getDay() + 7) % 7)); } return isoDay(d); }
+  function setWhen(id, k, fromTray){
+    const pool = fromTray ? (state.newCards||[]) : state.cards; const c = pool.find(x=>x.id===id); if(!c) return; const now = new Date().toISOString();
+    const p = {updatedAt: now, userEdited: true}; if(fromTray) p.triage = null;
+    if(k==='later'){ p.later = true; p.laterAt = now; }
+    else if(k==='today' || k==='week'){ p.due = whenDate(k); p.later = false; }
+    const due = p.due || c.due;
+    const msg = k==='later' ? 'Parked for later' : (k==='today' ? 'On today’s list' : (due ? 'Due '+dayName(due)+', '+fmtDate(due) : 'Kept'));
+    patchCards([{id, patch:p}], msg, [{id, patch:{triage: fromTray ? 'new' : (c.triage||null), due: c.due||null, later: !!c.later, laterAt: c.laterAt||null, updatedAt: now}}]);
+  }
+  const whenChips = (c, tray) => { const a = `data-wid="${esc(c.id)}"${tray?' data-tray="1"':''}`; const kept = tray && c.due;
+    return `<div class="when">${kept ? `<button class="hb keep" data-when="keep" ${a}>Keep · ${esc(dueLabel(c.due))}</button>` : ''}<button class="hb${kept?'':' keep'}" data-when="today" ${a}>Today</button><button class="hb" data-when="week" ${a}>This week</button>${c.later && !tray ? '' : `<button class="hb" data-when="later" ${a}>Later</button>`}${tray ? `<button class="hb x" data-tri-drop="${esc(c.id)}" aria-label="Dismiss" title="Dismiss">✕</button>` : ''}</div>`; };
+  function undated(){ const xs = state.cards.filter(c => isOpen(c) && c.status!=='waiting' && !c.due && !c.pinned && !isUrgent(c)); return {plan: xs.filter(c=>!c.later).sort(sortCards), parked: xs.filter(c=>c.later).sort(sortCards)}; }
+  function planHTML(){
+    const u = undated(); if(!(u.plan.length + u.parked.length)) return '';
+    const cap = state.planAll ? 999 : 10;
+    const prow = c => `<div class="trow tri plan" data-open="${esc(c.id)}"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.project||'', c.sourceKind==='email' ? 'Email' : (c.source||'')].filter(Boolean).join(' · '))}</div>${whenChips(c, false)}</div></div>`;
+    return `<details ${state.tdOpen.plan?'open':''}><summary data-td-sec="plan">No date yet <span class="c">${u.plan.length}</span><span class="rv">Plan</span><span class="chev"></span></summary>
+      ${u.plan.length ? u.plan.slice(0,cap).map(prow).join('') : `<div class="empty-line">Everything else has a date or is parked.</div>`}
+      ${u.plan.length > cap ? `<div class="bulk"><button class="hb" data-plan-all type="button">Show all ${u.plan.length}</button></div>` : ''}
+      ${u.parked.length ? `<details class="sub" ${state.tdOpen.parked?'open':''}><summary data-td-sec="parked">Parked for later <span class="c">${u.parked.length}</span><span class="chev"></span></summary>${u.parked.map(prow).join('')}</details>` : ''}
+    </details>`;
+  }
+
+  // ----- stale review: nothing is archived without a tap -----
+  const STALE_DAYS = 21;
+  const qKey = t => { let h = 5381; const s = String(t||'').toLowerCase().replace(/\s+/g,' ').trim(); for(let i=0;i<s.length;i++) h = ((h<<5) + h + s.charCodeAt(i)) >>> 0; return 'q'+h.toString(36); };
+  function openQs(n){ const st = n.qState || {}; return (Array.isArray(n.openQuestions) ? n.openQuestions : []).filter(t => !(st[qKey(t)]||{}).archived); }
+  function staleSets(){
+    const cut = isoDay(new Date(Date.now() - STALE_DAYS*86400000));
+    const basis = (...xs) => xs.filter(Boolean).map(x=>String(x).slice(0,10)).sort().pop() || '';
+    const cards = state.cards.filter(c => { if(!isOpen(c) || c.status==='waiting' || c.due || c.pinned || isUrgent(c)) return false; const b = basis(c.createdAt, c.raised, c.keptAt, c.laterAt); return !!b && b <= cut; });
+    const todos = []; state.notes.forEach(n => noteActions(n).forEach((a, ix) => { if(a.done || a.claimed || a.archived) return; if(a.due && a.due > cut) return; const b = basis(a.raised || n.date, a.keptAt); if(b && b <= cut) todos.push({a, ix, n}); }));
+    const questions = []; state.notes.forEach(n => { const st = n.qState || {}; openQs(n).forEach(t => { const k = qKey(t); const b = basis(n.date, (st[k]||{}).keptAt); if(b && b <= cut) questions.push({t, k, n}); }); });
+    return {cards, todos, questions};
+  }
+  function staleHTML(){
+    const s = staleSets(); const n = s.cards.length + s.todos.length + s.questions.length; if(!n) return '';
+    const cap = k => (state.staleAll||{})[k] ? 999 : 6;
+    const btns = attrs => `<span class="sb"><button class="hb" data-stale="keep" ${attrs}>Keep</button><button class="hb keep" data-stale="archive" ${attrs}>Archive</button></span>`;
+    const blk = (k, title, items, row) => items.length ? `<div class="sblk"><div class="lbl">${title} <span class="c">${items.length}</span><button class="linkb" data-stale-all="${k}" type="button">Archive all ${items.length}</button></div>${items.slice(0,cap(k)).map(row).join('')}${items.length>cap(k)?`<button class="linkb" data-stale-more="${k}" type="button">Show all ${items.length}</button>`:''}</div>` : '';
+    return `<details class="stale" ${state.tdOpen.stale?'open':''}><summary data-td-sec="stale">Gone quiet for 3 weeks <span class="c">${n}</span><span class="rv">Review</span><span class="chev"></span></summary>
+      <p class="pintro">Nothing is removed until you tap Archive. Keep holds an item for another 3 weeks.</p>
+      ${blk('cards', 'My cards with no date', s.cards, c => `<div class="srow"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.project||'', c.source||'', (c.raised||c.createdAt) ? 'from '+fmtDate(String(c.raised||c.createdAt).slice(0,10)) : ''].filter(Boolean).join(' · '))}</div></div>${btns(`data-kind="card" data-id="${esc(c.id)}"`)}</div>`)}
+      ${blk('todos', 'To-dos for others', s.todos, ({a, ix, n}) => `<div class="srow"><div class="tx"><div class="tt">${esc(a.text)}</div><div class="me">${esc([a.owner && a.owner!=='TBD' ? a.owner : 'No owner', n.title, (a.raised||n.date) ? fmtDate(a.raised||n.date) : ''].filter(Boolean).join(' · '))}</div></div>${btns(`data-kind="todo" data-id="${esc(n.id)}" data-ix="${ix}"`)}</div>`)}
+      ${blk('questions', 'Open questions', s.questions, ({t, k, n}) => `<div class="srow"><div class="tx"><div class="tt">${esc(t)}</div><div class="me">${esc([n.title, n.date ? fmtDate(n.date) : ''].filter(Boolean).join(' · '))}</div></div>${btns(`data-kind="q" data-id="${esc(n.id)}" data-k="${k}"`)}</div>`)}
+    </details>`;
+  }
+  function noteWrite(list, msg, undo){
+    if(!list.length) return;
+    const fin = () => { if(msg) toast(msg, undo ? {label:'Undo', fn: () => noteWrite(undo, 'Restored')} : undefined); };
+    if(typeof queueOp === 'function'){ if(typeof viewOnlyHint === 'function' && !token){ viewOnlyHint(); return; } list.forEach(x => queueOp('notes', x.id, 'merge', x.patch)); materialize(); render(); flush(); fin(); }
+    else { if(state.canWrite === false) return; Promise.all(list.map(x => write('note-'+x.id, q => q.then(()=>state.db.doc('notes/'+x.id).update(x.patch))))).then(fin); }
+  }
+  function staleAct(kind, mode, items){
+    if(!items.length) return; const now = new Date().toISOString(); const arch = mode==='archive'; const n1 = items.length;
+    const msg = arch ? (n1===1 ? 'Archived' : 'Archived '+n1) : (n1===1 ? 'Kept for another 3 weeks' : 'Kept '+n1);
+    if(kind==='card'){ patchCards(items.map(c => ({id:c.id, patch: arch ? {status:'archived', archivedAt:now, userEdited:true, updatedAt:now} : {keptAt:now, userEdited:true, updatedAt:now}})), msg, items.map(c => ({id:c.id, patch:{status:c.status, archivedAt:null, keptAt:c.keptAt||null, updatedAt:now}}))); return; }
+    const byNote = new Map(); items.forEach(x => { if(!byNote.has(x.n.id)) byNote.set(x.n.id, {n:x.n, xs:[]}); byNote.get(x.n.id).xs.push(x); });
+    const list = [], undo = [];
+    byNote.forEach(({n, xs}) => {
+      if(kind==='todo'){ const ixs = new Set(xs.map(x=>x.ix)); const acts = noteActions(n); list.push({id:n.id, patch:{actions: acts.map((a,i) => ixs.has(i) ? (arch ? {...a, archived:true, archivedAt:now} : {...a, keptAt:now}) : a)}}); undo.push({id:n.id, patch:{actions: acts}}); }
+      else { const st = {...(n.qState||{})}; xs.forEach(x => { st[x.k] = arch ? {archived:true, at:now} : {keptAt:now}; }); list.push({id:n.id, patch:{qState: st}}); undo.push({id:n.id, patch:{qState: n.qState||{}}}); }
+    });
+    noteWrite(list, msg, undo);
+  }
+
+  // ----- projects -----
+  function projectList(){ const m = new Map(); (state.projectsMeta||[]).forEach(p => { if(p && p.name) m.set(p.name, {name:p.name, area:p.area||''}); });
+    state.cards.forEach(c => { if(c.project && !m.has(c.project)) m.set(c.project, {name:c.project, area:c.area||''}); }); return [...m.values()]; }
+  function renderProjects(){
+    const host = $('#projView'); if(!host) return;
+    document.body.dataset.boardmode = state.boardMode || 'cards';
+    document.querySelectorAll('[data-bv]').forEach(b => b.setAttribute('aria-pressed', b.dataset.bv === (state.boardMode||'cards')));
+    if(!(state.view==='board' && state.boardMode==='projects')) return;
+    state.projOpen = state.projOpen || {};
+    const q = state.filters.q.trim().toLowerCase(); const t = isoDay(new Date()), wk = isoDay(new Date(Date.now()+7*86400000));
+    const match = c => !q || [c.title, c.note, c.project, c.source].join(' ').toLowerCase().includes(q);
+    const byDue = (a,b) => String(a.due||'9999').localeCompare(String(b.due||'9999')) || sortCards(a,b);
+    const projs = projectList().map(p => { const all = state.cards.filter(c => c.project===p.name); return {...p, open: all.filter(c => isOpen(c) && match(c)).sort(byDue), done: all.filter(c => !isOpen(c) && match(c))}; }).filter(p => p.open.length || (!q && p.done.length));
+    const loose = state.cards.filter(c => isOpen(c) && !c.project && match(c)).sort(byDue);
+    const areas = new Map(); projs.forEach(p => { const k = p.area || 'Other'; if(!areas.has(k)) areas.set(k, []); areas.get(k).push(p); });
+    const ordered = [...areas.entries()].map(([name, ps]) => ({name, ps, open: ps.reduce((s,p)=>s+p.open.length,0)}));   // order stays as listed, so rows do not jump as counts change
+    const prow = p => { const late = p.open.filter(c=>c.due && c.due<t).length, soon = p.open.filter(c=>c.due && c.due>=t && c.due<=wk).length, nod = p.open.filter(c=>!c.due).length; const next = p.open[0];
+      const isO = !!state.projOpen[p.name] || (!!q && projs.length<=3);
+      return `<details class="nrow proj" ${isO?'open':''}><summary data-proj="${esc(p.name)}"><div><div class="nt">${esc(p.name)}</div><div class="nm"><span>${p.open.length} open</span>${late?`<span class="k a">${late} overdue</span>`:''}${soon?`<span class="k q">${soon} this week</span>`:''}${nod?`<span class="k">${nod} no date</span>`:''}${p.done.length?`<span class="k d">${p.done.length} done</span>`:''}</div>${next?`<div class="nx1">Next: ${esc(next.title)}</div>`:''}</div><span class="chev2"></span></summary>
+        <div class="nb">${p.open.map(c=>trow(c)).join('')}${p.done.length?`<details class="pdone"><summary>${p.done.length} done</summary>${p.done.map(c=>trow(c)).join('')}</details>`:''}</div></details>`; };
+    const openAll = state.cards.filter(isOpen).length;
+    host.innerHTML = `<p class="pintro">Every open card, grouped by the outcome it belongs to. Tap a project to see its cards; set or change a card’s project from the card itself.</p>`
+      + (ordered.length ? ordered.map(a => `<div class="ngroup"><h2 class="lab">${esc(a.name)} <span class="c">${a.open}</span></h2>${a.ps.map(prow).join('')}</div>`).join('') : `<div class="none">${q ? 'Nothing matches.' : 'No projects yet. Open a card and give it a project.'}</div>`)
+      + (loose.length ? `<div class="ngroup"><details class="nrow proj" ${state.projOpen['—']?'open':''}><summary data-proj="—"><div><div class="nt">No project</div><div class="nm"><span>${loose.length} open of ${openAll}</span></div></div><span class="chev2"></span></summary><div class="nb">${loose.map(c=>trow(c)).join('')}</div></details></div>` : '');
+  }
+
+  // ----- agenda drafts -----
+  function draftItems(m){ const prep = m.prep || {}; const skip = new Set(m.agendaSkip || []); const have = new Set((m.agenda||[]).map(a=>a.text));
+    const raw = (Array.isArray(prep.draftAgenda) && prep.draftAgenda.length) ? prep.draftAgenda.map(x => typeof x==='string' ? {text:x, why:''} : {text:String((x&&x.text)||''), why:String((x&&x.why)||'')}) : (prep.suggested||[]).map(t => ({text:String(t), why:''}));
+    return raw.filter(x => x.text && !skip.has(x.text) && !have.has(x.text)); }
+  function draftHTML(m, agenda){ const items = draftItems(m); if(!items.length) return ''; const id = esc(m.eventId);
+    return `<div class="draft"><div class="lbl">${agenda.length ? 'More suggestions' : 'Draft agenda'} <span class="c">${items.length}</span>${items.length>1?`<button class="linkb" data-sugg-all="${id}" type="button">Use all ${items.length}</button>`:''}</div><ul class="draft-list">${items.map(x=>`<li><span class="tx">${esc(x.text)}${x.why?`<span class="src">${esc(x.why)}</span>`:''}</span><button class="hb keep" data-sugg="${id}" data-text="${esc(x.text)}" type="button">Add</button><button class="hb" data-sugg-skip="${id}" data-text="${esc(x.text)}" aria-label="Skip" title="Skip" type="button">✕</button></li>`).join('')}</ul></div>`; }
+  function patchMeeting(id, patch){
+    if(typeof queueOp === 'function'){ if(typeof viewOnlyHint === 'function' && !token){ viewOnlyHint(); return; } queueOp('meetings', id, 'merge', patch); materialize(); renderMeetings(); renderToday(); flush(); }
+    else { if(state.canWrite === false) return; write('mt-'+id, q => q.then(()=>state.db.doc('meetings/'+id).update(patch))); }
+  }
+
+  // ----- club calendar (read-only here; dates are edited in the sheet) -----
+  const CAL_SECTIONS = ['General','Academy','Rec League','Classes','Camps','Major Events'];
+  function calSpan(e){ if(!e.start) return e.dateText || 'TBD'; if(e.dates && e.dates.length>1) return e.dates.map(d=>fmtDate(d)).join(', '); return (!e.end || e.end===e.start) ? dayName(e.start)+', '+fmtDate(e.start) : fmtDate(e.start)+' – '+fmtDate(e.end); }
+  function calUpcoming(days){ const t = isoDay(new Date()), lim = isoDay(new Date(Date.now()+days*86400000)); const eff = e => e.start < t ? t : e.start;
+    return (state.calendar||[]).filter(e => e.start && (e.end||e.start) >= t && e.start <= lim).sort((a,b) => eff(a).localeCompare(eff(b)) || (a.order||0)-(b.order||0)); }
+  function clubHTML(){ if(!(state.calendar||[]).length) return ''; const ev = calUpcoming(14); const t = isoDay(new Date());
+    const row = e => `<div class="crow"><span class="cd${e.start<=t?' now':''}">${esc(e.start < t ? 'Until '+fmtDate(e.end||e.start) : calSpan(e))}</span><span class="ct">${esc(e.title)}<span class="cs">${esc([e.section!=='General' ? e.section : '', e.group, e.draft ? 'Draft' : ''].filter(Boolean).join(' · '))}</span></span></div>`;
+    return `<section class="club"><h2>Club dates <span class="c">${ev.length}</span><button data-cal-go type="button">Calendar →</button></h2>${ev.length ? ev.slice(0,8).map(row).join('') : `<div class="empty-line">Nothing on the club calendar in the next 2 weeks.</div>`}${ev.length>8?`<div class="empty-line">+ ${ev.length-8} more on the calendar</div>`:''}</section>`; }
+  function renderCalendar(){
+    const host = $('#calView'); if(!host) return; document.body.dataset.meetmode = state.meetMode || 'meetings';
+    if(!(state.view==='meetings' && state.meetMode==='calendar')) return;
+    const all = state.calendar || []; const meta = state.calMeta || {}; const t = isoDay(new Date()); const sec = state.calSec || 'All'; const q = state.filters.q.trim().toLowerCase();
+    const match = e => (sec==='All' || e.section===sec) && (!q || [e.title, e.group, e.notes, e.people, e.owner, e.section].join(' ').toLowerCase().includes(q));
+    const dated = all.filter(e => e.start && match(e)).sort((a,b) => a.start.localeCompare(b.start) || (a.order||0)-(b.order||0));
+    const up = dated.filter(e => (e.end||e.start) >= t), past = dated.filter(e => (e.end||e.start) < t), tbd = all.filter(e => !e.start && match(e));
+    const sub = e => [sec==='All' ? e.section : '', e.group, e.status, e.owner ? 'Owner: '+e.owner : '', e.people].filter(Boolean).join(' · ');
+    const row = e => `<div class="crow big${(e.end||e.start)<t?' past':''}"><span class="cd${e.start<=t && (e.end||e.start)>=t?' now':''}">${esc(calSpan(e))}</span><span class="ct">${esc(e.title)}<span class="cs">${esc(sub(e))}</span>${e.notes?`<span class="cn">${esc(e.notes)}</span>`:''}</span></div>`;
+    const byMonth = xs => { const m = new Map(); xs.forEach(e => { const k = e.start.slice(0,7); if(!m.has(k)) m.set(k, []); m.get(k).push(e); }); return [...m.entries()].map(([k, es]) => `<div class="ngroup"><h2 class="lab">${MONTHS_FULL[+k.slice(5)-1]} ${k.slice(0,4)} <span class="c">${es.length}</span></h2>${es.map(row).join('')}</div>`).join(''); };
+    if(!all.length){ host.innerHTML = `<div class="none">The club calendar has not been read yet. It fills in after the next sync.</div>`; return; }
+    host.innerHTML = `<div class="calhead"><p class="pintro">Dates come from the DUSC Club Calendar sheet${meta.updatedAt ? ', last read '+esc(fmtDateTime(meta.updatedAt)) : ''}. Change a date in the sheet and it shows here after the next sync.${meta.sheetUrl ? ` <a href="${esc(meta.sheetUrl)}" target="_blank" rel="noopener">Open the sheet ↗</a>` : ''}</p>
+      <div class="cal-chips">${['All'].concat(CAL_SECTIONS).map(s=>`<button class="hb${sec===s?' on':''}" data-calsec="${esc(s)}" type="button">${esc(s)}</button>`).join('')}</div></div>
+      ${up.length ? byMonth(up) : `<div class="none">No upcoming dates${sec!=='All' ? ' in '+esc(sec) : ''}.</div>`}
+      ${tbd.length ? `<details class="nfold ngroup" ${state.calTbdOpen?'open':''}><summary data-calfold="tbd">Dates still to set <span class="c">${tbd.length}</span><span class="chev2"></span></summary>${tbd.map(e => `<div class="crow big"><span class="cd tb">${esc(e.dateText||'TBD')}</span><span class="ct">${esc(e.title)}<span class="cs">${esc(sub(e))}</span>${e.notes?`<span class="cn">${esc(e.notes)}</span>`:''}</span></div>`).join('')}</details>` : ''}
+      ${past.length ? `<details class="nfold ngroup" ${state.calPastOpen?'open':''}><summary data-calfold="past">Earlier this season <span class="c">${past.length}</span><span class="chev2"></span></summary>${past.slice().reverse().map(row).join('')}</details>` : ''}`;
   }
 
   function briefItems(s){
@@ -1417,7 +1630,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     const notes = state.notes.filter(n => (state.noteArea==='all' || n.area===state.noteArea) && (!q || [n.title,n.summary,...(n.keyPoints||[]),...(n.decisions||[]),...(n.openQuestions||[]),...noteActions(n).map(a=>a.text+' '+(a.owner||''))].join(' ').toLowerCase().includes(q)))
       .sort((a,b)=>String(b.date||b.modified||'').localeCompare(String(a.date||a.modified||'')));
     const arr = x => Array.isArray(x) ? x : [];
-    const nDec = notes.reduce((t,n)=>t+arr(n.decisions).length,0), nQ = notes.reduce((t,n)=>t+arr(n.openQuestions).length,0);
+    const nDec = notes.reduce((t,n)=>t+arr(n.decisions).length,0), nQ = notes.reduce((t,n)=>t+openQs(n).length,0);
     $('#notesCnt').textContent = `${notes.length} / ${state.notes.length}`;
     $('#nDec').textContent = nDec ? ' '+nDec : ''; $('#nQ').textContent = nQ ? ' '+nQ : '';
     document.querySelectorAll('.nmode [data-nmode]').forEach(b => b.setAttribute('aria-pressed', b.dataset.nmode===state.noteMode));
@@ -1429,13 +1642,14 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     const pl = (n, w) => n+' '+w+(n===1?'':'s');
     if(state.noteMode !== 'notes'){
       const key = state.noteMode==='decisions' ? 'decisions' : 'openQuestions', cls = state.noteMode==='decisions' ? 'decision' : 'q';
-      const with_ = notes.filter(n => arr(n[key]).length);
-      grid.innerHTML = with_.length ? with_.map(n=>`<div class="dg"><div class="dh">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:`<b>${esc(n.title)}</b>`}<span>${esc(n.date?fmtDate(n.date):'')}${n.area?' · '+esc(n.area):''}</span></div>${list(arr(n[key]), cls)}</div>`).join('') : `<div class="none">${state.noteMode==='decisions' ? 'No decisions recorded in these notes.' : 'No open questions in these notes.'}</div>`;
+      const pick = n => key==='openQuestions' ? openQs(n) : arr(n[key]);
+      const with_ = notes.filter(n => pick(n).length);
+      grid.innerHTML = with_.length ? with_.map(n=>`<div class="dg"><div class="dh">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:`<b>${esc(n.title)}</b>`}<span>${esc(n.date?fmtDate(n.date):'')}${n.area?' · '+esc(n.area):''}</span></div>${list(pick(n), cls)}</div>`).join('') : `<div class="none">${state.noteMode==='decisions' ? 'No decisions recorded in these notes.' : 'No open questions in these notes.'}</div>`;
       return;
     }
     const nrow = n => {
-      const kp = arr(n.keyPoints), dec = arr(n.decisions), oq = arr(n.openQuestions);
-      const openActs = noteActions(n).filter(a=>!a.claimed && !a.done).length;
+      const kp = arr(n.keyPoints), dec = arr(n.decisions), oq = openQs(n);
+      const openActs = noteActions(n).filter(a=>!a.claimed && !a.done && !a.archived).length;
       const key = n.url ? n.url.split('/edit')[0] : '';
       const openCards = key ? state.cards.filter(c => isOpen(c) && c.sourceUrl && c.sourceUrl.split('/edit')[0]===key).length : 0;
       const isOpenRow = !!state.noteOpen[n.id] || (!!q && notes.length <= 3);
@@ -1541,9 +1755,9 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
           </div>
           <div class="col">
             <div class="lbl">Agenda ${agenda.length?`<span class="c">${agenda.length}</span>`:''}</div>
-            ${agenda.length?`<ul class="agenda">${agenda.map((a,ix)=>`<li class="${a.done?'done':''}" data-ai="${ix}"><button class="check" data-agenda-done="${esc(m.eventId)}" data-ix="${ix}" role="checkbox" aria-checked="${!!a.done}" aria-label="Done"><i><svg viewBox="0 0 16 16"><path d="M3 8.5 6.5 12 13 4.5"/></svg></i></button><span class="txt">${esc(a.text)}</span><button class="rm" data-agenda-rm="${esc(m.eventId)}" data-ix="${ix}" aria-label="Remove">✕</button></li>`).join('')}</ul>`:`<div class="agenda-empty">No agenda yet. Add items below, or tap a suggestion.</div>`}
+            ${agenda.length?`<ul class="agenda">${agenda.map((a,ix)=>`<li class="${a.done?'done':''}" data-ai="${ix}"><button class="check" data-agenda-done="${esc(m.eventId)}" data-ix="${ix}" role="checkbox" aria-checked="${!!a.done}" aria-label="Done"><i><svg viewBox="0 0 16 16"><path d="M3 8.5 6.5 12 13 4.5"/></svg></i></button><span class="txt">${esc(a.text)}</span><button class="rm" data-agenda-rm="${esc(m.eventId)}" data-ix="${ix}" aria-label="Remove">✕</button></li>`).join('')}</ul>`:`<div class="agenda-empty">${draftItems(m).length ? 'No agenda yet. Start from the draft below, or add your own.' : 'No agenda yet. Add items below.'}</div>`}
             <form class="agenda-add" data-agenda-form="${esc(m.eventId)}"><input type="text" placeholder="Add an agenda item…" autocomplete="off" id="ag-${esc(m.eventId).replace(/[^A-Za-z0-9_-]/g,'')}"><button class="btn sm" type="submit">Add</button></form>
-            ${(prep.suggested||[]).filter(sg=>!agenda.some(a=>a.text===sg)).length?`<div class="lbl">Suggested from your notes</div><div class="sugg">${(prep.suggested||[]).filter(sg=>!agenda.some(a=>a.text===sg)).map(sg=>`<button data-sugg="${esc(m.eventId)}" data-text="${esc(sg)}">${esc(sg)}</button>`).join('')}</div>`:''}
+            ${draftHTML(m, agenda)}
             <div class="agenda-tools">${agenda.length?`<button class="btn secondary sm" data-copy="${esc(m.eventId)}">Copy agenda</button>`:''}${m.htmlLink?`<a class="btn secondary sm" href="${esc(m.htmlLink)}" target="_blank" rel="noopener">Open in Calendar ↗</a>`:''}</div>
           </div>
         </div>
@@ -1572,7 +1786,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   function agendaText(m){ const w=whenLabel(m); return `Agenda — ${m.title} (${w.day}${w.time?', '+w.time:''})\n`+(m.agenda||[]).map((a,i)=>`${i+1}. ${a.text}${a.done?' ✓':''}`).join('\n'); }
   function copyText(txt){ const done=()=>toast('Copied'); const fb=()=>{ const ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); done(); }catch(e){ toast('Select and copy the text'); } ta.remove(); }; if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done, fb); } else fb(); }
 
-  function render(){ renderSync(); renderTabs(); renderToday(); renderOverview(); renderFilters(); renderBoard(); renderList(); renderNotes(); renderInbox(); renderMeetings(); }
+  function render(){ renderProjects(); renderCalendar(); renderSync(); renderTabs(); renderToday(); renderOverview(); renderFilters(); renderBoard(); renderList(); renderNotes(); renderInbox(); renderMeetings(); }
 
   // ---------- writes (GitHub) ----------
   function commit(okMsg){ materialize(); render(); if(okMsg) toast(okMsg); flush(); }
@@ -1626,6 +1840,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
             <div class="field"><label for="fOwner">Owner</label><select id="fOwner">${ownerOpts}</select></div>
             <div class="field"><label for="fArea">Area</label><select id="fArea"><option value="">—</option>${areaOpts}</select></div>
           </div>
+          <div class="field"><label for="fProject">Project</label><input type="text" id="fProject" list="projOpts" value="${esc(d.project||'')}" placeholder="No project" autocomplete="off"><datalist id="projOpts">${projectList().map(p=>`<option value="${esc(p.name)}"></option>`).join('')}</datalist></div>
           <div class="two">
             <div class="field"><label for="fDue">Due</label><input type="date" id="fDue" value="${esc(d.due||'')}"></div>
             <div class="field"><label for="fRaised">Raised</label><input type="date" id="fRaised" value="${esc(d.raised||'')}"></div>
@@ -1658,7 +1873,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
     const d = state.draft; if(!d) return;
     const title = $('#fTitle').value.trim(); if(!title){ $('#fTitle').focus(); return; }
     const now = new Date().toISOString();
-    const body = { title, owner: $('#fOwner').value || 'TBD', area: $('#fArea').value || null, due: $('#fDue').value || null, raised: $('#fRaised').value || null, priority: $('#fUrgent').checked ? 'urgent' : null, note: $('#fNote').value.trim() || null, status: d.status, updatedAt: now, userEdited: true };
+    const body = { title, project: ((($('#fProject')||{}).value)||'').trim() || null, owner: $('#fOwner').value || 'TBD', area: $('#fArea').value || null, due: $('#fDue').value || null, raised: $('#fRaised').value || null, priority: $('#fUrgent').checked ? 'urgent' : null, note: $('#fNote').value.trim() || null, status: d.status, updatedAt: now, userEdited: true };
     const wasPinned = !!d.pinned, nowPinned = $('#fPinned').checked; body.pinned = nowPinned; body.pinnedAt = nowPinned ? (wasPinned ? (d.pinnedAt||now) : now) : null;
     body.doneAt = d.status==='done' ? (d.doneAt || now) : null;
     const wIn = $('#fWaiting'); body.waitingOn = d.status==='waiting' ? ((wIn && wIn.value.trim()) || null) : null; body.waitingSince = d.status==='waiting' ? (d.status===d.status && d.waitingSince && (state.selected && (state.cards.find(x=>x.id===state.selected)||{}).status==='waiting') ? d.waitingSince : now) : null;
@@ -1672,8 +1887,14 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
   function setView(v){ state.view = v; savePrefs(); renderTabs(); if(v==='today') renderToday(); if(v==='notes') renderNotes(); if(v==='inbox') renderInbox(); if(v==='meetings') renderMeetings(); }
   function bind(){
     $('#tabToday').onclick = () => setView('today');
-    document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => { const g = x.dataset.go; if(g==='people'){ state.noteMode = 'people'; setView('notes'); } else { if(g==='notes' && state.noteMode==='people') state.noteMode = 'notes'; setView(g); } }; });
+    document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => { const g = x.dataset.go; if(g==='people'){ state.noteMode = 'people'; setView('notes'); } else if(g==='calendar'){ state.meetMode = 'calendar'; setView('meetings'); renderCalendar(); } else { if(g==='notes' && state.noteMode==='people') state.noteMode = 'notes'; if(g==='meetings') state.meetMode = 'meetings'; setView(g); renderCalendar(); } }; });
     $('#viewToday').addEventListener('click', e => {
+      const wn = e.target.closest('[data-when]'); if(wn){ e.preventDefault(); e.stopPropagation(); setWhen(wn.dataset.wid, wn.dataset.when, !!wn.dataset.tray); return; }
+      if(e.target.closest('[data-plan-all]')){ state.planAll = true; renderToday(); return; }
+      const smo = e.target.closest('[data-stale-more]'); if(smo){ state.staleAll = {...(state.staleAll||{}), [smo.dataset.staleMore]: true}; renderToday(); return; }
+      const sal = e.target.closest('[data-stale-all]'); if(sal){ const s = staleSets(); const k = sal.dataset.staleAll; if(k==='cards') staleAct('card', 'archive', s.cards); else if(k==='todos') staleAct('todo', 'archive', s.todos); else staleAct('q', 'archive', s.questions); return; }
+      const stb = e.target.closest('[data-stale]'); if(stb){ const s = staleSets(); const d = stb.dataset; const it = d.kind==='card' ? s.cards.filter(c=>c.id===d.id) : d.kind==='todo' ? s.todos.filter(x=>x.n.id===d.id && String(x.ix)===d.ix) : s.questions.filter(x=>x.n.id===d.id && x.k===d.k); staleAct(d.kind, d.stale, it); return; }
+      if(e.target.closest('[data-cal-go]')){ state.meetMode = 'calendar'; setView('meetings'); renderCalendar(); window.scrollTo(0,0); return; }
       const sz = e.target.closest('[data-snooze]'); if(sz){ e.preventDefault(); e.stopPropagation(); snooze(sz.dataset.snooze, 'tomorrow'); return; }
       const tk = e.target.closest('[data-tri-keep]'); if(tk){ triage([tk.dataset.triKeep], true); return; }
       const tx = e.target.closest('[data-tri-drop]'); if(tx){ triage([tx.dataset.triDrop], false); return; }
@@ -1682,15 +1903,33 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
       const sm = e.target.closest('summary[data-td-sec]'); if(sm){ state.tdOpen = state.tdOpen || {}; state.tdOpen[sm.dataset.tdSec] = !sm.parentElement.open; return; }
       const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, null); return; }
       const h = e.target.closest('[data-td-handle]'); if(h){ setMail(h.dataset.tdHandle, 'handled'); return; }
-      const g = e.target.closest('[data-td-go]'); if(g){ setView(g.dataset.tdGo); window.scrollTo({top:0}); return; }
-      const mt = e.target.closest('[data-td-meeting]'); if(mt){ state.openMeeting = mt.dataset.tdMeeting; setView('meetings'); const dd = document.querySelector(`#viewMeetings details[data-mid="${CSS.escape(mt.dataset.tdMeeting)}"]`); if(dd){ dd.open = true; dd.scrollIntoView({block:'start'}); } return; }
+      const g = e.target.closest('[data-td-go]'); if(g){ if(g.dataset.tdGo==='meetings') state.meetMode = 'meetings'; setView(g.dataset.tdGo); renderCalendar(); window.scrollTo({top:0}); return; }
+      const mt = e.target.closest('[data-td-meeting]'); if(mt){ state.openMeeting = mt.dataset.tdMeeting; state.meetMode = 'meetings'; setView('meetings'); renderCalendar(); const dd = document.querySelector(`#viewMeetings details[data-mid="${CSS.escape(mt.dataset.tdMeeting)}"]`); if(dd){ dd.open = true; dd.scrollIntoView({block:'start'}); } return; }
       const op = e.target.closest('[data-open]'); if(op && !e.target.closest('a')){ const c = state.cards.find(x=>x.id===op.dataset.open); if(c) openDrawer(c); return; }
     });
-    $('#tabBoard').onclick = () => setView('board');
+    $('#tabBoard').onclick = () => { state.boardMode = 'cards'; setView('board'); renderProjects(); };
+    $('#projView').addEventListener('click', e => {
+      const pj = e.target.closest('summary[data-proj]'); if(pj){ state.projOpen = state.projOpen || {}; state.projOpen[pj.dataset.proj] = !pj.parentElement.open; return; }
+      if(e.target.closest('.pdone > summary')) return;
+      const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, null); return; }
+      const op = e.target.closest('[data-open]'); if(op && !e.target.closest('a')){ const c = state.cards.find(x=>x.id===op.dataset.open); if(c) openDrawer(c); }
+    });
+    document.querySelectorAll('[data-bv]').forEach(b => { b.onclick = () => { state.boardMode = b.dataset.bv; setView('board'); renderProjects(); }; });
+    $('#tabProjects').onclick = () => { state.boardMode = 'projects'; setView('board'); renderProjects(); window.scrollTo(0,0); };
+    $('#tabCalendar').onclick = () => { state.meetMode = 'calendar'; setView('meetings'); renderCalendar(); window.scrollTo(0,0); };
+    $('#calView').addEventListener('click', e => {
+      const cs = e.target.closest('[data-calsec]'); if(cs){ state.calSec = cs.dataset.calsec; renderCalendar(); return; }
+      const cf = e.target.closest('summary[data-calfold]'); if(cf){ if(cf.dataset.calfold==='tbd') state.calTbdOpen = !cf.parentElement.open; else state.calPastOpen = !cf.parentElement.open; }
+    });
+    $('#viewMeetings').addEventListener('click', e => {
+      const all = e.target.closest('[data-sugg-all]'); if(all){ e.preventDefault(); const m = state.meetings.find(x=>x.eventId===all.dataset.suggAll); if(!m) return; const now = new Date().toISOString(); const agenda = (m.agenda||[]).slice(); const items = draftItems(m); items.forEach(x => agenda.push({text:x.text, done:false, addedAt:now})); setAgenda(m.eventId, agenda); toast(items.length+' items on the agenda'); return; }
+      const sk = e.target.closest('[data-sugg-skip]'); if(sk){ e.preventDefault(); const m = state.meetings.find(x=>x.eventId===sk.dataset.suggSkip); if(!m) return; patchMeeting(m.eventId, {agendaSkip: [...new Set([...(m.agendaSkip||[]), sk.dataset.text])]}); return; }
+    });
+    
     $('#tabNotes').onclick = () => { if(state.noteMode==='people') state.noteMode = 'notes'; setView('notes'); };
     $('#tabPeople').onclick = () => { state.noteMode = 'people'; setView('notes'); window.scrollTo(0,0); };
     $('#tabInbox').onclick = () => setView('inbox');
-    $('#tabMeetings').onclick = () => setView('meetings');
+    $('#tabMeetings').onclick = () => { state.meetMode = 'meetings'; setView('meetings'); renderCalendar(); };
     $('#mtWeek').onclick = () => { state.mtRange=7; renderMeetings(); };
     $('#mtTwo').onclick = () => { state.mtRange=14; renderMeetings(); };
     const vm = $('#viewMeetings');
@@ -1788,7 +2027,7 @@ body[data-pmode="people"] #viewNotes .nv,body[data-pmode="people"] #viewNotes .n
 </script>
 <script>
 (function(){
-  var BUILD = '4e7a992b2e';
+  var BUILD = '403f343e54';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }

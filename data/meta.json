@@ -1,4 +1,13 @@
 {
+ "calendar": {
+  "dated": 116,
+  "families": 25,
+  "problems": [],
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/1gw2G8kcw1Umd4Cm1jRoVbY8yHm4k5sKgXb5iw8xGHzA/edit",
+  "tbd": 43,
+  "total": 159,
+  "updatedAt": "2026-11-25T01:59:51Z"
+ },
  "inbox": {
   "added": 0,
   "cardsAdded": 0,
@@ -9,6 +18,71 @@
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
   "scanned": 29
+ },
+ "projects": {
+  "items": [
+   {
+    "area": "Finance",
+    "name": "Audit and year-end"
+   },
+   {
+    "area": "Finance",
+    "name": "Finance hire and coverage"
+   },
+   {
+    "area": "Finance",
+    "name": "Budget gap and costs"
+   },
+   {
+    "area": "Finance",
+    "name": "Reporting to Andy, Paul and the Board"
+   },
+   {
+    "area": "Finance",
+    "name": "Policies and controls"
+   },
+   {
+    "area": "Programs",
+    "name": "Winter season setup"
+   },
+   {
+    "area": "Programs",
+    "name": "Partnerships"
+   },
+   {
+    "area": "Programs",
+    "name": "Camps and community programs"
+   },
+   {
+    "area": "Programs",
+    "name": "Rec program"
+   },
+   {
+    "area": "Facilities",
+    "name": "Fields and space"
+   },
+   {
+    "area": "Scheduling",
+    "name": "Scheduling model"
+   },
+   {
+    "area": "People",
+    "name": "Media team"
+   },
+   {
+    "area": "People",
+    "name": "Staff and HR"
+   },
+   {
+    "area": "Systems",
+    "name": "Systems and website"
+   },
+   {
+    "area": "Board",
+    "name": "Board"
+   }
+  ],
+  "updatedAt": "2026-11-25T02:00:00Z"
  },
  "sync": {
   "actionsAdded": 6,

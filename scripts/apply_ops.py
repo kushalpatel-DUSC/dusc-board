@@ -10,7 +10,9 @@ done and changes nothing else - safe on agendas the user has edited).
 source "sync" (the scheduled tasks) is guarded: it never deletes, never touches an inbox item the
 user has handled, and never overrides fields the user has edited (userEdited: true) on cards,
 meetings or series. On notes it can add to the "actions" list (other people's to-dos) or mark one
-done, but never removes or unticks one. The page (source "user") has no guard.
+done, but never removes or unticks one, and it keeps the user's keep/archive marks on to-dos and open
+questions. A card the user dismissed or archived is never re-created. The page (source "user") has no guard.
+The club calendar (data/calendar.json) is written by scripts/build_calendar.py, not by this script.
 Prints a one-line summary. Exit code 0 on success.
 """
 import json, os, sys
@@ -18,8 +20,8 @@ import json, os, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 COLLS = ['cards', 'notes', 'inbox', 'meetings', 'series', 'meta']
 PROTECTED = {
-    'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited', 'triage', 'dismissedAt', 'snoozes'},
-    'meetings': {'agenda', 'agendaUpdatedAt', 'agendaSentAt', 'userEdited', 'skipAgenda'},
+    'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited', 'triage', 'dismissedAt', 'snoozes', 'project', 'later', 'laterAt', 'keptAt', 'archivedAt'},
+    'meetings': {'agenda', 'agendaUpdatedAt', 'agendaSentAt', 'userEdited', 'skipAgenda', 'agendaSkip'},
     'series': {'running', 'runningUpdatedAt', 'userEdited'},
     'inbox': {'status', 'cardId', 'userEdited'},
 }
@@ -90,6 +92,9 @@ def main():
                 for k in PROTECTED['meetings']:
                     if k in existing:
                         patch[k] = existing[k]
+        if coll == 'notes' and guarded and existing is not None and 'qState' in existing:
+            # which open questions the user kept or archived: a sync never loses these marks
+            patch['qState'] = existing['qState']
         if coll == 'notes' and guarded and existing is not None and (existing.get('actions') or 'actions' in patch):
             # other people's to-dos live on the note: a sync may add new ones or mark one done,
             # but never drops one, never unticks one, and never brings back one the user moved to his board
@@ -101,7 +106,7 @@ def main():
                 hit = next((m for m in merged if (a.get('id') and m.get('id') == a.get('id')) or norm(m.get('text')) == norm(a.get('text'))), None)
                 if hit is None:
                     merged.append(a)
-                elif a.get('done') and not hit.get('done'):
+                elif a.get('done') and not hit.get('done') and not hit.get('archived'):
                     hit['done'] = True; hit['doneAt'] = a.get('doneAt')
             patch['actions'] = merged
         if coll == 'cards':
