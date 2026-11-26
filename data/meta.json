@@ -10,10 +10,10 @@
  },
  "inbox": {
   "added": 1,
-  "cardsAdded": 1,
+  "cardsAdded": 0,
   "cleared": 0,
-  "flagged": 17,
-  "lastRun": "2026-11-25T23:10:00Z",
+  "flagged": 18,
+  "lastRun": "2026-11-26T01:12:00Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
