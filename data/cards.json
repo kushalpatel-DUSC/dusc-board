@@ -1716,7 +1716,7 @@
  "nirmala-arrangement-leadership": {
   "area": "People",
   "createdAt": "2026-11-17T20:50:50Z",
-  "doneAt": null,
+  "doneAt": "2026-11-26T21:16:29.657Z",
   "due": "2026-11-24",
   "id": "nirmala-arrangement-leadership",
   "note": "She asked for a clear decision on the long-term plan; KP said he would raise it at the Friday call and come back to her Monday or Tuesday.",
@@ -1728,10 +1728,10 @@
   "raised": "2026-11-17",
   "source": "Recurring Finance meeting — Nov 17 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1iORzSuhoyGilinFb3y_lI7bUJxK-oBVvvxW_KD-dA_U/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "done",
   "title": "Raise Nirmala's consulting arrangement with Andy and Paul on Friday and update her by Tuesday 11/24",
   "triage": null,
-  "updatedAt": "2026-11-18T01:27:02.458Z",
+  "updatedAt": "2026-11-26T21:16:29.657Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
