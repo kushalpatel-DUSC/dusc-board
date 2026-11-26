@@ -94,20 +94,20 @@
   "actionsAdded": 0,
   "brief": [
    {
-    "label": "Today",
-    "text": "Write down what Andy and Paul decided at the 2:30 catch-up; Gemini produced no notes and two cards still wait on them."
-   },
-   {
-    "label": "Today",
-    "text": "Update Nirmala on her consulting arrangement; it was due Tuesday and the card is still open."
+    "label": "Fri 11/27",
+    "text": "Send the agenda email for Friday's 2:00 call with Andy and Paul, or cancel the call; the draft is waiting."
    },
    {
     "label": "Fri 11/27",
     "text": "Write the finance role requirements by Friday, ahead of the December interviews."
    },
    {
-    "label": "Fri 11/27",
-    "text": "Cancel or confirm Friday's 2:00 call with Andy and Paul, now that the group met on Wednesday."
+    "label": "This week",
+    "text": "Tell full-time staff that medical open enrollment has started, once Paychex confirms it is open and when it closes."
+   },
+   {
+    "label": "Stuck",
+    "text": "Write down what Andy and Paul decided on Wednesday; Gemini produced no notes and two cards still wait on them."
    },
    {
     "label": "Mon 11/30",
@@ -117,11 +117,6 @@
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-25",
-    "label": "January and February indoor schedule released before Thanksgiving",
-    "who": "Leanne"
-   },
    {
     "date": "2026-11-27",
     "label": "Finance role requirements written (two weeks from 11/13)",
@@ -224,7 +219,7 @@
    }
   ],
   "headline": "Academy revenue is projected $500,000–$600,000 under budget. Monday's 1:00 audit draft review is next: read the draft and get Andy financials that tie to it.",
-  "lastRun": "2026-11-25T20:48:33Z",
+  "lastRun": "2026-11-26T10:49:21Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 14,
   "notesScanned": 47,

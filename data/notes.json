@@ -629,18 +629,18 @@
  "finance-catchup-andy-paul-weekly": {
   "actions": [],
   "area": "Finance",
-  "date": "2026-11-25",
+  "date": "2026-11-27",
   "decisions": [],
   "fileId": "14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc",
   "keyPoints": [
-   "First section is Wed Nov 25, with six agenda topics and space for Andy and Paul to add items.",
-   "Topics: Dec 8 board forecast, Paychex errors, accounting support, the audit, the holiday bonus budget, Giving Tuesday.",
-   "Decisions, action items and the recap are filled in after the meeting from the Gemini notes."
+   "Newest section is Fri Nov 27, with five agenda topics and space for Andy and Paul to add items.",
+   "Friday topics: Dec 8 forecast, GA showcase overrun, finance role, healthcare enrollment, Giving Tuesday.",
+   "The Wed Nov 25 section still has no notes, decisions or recap; Gemini produced no summary."
   ],
   "kind": "Running meeting notes",
-  "modified": "2026-11-25T04:39:58.543Z",
+  "modified": "2026-11-26T10:48:19.971Z",
   "openQuestions": [],
-  "summary": "The new shared notes doc for the calls with Andy and Paul. It holds the six-item agenda for the Wed Nov 25 catch-up; nothing has been typed under it yet.",
+  "summary": "The shared notes doc for the calls with Andy and Paul. It now holds the agenda for Friday 11/27 above Wednesday's section; nothing has been typed under either yet.",
   "title": "Finance Catch Up - Andy + Paul Weekly (running notes)",
   "url": "https://docs.google.com/document/d/14qxsRgjKhFl45l591pTIouKlNLi2WUKzN7VMYf8R9sc/edit"
  },
