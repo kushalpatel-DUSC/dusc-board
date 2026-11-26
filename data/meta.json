@@ -11,9 +11,9 @@
  "inbox": {
   "added": 0,
   "cardsAdded": 0,
-  "cleared": 0,
-  "flagged": 18,
-  "lastRun": "2026-11-26T03:07:00Z",
+  "cleared": 1,
+  "flagged": 17,
+  "lastRun": "2026-11-26T11:05:57Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
