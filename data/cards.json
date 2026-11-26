@@ -2312,10 +2312,11 @@
   "raised": "2026-10-08",
   "source": "Field + Budget (Gemini, Oct 8)",
   "sourceUrl": "https://docs.google.com/document/d/1sjYKOn_PG3XNR0byWJGZt7nwZJLQ_05BssFMckikMcs/edit",
-  "status": "todo",
+  "status": "archived",
   "title": "Build a simplified version of the scheduling model for coaches and directors",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-26T21:25:53.787Z",
+  "userEdited": true,
+  "archivedAt": "2026-11-26T21:25:53.787Z"
  },
  "soccer-post-call": {
   "area": "Vendors",
