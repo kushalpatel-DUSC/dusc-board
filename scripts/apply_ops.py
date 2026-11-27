@@ -14,7 +14,9 @@ done, but never removes or unticks one, and it keeps the user's keep/archive mar
 questions. A card the user dismissed or archived is never re-created. On a meeting it can record the
 day-before agenda work ("prework") once and the after-meeting recap ("recap") once, never again, and it never touches "preworkDone" (the user's
 mark that the agenda email is dealt with); on a series it never touches "notesDoc" (the running notes doc
-the user linked). The page (source "user") has no guard.
+the user linked). On a card it can write "connect" (what the card was tied to: notes, emails, a suggested
+date or project) only while the card's connect.state is "pending", so each card is connected once and a
+link the user removed never comes back. The page (source "user") has no guard.
 The club calendar (data/calendar.json) is written by scripts/build_calendar.py, not by this script.
 Prints a one-line summary. Exit code 0 on success.
 """
@@ -76,6 +78,17 @@ def main():
                         item['done'] = True; hit += 1
             counts['applied' if hit else 'skipped'] += 1
             continue
+        if guarded and existing is not None and coll == 'cards' and 'connect' in patch:
+            # connections are written once, in answer to the page's {"state": "pending"}; what the page
+            # recorded with the request (when it was asked, which quick list it came from) is carried over
+            was = existing.get('connect') if isinstance(existing.get('connect'), dict) else {}
+            if was.get('state') == 'pending' and isinstance(patch['connect'], dict) and patch['connect'].get('state') in ('done', 'none'):
+                patch['connect'] = {**{k: was[k] for k in ('askedAt', 'listId') if k in was}, **patch['connect']}
+            else:
+                patch.pop('connect')
+                counts['trimmed'] += 1
+                if not patch:
+                    counts['skipped'] += 1; continue
         if guarded and existing is not None:
             if coll == 'cards' and op == 'set':
                 # a sync never re-creates a card that exists (kept, done or dismissed): that would wipe the user's fields

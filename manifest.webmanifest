@@ -18,5 +18,25 @@
    "type": "image/png",
    "purpose": "any"
   }
+ ],
+ "id": "./index.html",
+ "shortcuts": [
+  {
+   "name": "Kanban",
+   "short_name": "Kanban",
+   "url": "./index.html#board",
+   "icons": [
+    {
+     "src": "icon-kanban-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Quick list",
+   "short_name": "Quick list",
+   "url": "./index.html#add"
+  }
  ]
 }
