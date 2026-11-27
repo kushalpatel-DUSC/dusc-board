@@ -2650,7 +2650,7 @@
   "area": "Finance",
   "createdAt": "2026-11-20T20:50:58Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "travel-spending-guidelines-kyle",
   "note": "Travel could run to double the budget; more teams are travelling than were budgeted.",
   "owner": "KP",
@@ -2664,10 +2664,11 @@
   "status": "todo",
   "title": "Set spending guidelines for winter showcase and MLS Next Fest travel with Kyle once he is back on 11/29",
   "triage": null,
-  "updatedAt": "2026-11-25T00:14:10.408Z",
+  "updatedAt": "2026-11-27T21:17:59.882Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "website-mal-feedback": {
   "archivedAt": "2026-11-27T03:31:37.896Z",
