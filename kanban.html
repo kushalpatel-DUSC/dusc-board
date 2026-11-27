@@ -2330,12 +2330,12 @@ body.daydrag .dtrack{background:var(--surface-2)}
     r.innerHTML = `<div class="scrim" id="plScrim"></div><div class="psheet" role="dialog" aria-modal="true" aria-label="Plan the day">
       <div class="qs-head"><h2>Plan ${esc(p.day===t ? 'today' : DAYS_FULL[d.getDay()])}, ${esc(MONTHS[d.getMonth()]+' '+d.getDate())}</h2><button type="button" id="plClose" aria-label="Close">✕</button></div>
       <div class="pl-body"><div class="pl-main">
-        <div class="pl-box"><h3>${p.claude ? 'From Claude’s morning run' : 'The day'}</h3><p>${esc(p.claude ? p.claude.summary : auto)}</p>${p.claude ? `<p class="mu">${esc(auto)}</p>` : ''}</div>
+        <div class="pl-box"><h3>${p.claude ? 'From Claude’s latest sync' : 'The day'}</h3><p>${esc(p.claude ? p.claude.summary : auto)}</p>${p.claude ? `<p class="mu">${esc(auto)}</p>` : ''}</div>
         ${p.clashes.length ? `<div class="pl-box warn"><h3>Overlap</h3>${p.clashes.map(c => `<p>${esc(c)}</p>`).join('')}</div>` : ''}
         ${p.placed.length ? `<section><h3>Suggested times <span class="c">${p.placed.length}</span></h3>${p.placed.map(row).join('')}</section>` : `<div class="empty-line">Nothing needs a time ${p.day===t ? 'today' : 'that day'}.</div>`}
         ${p.later.length ? `<section><h3>Move to another day <span class="c">${p.later.length}</span></h3>${p.later.map(lrow).join('')}</section>` : ''}
       </div><div class="pl-side"><h3>How the day would look</h3><div id="plPrev"></div><p class="mu">Dashed blocks are proposed.</p></div></div>
-      <div class="qs-foot"><span class="mu pl-src">${p.placed.some(x => x.src==='claude') ? 'Times with a reason from Claude come from its morning plan; the rest are fitted around your meetings. ' : 'Times are fitted around your meetings by the board. '}Nothing changes until you confirm.</span><button type="button" class="btn secondary" id="plCancel">Cancel</button><button type="button" class="btn" id="plGo">Put it on my day</button></div></div>`;
+      <div class="qs-foot"><span class="mu pl-src">${p.placed.some(x => x.src==='claude') ? 'Times with a reason from Claude come from its latest plan; the rest are fitted around your meetings. ' : 'Times are fitted around your meetings by the board. '}Nothing changes until you confirm.</span><button type="button" class="btn secondary" id="plCancel">Cancel</button><button type="button" class="btn" id="plGo">Put it on my day</button></div></div>`;
     $('#plScrim').onclick = closePlan; $('#plClose').onclick = closePlan; $('#plCancel').onclick = closePlan; $('#plGo').onclick = applyPlan;
     r.querySelector('.psheet').addEventListener('change', e => { const el = e.target, ds = el.dataset || {};
       if(ds.plOn !== undefined) p.placed[+ds.plOn].on = el.checked;
@@ -2868,7 +2868,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
 </script>
 <script>
 (function(){
-  var BUILD = 'dfc0b924ff';
+  var BUILD = 'fe62584a7e';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet, #quickRoot .psheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
