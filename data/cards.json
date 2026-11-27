@@ -387,7 +387,7 @@
   "area": "Finance",
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "bofa-issue-fix",
   "note": "From your own 'Things I need to fix' list. The 11/25 accounts payable email asks who is authorized to speak with the bank.",
   "owner": "KP",
@@ -400,11 +400,12 @@
   "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Figure out the Bank of America issue",
-  "triage": "new",
-  "updatedAt": "2026-11-27T10:51:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-27T21:13:37.726Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "bonus-process": {
   "area": "Finance",
