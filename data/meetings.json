@@ -1,4 +1,98 @@
 {
+ "00i86nkhuinqtfnmefqjn043ei": {
+  "agenda": [],
+  "agendaUpdatedAt": null,
+  "attendees": [
+   {
+    "email": "jessie.cordray@dusc.net",
+    "name": "Jessie Cordray"
+   },
+   {
+    "email": "tiago.valente@dusc.net",
+    "name": "Tiago Valente"
+   },
+   {
+    "email": "malorie.warents@dusc.net",
+    "name": "Malorie Warents"
+   },
+   {
+    "email": "paul.sowell@dusc.net",
+    "name": "Paul Sowell"
+   },
+   {
+    "email": "leanne.campbell@dusc.net",
+    "name": "Leanne Campbell"
+   },
+   {
+    "email": "gustavo.palomino@dusc.net",
+    "name": "Gustavo Palomino"
+   },
+   {
+    "email": "jose.rebay@dusc.net",
+    "name": "Jose Rebay"
+   },
+   {
+    "email": "oumou.toure@dusc.net",
+    "name": "Oumou Toure"
+   },
+   {
+    "email": "cristian.velasco@dusc.net",
+    "name": "Cristian Velasco"
+   },
+   {
+    "email": "noemi.argueta@dusc.net",
+    "name": "Noemi Argueta"
+   },
+   {
+    "email": "nirmala.singh@dusc.net",
+    "name": "Nirmala Singh"
+   },
+   {
+    "email": "alexandra.keaney@dusc.net",
+    "name": "Alexandra Keaney"
+   },
+   {
+    "email": "kristen.capobianco@dusc.net",
+    "name": "Kristen Capobianco"
+   },
+   {
+    "email": "kyle.hagenburger@dusc.net",
+    "name": "Kyle Hagenburger"
+   },
+   {
+    "email": "jason.orban@dusc.net",
+    "name": "Jason Orban"
+   },
+   {
+    "email": "sydney.redisch@dusc.net",
+    "name": "Sydney Redisch"
+   },
+   {
+    "email": "jljames@paychex.com",
+    "name": "jljames"
+   }
+  ],
+  "end": "2026-11-30T16:00:00-05:00",
+  "eventId": "00i86nkhuinqtfnmefqjn043ei",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MDBpODZua2h1aW5xdGZubWVmcWpuMDQzZWkga3VzaGFsLnBhdGVsQGR1c2MubmV0&ctz=America/New_York",
+  "meetUrl": "https://meet.google.com/amn-mtja-opi",
+  "prep": {
+   "highlights": [],
+   "suggested": [
+    "Open enrollment: when it opens and closes",
+    "Where staff find the plan information and how they sign up",
+    "Who answers staff questions after the call: Paychex, Nirmala or Kristen"
+   ],
+   "summary": "All-staff review of the 2027 health insurance plans, set up by Nirmala with the Paychex representative. It ties to your open card on telling full-time staff that open enrollment has started and how to sign up."
+  },
+  "recurringEventId": null,
+  "seriesKey": null,
+  "start": "2026-11-30T15:00:00-05:00",
+  "status": "upcoming",
+  "title": "2027 DUSC Health Insurance plan review",
+  "updatedAt": "2026-11-27T23:12:00Z",
+  "userEdited": false
+ },
  "07frft2mr8udu26ifr3qr603qk": {
   "agenda": [],
   "agendaUpdatedAt": null,

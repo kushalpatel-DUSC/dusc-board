@@ -68,17 +68,17 @@
   "summary": "Monday turns on the 1:00 audit draft review. Read the draft and get Andy financials that tie to it before then; the afternoon after Kyle's 2:00 is for the winter practice schedule."
  },
  "inbox": {
-  "added": 1,
+  "added": 0,
   "cardsAdded": 0,
   "cleared": 0,
   "connectChecked": 0,
   "connected": 0,
-  "flagged": 20,
-  "lastRun": "2026-11-27T21:12:00Z",
+  "flagged": 0,
+  "lastRun": "2026-11-27T23:12:00Z",
   "lastRunStatus": "ok",
-  "meetingsChanged": 0,
+  "meetingsChanged": 1,
   "meetingsProcessed": 0,
-  "scanned": 10
+  "scanned": 13
  },
  "prework": {
   "createdAt": "2026-11-25T03:20:14Z",
