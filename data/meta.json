@@ -9,53 +9,63 @@
   "updatedAt": "2026-11-25T10:47:44Z"
  },
  "dayplan": {
-  "at": "2026-11-27T16:48:16Z",
-  "date": "2026-11-27",
+  "at": "2026-11-27T20:48:29Z",
+  "date": "2026-11-30",
   "items": [
    {
-    "cardId": "finance-role-requirements",
+    "cardId": "audit-draft-read-nov30",
     "mins": 60,
-    "start": "12:00",
-    "why": "Due today, ahead of the December interviews"
+    "start": "09:00",
+    "why": "Before the 1:00 review with the auditors"
    },
    {
-    "cardId": "classic-tournament-cancel-oumou",
-    "mins": 15,
-    "start": "13:15",
-    "why": "Urgent: decided Nov 24, tournament is Dec 12–13"
+    "cardId": "financials-tie-to-audit-draft",
+    "mins": 90,
+    "start": "10:00",
+    "why": "Andy wants it before the 1:00 call"
    },
    {
     "cardId": "open-enrollment-staff-notice",
     "mins": 30,
-    "start": "13:30",
+    "start": "11:45",
     "why": "Urgent: staff need the enrollment dates"
+   },
+   {
+    "cardId": "classic-tournament-cancel-oumou",
+    "mins": 15,
+    "start": "12:15",
+    "why": "Urgent: the tournament is Dec 12–13"
    },
    {
     "cardId": "c-mwr67yeu-r35oa",
     "mins": 30,
-    "start": "14:15",
-    "why": "Urgent and overdue since Nov 22"
-   },
-   {
-    "cardId": "adv-camp-gustavo-group",
-    "mins": 15,
     "start": "15:00",
-    "why": "Due today; a short scheduling email"
+    "why": "Urgent and overdue since Nov 22"
    }
   ],
   "later": [
    {
-    "cardId": "supply-db-rent-free-spaces",
-    "date": "2026-12-03",
-    "why": "Ready for Friday's Fields Committee meeting"
+    "cardId": "finance-role-requirements",
+    "date": "2026-12-01",
+    "why": "Monday is full; ready for Friday's finance call"
+   },
+   {
+    "cardId": "adv-camp-gustavo-group",
+    "date": "2026-12-01",
+    "why": "Same group is on Tuesday's 10:00 Rec call"
    },
    {
     "cardId": "leo-expectations-followup",
-    "date": "2026-12-01",
+    "date": "2026-12-02",
     "why": "Before Wednesday's Ops call"
+   },
+   {
+    "cardId": "supply-db-rent-free-spaces",
+    "date": "2026-12-03",
+    "why": "Ready for Friday's Fields Committee meeting"
    }
   ],
-  "summary": "No meetings today; the 2:00 finance call is cancelled. Finish the finance role requirements, due today, and get the Classic tournament and open enrollment messages out before the weekend."
+  "summary": "Monday turns on the 1:00 audit draft review. Read the draft and get Andy financials that tie to it before then; the afternoon after Kyle's 2:00 is for the winter practice schedule."
  },
  "inbox": {
   "added": 0,
@@ -270,10 +280,10 @@
    }
   ],
   "headline": "Monday is the crunch: the 1:00 audit draft review, then Nirmala and Kyle back to back. Read the draft, get Andy financials that tie to it, and send the three agenda emails.",
-  "lastRun": "2026-11-27T16:48:16Z",
+  "lastRun": "2026-11-27T20:48:29Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 13,
-  "notesScanned": 46,
+  "meetingsRefreshed": 14,
+  "notesScanned": 25,
   "themes": [
    {
     "name": "Deficit and forecast",
