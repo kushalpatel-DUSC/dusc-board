@@ -699,7 +699,7 @@
  "classic-tournament-cancel-oumou": {
   "area": "Programs",
   "createdAt": "2026-11-24T19:07:18Z",
-  "doneAt": null,
+  "doneAt": "2026-11-27T21:31:29.581Z",
   "due": null,
   "id": "classic-tournament-cancel-oumou",
   "note": "Only two or three kids registered; KP decided on the call to cancel rather than push more outreach. T-shirts are already ordered (they say Classic, not Fall).",
@@ -711,9 +711,9 @@
   "raised": "2026-11-24",
   "source": "Ops Weekly Call — Nov 24 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "doing",
+  "status": "done",
   "title": "Email Oumou that the Dec 12–13 Classic tournament should be cancelled",
-  "updatedAt": "2026-11-27T21:26:08.498Z",
+  "updatedAt": "2026-11-27T21:31:29.581Z",
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
