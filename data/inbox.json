@@ -1269,7 +1269,7 @@
  "1a2136f3e7b49246": {
   "area": "Finance",
   "ask": "Tell Nirmala and Kristen who is authorized to speak with Bank of America, or call the bank contact yourself (with Paul or Andy) to get the ACH payment services restored.",
-  "cardId": null,
+  "cardId": "bofa-issue-fix",
   "createdAt": "2026-11-25T19:07:33Z",
   "date": "2026-11-25T22:12:59Z",
   "due": null,
@@ -1280,7 +1280,7 @@
   "subject": "11/25/2026 Accounts Payable $26,008.47",
   "threadId": "1a2136f3e7b49246",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882846540409901638",
-  "updatedAt": "2026-11-25T23:10:00Z",
+  "updatedAt": "2026-11-27T10:51:21Z",
   "userEdited": false
  },
  "1a213e1fc6ca18cd": {

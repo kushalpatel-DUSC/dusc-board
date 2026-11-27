@@ -145,6 +145,7 @@
   "doneAt": null,
   "due": "2026-11-27",
   "id": "adv-camp-gustavo-group",
+  "later": false,
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -155,8 +156,7 @@
   "status": "todo",
   "title": "Advanced Camps: set up meeting with Gustavo, Cris, Oumou and Mal",
   "updatedAt": "2026-11-27T03:31:58.502Z",
-  "userEdited": true,
-  "later": false
+  "userEdited": true
  },
  "ar-reporting-930": {
   "area": "Finance",
@@ -382,6 +382,29 @@
   "title": "Create the board presentation: work plan, systems, processes, strategic goals",
   "updatedAt": "2026-11-04T23:45:00Z",
   "userEdited": false
+ },
+ "bofa-issue-fix": {
+  "area": "Finance",
+  "createdAt": "2026-11-27T10:51:21Z",
+  "doneAt": null,
+  "due": null,
+  "id": "bofa-issue-fix",
+  "note": "From your own 'Things I need to fix' list. The 11/25 accounts payable email asks who is authorized to speak with the bank.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "project": "Policies and controls",
+  "raised": "2026-11-27",
+  "source": "Things I need to fix (scratch list)",
+  "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
+  "status": "todo",
+  "title": "Figure out the Bank of America issue",
+  "triage": "new",
+  "updatedAt": "2026-11-27T10:51:21Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "bonus-process": {
   "area": "Finance",
@@ -749,6 +772,29 @@
   "updatedAt": "2026-11-04T23:45:00Z",
   "userEdited": false
  },
+ "coach-director-pay-guidelines": {
+  "area": "Finance",
+  "createdAt": "2026-11-27T10:51:21Z",
+  "doneAt": null,
+  "due": null,
+  "id": "coach-director-pay-guidelines",
+  "note": "From your own 'Things I need to fix' list.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "project": "Policies and controls",
+  "raised": "2026-11-27",
+  "source": "Things I need to fix (scratch list)",
+  "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
+  "status": "todo",
+  "title": "Set up clear guidelines for coaches and directors on who gets paid for what",
+  "triage": "new",
+  "updatedAt": "2026-11-27T10:51:21Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "coach-hats-reply-mal": {
   "area": "Vendors",
   "createdAt": "2026-11-24T19:07:18Z",
@@ -834,12 +880,37 @@
   "waitingOn": null,
   "waitingSince": null
  },
+ "credit-card-receipt-work": {
+  "area": "Finance",
+  "createdAt": "2026-11-27T10:51:21Z",
+  "doneAt": null,
+  "due": null,
+  "id": "credit-card-receipt-work",
+  "note": "From your own 'Things I need to fix' list.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "project": "Policies and controls",
+  "raised": "2026-11-27",
+  "source": "Things I need to fix (scratch list)",
+  "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
+  "status": "todo",
+  "title": "Sort out the credit card receipt work",
+  "triage": "new",
+  "updatedAt": "2026-11-27T10:51:21Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "criollo-bros-meeting": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
   "id": "criollo-bros-meeting",
+  "later": true,
+  "laterAt": "2026-11-27T03:31:55.867Z",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -850,9 +921,7 @@
   "status": "todo",
   "title": "KP and Mal to set up meeting with the Criollo Bros (schools programs)",
   "updatedAt": "2026-11-27T03:31:55.867Z",
-  "userEdited": true,
-  "later": true,
-  "laterAt": "2026-11-27T03:31:55.867Z"
+  "userEdited": true
  },
  "email-gabi-ajami": {
   "area": "Programs",
@@ -889,6 +958,29 @@
   "title": "FAQ / parent portal: pull parent questions from Gemini, build an FAQ per program; connect with Kyle, Leanne, Malorie (1–2 weeks)",
   "updatedAt": "2026-11-14T04:41:39.518Z",
   "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
+ },
+ "fest-ga-showcase-spending-review": {
+  "area": "Finance",
+  "createdAt": "2026-11-27T10:51:21Z",
+  "doneAt": null,
+  "due": null,
+  "id": "fest-ga-showcase-spending-review",
+  "note": "From your own 'Things I need to fix' list.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "project": "Budget gap and costs",
+  "raised": "2026-11-27",
+  "source": "Things I need to fix (scratch list)",
+  "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
+  "status": "todo",
+  "title": "Look closely at how the money is being spent on MLS Next Fest and the GA Winter Showcase",
+  "triage": "new",
+  "updatedAt": "2026-11-27T10:51:21Z",
+  "userEdited": false,
   "waitingOn": null,
   "waitingSince": null
  },
@@ -1683,6 +1775,8 @@
   "doneAt": null,
   "due": null,
   "id": "nest-call",
+  "later": true,
+  "laterAt": "2026-11-27T03:32:02.062Z",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -1693,9 +1787,7 @@
   "status": "todo",
   "title": "Separate call on NEST",
   "updatedAt": "2026-11-27T03:32:02.062Z",
-  "userEdited": true,
-  "later": true,
-  "laterAt": "2026-11-27T03:32:02.062Z"
+  "userEdited": true
  },
  "nirmala-930-reconciliation-sources": {
   "area": "Finance",
@@ -2000,6 +2092,7 @@
   "waitingSince": null
  },
  "rec-college-coaches": {
+  "archivedAt": "2026-11-27T03:31:41.680Z",
   "area": "People",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
@@ -2019,8 +2112,7 @@
   "updatedAt": "2026-11-27T03:31:41.680Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "archivedAt": "2026-11-27T03:31:41.680Z"
+  "waitingSince": null
  },
  "rec-email-list-access": {
   "area": "Systems",
@@ -2194,6 +2286,29 @@
   "waitingOn": null,
   "waitingSince": null
  },
+ "reimbursement-policies-system": {
+  "area": "Finance",
+  "createdAt": "2026-11-27T10:51:21Z",
+  "doneAt": null,
+  "due": null,
+  "id": "reimbursement-policies-system",
+  "note": "From your own 'Things I need to fix' list.",
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "project": "Policies and controls",
+  "raised": "2026-11-27",
+  "source": "Things I need to fix (scratch list)",
+  "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
+  "status": "todo",
+  "title": "Fix the reimbursement policies and the system for handling reimbursements",
+  "triage": "new",
+  "updatedAt": "2026-11-27T10:51:21Z",
+  "userEdited": false,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "reporting-workflow-automation": {
   "area": "Systems",
   "createdAt": "2026-11-14T05:05:48Z",
@@ -2306,6 +2421,7 @@
   "waitingSince": null
  },
  "simplified-scheduling-model": {
+  "archivedAt": "2026-11-26T21:25:53.787Z",
   "area": "Scheduling",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
@@ -2321,8 +2437,7 @@
   "status": "archived",
   "title": "Build a simplified version of the scheduling model for coaches and directors",
   "updatedAt": "2026-11-26T21:25:53.787Z",
-  "userEdited": true,
-  "archivedAt": "2026-11-26T21:25:53.787Z"
+  "userEdited": true
  },
  "soccer-post-call": {
   "area": "Vendors",
@@ -2487,6 +2602,7 @@
   "doneAt": null,
   "due": "2026-11-27",
   "id": "supply-db-rent-free-spaces",
+  "later": false,
   "note": "Andy: the database must show total supply, paid or not. Also add Henry Street Settlement (BGR gym, Sundays Jan 11–Mar 31) and Immaculate Conception School if it comes through.",
   "owner": "KP",
   "pinned": false,
@@ -2501,8 +2617,7 @@
   "updatedAt": "2026-11-27T03:31:32.553Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "supply-demand-dashboard": {
   "area": "Facilities",
@@ -2549,6 +2664,7 @@
   "waitingSince": null
  },
  "website-mal-feedback": {
+  "archivedAt": "2026-11-27T03:31:37.896Z",
   "area": "Systems",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
@@ -2569,8 +2685,7 @@
   "updatedAt": "2026-11-27T03:31:37.896Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "archivedAt": "2026-11-27T03:31:37.896Z"
+  "waitingSince": null
  },
  "winter-reg-assets-leo-liam": {
   "area": "Programs",
