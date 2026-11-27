@@ -143,7 +143,7 @@
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "adv-camp-gustavo-group",
   "note": null,
   "owner": "KP",
@@ -154,8 +154,9 @@
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
   "status": "todo",
   "title": "Advanced Camps: set up meeting with Gustavo, Cris, Oumou and Mal",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-27T03:31:58.502Z",
+  "userEdited": true,
+  "later": false
  },
  "ar-reporting-930": {
   "area": "Finance",
