@@ -2479,7 +2479,7 @@
   "area": "Facilities",
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "supply-db-rent-free-spaces",
   "note": "Andy: the database must show total supply, paid or not. Also add Henry Street Settlement (BGR gym, Sundays Jan 11–Mar 31) and Immaculate Conception School if it comes through.",
   "owner": "KP",
@@ -2492,10 +2492,11 @@
   "sourceUrl": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Add Manhattan University (fall and spring) and every other rent-free space, incl. Pier 40, to the supply database",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-27T03:31:32.553Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "supply-demand-dashboard": {
   "area": "Facilities",
