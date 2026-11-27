@@ -1096,6 +1096,7 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
 .qs-head button{min-width:40px;min-height:40px;color:var(--muted);font-size:16px}
 .qsheet textarea{width:100%;box-sizing:border-box;min-height:128px;font:inherit;font-size:16px;line-height:1.5;padding:12px;border-radius:12px;border:1px solid var(--line-2);background:var(--bg);color:var(--fg);resize:vertical}
 .qsheet textarea:focus{outline:2px solid var(--accent);outline-offset:1px}
+.qs-lbl{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:-6px}
 .qs-prev{display:flex;flex-direction:column;gap:6px}
 .qs-prev:empty{display:none}
 .qp{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;font-size:14px;color:var(--fg);line-height:1.35}
@@ -2041,7 +2042,8 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
     r.innerHTML = `<div class="scrim" id="qScrim"></div>
       <div class="qsheet" role="dialog" aria-modal="true" aria-label="Quick list">
         <div class="qs-head"><h2>Quick list</h2><button type="button" id="qClose" aria-label="Close">✕</button></div>
-        <textarea id="qText" rows="5" aria-label="To-dos, one per line" placeholder="One to-do per line&#10;Call Mal about the LREI contract fri&#10;Send Nirmala the policy draft 12/1 !"></textarea>
+        <label class="qs-lbl" for="qText">One to-do per line</label>
+        <textarea id="qText" rows="5"></textarea>
         <div class="qs-prev" id="qPrev"></div>
         <div class="qs-when"><span>Lines with no day go on</span><div class="nmode" role="group" aria-label="When">${W.map(([k,l]) => `<button type="button" data-q-when="${k}" aria-pressed="${q.when===k}">${l}</button>`).join('')}</div></div>
         <div class="qs-foot"><button type="button" class="linkb" id="qFull">One card with every field</button><span class="spacer"></span><button type="button" class="btn secondary" id="qCancel">Cancel</button><button type="button" class="btn" id="qAdd" disabled>Add</button></div>
@@ -2335,19 +2337,19 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
         <div class="drawer-body">
           <div class="field"><label for="fTitle">What needs doing</label><textarea id="fTitle" class="title">${esc(d.title)}</textarea></div>
           <div class="field"><label>Status</label><div class="move">${Object.keys(STATUS).map(s=>`<button class="chip" data-move="${s}" aria-pressed="${d.status===s}">${STATUS[s]}</button>`).join('')}</div></div>
-          <div class="field" id="fWaitWrap" ${d.status==='waiting'?'':'hidden'}><label for="fWaiting">Waiting on (who or what)</label><input type="text" id="fWaiting" value="${esc(d.waitingOn||'')}" placeholder="Mal, the auditors, a reply from Jake…" ></div>
+          <div class="field" id="fWaitWrap" ${d.status==='waiting'?'':'hidden'}><label for="fWaiting">Waiting on (who or what)</label><input type="text" id="fWaiting" value="${esc(d.waitingOn||'')}"></div>
           <div class="two">
             <div class="field"><label for="fOwner">Owner</label><select id="fOwner">${ownerOpts}</select></div>
             <div class="field"><label for="fArea">Area</label><select id="fArea"><option value="">—</option>${areaOpts}</select></div>
           </div>
-          <div class="field"><label for="fProject">Project</label><input type="text" id="fProject" list="projOpts" value="${esc(d.project||'')}" placeholder="No project" autocomplete="off"><datalist id="projOpts">${projectList().map(p=>`<option value="${esc(p.name)}"></option>`).join('')}</datalist></div>
+          <div class="field"><label for="fProject">Project</label><input type="text" id="fProject" list="projOpts" value="${esc(d.project||'')}" autocomplete="off"><datalist id="projOpts">${projectList().map(p=>`<option value="${esc(p.name)}"></option>`).join('')}</datalist></div>
           <div class="two">
             <div class="field"><label for="fDue">Due</label><input type="date" id="fDue" value="${esc(d.due||'')}"></div>
             <div class="field"><label for="fRaised">Raised</label><input type="date" id="fRaised" value="${esc(d.raised||'')}"></div>
           </div>
           ${!isNew && d.status!=='done' && !(typeof ro!=='undefined' && ro) ? `<div class="snzrow"><span>Push to</span><button type="button" data-snz="tomorrow">Tomorrow</button><button type="button" data-snz="monday">Monday</button><button type="button" data-snz="week">Next week</button></div>` : ''}
           <div class="two"><div class="field"><label class="check"><input type="checkbox" id="fPinned" ${d.pinned?'checked':''} ${(typeof ro!=='undefined'&&ro)?'disabled':''}> Pin to top</label></div><div class="field"><label class="check"><input type="checkbox" id="fUrgent" ${d.priority==='urgent'?'checked':''}> Mark urgent</label></div></div>
-          <div class="field"><label for="fNote">Notes</label><textarea id="fNote" placeholder="Context, who to call, what was decided…">${esc(d.note||'')}</textarea></div>
+          <div class="field"><label for="fNote">Notes</label><textarea id="fNote">${esc(d.note||'')}</textarea></div>
           ${cnBox(d)}
           ${d.source?`<div class="src">Source: ${d.sourceUrl?`<a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">${esc(d.source)} ↗</a>`:esc(d.source)}${d.updatedAt?` · updated ${esc(fmtDateTime(d.updatedAt))}`:''}</div>`:''}
           ${state.confirmDelete?`<div class="confirm">Delete this card?<span style="flex:1"></span><button class="btn sm danger" id="delYes">Delete</button><button class="btn sm secondary" id="delNo">Keep</button></div>`:''}
@@ -2583,7 +2585,7 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
 </script>
 <script>
 (function(){
-  var BUILD = 'bee806e88b';
+  var BUILD = 'e7c68bfa93';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
