@@ -11,11 +11,11 @@
  "inbox": {
   "added": 0,
   "cardsAdded": 0,
-  "cleared": 1,
+  "cleared": 0,
   "connectChecked": 0,
   "connected": 0,
   "flagged": 16,
-  "lastRun": "2026-11-27T11:12:00Z",
+  "lastRun": "2026-11-27T13:06:49Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
