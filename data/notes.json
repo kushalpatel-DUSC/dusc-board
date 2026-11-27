@@ -211,7 +211,9 @@
     "note": "Form submitted Monday with no reply yet.",
     "owner": "TBD",
     "raised": "2026-11-05",
-    "text": "Oumou to email the media team about the promotion-table request, copying KP"
+    "text": "Oumou to email the media team about the promotion-table request, copying KP",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -221,7 +223,9 @@
     "note": "Estimate on the call was ~10%.",
     "owner": "TBD",
     "raised": "2026-11-05",
-    "text": "Oumou to ask Simon for an analysis of how many academy players also play in the Rec program"
+    "text": "Oumou to ask Simon for an analysis of how many academy players also play in the Rec program",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Programs",
@@ -261,7 +265,9 @@
     "note": "Chris also offered a consolidated Google doc tracking all Soccer Post bills; Adidas promo balance lives on the Click portal, scholarship kits on Mal's spreadsheet.",
     "owner": "TBD",
     "raised": "2026-11-05",
-    "text": "Soccer Post (Chris) to draft a 2027 calendar of uniform events and deadlines for DUSC (logo submission dates, promo expiry, order windows)"
+    "text": "Soccer Post (Chris) to draft a 2027 calendar of uniform events and deadlines for DUSC (logo submission dates, promo expiry, order windows)",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -271,7 +277,9 @@
     "note": "DUSC earns a 20% commission on fan wear (hoodies, tees, jackets); designs refresh for 2027.",
     "owner": "TBD",
     "raised": "2026-11-05",
-    "text": "Soccer Post (Chris) to send the fan-wear store URL so it can go on the DUSC website"
+    "text": "Soccer Post (Chris) to send the fan-wear store URL so it can go on the DUSC website",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -281,7 +289,9 @@
     "note": "Agreed on the call: go with generic wicking or cotton tees to keep cost down; sponsor logos required (excluding collective).",
     "owner": "TBD",
     "raised": "2026-11-05",
-    "text": "Soccer Post (Chris) to send Malorie pricing (Adidas vs generic wicking/cotton) and a mockup for the 120 Classic tournament jerseys"
+    "text": "Soccer Post (Chris) to send Malorie pricing (Adidas vs generic wicking/cotton) and a mockup for the 120 Classic tournament jerseys",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Vendors",
@@ -403,7 +413,9 @@
     "note": "Added to the Finance Call notes on 11/6 alongside 'use September numbers as a test case'; Noemi is in the middle of the bank reconciliations, so decide who takes expense catch-up.",
     "owner": "TBD",
     "raised": "2026-11-06",
-    "text": "Catch up on September and October expense entry in QuickBooks (AP, spend and expense) so the September test-case close and October package are complete"
+    "text": "Catch up on September and October expense entry in QuickBooks (AP, spend and expense) so the September test-case close and October package are complete",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "archived": true,
@@ -425,7 +437,9 @@
     "note": null,
     "owner": "Noemi",
     "raised": "2026-11-02",
-    "text": "Donations: download monthly reports from Zeffy and other external sites, tie to line items"
+    "text": "Donations: download monthly reports from Zeffy and other external sites, tie to line items",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -435,7 +449,9 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-11-02",
-    "text": "Healthcare: census to Paychex (Kristen done), then Nirmala sends plan options for underwriting — 3–4 plans incl. an HSA option"
+    "text": "Healthcare: census to Paychex (Kristen done), then Nirmala sends plan options for underwriting — 3–4 plans incl. an HSA option",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "archived": true,
@@ -576,7 +592,9 @@
     "note": "Owner: the group (KP, Andy, Paul). Audit is stalled pending auditor responses; KP may connect with the auditors directly to clarify requirements.",
     "owner": "TBD",
     "raised": "2026-11-06",
-    "text": "Convert the audit spreadsheet into a tracker (status, dates, comments, owners)"
+    "text": "Convert the audit spreadsheet into a tracker (status, dates, comments, owners)",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -596,7 +614,9 @@
     "note": "Top-down reasonableness check suggested by Andy.",
     "owner": "Paul",
     "raised": "2026-11-06",
-    "text": "Paul to sanity-check the showcase budgets against last season"
+    "text": "Paul to sanity-check the showcase budgets against last season",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Finance",
@@ -991,7 +1011,9 @@
     "note": "Determines whether he stays on the full-time census.",
     "owner": "Paul",
     "raised": "2026-11-06",
-    "text": "Paul to ask Jason and Andy whether Ibrahim works 30 or more hours per week"
+    "text": "Paul to ask Jason and Andy whether Ibrahim works 30 or more hours per week",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1001,7 +1023,9 @@
     "note": "Paul sent KP and Nirmala the 'Salaried Employee Analysis' sheet (built with Arman) on 11/6.",
     "owner": "Paul",
     "raised": "2026-11-06",
-    "text": "Paul to review and update the employee census so the full-time calculations are accurate, including the Oumou hours correction"
+    "text": "Paul to review and update the employee census so the full-time calculations are accurate, including the Oumou hours correction",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "People",
@@ -1269,7 +1293,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-11-04",
-    "text": "Name an Advanced Camp Director and build the Summer Camp payment matrix (2 girls-only camps with all-female staff)"
+    "text": "Name an Advanced Camp Director and build the Summer Camp payment matrix (2 girls-only camps with all-female staff)",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1279,7 +1305,9 @@
     "note": "11/4: should be done by Friday. Academy mock schedule Dec 1–18 is outdoors, Wednesdays at Socceroof Wall Street.",
     "owner": "Leanne",
     "raised": "2026-10-21",
-    "text": "December practice schedule finalized and into PlayMetrics"
+    "text": "December practice schedule finalized and into PlayMetrics",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "archived": true,
@@ -1301,7 +1329,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-11-04",
-    "text": "Decide on a new system for coaches to own GotSport scheduling in Spring 27 (field scheduler viability; NEAL + GA/MLS Next keep Ops support; EDP/CJSL on the coach)"
+    "text": "Decide on a new system for coaches to own GotSport scheduling in Spring 27 (field scheduler viability; NEAL + GA/MLS Next keep Ops support; EDP/CJSL on the coach)",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": true,
@@ -1341,7 +1371,9 @@
     "note": null,
     "owner": "Leanne",
     "raised": "2026-09-30",
-    "text": "Send team schedule (was due the Wednesday after Sep 30; confirm it was sent)"
+    "text": "Send team schedule (was due the Wednesday after Sep 30; confirm it was sent)",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1351,7 +1383,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-07",
-    "text": "Put all facility contracts in one shared folder"
+    "text": "Put all facility contracts in one shared folder",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "archived": true,
@@ -1431,7 +1465,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-11-04",
-    "text": "PlayMetrics: all game changes are manual — raise with PlayMetrics / find a workflow"
+    "text": "PlayMetrics: all game changes are manual — raise with PlayMetrics / find a workflow",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1475,7 +1511,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-11-04",
-    "text": "Check whether PlayMetrics can do sibling discounts; pool / arts & crafts for young camps"
+    "text": "Check whether PlayMetrics can do sibling discounts; pool / arts & crafts for young camps",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": true,
@@ -1505,7 +1543,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-28",
-    "text": "Website update — involve Malorie, Leanne, Alex and Jason with whoever was brought in"
+    "text": "Website update — involve Malorie, Leanne, Alex and Jason with whoever was brought in",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1515,7 +1555,9 @@
     "note": null,
     "owner": "TBD",
     "raised": "2026-10-21",
-    "text": "Reach out to the ref assignor (Andrew Liversidge) about ref fees per weekend"
+    "text": "Reach out to the ref assignor (Andrew Liversidge) about ref fees per weekend",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1586,7 +1628,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-10-28",
-    "text": "Mal to confirm player data with Simon so rosters are accurate"
+    "text": "Mal to confirm player data with Simon so rosters are accurate",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1596,7 +1640,9 @@
     "note": null,
     "owner": "Leanne",
     "raised": "2026-10-28",
-    "text": "Leanne to add tournament dates to the master club calendar"
+    "text": "Leanne to add tournament dates to the master club calendar",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Systems",
@@ -1637,7 +1683,9 @@
     "note": null,
     "owner": "Leanne",
     "raised": "2026-11-04",
-    "text": "Leanne to share her upcoming national-team camp and travel dates as a Google Calendar invite"
+    "text": "Leanne to share her upcoming national-team camp and travel dates as a Google Calendar invite",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1647,7 +1695,9 @@
     "note": null,
     "owner": "Leanne",
     "raised": "2026-11-04",
-    "text": "Leanne to ask Alex and contacts in England about guest coaches for the advanced camps"
+    "text": "Leanne to ask Alex and contacts in England about guest coaches for the advanced camps",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1657,7 +1707,9 @@
     "note": null,
     "owner": "Leanne",
     "raised": "2026-11-04",
-    "text": "Leanne to share the current field spreadsheet with the team"
+    "text": "Leanne to share the current field spreadsheet with the team",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Programs",
@@ -1964,7 +2016,9 @@
     "note": null,
     "owner": "Leanne",
     "raised": "2026-09-30",
-    "text": "Verify Sydney has signed her contract for the year"
+    "text": "Verify Sydney has signed her contract for the year",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1974,7 +2028,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Mark blackout dates (e.g. Easter weekend) on indoor facility contracts"
+    "text": "Mark blackout dates (e.g. Easter weekend) on indoor facility contracts",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1984,7 +2040,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Submit the bonus review framework"
+    "text": "Submit the bonus review framework",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -1994,7 +2052,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Email Chris to confirm the Boys and Girls Republic facility status"
+    "text": "Email Chris to confirm the Boys and Girls Republic facility status",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -2004,7 +2064,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Send the Freddy Cinci contact to KP"
+    "text": "Send the Freddy Cinci contact to KP",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -2014,7 +2076,9 @@
     "note": null,
     "owner": "Mal",
     "raised": "2026-09-30",
-    "text": "Include the Rec program in the schedule matrix"
+    "text": "Include the Rec program in the schedule matrix",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Scheduling",
@@ -2071,7 +2135,9 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-11-03",
-    "text": "Nirmala to apply for a corporate credit card for Kyle"
+    "text": "Nirmala to apply for a corporate credit card for Kyle",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    },
    {
     "done": false,
@@ -2081,7 +2147,9 @@
     "note": null,
     "owner": "Nirmala",
     "raised": "2026-11-03",
-    "text": "Nirmala to send KP the Bill.com requirements and cost breakdown"
+    "text": "Nirmala to send KP the Bill.com requirements and cost breakdown",
+    "archived": true,
+    "archivedAt": "2026-11-27T21:15:43.402Z"
    }
   ],
   "area": "Finance",
