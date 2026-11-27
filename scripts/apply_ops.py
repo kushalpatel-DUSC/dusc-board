@@ -7,8 +7,8 @@ ops.json = [ {"coll": "cards", "id": "mlk-tuesday-space", "op": "merge", "patch"
 op: "set" (replace the whole doc), "merge" (shallow-merge fields), "delete", and
 "agenda_done" (meetings only; patch {"texts": [...]} marks the agenda items with those exact texts as
 done and changes nothing else - safe on agendas the user has edited).
-source "sync" (the scheduled tasks) is guarded: it never deletes, never touches an inbox item the
-user has handled, and never overrides fields the user has edited (userEdited: true) on cards,
+source "sync" (the scheduled tasks) is guarded: it never deletes, never writes the inbox collection at all (the
+Reply list was retired on 2026-11-27), and never overrides fields the user has edited (userEdited: true) on cards,
 meetings or series. On notes it can add to the "actions" list (other people's to-dos) or mark one
 done, but never removes or unticks one, and it keeps the user's keep/archive marks on to-dos and open
 questions. A card the user dismissed or archived is never re-created. On a meeting it can record the
@@ -65,6 +65,9 @@ def main():
         data = cache.setdefault(coll, load(coll))
         existing = data.get(oid)
         guarded = o.get('source') == 'sync'
+        if guarded and coll == 'inbox':
+            # the Reply list was retired on 2026-11-27: the scheduled tasks no longer write it
+            counts['skipped'] += 1; continue
         if op == 'delete':
             if guarded:
                 counts['skipped'] += 1; continue

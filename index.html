@@ -1257,6 +1257,27 @@ body.daydrag .dtrack{background:var(--surface-2)}
 @media (max-width:980px){
   #viewBoard .card .note,#viewBoard .card .card-meta .rz{display:none}
 }
+
+/* ---------- v9: to-dos coloured by area ---------- */
+:root{ --ac-fin:#74D9A4; --ac-pro:#93BFF7; --ac-peo:#C7ACF7; --ac-fac:#63D3DD; --ac-sch:#E8C660; --ac-sys:#BAC6D8; --ac-brd:#F79AC1; --ac-ven:#C3D377; --ac-med:#E3B693; }
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --ac-fin:#1B7449; --ac-pro:#2A63AD; --ac-peo:#7A4CB0; --ac-fac:#0A6B76; --ac-sch:#7E5A05; --ac-sys:#56667B; --ac-brd:#AD356A; --ac-ven:#566611; --ac-med:#86563A; } }
+:root[data-theme="light"]{ --ac-fin:#1B7449; --ac-pro:#2A63AD; --ac-peo:#7A4CB0; --ac-fac:#0A6B76; --ac-sch:#7E5A05; --ac-sys:#56667B; --ac-brd:#AD356A; --ac-ven:#566611; --ac-med:#86563A; }
+.ac{--ac:var(--line-2)}
+.ac-fin{--ac:var(--ac-fin)} .ac-pro{--ac:var(--ac-pro)} .ac-peo{--ac:var(--ac-peo)} .ac-fac{--ac:var(--ac-fac)} .ac-sch{--ac:var(--ac-sch)}
+.ac-sys{--ac:var(--ac-sys)} .ac-brd{--ac:var(--ac-brd)} .ac-ven{--ac:var(--ac-ven)} .ac-med{--ac:var(--ac-med)}
+.trow.ac{position:relative;padding-left:14px}
+.trow.ac::before{content:"";position:absolute;left:0;top:9px;bottom:9px;width:4px;border-radius:2px;background:var(--ac)}
+.card.ac{border-left:4px solid var(--ac);padding-left:9px}
+.card.ac .tag.ar{color:var(--ac);background:color-mix(in srgb,var(--ac) 15%,transparent)}
+.row.ac{box-shadow:inset 4px 0 0 var(--ac);padding-left:14px}
+.wk-card.ac{box-shadow:inset 3px 0 0 var(--ac);padding-left:11px}
+.dblk.c.ac,.dl-b.c.ac{background:color-mix(in srgb,var(--ac) 14%,var(--surface-solid));border-color:color-mix(in srgb,var(--ac) 42%,transparent);border-left-color:var(--ac)}
+.dblk.md{padding-top:3px;padding-bottom:3px}
+.akey{display:flex;flex-wrap:wrap;gap:3px 14px;font-size:12px;line-height:1.6;color:var(--muted)}
+.t2 .akey{margin:-8px 0 -6px}
+.wk-hint + .akey{margin:-4px 0 14px}
+.akey .ak{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.akey .ak i{width:10px;height:10px;border-radius:3px;background:var(--ac);flex:none}
 </style>
 </head>
 <body>
@@ -1288,7 +1309,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
         <button class="tab" role="tab" id="tabMeetings" aria-selected="false" aria-controls="viewMeetings"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg><span class="lb">Meetings</span><span class="n" id="nMeetings">–</span></button>
         <button class="tab" role="tab" id="tabCalendar" aria-selected="false" aria-controls="viewMeetings"><svg class="ti" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16M8 14h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"/></svg><span class="lb">Club calendar</span></button>
       </nav>
-      <label class="gsearch"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="q" placeholder="Search cards, notes, inbox, meetings…" autocomplete="off" aria-label="Search"><kbd>/</kbd></label>
+      <label class="gsearch"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="q" placeholder="Search cards, notes, meetings…" autocomplete="off" aria-label="Search"><kbd>/</kbd></label>
       <button class="btn" id="addBtn" aria-label="Add to-dos"><span aria-hidden="true">+</span><span class="lbl">&nbsp;Add to-dos</span></button>
     </div>
   </div>
@@ -1618,7 +1639,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     { const ct = cardTime(c); if(ct && c.status!=='done') bits.push(fmtSpan(ct.s, ct.s + ct.mins)); }
     { const st = srcText(c); if(st) bits.push(st); }
     if((c.snoozes||0) >= 2) bits.push('moved '+c.snoozes+'×');
-    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}"${c.status!=='done' && wideDay() ? ' draggable="true"' : ''}>${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb tmb" data-time="${esc(c.id)}" title="Set a time" aria-label="Set a time"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg></button><button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Tomorrow</button>` : ''}</div>`; }
+    return `<div class="trow${late?' late':''}${acCls(c)}"${acTip(c)} data-open="${esc(c.id)}"${c.status!=='done' && wideDay() ? ' draggable="true"' : ''}>${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb tmb" data-time="${esc(c.id)}" title="Set a time" aria-label="Set a time"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg></button><button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Tomorrow</button>` : ''}</div>`; }
   const isOldMail = m => m.status!=='handled' && !!m.date && new Date(m.date).getTime() < Date.now() - 7*86400000;
   function clearOldMail(){ const old = openInbox().filter(isOldMail); if(!old.length) return; old.forEach(m => setMail(m.id, 'handled')); setTimeout(()=>toast(old.length+' older email'+(old.length===1?'':'s')+' marked done'), 80); }
   function todayCounts(){ const b = todayBuckets(); const open = openInbox(); const old = open.filter(isOldMail).length; return {b, late: b.late.length, now: b.now.length + b.focus.length, mail: open.length - old, oldMail: old}; }
@@ -1652,13 +1673,12 @@ body.daydrag .dtrack{background:var(--surface-2)}
       <div class="col colA">
         ${quickBar()}
         ${sortLine()}
+        ${areaKey(b.late.concat(todayList, b.week||[], b.waiting||[]))}
         ${b.late.length?`<section><h2 class="late">Overdue <span class="c">${b.late.length}</span></h2>${b.late.map(c=>trow(c,'s')).join('')}</section>`:''}
         <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(c=>trow(c,'s')).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
       </div>
       <div class="col colB">
         ${dayCal()}
-        <section class="rsec"><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
-          ${old.length?`<details ${state.tdOpen.oldmail?'open':''}><summary data-td-sec="oldmail">Older than a week <span class="c">${old.length}</span><span class="chev"></span></summary>${old.map(mailRow).join('')}<div class="bulk"><button class="hb" data-clear-old type="button">Mark all ${old.length} as done</button></div></details>`:''}</section>
         ${clubHTML()}
       </div>
       <div class="col colC">
@@ -1673,7 +1693,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const v = state.view; document.body.dataset.view = v;
     const pt = $('#pgTitle'), ps = $('#pgSub'); if(!pt) return;
     const d = new Date(); let title = {board:'Board', notes:'Notes', inbox:'Reply', meetings:'Meetings', sort:'Sort', week:'Week'}[v] || '', sub = '';
-    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', (window.matchMedia('(max-width: 899px)').matches ? '' : c.mail+' '+(c.mail===1?'reply':'replies'))].filter(Boolean).join(' · '); }
+    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today'].filter(Boolean).join(' · '); }
     else if(v==='board'){ const o = state.cards.filter(isOpen).length; if(state.boardMode==='projects'){ title = 'Projects'; sub = projectList().length+' projects · '+o+' open cards'; } else sub = o+' open'; }
     if(v==='meetings' && state.meetMode==='calendar'){ const cal = state.calendar||[]; title = 'Club calendar'; sub = cal.filter(e=>e.start).length+' dates · '+cal.filter(e=>!e.start).length+' still to set'; }
     else if(v==='inbox'){ const c = todayCounts(); sub = c.mail+' this week'+(c.oldMail?' · '+c.oldMail+' older':''); }
@@ -1753,8 +1773,8 @@ body.daydrag .dtrack{background:var(--surface-2)}
   function srcHTML(c){ const k = conn(c); if(k && k.state==='pending' && isOpen(c)) return `<span class="cnp">Connecting…</span>`; const L = connLinks(c); if(L.length && !c.sourceUrl){ const l = L[0]; return `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.why||'Open')}">${esc(linkLabel(l)+' ↗')}</a>`+(L.length>1 ? `<span>+${L.length-1}</span>` : ''); } if(!c.source) return ''; const mail = c.sourceKind==='email'; const label = (mail?'✉ ':'')+c.source+(c.sourceUrl?' ↗':''); return c.sourceUrl ? `<a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener" title="Open the source">${esc(label)}</a>` : `<span>${esc(label)}</span>`; }
   function cardHTML(c){
     const o = c.owner||'TBD'; const dc = isOpen(c) ? dueClass(c.due) : '';
-    return `<article class="card${c.status==='done'?' done':''}${c.status==='waiting'?' waiting':''}${dc==='late'?' late':dc==='soon'?' soon':''}${c.pinned?' pinned':''}" draggable="${narrowBoard() ? 'false' : 'true'}" data-id="${esc(c.id)}" tabindex="0" aria-label="${esc(c.title)}">
-      <div class="card-top">${CHECK(c)}<span class="owner" style="--o:${OWNER_COLORS[o]||''}">${esc(o)}</span>${c.area?`<span class="tag">${esc(c.area)}</span>`:''}${isUrgent(c)?`<span class="tag flag">Urgent</span>`:''}${c.sourceKind==='email'?`<span class="tag mail">Email</span>`:''}${PIN(c)}</div>
+    return `<article class="card${c.status==='done'?' done':''}${c.status==='waiting'?' waiting':''}${dc==='late'?' late':dc==='soon'?' soon':''}${c.pinned?' pinned':''}${acCls(c)}" draggable="${narrowBoard() ? 'false' : 'true'}" data-id="${esc(c.id)}" tabindex="0" aria-label="${esc(c.title)}">
+      <div class="card-top">${CHECK(c)}<span class="owner" style="--o:${OWNER_COLORS[o]||''}">${esc(o)}</span>${(areaOf(c)||c.area)?`<span class="tag ar">${esc(areaOf(c)||c.area)}</span>`:''}${isUrgent(c)?`<span class="tag flag">Urgent</span>`:''}${c.sourceKind==='email'?`<span class="tag mail">Email</span>`:''}${PIN(c)}</div>
       <h3>${esc(c.title)}</h3>
       ${(c.note||connCtx(c))?`<div class="note">${esc(c.note||connCtx(c))}</div>`:''}
       <div class="card-meta">${c.status==='waiting'?`<span class="wait${waitDays(c)>=7?' long':''}">${esc(waitLabel(c))}</span>`:''}${c.due && isOpen(c)?`<span class="due ${dc}">${esc(dueLabel(c.due))}</span>`:''}${c.raised?`<span class="rz">raised ${esc(fmtDate(c.raised))}</span>`:''}${c.status==='done'&&c.doneAt?`<span>done ${esc(fmtDate(c.doneAt))}</span>`:''}${srcHTML(c)}</div>
@@ -1776,7 +1796,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
   // ---------- list ----------
   function rowHTML(c){
     const o = c.owner||'TBD'; const dc = isOpen(c) ? dueClass(c.due) : '';
-    return `<div class="row${c.status==='done'?' done':''}${c.pinned?' pinned':''}" data-id="${esc(c.id)}" data-status="${esc(c.status)}" tabindex="0" role="button" aria-label="${esc(c.title)}">
+    return `<div class="row${c.status==='done'?' done':''}${c.pinned?' pinned':''}${acCls(c)}"${acTip(c)} data-id="${esc(c.id)}" data-status="${esc(c.status)}" tabindex="0" role="button" aria-label="${esc(c.title)}">
       ${CHECK(c)}
       <div class="t"><div class="title">${esc(c.title)}${isUrgent(c)?`<span class="flag">● URGENT</span>`:''}</div><div class="sub">${c.raised?`<span>raised ${esc(fmtDate(c.raised))}</span>`:''}${srcHTML(c)}${c.note?`<span>${esc(c.note)}</span>`:''}</div></div>
       <span class="owner" style="--o:${OWNER_COLORS[o]||''}">${esc(o)}</span>
@@ -2055,7 +2075,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const late = off===0 ? open.filter(c => c.due && c.due < t && c.status!=='waiting').sort((a,b)=>a.due.localeCompare(b.due)) : [];
     const picker = c => `<div class="wk-pick" role="group" aria-label="Move to">${days.map(d => `<button class="hb${c.due===d?' keep':''}" data-wk-to="${d}" data-id="${esc(c.id)}" type="button">${d===t ? 'Today' : esc(dayName(d)+' '+parseISO(d).getDate())}</button>`).join('')}<button class="hb" data-wk-to="later" data-id="${esc(c.id)}" type="button">Later</button></div>`;
     const card = c => { const mv = state.weekMove===c.id; const me = [c.status==='waiting' ? waitLabel(c) : '', c.due && c.due < t ? 'Due '+fmtDate(c.due) : '', c.project||''].filter(Boolean).join(' · ');
-      return `<div class="wk-card${c.due && c.due < t ? ' late' : ''}${mv ? ' moving' : ''}" draggable="true" data-wk-card="${esc(c.id)}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${me ? `<div class="me">${esc(me)}</div>` : ''}</div><button class="wk-mv" data-wk-move="${esc(c.id)}" type="button" aria-label="Move to another day" aria-expanded="${mv}" title="Move to another day">${MOVE_ICON}</button>${mv ? picker(c) : ''}</div>`; };
+      return `<div class="wk-card${c.due && c.due < t ? ' late' : ''}${mv ? ' moving' : ''}${acCls(c)}"${acTip(c)} draggable="true" data-wk-card="${esc(c.id)}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${me ? `<div class="me">${esc(me)}</div>` : ''}</div><button class="wk-mv" data-wk-move="${esc(c.id)}" type="button" aria-label="Move to another day" aria-expanded="${mv}" title="Move to another day">${MOVE_ICON}</button>${mv ? picker(c) : ''}</div>`; };
     const mt = m => `<button class="wk-mt" data-wk-meeting="${esc(m.eventId)}" type="button"><span class="tm">${esc(fmtTime(new Date(m.start)))}</span><span class="tt">${esc(m.title)}</span></button>`;
     const ev = e => `<button class="wk-ev" data-wk-cal type="button">${esc(e.title)}<span class="me">${esc([e.section!=='General' ? e.section : '', (e.end && e.end!==e.start && !multi(e)) ? 'to '+fmtDate(e.end) : '', e.draft ? 'Draft' : ''].filter(Boolean).join(' · ') || 'Club calendar')}</span></button>`;
     const dayHTML = d => { const dt = parseISO(d); const ms = mts.filter(m => isoDay(new Date(m.start))===d); const cs = open.filter(c => c.due===d).sort(sortCards); const es = cal.filter(e => multi(e) ? e.dates.includes(d) : e.start===d); const gone = d===t ? ms.filter(m => new Date(m.end||m.start).getTime() < Date.now()) : [];
@@ -2063,6 +2083,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const arrow = d => `<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d<0 ? 'm15 6-6 6 6 6' : 'm9 6 6 6-6 6'}"/></svg>`;
     host.innerHTML = `<div class="wk-bar"><div class="rng">${esc(fmtDate(first)+' – '+fmtDate(days[6]))}</div><button class="wkn" data-wk-nav="-7" type="button" aria-label="Earlier" ${off<=0 ? 'disabled' : ''}>${arrow(-1)}</button><button class="wkn" data-wk-nav="7" type="button" aria-label="Later" ${off>=28 ? 'disabled' : ''}>${arrow(1)}</button></div>
       <p class="wk-hint">Move a card by dragging it to another day, or tap the arrows on the card and pick the day.</p>
+      ${areaKey(late.concat(state.cards.filter(c => isOpen(c) && c.due && c.due >= days[0] && c.due <= days[6])))}
       ${running.length ? `<div class="wk-run"><b>Running</b>${running.map(e => esc(e.title+' (until '+fmtDate(e.end||e.start)+')')).join(' · ')}</div>` : ''}
       ${late.length ? `<section class="wk-late"><h2 class="wk-lab late">Overdue <span class="c">${late.length}</span></h2><div class="wk-items">${late.map(card).join('')}</div></section>` : ''}
       <div class="wk-grid">${days.map(dayHTML).join('')}</div>`;
@@ -2123,7 +2144,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
   function applyHash(){ const h = String(location.hash||'').replace(/^#/,'').toLowerCase(); if(!h) return false;
     if(h==='board' || h==='kanban'){ openBoard(); return true; }
     if(h==='today' || h==='sort' || h==='week'){ setView(h); return true; }
-    if(h==='reply'){ setView('inbox'); return true; }
+    if(h==='reply'){ setView('today'); return true; }
     if(['projects','people','meetings','notes','calendar'].includes(h)){ goClub(h); return true; }
     if(h==='add'){ openQuick(); return true; }
     return false; }
@@ -2268,7 +2289,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
       if(it.kind==='m') return opt.fixed ? `<div class="dblk m${cls}" style="${st}" title="${tip}">${lab}</div>` : `<button type="button" class="dblk m${cls}" data-day-meet="${esc(it.id)}" style="${st}" title="${tip}">${lab}</button>`;
       if(it.kind==='p') return `<div class="dblk p${cls}" style="${st}" title="${tip}">${lab}</div>`;
       const done = it.c.status==='done';
-      return `<div class="dblk c${cls}${done?' done':''}" ${opt.fixed ? '' : `draggable="true" data-day-card="${esc(it.id)}" data-open="${esc(it.id)}" tabindex="0" role="button"`} style="${st}" title="${tip}">${lab}</div>`; };
+      return `<div class="dblk c${cls}${done?' done':''}${acCls(it.c)}" ${opt.fixed ? '' : `draggable="true" data-day-card="${esc(it.id)}" data-open="${esc(it.id)}" tabindex="0" role="button"`} style="${st}" title="${tip}">${lab}</div>`; };
     const n = new Date(), nowM = n.getHours()*60 + n.getMinutes();
     const now = (day===t && !opt.fixed && nowM >= h0*60 && nowM <= h1*60) ? `<div class="dnow" style="top:${px(nowM)}px" aria-hidden="true"></div>` : '';
     return `<div class="dgrid" style="height:${(h1-h0)*DH}px">${hrs.join('')}<div class="dtrack" ${opt.fixed ? '' : `data-day-track="${esc(day)}" data-h0="${h0}"`}>${items.map(blk).join('')}${now}<div class="dghost" hidden></div></div></div>`; }
@@ -2277,7 +2298,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     return `<div class="dlist">${items.map(it => { const tm = `<span class="dl-t">${esc(fmtMin(it.s))}</span>`;
       if(it.kind==='m'){ const ag = (it.m.agenda||[]).filter(a=>!a.done).length; const pr = it.m.prep || {}; const br = it===nx ? (pr.oneLine || (pr.highlights||[])[0] || '') : '';
         return `<div class="dl-row">${tm}<button type="button" class="dl-b m" data-day-meet="${esc(it.id)}"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e)+(ag ? ' · '+ag+' on the agenda' : ''))}</span>${br ? `<span class="dl-br">${esc(br)}</span>` : ''}</button></div>`; }
-      return `<div class="dl-row">${tm}<div class="dl-b c${it.c.status==='done'?' done':''}" data-open="${esc(it.id)}">${CHECK(it.c)}<div class="tx"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e))}</span></div></div></div>`; }).join('')}</div>`; }
+      return `<div class="dl-row">${tm}<div class="dl-b c${it.c.status==='done'?' done':''}${acCls(it.c)}" data-open="${esc(it.id)}">${CHECK(it.c)}<div class="tx"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e))}</span></div></div></div>`; }).join('')}</div>`; }
   function dayCal(){ const t = isoDay(new Date()), day = state.dayShown || t; const items = layCols(dayItems(day)), d = parseISO(day);
     const label = day===t ? 'Today' : (day===shiftDay(t, 1) ? 'Tomorrow' : DAYS_FULL[d.getDay()]); const nM = items.filter(x=>x.kind==='m').length, nC = items.filter(x=>x.kind==='c').length;
     const sub = [nM ? nM+(nM===1 ? ' meeting' : ' meetings') : '', nC ? nC+' timed to-do'+(nC===1 ? '' : 's') : ''].filter(Boolean).join(' · ') || 'Nothing on it yet';
@@ -2378,7 +2399,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const cards = state.cards.filter(c => has([c.title, c.note, c.project, c.source].join(' '))).sort((a,b) => (a.status==='done') - (b.status==='done') || String(b.updatedAt||'').localeCompare(String(a.updatedAt||''))).slice(0, 5);
     const meets = state.meetings.filter(m => m.status!=='cancelled' && m.start && has([m.title].concat((m.attendees||[]).map(a => a.name)).join(' '))).map(m => ({m, d: new Date(m.end || m.start).getTime()})).filter(x => !isNaN(x.d) && x.d > now - 86400000).sort((a,b) => a.d - b.d).slice(0, 4).map(x => x.m);
     const notes = state.notes.filter(n => has([n.title, n.summary].concat(n.keyPoints||[], n.decisions||[], (n.actions||[]).map(a => a && a.text)).join(' '))).sort((a,b) => String(b.date||'').localeCompare(String(a.date||''))).slice(0, 4);
-    const mail = state.inbox.filter(m => m.threadUrl && has([m.subject, m.from, m.gist, m.ask].join(' '))).sort((a,b) => String(b.date||'').localeCompare(String(a.date||''))).slice(0, 3);
+    const mail = [];
     return {cards, meets, notes, mail}; }
   function quickFind(){ const host = $('#qFind'), ta = $('#qText'); if(!host || !ta) return; const lines = ta.value.split(/\r?\n/).map(s => s.trim()).filter(Boolean); const q = lines.length===1 ? lines[0] : ''; const f = q.length >= 2 ? findAll(q) : null;
     if(!f || !(f.cards.length + f.meets.length + f.notes.length + f.mail.length)){ host.innerHTML = ''; return; }
@@ -2397,6 +2418,15 @@ body.daydrag .dtrack{background:var(--surface-2)}
   function clubFold(e){ if(wideDay() || !e.target.closest) return false; const h = e.target.closest('.club > h2'); if(!h || e.target.closest('[data-cal-go]')) return false;
     state.tdOpen = state.tdOpen || {}; state.tdOpen.club = !state.tdOpen.club; h.parentElement.classList.toggle('open', !!state.tdOpen.club);
     const b = h.querySelector('.cfold'); if(b) b.setAttribute('aria-expanded', state.tdOpen.club ? 'true' : 'false'); return true; }
+
+  // ----- v9: to-dos are coloured by area (the card's own area, else its project's) -----
+  const AREA_AC = {Finance:'fin', Programs:'pro', People:'peo', Facilities:'fac', Scheduling:'sch', Systems:'sys', Board:'brd', Vendors:'ven', 'Media Day':'med'};
+  function areaOf(c){ if(!c) return ''; if(c.area && AREA_AC[c.area]) return c.area; const p = c.project ? (state.projectsMeta||[]).find(x => x.name===c.project) : null; return (p && AREA_AC[p.area]) ? p.area : ''; }
+  function acCls(c){ const a = areaOf(c); return ' ac' + (a ? ' ac-'+AREA_AC[a] : ''); }
+  function acTip(c){ const a = areaOf(c); return a ? ` title="${esc(a)}"` : ''; }
+  function areaKey(cards){ const n = {}; (cards||[]).forEach(c => { const a = areaOf(c); if(a) n[a] = (n[a]||0) + 1; });
+    const ks = Object.keys(n).sort((x,y) => n[y]-n[x] || x.localeCompare(y)); if(!ks.length) return '';
+    return `<div class="akey" role="note" aria-label="Colour key: to-dos are coloured by area">${ks.map(a => `<span class="ak ac ac-${AREA_AC[a]}"><i aria-hidden="true"></i>${esc(a)}</span>`).join('')}</div>`; }
   function briefItems(s){
     if(Array.isArray(s.brief) && s.brief.length) return {items: s.brief.map(b => typeof b==='string' ? {label:'', text:b} : {label:String(b.label||''), text:String(b.text||'')}).filter(b=>b.text), written:true};
     const h = String(s.headline||'').trim(); if(!h) return {items:[], written:false};
@@ -2683,7 +2713,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
 
   // ---------- events ----------
   function setFocus(k){ state.filters.focus = (state.filters.focus===k || k==='all') ? 'all' : k; savePrefs(); renderOverview(); renderFilters(); renderBoard(); renderList(); }
-  function setView(v){ state.view = v; savePrefs(); renderTabs(); syncHash(); if(v==='today') renderToday(); if(v==='notes') renderNotes(); if(v==='inbox') renderInbox(); if(v==='meetings') renderMeetings(); if(v==='sort') renderSort(); if(v==='week') renderWeek(); }
+  function setView(v){ if(v==='inbox') v = 'today'; state.view = v; savePrefs(); renderTabs(); syncHash(); if(v==='today') renderToday(); if(v==='notes') renderNotes(); if(v==='inbox') renderInbox(); if(v==='meetings') renderMeetings(); if(v==='sort') renderSort(); if(v==='week') renderWeek(); }
   function bind(){
     $('#tabToday').onclick = () => { setView('today'); window.scrollTo(0,0); };
     $('#tabSort').onclick = () => { setView('sort'); window.scrollTo(0,0); };
@@ -2896,7 +2926,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
 </script>
 <script>
 (function(){
-  var BUILD = 'abba3b5d99';
+  var BUILD = 'd44fc8e4cd';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet, #quickRoot .psheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }

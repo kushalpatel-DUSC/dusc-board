@@ -6,7 +6,7 @@ Usage:  python3 scripts/connect_candidates.py [--max 20]
 For every open card whose "connect" is {"state": "pending"} (the board sets that on cards KP adds from
 his quick list) it prints the card and its nearest neighbours among the board's own records:
   notes   meeting notes, with the exact lines that matched (a to-do, a decision, a key point)
-  emails  threads on the Reply list, open or handled
+  emails  threads recorded on the old Reply list in the last 30 days (retired 2026-11-27, so this runs dry)
   cards   his other open cards, as possible duplicates
 and the list of project names. Neighbours are found by shared words only, so most are wrong: whether
 one really is about the same piece of work is for the reader to judge.
@@ -85,7 +85,8 @@ def main():
             if isinstance(a, dict) and a.get('text'):
                 lines.append(('to-do' + (' for ' + a['owner'] if a.get('owner') and a['owner'] != 'TBD' else ''), a['text']))
         note_lines[nid] = [(k, str(t)) for k, t in lines if t]
-    mail_text = {mid: ' '.join(str(m.get(k) or '') for k in ('subject', 'from', 'gist', 'ask')) for mid, m in inbox.items()}
+    mail_text = {mid: ' '.join(str(m.get(k) or '') for k in ('subject', 'from', 'gist', 'ask')) for mid, m in inbox.items()
+                 if recent(m.get('date'), 30)}   # the Reply list was retired on 2026-11-27; what is left of it fades out
     other_cards = {cid: c for cid, c in cards.items() if c.get('status') in OPEN}
 
     # rarer words count for more
