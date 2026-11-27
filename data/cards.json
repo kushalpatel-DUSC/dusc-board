@@ -2294,7 +2294,7 @@
   "area": "Finance",
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "reimbursement-policies-system",
   "note": "From your own 'Things I need to fix' list.",
   "owner": "KP",
@@ -2307,11 +2307,12 @@
   "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Fix the reimbursement policies and the system for handling reimbursements",
-  "triage": "new",
-  "updatedAt": "2026-11-27T10:51:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-27T21:15:12.621Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "reporting-workflow-automation": {
   "area": "Systems",
