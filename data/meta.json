@@ -8,6 +8,55 @@
   "total": 159,
   "updatedAt": "2026-11-25T10:47:44Z"
  },
+ "dayplan": {
+  "at": "2026-11-27T16:48:16Z",
+  "date": "2026-11-27",
+  "items": [
+   {
+    "cardId": "finance-role-requirements",
+    "mins": 60,
+    "start": "12:00",
+    "why": "Due today, ahead of the December interviews"
+   },
+   {
+    "cardId": "classic-tournament-cancel-oumou",
+    "mins": 15,
+    "start": "13:15",
+    "why": "Urgent: decided Nov 24, tournament is Dec 12–13"
+   },
+   {
+    "cardId": "open-enrollment-staff-notice",
+    "mins": 30,
+    "start": "13:30",
+    "why": "Urgent: staff need the enrollment dates"
+   },
+   {
+    "cardId": "c-mwr67yeu-r35oa",
+    "mins": 30,
+    "start": "14:15",
+    "why": "Urgent and overdue since Nov 22"
+   },
+   {
+    "cardId": "adv-camp-gustavo-group",
+    "mins": 15,
+    "start": "15:00",
+    "why": "Due today; a short scheduling email"
+   }
+  ],
+  "later": [
+   {
+    "cardId": "supply-db-rent-free-spaces",
+    "date": "2026-12-03",
+    "why": "Ready for Friday's Fields Committee meeting"
+   },
+   {
+    "cardId": "leo-expectations-followup",
+    "date": "2026-12-01",
+    "why": "Before Wednesday's Ops call"
+   }
+  ],
+  "summary": "No meetings today; the 2:00 finance call is cancelled. Finish the finance role requirements, due today, and get the Classic tournament and open enrollment messages out before the weekend."
+ },
  "inbox": {
   "added": 1,
   "cardsAdded": 0,
@@ -116,7 +165,7 @@
     "text": "Write down what Andy and Paul decided on Wednesday; Gemini produced no notes and today's 2:00 call was cancelled."
    }
   ],
-  "cardsAdded": 5,
+  "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
    {
@@ -221,10 +270,10 @@
    }
   ],
   "headline": "Monday is the crunch: the 1:00 audit draft review, then Nirmala and Kyle back to back. Read the draft, get Andy financials that tie to it, and send the three agenda emails.",
-  "lastRun": "2026-11-27T10:51:21Z",
+  "lastRun": "2026-11-27T16:48:16Z",
   "lastRunStatus": "ok",
   "meetingsRefreshed": 13,
-  "notesScanned": 47,
+  "notesScanned": 46,
   "themes": [
    {
     "name": "Deficit and forecast",
