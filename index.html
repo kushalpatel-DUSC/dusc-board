@@ -1238,6 +1238,25 @@ body.daydrag .dtrack{background:var(--surface-2)}
 
 .qbar .k{flex:none;font-size:12px;color:var(--muted);border:1px solid var(--line-2);border-radius:6px;padding:1px 6px}
 @media (max-width:899px){ .qbar .k{display:none} }
+
+/* ---------- v8: a simpler phone ---------- */
+.club .cfold{display:none}
+.cfold .chev{display:block;width:8px;height:8px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:rotate(45deg);transition:transform .15s}
+.dl-b span.dl-br{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:3px;font-size:12.5px;line-height:1.4;opacity:.85}
+@media (max-width:899px){
+  .t2 .rsec{display:none}
+  .t2 .nexts.dup,.t2 .colN.dupOnly{display:none}
+  .t2 .club > h2{min-height:48px;padding-bottom:0;border-bottom:1px solid var(--line);cursor:pointer}
+  .t2 .club.open > h2{border-bottom:0}
+  .t2 .club .cfold{display:inline-flex;align-items:center;justify-content:flex-end;width:44px;height:44px;min-height:44px;margin-left:auto;padding:0 2px 4px 0}
+  .t2 .club.open > h2 .cfold{margin-left:2px}
+  .t2 .club.open .cfold .chev{transform:rotate(-135deg)}
+  .t2 .club:not(.open) > h2 [data-cal-go]{display:none}
+  .t2 .club:not(.open) .cbody{display:none}
+}
+@media (max-width:980px){
+  #viewBoard .card .note,#viewBoard .card .card-meta .rz{display:none}
+}
 </style>
 </head>
 <body>
@@ -1626,9 +1645,10 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const triRow = c => `<div class="trow tri"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.project||'', c.source||''].filter(Boolean).join(' · '))}</div>${whenChips(c, true)}</div></div>`;
     const tray = nc.length ? `<section class="tray"><details ${state.tdOpen.newc?'open':''}><summary data-td-sec="newc">New from your notes <span class="c">${nc.length}</span><span class="rv">Review</span><span class="chev"></span></summary>${nc.map(triRow).join('')}<div class="bulk"><button class="hb" data-tri-all="drop" type="button">Dismiss all</button><button class="hb keep" data-tri-all="keep" type="button">Keep all ${nc.length}, no date</button></div></details></section>` : '';
     const show2 = (mm ? left.filter(x => x.eventId!==mm.eventId) : show).slice(0, 1);
+    const dupNext = !!(show2.length && !(mmHidden && !mm) && !state.dayShown && isoDay(new Date(show2[0].start))===t && dayItems(t).some(it => it.kind==='m' && it.id===show2[0].eventId));
     host.classList.toggle('nonext', !(show2.length || mm));
     host.innerHTML = `
-      ${(mm || show2.length)?`<div class="col colN">${mm ? mmHTML(mm) : ''}${show2.length?`<section class="nexts"><h2>${mm ? 'Later today' : 'Next meeting'}${mmHidden && !mm ? `<button data-mm-show type="button">Back to meeting mode</button>` : `<button data-td-go="meetings">All meetings →</button>`}</h2><div class="nlist">${show2.map(nextHTML).join('')}</div></section>`:''}</div>`:''}
+      ${(mm || show2.length)?`<div class="col colN${!mm && dupNext ? ' dupOnly' : ''}">${mm ? mmHTML(mm) : ''}${show2.length?`<section class="nexts${dupNext ? ' dup' : ''}"><h2>${mm ? 'Later today' : 'Next meeting'}${mmHidden && !mm ? `<button data-mm-show type="button">Back to meeting mode</button>` : `<button data-td-go="meetings">All meetings →</button>`}</h2><div class="nlist">${show2.map(nextHTML).join('')}</div></section>`:''}</div>`:''}
       <div class="col colA">
         ${quickBar()}
         ${sortLine()}
@@ -1637,7 +1657,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
       </div>
       <div class="col colB">
         ${dayCal()}
-        <section><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
+        <section class="rsec"><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
           ${old.length?`<details ${state.tdOpen.oldmail?'open':''}><summary data-td-sec="oldmail">Older than a week <span class="c">${old.length}</span><span class="chev"></span></summary>${old.map(mailRow).join('')}<div class="bulk"><button class="hb" data-clear-old type="button">Mark all ${old.length} as done</button></div></details>`:''}</section>
         ${clubHTML()}
       </div>
@@ -1653,7 +1673,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const v = state.view; document.body.dataset.view = v;
     const pt = $('#pgTitle'), ps = $('#pgSub'); if(!pt) return;
     const d = new Date(); let title = {board:'Board', notes:'Notes', inbox:'Reply', meetings:'Meetings', sort:'Sort', week:'Week'}[v] || '', sub = '';
-    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', c.mail+' '+(c.mail===1?'reply':'replies')].filter(Boolean).join(' · '); }
+    if(v==='today'){ title = DAYS_FULL[d.getDay()]+', '+MONTHS[d.getMonth()]+' '+d.getDate(); const c = todayCounts(); sub = [c.late?c.late+' overdue':'', c.now+' today', (window.matchMedia('(max-width: 899px)').matches ? '' : c.mail+' '+(c.mail===1?'reply':'replies'))].filter(Boolean).join(' · '); }
     else if(v==='board'){ const o = state.cards.filter(isOpen).length; if(state.boardMode==='projects'){ title = 'Projects'; sub = projectList().length+' projects · '+o+' open cards'; } else sub = o+' open'; }
     if(v==='meetings' && state.meetMode==='calendar'){ const cal = state.calendar||[]; title = 'Club calendar'; sub = cal.filter(e=>e.start).length+' dates · '+cal.filter(e=>!e.start).length+' still to set'; }
     else if(v==='inbox'){ const c = todayCounts(); sub = c.mail+' this week'+(c.oldMail?' · '+c.oldMail+' older':''); }
@@ -1737,7 +1757,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
       <div class="card-top">${CHECK(c)}<span class="owner" style="--o:${OWNER_COLORS[o]||''}">${esc(o)}</span>${c.area?`<span class="tag">${esc(c.area)}</span>`:''}${isUrgent(c)?`<span class="tag flag">Urgent</span>`:''}${c.sourceKind==='email'?`<span class="tag mail">Email</span>`:''}${PIN(c)}</div>
       <h3>${esc(c.title)}</h3>
       ${(c.note||connCtx(c))?`<div class="note">${esc(c.note||connCtx(c))}</div>`:''}
-      <div class="card-meta">${c.status==='waiting'?`<span class="wait${waitDays(c)>=7?' long':''}">${esc(waitLabel(c))}</span>`:''}${c.due && isOpen(c)?`<span class="due ${dc}">${esc(dueLabel(c.due))}</span>`:''}${c.raised?`<span>raised ${esc(fmtDate(c.raised))}</span>`:''}${c.status==='done'&&c.doneAt?`<span>done ${esc(fmtDate(c.doneAt))}</span>`:''}${srcHTML(c)}</div>
+      <div class="card-meta">${c.status==='waiting'?`<span class="wait${waitDays(c)>=7?' long':''}">${esc(waitLabel(c))}</span>`:''}${c.due && isOpen(c)?`<span class="due ${dc}">${esc(dueLabel(c.due))}</span>`:''}${c.raised?`<span class="rz">raised ${esc(fmtDate(c.raised))}</span>`:''}${c.status==='done'&&c.doneAt?`<span>done ${esc(fmtDate(c.doneAt))}</span>`:''}${srcHTML(c)}</div>
     </article>`;
   }
   function renderBoard(){
@@ -1936,7 +1956,8 @@ body.daydrag .dtrack{background:var(--surface-2)}
     return (state.calendar||[]).filter(e => e.start && (e.end||e.start) >= t && e.start <= lim).sort((a,b) => eff(a).localeCompare(eff(b)) || (a.order||0)-(b.order||0)); }
   function clubHTML(){ if(!(state.calendar||[]).length) return ''; const ev = calUpcoming(14); const t = isoDay(new Date());
     const row = e => `<div class="crow"><span class="cd${e.start<=t?' now':''}">${esc(e.start < t ? 'Until '+fmtDate(e.end||e.start) : calSpan(e))}</span><span class="ct">${esc(e.title)}<span class="cs">${esc([e.section!=='General' ? e.section : '', e.group, e.draft ? 'Draft' : ''].filter(Boolean).join(' · '))}</span></span></div>`;
-    return `<section class="club"><h2>Club dates <span class="c">${ev.length}</span><button data-cal-go type="button">Calendar →</button></h2>${ev.length ? ev.slice(0,8).map(row).join('') : `<div class="empty-line">Nothing on the club calendar in the next 2 weeks.</div>`}${ev.length>8?`<div class="empty-line">+ ${ev.length-8} more on the calendar</div>`:''}</section>`; }
+    const op = !!(state.tdOpen && state.tdOpen.club);
+    return `<section class="club${op ? ' open' : ''}"><h2>Club dates <span class="c">${ev.length}</span><button data-cal-go type="button">Calendar →</button><button type="button" class="cfold" aria-expanded="${op ? 'true' : 'false'}" aria-label="Show or hide club dates"><span class="chev" aria-hidden="true"></span></button></h2><div class="cbody">${ev.length ? ev.slice(0,8).map(row).join('') : `<div class="empty-line">Nothing on the club calendar in the next 2 weeks.</div>`}${ev.length>8?`<div class="empty-line">+ ${ev.length-8} more on the calendar</div>`:''}</div></section>`; }
   function renderCalendar(){
     const host = $('#calView'); if(!host) return; document.body.dataset.meetmode = state.meetMode || 'meetings';
     if(!(state.view==='meetings' && state.meetMode==='calendar')) return;
@@ -2252,8 +2273,10 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const now = (day===t && !opt.fixed && nowM >= h0*60 && nowM <= h1*60) ? `<div class="dnow" style="top:${px(nowM)}px" aria-hidden="true"></div>` : '';
     return `<div class="dgrid" style="height:${(h1-h0)*DH}px">${hrs.join('')}<div class="dtrack" ${opt.fixed ? '' : `data-day-track="${esc(day)}" data-h0="${h0}"`}>${items.map(blk).join('')}${now}<div class="dghost" hidden></div></div></div>`; }
   function dayListHTML(day, items){ if(!items.length) return `<div class="empty-line">Nothing has a time ${day===isoDay(new Date()) ? 'today' : 'that day'} yet.</div>`;
+    const nowD = new Date(), nowM = nowD.getHours()*60 + nowD.getMinutes(), nx = day===isoDay(nowD) ? items.find(it => it.kind==='m' && it.e > nowM) : null;
     return `<div class="dlist">${items.map(it => { const tm = `<span class="dl-t">${esc(fmtMin(it.s))}</span>`;
-      if(it.kind==='m'){ const ag = (it.m.agenda||[]).filter(a=>!a.done).length; return `<div class="dl-row">${tm}<button type="button" class="dl-b m" data-day-meet="${esc(it.id)}"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e)+(ag ? ' · '+ag+' on the agenda' : ''))}</span></button></div>`; }
+      if(it.kind==='m'){ const ag = (it.m.agenda||[]).filter(a=>!a.done).length; const pr = it.m.prep || {}; const br = it===nx ? (pr.oneLine || (pr.highlights||[])[0] || '') : '';
+        return `<div class="dl-row">${tm}<button type="button" class="dl-b m" data-day-meet="${esc(it.id)}"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e)+(ag ? ' · '+ag+' on the agenda' : ''))}</span>${br ? `<span class="dl-br">${esc(br)}</span>` : ''}</button></div>`; }
       return `<div class="dl-row">${tm}<div class="dl-b c${it.c.status==='done'?' done':''}" data-open="${esc(it.id)}">${CHECK(it.c)}<div class="tx"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e))}</span></div></div></div>`; }).join('')}</div>`; }
   function dayCal(){ const t = isoDay(new Date()), day = state.dayShown || t; const items = layCols(dayItems(day)), d = parseISO(day);
     const label = day===t ? 'Today' : (day===shiftDay(t, 1) ? 'Tomorrow' : DAYS_FULL[d.getDay()]); const nM = items.filter(x=>x.kind==='m').length, nC = items.filter(x=>x.kind==='c').length;
@@ -2369,6 +2392,11 @@ body.daydrag .dtrack{background:var(--surface-2)}
     if(kind==='card'){ const c = state.cards.find(x => x.id===id); if(c) openDrawer(c); return; }
     if(kind==='meet'){ openMeetingCard(id); return; }
     if(kind==='note'){ state.noteOpen = state.noteOpen || {}; state.noteOpen[id] = true; goClub('notes'); setTimeout(() => { const el = document.querySelector('#viewNotes details[data-note="'+CSS.escape(id)+'"]'); if(el){ el.open = true; el.scrollIntoView({block:'start'}); window.scrollBy(0, -90); } }, 80); } }
+
+  // ----- v8: on a phone Club dates is a fold (closed until tapped) -----
+  function clubFold(e){ if(wideDay() || !e.target.closest) return false; const h = e.target.closest('.club > h2'); if(!h || e.target.closest('[data-cal-go]')) return false;
+    state.tdOpen = state.tdOpen || {}; state.tdOpen.club = !state.tdOpen.club; h.parentElement.classList.toggle('open', !!state.tdOpen.club);
+    const b = h.querySelector('.cfold'); if(b) b.setAttribute('aria-expanded', state.tdOpen.club ? 'true' : 'false'); return true; }
   function briefItems(s){
     if(Array.isArray(s.brief) && s.brief.length) return {items: s.brief.map(b => typeof b==='string' ? {label:'', text:b} : {label:String(b.label||''), text:String(b.text||'')}).filter(b=>b.text), written:true};
     const h = String(s.headline||'').trim(); if(!h) return {items:[], written:false};
@@ -2701,6 +2729,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => { const g = x.dataset.go; if(g==='people'){ state.noteMode = 'people'; setView('notes'); } else if(g==='calendar'){ state.meetMode = 'calendar'; setView('meetings'); renderCalendar(); } else { if(g==='notes' && state.noteMode==='people') state.noteMode = 'notes'; if(g==='meetings') state.meetMode = 'meetings'; setView(g); renderCalendar(); } }; });
     $('#viewToday').addEventListener('click', e => {
       if(dayClick(e)) return;
+      if(clubFold(e)) return;
       const mh = e.target.closest('[data-mm-hide]'); if(mh){ state.mmOff = {...(state.mmOff||{}), [mh.dataset.mmHide]: true}; state.mmPick = null; renderToday(); return; }
       if(e.target.closest('[data-mm-show]')){ state.mmOff = {}; renderToday(); window.scrollTo(0,0); return; }
       const mp = e.target.closest('[data-mm-pick]'); if(mp){ state.mmPick = mp.dataset.mmPick; renderToday(); return; }
@@ -2867,7 +2896,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
 </script>
 <script>
 (function(){
-  var BUILD = 'fe62584a7e';
+  var BUILD = 'abba3b5d99';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet, #quickRoot .psheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
