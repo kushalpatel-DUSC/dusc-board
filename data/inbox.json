@@ -814,19 +814,19 @@
  },
  "1a1d68f21eadcabd-1a20fc92088e2838": {
   "area": "People",
-  "ask": "Settle with Nirmala and Kristen today who sends the staff notice and what it says (timing, plans, how to enroll), since Paul wants it out Friday 11/27, and confirm Monday 3pm ET works for the Paychex call.",
+  "ask": "Agree with Nirmala, Kristen and Paul today what the staff notice says if the Paychex materials do not arrive (dates, Monday 3pm ET call, how to enroll), so it still goes out Friday 11/27.",
   "cardId": "open-enrollment-staff-notice",
   "createdAt": "2026-11-24T23:10:08Z",
-  "date": "2026-11-27T04:01:39Z",
+  "date": "2026-11-27T13:57:00Z",
   "due": "2026-12-04",
-  "from": "Paul Sowell",
-  "gist": "Open enrollment (Phase 2) is open, medical only for 2027, and may close Dec 4. Paul has now written to Paychex, Nirmala, Kristen and you: Monday Nov 30 looks like the only option for the staff plan-review call and he proposes 3pm ET. He asks again who sends the staff communication, Paychex or DUSC, says something with the timing, the plans and how to enroll must go out Friday 11/27, and is worried staff will not have reviewed anything by Monday over the holiday weekend.",
+  "from": "Nirmala Singh",
+  "gist": "Open enrollment (Phase 2) is open, medical only for 2027, and may close Dec 4. Paul proposed Monday Nov 30 at 3pm ET for the Paychex plan-review call and said something on timing, plans and how to enroll must go to staff Friday 11/27. Nirmala answered Paul this morning: Paychex does not write to employees, DUSC has to send it, Kristen is ready to, but the materials have still not arrived; she asked Paul what Kristen should send if they do not come today.",
   "kind": "action",
   "status": "open",
   "subject": "Medical Plans",
   "threadId": "1a1d68f21eadcabd",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1881775608416815805",
-  "updatedAt": "2026-11-27T11:12:00Z",
+  "updatedAt": "2026-11-27T15:07:14Z",
   "userEdited": false
  },
  "1a1d87535a4cb0d7": {
@@ -1304,19 +1304,19 @@
  },
  "1a214702fdf4c086": {
   "area": "People",
-  "ask": "Nothing needed from you yet; Andy copied you in and the open question (effective date) is put to Andy. You may want to check the revised contract when Jason sends it.",
+  "ask": "Nothing needed from you; you are copied and the effective date is Jason's call. You may want to check the revised contract when Jason sends it.",
   "cardId": null,
   "createdAt": "2026-11-25T21:07:44Z",
-  "date": "2026-11-25T20:46:28Z",
+  "date": "2026-11-27T13:31:38Z",
   "due": null,
-  "from": "Jason Orban",
-  "gist": "Jason sent Andy a revised coaching contract for a coach who is dropping his MLS NEXT assistant role; Andy added you to the thread and asked about the effective date, the revised amount and who replaces him. Jason answered that the role is not being replaced for now and asked Andy whether the change should take effect Nov 30 or Dec 1; he will send the amended version on the thread once he hears back.",
+  "from": "Andy Scruton",
+  "gist": "Jason sent Andy a revised coaching contract for a coach who is dropping his MLS NEXT assistant role; Andy added you to the thread. The role is not being replaced for now. Andy has now left the effective date to Jason and noted that Kristen needs to know today if the change is to be in the 11/30 payroll, otherwise it goes into 12/15. Jason will send the amended version on the thread.",
   "kind": "fyi",
   "status": "open",
   "subject": "Abrahim Adewunmi, Revised Contract",
   "threadId": "1a214702fdf4c086",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882864197393760390",
-  "updatedAt": "2026-11-25T21:07:44Z",
+  "updatedAt": "2026-11-27T15:07:14Z",
   "userEdited": false
  },
  "1a214eaaf1680867": {
@@ -1351,6 +1351,23 @@
   "threadId": "1a2153c440dc1728",
   "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882878221584439080",
   "updatedAt": "2026-11-26T01:12:00Z",
+  "userEdited": false
+ },
+ "1a21b0dc2795a29e": {
+  "area": "Finance",
+  "ask": "Reply to Andy on how the sheet gets refreshed from PlayMetrics, and on who drafts the age-group plan for roster additions and the policy for non-paying players.",
+  "cardId": null,
+  "createdAt": "2026-11-27T15:07:14Z",
+  "date": "2026-11-27T13:54:45Z",
+  "due": null,
+  "from": "Andy Scruton",
+  "gist": "Andy has looked at the roster adjustment sheet you shared and calls it the right tracking tool, with registrant counts and no dollar figures. He hopes it can be updated easily from PlayMetrics, and says the next step is a targeted plan for each Boys/Girls age group that needs roster additions, plus a cleaned-up policy for SFA and registered non-paying players (his view: everyone pays something, $500 being the historical amount, with few exceptions).",
+  "kind": "reply",
+  "status": "open",
+  "subject": "Roster Adjustment sheet with finance columns",
+  "threadId": "1a21b0dc2795a29e",
+  "threadUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-f:1882980578820989598",
+  "updatedAt": "2026-11-27T15:07:14Z",
   "userEdited": false
  }
 }
