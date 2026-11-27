@@ -58,17 +58,17 @@
   "summary": "No meetings today; the 2:00 finance call is cancelled. Finish the finance role requirements, due today, and get the Classic tournament and open enrollment messages out before the weekend."
  },
  "inbox": {
-  "added": 2,
+  "added": 0,
   "cardsAdded": 0,
   "cleared": 0,
   "connectChecked": 0,
   "connected": 0,
   "flagged": 19,
-  "lastRun": "2026-11-27T17:06:41Z",
+  "lastRun": "2026-11-27T19:06:29Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 21
+  "scanned": 9
  },
  "prework": {
   "createdAt": "2026-11-25T03:20:14Z",
