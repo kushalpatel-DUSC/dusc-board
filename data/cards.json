@@ -61,7 +61,7 @@
  "accounting-support-ask-andy-paul": {
   "area": "Finance",
   "createdAt": "2026-11-24T20:50:26Z",
-  "doneAt": null,
+  "doneAt": "2026-11-27T03:35:18.119Z",
   "due": null,
   "id": "accounting-support-ask-andy-paul",
   "note": "Nirmala asked for about 10 hours a week for credit cards, 1099s, vendors and QuickBooks; likely a board decision for January.",
@@ -73,13 +73,13 @@
   "raised": "2026-11-24",
   "source": "Recurring Finance meeting — Nov 24 (Gemini)",
   "sourceUrl": "https://docs.google.com/document/d/1tBnTcpprg46XtzaYn-ZhXctZiMfxIKWqFVcXVOOTtqc/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "waiting",
+  "status": "done",
   "title": "Ask Andy and Paul about hiring part-time accounting support for year-end",
   "triage": null,
-  "updatedAt": "2026-11-25T04:11:27.527Z",
+  "updatedAt": "2026-11-27T03:35:18.119Z",
   "userEdited": true,
-  "waitingOn": "Andy + Paul",
-  "waitingSince": "2026-11-25T04:11:19.680Z"
+  "waitingOn": null,
+  "waitingSince": null
  },
  "adidas-invoice": {
   "area": "Vendors",
