@@ -1286,7 +1286,7 @@
   "area": "Facilities",
   "createdAt": "2026-11-20T23:06:38Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "immaculate-conception-winter-bookings",
   "note": "Ballroom: Girls U14 on Thursday nights and Girls U11 on Friday nights; Girls U9 and U10 Blue on Mondays and Wednesdays 5:00–6:30.",
   "owner": "KP",
@@ -1299,10 +1299,11 @@
   "sourceUrl": "https://docs.google.com/document/d/1cCHfE4-6xwNe9LCiBz5G8K-B_hyQ2ve_OxOmSSwkiYE/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Secure the gym and ballroom at Immaculate Conception for the winter training sessions",
-  "updatedAt": "2026-11-20T23:06:38Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-27T21:18:08.172Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "indoor-space-budget-total": {
   "area": "Finance",
