@@ -848,8 +848,10 @@
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
   "status": "todo",
   "title": "KP and Mal to set up meeting with the Criollo Bros (schools programs)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-27T03:31:55.867Z",
+  "userEdited": true,
+  "later": true,
+  "laterAt": "2026-11-27T03:31:55.867Z"
  },
  "email-gabi-ajami": {
   "area": "Programs",
