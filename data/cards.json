@@ -265,7 +265,7 @@
   "area": "Systems",
   "createdAt": "2026-11-24T20:50:26Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "billcom-review-january",
   "note": "About $337 a month on an annual plan, with no onboarding cost or cancellation penalty; talk again after Thanksgiving.",
   "owner": "KP",
@@ -279,10 +279,11 @@
   "status": "todo",
   "title": "Review the Bill.com deck and costs from Nirmala and decide whether to start in January",
   "triage": null,
-  "updatedAt": "2026-11-25T00:05:54.451Z",
+  "updatedAt": "2026-11-27T21:18:09.965Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "bmcc-indoor": {
   "area": "Facilities",
@@ -469,7 +470,7 @@
   "area": null,
   "createdAt": "2026-11-18T01:25:01.445Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "c-mwlfvkau-mmhwk",
   "note": null,
   "owner": "KP",
@@ -482,10 +483,11 @@
   "sourceUrl": null,
   "status": "todo",
   "title": "Reach out to Media Group to sort out Winter Registrations",
-  "updatedAt": "2026-11-18T01:25:01.445Z",
+  "updatedAt": "2026-11-27T21:18:11.266Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "c-mwlgl014-ihksl": {
   "area": null,
@@ -1309,7 +1311,7 @@
   "area": "Finance",
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "indoor-space-budget-total",
   "note": "Thompson St, Charlton, St. Luke's, Immaculate Conception and the rest; Mal is forwarding last year's contracts.",
   "owner": "KP",
@@ -1322,10 +1324,11 @@
   "sourceUrl": "https://docs.google.com/document/d/13IW3tMS0oKvPntPj8vXqA5-p6_dI7hKrfCJv25YLxQE/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Put together the full winter indoor space budget over the break: every contract, hours and cost",
-  "updatedAt": "2026-11-24T19:07:18Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-27T21:18:12.588Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "jesse-friday-space-call-invite": {
   "area": "Scheduling",
