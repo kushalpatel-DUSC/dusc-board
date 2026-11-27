@@ -1692,8 +1692,10 @@
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
   "status": "todo",
   "title": "Separate call on NEST",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-27T03:32:02.062Z",
+  "userEdited": true,
+  "later": true,
+  "laterAt": "2026-11-27T03:32:02.062Z"
  },
  "nirmala-930-reconciliation-sources": {
   "area": "Finance",
