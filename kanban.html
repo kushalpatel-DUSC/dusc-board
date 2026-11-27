@@ -1134,6 +1134,110 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
 .cnbox .lk .x:hover{color:var(--fg);background:var(--surface-2)}
 .cnbox .sg{display:flex;flex-wrap:wrap;gap:6px}
 .cnbox .sg .hb{margin-left:0}
+
+/* ---------- v7: day calendar, timed to-dos, plan my day, find ---------- */
+.daycal{display:flex;flex-direction:column;gap:10px;min-width:0}
+.t2 .daycal h2 .dnav{margin-left:auto;display:inline-flex;align-items:center;gap:4px}
+.t2 .daycal h2 .dnav button{margin-left:0;min-width:36px;min-height:36px;padding:0 10px;border:1px solid var(--line-2);border-radius:9px;color:var(--fg);font-size:13px;font-weight:500;letter-spacing:0;text-transform:none}
+.t2 .daycal h2 .dnav button[disabled]{opacity:.45}
+.dhead{display:flex;align-items:center;gap:10px}
+.dh-t{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.dh-t b{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:19px;line-height:1.2;color:var(--fg)}
+.dh-t span{font-size:12.5px;color:var(--muted)}
+.dhead .hb{min-height:40px;padding:6px 14px;background:var(--bg)}
+.dgrid{position:relative;border:1px solid var(--line);border-radius:14px;background:var(--surface-solid);overflow:hidden}
+.dhr{height:52px;box-sizing:border-box;border-top:1px solid var(--line)}
+.dhr:first-child{border-top:0}
+.dhr span{display:block;width:54px;padding:3px 8px 0 0;box-sizing:border-box;text-align:right;font-size:11.5px;color:var(--muted)}
+.dtrack{position:absolute;left:56px;right:8px;top:0;bottom:0}
+.dblk{position:absolute;box-sizing:border-box;border-radius:8px;padding:5px 9px;font-size:12.5px;line-height:1.25;overflow:hidden;text-align:left;display:flex;flex-direction:column;gap:1px}
+.dblk b{font-weight:600;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.dblk span{opacity:.92;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dblk.md b{-webkit-line-clamp:1}
+.dblk.sm{flex-direction:row;align-items:center;gap:8px;padding:1px 9px}
+.dblk.sm b{display:block;white-space:nowrap;text-overflow:ellipsis;flex:0 1 auto;min-width:0}
+.dblk.sm span{flex:none}
+.dblk.m{background:var(--panel);color:var(--panel-fg);cursor:pointer}
+.dblk.c{background:var(--accent-soft);color:var(--fg);border:1px solid var(--accent-line);border-left:3px solid var(--accent);cursor:grab}
+.dblk.c.done{opacity:.55}
+.dblk.c.done b{text-decoration:line-through}
+.dblk.p{border:1.5px dashed var(--accent);background:var(--accent-soft);color:var(--fg)}
+.dblk.dragging,.trow.dragging{opacity:.4}
+.dnow{position:absolute;left:-6px;right:0;height:0;border-top:2px solid var(--accent);pointer-events:none;z-index:2}
+.dnow::before{content:"";position:absolute;left:-2px;top:-5px;width:8px;height:8px;border-radius:99px;background:var(--accent)}
+.dghost{position:absolute;left:0;right:0;box-sizing:border-box;border:1.5px dashed var(--accent);border-radius:8px;background:var(--accent-soft);color:var(--fg);font-size:12px;font-weight:600;padding:3px 9px;pointer-events:none;z-index:3}
+body.daydrag .dtrack{background:var(--surface-2)}
+.dnarrow{display:none}
+.dlist{display:flex;flex-direction:column;gap:6px}
+.dl-row{display:flex;align-items:stretch;gap:10px}
+.dl-t{flex:none;width:60px;padding-top:11px;text-align:right;font-size:12.5px;color:var(--muted)}
+.dl-b{flex:1;min-width:0;display:flex;align-items:center;gap:2px;min-height:52px;border-radius:12px;padding:6px 12px;text-align:left;box-sizing:border-box}
+.dl-b b{display:block;font-size:14.5px;font-weight:600;line-height:1.3}
+.dl-b span{display:block;font-size:12.5px;opacity:.92}
+.dl-b.m{background:var(--panel);color:var(--panel-fg);flex-direction:column;align-items:flex-start;justify-content:center;gap:1px}
+.dl-b.c{background:var(--accent-soft);border:1px solid var(--accent-line);border-left:3px solid var(--accent);color:var(--fg);padding:2px 12px 2px 0;cursor:pointer}
+.dl-b.c .check{width:44px;height:44px;flex:none;margin:0}
+.dl-b.c .tx{flex:1;min-width:0}
+.dl-b.c.done{opacity:.55}
+.trow .tmb{display:none}
+@media (min-width:900px){
+  .trow .tmb{display:inline-grid;place-items:center;padding:6px 9px;margin-left:4px}
+  .trow[draggable="true"]{cursor:grab}
+}
+@media (max-width:899px){
+  .dwide{display:none}
+  .dnarrow{display:block}
+  .t2 .colB{display:contents}
+  .t2 .colN{order:-2}
+  .t2 .daycal{order:-1}
+}
+
+/* set a time; plan the day */
+.tp-title{font-size:15.5px;font-weight:500;line-height:1.35;color:var(--fg)}
+.qsheet .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.psheet{position:fixed;z-index:22;left:50%;top:5vh;transform:translateX(-50%);width:min(1080px,calc(100% - 32px));max-height:90vh;box-sizing:border-box;background:var(--bg-2);border:1px solid var(--line);border-radius:16px;padding:16px 18px 14px;display:flex;flex-direction:column;gap:12px}
+.pl-body{flex:1;min-height:0;overflow:auto;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(280px,.8fr);gap:22px;align-items:start}
+.pl-main{display:flex;flex-direction:column;gap:16px;min-width:0}
+.pl-main section{display:flex;flex-direction:column}
+.psheet h3{margin:0 0 6px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.psheet h3 .c{font-weight:500}
+.psheet p{margin:0;font-size:14.5px;line-height:1.45;color:var(--fg)}
+.psheet .mu{color:var(--muted);font-size:12.5px}
+.pl-box{border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.pl-box.warn{border-color:var(--accent-line);background:var(--accent-soft)}
+.pl-row{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}
+.pl-row input[type="checkbox"]{flex:none;width:20px;height:20px;margin:10px 4px 0 2px;accent-color:var(--accent)}
+.pl-row label{flex:1;min-width:0;padding-top:8px;display:flex;flex-direction:column;gap:2px;cursor:pointer}
+.pl-row label b{font-size:15px;font-weight:500;line-height:1.3;color:var(--fg)}
+.pl-row label span{font-size:12.5px;color:var(--muted)}
+.pl-t{flex:none;display:flex;gap:6px;align-items:center}
+.pl-t input,.pl-t select{min-height:40px;padding:0 8px;border:1px solid var(--line-2);border-radius:9px;background:var(--bg);color:var(--fg);font:inherit;font-size:14px}
+.pl-side{position:sticky;top:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.psheet .qs-foot .pl-src{flex:1 1 260px;min-width:0}
+@media (max-width:899px){
+  .psheet{left:8px;right:8px;top:calc(env(safe-area-inset-top,0px) + 8px);transform:none;width:auto;max-height:calc(100dvh - 16px - env(safe-area-inset-top,0px));padding:12px 14px}
+  .pl-body{grid-template-columns:minmax(0,1fr)}
+  .pl-side{display:none}
+  .pl-row{flex-wrap:wrap}
+  .pl-t{margin-left:34px;width:calc(100% - 34px)}
+  .pl-t input,.pl-t select{font-size:16px}
+  .psheet .qs-foot .pl-src{flex:1 0 100%}
+}
+
+/* the quick list also finds what is already there */
+.qs-find{display:flex;flex-direction:column;gap:8px}
+.qs-find:empty{display:none}
+.qf-h{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.qf-g{display:flex;flex-direction:column}
+.qf-g h3{margin:0 0 2px;font-size:12px;color:var(--muted);font-weight:600}
+.qf-r{display:flex;align-items:baseline;gap:10px;width:100%;min-height:40px;padding:8px 10px;border-radius:9px;text-align:left;color:var(--fg);text-decoration:none;box-sizing:border-box}
+.qf-r:hover,.qf-r:focus-visible{background:var(--surface-2)}
+.qf-r b{flex:1;min-width:0;font-weight:500;font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qf-r span{flex:none;font-size:12.5px;color:var(--muted)}
+.qf-r.done b{text-decoration:line-through;color:var(--muted)}
+
+.qbar .k{flex:none;font-size:12px;color:var(--muted);border:1px solid var(--line-2);border-radius:6px;padding:1px 6px}
+@media (max-width:899px){ .qbar .k{display:none} }
 </style>
 </head>
 <body>
@@ -1331,7 +1435,7 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
     state.inbox = Object.entries(DATA.inbox).map(([id,m])=>({...m, id}));
     state.meetings = Object.entries(DATA.meetings).map(([id,m])=>({...m, eventId: m.eventId||id}));
     state.series = Object.entries(DATA.series).map(([k,s])=>({...s, key: s.key||k}));
-    state.sync = DATA.meta.sync||null; state.mailSync = DATA.meta.inbox||null;
+    state.sync = DATA.meta.sync||null; state.dayplan = DATA.meta.dayplan||null; state.mailSync = DATA.meta.inbox||null;
     state.calendar = Object.values(DATA.calendar||{}); state.calMeta = DATA.meta.calendar||null; state.projectsMeta = ((DATA.meta.projects||{}).items)||[];
   }
   const uid = () => 'c-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7);
@@ -1493,9 +1597,10 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
   function tdSec(title, items, cls, empty){ if(!items.length && !empty) return ''; return `<div class="td-sec glass"><h3 class="${cls||''}">${esc(title)} <span class="c">${items.length}</span></h3>${items.length?`<ul>${items.map(c=>`<li>${miniHTML(c)}</li>`).join('')}</ul>`:`<div class="td-empty">${esc(empty)}</div>`}</div>`; }
   function trow(c, opt){ const t = isoDay(new Date()); const late = !!(c.due && c.due < t && isOpen(c)); const bits = [];
     if(c.status==='waiting') bits.push(waitLabel(c)); else if(c.due) bits.push(late ? 'Due '+fmtDate(c.due) : dueLabel(c.due));
+    { const ct = cardTime(c); if(ct && c.status!=='done') bits.push(fmtSpan(ct.s, ct.s + ct.mins)); }
     { const st = srcText(c); if(st) bits.push(st); }
     if((c.snoozes||0) >= 2) bits.push('moved '+c.snoozes+'×');
-    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}">${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Tomorrow</button>` : ''}</div>`; }
+    return `<div class="trow${late?' late':''}" data-open="${esc(c.id)}"${c.status!=='done' && wideDay() ? ' draggable="true"' : ''}>${CHECK(c)}<div class="tx"><div class="tt">${esc(c.title)}</div>${bits.length?`<div class="me">${esc(bits.join(' · '))}</div>`:''}</div>${c.pinned?'<span class="star" aria-label="Pinned">★</span>':''}${opt==='s' && c.status!=='done' ? `<button class="hb tmb" data-time="${esc(c.id)}" title="Set a time" aria-label="Set a time"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg></button><button class="hb snz" data-snooze="${esc(c.id)}" title="Move to tomorrow">Tomorrow</button>` : ''}</div>`; }
   const isOldMail = m => m.status!=='handled' && !!m.date && new Date(m.date).getTime() < Date.now() - 7*86400000;
   function clearOldMail(){ const old = openInbox().filter(isOldMail); if(!old.length) return; old.forEach(m => setMail(m.id, 'handled')); setTimeout(()=>toast(old.length+' older email'+(old.length===1?'':'s')+' marked done'), 80); }
   function todayCounts(){ const b = todayBuckets(); const open = openInbox(); const old = open.filter(isOldMail).length; return {b, late: b.late.length, now: b.now.length + b.focus.length, mail: open.length - old, oldMail: old}; }
@@ -1521,10 +1626,10 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
     const nc = (state.newCards||[]).slice().sort((x,y)=>String(y.createdAt||'').localeCompare(String(x.createdAt||'')));
     const triRow = c => `<div class="trow tri"><div class="tx"><div class="tt">${esc(c.title)}</div><div class="me">${esc([c.project||'', c.source||''].filter(Boolean).join(' · '))}</div>${whenChips(c, true)}</div></div>`;
     const tray = nc.length ? `<section class="tray"><details ${state.tdOpen.newc?'open':''}><summary data-td-sec="newc">New from your notes <span class="c">${nc.length}</span><span class="rv">Review</span><span class="chev"></span></summary>${nc.map(triRow).join('')}<div class="bulk"><button class="hb" data-tri-all="drop" type="button">Dismiss all</button><button class="hb keep" data-tri-all="keep" type="button">Keep all ${nc.length}, no date</button></div></details></section>` : '';
-    const show2 = mm ? left.filter(x => x.eventId!==mm.eventId).slice(0,3) : show;
+    const show2 = (mm ? left.filter(x => x.eventId!==mm.eventId) : show).slice(0, 1);
     host.classList.toggle('nonext', !(show2.length || mm));
     host.innerHTML = `
-      ${(mm || show2.length)?`<div class="col colN">${mm ? mmHTML(mm) : ''}${show2.length?`<section class="nexts"><h2>${mm ? 'Later today' : (left.length?'Meetings today':'Next meeting')}${mmHidden && !mm ? `<button data-mm-show type="button">Back to meeting mode</button>` : `<button data-td-go="meetings">All meetings →</button>`}</h2><div class="nlist">${show2.map(nextHTML).join('')}</div></section>`:''}</div>`:''}
+      ${(mm || show2.length)?`<div class="col colN">${mm ? mmHTML(mm) : ''}${show2.length?`<section class="nexts"><h2>${mm ? 'Later today' : 'Next meeting'}${mmHidden && !mm ? `<button data-mm-show type="button">Back to meeting mode</button>` : `<button data-td-go="meetings">All meetings →</button>`}</h2><div class="nlist">${show2.map(nextHTML).join('')}</div></section>`:''}</div>`:''}
       <div class="col colA">
         ${quickBar()}
         ${sortLine()}
@@ -1532,6 +1637,7 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
         <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(c=>trow(c,'s')).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
       </div>
       <div class="col colB">
+        ${dayCal()}
         <section><h2>Reply <span class="c">${fresh.length}</span>${fresh.length>5?`<button data-td-go="inbox">All ${fresh.length} →</button>`:''}</h2>${fresh.length?fresh.slice(0,5).map(mailRow).join(''):`<div class="empty-line">${old.length?'Nothing new this week.':'No emails waiting on you.'}</div>`}
           ${old.length?`<details ${state.tdOpen.oldmail?'open':''}><summary data-td-sec="oldmail">Older than a week <span class="c">${old.length}</span><span class="chev"></span></summary>${old.map(mailRow).join('')}<div class="bulk"><button class="hb" data-clear-old type="button">Mark all ${old.length} as done</button></div></details>`:''}</section>
         ${clubHTML()}
@@ -2009,6 +2115,8 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
   function parseQuickLine(raw, keepDate){
     let t = String(raw||'').replace(/^\s*(?:[-*•·–]|\d{1,2}[.)]|\[[ xX]?\]|☐)\s+/, '').trim(); if(!t) return null;
     let urgent = false; const mu = t.match(/\s*(?:!+|\burgent)$/i); if(mu && mu[0].trim() && t.length > mu[0].length){ urgent = true; t = t.slice(0, t.length - mu[0].length).trim(); }
+    let time = null;
+    if(!keepDate){ const w0 = t.split(/\s+/); if(w0.length > 1){ const mt = /^(\d{1,2})(?::(\d{2}))?(am|pm)$/i.exec(w0[w0.length-1].replace(/[.,;]+$/, '')); if(mt && +mt[1] >= 1 && +mt[1] <= 12 && +(mt[2]||0) < 60){ time = ((+mt[1] % 12) + (/pm/i.test(mt[3]) ? 12 : 0))*60 + (+(mt[2]||0)); let cut = 1; if(w0.length > 2 && /^(at|@)$/i.test(w0[w0.length-2])) cut = 2; t = w0.slice(0, w0.length - cut).join(' '); } } }
     let due = null, dueTok = '';
     if(!keepDate){
       const w = t.split(/\s+/), n = w.length, cl = x => String(x||'').toLowerCase().replace(/[.,;:]+$/,'');
@@ -2028,27 +2136,28 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
       }
     }
     if(!t) return null;
-    return {title: t.charAt(0).toUpperCase() + t.slice(1), due, dueTok, urgent, raw: String(raw).trim()}; }
+    return {title: t.charAt(0).toUpperCase() + t.slice(1), due, dueTok, time, urgent, raw: String(raw).trim()}; }
   function quickParse(text){ const keep = (state.quick && state.quick.keep) || {}; return String(text||'').split(/\r?\n/).map(l => parseQuickLine(l, !!keep[l.trim()])).filter(Boolean).slice(0, 40); }
   function nextSweepLabel(){ try{ const p = new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York', hour:'numeric', minute:'numeric', hour12:false}).formatToParts(new Date()); const h = (+p.find(x=>x.type==='hour').value) % 24, m = +p.find(x=>x.type==='minute').value, mins = h*60 + m;
       for(let hh = 6; hh <= 22; hh += 2){ if(hh*60 + 10 > mins + 5) return 'by about '+(((hh+11)%12)+1)+':10 '+(hh < 12 ? 'AM' : 'PM'); } return 'tomorrow by about 6:10 AM'; }catch(e){ return 'within two hours'; } }
-  function quickBar(){ return `<button class="qbar" data-quick type="button"><span class="plus" aria-hidden="true">+</span><span class="d">Quick list: add to-dos, one per line</span></button>`; }
+  function quickBar(){ return `<button class="qbar" data-quick type="button"><span class="plus" aria-hidden="true">+</span><span class="d">Add to-dos, or find anything</span><span class="k">Ctrl K</span></button>`; }
   function openQuick(){ if(!token){ viewOnlyHint(); return; } if(state.draft) closeDrawer(); state.quick = {keep:{}, when: state.quickWhen || 'today'}; renderQuick(); }
   function closeQuick(drop){ const ta = $('#qText'); state.quickDraft = drop ? '' : (ta ? ta.value : (state.quickDraft||'')); state.quick = null; const r = $('#quickRoot'); if(r) r.innerHTML = ''; }
   function quickPreview(){ const q = state.quick, ta = $('#qText'), pv = $('#qPrev'), btn = $('#qAdd'); if(!q || !ta || !pv || !btn) return; const items = quickParse(ta.value);
-    pv.innerHTML = items.filter(it => it.due || it.urgent).map(it => `<div class="qp"><span class="t">${esc(it.title)}</span>${it.due ? `<button type="button" class="qchip" data-q-keep="${esc(it.raw)}" title="Not a date: keep it in the title">${esc(dayName(it.due)+', '+fmtDate(it.due))} ✕</button>` : ''}${it.urgent ? `<span class="qchip u">Urgent</span>` : ''}</div>`).join('');
-    btn.disabled = !items.length; btn.textContent = items.length ? 'Add '+items.length+(items.length===1 ? ' to-do' : ' to-dos') : 'Add'; }
+    pv.innerHTML = items.filter(it => it.due || it.urgent || it.time!==null).map(it => `<div class="qp"><span class="t">${esc(it.title)}</span>${(it.due || it.time!==null) ? `<button type="button" class="qchip" data-q-keep="${esc(it.raw)}" title="Not a day or a time: keep it in the title">${esc([it.due ? dayName(it.due)+', '+fmtDate(it.due) : '', it.time!==null ? fmtMin(it.time) : ''].filter(Boolean).join(' · '))} ✕</button>` : ''}${it.urgent ? `<span class="qchip u">Urgent</span>` : ''}</div>`).join('');
+    btn.disabled = !items.length; btn.textContent = items.length ? 'Add '+items.length+(items.length===1 ? ' to-do' : ' to-dos') : 'Add'; quickFind(); }
   function renderQuick(){ const q = state.quick, r = $('#quickRoot'); if(!q || !r) return;
     const W = [['today','Today'],['week','This week'],['none','No date']];
     r.innerHTML = `<div class="scrim" id="qScrim"></div>
-      <div class="qsheet" role="dialog" aria-modal="true" aria-label="Quick list">
-        <div class="qs-head"><h2>Quick list</h2><button type="button" id="qClose" aria-label="Close">✕</button></div>
-        <label class="qs-lbl" for="qText">One to-do per line</label>
+      <div class="qsheet" role="dialog" aria-modal="true" aria-label="Add or find">
+        <div class="qs-head"><h2>Add or find</h2><button type="button" id="qClose" aria-label="Close">✕</button></div>
+        <label class="qs-lbl" for="qText">One to-do per line, or a few letters to find something</label>
         <textarea id="qText" rows="5"></textarea>
         <div class="qs-prev" id="qPrev"></div>
+        <div class="qs-find" id="qFind"></div>
         <div class="qs-when"><span>Lines with no day go on</span><div class="nmode" role="group" aria-label="When">${W.map(([k,l]) => `<button type="button" data-q-when="${k}" aria-pressed="${q.when===k}">${l}</button>`).join('')}</div></div>
         <div class="qs-foot"><button type="button" class="linkb" id="qFull">One card with every field</button><span class="spacer"></span><button type="button" class="btn secondary" id="qCancel">Cancel</button><button type="button" class="btn" id="qAdd" disabled>Add</button></div>
-        <p class="qs-hint">End a line with a day (fri, tomorrow, 12/3) to date it, or with ! for urgent. Claude ties each one to your notes and emails on the next run, <b>${esc(nextSweepLabel())}</b>.</p>
+        <p class="qs-hint">End a line with a day (fri, tomorrow, 12/3), a time (3pm) or ! for urgent. Claude ties each one to your notes and emails on the next run, <b>${esc(nextSweepLabel())}</b>.</p>
       </div>`;
     const ta = $('#qText'); ta.value = state.quickDraft || ''; quickPreview();
     ta.addEventListener('input', quickPreview);
@@ -2057,13 +2166,14 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
     $('#qAdd').onclick = addQuick; $('#qFull').onclick = () => { const first = quickParse(ta.value)[0]; closeQuick(true); openDrawer(null); if(first && state.draft){ state.draft.title = first.title; if(first.due) state.draft.due = first.due; if(first.urgent) state.draft.priority = 'urgent'; renderDrawer(); } };
     r.querySelector('.qsheet').addEventListener('click', e => {
       const w = e.target.closest('[data-q-when]'); if(w){ q.when = w.dataset.qWhen; state.quickWhen = q.when; v6Save(); r.querySelectorAll('[data-q-when]').forEach(b => b.setAttribute('aria-pressed', b.dataset.qWhen===q.when)); return; }
+      const fr = e.target.closest('[data-find]'); if(fr){ findOpen(fr.dataset.find, fr.dataset.id); return; }
       const k = e.target.closest('[data-q-keep]'); if(k){ q.keep[k.dataset.qKeep] = true; quickPreview(); ta.focus(); } });
     setTimeout(() => { try{ ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }catch(e){} }, 30); }
   function addQuick(){ const q = state.quick, ta = $('#qText'); if(!q || !ta) return; const items = quickParse(ta.value); if(!items.length){ ta.focus(); return; }
     if(!token){ viewOnlyHint(); return; }
     const t0 = Date.now(), now = new Date(t0).toISOString(), day = isoDay(new Date()), listId = 'q' + t0.toString(36);
     const base = q.when==='today' ? whenDate('today') : (q.when==='week' ? whenDate('week') : null);
-    items.forEach((it, i) => addCard({title: it.title, owner:'KP', area:null, status:'todo', due: it.due || base, raised: day, priority: it.urgent ? 'urgent' : null, note:null, source:'Quick list', sourceUrl:null, sourceKind:'quick',
+    items.forEach((it, i) => addCard({title: it.title, owner:'KP', area:null, status:'todo', due: it.due || base || (it.time!==null ? whenDate('today') : null), time: it.time!==null ? min2hm(it.time) : null, mins: it.time!==null ? guessMins({title: it.title}) : null, raised: day, priority: it.urgent ? 'urgent' : null, note:null, source:'Quick list', sourceUrl:null, sourceKind:'quick',
       connect:{state:'pending', askedAt: now, listId}, pinned:false, pinnedAt:null, waitingOn:null, waitingSince:null, createdAt: new Date(t0 + i).toISOString(), updatedAt: now, doneAt:null, userEdited:true}));
     closeQuick(true); commit(items.length+(items.length===1 ? ' to-do added' : ' to-dos added')+' · connecting '+nextSweepLabel()); }
 
@@ -2106,6 +2216,160 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
         state.draft.connect = nk; updateCard(id, {connect: nk, updatedAt: new Date().toISOString(), userEdited: true}); materialize(); render(); flush();
         const row = u.closest('.lk'); if(row) row.remove(); if(!links.length){ const cx = box.querySelector('.cx'); if(cx) cx.remove(); } if(!box.querySelector('.lk,.cx,.me,.sg')) box.remove(); return; }
       const f = e.target.closest('[data-cn-fill]'); if(f){ const el = f.dataset.cnFill==='due' ? $('#fDue') : $('#fProject'); if(el){ el.value = f.dataset.v; } f.remove(); toast('Filled in. Save to keep it.'); } }); }
+
+  // ===================== v7: day calendar, timed to-dos, plan my day, find =====================
+  const hm2min = s => { const m = /^(\d{1,2}):(\d{2})$/.exec(String(s||'')); if(!m) return null; const v = (+m[1])*60 + (+m[2]); return (v >= 0 && v < 1440) ? v : null; };
+  const min2hm = n => String(Math.floor(n/60)).padStart(2,'0')+':'+String(n%60).padStart(2,'0');
+  const fmtMin = n => { n = ((n % 1440) + 1440) % 1440; const h = Math.floor(n/60), m = n % 60; return ((h+11)%12+1)+(m ? ':'+String(m).padStart(2,'0') : '')+(h < 12 ? ' AM' : ' PM'); };
+  const fmtSpan = (s, e) => { const a = fmtMin(s), b = fmtMin(e); return (a.slice(-2)===b.slice(-2) ? a.slice(0,-3) : a)+' – '+b; };
+  const lenLabel = n => n < 60 ? n+' min' : (Math.round(n/6)/10)+' hr';
+  const cardTime = c => { if(!c || !c.due) return null; const s = hm2min(c.time); return s===null ? null : {s, mins: Math.max(15, Math.min(600, +c.mins || 30))}; };
+  const wideDay = () => window.matchMedia('(min-width: 900px)').matches;
+  const DH = 52;                                    // pixels per hour on the day grid
+  function shiftDay(day, n){ const d = parseISO(day); d.setDate(d.getDate() + n); return isoDay(d); }
+  function guessMins(c){ if(c && +c.mins) return +c.mins; const t = String((c && c.title)||'').toLowerCase().trim();
+    if(/^(email|reply|call|text|send|tell|ask|confirm|book|schedule|set up|follow up|check|ping|remind|forward|share)\b/.test(t)) return 30;
+    if(/^(read|review|write|draft|prepare|put together|build|plan|complete|figure out|fix|update|create|get|add|look|sort out|meet)\b/.test(t)) return 60;
+    return 45; }
+  function dayItems(day){ const out = [];
+    state.meetings.forEach(m => { if(m.status==='cancelled' || !m.start) return; const a = new Date(m.start); if(isNaN(a) || isoDay(a)!==day) return; const b = m.end ? new Date(m.end) : null;
+      const s = a.getHours()*60 + a.getMinutes(); let e = (b && !isNaN(b)) ? (isoDay(b)===day ? b.getHours()*60 + b.getMinutes() : 1440) : s + 30; if(e <= s) e = s + 30;
+      out.push({kind:'m', id: m.eventId, title: m.title || 'Meeting', s, e, m}); });
+    state.cards.forEach(c => { if(c.due !== day) return; const t = cardTime(c); if(!t) return; out.push({kind:'c', id: c.id, title: c.title, s: t.s, e: Math.min(1440, t.s + t.mins), c}); });
+    return out.sort((x, y) => x.s - y.s || (x.kind===y.kind ? 0 : (x.kind==='m' ? -1 : 1)) || x.e - y.e); }
+  function layCols(items){ items.forEach(it => { it.ve = Math.max(it.e, it.s + 25); }); let group = [], gEnd = -1;
+    const flush = () => { const ends = []; group.forEach(it => { let k = ends.findIndex(x => x <= it.s); if(k < 0){ k = ends.length; ends.push(it.ve); } else ends[k] = it.ve; it.col = k; }); group.forEach(it => { it.ncol = ends.length; }); group = []; gEnd = -1; };
+    items.forEach(it => { if(group.length && it.s >= gEnd) flush(); group.push(it); gEnd = Math.max(gEnd, it.ve); }); if(group.length) flush(); return items; }
+  function dayGridHTML(day, items, opt){ opt = opt || {}; const t = isoDay(new Date()); let h0 = 8, h1 = 18;
+    items.forEach(it => { h0 = Math.min(h0, Math.floor(it.s/60)); h1 = Math.max(h1, Math.ceil(it.ve/60)); }); h0 = Math.max(0, h0); h1 = Math.min(24, Math.max(h1, h0 + 1));
+    const px = m => Math.round((m - h0*60) * DH / 60);
+    const hrs = []; for(let h = h0; h < h1; h++) hrs.push(`<div class="dhr"><span>${((h+11)%12+1)+(h < 12 ? ' AM' : ' PM')}</span></div>`);
+    const blk = it => { const st = `top:${px(it.s)+1}px;height:${Math.max(20, px(it.ve) - px(it.s) - 2)}px;left:${(it.col/it.ncol*100).toFixed(3)}%;width:calc(${(100/it.ncol).toFixed(3)}% - 3px)`; const small = (it.ve - it.s) < 45, cls = small ? ' sm' : ((it.ve - it.s) < 75 ? ' md' : ''), tm = fmtSpan(it.s, it.e), lab = `<b>${esc(it.title)}</b><span>${esc(small ? fmtMin(it.s) : tm)}</span>`, tip = esc(it.title+' · '+tm);
+      if(it.kind==='m') return opt.fixed ? `<div class="dblk m${cls}" style="${st}" title="${tip}">${lab}</div>` : `<button type="button" class="dblk m${cls}" data-day-meet="${esc(it.id)}" style="${st}" title="${tip}">${lab}</button>`;
+      if(it.kind==='p') return `<div class="dblk p${cls}" style="${st}" title="${tip}">${lab}</div>`;
+      const done = it.c.status==='done';
+      return `<div class="dblk c${cls}${done?' done':''}" ${opt.fixed ? '' : `draggable="true" data-day-card="${esc(it.id)}" data-open="${esc(it.id)}" tabindex="0" role="button"`} style="${st}" title="${tip}">${lab}</div>`; };
+    const n = new Date(), nowM = n.getHours()*60 + n.getMinutes();
+    const now = (day===t && !opt.fixed && nowM >= h0*60 && nowM <= h1*60) ? `<div class="dnow" style="top:${px(nowM)}px" aria-hidden="true"></div>` : '';
+    return `<div class="dgrid" style="height:${(h1-h0)*DH}px">${hrs.join('')}<div class="dtrack" ${opt.fixed ? '' : `data-day-track="${esc(day)}" data-h0="${h0}"`}>${items.map(blk).join('')}${now}<div class="dghost" hidden></div></div></div>`; }
+  function dayListHTML(day, items){ if(!items.length) return `<div class="empty-line">Nothing has a time ${day===isoDay(new Date()) ? 'today' : 'that day'} yet.</div>`;
+    return `<div class="dlist">${items.map(it => { const tm = `<span class="dl-t">${esc(fmtMin(it.s))}</span>`;
+      if(it.kind==='m'){ const ag = (it.m.agenda||[]).filter(a=>!a.done).length; return `<div class="dl-row">${tm}<button type="button" class="dl-b m" data-day-meet="${esc(it.id)}"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e)+(ag ? ' · '+ag+' on the agenda' : ''))}</span></button></div>`; }
+      return `<div class="dl-row">${tm}<div class="dl-b c${it.c.status==='done'?' done':''}" data-open="${esc(it.id)}">${CHECK(it.c)}<div class="tx"><b>${esc(it.title)}</b><span>${esc('Until '+fmtMin(it.e))}</span></div></div></div>`; }).join('')}</div>`; }
+  function dayCal(){ const t = isoDay(new Date()), day = state.dayShown || t; const items = layCols(dayItems(day)), d = parseISO(day);
+    const label = day===t ? 'Today' : (day===shiftDay(t, 1) ? 'Tomorrow' : DAYS_FULL[d.getDay()]); const nM = items.filter(x=>x.kind==='m').length, nC = items.filter(x=>x.kind==='c').length;
+    const sub = [nM ? nM+(nM===1 ? ' meeting' : ' meetings') : '', nC ? nC+' timed to-do'+(nC===1 ? '' : 's') : ''].filter(Boolean).join(' · ') || 'Nothing on it yet';
+    return `<section class="daycal" data-day="${esc(day)}"><h2>Day<span class="dnav"><button type="button" data-day-go="-1" aria-label="Previous day">‹</button><button type="button" data-day-go="0"${day===t ? ' disabled' : ''}>Today</button><button type="button" data-day-go="1" aria-label="Next day">›</button></span></h2>
+      <div class="dhead"><div class="dh-t"><b>${esc(label+', '+MONTHS[d.getMonth()]+' '+d.getDate())}</b><span>${esc(sub)}</span></div><button type="button" class="hb keep" data-plan-day="${esc(day)}">${day===t ? 'Plan my day' : 'Plan this day'}</button></div>
+      <div class="dwide">${dayGridHTML(day, items)}</div><div class="dnarrow">${dayListHTML(day, items)}</div></section>`; }
+  function dayClick(e){
+    const go = e.target.closest('[data-day-go]'); if(go){ const n = +go.dataset.dayGo, t = isoDay(new Date()); state.dayShown = n===0 ? null : shiftDay(state.dayShown || t, n); if(state.dayShown===t) state.dayShown = null; renderToday(); return true; }
+    const pl = e.target.closest('[data-plan-day]'); if(pl){ openPlan(pl.dataset.planDay); return true; }
+    const mt = e.target.closest('[data-day-meet]'); if(mt){ openMeetingCard(mt.dataset.dayMeet); return true; }
+    const tm = e.target.closest('[data-time]'); if(tm){ e.preventDefault(); e.stopPropagation(); openTimePick(tm.dataset.time); return true; }
+    return false; }
+  function setCardTime(id, day, start, mins){ const c = state.cards.find(x=>x.id===id); if(!c) return; if(!token){ viewOnlyHint(); return; } const now = new Date().toISOString();
+    const patch = start===null ? {time: null, updatedAt: now, userEdited: true} : {due: day, time: min2hm(start), mins: mins || +c.mins || guessMins(c), later: false, updatedAt: now, userEdited: true};
+    const undo = {due: c.due||null, time: c.time||null, mins: c.mins||null, later: !!c.later, updatedAt: now};
+    patchCards([{id, patch}], start===null ? 'Time taken off' : (day===isoDay(new Date()) ? '' : dayName(day)+' ')+fmtSpan(start, start + patch.mins), [{id, patch: undo}]); }
+  function nextFree(day, mins){ const t = isoDay(new Date()); let from = 9*60; if(day===t){ const n = new Date(); from = Math.max(from, Math.ceil((n.getHours()*60 + n.getMinutes() + 5)/15)*15); }
+    const busy = dayItems(day).map(it => [it.s, it.e]); for(let s = from; s + mins <= 20*60; s += 15){ if(!busy.some(([a,b]) => s < b && s + mins > a)) return s; } return Math.min(from, 23*60); }
+
+  // ----- set a time on one to-do -----
+  function openTimePick(id){ const c = state.cards.find(x=>x.id===id); if(!c) return; if(!token){ viewOnlyHint(); return; } const t = isoDay(new Date()), ct = cardTime(c);
+    const day = (c.due && c.due >= t) ? c.due : (state.dayShown && state.dayShown >= t ? state.dayShown : t); const mins = ct ? ct.mins : guessMins(c);
+    state.tp = {id, day, mins, start: (ct && c.due===day) ? ct.s : nextFree(day, mins)}; renderTimePick(); }
+  function closeTimePick(){ state.tp = null; const r = $('#quickRoot'); if(r) r.innerHTML = ''; }
+  function renderTimePick(){ const p = state.tp, r = $('#quickRoot'); if(!p || !r) return; const c = state.cards.find(x=>x.id===p.id); if(!c){ closeTimePick(); return; }
+    const L = [15,30,45,60,90,120]; if(!L.includes(p.mins)) L.push(p.mins); L.sort((a,b)=>a-b);
+    r.innerHTML = `<div class="scrim" id="tpScrim"></div><div class="qsheet tp" role="dialog" aria-modal="true" aria-label="Set a time">
+      <div class="qs-head"><h2>Set a time</h2><button type="button" id="tpClose" aria-label="Close">✕</button></div>
+      <div class="tp-title">${esc(c.title)}</div>
+      <div class="two"><div class="field"><label for="tpDay">Day</label><input type="date" id="tpDay" value="${esc(p.day)}"></div><div class="field"><label for="tpTime">Start</label><input type="time" id="tpTime" step="900" value="${esc(min2hm(p.start))}"></div></div>
+      <div class="qs-when"><span>Length</span><div class="nmode" role="group" aria-label="Length">${L.map(n => `<button type="button" data-tp-len="${n}" aria-pressed="${n===p.mins}">${esc(lenLabel(n))}</button>`).join('')}</div></div>
+      <div class="qs-foot">${cardTime(c) ? `<button type="button" class="linkb" id="tpClear">Take the time off</button>` : ''}<span class="spacer"></span><button type="button" class="btn secondary" id="tpCancel">Cancel</button><button type="button" class="btn" id="tpSave">Save</button></div></div>`;
+    $('#tpScrim').onclick = closeTimePick; $('#tpClose').onclick = closeTimePick; $('#tpCancel').onclick = closeTimePick;
+    r.querySelectorAll('[data-tp-len]').forEach(b => { b.onclick = () => { p.mins = +b.dataset.tpLen; r.querySelectorAll('[data-tp-len]').forEach(x => x.setAttribute('aria-pressed', x===b)); }; });
+    const cl = $('#tpClear'); if(cl) cl.onclick = () => { const id = p.id, day = p.day; closeTimePick(); setCardTime(id, day, null); };
+    $('#tpSave').onclick = () => { const s = hm2min($('#tpTime').value), day = $('#tpDay').value || p.day; if(s===null){ toast('Pick a start time'); return; } const id = p.id, mins = p.mins; closeTimePick(); setCardTime(id, day, s, mins); }; }
+
+  // ----- plan the day: a proposal he confirms; nothing is placed before that -----
+  function nextWorkday(day){ let d = day; do { d = shiftDay(d, 1); } while([0,6].includes(parseISO(d).getDay())); return d; }
+  function planDay(day){ const t = isoDay(new Date()), WS = 9*60, WE = 17*60; let from = WS; if(day===t){ const n = new Date(); from = Math.max(WS, Math.ceil((n.getHours()*60 + n.getMinutes() + 5)/15)*15); }
+    const items = dayItems(day), busy = items.map(it => [it.s, it.e]); const hit = (s, mins) => busy.some(([a,b]) => s < b && s + mins > a);
+    let freeMin = 0; for(let s = from; s < WE; s += 15){ if(!hit(s, 15)) freeMin += 15; }
+    const fit = (mins, before) => { const end = Math.min(WE, (before===undefined || before===null) ? WE : before); for(let s = from; s + mins <= end; s += 15){ if(!hit(s, mins)) return s; } return null; };
+    const open = state.cards.filter(c => isOpen(c) && c.status!=='waiting');
+    const cand = open.filter(c => !(c.due===day && cardTime(c)) && ((c.due && c.due <= day) || (!c.due && (isUrgent(c) || c.pinned))));
+    const meetOf = c => c.meetingId ? items.find(it => it.kind==='m' && it.id===c.meetingId) : null;
+    const rank = c => (meetOf(c) ? 0 : c.due===day ? 1 : isUrgent(c) ? 2 : c.due ? 3 : 4);
+    cand.sort((a,b) => rank(a) - rank(b) || String(a.due||'9').localeCompare(String(b.due||'9')) || String(a.createdAt||'').localeCompare(String(b.createdAt||'')));
+    const placed = [], later = [], used = new Set(); const dp = (state.dayplan && state.dayplan.date===day) ? state.dayplan : null;
+    const put = (c, s, mins, why, src) => { placed.push({id: c.id, title: c.title, s, mins, why: why||'', src, on: true}); busy.push([s, s + mins]); used.add(c.id); };
+    if(dp){
+      (dp.items||[]).forEach(x => { const c = cand.find(k => k.id===x.cardId), s = hm2min(x.start), mins = Math.max(15, Math.min(240, +x.mins || 30)); if(!c || used.has(c.id) || s===null || s < from || hit(s, mins)) return; put(c, s, mins, String(x.why||''), 'claude'); });
+      (dp.later||[]).forEach(x => { const c = cand.find(k => k.id===x.cardId); if(!c || used.has(c.id) || !/^\d{4}-\d{2}-\d{2}$/.test(String(x.date||'')) || x.date <= day) return; later.push({id: c.id, title: c.title, date: x.date, why: String(x.why||''), src:'claude', on: true}); used.add(c.id); }); }
+    let budget = Math.round(freeMin * 0.7) - placed.reduce((n, p) => n + p.mins, 0);
+    cand.forEach(c => { if(used.has(c.id)) return; const mins = guessMins(c), mo = meetOf(c), must = !!mo || isUrgent(c) || c.due===day;
+      const s = (must || mins <= budget) ? fit(mins, mo ? mo.s : null) : null;
+      if(s!==null){ put(c, s, mins, mo ? 'Before '+mo.title : c.due===day ? 'Due '+(day===t ? 'today' : 'that day') : isUrgent(c) ? 'Marked urgent' : c.due ? 'Carried over from '+fmtDate(c.due) : 'Pinned', 'fit'); budget -= mins; }
+      else { later.push({id: c.id, title: c.title, date: nextWorkday(day), why: must ? 'No room left before 5 PM' : (c.due ? 'Carried over from '+fmtDate(c.due) : 'Pinned, no date'), src:'fit', on: true}); used.add(c.id); } });
+    placed.sort((a,b) => a.s - b.s);
+    const ms = items.filter(it => it.kind==='m'), clashes = []; ms.forEach((a, i) => ms.slice(i+1).forEach(b => { if(b.s < a.e && a.s < b.e) clashes.push(`${b.title} (${fmtMin(b.s)}) overlaps ${a.title} (${fmtSpan(a.s, a.e)}).`); }));
+    return {day, placed, later, clashes, freeMin, from, nMeet: ms.length, fixed: items, claude: (dp && dp.summary) ? {summary: String(dp.summary), at: dp.at||''} : null}; }
+  function openPlan(day){ if(!token){ viewOnlyHint(); return; } if(state.draft) closeDrawer(); state.plan = planDay(day || isoDay(new Date())); renderPlan(); }
+  function closePlan(){ state.plan = null; const r = $('#quickRoot'); if(r) r.innerHTML = ''; }
+  function planPreview(){ const p = state.plan, host = $('#plPrev'); if(!p) return;
+    if(host){ const items = p.fixed.map(it => ({...it})).concat(p.placed.filter(x=>x.on).map(x => ({kind:'p', id: x.id, title: x.title, s: x.s, e: Math.min(1440, x.s + x.mins)}))); items.sort((a,b) => a.s - b.s); host.innerHTML = dayGridHTML(p.day, layCols(items), {fixed: true}); }
+    const b = $('#plGo'); if(b){ const n = p.placed.filter(x=>x.on).length + p.later.filter(x=>x.on).length; b.disabled = !n; b.textContent = n ? 'Put it on my day' : 'Nothing picked'; } }
+  function renderPlan(){ const p = state.plan, r = $('#quickRoot'); if(!p || !r) return; const d = parseISO(p.day), t = isoDay(new Date()); const hrs = Math.round(p.freeMin/30)/2, nTodo = p.placed.length + p.later.length;
+    const auto = [p.nMeet ? p.nMeet+(p.nMeet===1 ? ' meeting' : ' meetings') : 'No meetings', hrs ? hrs+(hrs===1 ? ' hour' : ' hours')+' free between '+fmtMin(p.from)+' and 5 PM' : 'No free time left before 5 PM', nTodo ? nTodo+(nTodo===1 ? ' to-do' : ' to-dos')+' to place' : 'Nothing waiting to be placed'].join(' · ');
+    const L = [15,30,45,60,90,120], lens = m => (L.includes(m) ? L : L.concat([m]).sort((a,b)=>a-b));
+    const row = (x, i) => `<div class="pl-row"><input type="checkbox" id="plc${i}" data-pl-on="${i}" ${x.on?'checked':''}><label for="plc${i}"><b>${esc(x.title)}</b>${x.why ? `<span>${esc(x.why)}</span>` : ''}</label><div class="pl-t"><input type="time" step="900" value="${esc(min2hm(x.s))}" data-pl-time="${i}" aria-label="Start time: ${esc(x.title)}"><select data-pl-len="${i}" aria-label="Length: ${esc(x.title)}">${lens(x.mins).map(n => `<option value="${n}" ${n===x.mins?'selected':''}>${esc(lenLabel(n))}</option>`).join('')}</select></div></div>`;
+    const lrow = (x, i) => `<div class="pl-row"><input type="checkbox" id="pll${i}" data-pl-lon="${i}" ${x.on?'checked':''}><label for="pll${i}"><b>${esc(x.title)}</b>${x.why ? `<span>${esc(x.why)}</span>` : ''}</label><div class="pl-t"><input type="date" value="${esc(x.date)}" min="${esc(shiftDay(p.day, 1))}" data-pl-date="${i}" aria-label="Move to: ${esc(x.title)}"></div></div>`;
+    r.innerHTML = `<div class="scrim" id="plScrim"></div><div class="psheet" role="dialog" aria-modal="true" aria-label="Plan the day">
+      <div class="qs-head"><h2>Plan ${esc(p.day===t ? 'today' : DAYS_FULL[d.getDay()])}, ${esc(MONTHS[d.getMonth()]+' '+d.getDate())}</h2><button type="button" id="plClose" aria-label="Close">✕</button></div>
+      <div class="pl-body"><div class="pl-main">
+        <div class="pl-box"><h3>${p.claude ? 'From Claude’s morning run' : 'The day'}</h3><p>${esc(p.claude ? p.claude.summary : auto)}</p>${p.claude ? `<p class="mu">${esc(auto)}</p>` : ''}</div>
+        ${p.clashes.length ? `<div class="pl-box warn"><h3>Overlap</h3>${p.clashes.map(c => `<p>${esc(c)}</p>`).join('')}</div>` : ''}
+        ${p.placed.length ? `<section><h3>Suggested times <span class="c">${p.placed.length}</span></h3>${p.placed.map(row).join('')}</section>` : `<div class="empty-line">Nothing needs a time ${p.day===t ? 'today' : 'that day'}.</div>`}
+        ${p.later.length ? `<section><h3>Move to another day <span class="c">${p.later.length}</span></h3>${p.later.map(lrow).join('')}</section>` : ''}
+      </div><div class="pl-side"><h3>How the day would look</h3><div id="plPrev"></div><p class="mu">Dashed blocks are proposed.</p></div></div>
+      <div class="qs-foot"><span class="mu pl-src">${p.placed.some(x => x.src==='claude') ? 'Times with a reason from Claude come from its morning plan; the rest are fitted around your meetings. ' : 'Times are fitted around your meetings by the board. '}Nothing changes until you confirm.</span><button type="button" class="btn secondary" id="plCancel">Cancel</button><button type="button" class="btn" id="plGo">Put it on my day</button></div></div>`;
+    $('#plScrim').onclick = closePlan; $('#plClose').onclick = closePlan; $('#plCancel').onclick = closePlan; $('#plGo').onclick = applyPlan;
+    r.querySelector('.psheet').addEventListener('change', e => { const el = e.target, ds = el.dataset || {};
+      if(ds.plOn !== undefined) p.placed[+ds.plOn].on = el.checked;
+      else if(ds.plLon !== undefined) p.later[+ds.plLon].on = el.checked;
+      else if(ds.plTime !== undefined){ const v = hm2min(el.value); if(v!==null) p.placed[+ds.plTime].s = v; }
+      else if(ds.plLen !== undefined) p.placed[+ds.plLen].mins = +el.value || 30;
+      else if(ds.plDate !== undefined){ if(/^\d{4}-\d{2}-\d{2}$/.test(el.value) && el.value > p.day) p.later[+ds.plDate].date = el.value; }
+      planPreview(); });
+    planPreview(); }
+  function applyPlan(){ const p = state.plan; if(!p) return; if(!token){ viewOnlyHint(); return; } const now = new Date().toISOString(), list = [], undo = [];
+    p.placed.filter(x=>x.on).forEach(x => { const c = state.cards.find(k => k.id===x.id); if(!c) return; list.push({id: x.id, patch: {due: p.day, time: min2hm(x.s), mins: x.mins, later: false, updatedAt: now, userEdited: true}}); undo.push({id: x.id, patch: {due: c.due||null, time: c.time||null, mins: c.mins||null, later: !!c.later, updatedAt: now}}); });
+    p.later.filter(x=>x.on).forEach(x => { const c = state.cards.find(k => k.id===x.id); if(!c) return; list.push({id: x.id, patch: {due: x.date, time: null, later: false, updatedAt: now, userEdited: true}}); undo.push({id: x.id, patch: {due: c.due||null, time: c.time||null, later: !!c.later, updatedAt: now}}); });
+    const n = p.placed.filter(x=>x.on).length, m = p.later.filter(x=>x.on).length, day = p.day; closePlan(); if(!list.length) return;
+    state.dayShown = day===isoDay(new Date()) ? null : day; patchCards(list, [n ? n+' placed' : '', m ? m+' moved' : ''].filter(Boolean).join(' · '), undo); }
+
+  // ----- find: what is already on the board, as he types one line into the quick list -----
+  function findAll(q){ const toks = String(q||'').toLowerCase().split(/\s+/).filter(w => w.length > 1); if(!toks.length) return null; const has = s => { const x = String(s||'').toLowerCase(); return toks.every(k => x.includes(k)); }, now = Date.now();
+    const cards = state.cards.filter(c => has([c.title, c.note, c.project, c.source].join(' '))).sort((a,b) => (a.status==='done') - (b.status==='done') || String(b.updatedAt||'').localeCompare(String(a.updatedAt||''))).slice(0, 5);
+    const meets = state.meetings.filter(m => m.status!=='cancelled' && m.start && has([m.title].concat((m.attendees||[]).map(a => a.name)).join(' '))).map(m => ({m, d: new Date(m.end || m.start).getTime()})).filter(x => !isNaN(x.d) && x.d > now - 86400000).sort((a,b) => a.d - b.d).slice(0, 4).map(x => x.m);
+    const notes = state.notes.filter(n => has([n.title, n.summary].concat(n.keyPoints||[], n.decisions||[], (n.actions||[]).map(a => a && a.text)).join(' '))).sort((a,b) => String(b.date||'').localeCompare(String(a.date||''))).slice(0, 4);
+    const mail = state.inbox.filter(m => m.threadUrl && has([m.subject, m.from, m.gist, m.ask].join(' '))).sort((a,b) => String(b.date||'').localeCompare(String(a.date||''))).slice(0, 3);
+    return {cards, meets, notes, mail}; }
+  function quickFind(){ const host = $('#qFind'), ta = $('#qText'); if(!host || !ta) return; const lines = ta.value.split(/\r?\n/).map(s => s.trim()).filter(Boolean); const q = lines.length===1 ? lines[0] : ''; const f = q.length >= 2 ? findAll(q) : null;
+    if(!f || !(f.cards.length + f.meets.length + f.notes.length + f.mail.length)){ host.innerHTML = ''; return; }
+    const grp = (title, rows) => rows.length ? `<div class="qf-g"><h3>${title}</h3>${rows.join('')}</div>` : '';
+    host.innerHTML = `<div class="qf-h">Already on your board</div>`
+      + grp('To-dos', f.cards.map(c => { const ct = cardTime(c); return `<button type="button" class="qf-r${c.status==='done'?' done':''}" data-find="card" data-id="${esc(c.id)}"><b>${esc(c.title)}</b><span>${esc(c.status==='done' ? 'Done' : (c.due ? (ct ? dayName(c.due)+' '+fmtMin(ct.s) : dueLabel(c.due)) : 'No date'))}</span></button>`; }))
+      + grp('Meetings', f.meets.map(m => { const a = new Date(m.start), di = isoDay(a); return `<button type="button" class="qf-r" data-find="meet" data-id="${esc(m.eventId)}"><b>${esc(m.title)}</b><span>${esc(dayName(di)+' '+fmtDate(di)+' · '+fmtTime(a))}</span></button>`; }))
+      + grp('Notes', f.notes.map(n => `<button type="button" class="qf-r" data-find="note" data-id="${esc(n.id)}"><b>${esc(n.title)}</b><span>${esc(n.date ? fmtDate(String(n.date).slice(0,10)) : '')}</span></button>`))
+      + grp('Emails', f.mail.map(m => `<a class="qf-r" href="${esc(m.threadUrl)}" target="_blank" rel="noopener"><b>${esc((m.from ? m.from.split(/[<(]/)[0].trim()+': ' : '')+(m.subject||''))}</b><span>${esc(m.date ? fmtDate(String(m.date).slice(0,10)) : '')}</span></a>`)); }
+  function findOpen(kind, id){ closeQuick(false);
+    if(kind==='card'){ const c = state.cards.find(x => x.id===id); if(c) openDrawer(c); return; }
+    if(kind==='meet'){ openMeetingCard(id); return; }
+    if(kind==='note'){ state.noteOpen = state.noteOpen || {}; state.noteOpen[id] = true; goClub('notes'); setTimeout(() => { const el = document.querySelector('#viewNotes details[data-note="'+CSS.escape(id)+'"]'); if(el){ el.open = true; el.scrollIntoView({block:'start'}); window.scrollBy(0, -90); } }, 80); } }
   function briefItems(s){
     if(Array.isArray(s.brief) && s.brief.length) return {items: s.brief.map(b => typeof b==='string' ? {label:'', text:b} : {label:String(b.label||''), text:String(b.text||'')}).filter(b=>b.text), written:true};
     const h = String(s.headline||'').trim(); if(!h) return {items:[], written:false};
@@ -2348,6 +2612,10 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
             <div class="field"><label for="fDue">Due</label><input type="date" id="fDue" value="${esc(d.due||'')}"></div>
             <div class="field"><label for="fRaised">Raised</label><input type="date" id="fRaised" value="${esc(d.raised||'')}"></div>
           </div>
+          <div class="two">
+            <div class="field"><label for="fTime">Time</label><input type="time" id="fTime" step="900" value="${esc(hm2min(d.time)===null ? '' : d.time)}"></div>
+            <div class="field"><label for="fMins">Length</label><select id="fMins">${(() => { const L = [15,30,45,60,90,120,180], m = +d.mins || guessMins(d); return (L.includes(m) ? L : L.concat([m]).sort((a,b)=>a-b)).map(n => `<option value="${n}" ${n===m?'selected':''}>${esc(lenLabel(n))}</option>`).join(''); })()}</select></div>
+          </div>
           ${!isNew && d.status!=='done' && !(typeof ro!=='undefined' && ro) ? `<div class="snzrow"><span>Push to</span><button type="button" data-snz="tomorrow">Tomorrow</button><button type="button" data-snz="monday">Monday</button><button type="button" data-snz="week">Next week</button></div>` : ''}
           <div class="two"><div class="field"><label class="check"><input type="checkbox" id="fPinned" ${d.pinned?'checked':''} ${(typeof ro!=='undefined'&&ro)?'disabled':''}> Pin to top</label></div><div class="field"><label class="check"><input type="checkbox" id="fUrgent" ${d.priority==='urgent'?'checked':''}> Mark urgent</label></div></div>
           <div class="field"><label for="fNote">Notes</label><textarea id="fNote">${esc(d.note||'')}</textarea></div>
@@ -2377,7 +2645,7 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
     const d = state.draft; if(!d) return;
     const title = $('#fTitle').value.trim(); if(!title){ $('#fTitle').focus(); return; }
     const now = new Date().toISOString();
-    const body = { title, project: ((($('#fProject')||{}).value)||'').trim() || null, owner: $('#fOwner').value || 'TBD', area: $('#fArea').value || null, due: $('#fDue').value || null, raised: $('#fRaised').value || null, priority: $('#fUrgent').checked ? 'urgent' : null, note: $('#fNote').value.trim() || null, status: d.status, updatedAt: now, userEdited: true };
+    const body = { title, project: ((($('#fProject')||{}).value)||'').trim() || null, owner: $('#fOwner').value || 'TBD', area: $('#fArea').value || null, due: $('#fDue').value || null, time: ($('#fDue').value && $('#fTime') && hm2min($('#fTime').value)!==null) ? $('#fTime').value : null, mins: ($('#fTime') && hm2min($('#fTime').value)!==null) ? (+$('#fMins').value || 30) : (d.mins || null), raised: $('#fRaised').value || null, priority: $('#fUrgent').checked ? 'urgent' : null, note: $('#fNote').value.trim() || null, status: d.status, updatedAt: now, userEdited: true };
     const wasPinned = !!d.pinned, nowPinned = $('#fPinned').checked; body.pinned = nowPinned; body.pinnedAt = nowPinned ? (wasPinned ? (d.pinnedAt||now) : now) : null;
     body.doneAt = d.status==='done' ? (d.doneAt || now) : null;
     const wIn = $('#fWaiting'); body.waitingOn = d.status==='waiting' ? ((wIn && wIn.value.trim()) || null) : null; body.waitingSince = d.status==='waiting' ? (d.status===d.status && d.waitingSince && (state.selected && (state.cards.find(x=>x.id===state.selected)||{}).status==='waiting') ? d.waitingSince : now) : null;
@@ -2433,6 +2701,7 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
 
     document.querySelectorAll('.subnav [data-go]').forEach(x => { x.onclick = () => { const g = x.dataset.go; if(g==='people'){ state.noteMode = 'people'; setView('notes'); } else if(g==='calendar'){ state.meetMode = 'calendar'; setView('meetings'); renderCalendar(); } else { if(g==='notes' && state.noteMode==='people') state.noteMode = 'notes'; if(g==='meetings') state.meetMode = 'meetings'; setView(g); renderCalendar(); } }; });
     $('#viewToday').addEventListener('click', e => {
+      if(dayClick(e)) return;
       const mh = e.target.closest('[data-mm-hide]'); if(mh){ state.mmOff = {...(state.mmOff||{}), [mh.dataset.mmHide]: true}; state.mmPick = null; renderToday(); return; }
       if(e.target.closest('[data-mm-show]')){ state.mmOff = {}; renderToday(); window.scrollTo(0,0); return; }
       const mp = e.target.closest('[data-mm-pick]'); if(mp){ state.mmPick = mp.dataset.mmPick; renderToday(); return; }
@@ -2576,6 +2845,19 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
   document.addEventListener('keydown', e => { if(e.key==='Escape' && state.quick){ e.stopPropagation(); closeQuick(false); } }, true);
   { let rz = null; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => { renderFilters(); renderBoard(); renderList(); }, 160); }); }
   window.addEventListener('hashchange', () => { applyHash(); });
+
+  { const vt = $('#viewToday'); let dId = null, dOff = 0;
+    const track = e => (e.target.closest ? e.target.closest('[data-day-track]') : null);
+    const at = (tr, e) => { const r = tr.getBoundingClientRect(), h0 = +tr.dataset.h0 || 0; return Math.max(0, Math.min(1425, h0*60 + Math.round(((e.clientY - r.top - dOff) / DH * 60) / 15) * 15)); };
+    const end = () => { dId = null; dOff = 0; document.body.classList.remove('daydrag'); vt.querySelectorAll('.dragging').forEach(x => x.classList.remove('dragging')); vt.querySelectorAll('.dghost').forEach(g => { g.hidden = true; }); };
+    vt.addEventListener('dragstart', e => { if(!wideDay() || !e.target.closest) return; const el = e.target.closest('[data-day-card], .trow[data-open]'); if(!el) return; const id = el.dataset.dayCard || el.dataset.open, c = state.cards.find(x => x.id===id); if(!c || c.status==='done') return;
+      dId = id; dOff = el.dataset.dayCard ? (e.clientY - el.getBoundingClientRect().top) : 0; e.dataTransfer.effectAllowed = 'move'; try{ e.dataTransfer.setData('text/plain', id); }catch(_){} el.classList.add('dragging'); document.body.classList.add('daydrag'); });
+    vt.addEventListener('dragend', end);
+    vt.addEventListener('dragover', e => { const tr = track(e); if(!tr || !dId) return; e.preventDefault(); e.dataTransfer.dropEffect = 'move'; const g = tr.querySelector('.dghost'), c = state.cards.find(x => x.id===dId); if(!g || !c) return; const m = at(tr, e), ct = cardTime(c), len = ct ? ct.mins : guessMins(c), h0 = +tr.dataset.h0 || 0; g.hidden = false; g.style.top = Math.round((m - h0*60) * DH / 60)+'px'; g.style.height = Math.max(20, Math.round(len * DH / 60) - 2)+'px'; g.textContent = fmtSpan(m, m + len); });
+    vt.addEventListener('drop', e => { const tr = track(e); if(!tr || !dId) return; e.preventDefault(); const id = dId, c = state.cards.find(x => x.id===id), m = at(tr, e), day = tr.dataset.dayTrack; end(); if(c){ const ct = cardTime(c); setCardTime(id, day, m, ct ? ct.mins : null); } }); }
+  document.addEventListener('keydown', e => {
+    if(e.key==='Escape' && (state.tp || state.plan)){ e.stopPropagation(); if(state.tp) closeTimePick(); else closePlan(); return; }
+    if((e.key==='k' || e.key==='K') && (e.metaKey || e.ctrlKey) && !e.altKey){ e.preventDefault(); if(!state.quick && !state.tp && !state.plan) openQuick(); } }, true);
   if(!applyHash() && window.DUSC_START==='board') openBoard();
   setInterval(() => { if(document.visibilityState!=='visible') return; const m = meetingNow(); const id = m ? m.eventId : ''; if(id !== (state.mmShown||'') || (m && new Date(m.start).getTime() > Date.now())){ renderToday(); } }, 30000);
   const refreshIfStale = () => { if(document.visibilityState==='visible' && !state.loading && (!state.lastLoad || Date.now()-state.lastLoad > 60000)) loadAll(); };
@@ -2586,10 +2868,10 @@ a.hb{display:inline-flex;align-items:center;text-decoration:none}
 </script>
 <script>
 (function(){
-  var BUILD = 'e7c68bfa93';
+  var BUILD = 'dfc0b924ff';
   if(location.protocol === 'file:') return;
   var busy = false;
-  function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
+  function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet, #quickRoot .psheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
   function check(){
     if(busy || document.visibilityState !== 'visible') return; busy = true;
     fetch('version.json?t=' + Date.now(), {cache:'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){

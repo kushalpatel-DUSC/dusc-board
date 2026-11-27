@@ -16,7 +16,8 @@ day-before agenda work ("prework") once and the after-meeting recap ("recap") on
 mark that the agenda email is dealt with); on a series it never touches "notesDoc" (the running notes doc
 the user linked). On a card it can write "connect" (what the card was tied to: notes, emails, a suggested
 date or project) only while the card's connect.state is "pending", so each card is connected once and a
-link the user removed never comes back. The page (source "user") has no guard.
+link the user removed never comes back. A time the user put on a card ("time", "mins") is the user's:
+the sync proposes times only in meta/dayplan, which the page shows under "Plan my day". The page (source "user") has no guard.
 The club calendar (data/calendar.json) is written by scripts/build_calendar.py, not by this script.
 Prints a one-line summary. Exit code 0 on success.
 """
@@ -25,7 +26,7 @@ import json, os, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 COLLS = ['cards', 'notes', 'inbox', 'meetings', 'series', 'meta']
 PROTECTED = {
-    'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited', 'triage', 'dismissedAt', 'snoozes', 'project', 'later', 'laterAt', 'keptAt', 'archivedAt'},
+    'cards': {'status', 'title', 'owner', 'due', 'note', 'priority', 'pinned', 'pinnedAt', 'waitingOn', 'waitingSince', 'doneAt', 'area', 'userEdited', 'triage', 'dismissedAt', 'snoozes', 'project', 'later', 'laterAt', 'keptAt', 'archivedAt', 'time', 'mins'},
     'meetings': {'agenda', 'agendaUpdatedAt', 'agendaSentAt', 'userEdited', 'skipAgenda', 'agendaSkip', 'preworkDone'},
     'series': {'running', 'runningUpdatedAt', 'userEdited', 'notesDoc'},
     'inbox': {'status', 'cardId', 'userEdited'},
