@@ -142,7 +142,7 @@
  "adv-camp-gustavo-group": {
   "area": "Programs",
   "createdAt": "2026-11-04T23:45:00Z",
-  "doneAt": null,
+  "doneAt": "2026-11-27T21:18:18.810Z",
   "due": "2026-11-27",
   "id": "adv-camp-gustavo-group",
   "later": false,
@@ -153,10 +153,12 @@
   "raised": "2026-11-04",
   "source": "DUSC Ops Meeting",
   "sourceUrl": "https://docs.google.com/document/d/1oKx4MjuTmpLd-HHjKhNylBnqDCOGied_jFRSXzPTUHg/edit",
-  "status": "todo",
+  "status": "done",
   "title": "Advanced Camps: set up meeting with Gustavo, Cris, Oumou and Mal",
-  "updatedAt": "2026-11-27T03:31:58.502Z",
-  "userEdited": true
+  "updatedAt": "2026-11-27T21:18:18.810Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
  },
  "ar-reporting-930": {
   "area": "Finance",
