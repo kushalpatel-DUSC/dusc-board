@@ -2721,7 +2721,7 @@
   "area": "Programs",
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "winter-registration-process-email",
   "note": null,
   "owner": "KP",
@@ -2735,9 +2735,10 @@
   "status": "todo",
   "title": "Send one organized email setting out the winter registration process and the Constant Contact setup",
   "triage": null,
-  "updatedAt": "2026-11-18T01:16:09.619Z",
+  "updatedAt": "2026-11-27T21:18:06.582Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  }
 }
