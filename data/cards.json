@@ -777,7 +777,7 @@
   "area": "Finance",
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
-  "due": null,
+  "due": "2026-11-27",
   "id": "coach-director-pay-guidelines",
   "note": "From your own 'Things I need to fix' list.",
   "owner": "KP",
@@ -790,11 +790,12 @@
   "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
   "status": "todo",
   "title": "Set up clear guidelines for coaches and directors on who gets paid for what",
-  "triage": "new",
-  "updatedAt": "2026-11-27T10:51:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-27T21:13:39.481Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "later": false
  },
  "coach-hats-reply-mal": {
   "area": "Vendors",
