@@ -2558,12 +2558,13 @@
   "source": "Email: Website",
   "sourceKind": "email",
   "sourceUrl": "https://mail.google.com/mail/?authuser=kushal.patel@dusc.net#all/thread-a:r-7119380666870284981",
-  "status": "todo",
+  "status": "archived",
   "title": "Ask Malorie to consolidate her website feedback and change requests and send them to Syd to forward on",
-  "updatedAt": "2026-11-05T21:12:00Z",
-  "userEdited": false,
+  "updatedAt": "2026-11-27T03:31:37.896Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "archivedAt": "2026-11-27T03:31:37.896Z"
  },
  "winter-reg-assets-leo-liam": {
   "area": "Programs",
