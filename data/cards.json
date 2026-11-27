@@ -979,13 +979,14 @@
   "raised": "2026-11-27",
   "source": "Things I need to fix (scratch list)",
   "sourceUrl": "https://docs.google.com/document/d/1VlIlCwpd-FOGIniNGhS1irdUhji22mTBQNbYWzsAd2I/edit?usp=drivesdk&ouid=114282482648379906347",
-  "status": "todo",
+  "status": "dismissed",
   "title": "Look closely at how the money is being spent on MLS Next Fest and the GA Winter Showcase",
-  "triage": "new",
-  "updatedAt": "2026-11-27T10:51:21Z",
-  "userEdited": false,
+  "triage": null,
+  "updatedAt": "2026-11-27T21:13:49.982Z",
+  "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null
+  "waitingSince": null,
+  "dismissedAt": "2026-11-27T21:13:49.982Z"
  },
  "finance-gap-plan": {
   "area": "Finance",
