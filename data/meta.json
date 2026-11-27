@@ -13,11 +13,11 @@
   "cardsAdded": 0,
   "cleared": 0,
   "flagged": 17,
-  "lastRun": "2026-11-27T01:06:21Z",
+  "lastRun": "2026-11-27T03:06:37Z",
   "lastRunStatus": "ok",
-  "meetingsChanged": 0,
+  "meetingsChanged": 1,
   "meetingsProcessed": 0,
-  "scanned": 1
+  "scanned": 15
  },
  "prework": {
   "createdAt": "2026-11-25T03:20:14Z",
