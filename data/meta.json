@@ -175,11 +175,11 @@
   "connectChecked": 0,
   "connected": 0,
   "flagged": 0,
-  "lastRun": "2026-11-28T17:05:32Z",
+  "lastRun": "2026-11-28T19:06:17Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 10
+  "scanned": 9
  },
  "prework": {
   "createdAt": "2026-11-25T03:20:14Z",
