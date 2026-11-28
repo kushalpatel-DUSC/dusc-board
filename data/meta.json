@@ -60,7 +60,7 @@
   "updatedAt": "2026-11-28T01:29:43Z"
  },
  "dayplan": {
-  "at": "2026-11-27T20:48:29Z",
+  "at": "2026-11-28T10:48:57Z",
   "date": "2026-11-30",
   "items": [
    {
@@ -79,18 +79,12 @@
     "cardId": "open-enrollment-staff-notice",
     "mins": 30,
     "start": "11:45",
-    "why": "Urgent: staff need the enrollment dates"
-   },
-   {
-    "cardId": "classic-tournament-cancel-oumou",
-    "mins": 15,
-    "start": "12:15",
-    "why": "Urgent: the tournament is Dec 12–13"
+    "why": "Urgent: before the 3:00 all-staff plan review"
    },
    {
     "cardId": "c-mwr67yeu-r35oa",
     "mins": 30,
-    "start": "15:00",
+    "start": "16:00",
     "why": "Urgent and overdue since Nov 22"
    }
   ],
@@ -98,25 +92,80 @@
    {
     "cardId": "finance-role-requirements",
     "date": "2026-12-01",
-    "why": "Monday is full; ready for Friday's finance call"
+    "why": "Overdue; ready for Friday's finance call"
    },
    {
-    "cardId": "adv-camp-gustavo-group",
+    "cardId": "billcom-review-january",
     "date": "2026-12-01",
-    "why": "Same group is on Tuesday's 10:00 Rec call"
+    "why": "Nirmala's Tuesday hour needs your answer"
+   },
+   {
+    "cardId": "roster-file-link-andy",
+    "date": "2026-12-01",
+    "why": "Quick send, well before Friday's call"
+   },
+   {
+    "cardId": "travel-spending-guidelines-kyle",
+    "date": "2026-12-01",
+    "why": "Write up what you agree with Kyle Monday"
+   },
+   {
+    "cardId": "winter-registration-process-email",
+    "date": "2026-12-01",
+    "why": "After Tuesday's 10:00 Rec call"
+   },
+   {
+    "cardId": "c-mwlfvkau-mmhwk",
+    "date": "2026-12-01",
+    "why": "Goes with the winter registration email"
+   },
+   {
+    "cardId": "indoor-space-budget-total",
+    "date": "2026-12-02",
+    "why": "Ops call at 1:30 needs the total"
+   },
+   {
+    "cardId": "c-mwzttgza-qh281",
+    "date": "2026-12-02",
+    "why": "Feeds the indoor space total"
+   },
+   {
+    "cardId": "immaculate-conception-winter-bookings",
+    "date": "2026-12-02",
+    "why": "Comes up on Wednesday's Ops call"
    },
    {
     "cardId": "leo-expectations-followup",
     "date": "2026-12-02",
-    "why": "Before Wednesday's Ops call"
+    "why": "Pinned; before Wednesday's Ops call"
    },
    {
     "cardId": "supply-db-rent-free-spaces",
     "date": "2026-12-03",
     "why": "Ready for Friday's Fields Committee meeting"
+   },
+   {
+    "cardId": "reimbursement-policies-system",
+    "date": "2026-12-03",
+    "why": "Thursday has no meetings"
+   },
+   {
+    "cardId": "credit-card-receipt-work",
+    "date": "2026-12-03",
+    "why": "Thursday has no meetings"
+   },
+   {
+    "cardId": "coach-director-pay-guidelines",
+    "date": "2026-12-04",
+    "why": "Bring a draft to Friday's finance call"
+   },
+   {
+    "cardId": "bofa-issue-fix",
+    "date": "2026-12-04",
+    "why": "Raise it on Friday's finance call if stuck"
    }
   ],
-  "summary": "Monday turns on the 1:00 audit draft review. Read the draft and get Andy financials that tie to it before then; the afternoon after Kyle's 2:00 is for the winter practice schedule."
+  "summary": "Monday turns on the 1:00 audit draft review: read the draft and get Andy financials that tie to it first. Friday's overdue to-dos are spread across the week."
  },
  "inbox": {
   "added": 0,
@@ -223,10 +272,6 @@
   "brief": [
    {
     "label": "Today",
-    "text": "Write the finance role requirements, due today, ahead of the December interviews."
-   },
-   {
-    "label": "Today",
     "text": "Check and send the three agenda emails for Monday: audit draft review at 1:00, Finance Weekly at 1:30 and Kyle at 2:00."
    },
    {
@@ -238,23 +283,17 @@
     "text": "Send Nirmala the showcase spending policy draft first thing, so it can go out that afternoon."
    },
    {
+    "label": "Mon 11/30",
+    "text": "Agree with Nirmala and Kristen what full-time staff are told about open enrollment before the 3:00 all-staff plan review."
+   },
+   {
     "label": "Stuck",
-    "text": "Write down what Andy and Paul decided on Wednesday; Gemini produced no notes and today's 2:00 call was cancelled."
+    "text": "Work through the 14 to-dos dated Friday 11/27, starting with the finance role requirements; the day plan spreads them across next week."
    }
   ],
   "cardsAdded": 0,
   "cardsCompleted": 0,
   "deadlines": [
-   {
-    "date": "2026-11-27",
-    "label": "Finance role requirements written (two weeks from 11/13)",
-    "who": "KP"
-   },
-   {
-    "date": "2026-11-27",
-    "label": "Futsal program proposal (vision, schedule, budget, pricing) and updated winter program calendar sent to KP",
-    "who": "Jesse"
-   },
    {
     "date": "2026-11-29",
     "label": "Kyle back online; travel spending guidelines to follow",
@@ -274,6 +313,11 @@
     "date": "2026-11-30",
     "label": "Full financials that tie to the audit draft's net operating income, before the 1:00 auditor call",
     "who": "KP, Nirmala, Paul"
+   },
+   {
+    "date": "2026-11-30",
+    "label": "All-staff 2027 health insurance plan review with Paychex (3:00)",
+    "who": "Nirmala, Kristen, KP"
    },
    {
     "date": "2026-12-01",
@@ -347,10 +391,10 @@
    }
   ],
   "headline": "Monday is the crunch: the 1:00 audit draft review, then Nirmala and Kyle back to back. Read the draft, get Andy financials that tie to it, and send the three agenda emails.",
-  "lastRun": "2026-11-27T20:48:29Z",
+  "lastRun": "2026-11-28T10:48:57Z",
   "lastRunStatus": "ok",
-  "meetingsRefreshed": 14,
-  "notesScanned": 25,
+  "meetingsRefreshed": 15,
+  "notesScanned": 48,
   "themes": [
    {
     "name": "Deficit and forecast",
@@ -366,11 +410,11 @@
    },
    {
     "name": "Finance capacity",
-    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP's ask to Andy and Paul awaits an answer; the finance role requirements are due today."
+    "text": "Nirmala asked for part-time accounting help and Bill.com to cut manual payables. KP's ask to Andy and Paul awaits an answer; the finance role requirements were due Nov 27."
    },
    {
     "name": "Healthcare",
-    "text": "Paychex put names on the wrong accounts, which holds up the five-day open enrollment. Paul chases the fix; Kristen and Nirmala send packets and set an information call."
+    "text": "Paychex put names on the wrong accounts, which held up the five-day open enrollment. Nirmala runs an all-staff plan review Monday at 3:00; KP owes staff the enrollment notice."
    },
    {
     "name": "Winter space and permits",
