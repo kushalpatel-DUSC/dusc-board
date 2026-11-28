@@ -2945,8 +2945,10 @@
   "sourceUrl": "https://docs.google.com/document/d/1caLnz5HwVCAQpjFbqxxls_6fNMaqNSZ3gQmDNlDVpd4/edit",
   "status": "todo",
   "title": "Staff Handbook update for 2027 (incl. parental leave policy)",
-  "updatedAt": "2026-11-04T23:45:00Z",
-  "userEdited": false
+  "updatedAt": "2026-11-28T03:03:37.101Z",
+  "userEdited": true,
+  "later": true,
+  "laterAt": "2026-11-28T03:03:37.101Z"
  },
  "staffing-roles-review": {
   "area": "People",
