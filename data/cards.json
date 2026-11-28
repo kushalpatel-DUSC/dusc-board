@@ -3129,5 +3129,36 @@
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
+ },
+ "c-mwzttgza-qh281": {
+  "title": "Finish setting up the Winter Facility Calcuations",
+  "owner": "KP",
+  "area": null,
+  "cats": [
+   "fields"
+  ],
+  "status": "todo",
+  "due": "2026-11-27",
+  "time": null,
+  "mins": null,
+  "raised": "2026-11-27",
+  "priority": null,
+  "note": null,
+  "source": "Quick list",
+  "sourceUrl": null,
+  "sourceKind": "quick",
+  "connect": {
+   "state": "pending",
+   "askedAt": "2026-11-28T03:04:04.917Z",
+   "listId": "qmwzttgz9"
+  },
+  "pinned": false,
+  "pinnedAt": null,
+  "waitingOn": null,
+  "waitingSince": null,
+  "createdAt": "2026-11-28T03:04:04.917Z",
+  "updatedAt": "2026-11-28T03:04:04.917Z",
+  "doneAt": null,
+  "userEdited": true
  }
 }
