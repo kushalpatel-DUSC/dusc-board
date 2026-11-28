@@ -8,7 +8,8 @@ his quick list) it prints the card and its nearest neighbours among the board's 
   notes   meeting notes, with the exact lines that matched (a to-do, a decision, a key point)
   emails  threads recorded on the old Reply list in the last 30 days (retired 2026-11-27, so this runs dry)
   cards   his other open cards, as possible duplicates
-and the list of project names. Neighbours are found by shared words only, so most are wrong: whether
+and the list of project names. It also prints KP's categories and his open cards that have no category yet
+("uncategorised"). Neighbours are found by shared words only, so most are wrong: whether
 one really is about the same piece of work is for the reader to judge.
 """
 import datetime, json, math, os, re, sys
@@ -149,8 +150,12 @@ def main():
         res['cards'] = [x for _, x in sorted(cs, key=lambda x: -x[0])[:3]]
         out.append(res)
 
+    # KP's open cards that have no "cats" field at all (the board could not place them); an empty list is his own choice and is left alone
+    uncat = [{'id': cid, 'title': c.get('title'), 'note': c.get('note'), 'project': c.get('project'), 'source': c.get('source')}
+             for cid, c in cards.items() if isinstance(c, dict) and c.get('status') in OPEN and (c.get('owner') or 'KP') == 'KP' and c.get('cats') is None]
     print(json.dumps({'today': today.isoformat(), 'projects': [p.get('name') for p in ((meta.get('projects') or {}).get('items') or []) if p.get('name')],
-                      'pending': out, 'waiting': max(0, len(pending) - mx)}, indent=1, ensure_ascii=False))
+                      'categories': [{'id': k.get('id'), 'name': k.get('name')} for k in ((meta.get('categories') or {}).get('items') or []) if isinstance(k, dict)],
+                      'pending': out, 'waiting': max(0, len(pending) - mx), 'uncategorised': uncat[:20]}, indent=1, ensure_ascii=False))
 
 
 if __name__ == '__main__':

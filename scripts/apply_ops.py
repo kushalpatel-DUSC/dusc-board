@@ -17,7 +17,9 @@ mark that the agenda email is dealt with); on a series it never touches "notesDo
 the user linked). On a card it can write "connect" (what the card was tied to: notes, emails, a suggested
 date or project) only while the card's connect.state is "pending", so each card is connected once and a
 link the user removed never comes back. A time the user put on a card ("time", "mins") is the user's:
-the sync proposes times only in meta/dayplan, which the page shows under "Plan my day". The page (source "user") has no guard.
+the sync proposes times only in meta/dayplan, which the page shows under "Plan my day". The category list
+(meta/categories) is the user's too: a sync never writes it, may give a card its first "cats" (valid ids, two at
+most) and never changes "cats" on a card that already has the field; projects keep their "cat". The page (source "user") has no guard.
 The club calendar (data/calendar.json) is written by scripts/build_calendar.py, not by this script.
 Prints a one-line summary. Exit code 0 on success.
 """
@@ -82,6 +84,26 @@ def main():
                         item['done'] = True; hit += 1
             counts['applied' if hit else 'skipped'] += 1
             continue
+        if guarded and coll == 'meta' and oid == 'categories':
+            # the category list is KP's own (he edits it on the board): a scheduled task never writes it
+            counts['skipped'] += 1; continue
+        if guarded and coll == 'meta' and oid == 'projects' and existing is not None and isinstance(patch.get('items'), list):
+            # a project keeps the category it has on the board
+            had = {p.get('name'): p.get('cat') for p in (existing.get('items') or []) if isinstance(p, dict) and 'cat' in p}
+            for p in patch['items']:
+                if isinstance(p, dict) and p.get('name') in had:
+                    p['cat'] = had[p['name']]
+        if guarded and coll == 'cards' and 'cats' in patch:
+            # categories: a scheduled task may give a card its first categories (ids from KP's list, two at
+            # most); once a card has a "cats" list, even an empty one, only KP changes it
+            valid = [k.get('id') for k in ((cache.setdefault('meta', load('meta')).get('categories') or {}).get('items') or []) if isinstance(k, dict)]
+            want = list(dict.fromkeys(c for c in (patch['cats'] if isinstance(patch['cats'], list) else []) if c in valid))[:2]
+            if (existing is not None and existing.get('cats') is not None) or not want:
+                patch.pop('cats'); counts['trimmed'] += 1
+                if not patch:
+                    counts['skipped'] += 1; continue
+            else:
+                patch['cats'] = want
         if guarded and existing is not None and coll == 'cards' and 'connect' in patch:
             # connections are written once, in answer to the page's {"state": "pending"}; what the page
             # recorded with the request (when it was asked, which quick list it came from) is carried over

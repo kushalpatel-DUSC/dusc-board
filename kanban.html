@@ -1278,6 +1278,82 @@ body.daydrag .dtrack{background:var(--surface-2)}
 .wk-hint + .akey{margin:-4px 0 14px}
 .akey .ak{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .akey .ak i{width:10px;height:10px;border-radius:3px;background:var(--ac);flex:none}
+
+/* ---------- v10: categories ---------- */
+:root{ --pc-blue:#93BFF7; --pc-green:#74D9A4; --pc-purple:#C7ACF7; --pc-teal:#63D3DD; --pc-gold:#E8C660; --pc-raspberry:#F79AC1; --pc-olive:#C3D377; --pc-brown:#E3B693; --pc-slate:#BAC6D8; --pc-indigo:#B3BCFA; --pc-plum:#E7A5E7; --pc-sand:#DCCDA6; }
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --pc-blue:#2A63AD; --pc-green:#1B7449; --pc-purple:#7A4CB0; --pc-teal:#0A6B76; --pc-gold:#7E5A05; --pc-raspberry:#AD356A; --pc-olive:#566611; --pc-brown:#86563A; --pc-slate:#56667B; --pc-indigo:#4553B5; --pc-plum:#8C3A8C; --pc-sand:#6E5F3C; } }
+:root[data-theme="light"]{ --pc-blue:#2A63AD; --pc-green:#1B7449; --pc-purple:#7A4CB0; --pc-teal:#0A6B76; --pc-gold:#7E5A05; --pc-raspberry:#AD356A; --pc-olive:#566611; --pc-brown:#86563A; --pc-slate:#56667B; --pc-indigo:#4553B5; --pc-plum:#8C3A8C; --pc-sand:#6E5F3C; }
+.ac-blue{--ac:var(--pc-blue)} .ac-green{--ac:var(--pc-green)} .ac-purple{--ac:var(--pc-purple)} .ac-teal{--ac:var(--pc-teal)} .ac-gold{--ac:var(--pc-gold)} .ac-raspberry{--ac:var(--pc-raspberry)} .ac-olive{--ac:var(--pc-olive)} .ac-brown{--ac:var(--pc-brown)} .ac-slate{--ac:var(--pc-slate)} .ac-indigo{--ac:var(--pc-indigo)} .ac-plum{--ac:var(--pc-plum)} .ac-sand{--ac:var(--pc-sand)}
+.tag.ar{color:var(--ac);background:color-mix(in srgb,var(--ac) 15%,transparent)}
+.tag.st{color:var(--muted);background:none;border:1px solid var(--line-2)}
+.lanenav[hidden],.catboard[hidden],#boardCatBar[hidden]{display:none!important}
+
+/* the category buttons: a filter and the colour key in one */
+.catbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.t2 .catbar{margin:-6px 0 -4px}
+.wk-hint + .catbar{margin:-2px 0 14px}
+#boardCatBar{padding:0 0 12px}
+.cchip{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:0 11px;border:1px solid var(--line);border-radius:99px;background:var(--surface-solid);color:var(--fg);font-size:13px;font-weight:500;white-space:nowrap;flex:none}
+.cchip i{width:10px;height:10px;border-radius:3px;background:var(--ac);flex:none}
+.cchip .c{font-size:12px;color:var(--muted);font-weight:500}
+.cchip:hover{border-color:var(--line-2)}
+.cchip[aria-pressed="true"]{border-color:var(--ac,var(--fg));background:color-mix(in srgb,var(--ac,var(--fg)) 14%,var(--surface-solid));font-weight:600}
+.cshow{display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:0 12px;border-radius:99px;border:1px solid var(--ac,var(--fg));background:var(--ac,var(--fg));color:var(--bg);font-size:13px;font-weight:600;white-space:nowrap;flex:none}
+.cedit{min-height:32px;padding:0 8px;color:var(--accent);font-size:13px;font-weight:500;text-decoration:underline;text-underline-offset:2px;flex:none}
+@media (max-width:899px){
+  .catbar{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;padding-right:28px;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent)}
+  .catbar::-webkit-scrollbar{display:none}
+  .cchip,.cshow,.cedit{min-height:38px}
+}
+
+/* Board: By status / By category */
+.seg.bygrp{margin-left:0}
+body[data-boardby="cat"] #viewBoard .toolbar .seg:not(.bygrp),body[data-boardby="cat"] #sortSel{display:none}
+.catboard{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:12px;padding-block:4px 36px;align-items:start}
+.ccol{--lc:var(--ac,var(--muted))}
+.ccol .lane-head h2{display:flex;align-items:center;gap:7px;min-width:0}
+.ccol .cdot{width:10px;height:10px;border-radius:3px;background:var(--ac);flex:none}
+#catBoard .card .note,#catBoard .card .card-meta .rz{display:none}
+.cmore{display:block;width:100%;margin-top:8px;min-height:36px;border-radius:10px;color:var(--accent);font-size:13px;font-weight:500}
+.cmore:hover{background:var(--surface-3)}
+@media (min-width:981px){ .ccol:not(.open) .card.over{display:none} }
+@media (max-width:980px){
+  #viewBoard .toolbar .seg.bygrp{display:inline-flex}
+  .catboard{display:block;padding-block:0 36px}
+  .ccol{display:none;background:none;border:0;padding:0;min-height:0}
+  .ccol.sel{display:block}
+  .ccol::before,.ccol .lane-head,.ccol .cmore{display:none}
+  #catBoard .card{cursor:pointer}
+  #catBoard .lane-empty{padding:28px 8px;text-align:center}
+  #catNav .nmode{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 30px),transparent)}
+  #catNav .nmode button:last-child{margin-right:28px}
+  #catNav .nmode::-webkit-scrollbar{display:none}
+  #catNav .nmode button{flex:0 0 auto;padding:0 12px;white-space:nowrap}
+}
+
+/* quick list: the category it will get */
+.qchip.cat{border-color:var(--ac);color:var(--ac);background:color-mix(in srgb,var(--ac) 12%,transparent)}
+
+/* Edit categories */
+.cesheet .ce-list{display:flex;flex-direction:column;gap:10px}
+.ce-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.ce-row .ce-sw{width:14px;height:14px;border-radius:4px;background:var(--ac);flex:none}
+.ce-row input[type="text"],.ce-add input{flex:1 1 170px;min-width:0;min-height:40px;padding:0 10px;border:1px solid var(--line-2);border-radius:10px;background:var(--surface-solid);color:var(--fg);font:inherit;font-size:15px}
+.ce-row select{flex:none;min-height:40px;padding:0 8px;border:1px solid var(--line-2);border-radius:10px;background:var(--surface-solid);color:var(--fg);font:inherit;font-size:13.5px}
+.ce-row .ce-b{flex:none;min-width:40px;min-height:40px;border:1px solid var(--line);border-radius:10px;color:var(--fg);font-size:14px}
+.ce-row .ce-b[disabled]{opacity:.35}
+.ce-row .ce-x{flex:none;min-height:40px;padding:0 10px;color:var(--accent);font-size:13.5px;font-weight:500}
+.ce-row .ce-n{flex:1 0 100%;font-size:12.5px;color:var(--muted)}
+.ce-rm{flex:1 0 100%;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--accent-line);border-radius:12px;background:var(--accent-soft);font-size:13.5px;color:var(--fg)}
+.ce-add{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ce-add label{flex:1 0 100%;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ce-err{margin:0;font-size:13.5px;color:var(--crit);font-weight:500}
+.ce-err:empty{display:none}
+.cesheet .qs-foot{position:sticky;bottom:-14px;margin:0 -18px -14px;padding:10px 18px 14px;background:var(--bg-2);border-top:1px solid var(--line)}
+@media (max-width:700px){
+  .ce-row .ce-n{flex:1 1 0;text-align:right}
+  .cesheet .qs-foot{bottom:-12px;margin:0 -14px -12px;padding:10px 14px 12px}
+}
 </style>
 </head>
 <body>
@@ -1325,6 +1401,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     <div id="projView"></div>
     <div class="overview" id="overview" aria-label="Overview"></div>
     <div class="toolbar">
+      <div class="seg bygrp" role="group" aria-label="Group the board"><button id="byStatus" type="button" aria-pressed="true">By status</button><button id="byCat" type="button" aria-pressed="false">By category</button></div>
       <div class="chips" id="ownerChips" aria-label="Filter by owner"></div>
       <select class="sel" id="areaSel" aria-label="Filter by area"><option value="all">All areas</option></select>
       <select class="sel" id="sortSel" aria-label="Sort cards"><option value="smart">Sort: Default</option><option value="urgency">Sort: Urgency</option><option value="due">Sort: Due date</option><option value="newest">Sort: Newest</option></select>
@@ -1335,13 +1412,16 @@ body.daydrag .dtrack{background:var(--surface-2)}
         <button id="layList" aria-pressed="false">List</button>
       </div>
     </div>
+    <div id="boardCatBar"></div>
     <div class="lanenav" id="laneNav"></div>
+    <div class="lanenav" id="catNav" hidden></div>
     <div class="board" id="board">
       <section class="lane glass" data-status="todo"><div class="lane-head"><h2>To do</h2><span class="count">0</span></div><div class="cards"><div class="lane-empty">Loading cards…</div></div></section>
       <section class="lane glass" data-status="doing"><div class="lane-head"><h2>In progress</h2><span class="count">0</span></div><div class="cards"></div></section>
       <section class="lane glass" data-status="waiting"><div class="lane-head"><h2>Waiting on</h2><span class="count">0</span></div><div class="cards"></div></section>
       <section class="lane glass" data-status="done"><div class="lane-head"><h2>Done</h2><span class="count">0</span><button class="tog" id="doneTog" aria-expanded="true">Hide</button></div><div class="cards"></div></section>
     </div>
+    <div class="catboard" id="catBoard" hidden></div>
     <div class="list" id="list" hidden></div>
   </section>
 
@@ -1476,7 +1556,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     state.meetings = Object.entries(DATA.meetings).map(([id,m])=>({...m, eventId: m.eventId||id}));
     state.series = Object.entries(DATA.series).map(([k,s])=>({...s, key: s.key||k}));
     state.sync = DATA.meta.sync||null; state.dayplan = DATA.meta.dayplan||null; state.mailSync = DATA.meta.inbox||null;
-    state.calendar = Object.values(DATA.calendar||{}); state.calMeta = DATA.meta.calendar||null; state.projectsMeta = ((DATA.meta.projects||{}).items)||[];
+    state.calendar = Object.values(DATA.calendar||{}); state.calMeta = DATA.meta.calendar||null; state.projectsMeta = ((DATA.meta.projects||{}).items)||[]; state.cats = DATA.meta.categories ? (DATA.meta.categories.items||[]) : null;
   }
   const uid = () => 'c-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7);
   function queueOp(coll, id, op, patch){ if(!token){ viewOnlyHint(); return; } queue.push({coll, id, op, patch, ts: Date.now()}); applyOp(DATA[coll], {coll,id,op,patch}); saveQueue(); cacheSave(); }
@@ -1566,12 +1646,13 @@ body.daydrag .dtrack{background:var(--surface-2)}
   const isOverdue = c => isOpen(c) && daysUntil(c.due)!==null && daysUntil(c.due)<0;
   const isSoon = c => isOpen(c) && daysUntil(c.due)!==null && daysUntil(c.due)>=0 && daysUntil(c.due)<=7;
   const isUrgent = c => isOpen(c) && c.priority==='urgent';
-  function matchesText(c, q){ return !q || [c.title,c.note,c.source,c.area,c.owner].join(' ').toLowerCase().includes(q); }
+  function matchesText(c, q){ return !q || [c.title,c.note,c.source,cardCats(c).map(id => catById(id).name).join(' '),c.owner].join(' ').toLowerCase().includes(q); }
   function visibleCards(){
     const f = state.filters, q = f.q.trim().toLowerCase();
     return state.cards.filter(c => {
       if(f.owner!=='all' && (c.owner||'TBD')!==f.owner) return false;
       if(f.area!=='all' && c.area!==f.area) return false;
+      if(!catFOff && state.boardBy!=='cat' && !catMatch(c)) return false;
       if(!matchesText(c, q)) return false;
       if(f.focus==='week' && !(isOverdue(c)||isSoon(c))) return false;
       if(f.focus==='overdue' && !isOverdue(c)) return false;
@@ -1602,7 +1683,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
   function owners(){ const set = new Set(state.cards.map(c=>c.owner||'TBD')); return OWNER_ORDER.filter(o=>set.has(o)).concat([...set].filter(o=>!OWNER_ORDER.includes(o)).sort()); }
   function areas(){ return [...new Set(state.cards.map(c=>c.area).filter(Boolean))].sort(); }
   function noteAreas(){ return [...new Set(state.notes.map(n=>n.area).filter(Boolean))].sort(); }
-  function filtersActive(){ const f=state.filters; return !!state.meetingFilter||f.owner!=='all'||f.area!=='all'||f.focus!=='all'||f.q.trim()!==''; }
+  function filtersActive(){ const f=state.filters; return !!state.meetingFilter||f.owner!=='all'||f.area!=='all'||f.focus!=='all'||f.q.trim()!==''||(state.boardBy!=='cat' && !!catFilterOn()); }
   const openInbox = () => state.inbox.filter(m => m.status!=='handled');
 
   // ---------- header ----------
@@ -1650,7 +1731,9 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const act0 = document.activeElement; const keep0 = (act0 && act0.tagName==='INPUT' && act0.id && host.contains(act0)) ? {id: act0.id, v: act0.value, s: act0.selectionStart} : null;
     const mm = meetingNow(); state.mmShown = mm ? mm.eventId : ''; const mmHidden = meetingCands(true).length > meetingCands().length;
     if(state.loaded && !state.loaded.cards && !state.cards.length){ host.innerHTML = `<div class="col"><div class="empty-line">${esc(state.offline || 'Loading…')}</div></div>`; return; }
-    const {b} = todayCounts(); const d = new Date(); const t = isoDay(d); state.tdOpen = state.tdOpen || {};
+    const b0 = todayCounts().b; const tdAll = b0.late.concat(b0.now, b0.focus, b0.week, b0.waiting);
+    const b = catFilterOn() ? {late: b0.late.filter(catMatch), now: b0.now.filter(catMatch), focus: b0.focus.filter(catMatch), week: b0.week.filter(catMatch), waiting: b0.waiting.filter(catMatch)} : b0;
+    const d = new Date(); const t = isoDay(d); state.tdOpen = state.tdOpen || {};
     const todayList = b.now.concat(b.focus);
     const mts = state.meetings.filter(m => m.status!=='cancelled' && m.start && !isNaN(new Date(m.start)));
     const left = mts.filter(m => isoDay(new Date(m.start))===t && new Date(m.end||m.start) > d).sort((a,b2)=>new Date(a.start)-new Date(b2.start));
@@ -1674,7 +1757,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
       <div class="col colA">
         ${quickBar()}
         ${sortLine()}
-        ${areaKey(b.late.concat(todayList, b.week||[], b.waiting||[]))}
+        ${catBar(tdAll, true)}
         ${b.late.length?`<section><h2 class="late">Overdue <span class="c">${b.late.length}</span></h2>${b.late.map(c=>trow(c,'s')).join('')}</section>`:''}
         <section><h2>Today <span class="c">${todayList.length}</span></h2>${todayList.length?todayList.map(c=>trow(c,'s')).join(''):`<div class="empty-line">Nothing due today.</div>`}</section>
       </div>
@@ -1766,6 +1849,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     $('#layList').setAttribute('aria-pressed', effLay()==='list');
     $('#board').hidden = effLay()!=='kanban'; { const ln = $('#laneNav'); if(ln) ln.hidden = effLay()!=='kanban'; }
     $('#list').hidden = effLay()!=='list';
+    if(state.boardBy==='cat'){ $('#board').hidden = true; $('#list').hidden = true; const ln2 = $('#laneNav'); if(ln2) ln2.hidden = true; }
   }
 
   // ---------- kanban ----------
@@ -1775,13 +1859,14 @@ body.daydrag .dtrack{background:var(--surface-2)}
   function cardHTML(c){
     const o = c.owner||'TBD'; const dc = isOpen(c) ? dueClass(c.due) : '';
     return `<article class="card${c.status==='done'?' done':''}${c.status==='waiting'?' waiting':''}${dc==='late'?' late':dc==='soon'?' soon':''}${c.pinned?' pinned':''}${acCls(c)}" draggable="${narrowBoard() ? 'false' : 'true'}" data-id="${esc(c.id)}" tabindex="0" aria-label="${esc(c.title)}">
-      <div class="card-top">${CHECK(c)}<span class="owner" style="--o:${OWNER_COLORS[o]||''}">${esc(o)}</span>${(areaOf(c)||c.area)?`<span class="tag ar">${esc(areaOf(c)||c.area)}</span>`:''}${isUrgent(c)?`<span class="tag flag">Urgent</span>`:''}${c.sourceKind==='email'?`<span class="tag mail">Email</span>`:''}${PIN(c)}</div>
+      <div class="card-top">${CHECK(c)}<span class="owner" style="--o:${OWNER_COLORS[o]||''}">${esc(o)}</span>${catTags(c)}${isUrgent(c)?`<span class="tag flag">Urgent</span>`:''}${c.sourceKind==='email'?`<span class="tag mail">Email</span>`:''}${PIN(c)}</div>
       <h3>${esc(c.title)}</h3>
       ${(c.note||connCtx(c))?`<div class="note">${esc(c.note||connCtx(c))}</div>`:''}
       <div class="card-meta">${c.status==='waiting'?`<span class="wait${waitDays(c)>=7?' long':''}">${esc(waitLabel(c))}</span>`:''}${c.due && isOpen(c)?`<span class="due ${dc}">${esc(dueLabel(c.due))}</span>`:''}${c.raised?`<span class="rz">raised ${esc(fmtDate(c.raised))}</span>`:''}${c.status==='done'&&c.doneAt?`<span>done ${esc(fmtDate(c.doneAt))}</span>`:''}${srcHTML(c)}</div>
     </article>`;
   }
   function renderBoard(){
+    renderCatUI();
     const vis = visibleCards(); renderLaneNav(vis);
     for(const status of ['todo','doing','waiting','done']){
       const lane = $(`.lane[data-status="${status}"]`);
@@ -1934,7 +2019,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
   }
 
   // ----- projects -----
-  function projectList(){ const m = new Map(); (state.projectsMeta||[]).forEach(p => { if(p && p.name) m.set(p.name, {name:p.name, area:p.area||''}); });
+  function projectList(){ const m = new Map(); (state.projectsMeta||[]).forEach(p => { if(p && p.name) m.set(p.name, {name:p.name, area:p.area||'', cat:p.cat}); });
     state.cards.forEach(c => { if(c.project && !m.has(c.project)) m.set(c.project, {name:c.project, area:c.area||''}); }); return [...m.values()]; }
   function renderProjects(){
     const host = $('#projView'); if(!host) return;
@@ -1947,8 +2032,9 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const byDue = (a,b) => String(a.due||'9999').localeCompare(String(b.due||'9999')) || sortCards(a,b);
     const projs = projectList().map(p => { const all = state.cards.filter(c => c.project===p.name); return {...p, open: all.filter(c => isOpen(c) && match(c)).sort(byDue), done: all.filter(c => !isOpen(c) && match(c))}; }).filter(p => p.open.length || (!q && p.done.length));
     const loose = state.cards.filter(c => isOpen(c) && !c.project && match(c)).sort(byDue);
-    const areas = new Map(); projs.forEach(p => { const k = p.area || 'Other'; if(!areas.has(k)) areas.set(k, []); areas.get(k).push(p); });
+    const areas = new Map(); projs.forEach(p => { const k = projCatName(p); if(!areas.has(k)) areas.set(k, []); areas.get(k).push(p); });
     const ordered = [...areas.entries()].map(([name, ps]) => ({name, ps, open: ps.reduce((s,p)=>s+p.open.length,0)}));   // order stays as listed, so rows do not jump as counts change
+    ordered.sort((x, y) => catOrder(x.name) - catOrder(y.name));
     const prow = p => { const late = p.open.filter(c=>c.due && c.due<t).length, soon = p.open.filter(c=>c.due && c.due>=t && c.due<=wk).length, nod = p.open.filter(c=>!c.due).length; const next = p.open[0];
       const isO = !!state.projOpen[p.name] || (!!q && projs.length<=3);
       return `<details class="nrow proj" ${isO?'open':''}><summary data-proj="${esc(p.name)}"><div><div class="nt">${esc(p.name)}</div><div class="nm"><span>${p.open.length} open</span>${late?`<span class="k a">${late} overdue</span>`:''}${soon?`<span class="k q">${soon} this week</span>`:''}${nod?`<span class="k">${nod} no date</span>`:''}${p.done.length?`<span class="k d">${p.done.length} done</span>`:''}</div>${next?`<div class="nx1">Next: ${esc(next.title)}</div>`:''}</div><span class="chev2"></span></summary>
@@ -2072,7 +2158,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const mts = state.meetings.filter(m => m.status!=='cancelled' && m.start && !isNaN(new Date(m.start))).sort(byStart);
     const cal = (state.calendar||[]).filter(e => e.start); const multi = e => !!(e.dates && e.dates.length > 1);
     const running = cal.filter(e => !multi(e) && e.start < first && (e.end||e.start) >= first).sort((a,b)=>String(a.end||a.start).localeCompare(String(b.end||b.start)));
-    const open = state.cards.filter(isOpen);
+    const openAll = state.cards.filter(isOpen), open = openAll.filter(catMatch);
     const late = off===0 ? open.filter(c => c.due && c.due < t && c.status!=='waiting').sort((a,b)=>a.due.localeCompare(b.due)) : [];
     const picker = c => `<div class="wk-pick" role="group" aria-label="Move to">${days.map(d => `<button class="hb${c.due===d?' keep':''}" data-wk-to="${d}" data-id="${esc(c.id)}" type="button">${d===t ? 'Today' : esc(dayName(d)+' '+parseISO(d).getDate())}</button>`).join('')}<button class="hb" data-wk-to="later" data-id="${esc(c.id)}" type="button">Later</button></div>`;
     const card = c => { const mv = state.weekMove===c.id; const me = [c.status==='waiting' ? waitLabel(c) : '', c.due && c.due < t ? 'Due '+fmtDate(c.due) : '', c.project||''].filter(Boolean).join(' · ');
@@ -2084,7 +2170,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const arrow = d => `<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d<0 ? 'm15 6-6 6 6 6' : 'm9 6 6 6-6 6'}"/></svg>`;
     host.innerHTML = `<div class="wk-bar"><div class="rng">${esc(fmtDate(first)+' – '+fmtDate(days[6]))}</div><button class="wkn" data-wk-nav="-7" type="button" aria-label="Earlier" ${off<=0 ? 'disabled' : ''}>${arrow(-1)}</button><button class="wkn" data-wk-nav="7" type="button" aria-label="Later" ${off>=28 ? 'disabled' : ''}>${arrow(1)}</button></div>
       <p class="wk-hint">Move a card by dragging it to another day, or tap the arrows on the card and pick the day.</p>
-      ${areaKey(late.concat(state.cards.filter(c => isOpen(c) && c.due && c.due >= days[0] && c.due <= days[6])))}
+      ${catBar(openAll.filter(c => c.due && ((off===0 && c.due < t && c.status!=='waiting') || (c.due >= days[0] && c.due <= days[6]))), true)}
       ${running.length ? `<div class="wk-run"><b>Running</b>${running.map(e => esc(e.title+' (until '+fmtDate(e.end||e.start)+')')).join(' · ')}</div>` : ''}
       ${late.length ? `<section class="wk-late"><h2 class="wk-lab late">Overdue <span class="c">${late.length}</span></h2><div class="wk-items">${late.map(card).join('')}</div></section>` : ''}
       <div class="wk-grid">${days.map(dayHTML).join('')}</div>`;
@@ -2126,8 +2212,8 @@ body.daydrag .dtrack{background:var(--surface-2)}
 
   // ===================== v6: Board tab, lanes, quick list, connections =====================
   const V6KEY = 'dusc-board-v6';
-  function v6Load(){ try{ const p = JSON.parse(localStorage.getItem(V6KEY)||'{}'); if(p.lane) state.lane = p.lane; if(p.boardLay) state.boardLay = p.boardLay; if(p.quickWhen) state.quickWhen = p.quickWhen; }catch(e){} }
-  function v6Save(){ try{ localStorage.setItem(V6KEY, JSON.stringify({lane: state.lane||'todo', boardLay: state.boardLay||'kanban', quickWhen: state.quickWhen||'today'})); }catch(e){} }
+  function v6Load(){ try{ const p = JSON.parse(localStorage.getItem(V6KEY)||'{}'); if(p.lane) state.lane = p.lane; if(p.boardLay) state.boardLay = p.boardLay; if(p.quickWhen) state.quickWhen = p.quickWhen; if(p.boardBy) state.boardBy = p.boardBy; if(p.catFilter) state.catFilter = p.catFilter; if(p.laneCat) state.laneCat = p.laneCat; }catch(e){} }
+  function v6Save(){ try{ localStorage.setItem(V6KEY, JSON.stringify({lane: state.lane||'todo', boardLay: state.boardLay||'kanban', quickWhen: state.quickWhen||'today', boardBy: state.boardBy||'status', catFilter: state.catFilter||'', laneCat: state.laneCat||''})); }catch(e){} }
   const narrowBoard = () => window.matchMedia('(max-width: 980px)').matches;
   const effLay = () => narrowBoard() ? 'kanban' : state.layout;       // small screens always get the kanban, one column at a time
   function openBoard(){ state.boardMode = 'cards'; state.meetingFilter = null; if(!narrowBoard()) state.layout = state.boardLay || 'kanban'; setView('board'); renderProjects(); renderFilters(); renderBoard(); renderList(); window.scrollTo(0,0); }
@@ -2179,14 +2265,17 @@ body.daydrag .dtrack{background:var(--surface-2)}
     }
     if(!t) return null;
     return {title: t.charAt(0).toUpperCase() + t.slice(1), due, dueTok, time, urgent, raw: String(raw).trim()}; }
-  function quickParse(text){ const keep = (state.quick && state.quick.keep) || {}; return String(text||'').split(/\r?\n/).map(l => parseQuickLine(l, !!keep[l.trim()])).filter(Boolean).slice(0, 40); }
+  function quickParse(text){ const q = state.quick || {}, keep = q.keep || {}, nocat = q.nocat || {};
+    return String(text||'').split(/\r?\n/).map(l => { const raw = l.trim(), tagged = [];
+      const line = l.replace(/(^|\s)#([A-Za-z][\w\/&-]*)/g, (m, sp, w) => { const k = catFromTag(w); if(k && tagged.length < 2 && !tagged.includes(k.id)){ tagged.push(k.id); return sp; } return m; });
+      const it = parseQuickLine(line, !!keep[raw]); if(!it) return null; it.raw = raw; it.catTagged = !!tagged.length; it.cats = tagged.length ? tagged : (nocat[raw] ? [] : catGuess(it.title)); return it; }).filter(Boolean).slice(0, 40); }
   function nextSweepLabel(){ try{ const p = new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York', hour:'numeric', minute:'numeric', hour12:false}).formatToParts(new Date()); const h = (+p.find(x=>x.type==='hour').value) % 24, m = +p.find(x=>x.type==='minute').value, mins = h*60 + m;
       for(let hh = 6; hh <= 22; hh += 2){ if(hh*60 + 10 > mins + 5) return 'by about '+(((hh+11)%12)+1)+':10 '+(hh < 12 ? 'AM' : 'PM'); } return 'tomorrow by about 6:10 AM'; }catch(e){ return 'within two hours'; } }
   function quickBar(){ return `<button class="qbar" data-quick type="button"><span class="plus" aria-hidden="true">+</span><span class="d">Add to-dos, or find anything</span><span class="k">Ctrl K</span></button>`; }
   function openQuick(){ if(!token){ viewOnlyHint(); return; } if(state.draft) closeDrawer(); state.quick = {keep:{}, when: state.quickWhen || 'today'}; renderQuick(); }
   function closeQuick(drop){ const ta = $('#qText'); state.quickDraft = drop ? '' : (ta ? ta.value : (state.quickDraft||'')); state.quick = null; const r = $('#quickRoot'); if(r) r.innerHTML = ''; }
   function quickPreview(){ const q = state.quick, ta = $('#qText'), pv = $('#qPrev'), btn = $('#qAdd'); if(!q || !ta || !pv || !btn) return; const items = quickParse(ta.value);
-    pv.innerHTML = items.filter(it => it.due || it.urgent || it.time!==null).map(it => `<div class="qp"><span class="t">${esc(it.title)}</span>${(it.due || it.time!==null) ? `<button type="button" class="qchip" data-q-keep="${esc(it.raw)}" title="Not a day or a time: keep it in the title">${esc([it.due ? dayName(it.due)+', '+fmtDate(it.due) : '', it.time!==null ? fmtMin(it.time) : ''].filter(Boolean).join(' · '))} ✕</button>` : ''}${it.urgent ? `<span class="qchip u">Urgent</span>` : ''}</div>`).join('');
+    pv.innerHTML = items.filter(it => it.due || it.urgent || it.time!==null || (it.cats && it.cats.length)).map(it => `<div class="qp"><span class="t">${esc(it.title)}</span>${(it.due || it.time!==null) ? `<button type="button" class="qchip" data-q-keep="${esc(it.raw)}" title="Not a day or a time: keep it in the title">${esc([it.due ? dayName(it.due)+', '+fmtDate(it.due) : '', it.time!==null ? fmtMin(it.time) : ''].filter(Boolean).join(' · '))} ✕</button>` : ''}${it.urgent ? `<span class="qchip u">Urgent</span>` : ''}${quickCatChips(it)}</div>`).join('');
     btn.disabled = !items.length; btn.textContent = items.length ? 'Add '+items.length+(items.length===1 ? ' to-do' : ' to-dos') : 'Add'; quickFind(); }
   function renderQuick(){ const q = state.quick, r = $('#quickRoot'); if(!q || !r) return;
     const W = [['today','Today'],['week','This week'],['none','No date']];
@@ -2199,7 +2288,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
         <div class="qs-find" id="qFind"></div>
         <div class="qs-when"><span>Lines with no day go on</span><div class="nmode" role="group" aria-label="When">${W.map(([k,l]) => `<button type="button" data-q-when="${k}" aria-pressed="${q.when===k}">${l}</button>`).join('')}</div></div>
         <div class="qs-foot"><button type="button" class="linkb" id="qFull">One card with every field</button><span class="spacer"></span><button type="button" class="btn secondary" id="qCancel">Cancel</button><button type="button" class="btn" id="qAdd" disabled>Add</button></div>
-        <p class="qs-hint">End a line with a day (fri, tomorrow, 12/3), a time (3pm) or ! for urgent. Claude ties each one to your notes and emails on the next run, <b>${esc(nextSweepLabel())}</b>.</p>
+        <p class="qs-hint">End a line with a day (fri, tomorrow, 12/3), a time (3pm), ! for urgent or a category (#rec). Claude ties each one to your notes and emails on the next run, <b>${esc(nextSweepLabel())}</b>.</p>
       </div>`;
     const ta = $('#qText'); ta.value = state.quickDraft || ''; quickPreview();
     ta.addEventListener('input', quickPreview);
@@ -2209,13 +2298,13 @@ body.daydrag .dtrack{background:var(--surface-2)}
     r.querySelector('.qsheet').addEventListener('click', e => {
       const w = e.target.closest('[data-q-when]'); if(w){ q.when = w.dataset.qWhen; state.quickWhen = q.when; v6Save(); r.querySelectorAll('[data-q-when]').forEach(b => b.setAttribute('aria-pressed', b.dataset.qWhen===q.when)); return; }
       const fr = e.target.closest('[data-find]'); if(fr){ findOpen(fr.dataset.find, fr.dataset.id); return; }
-      const k = e.target.closest('[data-q-keep]'); if(k){ q.keep[k.dataset.qKeep] = true; quickPreview(); ta.focus(); } });
+      const nc = e.target.closest('[data-q-nocat]'); if(nc){ q.nocat = q.nocat || {}; q.nocat[nc.dataset.qNocat] = true; quickPreview(); ta.focus(); return; } const k = e.target.closest('[data-q-keep]'); if(k){ q.keep[k.dataset.qKeep] = true; quickPreview(); ta.focus(); } });
     setTimeout(() => { try{ ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }catch(e){} }, 30); }
   function addQuick(){ const q = state.quick, ta = $('#qText'); if(!q || !ta) return; const items = quickParse(ta.value); if(!items.length){ ta.focus(); return; }
     if(!token){ viewOnlyHint(); return; }
     const t0 = Date.now(), now = new Date(t0).toISOString(), day = isoDay(new Date()), listId = 'q' + t0.toString(36);
     const base = q.when==='today' ? whenDate('today') : (q.when==='week' ? whenDate('week') : null);
-    items.forEach((it, i) => addCard({title: it.title, owner:'KP', area:null, status:'todo', due: it.due || base || (it.time!==null ? whenDate('today') : null), time: it.time!==null ? min2hm(it.time) : null, mins: it.time!==null ? guessMins({title: it.title}) : null, raised: day, priority: it.urgent ? 'urgent' : null, note:null, source:'Quick list', sourceUrl:null, sourceKind:'quick',
+    items.forEach((it, i) => addCard({title: it.title, owner:'KP', area:null, ...((it.cats && it.cats.length) ? {cats: it.cats} : {}), status:'todo', due: it.due || base || (it.time!==null ? whenDate('today') : null), time: it.time!==null ? min2hm(it.time) : null, mins: it.time!==null ? guessMins({title: it.title}) : null, raised: day, priority: it.urgent ? 'urgent' : null, note:null, source:'Quick list', sourceUrl:null, sourceKind:'quick',
       connect:{state:'pending', askedAt: now, listId}, pinned:false, pinnedAt:null, waitingOn:null, waitingSince:null, createdAt: new Date(t0 + i).toISOString(), updatedAt: now, doneAt:null, userEdited:true}));
     closeQuick(true); commit(items.length+(items.length===1 ? ' to-do added' : ' to-dos added')+' · connecting '+nextSweepLabel()); }
 
@@ -2420,14 +2509,119 @@ body.daydrag .dtrack{background:var(--surface-2)}
     state.tdOpen = state.tdOpen || {}; state.tdOpen.club = !state.tdOpen.club; h.parentElement.classList.toggle('open', !!state.tdOpen.club);
     const b = h.querySelector('.cfold'); if(b) b.setAttribute('aria-expanded', state.tdOpen.club ? 'true' : 'false'); return true; }
 
-  // ----- v9: to-dos are coloured by area (the card's own area, else its project's) -----
-  const AREA_AC = {Finance:'fin', Programs:'pro', People:'peo', Facilities:'fac', Scheduling:'sch', Systems:'sys', Board:'brd', Vendors:'ven', 'Media Day':'med'};
-  function areaOf(c){ if(!c) return ''; if(c.area && AREA_AC[c.area]) return c.area; const p = c.project ? (state.projectsMeta||[]).find(x => x.name===c.project) : null; return (p && AREA_AC[p.area]) ? p.area : ''; }
-  function acCls(c){ const a = areaOf(c); return ' ac' + (a ? ' ac-'+AREA_AC[a] : ''); }
-  function acTip(c){ const a = areaOf(c); return a ? ` title="${esc(a)}"` : ''; }
-  function areaKey(cards){ const n = {}; (cards||[]).forEach(c => { const a = areaOf(c); if(a) n[a] = (n[a]||0) + 1; });
-    const ks = Object.keys(n).sort((x,y) => n[y]-n[x] || x.localeCompare(y)); if(!ks.length) return '';
-    return `<div class="akey" role="note" aria-label="Colour key: to-dos are coloured by area">${ks.map(a => `<span class="ak ac ac-${AREA_AC[a]}"><i aria-hidden="true"></i>${esc(a)}</span>`).join('')}</div>`; }
+  // ===================== v10: categories (KP's own list; they replace the old areas) =====================
+  const CAT_DEFAULT = [{id:'rec',name:'Rec',color:'blue'},{id:'camps',name:'Camps',color:'gold'},{id:'classes',name:'Classes',color:'teal'},{id:'academy',name:'Academy',color:'purple'},{id:'board',name:'Board of Directors',color:'raspberry'},{id:'finance',name:'Finance',color:'green'},{id:'fields',name:'Fields/Facilities',color:'olive'},{id:'staff',name:'Staff',color:'brown'},{id:'ops',name:'Operations',color:'slate'}];
+  const CAT_COLORS = ['blue','green','purple','teal','gold','raspberry','olive','brown','slate','indigo','plum','sand'];
+  const OLD_AREA_CAT = {Finance:'finance', Facilities:'fields', Board:'board', People:'staff', Systems:'ops', Scheduling:'ops', Vendors:'ops', 'Media Day':'ops'};
+  const NOCAT = '__none', CAT_CAP = 6, CAT_MAX = 12;
+  function catList(){ return Array.isArray(state.cats) ? state.cats : CAT_DEFAULT; }
+  function catById(id){ return id ? (catList().find(k => k.id===id) || null) : null; }
+  // a card's categories: its own list (at most two); with no list of its own, its project's, then the old area's
+  function cardCats(c){ if(!c) return []; if(Array.isArray(c.cats)) return [...new Set(c.cats)].filter(id => catById(id)).slice(0, 2);
+    const p = c.project ? (state.projectsMeta||[]).find(x => x && x.name===c.project) : null; const pid = p ? (p.cat || OLD_AREA_CAT[p.area]) : null; if(catById(pid)) return [pid];
+    const aid = OLD_AREA_CAT[c.area]; return catById(aid) ? [aid] : []; }
+  function catFilterOn(){ const f = state.catFilter; return (f===NOCAT || catById(f)) ? f : null; }
+  function catMatch(c){ const f = catFilterOn(); if(!f) return true; const ids = cardCats(c); return f===NOCAT ? !ids.length : ids.includes(f); }
+  function acCls(c){ const k = catById(cardCats(c)[0]); return ' ac' + (k ? ' ac-'+k.color : ''); }
+  function acTip(c){ const ns = cardCats(c).map(id => catById(id).name); return ns.length ? ` title="${esc(ns.join(' + '))}"` : ''; }
+  function catTags(c){ return cardCats(c).map(id => { const k = catById(id); return `<span class="tag ar ac-${esc(k.color)}">${esc(k.name)}</span>`; }).join(''); }
+  function catOpts(sel){ return catList().map(k => `<option value="${esc(k.id)}"${k.id===sel?' selected':''}>${esc(k.name)}</option>`).join(''); }
+  function projCatName(p){ const k = catById(p && (p.cat || OLD_AREA_CAT[p.area])); return k ? k.name : 'Other'; }
+  function catOrder(name){ const i = catList().findIndex(k => k.name===name); return i < 0 ? 999 : i; }
+  function noteCat(n){ const k = n ? (catById((n.cats||[])[0]) || catById(OLD_AREA_CAT[n.area])) : null; return k ? k.name : ''; }
+  // the row of category buttons: a filter (shared by Board, Today and Week) and the colour key in one
+  function catBar(cards, onlyUsed){ const n = {}; let none = 0; (cards||[]).forEach(c => { const ids = cardCats(c); if(!ids.length) none++; ids.forEach(id => { n[id] = (n[id]||0) + 1; }); });
+    const f = catFilterOn(), fk = catById(f);
+    const chip = k => `<button type="button" class="cchip ac ac-${esc(k.color)}" data-catf="${esc(k.id)}" aria-pressed="${f===k.id}"><i aria-hidden="true"></i>${esc(k.name)}<span class="c">${n[k.id]||0}</span></button>`;
+    return `<div class="catbar" role="group" aria-label="Show one category">${f ? `<button type="button" class="cshow${fk ? ' ac-'+esc(fk.color) : ''}" data-catf="" title="Show every category again">Showing: ${esc(fk ? fk.name : 'No category')} <span aria-hidden="true">✕</span></button>` : ''}<button type="button" class="cchip all" data-catf="" aria-pressed="${!f}">All<span class="c">${(cards||[]).length}</span></button>${catList().filter(k => !onlyUsed || n[k.id] || f===k.id).map(chip).join('')}${(none || f===NOCAT) ? `<button type="button" class="cchip none" data-catf="${NOCAT}" aria-pressed="${f===NOCAT}">No category<span class="c">${none}</span></button>` : ''}<button type="button" class="cedit" data-cat-edit>Edit</button></div>`; }
+  function setCatFilter(id){ state.catFilter = (id && id!==catFilterOn()) ? id : null; v6Save(); render(); }
+
+  // ----- Board: By status / By category -----
+  let catFOff = false;
+  function visAllCats(){ catFOff = true; try{ return visibleCards(); } finally { catFOff = false; } }
+  const catSort = (a,b) => ((a.pinned?0:1)-(b.pinned?0:1)) || String(a.due||'9999').localeCompare(String(b.due||'9999')) || String(a.title).localeCompare(String(b.title));
+  function catCard(c, col, over){ let h = cardHTML(c).replace('<article class="card', '<article data-ccard="'+esc(col)+'" class="card'+(over?' over':''));
+    const k = catById(col); if(k) h = h.replace('<span class="tag ar ac-'+esc(k.color)+'">'+esc(k.name)+'</span>', '');
+    if(c.status==='doing') h = h.replace('<button class="pin"', '<span class="tag st">In progress</span><button class="pin"'); return h; }
+  function setBoardBy(v){ state.boardBy = v==='cat' ? 'cat' : 'status'; v6Save(); renderFilters(); renderBoard(); renderList(); }
+  function renderCatUI(){ const cb = $('#catBoard'), nav = $('#catNav'), bar = $('#boardCatBar'); if(!cb || !nav || !bar) return; const by = state.boardBy==='cat' ? 'cat' : 'status';
+    const bs = $('#byStatus'), bc = $('#byCat'); if(bs) bs.setAttribute('aria-pressed', by==='status'); if(bc) bc.setAttribute('aria-pressed', by==='cat');
+    document.body.dataset.boardby = by; const all = visAllCats().filter(isOpen);
+    if(by==='status'){ cb.hidden = true; nav.hidden = true; bar.hidden = false; bar.innerHTML = catBar(all); return; }
+    bar.hidden = true; $('#board').hidden = true; $('#list').hidden = true; { const ln = $('#laneNav'); if(ln) ln.hidden = true; } cb.hidden = false; nav.hidden = false;
+    const cols = catList().map(k => ({id:k.id, name:k.name, color:k.color, items: all.filter(c => cardCats(c).includes(k.id)).sort(catSort)}));
+    const none = all.filter(c => !cardCats(c).length).sort(catSort); if(none.length) cols.push({id:NOCAT, name:'No category', color:'', items:none});
+    const sel = cols.some(x => x.id===state.laneCat) ? state.laneCat : ((cols.find(x => x.items.length) || cols[0] || {}).id || ''); state.catOpen = state.catOpen || {};
+    nav.innerHTML = `<div class="nmode" role="group" aria-label="Category">${cols.map(x => `<button type="button" data-lanecat="${esc(x.id)}" aria-pressed="${x.id===sel}">${esc(x.name)}<span class="c">${x.items.length}</span></button>`).join('')}</div>`;
+    cb.innerHTML = cols.map(x => { const open = !!state.catOpen[x.id];
+      return `<section class="lane glass ccol${x.id===sel?' sel':''}${open?' open':''}${x.color?' ac-'+esc(x.color):''}" data-ccol="${esc(x.id)}" aria-label="${esc(x.name)}"><div class="lane-head"><h2>${x.color?'<i class="cdot" aria-hidden="true"></i>':''}<span>${esc(x.name)}</span></h2><span class="count">${x.items.length}</span></div><div class="cards">${x.items.length ? x.items.map((c,i) => catCard(c, x.id, i>=CAT_CAP)).join('') : `<div class="lane-empty">Nothing open${filtersActive()?' for this filter':''}.</div>`}</div>${x.items.length>CAT_CAP ? `<button type="button" class="cmore" data-cat-more="${esc(x.id)}" aria-expanded="${open}">${open ? 'Show fewer' : 'Show all '+x.items.length}</button>` : ''}</section>`; }).join('');
+    const top = document.querySelector('.top'); if(top) document.documentElement.style.setProperty('--topH', top.offsetHeight+'px'); }
+  // dropping a card on another column swaps the category it was dragged out of for the new one
+  function moveCat(id, from, to){ const c = state.cards.find(x => x.id===id); if(!c || from===to) return; if(!token){ viewOnlyHint(); return; }
+    const prev = cardCats(c); let next;
+    if(to===NOCAT) next = prev.filter(x => x!==from);
+    else if(from===NOCAT || !prev.includes(from)) next = [to].concat(prev.filter(x => x!==to)).slice(0, 2);
+    else next = [...new Set(prev.map(x => x===from ? to : x))];
+    if(next.join('|')===prev.join('|')) return; const now = new Date().toISOString(), had = Array.isArray(c.cats) ? c.cats.slice() : null;
+    updateCard(id, {cats: next, updatedAt: now, userEdited: true}); materialize(); render(); flush();
+    toast(to===NOCAT ? 'Category removed' : 'Moved to '+((catById(to)||{}).name||''), {label:'Undo', fn: () => { updateCard(id, {cats: had===null ? prev : had, updatedAt: new Date().toISOString()}); commit(); }}); }
+
+  // ----- quick list: #name sets a category; without one it is guessed from the words -----
+  const CAT_KW = {rec:/\brec\b|rec league|recreational/i, camps:/\bcamps?\b/i, classes:/\bclass(es)?\b/i, academy:/\bacademy\b|d[- ]?league|mls next|showcase|tryouts?/i, board:/board (report|meeting|packet|of directors)|\btrustees?\b/i, finance:/budget|audit|invoice|payroll|reimburs|financ|\bbank\b|credit card|\btax(es)?\b|bill\.com/i, fields:/\bfields?\b|\bgyms?\b|\bpermits?\b|facilit|pier 40|\bturf\b|indoor space/i, staff:/\bhir(e|ing)\b|\bstaff\b|handbook|open enrollment|\bhr\b|job description|onboarding/i, ops:/website|registration|schedul|vendor|\buniforms?\b|calendar|constant contact/i};
+  const catNorm = s => String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+  function catFromTag(tag){ const t = catNorm(tag); if(!t) return null; const L = catList();
+    return L.find(k => catNorm(k.id)===t || catNorm(k.name)===t) || L.find(k => k.name.toLowerCase().split(/[^a-z0-9]+/).includes(t)) || L.find(k => t.length >= 3 && (catNorm(k.name).startsWith(t) || catNorm(k.id).startsWith(t))) || null; }
+  function catGuess(title){ const out = [], s = String(title||''); catList().forEach(k => { if(out.length >= 2) return; const rx = CAT_KW[k.id]; const words = k.name.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+      const named = words.length ? new RegExp('(^|[^a-z0-9])' + words.join('[^a-z0-9]+') + '([^a-z0-9]|$)', 'i').test(s) : false; if((rx && rx.test(s)) || named) out.push(k.id); }); return out; }
+  function quickCatChips(it){ const ks = (it.cats||[]).map(catById).filter(Boolean); if(!ks.length) return '';
+    return it.catTagged ? ks.map(k => `<span class="qchip cat ac-${esc(k.color)}">${esc(k.name)}</span>`).join('') : `<button type="button" class="qchip cat ac-${esc(ks[0].color)}" data-q-nocat="${esc(it.raw)}" title="Not right: leave the category for Claude to place on the next run">${esc(ks.map(k => k.name).join(' + '))} ✕</button>`; }
+
+  // ----- Edit categories -----
+  function catUse(id){ let n = 0; Object.values(DATA.cards||{}).forEach(c => { if(c && cardCats(c).includes(id)) n++; }); return n; }
+  function openCatEdit(){ if(!token){ viewOnlyHint(); return; } if(state.quick) closeQuick(false); if(state.plan) closePlan(); if(state.tp) closeTimePick();
+    state.catEdit = {items: catList().map(k => ({id:k.id, name:k.name, color:k.color})), removed:{}, rm:null, err:''}; renderCatEdit(); }
+  function closeCatEdit(){ state.catEdit = null; const r = $('#quickRoot'); if(r) r.innerHTML = ''; }
+  function renderCatEdit(focusNew){ const ed = state.catEdit, r = $('#quickRoot'); if(!ed || !r) return;
+    const colOpts = sel => CAT_COLORS.map(c => `<option value="${c}"${c===sel?' selected':''}>${c.charAt(0).toUpperCase()+c.slice(1)}</option>`).join('');
+    const row = (k, i) => { const n = catUse(k.id), last = ed.items.length - 1, others = ed.items.filter(x => x.id!==k.id);
+      return `<div class="ce-row" data-ce="${esc(k.id)}"><i class="ce-sw ac-${esc(k.color)}" aria-hidden="true"></i><input type="text" data-ce-name value="${esc(k.name)}" maxlength="30" aria-label="Name of category ${i+1}"><select data-ce-col aria-label="Colour of ${esc(k.name)}">${colOpts(k.color)}</select><button type="button" class="ce-b" data-ce-up aria-label="Move ${esc(k.name)} up"${i===0?' disabled':''}>↑</button><button type="button" class="ce-b" data-ce-down aria-label="Move ${esc(k.name)} down"${i===last?' disabled':''}>↓</button><button type="button" class="ce-x" data-ce-rm>Remove</button>${ed.rm===k.id ? `<div class="ce-rm"><label for="ceTo">Move its ${n} ${n===1?'to-do':'to-dos'} (done ones included) to</label><select id="ceTo"><option value="">No category</option>${others.map(x => `<option value="${esc(x.id)}">${esc(x.name)}</option>`).join('')}</select><button type="button" class="btn" data-ce-rmok>Remove</button><button type="button" class="btn secondary" data-ce-rmno>Keep</button></div>` : (n ? `<span class="ce-n">${n} ${n===1?'to-do':'to-dos'}, done ones included</span>` : '')}</div>`; };
+    r.innerHTML = `<div class="scrim" id="ceScrim"></div>
+      <div class="qsheet cesheet" role="dialog" aria-modal="true" aria-label="Edit categories">
+        <div class="qs-head"><h2>Categories</h2><button type="button" id="ceClose" aria-label="Close">✕</button></div>
+        <p class="qs-hint">Rename, recolour, reorder or remove. A to-do takes the colour of its first category. Removing a category never deletes a to-do.</p>
+        <div class="ce-list">${ed.items.map(row).join('')}</div>
+        ${ed.items.length < CAT_MAX ? `<div class="ce-add"><label for="ceNew">Add a category</label><input type="text" id="ceNew" maxlength="30"><button type="button" class="btn secondary" id="ceAdd">Add</button></div>` : `<p class="qs-hint">${CAT_MAX} is the most the board shows.</p>`}
+        <p class="ce-err" id="ceErr" role="alert">${esc(ed.err||'')}</p>
+        <div class="qs-foot"><span class="spacer"></span><button type="button" class="btn secondary" id="ceCancel">Cancel</button><button type="button" class="btn" id="ceSave">Save</button></div>
+      </div>`;
+    const sheet = r.querySelector('.cesheet'), find = el => ed.items.find(k => k.id===el.closest('[data-ce]').dataset.ce);
+    $('#ceScrim').onclick = closeCatEdit; $('#ceClose').onclick = closeCatEdit; $('#ceCancel').onclick = closeCatEdit; $('#ceSave').onclick = saveCatEdit;
+    sheet.addEventListener('input', e => { if(e.target.matches('[data-ce-name]')) find(e.target).name = e.target.value; });
+    sheet.addEventListener('change', e => { if(e.target.matches('[data-ce-col]')){ find(e.target).color = e.target.value; renderCatEdit(); } });
+    sheet.addEventListener('keydown', e => { if(e.key==='Enter' && e.target.id==='ceNew'){ e.preventDefault(); addCat(); } });
+    sheet.addEventListener('click', e => { const b = e.target.closest('button'); if(!b || !b.closest('[data-ce]')) return; const k = find(b), i = ed.items.indexOf(k); ed.err = '';
+      if(b.matches('[data-ce-up]') && i > 0){ ed.items.splice(i-1, 0, ed.items.splice(i, 1)[0]); renderCatEdit(); }
+      else if(b.matches('[data-ce-down]') && i < ed.items.length-1){ ed.items.splice(i+1, 0, ed.items.splice(i, 1)[0]); renderCatEdit(); }
+      else if(b.matches('[data-ce-rm]')){ if(catUse(k.id)){ ed.rm = k.id; renderCatEdit(); } else { ed.removed[k.id] = ''; ed.items.splice(i, 1); ed.rm = null; renderCatEdit(); } }
+      else if(b.matches('[data-ce-rmok]')){ ed.removed[k.id] = ($('#ceTo')||{}).value || ''; ed.items.splice(i, 1); ed.rm = null; renderCatEdit(); }
+      else if(b.matches('[data-ce-rmno]')){ ed.rm = null; renderCatEdit(); } });
+    const add = $('#ceAdd'); if(add) add.onclick = addCat; if(focusNew){ const n = $('#ceNew'); if(n) n.focus(); } }
+  function addCat(){ const ed = state.catEdit, inp = $('#ceNew'); if(!ed || !inp) return; const name = inp.value.trim().replace(/\s+/g,' '); if(!name){ inp.focus(); return; }
+    if(ed.items.some(k => k.name.trim().toLowerCase()===name.toLowerCase())){ ed.err = 'There is already a category called '+name+'.'; renderCatEdit(true); return; }
+    let base = catNorm(name).slice(0, 20) || 'cat', id = base, i = 2; const taken = new Set(catList().map(k => k.id).concat(ed.items.map(k => k.id), Object.keys(ed.removed), [NOCAT])); while(taken.has(id)) id = base + (i++);
+    const used = ed.items.map(k => k.color); ed.items.push({id, name, color: CAT_COLORS.find(c => !used.includes(c)) || CAT_COLORS[ed.items.length % CAT_COLORS.length]}); ed.err = ''; renderCatEdit(true); }
+  function saveCatEdit(){ const ed = state.catEdit; if(!ed) return; if(!token){ viewOnlyHint(); return; }
+    const items = ed.items.map(k => ({id:k.id, name:String(k.name||'').trim().replace(/\s+/g,' '), color: CAT_COLORS.includes(k.color) ? k.color : 'slate'}));
+    if(items.some(k => !k.name)){ ed.err = 'Every category needs a name.'; renderCatEdit(); return; }
+    const low = items.map(k => k.name.toLowerCase()); if(new Set(low).size !== low.length){ ed.err = 'Two categories have the same name.'; renderCatEdit(); return; }
+    const now = new Date().toISOString(), gone = Object.keys(ed.removed), resolve = id => { let t = ed.removed[id], n = 0; while(t && (t in ed.removed) && n++ < 20) t = ed.removed[t]; return t || ''; };
+    if(gone.length){
+      Object.entries(DATA.cards||{}).forEach(([id, c]) => { if(!c) return; const cur = cardCats(c); if(!cur.some(x => gone.includes(x))) return;
+        updateCard(id, {cats: [...new Set(cur.map(x => gone.includes(x) ? resolve(x) : x).filter(Boolean))].slice(0, 2), updatedAt: now}); });
+      const pm = state.projectsMeta || []; if(pm.some(p => p && gone.includes(p.cat))) queueOp('meta', 'projects', 'merge', {items: pm.map(p => (p && gone.includes(p.cat)) ? {...p, cat: resolve(p.cat) || null} : p), updatedAt: now}); }
+    queueOp('meta', 'categories', 'set', {name:'Category', items, updatedAt: now});
+    if(gone.includes(state.catFilter)){ state.catFilter = null; v6Save(); }
+    closeCatEdit(); commit('Categories saved'); }
   function briefItems(s){
     if(Array.isArray(s.brief) && s.brief.length) return {items: s.brief.map(b => typeof b==='string' ? {label:'', text:b} : {label:String(b.label||''), text:String(b.text||'')}).filter(b=>b.text), written:true};
     const h = String(s.headline||'').trim(); if(!h) return {items:[], written:false};
@@ -2468,7 +2662,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
       const key = state.noteMode==='decisions' ? 'decisions' : 'openQuestions', cls = state.noteMode==='decisions' ? 'decision' : 'q';
       const pick = n => key==='openQuestions' ? openQs(n) : arr(n[key]);
       const with_ = notes.filter(n => pick(n).length);
-      grid.innerHTML = with_.length ? with_.map(n=>`<div class="dg"><div class="dh">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:`<b>${esc(n.title)}</b>`}<span>${esc(n.date?fmtDate(n.date):'')}${n.area?' · '+esc(n.area):''}</span></div>${list(pick(n), cls)}</div>`).join('') : `<div class="none">${state.noteMode==='decisions' ? 'No decisions recorded in these notes.' : 'No open questions in these notes.'}</div>`;
+      grid.innerHTML = with_.length ? with_.map(n=>`<div class="dg"><div class="dh">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:`<b>${esc(n.title)}</b>`}<span>${esc(n.date?fmtDate(n.date):'')}${noteCat(n)?' · '+esc(noteCat(n)):''}</span></div>${list(pick(n), cls)}</div>`).join('') : `<div class="none">${state.noteMode==='decisions' ? 'No decisions recorded in these notes.' : 'No open questions in these notes.'}</div>`;
       return;
     }
     const nrow = n => {
@@ -2479,7 +2673,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
       const isOpenRow = !!state.noteOpen[n.id] || (!!q && notes.length <= 3);
       const chips = [dec.length?`<span class="k d">${pl(dec.length,'decision')}</span>`:'', oq.length?`<span class="k q">${pl(oq.length,'question')}</span>`:'', openActs?`<span class="k a">${pl(openActs,'to-do')}</span>`:''].join('');
       return `<details class="nrow" data-note="${esc(n.id)}" ${isOpenRow?'open':''}>
-        <summary data-nrow="${esc(n.id)}"><div><div class="nt">${esc(n.title)}</div><div class="nm"><span>${esc([n.date?fmtDate(n.date):'', n.area||''].filter(Boolean).join(' · '))}</span>${chips}</div></div><span class="chev2"></span></summary>
+        <summary data-nrow="${esc(n.id)}"><div><div class="nt">${esc(n.title)}</div><div class="nm"><span>${esc([n.date?fmtDate(n.date):'', noteCat(n)].filter(Boolean).join(' · '))}</span>${chips}</div></div><span class="chev2"></span></summary>
         <div class="nb">
           ${n.summary?`<p>${esc(n.summary)}</p>`:''}
           ${dec.length?`<div class="lbl">Decisions</div>${list(dec,'decision')}`:''}
@@ -2530,7 +2724,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     if(!isOpen(c)) return 0; let s=0;
     const o=(c.owner||'').toLowerCase(); if(people.some(p=>p && o===p.toLowerCase())) s+=3;
     const hay=(c.title+' '+(c.note||'')); if(kws.some(k=>k && kwRe(k).test(hay))) s+=2;
-    if(areas.length && areas.includes(c.area)) s+=1;
+    if(areas.length && (areas.includes(c.area) || cardCats(c).some(id => areas.includes(id)))) s+=1;
     return s;
   }
   function rankCards(people, areas, kws){ return state.cards.map(c=>({c, s:cardScore(c, people, areas, kws)})).filter(x=>x.s>0).sort((a,b)=> b.s-a.s || sortCards(a.c,b.c)).map(x=>x.c); }
@@ -2663,9 +2857,12 @@ body.daydrag .dtrack{background:var(--surface-2)}
           <div class="field" id="fWaitWrap" ${d.status==='waiting'?'':'hidden'}><label for="fWaiting">Waiting on (who or what)</label><input type="text" id="fWaiting" value="${esc(d.waitingOn||'')}"></div>
           <div class="two">
             <div class="field"><label for="fOwner">Owner</label><select id="fOwner">${ownerOpts}</select></div>
-            <div class="field"><label for="fArea">Area</label><select id="fArea"><option value="">—</option>${areaOpts}</select></div>
+            <div class="field"><label for="fCat">Category</label><select id="fCat"><option value="">No category</option>${catOpts(cardCats(d)[0])}</select></div>
           </div>
-          <div class="field"><label for="fProject">Project</label><input type="text" id="fProject" list="projOpts" value="${esc(d.project||'')}" autocomplete="off"><datalist id="projOpts">${projectList().map(p=>`<option value="${esc(p.name)}"></option>`).join('')}</datalist></div>
+          <div class="two">
+            <div class="field"><label for="fCat2">Also in</label><select id="fCat2"><option value="">—</option>${catOpts(cardCats(d)[1])}</select></div>
+            <div class="field"><label for="fProject">Project</label><input type="text" id="fProject" list="projOpts" value="${esc(d.project||'')}" autocomplete="off"><datalist id="projOpts">${projectList().map(p=>`<option value="${esc(p.name)}"></option>`).join('')}</datalist></div>
+          </div>
           <div class="two">
             <div class="field"><label for="fDue">Due</label><input type="date" id="fDue" value="${esc(d.due||'')}"></div>
             <div class="field"><label for="fRaised">Raised</label><input type="date" id="fRaised" value="${esc(d.raised||'')}"></div>
@@ -2703,7 +2900,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     const d = state.draft; if(!d) return;
     const title = $('#fTitle').value.trim(); if(!title){ $('#fTitle').focus(); return; }
     const now = new Date().toISOString();
-    const body = { title, project: ((($('#fProject')||{}).value)||'').trim() || null, owner: $('#fOwner').value || 'TBD', area: $('#fArea').value || null, due: $('#fDue').value || null, time: ($('#fDue').value && $('#fTime') && hm2min($('#fTime').value)!==null) ? $('#fTime').value : null, mins: ($('#fTime') && hm2min($('#fTime').value)!==null) ? (+$('#fMins').value || 30) : (d.mins || null), raised: $('#fRaised').value || null, priority: $('#fUrgent').checked ? 'urgent' : null, note: $('#fNote').value.trim() || null, status: d.status, updatedAt: now, userEdited: true };
+    const body = { title, project: ((($('#fProject')||{}).value)||'').trim() || null, owner: $('#fOwner').value || 'TBD', cats: [...new Set([($('#fCat')||{}).value, ($('#fCat2')||{}).value].filter(Boolean))].slice(0, 2), due: $('#fDue').value || null, time: ($('#fDue').value && $('#fTime') && hm2min($('#fTime').value)!==null) ? $('#fTime').value : null, mins: ($('#fTime') && hm2min($('#fTime').value)!==null) ? (+$('#fMins').value || 30) : (d.mins || null), raised: $('#fRaised').value || null, priority: $('#fUrgent').checked ? 'urgent' : null, note: $('#fNote').value.trim() || null, status: d.status, updatedAt: now, userEdited: true };
     const wasPinned = !!d.pinned, nowPinned = $('#fPinned').checked; body.pinned = nowPinned; body.pinnedAt = nowPinned ? (wasPinned ? (d.pinnedAt||now) : now) : null;
     body.doneAt = d.status==='done' ? (d.doneAt || now) : null;
     const wIn = $('#fWaiting'); body.waitingOn = d.status==='waiting' ? ((wIn && wIn.value.trim()) || null) : null; body.waitingSince = d.status==='waiting' ? (d.status===d.status && d.waitingSince && (state.selected && (state.cards.find(x=>x.id===state.selected)||{}).status==='waiting') ? d.waitingSince : now) : null;
@@ -2834,7 +3031,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
     $('#sortSel').value = state.sort || 'smart'; $('#sortSel').onchange = e => { state.sort = e.target.value; savePrefs(); renderBoard(); renderList(); };
     $('#areaSel').onchange = e => { state.filters.area = e.target.value; savePrefs(); renderFilters(); renderBoard(); renderList(); };
     $('#pinChip').onclick = () => setFocus('pinned');
-    $('#clearBtn').onclick = () => { state.meetingFilter = null; state.filters = {owner:'all', area:'all', q:'', focus:'all'}; $('#q').value=''; savePrefs(); render(); };
+    $('#clearBtn').onclick = () => { state.catFilter = null; v6Save(); state.meetingFilter = null; state.filters = {owner:'all', area:'all', q:'', focus:'all'}; $('#q').value=''; savePrefs(); render(); };
     $('#layKanban').onclick = () => { state.boardLay = 'kanban'; v6Save(); state.layout='kanban'; savePrefs(); renderFilters(); renderBoard(); };
     $('#layList').onclick = () => { state.boardLay = 'list'; v6Save(); state.layout='list'; savePrefs(); renderFilters(); renderList(); };
     $('#noteAreaSel').onchange = e => { state.noteArea = e.target.value; renderNotes(); };
@@ -2916,7 +3113,27 @@ body.daydrag .dtrack{background:var(--surface-2)}
     vt.addEventListener('drop', e => { const tr = track(e); if(!tr || !dId) return; e.preventDefault(); const id = dId, c = state.cards.find(x => x.id===id), m = at(tr, e), day = tr.dataset.dayTrack; end(); if(c){ const ct = cardTime(c); setCardTime(id, day, m, ct ? ct.mins : null); } }); }
   document.addEventListener('keydown', e => {
     if(e.key==='Escape' && (state.tp || state.plan)){ e.stopPropagation(); if(state.tp) closeTimePick(); else closePlan(); return; }
-    if((e.key==='k' || e.key==='K') && (e.metaKey || e.ctrlKey) && !e.altKey){ e.preventDefault(); if(!state.quick && !state.tp && !state.plan) openQuick(); } }, true);
+    if((e.key==='k' || e.key==='K') && (e.metaKey || e.ctrlKey) && !e.altKey){ e.preventDefault(); if(!state.quick && !state.tp && !state.plan && !state.catEdit) openQuick(); } }, true);
+
+  // ----- v10: category buttons, category board, Edit categories -----
+  document.addEventListener('click', e => { if(!e.target.closest) return; const ed = e.target.closest('[data-cat-edit]'); if(ed){ e.preventDefault(); openCatEdit(); return; }
+    const f = e.target.closest('[data-catf]'); if(f){ e.preventDefault(); setCatFilter(f.dataset.catf); } });
+  document.addEventListener('keydown', e => { if(e.key==='Escape' && state.catEdit){ e.stopPropagation(); closeCatEdit(); } }, true);
+  { const cb = $('#catBoard'), cn = $('#catNav'); let cDrag = null;
+    if($('#byStatus')) $('#byStatus').onclick = () => setBoardBy('status'); if($('#byCat')) $('#byCat').onclick = () => setBoardBy('cat');
+    if(cn) cn.addEventListener('click', e => { const b = e.target.closest('[data-lanecat]'); if(!b) return; state.laneCat = b.dataset.lanecat; v6Save(); renderCatUI(); });
+    if(cb){
+      cb.addEventListener('click', e => { const mo = e.target.closest('[data-cat-more]'); if(mo){ state.catOpen = state.catOpen || {}; state.catOpen[mo.dataset.catMore] = !state.catOpen[mo.dataset.catMore]; renderCatUI(); return; }
+        const pn = e.target.closest('[data-pin]'); if(pn){ e.preventDefault(); togglePin(pn.dataset.pin); return; } const ck = e.target.closest('[data-done]'); if(ck){ e.preventDefault(); toggleDone(ck.dataset.done, ck.closest('.card')); return; }
+        const el = e.target.closest('.card'); if(!el || e.target.closest('a')) return; const c = state.cards.find(x => x.id===el.dataset.id); if(c) openDrawer(c); });
+      cb.addEventListener('keydown', e => { if(e.target.closest('[data-done],[data-pin],[data-cat-more]')) return; const el = e.target.closest('.card'); if(!el) return; if(e.key==='Enter' || e.key===' '){ e.preventDefault(); const c = state.cards.find(x => x.id===el.dataset.id); if(c) openDrawer(c); } });
+      const clear = () => cb.querySelectorAll('.ccol.over').forEach(x => x.classList.remove('over'));
+      cb.addEventListener('dragstart', e => { if(e.target.closest && e.target.closest('[data-done],[data-pin]')){ e.preventDefault(); return; } const el = e.target.closest && e.target.closest('.card'); if(!el){ e.preventDefault(); return; }
+        cDrag = {id: el.dataset.id, from: el.dataset.ccard}; el.classList.add('dragging'); e.dataTransfer.effectAllowed = 'move'; try{ e.dataTransfer.setData('text/plain', cDrag.id); }catch(x){} });
+      cb.addEventListener('dragend', () => { cb.querySelectorAll('.dragging').forEach(x => x.classList.remove('dragging')); clear(); cDrag = null; });
+      cb.addEventListener('dragover', e => { if(!cDrag) return; const col = e.target.closest('[data-ccol]'); if(!col) return; e.preventDefault(); e.dataTransfer.dropEffect = 'move'; if(!col.classList.contains('over')){ clear(); col.classList.add('over'); } });
+      cb.addEventListener('drop', e => { const col = e.target.closest('[data-ccol]'); if(!col || !cDrag) return; e.preventDefault(); const d = cDrag; cDrag = null; clear(); moveCat(d.id, d.from, col.dataset.ccol); });
+    } }
   if(!applyHash() && window.DUSC_START==='board') openBoard();
   setInterval(() => { if(document.visibilityState!=='visible') return; const m = meetingNow(); const id = m ? m.eventId : ''; if(id !== (state.mmShown||'') || (m && new Date(m.start).getTime() > Date.now())){ renderToday(); } }, 30000);
   const refreshIfStale = () => { if(document.visibilityState==='visible' && !state.loading && (!state.lastLoad || Date.now()-state.lastLoad > 60000)) loadAll(); };
@@ -2927,7 +3144,7 @@ body.daydrag .dtrack{background:var(--surface-2)}
 </script>
 <script>
 (function(){
-  var BUILD = 'd44fc8e4cd';
+  var BUILD = 'f938b4c3a4';
   if(location.protocol === 'file:') return;
   var busy = false;
   function editing(){ var a = document.activeElement; return !!document.querySelector('#drawerRoot .drawer') || !!document.querySelector('#quickRoot .qsheet, #quickRoot .psheet') || !!document.getElementById('cTok') || (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)); }
