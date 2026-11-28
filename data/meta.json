@@ -172,14 +172,14 @@
   "cardsAdded": 0,
   "categorised": 0,
   "cleared": 0,
-  "connectChecked": 1,
-  "connected": 1,
+  "connectChecked": 0,
+  "connected": 0,
   "flagged": 0,
-  "lastRun": "2026-11-28T03:06:18Z",
+  "lastRun": "2026-11-28T11:05:48Z",
   "lastRunStatus": "ok",
   "meetingsChanged": 0,
   "meetingsProcessed": 0,
-  "scanned": 12
+  "scanned": 13
  },
  "prework": {
   "createdAt": "2026-11-25T03:20:14Z",
