@@ -8,6 +8,57 @@
   "total": 159,
   "updatedAt": "2026-11-25T10:47:44Z"
  },
+ "categories": {
+  "items": [
+   {
+    "color": "blue",
+    "id": "rec",
+    "name": "Rec"
+   },
+   {
+    "color": "gold",
+    "id": "camps",
+    "name": "Camps"
+   },
+   {
+    "color": "teal",
+    "id": "classes",
+    "name": "Classes"
+   },
+   {
+    "color": "purple",
+    "id": "academy",
+    "name": "Academy"
+   },
+   {
+    "color": "raspberry",
+    "id": "board",
+    "name": "Board of Directors"
+   },
+   {
+    "color": "green",
+    "id": "finance",
+    "name": "Finance"
+   },
+   {
+    "color": "olive",
+    "id": "fields",
+    "name": "Fields/Facilities"
+   },
+   {
+    "color": "brown",
+    "id": "staff",
+    "name": "Staff"
+   },
+   {
+    "color": "slate",
+    "id": "ops",
+    "name": "Operations"
+   }
+  ],
+  "name": "Category",
+  "updatedAt": "2026-11-28T01:29:43Z"
+ },
  "dayplan": {
   "at": "2026-11-27T20:48:29Z",
   "date": "2026-11-30",
@@ -90,62 +141,77 @@
   "items": [
    {
     "area": "Finance",
+    "cat": "finance",
     "name": "Audit and year-end"
    },
    {
     "area": "Finance",
+    "cat": "finance",
     "name": "Finance hire and coverage"
    },
    {
     "area": "Finance",
+    "cat": "finance",
     "name": "Budget gap and costs"
    },
    {
     "area": "Finance",
+    "cat": "finance",
     "name": "Reporting to Andy, Paul and the Board"
    },
    {
     "area": "Finance",
+    "cat": "finance",
     "name": "Policies and controls"
    },
    {
     "area": "Programs",
+    "cat": "ops",
     "name": "Winter season setup"
    },
    {
     "area": "Programs",
+    "cat": null,
     "name": "Partnerships"
    },
    {
     "area": "Programs",
+    "cat": "camps",
     "name": "Camps and community programs"
    },
    {
     "area": "Programs",
+    "cat": "rec",
     "name": "Rec program"
    },
    {
     "area": "Facilities",
+    "cat": "fields",
     "name": "Fields and space"
    },
    {
     "area": "Scheduling",
+    "cat": "ops",
     "name": "Scheduling model"
    },
    {
     "area": "People",
+    "cat": "staff",
     "name": "Media team"
    },
    {
     "area": "People",
+    "cat": "staff",
     "name": "Staff and HR"
    },
    {
     "area": "Systems",
+    "cat": "ops",
     "name": "Systems and website"
    },
    {
     "area": "Board",
+    "cat": "board",
     "name": "Board"
    }
   ],

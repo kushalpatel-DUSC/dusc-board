@@ -1,6 +1,9 @@
 {
  "28-liberty-credits": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-14T04:52:20.548Z",
   "due": null,
@@ -20,6 +23,9 @@
  },
  "28-liberty-jonathan": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
@@ -37,6 +43,9 @@
  },
  "academy-roster-gaps-jason-alex": {
   "area": "Programs",
+  "cats": [
+   "academy"
+  ],
   "createdAt": "2026-11-20T20:50:58Z",
   "dismissedAt": "2026-11-25T00:06:02.126Z",
   "doneAt": null,
@@ -60,6 +69,9 @@
  },
  "accounting-support-ask-andy-paul": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-24T20:50:26Z",
   "doneAt": "2026-11-27T03:35:18.119Z",
   "due": null,
@@ -83,6 +95,9 @@
  },
  "adidas-invoice": {
   "area": "Vendors",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T03:42:18.532Z",
   "due": null,
@@ -102,6 +117,9 @@
  },
  "adidas-promo-spend-dec15": {
   "area": "Vendors",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-06T10:52:00Z",
   "doneAt": "2026-11-10T03:38:41.126Z",
   "due": "2026-12-15",
@@ -123,6 +141,9 @@
  },
  "adv-camp-alex-jose": {
   "area": "Programs",
+  "cats": [
+   "camps"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -141,6 +162,9 @@
  },
  "adv-camp-gustavo-group": {
   "area": "Programs",
+  "cats": [
+   "camps"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-27T21:18:18.810Z",
   "due": "2026-11-27",
@@ -162,6 +186,9 @@
  },
  "ar-reporting-930": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T03:42:09.729Z",
   "due": null,
@@ -181,6 +208,9 @@
  },
  "audit-draft-read-nov30": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-24T20:50:26Z",
   "doneAt": null,
   "due": "2026-11-30",
@@ -204,6 +234,9 @@
  },
  "audit-status-nirmala-nov23": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-20T20:50:58Z",
   "dismissedAt": "2026-11-25T00:14:28.534Z",
   "doneAt": null,
@@ -227,6 +260,9 @@
  },
  "audit-timeline": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-18T04:30:28.009Z",
   "due": "2026-11-16",
@@ -246,6 +282,9 @@
  },
  "basis-brooklyn-saturdays": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:31:48.581Z",
   "due": null,
@@ -265,10 +304,15 @@
  },
  "billcom-review-january": {
   "area": "Systems",
+  "cats": [
+   "finance",
+   "ops"
+  ],
   "createdAt": "2026-11-24T20:50:26Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "billcom-review-january",
+  "later": false,
   "note": "About $337 a month on an annual plan, with no onboarding cost or cancellation penalty; talk again after Thanksgiving.",
   "owner": "KP",
   "pinned": false,
@@ -284,11 +328,13 @@
   "updatedAt": "2026-11-27T21:18:09.965Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "bmcc-indoor": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
@@ -306,6 +352,9 @@
  },
  "boa-account-ownership": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-18T04:44:42.267Z",
   "due": null,
@@ -325,6 +374,9 @@
  },
  "board-finance-report-budget-variance": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-16T01:06:00Z",
   "doneAt": "2026-11-25T04:07:20.087Z",
   "due": null,
@@ -348,6 +400,9 @@
  },
  "board-ops-boundaries-dec8": {
   "area": "Board",
+  "cats": [
+   "board"
+  ],
   "createdAt": "2026-11-18T20:50:46Z",
   "doneAt": "2026-11-25T04:10:15.192Z",
   "due": "2026-12-08",
@@ -371,6 +426,9 @@
  },
  "board-presentation": {
   "area": "Board",
+  "cats": [
+   "board"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
@@ -388,10 +446,14 @@
  },
  "bofa-issue-fix": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "bofa-issue-fix",
+  "later": false,
   "note": "From your own 'Things I need to fix' list. The 11/25 accounts payable email asks who is authorized to speak with the bank.",
   "owner": "KP",
   "pinned": false,
@@ -407,11 +469,13 @@
   "updatedAt": "2026-11-27T21:13:37.726Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "bonus-process": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T03:39:03.563Z",
   "due": "2026-11-15",
@@ -431,6 +495,9 @@
  },
  "budget-model-field-units": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-20T03:39:00.331Z",
   "due": null,
@@ -450,6 +517,9 @@
  },
  "c-mwlfv57j-uqblq": {
   "area": null,
+  "cats": [
+   "board"
+  ],
   "createdAt": "2026-11-18T01:24:41.886Z",
   "doneAt": "2026-11-18T04:30:19.544Z",
   "due": null,
@@ -470,10 +540,14 @@
  },
  "c-mwlfvkau-mmhwk": {
   "area": null,
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-18T01:25:01.445Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "c-mwlfvkau-mmhwk",
+  "later": false,
   "note": null,
   "owner": "KP",
   "pinned": false,
@@ -488,11 +562,13 @@
   "updatedAt": "2026-11-27T21:18:11.266Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "c-mwlgl014-ihksl": {
   "area": null,
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-18T01:44:48.231Z",
   "doneAt": "2026-11-25T04:10:33.578Z",
   "due": null,
@@ -515,6 +591,7 @@
  },
  "c-mwlh67lc-ughhm": {
   "area": null,
+  "cats": [],
   "createdAt": "2026-11-18T02:01:17.807Z",
   "doneAt": "2026-11-25T04:10:11.014Z",
   "due": null,
@@ -535,6 +612,7 @@
  },
  "c-mwlje6nz-tt77c": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-18T03:03:29.064Z",
   "doneAt": null,
   "due": null,
@@ -558,6 +636,9 @@
  },
  "c-mwr67yeu-r35oa": {
   "area": null,
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-22T01:41:20.502Z",
   "doneAt": null,
   "due": "2026-11-22",
@@ -580,6 +661,9 @@
  },
  "cafeteria-space-photo-jesse-gustavo": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-18T20:50:46Z",
   "dismissedAt": "2026-11-25T00:14:25.179Z",
   "doneAt": null,
@@ -603,6 +687,9 @@
  },
  "cal-camps-one-day-thanksgiving-friday-camp-optional": {
   "area": "Programs",
+  "cats": [
+   "camps"
+  ],
   "createdAt": "2026-11-25T02:04:21Z",
   "doneAt": "2026-11-25T04:09:02.912Z",
   "due": "2026-11-24",
@@ -627,6 +714,9 @@
  },
  "cal-general-nyc-parks-spring-summer-2027-permit-renewal-window": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-25T02:04:21Z",
   "dismissedAt": "2026-11-25T03:49:23.276Z",
   "doneAt": null,
@@ -651,6 +741,7 @@
  },
  "cal-major-events-donors-and-families-giving-tuesday-and-year-end-giving-ca": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-25T02:04:21Z",
   "doneAt": null,
   "due": "2026-11-27",
@@ -674,6 +765,9 @@
  },
  "cal-rec-league-fall-2026-thanksgiving-weekend-play-or-no-play-decision": {
   "area": "Programs",
+  "cats": [
+   "rec"
+  ],
   "createdAt": "2026-11-25T02:04:21Z",
   "dismissedAt": "2026-11-25T03:49:19.576Z",
   "doneAt": null,
@@ -698,6 +792,9 @@
  },
  "classic-tournament-cancel-oumou": {
   "area": "Programs",
+  "cats": [
+   "camps"
+  ],
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": "2026-11-27T21:31:29.581Z",
   "due": null,
@@ -720,6 +817,9 @@
  },
  "claude-nonprofit-data-security": {
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-20T20:50:58Z",
   "dismissedAt": "2026-11-25T00:14:03.745Z",
   "doneAt": null,
@@ -743,6 +843,9 @@
  },
  "club-calendar-followup": {
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -761,6 +864,10 @@
  },
  "coach-assignments-review": {
   "area": "Scheduling",
+  "cats": [
+   "ops",
+   "staff"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -779,10 +886,15 @@
  },
  "coach-director-pay-guidelines": {
   "area": "Finance",
+  "cats": [
+   "finance",
+   "staff"
+  ],
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "coach-director-pay-guidelines",
+  "later": false,
   "note": "From your own 'Things I need to fix' list.",
   "owner": "KP",
   "pinned": false,
@@ -798,11 +910,13 @@
   "updatedAt": "2026-11-27T21:13:41.959Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "coach-hats-reply-mal": {
   "area": "Vendors",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": "2026-11-25T04:11:31.269Z",
   "due": null,
@@ -824,6 +938,10 @@
  },
  "community-planning-meeting-prep": {
   "area": "Programs",
+  "cats": [
+   "camps",
+   "rec"
+  ],
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": null,
   "due": null,
@@ -846,6 +964,9 @@
  },
  "confirm-registrant-counts": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T17:15:00Z",
   "doneAt": "2026-11-10T03:28:50.393Z",
   "due": "2026-11-06",
@@ -868,6 +989,9 @@
  },
  "credit-card-policy": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-25T04:08:08.788Z",
   "due": null,
@@ -888,10 +1012,14 @@
  },
  "credit-card-receipt-work": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "credit-card-receipt-work",
+  "later": false,
   "note": "From your own 'Things I need to fix' list.",
   "owner": "KP",
   "pinned": false,
@@ -907,11 +1035,11 @@
   "updatedAt": "2026-11-27T21:13:43.230Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "criollo-bros-meeting": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -932,6 +1060,7 @@
  },
  "email-gabi-ajami": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:30:11.877Z",
   "due": null,
@@ -951,6 +1080,9 @@
  },
  "faq-parent-portal": {
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-14T04:41:39.518Z",
   "due": "2026-11-11",
@@ -970,7 +1102,11 @@
  },
  "fest-ga-showcase-spending-review": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-27T10:51:21Z",
+  "dismissedAt": "2026-11-27T21:13:49.982Z",
   "doneAt": null,
   "due": null,
   "id": "fest-ga-showcase-spending-review",
@@ -989,11 +1125,13 @@
   "updatedAt": "2026-11-27T21:13:49.982Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "dismissedAt": "2026-11-27T21:13:49.982Z"
+  "waitingSince": null
  },
  "finance-gap-plan": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-25T04:06:57.937Z",
   "due": null,
@@ -1016,6 +1154,9 @@
  },
  "finance-hire-search": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": "2026-11-25T04:06:30.999Z",
   "due": null,
@@ -1038,6 +1179,9 @@
  },
  "finance-meeting-structure": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:24:26.609Z",
   "due": null,
@@ -1057,6 +1201,10 @@
  },
  "finance-role-requirements": {
   "area": "People",
+  "cats": [
+   "staff",
+   "finance"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": null,
   "due": "2026-11-27",
@@ -1080,6 +1228,9 @@
  },
  "finance-staffing": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T03:42:24.526Z",
   "due": null,
@@ -1099,6 +1250,9 @@
  },
  "finance-summaries-nov6": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-10T03:28:46.379Z",
   "due": "2026-11-06",
@@ -1120,6 +1274,9 @@
  },
  "finance-workflows-review": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": "2026-11-25T04:06:28.898Z",
   "due": null,
@@ -1142,6 +1299,9 @@
  },
  "financials-tie-to-audit-draft": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-25T15:07:07Z",
   "doneAt": null,
   "due": "2026-11-30",
@@ -1165,6 +1325,10 @@
  },
  "futsal-facility-costs-budget-sheet": {
   "area": "Finance",
+  "cats": [
+   "finance",
+   "fields"
+  ],
   "createdAt": "2026-11-20T23:06:38Z",
   "doneAt": null,
   "due": null,
@@ -1187,6 +1351,9 @@
  },
  "futsal-viability": {
   "area": "Programs",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-04T23:45:00Z",
   "due": null,
@@ -1204,6 +1371,9 @@
  },
  "ga-showcase-overrun": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-25T04:06:54.283Z",
   "due": null,
@@ -1224,6 +1394,9 @@
  },
  "grace-church-sundays": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-14T04:52:16.088Z",
   "due": null,
@@ -1243,6 +1416,9 @@
  },
  "grace-church-weekday-classes": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-18T20:50:46Z",
   "dismissedAt": "2026-11-25T00:14:17.373Z",
   "doneAt": null,
@@ -1266,6 +1442,9 @@
  },
  "hrpt-coi-renewal": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-07T11:12:00Z",
   "doneAt": "2026-11-14T04:51:58.336Z",
   "due": "2026-11-24",
@@ -1288,10 +1467,14 @@
  },
  "immaculate-conception-winter-bookings": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-20T23:06:38Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "immaculate-conception-winter-bookings",
+  "later": false,
   "note": "Ballroom: Girls U14 on Thursday nights and Girls U11 on Friday nights; Girls U9 and U10 Blue on Mondays and Wednesdays 5:00–6:30.",
   "owner": "KP",
   "pinned": false,
@@ -1306,15 +1489,19 @@
   "updatedAt": "2026-11-27T21:18:08.172Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "indoor-space-budget-total": {
   "area": "Finance",
+  "cats": [
+   "finance",
+   "fields"
+  ],
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "indoor-space-budget-total",
+  "later": false,
   "note": "Thompson St, Charlton, St. Luke's, Immaculate Conception and the rest; Mal is forwarding last year's contracts.",
   "owner": "KP",
   "pinned": false,
@@ -1329,11 +1516,13 @@
   "updatedAt": "2026-11-27T21:18:12.588Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "jesse-friday-space-call-invite": {
   "area": "Scheduling",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-18T20:50:46Z",
   "dismissedAt": "2026-11-25T00:14:19.817Z",
   "doneAt": null,
@@ -1357,6 +1546,9 @@
  },
  "jesse-training-schedule-breakdown": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": null,
   "due": null,
@@ -1380,6 +1572,10 @@
  },
  "jetblue-showcase-reimbursements": {
   "area": "Finance",
+  "cats": [
+   "finance",
+   "academy"
+  ],
   "createdAt": "2026-11-16T20:49:32Z",
   "doneAt": null,
   "due": null,
@@ -1403,6 +1599,9 @@
  },
  "john-jay-kevin-mccarthy": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T03:29:04.795Z",
   "due": null,
@@ -1422,6 +1621,9 @@
  },
  "kp-ft-list-corrections-email": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": "2026-11-10T01:51:36.830Z",
   "due": "2026-11-09",
@@ -1443,6 +1645,9 @@
  },
  "kp-kristen-payroll-hours-meeting": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": "2026-11-10T03:43:11.628Z",
   "due": null,
@@ -1464,6 +1669,9 @@
  },
  "kp-text-jason-hours": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": "2026-11-10T03:43:07.807Z",
   "due": null,
@@ -1485,6 +1693,9 @@
  },
  "kp-text-kyle-hours": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-06T23:12:00Z",
   "doneAt": "2026-11-10T03:43:05.477Z",
   "due": null,
@@ -1506,6 +1717,9 @@
  },
  "kyle-decision-ownership-guide": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-05T23:12:00Z",
   "doneAt": "2026-11-14T04:41:38.543Z",
   "due": "2026-11-10",
@@ -1528,6 +1742,9 @@
  },
  "laptop-policy": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-25T04:08:07.604Z",
   "due": null,
@@ -1548,6 +1765,9 @@
  },
  "leanne-september-receipts": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-16T20:49:32Z",
   "dismissedAt": "2026-11-18T01:15:17.157Z",
   "doneAt": null,
@@ -1571,6 +1791,9 @@
  },
  "leo-expectations-followup": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": null,
   "due": null,
@@ -1593,6 +1816,9 @@
  },
  "leo-liam-roles-meeting": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-24T19:07:18Z",
   "doneAt": null,
   "due": null,
@@ -1615,6 +1841,9 @@
  },
  "manhattan-univ-tom-meeting": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": null,
   "due": null,
@@ -1638,6 +1867,9 @@
  },
  "media-day-email": {
   "area": "Media Day",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-14T04:52:10.043Z",
   "due": "2026-11-18",
@@ -1657,6 +1889,9 @@
  },
  "media-day-randy-details": {
   "area": "Media Day",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-09T21:15:00Z",
   "doneAt": "2026-11-18T02:01:30.553Z",
   "due": "2026-11-18",
@@ -1679,6 +1914,9 @@
  },
  "media-day-who-when": {
   "area": "Media Day",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-12T10:53:07Z",
   "due": "2026-11-18",
@@ -1696,6 +1934,9 @@
  },
  "michael-weekday-slots": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "dismissedAt": "2026-11-18T01:15:42.045Z",
   "doneAt": null,
@@ -1719,6 +1960,9 @@
  },
  "missing-receipts-reminders": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-16T20:49:32Z",
   "doneAt": "2026-11-25T04:08:11.898Z",
   "due": null,
@@ -1742,6 +1986,9 @@
  },
  "mlk-tuesday-space": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:31:45.213Z",
   "due": null,
@@ -1761,6 +2008,9 @@
  },
  "mock-winter-schedule-lrei": {
   "area": "Scheduling",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-25T04:08:47.068Z",
   "due": null,
@@ -1781,6 +2031,7 @@
  },
  "nest-call": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -1801,6 +2052,9 @@
  },
  "nirmala-930-reconciliation-sources": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-09T10:52:54Z",
   "doneAt": "2026-11-10T03:38:54.597Z",
   "due": null,
@@ -1822,6 +2076,9 @@
  },
  "nirmala-arrangement-leadership": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-17T20:50:50Z",
   "doneAt": "2026-11-26T21:16:29.657Z",
   "due": "2026-11-24",
@@ -1845,6 +2102,9 @@
  },
  "nirmala-weekly-task-list": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-25T04:06:25.989Z",
   "due": null,
@@ -1868,6 +2128,9 @@
  },
  "open-enrollment-staff-notice": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-25T23:10:00Z",
   "doneAt": null,
   "due": null,
@@ -1891,6 +2154,9 @@
  },
  "oumou-saturday-plan": {
   "area": "Programs",
+  "cats": [
+   "rec"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-14T05:02:43.647Z",
   "due": null,
@@ -1910,6 +2176,9 @@
  },
  "pdp-evidence-portfolio": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-14T11:18:20Z",
   "doneAt": null,
   "due": "2027-01-15",
@@ -1933,6 +2202,9 @@
  },
  "peo-census-call-paul": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-05T03:05:42Z",
   "doneAt": "2026-11-06T23:12:00Z",
   "due": "2026-11-05",
@@ -1951,6 +2223,9 @@
  },
  "per-diem-reimbursement-procedures": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-20T20:50:58Z",
   "doneAt": null,
   "due": null,
@@ -1974,6 +2249,9 @@
  },
  "playbook-immaculate-conception-proposal": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-10T03:12:00Z",
   "doneAt": "2026-11-14T04:52:27.953Z",
   "due": null,
@@ -1996,6 +2274,9 @@
  },
  "playmetrics-billing-check": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": "2026-11-14T05:02:03.594Z",
   "due": null,
@@ -2017,6 +2298,9 @@
  },
  "playmetrics-short-term-fixes": {
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-18T04:44:34.032Z",
   "due": null,
@@ -2036,6 +2320,9 @@
  },
  "playmetrics-soc-report": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-16T20:49:32Z",
   "doneAt": "2026-11-25T04:13:08.578Z",
   "due": null,
@@ -2059,6 +2346,9 @@
  },
  "playmetrics-subs-930": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": "2026-11-10T04:18:09.143Z",
   "due": "2026-11-08",
@@ -2080,6 +2370,9 @@
  },
  "pm-duplicate-transactions": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-25T04:07:33.291Z",
   "due": null,
@@ -2104,6 +2397,9 @@
  "rec-college-coaches": {
   "archivedAt": "2026-11-27T03:31:41.680Z",
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
@@ -2126,6 +2422,9 @@
  },
  "rec-email-list-access": {
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-14T05:02:10.101Z",
   "due": null,
@@ -2147,6 +2446,9 @@
  },
  "rec-media-contacts": {
   "area": "Media Day",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-14T05:02:14.909Z",
   "due": null,
@@ -2168,6 +2470,9 @@
  },
  "rec-observe-nov15": {
   "area": "Programs",
+  "cats": [
+   "rec"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-18T01:14:54.872Z",
   "due": "2026-11-15",
@@ -2189,6 +2494,9 @@
  },
  "rec-program-review": {
   "area": "Programs",
+  "cats": [
+   "rec"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
@@ -2211,6 +2519,9 @@
  },
  "rec-tuesday-call-invite": {
   "area": "Programs",
+  "cats": [
+   "classes"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-10T04:31:26.735Z",
   "due": null,
@@ -2232,6 +2543,9 @@
  },
  "receivables-owner-mal": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-18T04:44:45.668Z",
   "due": null,
@@ -2254,6 +2568,9 @@
  },
  "reconcile-pm-qb-registrants": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": "2026-11-10T04:18:15.197Z",
   "due": "2026-11-08",
@@ -2275,6 +2592,9 @@
  },
  "registration-numbers-current": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-25T04:07:40.869Z",
   "due": null,
@@ -2298,10 +2618,14 @@
  },
  "reimbursement-policies-system": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-27T10:51:21Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "reimbursement-policies-system",
+  "later": false,
   "note": "From your own 'Things I need to fix' list.",
   "owner": "KP",
   "pinned": false,
@@ -2317,11 +2641,13 @@
   "updatedAt": "2026-11-27T21:15:12.621Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "reporting-workflow-automation": {
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-25T04:07:23.921Z",
   "due": null,
@@ -2345,10 +2671,15 @@
  },
  "roster-file-link-andy": {
   "area": "Finance",
+  "cats": [
+   "finance",
+   "academy"
+  ],
   "createdAt": "2026-11-21T13:06:58Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "roster-file-link-andy",
+  "later": false,
   "note": "Andy asked on Sat 11/21, after Friday's call: he wants to see how the data is presented in the file behind the \"Roster Calc\" tab, including the dual-rostered players.",
   "owner": "KP",
   "pinned": false,
@@ -2364,11 +2695,11 @@
   "updatedAt": "2026-11-27T21:17:48.024Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "select-teams-summer26-mtg": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-25T00:05:39.120Z",
   "due": "2026-11-11",
@@ -2390,6 +2721,9 @@
  },
  "sfa-players-registrant-count": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-25T04:07:33.950Z",
   "due": null,
@@ -2413,6 +2747,9 @@
  },
  "showcase-projections-share": {
   "area": "Finance",
+  "cats": [
+   "finance"
+  ],
   "createdAt": "2026-11-06T21:15:00Z",
   "doneAt": "2026-11-14T05:01:56.090Z",
   "due": null,
@@ -2435,6 +2772,9 @@
  "simplified-scheduling-model": {
   "archivedAt": "2026-11-26T21:25:53.787Z",
   "area": "Scheduling",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -2453,6 +2793,9 @@
  },
  "soccer-post-call": {
   "area": "Vendors",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:24:23.594Z",
   "due": null,
@@ -2472,6 +2815,9 @@
  },
  "socceroof-eric-media-day": {
   "area": "Media Day",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-12T10:53:07Z",
   "due": null,
@@ -2489,6 +2835,9 @@
  },
  "soccerpost-payout-method": {
   "area": "Vendors",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": "2026-11-10T04:30:17.302Z",
   "due": null,
@@ -2510,6 +2859,9 @@
  },
  "soccerpost-portal-checkout": {
   "area": "Vendors",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-05T17:14:00Z",
   "doneAt": "2026-11-14T05:02:23.896Z",
   "due": null,
@@ -2531,6 +2883,7 @@
  },
  "spain-trip-contract": {
   "area": "Programs",
+  "cats": [],
   "createdAt": "2026-11-05T03:05:42Z",
   "doneAt": "2026-11-25T04:08:53.861Z",
   "due": "2026-11-30",
@@ -2552,6 +2905,9 @@
  },
  "st-lukes-look": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:19:31.608Z",
   "due": null,
@@ -2573,6 +2929,9 @@
  },
  "staff-handbook-2027": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": null,
   "due": null,
@@ -2591,6 +2950,9 @@
  },
  "staffing-roles-review": {
   "area": "People",
+  "cats": [
+   "staff"
+  ],
   "createdAt": "2026-11-04T23:45:00Z",
   "doneAt": "2026-11-10T04:24:36.438Z",
   "due": null,
@@ -2610,6 +2972,9 @@
  },
  "supply-db-rent-free-spaces": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": "2026-11-27",
@@ -2633,6 +2998,9 @@
  },
  "supply-demand-dashboard": {
   "area": "Facilities",
+  "cats": [
+   "fields"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": "2026-11-18T04:45:02.032Z",
   "due": null,
@@ -2654,10 +3022,15 @@
  },
  "travel-spending-guidelines-kyle": {
   "area": "Finance",
+  "cats": [
+   "finance",
+   "academy"
+  ],
   "createdAt": "2026-11-20T20:50:58Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "travel-spending-guidelines-kyle",
+  "later": false,
   "note": "Travel could run to double the budget; more teams are travelling than were budgeted.",
   "owner": "KP",
   "pinned": false,
@@ -2673,12 +3046,14 @@
   "updatedAt": "2026-11-27T21:17:59.882Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  },
  "website-mal-feedback": {
   "archivedAt": "2026-11-27T03:31:37.896Z",
   "area": "Systems",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-05T21:12:00Z",
   "doneAt": null,
   "due": null,
@@ -2702,6 +3077,9 @@
  },
  "winter-reg-assets-leo-liam": {
   "area": "Programs",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": "2026-11-25T04:08:40.478Z",
   "due": null,
@@ -2725,10 +3103,14 @@
  },
  "winter-registration-process-email": {
   "area": "Programs",
+  "cats": [
+   "ops"
+  ],
   "createdAt": "2026-11-14T05:05:48Z",
   "doneAt": null,
   "due": "2026-11-27",
   "id": "winter-registration-process-email",
+  "later": false,
   "note": null,
   "owner": "KP",
   "pinned": false,
@@ -2744,7 +3126,6 @@
   "updatedAt": "2026-11-27T21:18:06.582Z",
   "userEdited": true,
   "waitingOn": null,
-  "waitingSince": null,
-  "later": false
+  "waitingSince": null
  }
 }
