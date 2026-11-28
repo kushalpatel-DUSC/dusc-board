@@ -659,6 +659,54 @@
   "waitingOn": null,
   "waitingSince": null
  },
+ "c-mwzttgza-qh281": {
+  "area": null,
+  "cats": [
+   "fields"
+  ],
+  "connect": {
+   "askedAt": "2026-11-28T03:04:04.917Z",
+   "at": "2026-11-28T03:06:18Z",
+   "context": "The winter supply sheet ties facilities, costs, hours and field units to the $525K location budget; supply was not fully populated on Nov 5.",
+   "dupOf": null,
+   "links": [
+    {
+     "kind": "note",
+     "ref": "field-catchup-2026-11-05",
+     "title": "Field Catchup — Nov 5 (Gemini notes)",
+     "url": "https://docs.google.com/document/d/1NUz0uSInhoSB7nWClbCSpBREe1J_8PveM-I-hTHYKPI/edit?usp=drivesdk&ouid=114282482648379906347",
+     "why": "Winter supply spreadsheet walkthrough with Andy"
+    }
+   ],
+   "listId": "qmwzttgz9",
+   "state": "done",
+   "suggest": {
+    "due": null,
+    "project": "Fields and space"
+   }
+  },
+  "createdAt": "2026-11-28T03:04:04.917Z",
+  "doneAt": null,
+  "due": "2026-11-27",
+  "id": "c-mwzttgza-qh281",
+  "mins": null,
+  "note": null,
+  "owner": "KP",
+  "pinned": false,
+  "pinnedAt": null,
+  "priority": null,
+  "raised": "2026-11-27",
+  "source": "Quick list",
+  "sourceKind": "quick",
+  "sourceUrl": null,
+  "status": "todo",
+  "time": null,
+  "title": "Finish setting up the Winter Facility Calcuations",
+  "updatedAt": "2026-11-28T03:04:04.917Z",
+  "userEdited": true,
+  "waitingOn": null,
+  "waitingSince": null
+ },
  "cafeteria-space-photo-jesse-gustavo": {
   "area": "Facilities",
   "cats": [
@@ -2936,6 +2984,8 @@
   "doneAt": null,
   "due": null,
   "id": "staff-handbook-2027",
+  "later": true,
+  "laterAt": "2026-11-28T03:03:37.101Z",
   "note": null,
   "owner": "KP",
   "priority": null,
@@ -2946,9 +2996,7 @@
   "status": "todo",
   "title": "Staff Handbook update for 2027 (incl. parental leave policy)",
   "updatedAt": "2026-11-28T03:03:37.101Z",
-  "userEdited": true,
-  "later": true,
-  "laterAt": "2026-11-28T03:03:37.101Z"
+  "userEdited": true
  },
  "staffing-roles-review": {
   "area": "People",
@@ -3129,36 +3177,5 @@
   "userEdited": true,
   "waitingOn": null,
   "waitingSince": null
- },
- "c-mwzttgza-qh281": {
-  "title": "Finish setting up the Winter Facility Calcuations",
-  "owner": "KP",
-  "area": null,
-  "cats": [
-   "fields"
-  ],
-  "status": "todo",
-  "due": "2026-11-27",
-  "time": null,
-  "mins": null,
-  "raised": "2026-11-27",
-  "priority": null,
-  "note": null,
-  "source": "Quick list",
-  "sourceUrl": null,
-  "sourceKind": "quick",
-  "connect": {
-   "state": "pending",
-   "askedAt": "2026-11-28T03:04:04.917Z",
-   "listId": "qmwzttgz9"
-  },
-  "pinned": false,
-  "pinnedAt": null,
-  "waitingOn": null,
-  "waitingSince": null,
-  "createdAt": "2026-11-28T03:04:04.917Z",
-  "updatedAt": "2026-11-28T03:04:04.917Z",
-  "doneAt": null,
-  "userEdited": true
  }
 }
